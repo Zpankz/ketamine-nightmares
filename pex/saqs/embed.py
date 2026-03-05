@@ -14,7 +14,6 @@ Order of operations: Run AFTER enrich.py, BEFORE classify.py.
 
 import json
 import os
-import sys
 import time
 from pathlib import Path
 
@@ -57,7 +56,7 @@ def extract_main_segments(doc: dict) -> list[dict]:
     return segments
 
 
-def embed_batch(client: Isaacus, texts: list[str], task: str) -> list[list[float]]:
+def embed_batch(client: Isaacus, texts: list[str], task: str) -> tuple[list[list[float]], int]:
     """Embed a batch of texts, returning vectors in input order."""
     response = client.embeddings.create(
         model="kanon-2-embedder",

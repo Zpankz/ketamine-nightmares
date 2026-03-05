@@ -134,18 +134,25 @@ def classify_segment(client: Isaacus, text: str) -> dict:
     """Classify a segment against all concept queries."""
     results = {}
     for concept, config in SEGMENT_CONCEPTS.items():
-        try:
-            response = client.classifications.universal.create(
-                model="kanon-universal-classifier-mini",  # Mini for efficiency
-                query=config["query"],
-                texts=[text],
-                is_iql=config["is_iql"],
-                scoring_method="chunk_max",
-                chunking_options=None,  # No chunking — segments are small
-            )
-            score = response.classifications[0].score
-        except Exception:
-            score = None
+        retries = 0
+        while retries < 4:
+            try:
+                response = client.classifications.universal.create(
+                    model="kanon-universal-classifier-mini",  # Mini for efficiency
+                    query=config["query"],
+                    texts=[text],
+                    is_iql=config["is_iql"],
+                    scoring_method="chunk_max",
+                )
+                score = response.classifications[0].score
+                break
+            except Exception as e:
+                retries += 1
+                if retries < 4:
+                    time.sleep(2 ** retries)
+                else:
+                    print(f"    classify_segment failed on {concept}: {e}")
+                    score = None
         results[concept] = score
     return results
 
@@ -156,26 +163,33 @@ def extract_segment_facts(
     """Extract key facts from a single segment."""
     facts = []
     for question in SEGMENT_QUESTIONS:
-        try:
-            response = client.extractions.qa.create(
-                model="kanon-answer-extractor-mini",  # Mini for efficiency
-                query=question,
-                texts=[text],
-                top_k=1,
-                ignore_inextractability=False,
-            )
-            extraction = response.extractions[0]
-            if (
-                extraction.answers
-                and extraction.answers[0].score > extraction.inextractability_score
-            ):
-                facts.append({
-                    "question": question,
-                    "answer": extraction.answers[0].text,
-                    "score": extraction.answers[0].score,
-                })
-        except Exception:
-            continue
+        retries = 0
+        while retries < 4:
+            try:
+                response = client.extractions.qa.create(
+                    model="kanon-answer-extractor-mini",  # Mini for efficiency
+                    query=question,
+                    texts=[text],
+                    top_k=1,
+                    ignore_inextractability=False,
+                )
+                extraction = response.extractions[0]
+                if (
+                    extraction.answers
+                    and extraction.answers[0].score > extraction.inextractability_score
+                ):
+                    facts.append({
+                        "question": question,
+                        "answer": extraction.answers[0].text,
+                        "score": extraction.answers[0].score,
+                    })
+                break
+            except Exception as e:
+                retries += 1
+                if retries < 4:
+                    time.sleep(2 ** retries)
+                else:
+                    print(f"    extract_segment_facts failed on '{question[:40]}': {e}")
     return facts
 
 
