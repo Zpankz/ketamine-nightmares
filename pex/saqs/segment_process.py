@@ -132,6 +132,75 @@ def extract_segment_facts(
     return facts
 
 
+def rebuild_derived_indexes(manifest: dict, seg_manifest: dict):
+    """Rebuild concept index and co-occurrence from Step 2 data (no API calls).
+
+    Always runs over ALL documents (not just remaining) so that schema
+    changes in Step 2 are reflected without re-extracting QA facts.
+    """
+    concept_index = defaultdict(list)
+
+    for path, info in manifest.items():
+        if path in SKIP_PATHS:
+            continue
+        seg_entry = seg_manifest.get(path)
+        if not seg_entry or not seg_entry.get("output_file"):
+            continue
+
+        # Load segment results to map dimensions to segments
+        seg_file = OUTPUT_DIR / seg_entry["output_file"]
+        if not seg_file.exists():
+            continue
+
+        doc_class = load_document_classifications(path)
+        doc_dimensions = doc_class.get("content_dimensions", [])
+
+        with open(seg_file) as f:
+            seg_doc = json.load(f)
+
+        # Update inherited_dimensions in saved segment results
+        for seg in seg_doc["segments"]:
+            seg["inherited_dimensions"] = doc_dimensions
+            for dim in doc_dimensions:
+                concept_index[dim].append({
+                    "source": path,
+                    "segment_id": seg["id"],
+                    "text_preview": seg.get("text_preview", "")[:150],
+                })
+
+        # Re-save with updated dimensions
+        seg_doc["document_classification"] = doc_class
+        with open(seg_file, "w") as f:
+            json.dump(seg_doc, f, indent=2, ensure_ascii=False)
+
+    # Save concept index
+    with open(OUTPUT_DIR / "concept_index.json", "w") as f:
+        json.dump(dict(concept_index), f, indent=2, ensure_ascii=False)
+
+    # Build co-occurrence matrix from Step 2 classifications
+    print("Building concept co-occurrence matrix from Step 2 classifications...")
+    class_manifest_path = CLASSIFICATION_DIR / "manifest.json"
+    cooccurrence = defaultdict(Counter)
+
+    if class_manifest_path.exists():
+        with open(class_manifest_path) as f:
+            class_manifest = json.load(f)
+        for entry in class_manifest.values():
+            dims = entry.get("content_dimensions", [])
+            for i, d1 in enumerate(dims):
+                for d2 in dims[i + 1:]:
+                    cooccurrence[d1][d2] += 1
+                    cooccurrence[d2][d1] += 1
+
+    with open(OUTPUT_DIR / "concept_cooccurrence.json", "w") as f:
+        json.dump(
+            {c: dict(counts) for c, counts in cooccurrence.items()},
+            f, indent=2, ensure_ascii=False,
+        )
+
+    return concept_index, cooccurrence
+
+
 def main():
     client = Isaacus(api_key=API_KEY)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -156,9 +225,6 @@ def main():
     print(f"  {len(SEGMENT_QUESTIONS)} questions per segment "
           f"(classification inherited from Step 2)")
 
-    # Concept index: built from Step 2 classifications mapped to segments
-    concept_index = defaultdict(list)
-
     processed = 0
 
     for path, info in remaining:
@@ -173,7 +239,6 @@ def main():
             }
             continue
 
-        # Inherit document-level classifications from Step 2
         doc_class = load_document_classifications(path)
         doc_dimensions = doc_class.get("content_dimensions", [])
 
@@ -185,16 +250,8 @@ def main():
             if s_idx % 10 == 0 and s_idx > 0:
                 print(f"  Segment {s_idx}/{len(segments)}...")
 
-            # Extract facts (the unique high-value work)
+            # Extract facts (the only expensive API work)
             facts = extract_segment_facts(client, seg["text"])
-
-            # Map document dimensions to this segment for the concept index
-            for dim in doc_dimensions:
-                concept_index[dim].append({
-                    "source": path,
-                    "segment_id": seg["id"],
-                    "text_preview": seg["text"][:150],
-                })
 
             segment_results.append({
                 "id": seg["id"],
@@ -222,7 +279,7 @@ def main():
             "num_segments_processed": len(segment_results),
         }
 
-        # Save manifests periodically and on last document
+        # Save manifest periodically
         if processed % MANIFEST_FLUSH_INTERVAL == 0 or processed == len(remaining):
             with open(seg_manifest_path, "w") as f:
                 json.dump(seg_manifest, f, indent=2, ensure_ascii=False)
@@ -231,31 +288,15 @@ def main():
         facts_count = sum(len(s["key_facts"]) for s in segment_results)
         print(f"  -> {len(segment_results)} segments, {facts_count} facts extracted")
 
-    # Save concept index
-    concept_index_path = OUTPUT_DIR / "concept_index.json"
-    with open(concept_index_path, "w") as f:
-        json.dump(dict(concept_index), f, indent=2, ensure_ascii=False)
+    # Always rebuild derived indexes from current Step 2 data.
+    # This is cheap (no API calls) and ensures schema changes propagate
+    # without re-running expensive QA extraction.
+    print("\nRebuilding derived indexes from Step 2 classifications...")
+    concept_index, cooccurrence = rebuild_derived_indexes(manifest, seg_manifest)
 
-    # --- Build co-occurrence matrix from Step 2 classifications ---
-    print("\nBuilding concept co-occurrence matrix from Step 2 classifications...")
-    class_manifest_path = CLASSIFICATION_DIR / "manifest.json"
-    cooccurrence = defaultdict(Counter)
-
-    if class_manifest_path.exists():
-        with open(class_manifest_path) as f:
-            class_manifest = json.load(f)
-        for entry in class_manifest.values():
-            dims = entry.get("content_dimensions", [])
-            for i, d1 in enumerate(dims):
-                for d2 in dims[i + 1:]:
-                    cooccurrence[d1][d2] += 1
-                    cooccurrence[d2][d1] += 1
-
-    cooccurrence_matrix = {
-        concept: dict(counts) for concept, counts in cooccurrence.items()
-    }
-    with open(OUTPUT_DIR / "concept_cooccurrence.json", "w") as f:
-        json.dump(cooccurrence_matrix, f, indent=2, ensure_ascii=False)
+    # Save final manifest
+    with open(seg_manifest_path, "w") as f:
+        json.dump(seg_manifest, f, indent=2, ensure_ascii=False)
 
     # --- Build global statistics ---
     total_segments = sum(
