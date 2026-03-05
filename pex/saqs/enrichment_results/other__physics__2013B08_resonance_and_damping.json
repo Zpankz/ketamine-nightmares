@@ -1,0 +1,1468 @@
+{
+  "text": "2013B08 Describe\nthe effects of resonance and damping on an invasive arterial blood pressure\ntracing.\nList:\n�\nArterial line: components, how it works,\naccuracy\n�\nPhysics of SHM: definitions\n�\nDynamic accuracy\nArterial line:\nComponents\n�\nCannula with anti-clot\n�\nCompressible tubing with saline\n�\nPressure transducer: diaphragm with four\n  strain gauges (conductor)\n�\nSaline bag under pressure\n�\n1-3mL/h infusion and ability to flush\n�\nElectronic display\nFunction\n�\nContinuous column between arterial blood and transducer\n�\n↑↓ oscillations in pressure ->\n  displacement of diaphragm -> stretch/relax strain gauges ->\n  ↑/↓ electrical resistance -> amplification -> arterial\n  trace\n�\nAccuracy improved by multiple strain gauges\n  +/- Wheatstone bridge\nAccuracy\nStatic:\n�\nZero relative to atmospheric pressure\n�\nTime calibration: observe steadiness at zero\n�\nHeight calibration: e.g. move transducer\n  against a standard\nDynamic:\n�\nOptimise damping\n�\nMinimise resonance\nPhysics of\nsimple harmonic motion:\nNatural frequency (F\nN\n)\n�\nDefinition: tendency of a system once\n  disturbed to oscillate at a particular frequency about its equilibrium\n  position.\n�\nDeterminants: F\nN\n∝\npotential energy (stiffness) / kinetic energy (mass)\no\nPotential energy\n∝\ntube\n  elastance x diaphragm elastance\no\nKinetic energy\n∝\n(length x tube compliance x density) / (radius)\nFundamental frequency (F\n0\n)\n�\nLowest frequency oscillation within a system\n  (e.g. heart rate in ABP trace)\nResonance\n�\nDefinition: where repeated disturbance of a\n  system at its natural frequency (or at a close multiple of it) causes\n  increasing amplitude of oscillation\n�\nEffect on ABP trace: ↑SBP, ↓DBP,\n↔\nmAP, contributes to peripheral\n  dicrotic notch\nDamping\n�\nDefinition: minimization of oscillatory\n  amplitude through viscous and frictional forces\n�\nEquation: damping\n∝\n(Length x volume of displacement x viscosity) / (diameter x density)\n�\nDamping coefficient: index of rate of decay of\n  oscillations\n�\nOptimal damping: balance between maximizing\n  response speed and minimizing overshoot\n�\nEffect on ABP trace: ↓SBP, ↑DBP,\n↔\nmAP, delayed waveform, loss of high\n  frequency components e.g. incisura\nTo ensure\ndynamic accuracy:\nMinimise resonance\nAim:\n�\nF\nN\n≥ 10x F\n0\nhence\n  resonance unlikely to occur\n�\nFlat frequency response at or near the\n  measured frequencies\n�\nNo exaggeration of amplitude of measured\n  frequencies\nMeans:\n�\n↑potential energy (stiffness):\n  non-compliant tubing and diaphragm\n�\n↓ kinetic energy: short, wide,\n  non-compliant tubing and low density fluid\nOptimise damping\nAim:\n�\nFlat frequency response up to 2/3 of F\nN\n�\nMinimal phase distortion i.e. minimal and more\n  homogenous lag\n�\nDamping coefficient 0.64\n�\nExactly two oscillations after fast flush test\n�\n<7% overshoot overall\n�\n<2% overshoot for harmonics (if Fourier\n  analysis performed)\nMeans:\n�\nIntact cannula, no kink, no clot, no bubbles\n�\nSystem design\nGraph\n*Note: modern systems are underdamped, but natural frequency is\n  high enough to obviate resonance*\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+  "title": null,
+  "subtitle": null,
+  "type": "other",
+  "jurisdiction": null,
+  "segments": [
+    {
+      "id": "seg:0",
+      "kind": "container",
+      "type": "table_of_contents",
+      "category": "front_matter",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 102,
+        "end": 107
+      },
+      "parent": null,
+      "children": [
+        "seg:1",
+        "seg:3",
+        "seg:4"
+      ],
+      "level": 0,
+      "span": {
+        "start": 102,
+        "end": 208
+      }
+    },
+    {
+      "id": "seg:1",
+      "kind": "item",
+      "type": null,
+      "category": "front_matter",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:0",
+      "children": [
+        "seg:2"
+      ],
+      "level": 1,
+      "span": {
+        "start": 108,
+        "end": 159
+      }
+    },
+    {
+      "id": "seg:2",
+      "kind": "item",
+      "type": null,
+      "category": "front_matter",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:1",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 110,
+        "end": 159
+      }
+    },
+    {
+      "id": "seg:3",
+      "kind": "item",
+      "type": null,
+      "category": "front_matter",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:0",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 160,
+        "end": 189
+      }
+    },
+    {
+      "id": "seg:4",
+      "kind": "item",
+      "type": null,
+      "category": "front_matter",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:0",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 190,
+        "end": 208
+      }
+    },
+    {
+      "id": "seg:5",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 209,
+        "end": 223
+      },
+      "parent": null,
+      "children": [
+        "seg:6",
+        "seg:16",
+        "seg:20"
+      ],
+      "level": 0,
+      "span": {
+        "start": 209,
+        "end": 967
+      }
+    },
+    {
+      "id": "seg:6",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 224,
+        "end": 234
+      },
+      "parent": "seg:5",
+      "children": [
+        "seg:7",
+        "seg:9",
+        "seg:10",
+        "seg:11",
+        "seg:12",
+        "seg:14"
+      ],
+      "level": 1,
+      "span": {
+        "start": 224,
+        "end": 453
+      }
+    },
+    {
+      "id": "seg:7",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:6",
+      "children": [
+        "seg:8"
+      ],
+      "level": 2,
+      "span": {
+        "start": 235,
+        "end": 259
+      }
+    },
+    {
+      "id": "seg:8",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:7",
+      "children": [],
+      "level": 3,
+      "span": {
+        "start": 237,
+        "end": 259
+      }
+    },
+    {
+      "id": "seg:9",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:6",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 260,
+        "end": 293
+      }
+    },
+    {
+      "id": "seg:10",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:6",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 294,
+        "end": 364
+      }
+    },
+    {
+      "id": "seg:11",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:6",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 365,
+        "end": 392
+      }
+    },
+    {
+      "id": "seg:12",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:6",
+      "children": [
+        "seg:13"
+      ],
+      "level": 2,
+      "span": {
+        "start": 393,
+        "end": 432
+      }
+    },
+    {
+      "id": "seg:13",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:12",
+      "children": [],
+      "level": 3,
+      "span": {
+        "start": 395,
+        "end": 432
+      }
+    },
+    {
+      "id": "seg:14",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:6",
+      "children": [
+        "seg:15"
+      ],
+      "level": 2,
+      "span": {
+        "start": 433,
+        "end": 453
+      }
+    },
+    {
+      "id": "seg:15",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:14",
+      "children": [],
+      "level": 3,
+      "span": {
+        "start": 435,
+        "end": 453
+      }
+    },
+    {
+      "id": "seg:16",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 454,
+        "end": 462
+      },
+      "parent": "seg:5",
+      "children": [
+        "seg:17",
+        "seg:18",
+        "seg:19"
+      ],
+      "level": 1,
+      "span": {
+        "start": 454,
+        "end": 750
+      }
+    },
+    {
+      "id": "seg:17",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:16",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 463,
+        "end": 520
+      }
+    },
+    {
+      "id": "seg:18",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:16",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 521,
+        "end": 680
+      }
+    },
+    {
+      "id": "seg:19",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:16",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 681,
+        "end": 750
+      }
+    },
+    {
+      "id": "seg:20",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 751,
+        "end": 759
+      },
+      "parent": "seg:5",
+      "children": [
+        "seg:21",
+        "seg:22",
+        "seg:23",
+        "seg:24"
+      ],
+      "level": 1,
+      "span": {
+        "start": 751,
+        "end": 967
+      }
+    },
+    {
+      "id": "seg:21",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:20",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 768,
+        "end": 807
+      }
+    },
+    {
+      "id": "seg:22",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:20",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 808,
+        "end": 854
+      }
+    },
+    {
+      "id": "seg:23",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:20",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 855,
+        "end": 918
+      }
+    },
+    {
+      "id": "seg:24",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 919,
+        "end": 927
+      },
+      "parent": "seg:20",
+      "children": [
+        "seg:25",
+        "seg:27"
+      ],
+      "level": 2,
+      "span": {
+        "start": 919,
+        "end": 967
+      }
+    },
+    {
+      "id": "seg:25",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:24",
+      "children": [
+        "seg:26"
+      ],
+      "level": 3,
+      "span": {
+        "start": 928,
+        "end": 946
+      }
+    },
+    {
+      "id": "seg:26",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:25",
+      "children": [],
+      "level": 4,
+      "span": {
+        "start": 930,
+        "end": 946
+      }
+    },
+    {
+      "id": "seg:27",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:24",
+      "children": [],
+      "level": 3,
+      "span": {
+        "start": 947,
+        "end": 967
+      }
+    },
+    {
+      "id": "seg:28",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 968,
+        "end": 1002
+      },
+      "parent": null,
+      "children": [
+        "seg:29",
+        "seg:33",
+        "seg:35",
+        "seg:38"
+      ],
+      "level": 0,
+      "span": {
+        "start": 968,
+        "end": 2167
+      }
+    },
+    {
+      "id": "seg:29",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 1003,
+        "end": 1027
+      },
+      "parent": "seg:28",
+      "children": [
+        "seg:30",
+        "seg:31"
+      ],
+      "level": 1,
+      "span": {
+        "start": 1003,
+        "end": 1354
+      }
+    },
+    {
+      "id": "seg:30",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:29",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 1028,
+        "end": 1152
+      }
+    },
+    {
+      "id": "seg:31",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:29",
+      "children": [
+        "seg:32"
+      ],
+      "level": 2,
+      "span": {
+        "start": 1153,
+        "end": 1354
+      }
+    },
+    {
+      "id": "seg:32",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:31",
+      "children": [],
+      "level": 3,
+      "span": {
+        "start": 1288,
+        "end": 1354
+      }
+    },
+    {
+      "id": "seg:33",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 1355,
+        "end": 1383
+      },
+      "parent": "seg:28",
+      "children": [
+        "seg:34"
+      ],
+      "level": 1,
+      "span": {
+        "start": 1355,
+        "end": 1463
+      }
+    },
+    {
+      "id": "seg:34",
+      "kind": "unit",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:33",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 1384,
+        "end": 1463
+      }
+    },
+    {
+      "id": "seg:35",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 1464,
+        "end": 1473
+      },
+      "parent": "seg:28",
+      "children": [
+        "seg:36",
+        "seg:37"
+      ],
+      "level": 1,
+      "span": {
+        "start": 1464,
+        "end": 1714
+      }
+    },
+    {
+      "id": "seg:36",
+      "kind": "item",
+      "type": null,
+      "category": "scope",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:35",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 1474,
+        "end": 1629
+      }
+    },
+    {
+      "id": "seg:37",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:35",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 1630,
+        "end": 1714
+      }
+    },
+    {
+      "id": "seg:38",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 1715,
+        "end": 1722
+      },
+      "parent": "seg:28",
+      "children": [
+        "seg:39",
+        "seg:40",
+        "seg:42",
+        "seg:43",
+        "seg:45"
+      ],
+      "level": 1,
+      "span": {
+        "start": 1715,
+        "end": 2167
+      }
+    },
+    {
+      "id": "seg:39",
+      "kind": "unit",
+      "type": null,
+      "category": "scope",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:38",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 1723,
+        "end": 1814
+      }
+    },
+    {
+      "id": "seg:40",
+      "kind": "item",
+      "type": null,
+      "category": "scope",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:38",
+      "children": [
+        "seg:41"
+      ],
+      "level": 2,
+      "span": {
+        "start": 1815,
+        "end": 1905
+      }
+    },
+    {
+      "id": "seg:41",
+      "kind": "item",
+      "type": null,
+      "category": "scope",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:40",
+      "children": [],
+      "level": 3,
+      "span": {
+        "start": 1817,
+        "end": 1905
+      }
+    },
+    {
+      "id": "seg:42",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:38",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 1906,
+        "end": 1969
+      }
+    },
+    {
+      "id": "seg:43",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:38",
+      "children": [
+        "seg:44"
+      ],
+      "level": 2,
+      "span": {
+        "start": 1970,
+        "end": 2057
+      }
+    },
+    {
+      "id": "seg:44",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:43",
+      "children": [],
+      "level": 3,
+      "span": {
+        "start": 1972,
+        "end": 2057
+      }
+    },
+    {
+      "id": "seg:45",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:38",
+      "children": [
+        "seg:46"
+      ],
+      "level": 2,
+      "span": {
+        "start": 2058,
+        "end": 2167
+      }
+    },
+    {
+      "id": "seg:46",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:45",
+      "children": [],
+      "level": 3,
+      "span": {
+        "start": 2060,
+        "end": 2167
+      }
+    },
+    {
+      "id": "seg:47",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 2196,
+        "end": 2214
+      },
+      "parent": null,
+      "children": [
+        "seg:48",
+        "seg:49",
+        "seg:50",
+        "seg:52",
+        "seg:54",
+        "seg:55",
+        "seg:56"
+      ],
+      "level": 0,
+      "span": {
+        "start": 2196,
+        "end": 2547
+      }
+    },
+    {
+      "id": "seg:48",
+      "kind": "unit",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:47",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2215,
+        "end": 2219
+      }
+    },
+    {
+      "id": "seg:49",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:47",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2220,
+        "end": 2271
+      }
+    },
+    {
+      "id": "seg:50",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:47",
+      "children": [
+        "seg:51"
+      ],
+      "level": 1,
+      "span": {
+        "start": 2272,
+        "end": 2335
+      }
+    },
+    {
+      "id": "seg:51",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:50",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 2274,
+        "end": 2335
+      }
+    },
+    {
+      "id": "seg:52",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:47",
+      "children": [
+        "seg:53"
+      ],
+      "level": 1,
+      "span": {
+        "start": 2336,
+        "end": 2392
+      }
+    },
+    {
+      "id": "seg:53",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:52",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 2338,
+        "end": 2392
+      }
+    },
+    {
+      "id": "seg:54",
+      "kind": "unit",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:47",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2393,
+        "end": 2399
+      }
+    },
+    {
+      "id": "seg:55",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:47",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2400,
+        "end": 2469
+      }
+    },
+    {
+      "id": "seg:56",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:47",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2470,
+        "end": 2547
+      }
+    },
+    {
+      "id": "seg:57",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": null,
+      "children": [
+        "seg:58",
+        "seg:59",
+        "seg:60",
+        "seg:61",
+        "seg:62",
+        "seg:63",
+        "seg:65"
+      ],
+      "level": 0,
+      "span": {
+        "start": 2565,
+        "end": 2842
+      }
+    },
+    {
+      "id": "seg:58",
+      "kind": "unit",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:57",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2565,
+        "end": 2569
+      }
+    },
+    {
+      "id": "seg:59",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:57",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2570,
+        "end": 2612
+      }
+    },
+    {
+      "id": "seg:60",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:57",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2613,
+        "end": 2678
+      }
+    },
+    {
+      "id": "seg:61",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:57",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2679,
+        "end": 2705
+      }
+    },
+    {
+      "id": "seg:62",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:57",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2706,
+        "end": 2754
+      }
+    },
+    {
+      "id": "seg:63",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:57",
+      "children": [
+        "seg:64"
+      ],
+      "level": 1,
+      "span": {
+        "start": 2755,
+        "end": 2778
+      }
+    },
+    {
+      "id": "seg:64",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:63",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 2757,
+        "end": 2778
+      }
+    },
+    {
+      "id": "seg:65",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:57",
+      "children": [
+        "seg:66"
+      ],
+      "level": 1,
+      "span": {
+        "start": 2779,
+        "end": 2842
+      }
+    },
+    {
+      "id": "seg:66",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:65",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 2781,
+        "end": 2842
+      }
+    },
+    {
+      "id": "seg:67",
+      "kind": "unit",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": null,
+      "children": [],
+      "level": 0,
+      "span": {
+        "start": 2843,
+        "end": 2849
+      }
+    },
+    {
+      "id": "seg:68",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": null,
+      "children": [
+        "seg:69"
+      ],
+      "level": 0,
+      "span": {
+        "start": 2850,
+        "end": 2896
+      }
+    },
+    {
+      "id": "seg:69",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:68",
+      "children": [],
+      "level": 1,
+      "span": {
+        "start": 2852,
+        "end": 2896
+      }
+    },
+    {
+      "id": "seg:70",
+      "kind": "unit",
+      "type": "note",
+      "category": "annotation",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": null,
+      "children": [],
+      "level": 0,
+      "span": {
+        "start": 2919,
+        "end": 3018
+      }
+    },
+    {
+      "id": "seg:71",
+      "kind": "unit",
+      "type": null,
+      "category": "back_matter",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": null,
+      "children": [],
+      "level": 0,
+      "span": {
+        "start": 3019,
+        "end": 3067
+      }
+    }
+  ],
+  "crossreferences": [
+    {
+      "start": "seg:38",
+      "end": "seg:38",
+      "span": {
+        "start": 930,
+        "end": 946
+      }
+    }
+  ],
+  "locations": [],
+  "persons": [],
+  "emails": [],
+  "websites": [],
+  "phone_numbers": [],
+  "id_numbers": [],
+  "terms": [
+    {
+      "id": "term:0",
+      "name": {
+        "start": 1003,
+        "end": 1020
+      },
+      "meaning": {
+        "start": 1042,
+        "end": 1152
+      },
+      "mentions": [
+        {
+          "start": 1536,
+          "end": 1553
+        },
+        {
+          "start": 2222,
+          "end": 2225
+        },
+        {
+          "start": 2609,
+          "end": 2612
+        },
+        {
+          "start": 2962,
+          "end": 2979
+        }
+      ]
+    },
+    {
+      "id": "term:1",
+      "name": {
+        "start": 1355,
+        "end": 1376
+      },
+      "meaning": {
+        "start": 1386,
+        "end": 1463
+      },
+      "mentions": [
+        {
+          "start": 2232,
+          "end": 2235
+        }
+      ]
+    },
+    {
+      "id": "term:2",
+      "name": {
+        "start": 1464,
+        "end": 1473
+      },
+      "meaning": {
+        "start": 1488,
+        "end": 1629
+      },
+      "mentions": [
+        {
+          "start": 2244,
+          "end": 2253
+        },
+        {
+          "start": 3008,
+          "end": 3017
+        }
+      ]
+    },
+    {
+      "id": "term:3",
+      "name": {
+        "start": 1715,
+        "end": 1722
+      },
+      "meaning": {
+        "start": 1737,
+        "end": 1814
+      },
+      "mentions": []
+    },
+    {
+      "id": "term:4",
+      "name": {
+        "start": 1908,
+        "end": 1927
+      },
+      "meaning": {
+        "start": 1929,
+        "end": 1969
+      },
+      "mentions": [
+        {
+          "start": 2681,
+          "end": 2700
+        }
+      ]
+    }
+  ],
+  "external_documents": [],
+  "quotes": [],
+  "dates": [],
+  "headings": [
+    {
+      "start": 102,
+      "end": 107
+    },
+    {
+      "start": 209,
+      "end": 223
+    },
+    {
+      "start": 224,
+      "end": 234
+    },
+    {
+      "start": 454,
+      "end": 462
+    },
+    {
+      "start": 751,
+      "end": 759
+    },
+    {
+      "start": 760,
+      "end": 767
+    },
+    {
+      "start": 919,
+      "end": 927
+    },
+    {
+      "start": 968,
+      "end": 1002
+    },
+    {
+      "start": 1003,
+      "end": 1027
+    },
+    {
+      "start": 1355,
+      "end": 1383
+    },
+    {
+      "start": 1464,
+      "end": 1473
+    },
+    {
+      "start": 1715,
+      "end": 1722
+    },
+    {
+      "start": 2168,
+      "end": 2195
+    },
+    {
+      "start": 2196,
+      "end": 2214
+    },
+    {
+      "start": 2548,
+      "end": 2564
+    }
+  ],
+  "junk": [],
+  "version": "ilgs@1"
+}

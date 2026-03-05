@@ -1,0 +1,183 @@
+{
+  "text": "2020B14 Mallampatti\nscore is a diagnostic test for difficult intubation with a sensitivity of 30%\nand a specificity of 90%. Describe how this information and other statistics\nrelated to this test can be used for predicting difficult intubation. How does\nthe prevalence of difficult intubation affect the performance of this test?\nTable:\nDifficult ETT\nNot difficult ETT\nPredictive values:\nHigh MP score\na)True +ve\nb)False +ve\nPPV: a/(a+b)\nLow MP score\nc)False -ve\nd)True -ve\nNPV: d/(c+d)\nSensitivity: a/(a+c)\n30%\nSpecificity: d/(b+d)\n90%\nLikelihood ratios:\nPositive LR = sensitivity / (1-specificity) = 3\nNegative LR = (1-sensitivity) / specificity = 0.78\nInterpretation:\nSensitivity & specificity\n·\nWill pick up 30% of those with difficult ETT\n·\nWill rule out 90% of those without difficult\n  ETT\n->> unhelpful at identifying difficult intubation\nPredictive values\n·\nPPV and NPV\n∝\nprevalence\n·\nPrevalence of difficult intubation is low\n->> low PPV for difficult intubation in all-comers\nLikelihood ratios\n·\n+LR 3: slight ↑ post-test probability of\n  difficult intubation if high grade MP score\n·\n-LR is <1: slight ↓ post-test probability\n  of difficult intubation if low grade MP score\n·\n% Change in probability is unaffected by\n  prevalence of difficult intubation\n->> low utility in assisting prediction of difficult\n  intubation\nReceiver-operator characteristic\n·\nRelationship between sensitivity, specificity,\n  test quality\n·\n↑AUC associated with high utility\nThis is my\nweakest topic.\nFeedback genuinely\nwelcome at\nketaminenightmares@gmail.com",
+  "title": null,
+  "subtitle": null,
+  "type": "other",
+  "jurisdiction": null,
+  "segments": [
+    {
+      "id": "seg:0",
+      "kind": "unit",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": null,
+      "children": [],
+      "level": 0,
+      "span": {
+        "start": 20,
+        "end": 329
+      }
+    },
+    {
+      "id": "seg:1",
+      "kind": "figure",
+      "type": "table",
+      "category": "main",
+      "type_name": {
+        "start": 330,
+        "end": 335
+      },
+      "code": null,
+      "title": null,
+      "parent": null,
+      "children": [],
+      "level": 0,
+      "span": {
+        "start": 330,
+        "end": 654
+      }
+    },
+    {
+      "id": "seg:2",
+      "kind": "container",
+      "type": null,
+      "category": "scope",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 655,
+        "end": 670
+      },
+      "parent": null,
+      "children": [
+        "seg:3"
+      ],
+      "level": 0,
+      "span": {
+        "start": 655,
+        "end": 1464
+      }
+    },
+    {
+      "id": "seg:3",
+      "kind": "container",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": {
+        "start": 1332,
+        "end": 1364
+      },
+      "parent": "seg:2",
+      "children": [
+        "seg:4"
+      ],
+      "level": 1,
+      "span": {
+        "start": 1332,
+        "end": 1464
+      }
+    },
+    {
+      "id": "seg:4",
+      "kind": "item",
+      "type": null,
+      "category": "main",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": "seg:3",
+      "children": [],
+      "level": 2,
+      "span": {
+        "start": 1429,
+        "end": 1464
+      }
+    },
+    {
+      "id": "seg:5",
+      "kind": "container",
+      "type": null,
+      "category": "back_matter",
+      "type_name": null,
+      "code": null,
+      "title": null,
+      "parent": null,
+      "children": [],
+      "level": 0,
+      "span": {
+        "start": 1465,
+        "end": 1549
+      }
+    }
+  ],
+  "crossreferences": [],
+  "locations": [],
+  "persons": [
+    {
+      "id": "per:0",
+      "name": {
+        "start": 8,
+        "end": 19
+      },
+      "type": "natural",
+      "role": "non_party",
+      "parent": null,
+      "children": [],
+      "residence": null,
+      "mentions": [
+        {
+          "start": 8,
+          "end": 19
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "address": "ketaminenightmares@gmail.com",
+      "person": "per:0",
+      "mentions": [
+        {
+          "start": 1521,
+          "end": 1549
+        }
+      ]
+    }
+  ],
+  "websites": [],
+  "phone_numbers": [],
+  "id_numbers": [],
+  "terms": [],
+  "external_documents": [],
+  "quotes": [],
+  "dates": [],
+  "headings": [
+    {
+      "start": 330,
+      "end": 336
+    },
+    {
+      "start": 655,
+      "end": 670
+    },
+    {
+      "start": 847,
+      "end": 864
+    },
+    {
+      "start": 987,
+      "end": 1004
+    },
+    {
+      "start": 1332,
+      "end": 1364
+    }
+  ],
+  "junk": [],
+  "version": "ilgs@1"
+}
