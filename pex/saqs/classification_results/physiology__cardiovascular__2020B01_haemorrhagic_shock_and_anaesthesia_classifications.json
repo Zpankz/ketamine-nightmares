@@ -17,17 +17,14 @@
     },
     "content_dimensions": [
       "equipment_and_physics",
-      "organ_system_process",
-      "nociception_process",
-      "neuromuscular_process",
       "drug_receptor_disposition",
+      "organ_system_process",
       "autonomic_disposition",
+      "neuromuscular_process",
       "pharmacokinetic_process",
-      "special_population_role",
       "gas_exchange_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "structure_function_link",
       "dose_response_relationship"
@@ -232,50 +229,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8335354564972123,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7833159268231396,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "à\n↑Blood\n  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n",
-            "score": 0.8335354564972123,
-            "start": 1451,
-            "end": 2777
-          },
-          {
-            "text": "↑Metabolic rate (↑cardiac, respiratory,\n  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-cond",
-            "score": 0.23731085714042086,
-            "start": 2778,
-            "end": 3248
+            "text": "  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n·\n↑SNS ->",
+            "score": 0.7833159268231396,
+            "start": 1460,
+            "end": 2817
           },
           {
             "text": "2020B01 a)\nDescribe the immediate cardiovascular responses to the sudden loss of 30% blood\nvolume in a healthy awake person.\nb) How are these responses different if the patient is undergoing anaesthes",
-            "score": 0.23005185046589166,
+            "score": 0.4706388604680495,
             "start": 0,
-            "end": 1450
+            "end": 1459
+          },
+          {
+            "text": "  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-conditioning\n·\nBrief ischaemic episode impro",
+            "score": 0.225282248199159,
+            "start": 2818,
+            "end": 3248
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7766885250141251,
+        "score": 0.7350202275183602,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Interstitial fluid reabsorption\nà\n↑Blood\n  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestles",
-            "score": 0.7766885250141251,
+            "score": 0.7350202275183602,
             "start": 1419,
-            "end": 2767
-          },
-          {
-            "text": "·\n↑↑SNS\n·\n↑Metabolic rate (↑cardiac, respiratory,\n  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemi",
-            "score": 0.4335928662133408,
-            "start": 2768,
-            "end": 3248
+            "end": 2769
           },
           {
             "text": "2020B01 a)\nDescribe the immediate cardiovascular responses to the sudden loss of 30% blood\nvolume in a healthy awake person.\nb) How are these responses different if the patient is undergoing anaesthes",
-            "score": 0.39594807629745715,
+            "score": 0.4639048095280645,
             "start": 0,
             "end": 1418
+          },
+          {
+            "text": "↑↑SNS\n·\n↑Metabolic rate (↑cardiac, respiratory,\n  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic ",
+            "score": 0.3549888438284347,
+            "start": 2770,
+            "end": 3248
           }
         ]
       },
@@ -304,26 +301,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9266983949908478,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7440006379023568,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n·\n↑SNS ->",
-            "score": 0.9266983949908478,
+            "score": 0.7440006379023568,
             "start": 1460,
-            "end": 2817
+            "end": 2843
+          },
+          {
+            "text": "↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-conditioning\n·\nBrief ischaemic episode improves tolerance of\n  subsequ",
+            "score": 0.28565571167771503,
+            "start": 2844,
+            "end": 3248
           },
           {
             "text": "2020B01 a)\nDescribe the immediate cardiovascular responses to the sudden loss of 30% blood\nvolume in a healthy awake person.\nb) How are these responses different if the patient is undergoing anaesthes",
-            "score": 0.9023440891081543,
+            "score": 0.24057709312446773,
             "start": 0,
             "end": 1459
-          },
-          {
-            "text": "  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-conditioning\n·\nBrief ischaemic episode impro",
-            "score": 0.20006027090401593,
-            "start": 2818,
-            "end": 3248
           }
         ]
       },
@@ -352,50 +349,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8841573813483605,
+        "score": 0.7337241162242518,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Interstitial fluid reabsorption\nà\n↑Blood\n  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestles",
-            "score": 0.8841573813483605,
-            "start": 1419,
-            "end": 2769
-          },
-          {
-            "text": "↑↑SNS\n·\n↑Metabolic rate (↑cardiac, respiratory,\n  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic ",
-            "score": 0.7590129055214236,
-            "start": 2770,
-            "end": 3248
+            "text": "-> vasoconstriction\nInterstitial fluid reabsorption\nà\n↑Blood\n  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid ",
+            "score": 0.7337241162242518,
+            "start": 1399,
+            "end": 2716
           },
           {
             "text": "2020B01 a)\nDescribe the immediate cardiovascular responses to the sudden loss of 30% blood\nvolume in a healthy awake person.\nb) How are these responses different if the patient is undergoing anaesthes",
-            "score": 0.725000296793374,
+            "score": 0.2484321598142117,
             "start": 0,
-            "end": 1418
+            "end": 1398
+          },
+          {
+            "text": "  Guedel’s stage 2\nOther responses:\nDecompensation\n·\n↑↑SNS\n·\n↑Metabolic rate (↑cardiac, respiratory,\n  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly incr",
+            "score": 0.14366505103412583,
+            "start": 2717,
+            "end": 3248
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8852167040648438,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1100884956529356,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "à\n↑Blood\n  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n",
-            "score": 0.8852167040648438,
-            "start": 1451,
-            "end": 2777
-          },
-          {
             "text": "2020B01 a)\nDescribe the immediate cardiovascular responses to the sudden loss of 30% blood\nvolume in a healthy awake person.\nb) How are these responses different if the patient is undergoing anaesthes",
-            "score": 0.7573690844351972,
+            "score": 0.1100884956529356,
             "start": 0,
-            "end": 1450
+            "end": 1459
           },
           {
-            "text": "↑Metabolic rate (↑cardiac, respiratory,\n  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-cond",
-            "score": 0.5491578032915693,
-            "start": 2778,
+            "text": "↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-conditioning\n·\nBrief ischaemic episode improves tolerance of\n  subsequ",
+            "score": 0.10651790355261252,
+            "start": 2844,
             "end": 3248
+          },
+          {
+            "text": "  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n·\n↑SNS ->",
+            "score": 0.09480246485705024,
+            "start": 1460,
+            "end": 2843
           }
         ]
       },
@@ -424,86 +421,86 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9645253191730576,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8687038732456791,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n·\n↑SNS ->",
-            "score": 0.9645253191730576,
-            "start": 1460,
-            "end": 2843
+            "text": "Interstitial fluid reabsorption\nà\n↑Blood\n  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestles",
+            "score": 0.8687038732456791,
+            "start": 1419,
+            "end": 2769
+          },
+          {
+            "text": "↑↑SNS\n·\n↑Metabolic rate (↑cardiac, respiratory,\n  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic ",
+            "score": 0.2816360763540295,
+            "start": 2770,
+            "end": 3248
           },
           {
             "text": "2020B01 a)\nDescribe the immediate cardiovascular responses to the sudden loss of 30% blood\nvolume in a healthy awake person.\nb) How are these responses different if the patient is undergoing anaesthes",
-            "score": 0.850825524926902,
+            "score": 0.2772030069075993,
             "start": 0,
-            "end": 1459
-          },
-          {
-            "text": "↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-conditioning\n·\nBrief ischaemic episode improves tolerance of\n  subsequ",
-            "score": 0.814384449652423,
-            "start": 2844,
-            "end": 3248
+            "end": 1418
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7210279840445749,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.16514433309482263,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "↑Blood\n  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n·\n",
-            "score": 0.7210279840445749,
-            "start": 1453,
-            "end": 2777
-          },
-          {
-            "text": "↑Metabolic rate (↑cardiac, respiratory,\n  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-cond",
-            "score": 0.2843127098628851,
-            "start": 2778,
-            "end": 3248
+            "text": "  volume -> ↑MSFP\n·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n·\n↑SNS ->",
+            "score": 0.16514433309482263,
+            "start": 1460,
+            "end": 2817
           },
           {
             "text": "2020B01 a)\nDescribe the immediate cardiovascular responses to the sudden loss of 30% blood\nvolume in a healthy awake person.\nb) How are these responses different if the patient is undergoing anaesthes",
-            "score": 0.15166364739002158,
+            "score": 0.14245781704193952,
             "start": 0,
-            "end": 1452
+            "end": 1459
+          },
+          {
+            "text": "  skeletal muscle work)\n·\n↑Anaerobic metabolism\n·\n↓pH\n·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-conditioning\n·\nBrief ischaemic episode impro",
+            "score": 0.14125677189694305,
+            "start": 2818,
+            "end": 3248
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.9008986698241135,
+        "score": 0.4168022017400883,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n·\n↑SNS -> ↑skeletal muscle ",
-            "score": 0.9008986698241135,
+            "score": 0.4168022017400883,
             "start": 1478,
             "end": 2871
           },
           {
             "text": "2020B01 a)\nDescribe the immediate cardiovascular responses to the sudden loss of 30% blood\nvolume in a healthy awake person.\nb) How are these responses different if the patient is undergoing anaesthes",
-            "score": 0.814384449652423,
+            "score": 0.37264500861977157,
             "start": 0,
             "end": 1477
           },
           {
             "text": "·\n↓inotropy, arrhythmia, death\n·\nGreatly increased risk under sevoflurane\n  anaesthesia\nIschaemic pre-conditioning\n·\nBrief ischaemic episode improves tolerance of\n  subsequent episode\n·\nMechanism: act",
-            "score": 0.7324247348287793,
+            "score": 0.2585486061251438,
             "start": 2872,
             "end": 3248
           }
         ]
       },
       "dose_response_relationship": {
-        "score": 0.6338560556842108,
+        "score": 0.6348526651679158,
         "description": "Dose/stimulus → response → modifiers pattern",
         "top_chunks": [
           {
             "text": "·\nMechanism: ↑SNS output -> constriction of\n  pre-capillary sphincters -> ↓capillary hydrostatic pressure -> net\n  fluid reabsorption\nRestlessness\nà\n↑MSFP,\n  ↑venous return\n·\n↑SNS -> ↑skeletal muscle ",
-            "score": 0.6338560556842108,
+            "score": 0.6348526651679158,
             "start": 1478,
             "end": 2871
           },

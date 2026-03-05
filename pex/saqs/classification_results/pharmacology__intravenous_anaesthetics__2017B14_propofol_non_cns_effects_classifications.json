@@ -17,18 +17,13 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "equipment_and_physics",
-      "nociception_process",
-      "autonomic_disposition",
       "drug_receptor_disposition",
       "neuromuscular_process",
-      "special_population_role",
+      "equipment_and_physics",
+      "organ_system_process",
       "gas_exchange_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -181,38 +176,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7581917576089247,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8164961183273113,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
+            "score": 0.8164961183273113,
+            "start": 0,
+            "end": 1384
+          },
+          {
+            "text": "·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows airway instrumentation without paralysis\n·\nRisk of aspiratio",
+            "score": 0.597132497398905,
+            "start": 1385,
+            "end": 2046
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.4439415962475808,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Relative preservation of HPV (cf. volatiles)\nImplications\n·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows ai",
-            "score": 0.7581917576089247,
+            "score": 0.4439415962475808,
             "start": 1327,
             "end": 2046
           },
           {
             "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
-            "score": 0.5006634252818862,
+            "score": 0.4289578948825608,
             "start": 0,
             "end": 1326
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.7802112731246094,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
-            "score": 0.7802112731246094,
-            "start": 0,
-            "end": 1324
-          },
-          {
-            "text": "·\nRelative preservation of HPV (cf. volatiles)\nImplications\n·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows ",
-            "score": 0.25010326402444366,
-            "start": 1325,
-            "end": 2046
           }
         ]
       },
@@ -235,19 +230,19 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9283170791995873,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6484555077818482,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
-            "score": 0.9283170791995873,
+            "score": 0.6484555077818482,
             "start": 0,
-            "end": 1384
+            "end": 1386
           },
           {
-            "text": "·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows airway instrumentation without paralysis\n·\nRisk of aspiratio",
-            "score": 0.5990579316066882,
-            "start": 1385,
+            "text": "Apnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows airway instrumentation without paralysis\n·\nRisk of aspiration\n",
+            "score": 0.30385425542433225,
+            "start": 1387,
             "end": 2046
           }
         ]
@@ -271,38 +266,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6604080190418081,
+        "score": 0.7806007297229463,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
-            "score": 0.6604080190418081,
+            "score": 0.7806007297229463,
             "start": 0,
-            "end": 1326
+            "end": 1308
           },
           {
-            "text": "Relative preservation of HPV (cf. volatiles)\nImplications\n·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows ai",
-            "score": 0.4260256266104978,
-            "start": 1327,
+            "text": "Bronchodilation\n·\nRelative preservation of HPV (cf. volatiles)\nImplications\n·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially ",
+            "score": 0.13534398140930778,
+            "start": 1309,
             "end": 2046
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8545124702668796,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.11905584709916793,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Relative preservation of HPV (cf. volatiles)\nImplications\n·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows ai",
-            "score": 0.8545124702668796,
-            "start": 1327,
+            "text": "Apnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows airway instrumentation without paralysis\n·\nRisk of aspiration\n",
+            "score": 0.11905584709916793,
+            "start": 1387,
             "end": 2046
           },
           {
             "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
-            "score": 0.7561322192814399,
+            "score": 0.1010480871715535,
             "start": 0,
-            "end": 1326
+            "end": 1386
           }
         ]
       },
@@ -325,58 +320,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9018636730986593,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "Apnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows airway instrumentation without paralysis\n·\nRisk of aspiration\n",
-            "score": 0.9018636730986593,
-            "start": 1387,
-            "end": 2046
-          },
-          {
-            "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
-            "score": 0.6400688815622511,
-            "start": 0,
-            "end": 1386
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.6220757285522401,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.7397445008530983,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
-            "score": 0.6220757285522401,
+            "score": 0.7397445008530983,
             "start": 0,
             "end": 1326
           },
           {
             "text": "Relative preservation of HPV (cf. volatiles)\nImplications\n·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows ai",
-            "score": 0.48448006151404593,
+            "score": 0.7034894789104185,
             "start": 1327,
             "end": 2046
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.18420617535904918,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "·\nApnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows airway instrumentation without paralysis\n·\nRisk of aspiratio",
+            "score": 0.18420617535904918,
+            "start": 1385,
+            "end": 2046
+          },
+          {
+            "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
+            "score": 0.165803645501483,
+            "start": 0,
+            "end": 1384
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8569393402511397,
+        "score": 0.36789031545021217,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
-            "score": 0.8569393402511397,
-            "start": 0,
-            "end": 1386
-          },
-          {
             "text": "Apnoea common after induction; risk hypoxia if not ventilated\n·\nAirway obstruction common if no airway device, especially if OSA\n·\nAllows airway instrumentation without paralysis\n·\nRisk of aspiration\n",
-            "score": 0.5865634504286785,
+            "score": 0.36789031545021217,
             "start": 1387,
             "end": 2046
+          },
+          {
+            "text": "2017B14 Describe\nthe pharmacodynamic properties of propofol excluding its\neffects on the central nervous system. Describe how these influence clinical\nuse.\nList:\n·\nCVS\n·\nResp\n·\nOther\nCardiovascular:\nM",
+            "score": 0.22885420087533004,
+            "start": 0,
+            "end": 1386
           }
         ]
       },

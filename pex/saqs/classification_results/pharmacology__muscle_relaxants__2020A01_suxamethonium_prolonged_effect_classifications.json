@@ -16,13 +16,8 @@
         "integrative"
       ]
     },
-    "content_dimensions": [
-      "drug_receptor_disposition",
-      "special_population_role"
-    ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "content_dimensions": [],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -127,32 +122,32 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9234009196794866,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5150559080571284,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A01 Outline the possible reasons for prolonged\nparalysis induced by an intravenous dose of 1 mg/kg of suxamethonium.\nList:\n·\nIntro\n·\nEnzyme abnormality (sux apnoea)\n·\nEnzyme deficiency (phys, path",
-            "score": 0.9234009196794866,
+            "score": 0.5150559080571284,
             "start": 0,
             "end": 1435
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.4121438645877505,
+        "score": 0.34056154980718345,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "ketaminenightmares@gmail.com",
-            "score": 0.4121438645877505,
-            "start": 1407,
-            "end": 1435
-          },
-          {
             "text": "2020A01 Outline the possible reasons for prolonged\nparalysis induced by an intravenous dose of 1 mg/kg of suxamethonium.\nList:\n·\nIntro\n·\nEnzyme abnormality (sux apnoea)\n·\nEnzyme deficiency (phys, path",
-            "score": 0.2602554991469016,
+            "score": 0.34056154980718345,
             "start": 0,
             "end": 1406
+          },
+          {
+            "text": "ketaminenightmares@gmail.com",
+            "score": 0.1731608672870061,
+            "start": 1407,
+            "end": 1435
           }
         ]
       },
@@ -169,12 +164,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.27193002429858243,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.2623973993795041,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A01 Outline the possible reasons for prolonged\nparalysis induced by an intravenous dose of 1 mg/kg of suxamethonium.\nList:\n·\nIntro\n·\nEnzyme abnormality (sux apnoea)\n·\nEnzyme deficiency (phys, path",
-            "score": 0.27193002429858243,
+            "score": 0.2623973993795041,
             "start": 0,
             "end": 1435
           }
@@ -193,30 +188,30 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.369139503528058,
+        "score": 0.315494735817561,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A01 Outline the possible reasons for prolonged\nparalysis induced by an intravenous dose of 1 mg/kg of suxamethonium.\nList:\n·\nIntro\n·\nEnzyme abnormality (sux apnoea)\n·\nEnzyme deficiency (phys, path",
-            "score": 0.369139503528058,
+            "score": 0.315494735817561,
             "start": 0,
             "end": 1406
           },
           {
             "text": "ketaminenightmares@gmail.com",
-            "score": 0.20153979982073553,
+            "score": 0.27852923486057457,
             "start": 1407,
             "end": 1435
           }
         ]
       },
       "nociception_process": {
-        "score": 0.5021229511586448,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.11584261865163957,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A01 Outline the possible reasons for prolonged\nparalysis induced by an intravenous dose of 1 mg/kg of suxamethonium.\nList:\n·\nIntro\n·\nEnzyme abnormality (sux apnoea)\n·\nEnzyme deficiency (phys, path",
-            "score": 0.5021229511586448,
+            "score": 0.11584261865163957,
             "start": 0,
             "end": 1435
           }
@@ -235,24 +230,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.23205568751749697,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.21823325627215462,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2020A01 Outline the possible reasons for prolonged\nparalysis induced by an intravenous dose of 1 mg/kg of suxamethonium.\nList:\n·\nIntro\n·\nEnzyme abnormality (sux apnoea)\n·\nEnzyme deficiency (phys, path",
-            "score": 0.23205568751749697,
+            "score": 0.21823325627215462,
             "start": 0,
             "end": 1435
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8122584176361644,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.29332437688031354,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2020A01 Outline the possible reasons for prolonged\nparalysis induced by an intravenous dose of 1 mg/kg of suxamethonium.\nList:\n·\nIntro\n·\nEnzyme abnormality (sux apnoea)\n·\nEnzyme deficiency (phys, path",
-            "score": 0.8122584176361644,
+            "score": 0.29332437688031354,
             "start": 0,
             "end": 1435
           }
@@ -261,12 +256,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7590129055214236,
+        "score": 0.32257299354459545,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2020A01 Outline the possible reasons for prolonged\nparalysis induced by an intravenous dose of 1 mg/kg of suxamethonium.\nList:\n·\nIntro\n·\nEnzyme abnormality (sux apnoea)\n·\nEnzyme deficiency (phys, path",
-            "score": 0.7590129055214236,
+            "score": 0.32257299354459545,
             "start": 0,
             "end": 1435
           }

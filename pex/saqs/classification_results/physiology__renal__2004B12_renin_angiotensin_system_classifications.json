@@ -14,18 +14,15 @@
       "score": 0.5803448147802462
     },
     "content_dimensions": [
-      "organ_system_process",
       "drug_receptor_disposition",
-      "special_population_role",
-      "neuromuscular_process",
-      "nociception_process",
+      "autonomic_disposition",
       "equipment_and_physics",
       "acid_base_quality",
-      "autonomic_disposition",
-      "pharmacokinetic_process"
+      "neuromuscular_process",
+      "pharmacokinetic_process",
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -228,49 +225,49 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8959896239471639,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8374770746416548,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
-            "score": 0.8959896239471639,
+            "score": 0.8374770746416548,
             "start": 0,
-            "end": 1430
+            "end": 1441
           },
           {
-            "text": "-> ↑ICF\nCa\n2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> ven",
-            "score": 0.8268391327129939,
-            "start": 1431,
-            "end": 2711
+            "text": "2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> venoconstricti",
+            "score": 0.8150899351016954,
+            "start": 1442,
+            "end": 2737
           },
           {
-            "text": "+\n]\n·\nIndirect effects:\no\n↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n]",
-            "score": 0.4252444215058087,
-            "start": 2712,
+            "text": "↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n] and tonicity",
+            "score": 0.5934028811626832,
+            "start": 2738,
             "end": 2925
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.651152789517968,
+        "score": 0.7465365050274453,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑IP\n3\n-> ↑ICF\nCa\n2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction ",
-            "score": 0.651152789517968,
-            "start": 1425,
-            "end": 2693
+            "text": "3\n-> ↑ICF\nCa\n2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> v",
+            "score": 0.7465365050274453,
+            "start": 1429,
+            "end": 2703
           },
           {
             "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
-            "score": 0.3829748153990309,
+            "score": 0.633107968697668,
             "start": 0,
-            "end": 1424
+            "end": 1428
           },
           {
-            "text": "↑ECF pH\no\n↓ECF [K\n+\n]\n·\nIndirect effects:\no\n↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activ",
-            "score": 0.25010326402444366,
-            "start": 2694,
+            "text": "↓ECF [K\n+\n]\n·\nIndirect effects:\no\n↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF",
+            "score": 0.35894064412563764,
+            "start": 2704,
             "end": 2925
           }
         ]
@@ -300,24 +297,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9311022102106701,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6144918788369766,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> venoconstricti",
-            "score": 0.9311022102106701,
+            "score": 0.6144918788369766,
             "start": 1442,
             "end": 2737
           },
           {
             "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
-            "score": 0.7116489757150383,
+            "score": 0.5634316265339792,
             "start": 0,
             "end": 1441
           },
           {
             "text": "↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n] and tonicity",
-            "score": 0.0981363269013407,
+            "score": 0.4151185414909471,
             "start": 2738,
             "end": 2925
           }
@@ -348,49 +345,49 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7782581074303719,
+        "score": 0.6273549913802284,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑IP\n3\n-> ↑ICF\nCa\n2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction ",
-            "score": 0.7782581074303719,
-            "start": 1425,
-            "end": 2701
+            "text": "receptor)\n·\n↑IP\n3\n-> ↑ICF\nCa\n2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoc",
+            "score": 0.6273549913802284,
+            "start": 1413,
+            "end": 2682
           },
           {
             "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
-            "score": 0.3944150823138183,
+            "score": 0.3350018783331657,
             "start": 0,
-            "end": 1424
+            "end": 1412
           },
           {
-            "text": "o\n↓ECF [K\n+\n]\n·\nIndirect effects:\no\n↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑E",
-            "score": 0.16845675763202042,
-            "start": 2702,
+            "text": "tonicity\no\n↑ECF pH\no\n↓ECF [K\n+\n]\n·\nIndirect effects:\no\n↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ",
+            "score": 0.32304731886392163,
+            "start": 2683,
             "end": 2925
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7205848511005187,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1290165055825653,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "-> ↑ICF\nCa\n2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> ven",
-            "score": 0.7205848511005187,
-            "start": 1431,
-            "end": 2713
-          },
-          {
             "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
-            "score": 0.6445180724683895,
+            "score": 0.1290165055825653,
             "start": 0,
-            "end": 1430
+            "end": 1444
           },
           {
-            "text": "]\n·\nIndirect effects:\no\n↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n] a",
-            "score": 0.25178038205584335,
-            "start": 2714,
+            "text": "; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> venoconstriction,",
+            "score": 0.11690780739311239,
+            "start": 1445,
+            "end": 2764
+          },
+          {
+            "text": "to osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n] and tonicity",
+            "score": 0.09480246485705024,
+            "start": 2765,
             "end": 2925
           }
         ]
@@ -420,49 +417,49 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7102966898705897,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.6769526811360784,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> venoconstriction,",
-            "score": 0.7102966898705897,
-            "start": 1445,
-            "end": 2764
+            "text": "3\n-> ↑ICF\nCa\n2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> v",
+            "score": 0.6769526811360784,
+            "start": 1429,
+            "end": 2703
+          },
+          {
+            "text": "↓ECF [K\n+\n]\n·\nIndirect effects:\no\n↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF",
+            "score": 0.24180824239107535,
+            "start": 2704,
+            "end": 2925
           },
           {
             "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
-            "score": 0.22845576096855297,
+            "score": 0.19420584422163265,
             "start": 0,
-            "end": 1444
-          },
-          {
-            "text": "to osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n] and tonicity",
-            "score": 0.20979078633127912,
-            "start": 2765,
-            "end": 2925
+            "end": 1428
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8470823759078229,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.274999703206626,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "-> ↑ICF\nCa\n2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> ven",
-            "score": 0.8470823759078229,
-            "start": 1431,
-            "end": 2717
+            "text": "2+\n; ↑DAG\nVascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> venoconstricti",
+            "score": 0.274999703206626,
+            "start": 1442,
+            "end": 2737
           },
           {
             "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
-            "score": 0.4681919637319689,
+            "score": 0.15799633458154788,
             "start": 0,
-            "end": 1430
+            "end": 1441
           },
           {
-            "text": "Indirect effects:\no\n↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n] and t",
-            "score": 0.30895152063147,
-            "start": 2718,
+            "text": "↑ECF:ICF volume ratio (due\nto osmosis)\no\n↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n] and tonicity",
+            "score": 0.13769065726953986,
+            "start": 2738,
             "end": 2925
           }
         ]
@@ -470,26 +467,26 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8281911155772554,
+        "score": 0.3584457829792495,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Vascular effect\n·\nConstriction of efferent > afferent arteriole\no\n↑GFP ->\n↑GFR\no\n↓Peritubular capillary\nhydrostatic pressure -> ↑reabsorption\n·\nGeneralised vasoconstriction >> venoconstriction,\n↑SVR, ",
-            "score": 0.8281911155772554,
+            "score": 0.3584457829792495,
             "start": 1452,
             "end": 2778
           },
           {
-            "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
-            "score": 0.7770815074648134,
-            "start": 0,
-            "end": 1451
-          },
-          {
             "text": "↑ADH release (due to\nhypertonicity)\nColon and sweat glands\n·\n↑Na\n+\nK\n+\nATPase synthesis\nand activity -> ↑ENaC activity\n·\n↑ECF [Na\n+\n] and tonicity",
-            "score": 0.28655277316211425,
+            "score": 0.19932289324287283,
             "start": 2779,
             "end": 2925
+          },
+          {
+            "text": "2004B12 Briefly describe the\nsecretion and functions of renin and angiotensin.\nList:\n·\nIntro\n·\nAngiotensinogen\n·\nRenin\n·\nAngiotensin 2\n·\nOther angiotensins\n·\nAldosterone\nIntro:\nPathway\n·\nNote negative",
+            "score": 0.14979442334570606,
+            "start": 0,
+            "end": 1451
           }
         ]
       },

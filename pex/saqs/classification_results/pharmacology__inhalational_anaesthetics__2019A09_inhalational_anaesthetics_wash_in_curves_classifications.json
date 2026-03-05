@@ -16,14 +16,11 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
       "gas_exchange_process",
-      "equipment_and_physics",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "dose_response_relationship",
-      "mechanism_effect_relevance"
+      "dose_response_relationship"
     ]
   },
   "classifications": {
@@ -177,36 +174,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.36092259040593133,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.3510534842604531,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Rate of delivery to alveoli ->\n↑rate of rise F\nA\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas indu",
-            "score": 0.36092259040593133,
-            "start": 1266,
+            "text": "A\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less respiratory\ndepr",
+            "score": 0.3510534842604531,
+            "start": 1314,
             "end": 1738
           },
           {
             "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
-            "score": 0.225282248199159,
+            "score": 0.14979442334570606,
             "start": 0,
-            "end": 1265
+            "end": 1313
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.2492669590277905,
+        "score": 0.4750064964322213,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑Rate of delivery to alveoli ->\n↑rate of rise F\nA\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas indu",
-            "score": 0.2492669590277905,
+            "score": 0.4750064964322213,
             "start": 1266,
             "end": 1738
           },
           {
             "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
-            "score": 0.14732399306894495,
+            "score": 0.290606540070939,
             "start": 0,
             "end": 1265
           }
@@ -231,20 +228,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8072418249488453,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.32067872186788193,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
-            "score": 0.8072418249488453,
-            "start": 0,
-            "end": 1313
+            "text": "/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less respiratory\ndepres",
+            "score": 0.32067872186788193,
+            "start": 1316,
+            "end": 1738
           },
           {
-            "text": "A\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less respiratory\ndepr",
-            "score": 0.43228621750825197,
-            "start": 1314,
-            "end": 1738
+            "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
+            "score": 0.29015475481172504,
+            "start": 0,
+            "end": 1315
           }
         ]
       },
@@ -267,38 +264,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.3388655371870019,
+        "score": 0.2159118422576255,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Rate of delivery to alveoli ->\n↑rate of rise F\nA\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas indu",
-            "score": 0.3388655371870019,
-            "start": 1266,
-            "end": 1738
-          },
-          {
             "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
-            "score": 0.2623973993795041,
+            "score": 0.2159118422576255,
             "start": 0,
             "end": 1265
+          },
+          {
+            "text": "↑Rate of delivery to alveoli ->\n↑rate of rise F\nA\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas indu",
+            "score": 0.16979284000945866,
+            "start": 1266,
+            "end": 1738
           }
         ]
       },
       "nociception_process": {
-        "score": 0.5039804824921593,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08213138471900344,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑rate of rise F\nA\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less ",
-            "score": 0.5039804824921593,
-            "start": 1298,
+            "text": "·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less respiratory\ndepression ",
+            "score": 0.08213138471900344,
+            "start": 1321,
             "end": 1738
           },
           {
             "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
-            "score": 0.29514301842447316,
+            "score": 0.08040593925404063,
             "start": 0,
-            "end": 1297
+            "end": 1320
           }
         ]
       },
@@ -321,58 +318,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7602417631379194,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.38373425311242626,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
-            "score": 0.7602417631379194,
+            "score": 0.38373425311242626,
             "start": 0,
-            "end": 1320
+            "end": 1265
           },
           {
-            "text": "·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less respiratory\ndepression ",
-            "score": 0.3898266577123184,
-            "start": 1321,
+            "text": "↑Rate of delivery to alveoli ->\n↑rate of rise F\nA\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas indu",
+            "score": 0.3047781235673439,
+            "start": 1266,
             "end": 1738
           }
         ]
       },
       "special_population_role": {
-        "score": 0.24304282348823103,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1278857710804513,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "↑rate of rise F\nA\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less ",
-            "score": 0.24304282348823103,
-            "start": 1298,
+            "text": "A\n/F\nI\n·\nMore effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less respiratory\ndepr",
+            "score": 0.1278857710804513,
+            "start": 1314,
             "end": 1738
           },
           {
             "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
-            "score": 0.22291849253518664,
+            "score": 0.11851662443329414,
             "start": 0,
-            "end": 1297
+            "end": 1313
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.726318015129839,
+        "score": 0.5078278808360908,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
-            "score": 0.726318015129839,
-            "start": 0,
-            "end": 1322
-          },
-          {
             "text": "More effect on soluble agents (sevo >\nN\n2\nO > des)\n·\nN.B. desflurane irritant to airway ->\n↓V\nA\n-> ↓rate of rise\nF\nA\n/F\nI\n(avoided for gas induction)\n·\nN.B. N\n2\nO causes less respiratory\ndepression ->",
-            "score": 0.7012036403146291,
+            "score": 0.5078278808360908,
             "start": 1323,
             "end": 1738
+          },
+          {
+            "text": "2019A09 Draw on a single graph\nwash-in curves for the first half hour administration of 70% N2O,\n6% desflurane and 2% sevoflurane.\nExplain why the curves are different for each agent (80%).\nDescribe a",
+            "score": 0.4990712050482429,
+            "start": 0,
+            "end": 1322
           }
         ]
       },

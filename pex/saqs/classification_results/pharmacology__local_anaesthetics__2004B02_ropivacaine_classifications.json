@@ -17,13 +17,11 @@
       ]
     },
     "content_dimensions": [
+      "neuromuscular_process",
       "drug_receptor_disposition",
-      "organ_system_process",
-      "nociception_process",
-      "neuromuscular_process"
+      "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -226,50 +224,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.954869830462262,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8361695377043112,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\nVasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, VDCaC)\nEntry\n·\nFrom\n  I",
-            "score": 0.954869830462262,
-            "start": 1419,
-            "end": 2795
+            "text": "Vasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, VDCaC)\nEntry\n·\nFrom\n  ICF",
+            "score": 0.8361695377043112,
+            "start": 1421,
+            "end": 2873
           },
           {
             "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
-            "score": 0.3893178288824906,
+            "score": 0.44630557436679646,
             "start": 0,
-            "end": 1418
+            "end": 1420
           },
           {
-            "text": "Terminal phase: peripheral vasodilatation, severe ↓mAP, arrythmia,\n  arrest\n·\nArrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
-            "score": 0.21055038795004374,
-            "start": 2796,
+            "text": "Arrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
+            "score": 0.11637447875983453,
+            "start": 2874,
             "end": 2955
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.4457143838477458,
+        "score": 0.7102966898705897,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "-> ↓duration toxicity\n·\nVasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, V",
-            "score": 0.4457143838477458,
+            "score": 0.7102966898705897,
             "start": 1397,
             "end": 2795
           },
           {
-            "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
-            "score": 0.3456698970176562,
-            "start": 0,
-            "end": 1396
-          },
-          {
             "text": "Terminal phase: peripheral vasodilatation, severe ↓mAP, arrythmia,\n  arrest\n·\nArrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
-            "score": 0.2772030069075993,
+            "score": 0.35154449221815187,
             "start": 2796,
             "end": 2955
+          },
+          {
+            "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
+            "score": 0.20903276749660882,
+            "start": 0,
+            "end": 1396
           }
         ]
       },
@@ -298,24 +296,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.7992007600703674,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5752111363232885,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Arrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
-            "score": 0.7992007600703674,
-            "start": 2874,
-            "end": 2955
-          },
-          {
             "text": "Vasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, VDCaC)\nEntry\n·\nFrom\n  ICF",
-            "score": 0.6731472684489259,
+            "score": 0.5752111363232885,
             "start": 1421,
             "end": 2873
           },
           {
+            "text": "Arrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
+            "score": 0.32780706460686626,
+            "start": 2874,
+            "end": 2955
+          },
+          {
             "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
-            "score": 0.1891669165469514,
+            "score": 0.25940131470313366,
             "start": 0,
             "end": 1420
           }
@@ -346,50 +344,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7699481495341085,
+        "score": 0.8857441707387281,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "-> ↓duration toxicity\n·\nVasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, V",
-            "score": 0.7699481495341085,
-            "start": 1397,
+            "text": "β\n-> ↓duration toxicity\n·\nVasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC,",
+            "score": 0.8857441707387281,
+            "start": 1395,
             "end": 2795
           },
           {
             "text": "Terminal phase: peripheral vasodilatation, severe ↓mAP, arrythmia,\n  arrest\n·\nArrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
-            "score": 0.48454635020461423,
+            "score": 0.3075574940524789,
             "start": 2796,
             "end": 2955
           },
           {
             "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
-            "score": 0.2543072934579991,
+            "score": 0.2045179371314406,
             "start": 0,
-            "end": 1396
+            "end": 1394
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7860118412777748,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.14671028264551744,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nVasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, VDCaC)\nEntry\n·\nFrom\n  I",
-            "score": 0.7860118412777748,
-            "start": 1419,
-            "end": 2795
+            "text": "Arrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
+            "score": 0.14671028264551744,
+            "start": 2874,
+            "end": 2955
           },
           {
             "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
-            "score": 0.5936603917203747,
+            "score": 0.1290165055825653,
             "start": 0,
-            "end": 1418
+            "end": 1420
           },
           {
-            "text": "Terminal phase: peripheral vasodilatation, severe ↓mAP, arrythmia,\n  arrest\n·\nArrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
-            "score": 0.4836846338387401,
-            "start": 2796,
-            "end": 2955
+            "text": "Vasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, VDCaC)\nEntry\n·\nFrom\n  ICF",
+            "score": 0.09717688216482506,
+            "start": 1421,
+            "end": 2873
           }
         ]
       },
@@ -418,74 +416,74 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.4579566460853587,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.3977387423888966,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Arrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
-            "score": 0.4579566460853587,
-            "start": 2874,
+            "text": "-> ↓duration toxicity\n·\nVasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, V",
+            "score": 0.3977387423888966,
+            "start": 1397,
+            "end": 2795
+          },
+          {
+            "text": "Terminal phase: peripheral vasodilatation, severe ↓mAP, arrythmia,\n  arrest\n·\nArrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
+            "score": 0.2928705582501452,
+            "start": 2796,
             "end": 2955
           },
           {
-            "text": "Vasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, VDCaC)\nEntry\n·\nFrom\n  ICF",
-            "score": 0.3075574940524789,
-            "start": 1421,
-            "end": 2873
-          },
-          {
             "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
-            "score": 0.08924333203133303,
+            "score": 0.12845038342220835,
             "start": 0,
-            "end": 1420
+            "end": 1396
           }
         ]
       },
       "special_population_role": {
-        "score": 0.2667086480533769,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.12342301400327828,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "Vasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, VDCaC)\nEntry\n·\nFrom\n  ICF",
-            "score": 0.2667086480533769,
+            "score": 0.12342301400327828,
             "start": 1421,
-            "end": 2871
+            "end": 2873
+          },
+          {
+            "text": "Arrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
+            "score": 0.12068239347016409,
+            "start": 2874,
+            "end": 2955
           },
           {
             "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
-            "score": 0.24263091556480276,
+            "score": 0.1100884956529356,
             "start": 0,
             "end": 1420
-          },
-          {
-            "text": "·\nArrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
-            "score": 0.10957409746514832,
-            "start": 2872,
-            "end": 2955
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8288647205382538,
+        "score": 0.3766650580132254,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Vasoconstriction -> ↓rate of systemic absorption -> ↓peak\n  plasma concentration\nPharmacodynamics:\nTarget\n·\nVoltage-dependent\n  Na\n+\nchannel (VDNaC)\n·\n(less\n  active at VDKC, VDCaC)\nEntry\n·\nFrom\n  ICF",
-            "score": 0.8288647205382538,
+            "score": 0.3766650580132254,
             "start": 1421,
             "end": 2873
           },
           {
             "text": "Arrhythmias: sinus bradycardia, AV block, ventricular\n  tachyarrhythmia, asystole",
-            "score": 0.631610186449518,
+            "score": 0.2364981332625992,
             "start": 2874,
             "end": 2955
           },
           {
             "text": "2004B02 Write a\nbrief description of the pharmacology of ropivacaine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nMepivacaine series\nStructure\n·\nLipid soluble modified benzene ring\n·\nIntermediate ch",
-            "score": 0.43006674643598874,
+            "score": 0.07827820752174312,
             "start": 0,
             "end": 1420
           }

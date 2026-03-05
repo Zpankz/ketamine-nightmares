@@ -13,8 +13,7 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
-      "nociception_process"
+      "organ_system_process"
     ],
     "explanatory_schema": []
   },
@@ -121,24 +120,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7739267106084753,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5650997052691267,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2010A08 Classify\ndrugs used in the treatment of depression.\nOutline the interactions between anti-depressant drugs and drugs that are\ncommonly used in the peri-operative period.\nAvoid serotonergic dru",
-            "score": 0.7739267106084753,
+            "score": 0.5650997052691267,
             "start": 0,
             "end": 939
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5275086346145178,
+        "score": 0.35993111843774905,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2010A08 Classify\ndrugs used in the treatment of depression.\nOutline the interactions between anti-depressant drugs and drugs that are\ncommonly used in the peri-operative period.\nAvoid serotonergic dru",
-            "score": 0.5275086346145178,
+            "score": 0.35993111843774905,
             "start": 0,
             "end": 939
           }
@@ -157,12 +156,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.14427099224346063,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.8261607538867555,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2010A08 Classify\ndrugs used in the treatment of depression.\nOutline the interactions between anti-depressant drugs and drugs that are\ncommonly used in the peri-operative period.\nAvoid serotonergic dru",
-            "score": 0.14427099224346063,
+            "score": 0.8261607538867555,
             "start": 0,
             "end": 939
           }
@@ -181,24 +180,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.19712031304111735,
+        "score": 0.10601355011071832,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2010A08 Classify\ndrugs used in the treatment of depression.\nOutline the interactions between anti-depressant drugs and drugs that are\ncommonly used in the peri-operative period.\nAvoid serotonergic dru",
-            "score": 0.19712031304111735,
+            "score": 0.10601355011071832,
             "start": 0,
             "end": 939
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7511506289456575,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10601355011071832,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2010A08 Classify\ndrugs used in the treatment of depression.\nOutline the interactions between anti-depressant drugs and drugs that are\ncommonly used in the peri-operative period.\nAvoid serotonergic dru",
-            "score": 0.7511506289456575,
+            "score": 0.10601355011071832,
             "start": 0,
             "end": 939
           }
@@ -218,7 +217,7 @@
       },
       "equipment_and_physics": {
         "score": 0.10753089785761477,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2010A08 Classify\ndrugs used in the treatment of depression.\nOutline the interactions between anti-depressant drugs and drugs that are\ncommonly used in the peri-operative period.\nAvoid serotonergic dru",
@@ -229,12 +228,12 @@
         ]
       },
       "special_population_role": {
-        "score": 0.15417787288657336,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.11320527503558757,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2010A08 Classify\ndrugs used in the treatment of depression.\nOutline the interactions between anti-depressant drugs and drugs that are\ncommonly used in the peri-operative period.\nAvoid serotonergic dru",
-            "score": 0.15417787288657336,
+            "score": 0.11320527503558757,
             "start": 0,
             "end": 939
           }
@@ -243,12 +242,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.5892769103016402,
+        "score": 0.5261188328624333,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2010A08 Classify\ndrugs used in the treatment of depression.\nOutline the interactions between anti-depressant drugs and drugs that are\ncommonly used in the peri-operative period.\nAvoid serotonergic dru",
-            "score": 0.5892769103016402,
+            "score": 0.5261188328624333,
             "start": 0,
             "end": 939
           }

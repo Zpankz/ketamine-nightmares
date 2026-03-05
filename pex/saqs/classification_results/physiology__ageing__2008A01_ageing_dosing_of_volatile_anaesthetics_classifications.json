@@ -15,16 +15,8 @@
         "integrative"
       ]
     },
-    "content_dimensions": [
-      "equipment_and_physics",
-      "nociception_process",
-      "special_population_role",
-      "neuromuscular_process",
-      "organ_system_process"
-    ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "content_dimensions": [],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -177,38 +169,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4557597662151233,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.2045179371314406,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "I\nMetabolism\n·\n↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive acti",
-            "score": 0.4557597662151233,
-            "start": 1340,
+            "text": "↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive activation\nof ARAS ",
+            "score": 0.2045179371314406,
+            "start": 1355,
             "end": 1967
           },
           {
             "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
-            "score": 0.1891669165469514,
+            "score": 0.18632263173984007,
             "start": 0,
-            "end": 1339
+            "end": 1354
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.34909208721121826,
+        "score": 0.5299564443353317,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "F\nA\n/F\nI\nMetabolism\n·\n↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nocicepti",
-            "score": 0.34909208721121826,
-            "start": 1333,
+            "text": "/F\nI\nMetabolism\n·\n↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive a",
+            "score": 0.5299564443353317,
+            "start": 1337,
             "end": 1967
           },
           {
             "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
-            "score": 0.2159118422576255,
+            "score": 0.2543072934579991,
             "start": 0,
-            "end": 1332
+            "end": 1336
           }
         ]
       },
@@ -231,18 +223,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.6548179104669112,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.22370484839267127,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
-            "score": 0.6548179104669112,
+            "score": 0.22370484839267127,
             "start": 0,
             "end": 1354
           },
           {
             "text": "↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive activation\nof ARAS ",
-            "score": 0.619048002789677,
+            "score": 0.2166840731768605,
             "start": 1355,
             "end": 1967
           }
@@ -267,38 +259,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6733856664536741,
+        "score": 0.43182907744420557,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "/F\nI\nMetabolism\n·\n↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive a",
-            "score": 0.6733856664536741,
-            "start": 1337,
+            "text": "↓Muscle mass ↑rate of rise\nF\nA\n/F\nI\nMetabolism\n·\n↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpin",
+            "score": 0.43182907744420557,
+            "start": 1306,
             "end": 1967
           },
           {
             "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
-            "score": 0.31926121628175463,
+            "score": 0.15671722015798292,
             "start": 0,
-            "end": 1336
+            "end": 1305
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8599380954981706,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.14487848470578973,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Metabolism\n·\n↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive activa",
-            "score": 0.8599380954981706,
-            "start": 1342,
-            "end": 1967
+            "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
+            "score": 0.14487848470578973,
+            "start": 0,
+            "end": 1354
           },
           {
-            "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
-            "score": 0.7902092136687209,
-            "start": 0,
-            "end": 1341
+            "text": "↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive activation\nof ARAS ",
+            "score": 0.13015328625585776,
+            "start": 1355,
+            "end": 1967
           }
         ]
       },
@@ -321,58 +313,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9056682900229793,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.20752148144486066,
+        "description": "Named equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "I\nMetabolism\n·\n↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive acti",
+            "score": 0.20752148144486066,
+            "start": 1340,
+            "end": 1967
+          },
+          {
+            "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
+            "score": 0.14487848470578973,
+            "start": 0,
+            "end": 1339
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.24016747383683887,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive activation\nof ARAS ",
-            "score": 0.9056682900229793,
+            "score": 0.24016747383683887,
             "start": 1355,
             "end": 1967
           },
           {
             "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
-            "score": 0.2820813113627648,
+            "score": 0.19785291387817477,
             "start": 0,
             "end": 1354
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.6802665876579223,
-        "description": "Population-specific considerations (BFO: role)",
-        "top_chunks": [
-          {
-            "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
-            "score": 0.6802665876579223,
-            "start": 0,
-            "end": 1341
-          },
-          {
-            "text": "Metabolism\n·\n↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive activa",
-            "score": 0.5429664684194958,
-            "start": 1342,
-            "end": 1967
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6905831643668621,
+        "score": 0.2897033101294102,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
-            "score": 0.6905831643668621,
-            "start": 0,
-            "end": 1354
-          },
-          {
             "text": "↓Liver enzymatic activity -> ↓rate\nof consumption -> ↑rate of rise\nF\nA\n/F\nI\nExcretion\n·\nN/A\nAnaesthetic and surgical\nfactors:\ne.g. fractured NOF\n·\nSpinal anaesthetic-> ↓nociceptive activation\nof ARAS ",
-            "score": 0.30570328895109333,
+            "score": 0.2897033101294102,
             "start": 1355,
             "end": 1967
+          },
+          {
+            "text": "2008A01 An 80 year old woman is\nundergoing major emergency surgery.\nDescribe the maintenance inhaled concentration of sevoflurane you\nwould choose\nand the factors that might influence this.\nList:\n·\nIn",
+            "score": 0.21901020621216397,
+            "start": 0,
+            "end": 1354
           }
         ]
       },

@@ -15,17 +15,14 @@
       "score": 0.6645161572457111
     },
     "content_dimensions": [
-      "special_population_role",
-      "organ_system_process",
-      "equipment_and_physics",
-      "nociception_process",
-      "autonomic_disposition",
       "neuromuscular_process",
       "gas_exchange_process",
-      "drug_receptor_disposition"
+      "organ_system_process",
+      "drug_receptor_disposition",
+      "equipment_and_physics",
+      "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link",
       "homeostatic_regulation"
     ]
@@ -181,38 +178,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6218237196380381,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7332913519466231,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShivering (if not paralysed)\no\nHypo",
+            "score": 0.7332913519466231,
+            "start": 1303,
+            "end": 2182
+          },
+          {
+            "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
+            "score": 0.3254234590270125,
+            "start": 0,
+            "end": 1302
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.7057669747667892,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Mainly premature neonates\no\n↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShiveri",
-            "score": 0.6218237196380381,
+            "score": 0.7057669747667892,
             "start": 1275,
             "end": 2182
           },
           {
             "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
-            "score": 0.27808680603957303,
+            "score": 0.21745787821628798,
             "start": 0,
             "end": 1274
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.8464530360558368,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "Respiratory depression:\no\nMainly premature neonates\no\n↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurologic",
-            "score": 0.8464530360558368,
-            "start": 1249,
-            "end": 2182
-          },
-          {
-            "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
-            "score": 0.46994434516819605,
-            "start": 0,
-            "end": 1248
           }
         ]
       },
@@ -235,20 +232,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9204490146302581,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7388888432424087,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShivering (if not paralysed)\no\nHypo",
-            "score": 0.9204490146302581,
-            "start": 1303,
+            "text": "o\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShivering (if not paralysed)\no\nHyporefl",
+            "score": 0.7388888432424087,
+            "start": 1307,
             "end": 2182
           },
           {
             "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
-            "score": 0.8628983115034754,
+            "score": 0.5626789571705862,
             "start": 0,
-            "end": 1302
+            "end": 1306
           }
         ]
       },
@@ -271,38 +268,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8057941557783673,
+        "score": 0.8302071599905412,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Mainly premature neonates\no\n↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShiveri",
-            "score": 0.8057941557783673,
-            "start": 1275,
+            "text": "·\nRespiratory depression:\no\nMainly premature neonates\no\n↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurolog",
+            "score": 0.8302071599905412,
+            "start": 1247,
             "end": 2182
           },
           {
             "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
-            "score": 0.17248408020698391,
+            "score": 0.5964901232308601,
             "start": 0,
-            "end": 1274
+            "end": 1246
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8489609916412006,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10702368540104822,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Mainly premature neonates\no\n↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShiveri",
-            "score": 0.8489609916412006,
-            "start": 1275,
-            "end": 2182
+            "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
+            "score": 0.10702368540104822,
+            "start": 0,
+            "end": 1308
           },
           {
-            "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
-            "score": 0.22135047558413734,
-            "start": 0,
-            "end": 1274
+            "text": "↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShivering (if not paralysed)\no\nHyporeflex",
+            "score": 0.10551062286445975,
+            "start": 1309,
+            "end": 2182
           }
         ]
       },
@@ -325,56 +322,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8782258243237235,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.721913193960427,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShivering (if not paralysed)\no\nHyporeflex",
-            "score": 0.8782258243237235,
-            "start": 1309,
+            "text": "Mainly premature neonates\no\n↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShiveri",
+            "score": 0.721913193960427,
+            "start": 1275,
             "end": 2182
           },
           {
             "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
-            "score": 0.7675423837290772,
+            "score": 0.22766004724276212,
             "start": 0,
-            "end": 1308
+            "end": 1274
           }
         ]
       },
       "special_population_role": {
-        "score": 0.9258815711281845,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.30063099459107706,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "o\n↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShivering (if not paralysed)\no\nHy",
-            "score": 0.9258815711281845,
-            "start": 1301,
+            "text": "↓RR\no\n↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShivering (if not paralysed)\no\nHypo",
+            "score": 0.30063099459107706,
+            "start": 1303,
             "end": 2182
           },
           {
             "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
-            "score": 0.8361695377043112,
+            "score": 0.2942330252332108,
             "start": 0,
-            "end": 1300
+            "end": 1302
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8545124702668796,
+        "score": 0.5233382200659535,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2021B12 Describe the effects of perioperative hypothermia. DO\nNOT discuss mechanisms of heat loss.\nHypothermia: core temp\n<36\n°C\nDirect effects:\nMetabolic rate\n·\n↓temp 1\n°\nC = ↓metabolic\nrate 7%\no\n↓Ra",
-            "score": 0.8545124702668796,
+            "score": 0.5233382200659535,
             "start": 0,
             "end": 1308
           },
           {
             "text": "↓Brainstem sensitivity to\nCO\n2\n·\nReduced oxygenation (and\n↑SvO\n2\n)\no\n↓Metabolic rate ->\n↓VO\n2\no\nLeft shift OHDC -> ↓tissue uptake\nNeurological\n·\nPeripheral:\no\nShivering (if not paralysed)\no\nHyporeflex",
-            "score": 0.8275159197930162,
+            "score": 0.24635176452375257,
             "start": 1309,
             "end": 2182
           }

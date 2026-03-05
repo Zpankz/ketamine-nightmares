@@ -14,8 +14,7 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
-      "nociception_process"
+      "drug_receptor_disposition"
     ],
     "explanatory_schema": []
   },
@@ -170,36 +169,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9075376276990179,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8809441529008322,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.9075376276990179,
+            "score": 0.8809441529008322,
             "start": 0,
-            "end": 1261
+            "end": 1316
           },
           {
-            "text": "GIT: abdo pain, nausea/vomiting, diarrhoea\nTreatment\n·\nCyproheptadine\n·\nSupportive",
-            "score": 0.3393497630955322,
-            "start": 1262,
+            "text": "Cyproheptadine\n·\nSupportive",
+            "score": 0.21901020621216397,
+            "start": 1317,
             "end": 1344
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5065012608613627,
+        "score": 0.33379821867756226,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.5065012608613627,
+            "score": 0.33379821867756226,
             "start": 0,
             "end": 1261
           },
           {
             "text": "GIT: abdo pain, nausea/vomiting, diarrhoea\nTreatment\n·\nCyproheptadine\n·\nSupportive",
-            "score": 0.2197887268753907,
+            "score": 0.2159118422576255,
             "start": 1262,
             "end": 1344
           }
@@ -224,20 +223,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.2397582368620805,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5377115400553806,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.2397582368620805,
-            "start": 0,
-            "end": 1316
-          },
-          {
             "text": "Cyproheptadine\n·\nSupportive",
-            "score": 0.10401037605283608,
+            "score": 0.5377115400553806,
             "start": 1317,
             "end": 1344
+          },
+          {
+            "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
+            "score": 0.47249136538548214,
+            "start": 0,
+            "end": 1316
           }
         ]
       },
@@ -260,38 +259,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.25557578676432086,
+        "score": 0.3478683694621166,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.25557578676432086,
+            "score": 0.3478683694621166,
             "start": 0,
             "end": 1261
           },
           {
             "text": "GIT: abdo pain, nausea/vomiting, diarrhoea\nTreatment\n·\nCyproheptadine\n·\nSupportive",
-            "score": 0.20302569007096166,
+            "score": 0.13828116177283872,
             "start": 1262,
             "end": 1344
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7610590891728439,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.21207433610868814,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "GIT: abdo pain, nausea/vomiting, diarrhoea\nTreatment\n·\nCyproheptadine\n·\nSupportive",
-            "score": 0.7610590891728439,
-            "start": 1262,
+            "text": "·\nSupportive",
+            "score": 0.21207433610868814,
+            "start": 1332,
             "end": 1344
           },
           {
             "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.6712374204898592,
+            "score": 0.09622297710488378,
             "start": 0,
-            "end": 1261
+            "end": 1331
           }
         ]
       },
@@ -314,50 +313,50 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.42017440115492827,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.23487730064457382,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "·\nSupportive",
-            "score": 0.42017440115492827,
-            "start": 1332,
+            "text": "GIT: abdo pain, nausea/vomiting, diarrhoea\nTreatment\n·\nCyproheptadine\n·\nSupportive",
+            "score": 0.23487730064457382,
+            "start": 1262,
             "end": 1344
           },
           {
             "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.0825659981021378,
+            "score": 0.0874334962984957,
             "start": 0,
-            "end": 1331
+            "end": 1261
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3112812780886453,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.15354696394416326,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Treatment\n·\nCyproheptadine\n·\nSupportive",
-            "score": 0.3112812780886453,
-            "start": 1305,
+            "text": "Cyproheptadine\n·\nSupportive",
+            "score": 0.15354696394416326,
+            "start": 1317,
             "end": 1344
           },
           {
             "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.13015328625585776,
+            "score": 0.1010480871715535,
             "start": 0,
-            "end": 1304
+            "end": 1316
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.5592725814580549,
+        "score": 0.22449276740188667,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.5592725814580549,
+            "score": 0.22449276740188667,
             "start": 0,
             "end": 1344
           }
@@ -400,18 +399,18 @@
         ]
       },
       "structure_function_link": {
-        "score": 0.271056192837134,
+        "score": 0.27897201595542515,
         "description": "Structure → function → dysfunction pattern",
         "top_chunks": [
           {
             "text": "·\nSupportive",
-            "score": 0.271056192837134,
+            "score": 0.27897201595542515,
             "start": 1332,
             "end": 1344
           },
           {
             "text": "2009A07 Outline\nthe subtypes of serotonin (5-hydroxytryptamine) receptors.\nDiscuss pharmacological agents that act at these sites.\nList:\n·\nIntro\n·\nSerotonergic drugs\n·\nSerotonin syndrome\nIntro:\n·\nMono",
-            "score": 0.2667086480533769,
+            "score": 0.2662758837757481,
             "start": 0,
             "end": 1331
           }

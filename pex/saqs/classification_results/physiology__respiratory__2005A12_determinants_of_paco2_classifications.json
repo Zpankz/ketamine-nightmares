@@ -17,17 +17,14 @@
       ]
     },
     "content_dimensions": [
-      "equipment_and_physics",
-      "nociception_process",
       "gas_exchange_process",
+      "equipment_and_physics",
+      "drug_receptor_disposition",
       "organ_system_process",
-      "neuromuscular_process",
       "acid_base_quality",
-      "special_population_role",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link",
       "homeostatic_regulation"
     ]
@@ -131,12 +128,12 @@
         ]
       },
       "applied_clinical": {
-        "score": 0.7528172106649723,
+        "score": 0.7532329121402825,
         "description": "Apply knowledge to clinical scenarios",
         "top_chunks": [
           {
             "text": "↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergistic)\n↓RR ",
-            "score": 0.7528172106649723,
+            "score": 0.7532329121402825,
             "start": 1062,
             "end": 2339
           },
@@ -231,50 +228,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5565178201613284,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.842003665418452,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "T\n– V\nD\n)\n↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergi",
-            "score": 0.5565178201613284,
-            "start": 1052,
-            "end": 2304
+            "text": "↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergistic)\n↓RR ",
+            "score": 0.842003665418452,
+            "start": 1062,
+            "end": 2324
           },
           {
-            "text": ":CaCO\n2\n-> i.e. ↓ K\nHaldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence ",
-            "score": 0.4279799956070524,
-            "start": 2305,
+            "text": "Haldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence better buffer\nFeedba",
+            "score": 0.3335577019344474,
+            "start": 2325,
             "end": 2567
           },
           {
             "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
-            "score": 0.21901020621216397,
+            "score": 0.24428082950380803,
             "start": 0,
-            "end": 1051
+            "end": 1061
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.6835655004032701,
+        "score": 0.6840355376775101,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "= RR x (V\nT\n– V\nD\n)\n↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(al",
-            "score": 0.6835655004032701,
+            "score": 0.6840355376775101,
             "start": 1042,
             "end": 2274
           },
           {
-            "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
-            "score": 0.1870313090838101,
-            "start": 0,
-            "end": 1041
-          },
-          {
             "text": "↓T -> ↑solubility -> ↓ PaCO\n2\n:CaCO\n2\n-> i.e. ↓ K\nHaldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑",
-            "score": 0.18140657479987835,
+            "score": 0.23245761627092265,
             "start": 2275,
             "end": 2567
+          },
+          {
+            "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
+            "score": 0.21745787821628798,
+            "start": 0,
+            "end": 1041
           }
         ]
       },
@@ -303,26 +300,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8477101477321045,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.8407182470171375,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergistic)\n↓RR ",
-            "score": 0.8477101477321045,
+            "score": 0.8407182470171375,
             "start": 1062,
             "end": 2324
           },
           {
-            "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
-            "score": 0.8086831144625273,
-            "start": 0,
-            "end": 1061
-          },
-          {
             "text": "Haldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence better buffer\nFeedba",
-            "score": 0.08788394835920724,
+            "score": 0.36938951788133617,
             "start": 2325,
             "end": 2567
+          },
+          {
+            "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
+            "score": 0.3544960170208435,
+            "start": 0,
+            "end": 1061
           }
         ]
       },
@@ -351,50 +348,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8368240975336038,
+        "score": 0.38373425311242626,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "= RR x (V\nT\n– V\nD\n)\n↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(al",
-            "score": 0.8368240975336038,
-            "start": 1042,
-            "end": 2274
+            "text": "V\nA\n= RR x (V\nT\n– V\nD\n)\n↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-",
+            "score": 0.38373425311242626,
+            "start": 1038,
+            "end": 2272
+          },
+          {
+            "text": "·\n↓T -> ↑solubility -> ↓ PaCO\n2\n:CaCO\n2\n-> i.e. ↓ K\nHaldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to",
+            "score": 0.30063099459107706,
+            "start": 2273,
+            "end": 2567
           },
           {
             "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
-            "score": 0.17113527946174648,
+            "score": 0.24428082950380803,
             "start": 0,
-            "end": 1041
-          },
-          {
-            "text": "↓T -> ↑solubility -> ↓ PaCO\n2\n:CaCO\n2\n-> i.e. ↓ K\nHaldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑",
-            "score": 0.10957409746514832,
-            "start": 2275,
-            "end": 2567
+            "end": 1037
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9080015537651265,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.12232229789744709,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "– V\nD\n)\n↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergist",
-            "score": 0.9080015537651265,
-            "start": 1054,
-            "end": 2304
+            "text": "T\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergistic)\n↓RR or V\nT\n·\n",
+            "score": 0.12232229789744709,
+            "start": 1071,
+            "end": 2349
           },
           {
-            "text": ":CaCO\n2\n-> i.e. ↓ K\nHaldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence ",
-            "score": 0.22845576096855297,
-            "start": 2305,
+            "text": "/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence better buffer\nFeedback welcome\nat\nketaminenig",
+            "score": 0.10651790355261252,
+            "start": 2350,
             "end": 2567
           },
           {
             "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
-            "score": 0.17046326482945487,
+            "score": 0.09199844623487359,
             "start": 0,
-            "end": 1053
+            "end": 1070
           }
         ]
       },
@@ -423,49 +420,49 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9503160007817602,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8502055766542939,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "T\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergistic)\n↓RR or V\nT\n·\n",
-            "score": 0.9503160007817602,
-            "start": 1071,
-            "end": 2349
+            "text": "T\n– V\nD\n)\n↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergi",
+            "score": 0.8502055766542939,
+            "start": 1052,
+            "end": 2302
           },
           {
             "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
-            "score": 0.6800303748388085,
+            "score": 0.2820813113627648,
             "start": 0,
-            "end": 1070
+            "end": 1051
           },
           {
-            "text": "/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence better buffer\nFeedback welcome\nat\nketaminenig",
-            "score": 0.5273432005801945,
-            "start": 2350,
+            "text": "2\n:CaCO\n2\n-> i.e. ↓ K\nHaldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  henc",
+            "score": 0.27456010762145544,
+            "start": 2303,
             "end": 2567
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7594229068755323,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.4248539367855912,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "– V\nD\n)\n↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergist",
-            "score": 0.7594229068755323,
-            "start": 1054,
-            "end": 2310
-          },
-          {
             "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
-            "score": 0.5183036218524101,
+            "score": 0.4248539367855912,
             "start": 0,
-            "end": 1053
+            "end": 1061
           },
           {
-            "text": "2\n-> i.e. ↓ K\nHaldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence better",
-            "score": 0.299713016871073,
-            "start": 2311,
+            "text": "↑RR or V\nT\n·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergistic)\n↓RR ",
+            "score": 0.31408742677824225,
+            "start": 1062,
+            "end": 2324
+          },
+          {
+            "text": "Haldane effect\n·\n↓ PaO\n2\n/SaO\n2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence better buffer\nFeedba",
+            "score": 0.14548752973312049,
+            "start": 2325,
             "end": 2567
           }
         ]
@@ -473,24 +470,24 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7630956969060682,
+        "score": 0.3754072391217847,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "·\nCNS: pain, anxiety, pregnancy (progesterone)\n·\nHypoxia (synergistic with ↑PaCO\n2\nat\n  peripheral chemoreceptors)\n·\nMetabolic acidosis: PaCO\n2\n= 8 + 1.5\n  x HCO\n3\n-\n(also synergistic)\n↓RR or V\nT\n·\nDr",
-            "score": 0.7630956969060682,
+            "score": 0.3754072391217847,
             "start": 1073,
             "end": 2354
           },
           {
             "text": "2005A12 Describe\nthe physiological factors influencing the carbon dioxide tension in arterial\nblood.\nList:\n·\nIntro\n·\n↑↓VCO\n2\n·\n↑↓V\nA\n·\nControl of V\nA\n·\n↑↓K\nIntro:\nCO2 homeostasis\n·\nCO\n2\nis produced by",
-            "score": 0.7298162018891967,
+            "score": 0.326852731551074,
             "start": 0,
             "end": 1072
           },
           {
             "text": "2\n-> ↑Hb\n  affinity for CO\n2\n-> ↓PaCO2:CaCO\n2\n·\n70% of increment due to ↑carbamino formation\n·\n30% of increment due to ↑pKa imidazoles to 8.2\n  hence better buffer\nFeedback welcome\nat\nketaminenightmar",
-            "score": 0.1752007806948695,
+            "score": 0.1638304622956888,
             "start": 2355,
             "end": 2567
           }

@@ -14,15 +14,11 @@
     },
     "content_dimensions": [
       "equipment_and_physics",
-      "nociception_process",
       "drug_receptor_disposition",
-      "organ_system_process",
       "acid_base_quality",
-      "neuromuscular_process"
+      "autonomic_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -175,38 +171,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9349775352525835,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7594229068755323,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↓ASM\n  reactivity\n·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax A",
-            "score": 0.9349775352525835,
-            "start": 1183,
-            "end": 2023
+            "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
+            "score": 0.7594229068755323,
+            "start": 0,
+            "end": 1200
           },
           {
-            "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.8199836526412851,
-            "start": 0,
-            "end": 1182
+            "text": "·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax ASM\n·\nUse:\n  mainta",
+            "score": 0.6375883443170607,
+            "start": 1201,
+            "end": 2023
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5349143787983943,
+        "score": 0.6565230953374931,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  secretion\n·\n↓ASM\n  reactivity\n·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca",
-            "score": 0.5349143787983943,
-            "start": 1169,
+            "text": "·\n↓ASM\n  reactivity\n·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax",
+            "score": 0.6565230953374931,
+            "start": 1181,
             "end": 2023
           },
           {
             "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.29151113040950316,
+            "score": 0.16912400446358591,
             "start": 0,
-            "end": 1168
+            "end": 1180
           }
         ]
       },
@@ -229,20 +225,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8830921926068878,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4169317822673183,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax ASM\n·\nUse:\n  mainta",
-            "score": 0.8830921926068878,
-            "start": 1201,
+            "text": "Short\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax ASM\n·\nUse:\n  maintain",
+            "score": 0.4169317822673183,
+            "start": 1203,
             "end": 2023
           },
           {
             "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.7928553495750819,
+            "score": 0.40055728830355014,
             "start": 0,
-            "end": 1200
+            "end": 1202
           }
         ]
       },
@@ -265,38 +261,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.698909522648282,
+        "score": 0.2509410724842214,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  secretion\n·\n↓ASM\n  reactivity\n·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca",
-            "score": 0.698909522648282,
-            "start": 1169,
+            "text": "↓Mucous\n  secretion\n·\n↓ASM\n  reactivity\n·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibi",
+            "score": 0.2509410724842214,
+            "start": 1161,
             "end": 2023
           },
           {
             "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.18774158236383576,
+            "score": 0.2492669590277905,
             "start": 0,
-            "end": 1168
+            "end": 1160
           }
         ]
       },
       "nociception_process": {
-        "score": 0.944852730826249,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08698437799387108,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓ASM\n  reactivity\n·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax A",
-            "score": 0.944852730826249,
-            "start": 1183,
-            "end": 2023
+            "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
+            "score": 0.08698437799387108,
+            "start": 0,
+            "end": 1208
           },
           {
-            "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.7016614724149135,
-            "start": 0,
-            "end": 1182
+            "text": "  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax ASM\n·\nUse:\n  maintain sedat",
+            "score": 0.07576714551953342,
+            "start": 1209,
+            "end": 2023
           }
         ]
       },
@@ -319,58 +315,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.96337361988473,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8021470861218252,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax ASM\n·\nUse:\n  maintain sedat",
-            "score": 0.96337361988473,
-            "start": 1209,
+            "text": "·\n↓ASM\n  reactivity\n·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax",
+            "score": 0.8021470861218252,
+            "start": 1181,
             "end": 2023
           },
           {
             "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.2197887268753907,
+            "score": 0.2598282226097282,
             "start": 0,
-            "end": 1208
+            "end": 1180
           }
         ]
       },
       "special_population_role": {
-        "score": 0.2585486061251438,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.12732266681585389,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "↓ASM\n  reactivity\n·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax A",
-            "score": 0.2585486061251438,
-            "start": 1183,
-            "end": 2023
+            "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
+            "score": 0.12732266681585389,
+            "start": 0,
+            "end": 1200
           },
           {
-            "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.1573559898347826,
-            "start": 0,
-            "end": 1182
+            "text": "·\nShort\n  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax ASM\n·\nUse:\n  mainta",
+            "score": 0.09480246485705024,
+            "start": 1201,
+            "end": 2023
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8394265174382769,
+        "score": 0.19059863367246443,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.8394265174382769,
-            "start": 0,
-            "end": 1208
-          },
-          {
             "text": "  term: insomnia, anxiety, depression, psychosis, ↑BSL if diabetic\n·\nLong\n  term: T2DM, osteoporosis, immunodeficiency\nVolatile anaesthetic INH\n·\nInhibit\n  L-Ca\n2+\n-> relax ASM\n·\nUse:\n  maintain sedat",
-            "score": 0.7647180686578468,
+            "score": 0.19059863367246443,
             "start": 1209,
             "end": 2023
+          },
+          {
+            "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
+            "score": 0.18491006489830478,
+            "start": 0,
+            "end": 1208
           }
         ]
       },
@@ -386,7 +382,7 @@
           },
           {
             "text": "2014A06 Outline\nthe pharmacological management of bronchoconstriction in acute severe asthma.\nInclude mechanisms of action and potential adverse effects.\nList:\n·\nAsthma pathophysiology\n·\nMedication ta",
-            "score": 0.19420584422163265,
+            "score": 0.19131688553747267,
             "start": 0,
             "end": 1208
           }

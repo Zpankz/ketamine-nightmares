@@ -13,10 +13,11 @@
       "score": 0.6101733422876816
     },
     "content_dimensions": [
-      "pharmacokinetic_process"
+      "drug_receptor_disposition",
+      "pharmacokinetic_process",
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -171,38 +172,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.37289583552234257,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8199836526412851,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Mechanism: e.g. phosphoric acid\n·\nHPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcre",
-            "score": 0.37289583552234257,
-            "start": 1267,
+            "text": "HPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcretion\nAmmonium\nproduction:\nSource\n·",
+            "score": 0.8199836526412851,
+            "start": 1301,
             "end": 2078
           },
           {
             "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
-            "score": 0.14671028264551744,
+            "score": 0.1554444021999438,
             "start": 0,
-            "end": 1266
+            "end": 1300
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.24510806609584046,
+        "score": 0.14185652155095707,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "mol/day; minimal ↑ in acidosis)\nMechanism: e.g. phosphoric acid\n·\nHPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n ",
-            "score": 0.24510806609584046,
-            "start": 1235,
-            "end": 2078
+            "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
+            "score": 0.14185652155095707,
+            "start": 0,
+            "end": 1266
           },
           {
-            "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
-            "score": 0.20153979982073553,
-            "start": 0,
-            "end": 1234
+            "text": "Mechanism: e.g. phosphoric acid\n·\nHPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcre",
+            "score": 0.12397561162117983,
+            "start": 1267,
+            "end": 2078
           }
         ]
       },
@@ -225,20 +226,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.33596609221137813,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6690832173284544,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
-            "score": 0.33596609221137813,
-            "start": 0,
-            "end": 1300
+            "text": "4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcretion\nAmmonium\nproduction:\nSource\n·\n60%",
+            "score": 0.6690832173284544,
+            "start": 1305,
+            "end": 2078
           },
           {
-            "text": "HPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcretion\nAmmonium\nproduction:\nSource\n·",
-            "score": 0.10854962335430002,
-            "start": 1301,
-            "end": 2078
+            "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
+            "score": 0.18561555034757704,
+            "start": 0,
+            "end": 1304
           }
         ]
       },
@@ -261,38 +262,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.13534398140930778,
+        "score": 0.19131688553747267,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
-            "score": 0.13534398140930778,
-            "start": 0,
-            "end": 1266
+            "text": "mol/day; minimal ↑ in acidosis)\nMechanism: e.g. phosphoric acid\n·\nHPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n ",
+            "score": 0.19131688553747267,
+            "start": 1235,
+            "end": 2078
           },
           {
-            "text": "Mechanism: e.g. phosphoric acid\n·\nHPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcre",
-            "score": 0.11531222505249526,
-            "start": 1267,
-            "end": 2078
+            "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
+            "score": 0.18280318375806526,
+            "start": 0,
+            "end": 1234
           }
         ]
       },
       "nociception_process": {
-        "score": 0.24180824239107535,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08040593925404063,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Mechanism: e.g. phosphoric acid\n·\nHPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcre",
-            "score": 0.24180824239107535,
-            "start": 1267,
+            "text": "is filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcretion\nAmmonium\nproduction:\nSource\n·\n60%\n ",
+            "score": 0.08040593925404063,
+            "start": 1307,
             "end": 2078
           },
           {
             "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
-            "score": 0.13476114033048603,
+            "score": 0.07912544161184044,
             "start": 0,
-            "end": 1266
+            "end": 1306
           }
         ]
       },
@@ -315,37 +316,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.13828116177283872,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "is filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcretion\nAmmonium\nproduction:\nSource\n·\n60%\n ",
-            "score": 0.13828116177283872,
-            "start": 1307,
-            "end": 2078
-          },
-          {
-            "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
-            "score": 0.11959654819828813,
-            "start": 0,
-            "end": 1306
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.2879009466412548,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.10153827963475912,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
-            "score": 0.2879009466412548,
+            "score": 0.10153827963475912,
             "start": 0,
             "end": 1266
           },
           {
             "text": "Mechanism: e.g. phosphoric acid\n·\nHPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcre",
-            "score": 0.17794296815077074,
+            "score": 0.08387768404930426,
             "start": 1267,
+            "end": 2078
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.10753089785761477,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
+            "score": 0.10753089785761477,
+            "start": 0,
+            "end": 1300
+          },
+          {
+            "text": "HPO\n4\nis filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcretion\nAmmonium\nproduction:\nSource\n·",
+            "score": 0.10601355011071832,
+            "start": 1301,
             "end": 2078
           }
         ]
@@ -353,18 +354,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8086831144625273,
+        "score": 0.2798586332660812,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "is filtered by the glomerulus\n·\nH\n+\nsecreted by the PCT (Na\n+\n/H\n+\nantiport)\n·\nH\n2\nPO\n4\n<-> H\n+\n+ HPO\n4\n-\n(pKa 6.8)\n·\nAcidosis\n  -> ↓urine pH -> ↑H\n2\nPO\n4\nexcretion\nAmmonium\nproduction:\nSource\n·\n60%\n ",
-            "score": 0.8086831144625273,
+            "score": 0.2798586332660812,
             "start": 1307,
             "end": 2078
           },
           {
             "text": "2012A15 Describe\nthe role of the kidneys in excretion of acid.\nList:\n·\nSummary of acid excretion: flux, role, location\n·\nBicarbonate reabsorption\n·\nTitratable acid excretion\n·\nAmmonium\nSummary:\nAcid f",
-            "score": 0.6094097214905598,
+            "score": 0.14366505103412583,
             "start": 0,
             "end": 1306
           }

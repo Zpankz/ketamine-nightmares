@@ -1,0 +1,160 @@
+# Equipment And Physics
+
+BFO Category: bfo:material_entity
+Documents: 142
+
+## Documents
+
+- **other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm** — factual_recall | schemas: structure_function_link
+- **other/clinical_measurement/2004B11_oximetry.htm** — quantitative_reasoning | schemas: none
+- **other/clinical_measurement/2005A16_cardiac_output_monitoring_doppler_ultrasonography.htm** — quantitative_reasoning | schemas: none
+- **other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm** — comparative_analysis | schemas: homeostatic_regulation, dose_response_relationship
+- **other/clinical_measurement/2010A15_cardiac_output_monitoring_thermodilution.htm** — quantitative_reasoning | schemas: none
+- **other/clinical_measurement/2020B06_capnograph.htm** — applied_clinical | schemas: homeostatic_regulation, structure_function_link
+- **other/clinical_measurement/2021B05_pa_catheter_insertion.htm** — comparative_analysis | schemas: none
+- **other/equipment/2012A10_pneumotachographs.htm** — quantitative_reasoning | schemas: none
+- **other/equipment/2014A08_surgical_diathermy.htm** — applied_clinical | schemas: none
+- **other/equipment/2014B04_anaesthetic_gas_scavenging.htm** — applied_clinical | schemas: none
+- **other/equipment/2015B13_fuel_cell_and_paramagnetic_oxygen_analyser.htm** — applied_clinical | schemas: none
+- **other/equipment/2016A02_circle_breathing_system.htm** — applied_clinical | schemas: none
+- **other/equipment/2016B08_vacuum_insulated_evaporator.htm** — quantitative_reasoning | schemas: none
+- **other/equipment/2017A02_oxygen_delivery_devices.htm** — comparative_analysis | schemas: none
+- **other/equipment/2017B02_variable_bypass_vapouriser_function_and_accuracy.htm** — quantitative_reasoning | schemas: homeostatic_regulation
+- **other/equipment/2018A04_co2_absorbents_hazards.htm** — applied_clinical | schemas: none
+- **other/equipment/2019B05_variable_bypass_vapouriser_safety_features.htm** — applied_clinical | schemas: structure_function_link
+- **other/equipment/2020A12_bag_valve_mask.htm** — applied_clinical | schemas: none
+- **other/equipment/2020B13_arterial_line.htm** — applied_clinical | schemas: structure_function_link
+- **other/equipment/2021B13_oxygen_safety.htm** — factual_recall | schemas: none
+- **other/physics/2010B11_ultrasonography_physical_principles.htm** — quantitative_reasoning | schemas: none
+- **other/physics/2011A16_flow_physics.htm** — quantitative_reasoning | schemas: structure_function_link
+- **pharmacology/analgesics/2000A15_opioids_respiratory_effects.htm** — comparative_analysis | schemas: none
+- **pharmacology/analgesics/2008B04_ketamine_use_in_post_op_analgesia.htm** — comparative_analysis | schemas: none
+- **pharmacology/analgesics/2011A06_remifentanil.htm** — applied_clinical | schemas: none
+- **pharmacology/analgesics/2013B12_alfentanil_vs_fentanyl.htm** — comparative_analysis | schemas: dose_response_relationship
+- **pharmacology/analgesics/2018A05_opioids_therapeutic_and_adverse_effects.htm** — comparative_analysis | schemas: structure_function_link
+- **pharmacology/analgesics/2021A10_nsaids.htm** — applied_clinical | schemas: structure_function_link, homeostatic_regulation
+- **pharmacology/analgesics/2021B09_morphine_vs_fentanyl_pca.htm** — comparative_analysis | schemas: structure_function_link
+- **pharmacology/cardiovascular_drugs/2001A15_esmolol_vs_propranolol.htm** — comparative_analysis | schemas: none
+- **pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm** — mechanistic_explanation | schemas: homeostatic_regulation
+- **pharmacology/cardiovascular_drugs/2006B07_treatment_of_ventricular_fibrillation.htm** — comparative_analysis | schemas: homeostatic_regulation
+- **pharmacology/cardiovascular_drugs/2016A08_treatment_of_hypertension_in_pregnancy.htm** — comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation
+- **pharmacology/inhalational_anaesthetics/2000A09_volatile_anaesthetics_cardiovascular_effects.htm** — comparative_analysis | schemas: none
+- **pharmacology/inhalational_anaesthetics/2001B10_nitrous_oxide_adverse_effects.htm** — comparative_analysis | schemas: structure_function_link
+- **pharmacology/inhalational_anaesthetics/2010A03_desflurane_adverse_effects.htm** — comparative_analysis | schemas: structure_function_link
+- **pharmacology/inhalational_anaesthetics/2013C02_xenon_advantages_and_disadvantages.htm** — comparative_analysis | schemas: none
+- **pharmacology/inhalational_anaesthetics/2014B03_malignant_hyperthermia.htm** — applied_clinical | schemas: none
+- **pharmacology/inhalational_anaesthetics/2015A07_sevoflurane_effects_on_muscle.htm** — mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation
+- **pharmacology/inhalational_anaesthetics/2017B05_inhalational_anaesthetics_rate_of_onset.htm** — comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation
+- **pharmacology/inhalational_anaesthetics/2019A10_sevoflurane_regional_circulation_effects.htm** — comparative_analysis | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation
+- **pharmacology/intravenous_anaesthetics/1999A16_alpha_2_adrenoceptor_agonists.htm** — comparative_analysis | schemas: none
+- **pharmacology/intravenous_anaesthetics/2002A11_thiopentone_and_ketamine_non_cns_effects.htm** — mechanistic_explanation | schemas: none
+- **pharmacology/intravenous_anaesthetics/2007A04_propofol_tiva_vs_ketamine_tiva.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation
+- **pharmacology/intravenous_anaesthetics/2008A03_ideal_sedative.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship
+- **pharmacology/intravenous_anaesthetics/2008B03_clonidine.htm** — mechanistic_explanation | schemas: none
+- **pharmacology/intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm** — mechanistic_explanation | schemas: structure_function_link
+- **pharmacology/intravenous_anaesthetics/2012A07_ketamine_tiva.htm** — comparative_analysis | schemas: none
+- **pharmacology/intravenous_anaesthetics/2012B02_propofol_vs_sevoflurane_kinetics_cvs_and_cns_effects.htm** — comparative_analysis | schemas: structure_function_link
+- **pharmacology/intravenous_anaesthetics/2017B14_propofol_non_cns_effects.htm** — comparative_analysis | schemas: none
+- **pharmacology/intravenous_anaesthetics/2018A07_intravenous_induction_dosing_in_youth_old_age_and_shock.htm** — applied_clinical | schemas: dose_response_relationship, homeostatic_regulation
+- **pharmacology/intravenous_anaesthetics/2019A11_propofol_tci.htm** — comparative_analysis | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation
+- **pharmacology/intravenous_anaesthetics/2021B04_dexmedetomidine.htm** — comparative_analysis | schemas: none
+- **pharmacology/local_anaesthetics/2007A02_local_anaesthetics_neuraxial_pharmacokinetics.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation
+- **pharmacology/local_anaesthetics/2017A12_total_spinal_anaesthesia.htm** — comparative_analysis | schemas: structure_function_link, dose_response_relationship
+- **pharmacology/local_anaesthetics/2019B09_local_anaesthetics_rate_of_onset_and_offset.htm** — comparative_analysis | schemas: structure_function_link
+- **pharmacology/miscellaneous_drugs/2008B06_colloids.htm** — comparative_analysis | schemas: structure_function_link, dose_response_relationship
+- **pharmacology/miscellaneous_drugs/2014A06_bronchodilators.htm** — comparative_analysis | schemas: none
+- **pharmacology/miscellaneous_drugs/2014A13_normal_saline_vs_4pc_albumin.htm** — comparative_analysis | schemas: none
+- **pharmacology/miscellaneous_drugs/2019B10_effects_of_csl_infusion.htm** — comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation
+- **pharmacology/miscellaneous_drugs/2020B12_mannitol.htm** — quantitative_reasoning | schemas: homeostatic_regulation
+- **pharmacology/muscle_relaxants/2006B04_suxamethonium_vs_rocuronium_in_rapid_sequence_induction.htm** — quantitative_reasoning | schemas: dose_response_relationship, homeostatic_regulation, structure_function_link
+- **pharmacology/muscle_relaxants/2010B05_reversal_anticholinesterases.htm** — comparative_analysis | schemas: none
+- **pharmacology/muscle_relaxants/2016A04_non_depolarising_relaxants_adverse_effects.htm** — comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance
+- **pharmacology/muscle_relaxants/2016B10_reversal_neostigmine.htm** — comparative_analysis | schemas: structure_function_link
+- **pharmacology/muscle_relaxants/2018B04_suxamethonium_vs_rocuronium.htm** — comparative_analysis | schemas: dose_response_relationship
+- **physiology/acid_base/2013C13_acid_base_homeostasis_effects_of_hypothermia.htm** — quantitative_reasoning | schemas: homeostatic_regulation
+- **physiology/acid_base/2019A07_metabolic_acidosis_in_hypovolaemic_shock.htm** — quantitative_reasoning | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation
+- **physiology/acid_base/2021A14_metabolic_acidosis_physiological_response.htm** — comparative_analysis | schemas: homeostatic_regulation, structure_function_link
+- **physiology/ageing/2008B15_ageing_oxygen_delivery_during_exercise.htm** — comparative_analysis | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation
+- **physiology/ageing/2019A02_ageing_cardiovascular_effects.htm** — mechanistic_explanation | schemas: structure_function_link
+- **physiology/ageing/2020A15_ageing_respiratory_effects.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation
+- **physiology/cardiovascular/2002A04_pulmonary_vascular_resistance.htm** — quantitative_reasoning | schemas: none
+- **physiology/cardiovascular/2008B14_myocardial_oxygen_supply_and_demand_effect_of_aortic_stenosis.htm** — quantitative_reasoning | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation, mechanism_effect_relevance
+- **physiology/cardiovascular/2009B09_post_op_hypotension_causes.htm** — quantitative_reasoning | schemas: mechanism_effect_relevance
+- **physiology/cardiovascular/2010B10_myocardial_oxygen_supply_and_demand_determinants_of_coronary_blood_flow.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation
+- **physiology/cardiovascular/2013C16_isovolumic_haemodilution.htm** — quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship
+- **physiology/cardiovascular/2015A06_baroreceptors.htm** — applied_clinical | schemas: homeostatic_regulation, structure_function_link, dose_response_relationship
+- **physiology/cardiovascular/2015A14_venous_return_and_effect_of_general_anaesthesia.htm** — quantitative_reasoning | schemas: structure_function_link
+- **physiology/cardiovascular/2015B09_systemic_circulation_vs_pulmonary_circulation.htm** — quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship
+- **physiology/cardiovascular/2018B09_autonomic_innervation_of_the_heart.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation
+- **physiology/cardiovascular/2019B08_neuraxial_blockade_cardiovascular_effects.htm** — mechanistic_explanation | schemas: homeostatic_regulation, mechanism_effect_relevance
+- **physiology/cardiovascular/2019B11_pneumoperitoneum_cardiovascular_effects.htm** — quantitative_reasoning | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation, mechanism_effect_relevance
+- **physiology/cardiovascular/2020A08_cardiac_output_coupling.htm** — applied_clinical | schemas: structure_function_link, homeostatic_regulation
+- **physiology/cardiovascular/2020B01_haemorrhagic_shock_and_anaesthesia.htm** — mechanistic_explanation | schemas: homeostatic_regulation, structure_function_link, dose_response_relationship
+- **physiology/cardiovascular/2020B05_myocardial_oxygen_supply_and_demand_left_ventricle.htm** — quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation
+- **physiology/cardiovascular/2021A04_afterload_lv_vs_rv.htm** — quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation
+- **physiology/cardiovascular/2021B01_ippv_cardiac_output.htm** — comparative_analysis | schemas: homeostatic_regulation
+- **physiology/cellular/2011B09_prostaglandins.htm** — mechanistic_explanation | schemas: structure_function_link
+- **physiology/cellular/2018B15_prostaglandins_effects_on_smooth_muscle.htm** — mechanistic_explanation | schemas: none
+- **physiology/gastrointestinal/2003A10_determinants_of_hepatic_blood_flow_rate.htm** — quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation
+- **physiology/gastrointestinal/2015B12_lower_oesophageal_sphincter.htm** — comparative_analysis | schemas: structure_function_link
+- **physiology/immunology/2005A08_anaphylaxis.htm** — mechanistic_explanation | schemas: structure_function_link
+- **physiology/metabolism_and_endocrinology/2003A15_thyroid_hormones.htm** — mechanistic_explanation | schemas: structure_function_link
+- **physiology/metabolism_and_endocrinology/2008B10_sepsis.htm** — comparative_analysis | schemas: homeostatic_regulation, structure_function_link, dose_response_relationship
+- **physiology/metabolism_and_endocrinology/2018B12_glucose_homeostasis.htm** — comparative_analysis | schemas: homeostatic_regulation, dose_response_relationship, structure_function_link
+- **physiology/neonatology/2010B13_neonate_cardiovascular_changes_at_birth.htm** — quantitative_reasoning | schemas: homeostatic_regulation, structure_function_link
+- **physiology/neonatology/2013A11_neonate_respiratory_physiology.htm** — comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation
+- **physiology/neurophysiology/2003A12_cerebral_blood_flow_regulation_during_posture_change.htm** — applied_clinical | schemas: homeostatic_regulation, dose_response_relationship, structure_function_link
+- **physiology/neurophysiology/2009A09_determinants_of_intracranial_pressure.htm** — comparative_analysis | schemas: homeostatic_regulation, dose_response_relationship, structure_function_link
+- **physiology/neurophysiology/2009B14_cns_effects_of_hypercapnoea.htm** — quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship
+- **physiology/neurophysiology/2013B04_blood_brain_barrier.htm** — comparative_analysis | schemas: structure_function_link
+- **physiology/neurophysiology/2015B10_cns_effects_of_hypocapnoea.htm** — quantitative_reasoning | schemas: none
+- **physiology/neurophysiology/2016B06_determinants_of_spinal_cord_blood_flow.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation
+- **physiology/neurophysiology/2021B07_cerebral_blood_flow_regulation.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship
+- **physiology/obesity/2015B05_obesity_effect_on_rate_of_offset_of_inhalational_anaesthetics.htm** — comparative_analysis | schemas: structure_function_link, dose_response_relationship
+- **physiology/obesity/2017B06_obesity_respiratory_effects.htm** — quantitative_reasoning | schemas: dose_response_relationship, structure_function_link
+- **physiology/obesity/2018A02_obesity_cardiovascular_effects.htm** — comparative_analysis | schemas: structure_function_link
+- **physiology/obstetrics/2018B05_pregnancy_cardiovascular_effects.htm** — applied_clinical | schemas: mechanism_effect_relevance, dose_response_relationship
+- **physiology/obstetrics/2019A03_pregnancy_respiratory_effects.htm** — quantitative_reasoning | schemas: homeostatic_regulation, dose_response_relationship, mechanism_effect_relevance, structure_function_link
+- **physiology/renal/2001A07_total_body_water_homeostasis.htm** — mechanistic_explanation | schemas: homeostatic_regulation
+- **physiology/renal/2004B12_renin_angiotensin_system.htm** — quantitative_reasoning | schemas: structure_function_link
+- **physiology/renal/2006B11_hormonal_regulation_of_tubular_reabsorption.htm** — comparative_analysis | schemas: structure_function_link
+- **physiology/renal/2009A11_extracellular_fluid_volume_homeostasis.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation
+- **physiology/renal/2009B13_causes_of_oliguria_in_hypovolaemic_shock.htm** — comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link
+- **physiology/renal/2011B15_causes_of_oliguria_intra_operatively.htm** — applied_clinical | schemas: structure_function_link
+- **physiology/renal/2013B05_renal_regulation_of_total_body_water.htm** — mechanistic_explanation | schemas: none
+- **physiology/renal/2018A09_determinants_of_renal_blood_flow.htm** — mechanistic_explanation | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation
+- **physiology/renal/2018B08_functions_of_the_kidney.htm** — quantitative_reasoning | schemas: homeostatic_regulation
+- **physiology/renal/2020B04_urine_concentration_and_dilution.htm** — mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance
+- **physiology/respiratory/2005A12_determinants_of_paco2.htm** — comparative_analysis | schemas: structure_function_link, homeostatic_regulation
+- **physiology/respiratory/2005A13_non_respiratory_functions_of_the_lungs.htm** — mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation
+- **physiology/respiratory/2005B09_wests_zones_of_the_lungs.htm** — quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation
+- **physiology/respiratory/2007A09_venous_admixture.htm** — quantitative_reasoning | schemas: homeostatic_regulation
+- **physiology/respiratory/2010A09_mixed_venous_saturation.htm** — comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, dose_response_relationship, homeostatic_regulation
+- **physiology/respiratory/2010B12_muscles_involved_in_ventilation.htm** — applied_clinical | schemas: structure_function_link, homeostatic_regulation
+- **physiology/respiratory/2012B12_causes_of_post_op_hypoxaemia.htm** — applied_clinical | schemas: mechanism_effect_relevance, homeostatic_regulation
+- **physiology/respiratory/2013C09_cough_reflex.htm** — applied_clinical | schemas: structure_function_link
+- **physiology/respiratory/2014A04_rapid_sequence_induction_prevention_of_hypoxaemia.htm** — applied_clinical | schemas: dose_response_relationship, homeostatic_regulation
+- **physiology/respiratory/2015A02_carbon_dioxide_homeostasis.htm** — quantitative_reasoning | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation
+- **physiology/respiratory/2015A09_functional_residual_capacity.htm** — applied_clinical | schemas: homeostatic_regulation, structure_function_link
+- **physiology/respiratory/2015B03_thoracic_anaesthesia.htm** — quantitative_reasoning | schemas: homeostatic_regulation
+- **physiology/respiratory/2020A03_etco2_vs_paco2.htm** — applied_clinical | schemas: mechanism_effect_relevance, dose_response_relationship, structure_function_link
+- **physiology/respiratory/2021A15_response_to_hypoxaemia_awake_and_anaesthetised.htm** — comparative_analysis | schemas: structure_function_link, dose_response_relationship
+- **physiology/respiratory/2021B10_etco2_vs_paco2.htm** — comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, dose_response_relationship, homeostatic_regulation
+- **physiology/respiratory/2021B11_hypercapnoea.htm** — mechanistic_explanation | schemas: mechanism_effect_relevance, homeostatic_regulation
+- **physiology/special_physiology/2006A09_cardiovascular_response_to_exercise.htm** — comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation, mechanism_effect_relevance
+- **physiology/special_physiology/2009A16_high_altitude_physiology.htm** — applied_clinical | schemas: homeostatic_regulation, structure_function_link, dose_response_relationship
+- **physiology/special_physiology/2014B15_sleep_physiology.htm** — comparative_analysis | schemas: homeostatic_regulation
+- **physiology/thermoregulation/2008A10_thermoneutral_zone.htm** — applied_clinical | schemas: homeostatic_regulation, structure_function_link
+- **physiology/thermoregulation/2018A14_mechanisms_of_heat_transfer.htm** — quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation
+- **physiology/thermoregulation/2021B12_hypothermia.htm** — mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation
+
+## Co-occurring Dimensions
+
+- [drug_receptor_disposition](./drug_receptor_disposition.md): 89 shared documents
+- [organ_system_process](./organ_system_process.md): 80 shared documents
+- [neuromuscular_process](./neuromuscular_process.md): 73 shared documents
+- [gas_exchange_process](./gas_exchange_process.md): 64 shared documents
+- [autonomic_disposition](./autonomic_disposition.md): 64 shared documents
+- [acid_base_quality](./acid_base_quality.md): 57 shared documents
+- [pharmacokinetic_process](./pharmacokinetic_process.md): 44 shared documents
+- [special_population_role](./special_population_role.md): 14 shared documents

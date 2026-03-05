@@ -13,14 +13,12 @@
       ]
     },
     "content_dimensions": [
-      "special_population_role",
-      "nociception_process",
-      "organ_system_process",
       "drug_receptor_disposition",
-      "pharmacokinetic_process"
+      "pharmacokinetic_process",
+      "organ_system_process",
+      "neuromuscular_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -223,48 +221,48 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.774717751800841,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8407182470171375,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
-            "score": 0.774717751800841,
+            "score": 0.8407182470171375,
             "start": 1483,
-            "end": 2837
+            "end": 2892
           },
           {
-            "text": "  downregulation -> ↓effect\nIntracellular signalling\n·\nPolymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaes",
-            "score": 0.686849214693223,
-            "start": 2838,
+            "text": "Polymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaesia: e.g. ↑NMDA activity\nDrug interactions\n·\nAdditive:\n ",
+            "score": 0.5764471055871278,
+            "start": 2893,
             "end": 3690
           },
           {
             "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.36017889313608714,
+            "score": 0.30802184928481907,
             "start": 0,
             "end": 1482
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.3801943292522238,
+        "score": 0.4859385159732288,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
-            "score": 0.3801943292522238,
-            "start": 1483,
-            "end": 2837
-          },
-          {
             "text": "  downregulation -> ↓effect\nIntracellular signalling\n·\nPolymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaes",
-            "score": 0.27632062191629214,
+            "score": 0.4859385159732288,
             "start": 2838,
             "end": 3690
           },
           {
+            "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
+            "score": 0.2256775738341617,
+            "start": 1483,
+            "end": 2837
+          },
+          {
             "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.22291849253518664,
+            "score": 0.18071066347481568,
             "start": 0,
             "end": 1482
           }
@@ -295,24 +293,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8122584176361644,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.739316856023697,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
-            "score": 0.8122584176361644,
+            "score": 0.739316856023697,
             "start": 1483,
             "end": 2892
           },
           {
             "text": "Polymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaesia: e.g. ↑NMDA activity\nDrug interactions\n·\nAdditive:\n ",
-            "score": 0.7932317842083414,
+            "score": 0.7084888695904968,
             "start": 2893,
             "end": 3690
           },
           {
             "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.7598325261631611,
+            "score": 0.3437202978641945,
             "start": 0,
             "end": 1482
           }
@@ -343,50 +341,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.2803024686265447,
+        "score": 0.6616184083987072,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.2803024686265447,
-            "start": 0,
-            "end": 1482
+            "text": "↑Fat\n  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain bar",
+            "score": 0.6616184083987072,
+            "start": 1478,
+            "end": 2769
           },
           {
-            "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
-            "score": 0.2728052893640291,
-            "start": 1483,
-            "end": 2837
-          },
-          {
-            "text": "  downregulation -> ↓effect\nIntracellular signalling\n·\nPolymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaes",
-            "score": 0.21901020621216397,
-            "start": 2838,
+            "text": "  beta arrestin binds to phosphorylated carboxyl terminal in ICF ->\n  downregulation -> ↓effect\nIntracellular signalling\n·\nPolymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid u",
+            "score": 0.19203673272679375,
+            "start": 2770,
             "end": 3690
+          },
+          {
+            "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
+            "score": 0.18774158236383576,
+            "start": 0,
+            "end": 1477
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8814833755667059,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.14487848470578973,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
-            "score": 0.8814833755667059,
-            "start": 1483,
-            "end": 2865
-          },
-          {
             "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.8732389311266837,
+            "score": 0.14487848470578973,
             "start": 0,
-            "end": 1482
+            "end": 1555
           },
           {
-            "text": "Intracellular signalling\n·\nPolymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaesia: e.g. ↑NMDA activity\nDrug",
-            "score": 0.8611267965019573,
-            "start": 2866,
+            "text": "  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaesia: e.g. ↑NMDA activity\nDrug interactions\n·\nAdditive:\n  e.g. fentanyl + morphine\n·\nSynergistic:\n  e.g. fentanyl + ",
+            "score": 0.1100884956529356,
+            "start": 2952,
             "end": 3690
+          },
+          {
+            "text": "  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier deficiency -> ↑penetration/toxicity if\no\nHighly\n  ionized (e.g. morphine ",
+            "score": 0.08788394835920724,
+            "start": 1556,
+            "end": 2951
           }
         ]
       },
@@ -415,74 +413,74 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.13887320349804264,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.31081469123397315,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier deficiency -> ↑penetration/toxicity if\no\nHighly\n  ionized (e.g. morphine ",
-            "score": 0.13887320349804264,
-            "start": 1556,
-            "end": 2951
+            "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
+            "score": 0.31081469123397315,
+            "start": 1483,
+            "end": 2837
           },
           {
             "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.11478329593515615,
+            "score": 0.17863249993135413,
             "start": 0,
-            "end": 1555
+            "end": 1482
           },
           {
-            "text": "  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaesia: e.g. ↑NMDA activity\nDrug interactions\n·\nAdditive:\n  e.g. fentanyl + morphine\n·\nSynergistic:\n  e.g. fentanyl + ",
-            "score": 0.08924333203133303,
-            "start": 2952,
+            "text": "  downregulation -> ↓effect\nIntracellular signalling\n·\nPolymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaes",
+            "score": 0.15608002460238707,
+            "start": 2838,
             "end": 3690
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8959896239471639,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.4460797572074932,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
-            "score": 0.8959896239471639,
-            "start": 1483,
-            "end": 2865
-          },
-          {
-            "text": "Intracellular signalling\n·\nPolymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaesia: e.g. ↑NMDA activity\nDrug",
-            "score": 0.8213675000686458,
-            "start": 2866,
-            "end": 3690
-          },
-          {
             "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.7440006379023568,
+            "score": 0.4460797572074932,
             "start": 0,
             "end": 1482
+          },
+          {
+            "text": "  mass -> ↑accumulation of lipophilic drugs (e.g. fentanyl) -> ↑duration\n  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier ",
+            "score": 0.3309167826715455,
+            "start": 1483,
+            "end": 2892
+          },
+          {
+            "text": "Polymorphism\n  -> ↑↓amplification -> ↑↓effect\n·\nTolerance:\n  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaesia: e.g. ↑NMDA activity\nDrug interactions\n·\nAdditive:\n ",
+            "score": 0.264117519872506,
+            "start": 2893,
+            "end": 3690
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8028796869588828,
+        "score": 0.3977387423888966,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier deficiency -> ↑penetration/toxicity if\no\nHighly\n  ionized (e.g. morphine ",
-            "score": 0.8028796869588828,
-            "start": 1556,
-            "end": 2951
-          },
-          {
             "text": "  chronic opioid use -> upregulation of cAMP -> ↓effect\n·\nOpioid-induced\n  hyperalgaesia: e.g. ↑NMDA activity\nDrug interactions\n·\nAdditive:\n  e.g. fentanyl + morphine\n·\nSynergistic:\n  e.g. fentanyl + ",
-            "score": 0.7719422903055657,
+            "score": 0.3977387423888966,
             "start": 2952,
             "end": 3690
           },
           {
+            "text": "  of effect after long infusion\n·\n↑Muscle\n  mass -> ↑esterase activity -> ↓remifentanil duration\nBrain\n·\nBlood\n  brain barrier deficiency -> ↑penetration/toxicity if\no\nHighly\n  ionized (e.g. morphine ",
+            "score": 0.2758799607635588,
+            "start": 1556,
+            "end": 2951
+          },
+          {
             "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.5374572395637712,
+            "score": 0.271056192837134,
             "start": 0,
             "end": 1555
           }
@@ -554,7 +552,7 @@
           },
           {
             "text": "2007A03 Discuss\nfactors contributing to inter-individual variability in the therapeutic\nresponse to\nopioid analgesic medications.\nList:\n·\nIntro\n·\nPharmacokinetics: ADME\n·\nPharmacodynamics\nIntro:\nProbl",
-            "score": 0.13302177898555526,
+            "score": 0.13244504050607428,
             "start": 0,
             "end": 1482
           }

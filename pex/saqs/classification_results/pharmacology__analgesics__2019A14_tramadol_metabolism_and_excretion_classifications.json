@@ -14,7 +14,6 @@
     },
     "content_dimensions": [
       "pharmacokinetic_process",
-      "nociception_process",
       "drug_receptor_disposition"
     ],
     "explanatory_schema": []
@@ -122,24 +121,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6380849460374423,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7298162018891967,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2019A14 Describe\nthe metabolism and excretion of tramadol, including the\nimplications for clinical practice.\nList:\n·\nMetabolism\n·\nExcretion\n·\nPolymorphism\nMetabolism:\nRate\n·\nClearance 3.7mL/kg/min\n·\nt",
-            "score": 0.6380849460374423,
+            "score": 0.7298162018891967,
             "start": 0,
             "end": 1120
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.22766004724276212,
+        "score": 0.2467670878597175,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2019A14 Describe\nthe metabolism and excretion of tramadol, including the\nimplications for clinical practice.\nList:\n·\nMetabolism\n·\nExcretion\n·\nPolymorphism\nMetabolism:\nRate\n·\nClearance 3.7mL/kg/min\n·\nt",
-            "score": 0.22766004724276212,
+            "score": 0.2467670878597175,
             "start": 0,
             "end": 1120
           }
@@ -158,12 +157,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.46855561218445774,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4718627629253802,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2019A14 Describe\nthe metabolism and excretion of tramadol, including the\nimplications for clinical practice.\nList:\n·\nMetabolism\n·\nExcretion\n·\nPolymorphism\nMetabolism:\nRate\n·\nClearance 3.7mL/kg/min\n·\nt",
-            "score": 0.46855561218445774,
+            "score": 0.4718627629253802,
             "start": 0,
             "end": 1120
           }
@@ -182,24 +181,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.13534398140930778,
+        "score": 0.14917447507309806,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2019A14 Describe\nthe metabolism and excretion of tramadol, including the\nimplications for clinical practice.\nList:\n·\nMetabolism\n·\nExcretion\n·\nPolymorphism\nMetabolism:\nRate\n·\nClearance 3.7mL/kg/min\n·\nt",
-            "score": 0.13534398140930778,
+            "score": 0.14917447507309806,
             "start": 0,
             "end": 1120
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7590129055214236,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.12177417567627631,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2019A14 Describe\nthe metabolism and excretion of tramadol, including the\nimplications for clinical practice.\nList:\n·\nMetabolism\n·\nExcretion\n·\nPolymorphism\nMetabolism:\nRate\n·\nClearance 3.7mL/kg/min\n·\nt",
-            "score": 0.7590129055214236,
+            "score": 0.12177417567627631,
             "start": 0,
             "end": 1120
           }
@@ -218,24 +217,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.10351313129730201,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.12508529522455822,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2019A14 Describe\nthe metabolism and excretion of tramadol, including the\nimplications for clinical practice.\nList:\n·\nMetabolism\n·\nExcretion\n·\nPolymorphism\nMetabolism:\nRate\n·\nClearance 3.7mL/kg/min\n·\nt",
-            "score": 0.10351313129730201,
+            "score": 0.12508529522455822,
             "start": 0,
             "end": 1120
           }
         ]
       },
       "special_population_role": {
-        "score": 0.43699376516186605,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.14185652155095707,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2019A14 Describe\nthe metabolism and excretion of tramadol, including the\nimplications for clinical practice.\nList:\n·\nMetabolism\n·\nExcretion\n·\nPolymorphism\nMetabolism:\nRate\n·\nClearance 3.7mL/kg/min\n·\nt",
-            "score": 0.43699376516186605,
+            "score": 0.14185652155095707,
             "start": 0,
             "end": 1120
           }
@@ -244,12 +243,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.5513119561514523,
+        "score": 0.11112162501075684,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2019A14 Describe\nthe metabolism and excretion of tramadol, including the\nimplications for clinical practice.\nList:\n·\nMetabolism\n·\nExcretion\n·\nPolymorphism\nMetabolism:\nRate\n·\nClearance 3.7mL/kg/min\n·\nt",
-            "score": 0.5513119561514523,
+            "score": 0.11112162501075684,
             "start": 0,
             "end": 1120
           }

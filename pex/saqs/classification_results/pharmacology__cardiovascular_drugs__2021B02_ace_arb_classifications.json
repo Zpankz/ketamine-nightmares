@@ -13,14 +13,10 @@
       "score": 0.6111907975938285
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "organ_system_process",
-      "special_population_role",
-      "nociception_process"
+      "drug_receptor_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -173,37 +169,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9051975351429498,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.699369005408923,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.9051975351429498,
+            "score": 0.699369005408923,
             "start": 0,
-            "end": 1343
+            "end": 1377
           },
           {
-            "text": "(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.49847412510309314,
-            "start": 1344,
+            "text": "Renal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.6647571751274265,
+            "start": 1378,
             "end": 1499
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.44426980045009884,
+        "score": 0.5125365198034149,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.44426980045009884,
+            "score": 0.5125365198034149,
             "start": 0,
-            "end": 1313
+            "end": 1343
           },
           {
-            "text": "↓Aldosterone -> hyperkalaemia\n(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.12068239347016409,
-            "start": 1314,
+            "text": "(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.29605435248385387,
+            "start": 1344,
             "end": 1499
           }
         ]
@@ -227,20 +223,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8477101477321045,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7293801843123591,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Renal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.8477101477321045,
-            "start": 1378,
-            "end": 1499
-          },
-          {
             "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.7984602001792644,
+            "score": 0.7293801843123591,
             "start": 0,
             "end": 1377
+          },
+          {
+            "text": "Renal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.5042458375316092,
+            "start": 1378,
+            "end": 1499
           }
         ]
       },
@@ -263,38 +259,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.5242652342482007,
+        "score": 0.5363676372820895,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.5242652342482007,
+            "score": 0.5363676372820895,
             "start": 0,
-            "end": 1343
+            "end": 1313
           },
           {
-            "text": "(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.16779109893341812,
-            "start": 1344,
+            "text": "↓Aldosterone -> hyperkalaemia\n(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.2969670234089074,
+            "start": 1314,
             "end": 1499
           }
         ]
       },
       "nociception_process": {
-        "score": 0.6258491725725703,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.17383924611324467,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.6258491725725703,
-            "start": 0,
-            "end": 1343
+            "text": "(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.17383924611324467,
+            "start": 1416,
+            "end": 1499
           },
           {
-            "text": "(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.25178038205584335,
-            "start": 1344,
-            "end": 1499
+            "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
+            "score": 0.09386232569631885,
+            "start": 0,
+            "end": 1415
           }
         ]
       },
@@ -317,56 +313,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.3306771344015845,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.2807466545501725,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.3306771344015845,
-            "start": 1416,
+            "text": "(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.2807466545501725,
+            "start": 1344,
             "end": 1499
           },
           {
             "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.13186982364320243,
+            "score": 0.16057348256172324,
             "start": 0,
-            "end": 1415
+            "end": 1343
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8101180227040848,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.16448660559557637,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.8101180227040848,
-            "start": 1376,
-            "end": 1499
+            "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
+            "score": 0.16448660559557637,
+            "start": 0,
+            "end": 1377
           },
           {
-            "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.8036106946982671,
-            "start": 0,
-            "end": 1375
+            "text": "Renal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.1638304622956888,
+            "start": 1378,
+            "end": 1499
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8628983115034754,
+        "score": 0.26454846377751634,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.8628983115034754,
+            "score": 0.26454846377751634,
             "start": 0,
             "end": 1415
           },
           {
             "text": "(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.34469455337775406,
+            "score": 0.2260732893915247,
             "start": 1416,
             "end": 1499
           }

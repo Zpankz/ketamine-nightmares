@@ -16,16 +16,10 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "equipment_and_physics",
-      "nociception_process",
-      "special_population_role",
-      "drug_receptor_disposition",
-      "neuromuscular_process"
+      "neuromuscular_process",
+      "drug_receptor_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -54,12 +48,12 @@
         ]
       },
       "mechanistic_explanation": {
-        "score": 0.6385813013840169,
+        "score": 0.638333154555165,
         "description": "Explain how/why at mechanistic level",
         "top_chunks": [
           {
             "text": "  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5mmol/L\no\nMay be\n  significant if renal failure with exist",
-            "score": 0.6385813013840169,
+            "score": 0.638333154555165,
             "start": 1459,
             "end": 2921
           },
@@ -226,49 +220,49 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8122584176361644,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8206763737480939,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Risk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5m",
-            "score": 0.8122584176361644,
-            "start": 1403,
-            "end": 2800
-          },
-          {
-            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine\n  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dant",
-            "score": 0.8036106946982671,
-            "start": 2801,
+            "text": "  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dantrolene 1mg/kg up to 10x then infuse 24 hours\n·\nGeneral Rx",
+            "score": 0.8206763737480939,
+            "start": 2858,
             "end": 3160
           },
           {
+            "text": "Risk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5m",
+            "score": 0.773134110443348,
+            "start": 1403,
+            "end": 2857
+          },
+          {
             "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
-            "score": 0.6149989607053215,
+            "score": 0.4929680809647468,
             "start": 0,
             "end": 1402
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5723458656913933,
+        "score": 0.5666031811691412,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Due to agonism at cardiac mAChR\n·\nRisk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand ",
-            "score": 0.5723458656913933,
-            "start": 1369,
-            "end": 2731
+            "text": "·\nRisk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.",
+            "score": 0.5666031811691412,
+            "start": 1401,
+            "end": 2800
           },
           {
             "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
-            "score": 0.4257000864360176,
+            "score": 0.4992038898357266,
             "start": 0,
-            "end": 1368
+            "end": 1400
           },
           {
-            "text": "Hypermetabolic reaction to volatile anaesthetics and suxamethonium\n·\nMutation in RYR1 gene encoding skeletal muscle ryanodine\n  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, t",
-            "score": 0.3510534842604531,
-            "start": 2732,
+            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine\n  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dant",
+            "score": 0.45614362159801847,
+            "start": 2801,
             "end": 3160
           }
         ]
@@ -298,24 +292,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8804034518017119,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.44043244569687856,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Risk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5m",
-            "score": 0.8804034518017119,
-            "start": 1403,
-            "end": 2857
-          },
-          {
             "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
-            "score": 0.7165808924551722,
+            "score": 0.44043244569687856,
             "start": 0,
             "end": 1402
           },
           {
+            "text": "Risk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5m",
+            "score": 0.37616176240147503,
+            "start": 1403,
+            "end": 2857
+          },
+          {
             "text": "  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dantrolene 1mg/kg up to 10x then infuse 24 hours\n·\nGeneral Rx",
-            "score": 0.31221540087919597,
+            "score": 0.2045179371314406,
             "start": 2858,
             "end": 3160
           }
@@ -346,50 +340,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.755719170496192,
+        "score": 0.8652388596695139,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
+            "text": "Due to agonism at cardiac mAChR\n·\nRisk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand ",
+            "score": 0.8652388596695139,
+            "start": 1369,
+            "end": 2731
+          },
+          {
             "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
-            "score": 0.755719170496192,
+            "score": 0.8646560185906924,
             "start": 0,
-            "end": 1400
+            "end": 1368
           },
           {
-            "text": "·\nRisk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.",
-            "score": 0.748639460220768,
-            "start": 1401,
-            "end": 2800
-          },
-          {
-            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine\n  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dant",
-            "score": 0.2772030069075993,
-            "start": 2801,
+            "text": "Hypermetabolic reaction to volatile anaesthetics and suxamethonium\n·\nMutation in RYR1 gene encoding skeletal muscle ryanodine\n  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, t",
+            "score": 0.22370484839267127,
+            "start": 2732,
             "end": 3160
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8275159197930162,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.13534398140930778,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
-            "score": 0.8275159197930162,
-            "start": 0,
-            "end": 1402
-          },
-          {
-            "text": "Risk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5m",
-            "score": 0.667403644994885,
-            "start": 1403,
-            "end": 2800
-          },
-          {
-            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine\n  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dant",
-            "score": 0.31596446232249,
-            "start": 2801,
+            "text": "release, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dantrolene 1mg/kg up to 10x then infuse 24 hours\n·\nGeneral Rx: stop drug, sedate, intubate, ventilation, cool\n·\nTreat complic",
+            "score": 0.13534398140930778,
+            "start": 2922,
             "end": 3160
+          },
+          {
+            "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
+            "score": 0.07743609402993808,
+            "start": 0,
+            "end": 1458
+          },
+          {
+            "text": "  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5mmol/L\no\nMay be\n  significant if renal failure with exist",
+            "score": 0.06312969942441307,
+            "start": 1459,
+            "end": 2921
           }
         ]
       },
@@ -418,49 +412,49 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8451896480365693,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.5462118361745887,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5mmol/L\no\nMay be\n  significant if renal failure with exist",
-            "score": 0.8451896480365693,
-            "start": 1459,
-            "end": 2921
-          },
-          {
             "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
-            "score": 0.8254807828860911,
+            "score": 0.5462118361745887,
             "start": 0,
-            "end": 1458
+            "end": 1402
           },
           {
-            "text": "release, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dantrolene 1mg/kg up to 10x then infuse 24 hours\n·\nGeneral Rx: stop drug, sedate, intubate, ventilation, cool\n·\nTreat complic",
-            "score": 0.17725503064072845,
-            "start": 2922,
+            "text": "Risk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5m",
+            "score": 0.3043160270707983,
+            "start": 1403,
+            "end": 2800
+          },
+          {
+            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine\n  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dant",
+            "score": 0.17932362625190623,
+            "start": 2801,
             "end": 3160
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8268391327129939,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.2632567278910027,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "Risk factors: big dose >2mg/kg, young children, AV node\n  pathology\n·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5m",
-            "score": 0.8268391327129939,
+            "score": 0.2632567278910027,
             "start": 1403,
-            "end": 2800
+            "end": 2857
           },
           {
             "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
-            "score": 0.36814003491309455,
+            "score": 0.2022819500518595,
             "start": 0,
             "end": 1402
           },
           {
-            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine\n  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dant",
-            "score": 0.31221540087919597,
-            "start": 2801,
+            "text": "  receptor/channel on sarcoplasmic reticulum\n·\nContinuous Ca\n2+\nrelease, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dantrolene 1mg/kg up to 10x then infuse 24 hours\n·\nGeneral Rx",
+            "score": 0.12845038342220835,
+            "start": 2858,
             "end": 3160
           }
         ]
@@ -468,24 +462,24 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8036106946982671,
+        "score": 0.42368295869294115,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5mmol/L\no\nMay be\n  significant if renal failure with existing ↑K\n+\n·\nD",
-            "score": 0.8036106946982671,
-            "start": 1471,
-            "end": 2921
-          },
-          {
             "text": "2019B01 Discuss\nthe potential adverse effects of suxamethonium.\nUnsafe paralysis\n·\nCan’t intubate, can’t oxygenate -> desaturation -> death\n·\nCan’t protect airway -> aspiration\nHistamine release\n·\nDir",
-            "score": 0.7825421217837121,
+            "score": 0.42368295869294115,
             "start": 0,
             "end": 1470
           },
           {
+            "text": "·\nRx: atropine\nHyperkalaemia\n·\nDepolarisation -> open cation channel -> K\n+\nefflux (also Na\n+\nand Ca\n2+\ninflux)\n·\nNormal: ↑K\n+\n~0.5mmol/L\no\nMay be\n  significant if renal failure with existing ↑K\n+\n·\nD",
+            "score": 0.31502532066888583,
+            "start": 1471,
+            "end": 2921
+          },
+          {
             "text": "release, tetany, ↑temp, rhabdo\n·\n80% mortality if untreated\n·\nSpecific Rx: dantrolene 1mg/kg up to 10x then infuse 24 hours\n·\nGeneral Rx: stop drug, sedate, intubate, ventilation, cool\n·\nTreat complic",
-            "score": 0.2598282226097282,
+            "score": 0.25220059901524183,
             "start": 2922,
             "end": 3160
           }

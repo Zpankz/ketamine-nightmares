@@ -13,13 +13,9 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
-      "organ_system_process",
-      "nociception_process"
+      "drug_receptor_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -124,24 +120,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9143549994473417,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8122584176361644,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2007A08 List the\nclasses of drugs used clinically to treat chronic left ventricular failure.\nOutline their mechanisms of action.\nGroup\nExample\nMechanism\nBeta blocker\nMetoprolol\nβ\n1\nantagonist. ↓G\ns\nG ",
-            "score": 0.9143549994473417,
+            "score": 0.8122584176361644,
             "start": 0,
             "end": 776
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.23731085714042086,
+        "score": 0.4610244274753834,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2007A08 List the\nclasses of drugs used clinically to treat chronic left ventricular failure.\nOutline their mechanisms of action.\nGroup\nExample\nMechanism\nBeta blocker\nMetoprolol\nβ\n1\nantagonist. ↓G\ns\nG ",
-            "score": 0.23731085714042086,
+            "score": 0.4610244274753834,
             "start": 0,
             "end": 776
           }
@@ -160,12 +156,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8709834944174346,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.3420179858485293,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2007A08 List the\nclasses of drugs used clinically to treat chronic left ventricular failure.\nOutline their mechanisms of action.\nGroup\nExample\nMechanism\nBeta blocker\nMetoprolol\nβ\n1\nantagonist. ↓G\ns\nG ",
-            "score": 0.8709834944174346,
+            "score": 0.3420179858485293,
             "start": 0,
             "end": 776
           }
@@ -184,24 +180,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.5261850218079062,
+        "score": 0.5980313500593708,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2007A08 List the\nclasses of drugs used clinically to treat chronic left ventricular failure.\nOutline their mechanisms of action.\nGroup\nExample\nMechanism\nBeta blocker\nMetoprolol\nβ\n1\nantagonist. ↓G\ns\nG ",
-            "score": 0.5261850218079062,
+            "score": 0.5980313500593708,
             "start": 0,
             "end": 776
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7703477541815708,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.11690780739311239,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2007A08 List the\nclasses of drugs used clinically to treat chronic left ventricular failure.\nOutline their mechanisms of action.\nGroup\nExample\nMechanism\nBeta blocker\nMetoprolol\nβ\n1\nantagonist. ↓G\ns\nG ",
-            "score": 0.7703477541815708,
+            "score": 0.11690780739311239,
             "start": 0,
             "end": 776
           }
@@ -220,24 +216,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.1278857710804513,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.0915358786435363,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2007A08 List the\nclasses of drugs used clinically to treat chronic left ventricular failure.\nOutline their mechanisms of action.\nGroup\nExample\nMechanism\nBeta blocker\nMetoprolol\nβ\n1\nantagonist. ↓G\ns\nG ",
-            "score": 0.1278857710804513,
+            "score": 0.0915358786435363,
             "start": 0,
             "end": 776
           }
         ]
       },
       "special_population_role": {
-        "score": 0.2649797724816399,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.10551062286445975,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2007A08 List the\nclasses of drugs used clinically to treat chronic left ventricular failure.\nOutline their mechanisms of action.\nGroup\nExample\nMechanism\nBeta blocker\nMetoprolol\nβ\n1\nantagonist. ↓G\ns\nG ",
-            "score": 0.2649797724816399,
+            "score": 0.10551062286445975,
             "start": 0,
             "end": 776
           }
@@ -246,12 +242,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8483363526099783,
+        "score": 0.25642330901735677,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2007A08 List the\nclasses of drugs used clinically to treat chronic left ventricular failure.\nOutline their mechanisms of action.\nGroup\nExample\nMechanism\nBeta blocker\nMetoprolol\nβ\n1\nantagonist. ↓G\ns\nG ",
-            "score": 0.8483363526099783,
+            "score": 0.25642330901735677,
             "start": 0,
             "end": 776
           }

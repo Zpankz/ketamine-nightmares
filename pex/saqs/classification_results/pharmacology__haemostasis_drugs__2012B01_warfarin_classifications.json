@@ -15,9 +15,7 @@
     "content_dimensions": [
       "pharmacokinetic_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -170,36 +168,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4631122880862299,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5128680513973785,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
-            "score": 0.4631122880862299,
+            "score": 0.5128680513973785,
             "start": 0,
-            "end": 1395
+            "end": 1430
           },
           {
-            "text": "·\nAlso give Vit K to avoid rebound\n  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseve",
-            "score": 0.34860240025298306,
-            "start": 1396,
+            "text": "  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n·\nActivated Factor 7a\n·\nIV 50mcg/",
+            "score": 0.1592817529828625,
+            "start": 1431,
             "end": 1850
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.2675752651712207,
+        "score": 0.2838657351814178,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "IV 25-50 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoag",
-            "score": 0.2675752651712207,
+            "score": 0.2838657351814178,
             "start": 1378,
             "end": 1850
           },
           {
             "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
-            "score": 0.17794296815077074,
+            "score": 0.18140657479987835,
             "start": 0,
             "end": 1377
           }
@@ -224,20 +222,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.2732434585109745,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5344518722073903,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n·\nActivated Factor 7a\n·\nIV 50mcg/",
-            "score": 0.2732434585109745,
-            "start": 1431,
-            "end": 1850
-          },
-          {
             "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
-            "score": 0.13946678392103212,
+            "score": 0.5344518722073903,
             "start": 0,
             "end": 1430
+          },
+          {
+            "text": "  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n·\nActivated Factor 7a\n·\nIV 50mcg/",
+            "score": 0.22056881707219475,
+            "start": 1431,
+            "end": 1850
           }
         ]
       },
@@ -260,38 +258,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.41939563340545655,
+        "score": 0.24968492344749585,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "IV 25-50 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoag",
-            "score": 0.41939563340545655,
-            "start": 1378,
+            "text": "·\nIV 25-50 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  antico",
+            "score": 0.24968492344749585,
+            "start": 1376,
             "end": 1850
           },
           {
             "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
-            "score": 0.1949320705626118,
+            "score": 0.17932362625190623,
             "start": 0,
-            "end": 1377
+            "end": 1375
           }
         ]
       },
       "nociception_process": {
-        "score": 0.3933940538121778,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.19638930530173287,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Also give Vit K to avoid rebound\n  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n",
-            "score": 0.3933940538121778,
-            "start": 1398,
+            "text": "4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n·\nActivated Factor 7a\n·\nIV 50mcg/kg\n·\nGiven in addi",
+            "score": 0.19638930530173287,
+            "start": 1449,
             "end": 1850
           },
           {
             "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
-            "score": 0.22845576096855297,
+            "score": 0.09199844623487359,
             "start": 0,
-            "end": 1397
+            "end": 1448
           }
         ]
       },
@@ -314,56 +312,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.13476114033048603,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.225282248199159,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n·\nActivated Factor 7a\n·\nIV 50mcg/kg\n·\nGiven in addi",
-            "score": 0.13476114033048603,
-            "start": 1449,
+            "text": "·\nAlso give Vit K to avoid rebound\n  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseve",
+            "score": 0.225282248199159,
+            "start": 1396,
             "end": 1850
           },
           {
             "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
-            "score": 0.08343914521545998,
+            "score": 0.10202987799295415,
             "start": 0,
-            "end": 1448
+            "end": 1395
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3330768842966407,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.15166364739002158,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Also give Vit K to avoid rebound\n  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n",
-            "score": 0.3330768842966407,
-            "start": 1398,
-            "end": 1850
+            "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
+            "score": 0.15166364739002158,
+            "start": 0,
+            "end": 1430
           },
           {
-            "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
-            "score": 0.19858710741881394,
-            "start": 0,
-            "end": 1397
+            "text": "  anticoagulation\n4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n·\nActivated Factor 7a\n·\nIV 50mcg/",
+            "score": 0.14548752973312049,
+            "start": 1431,
+            "end": 1850
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8374770746416548,
+        "score": 0.2942330252332108,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2012B01 How does\nwarfarin exert its anticoagulant effect?\nWhat methods can be used to reverse the effects of warfarin prior to surgery?\nList:\n·\nWarfarin effect\n·\nWarfarin reversal\nWarfarin:\nDrug\nWisco",
-            "score": 0.8374770746416548,
+            "score": 0.2942330252332108,
             "start": 0,
             "end": 1448
           },
           {
             "text": "4.FEIBA\n·\nContains active factor 7a, inactive factors\n  2,9,10\n·\nIV 50-100 units/kg\n·\nAlso give Vit K to avoid rebound\n  anticoagulation\n5.Novoseven\n·\nActivated Factor 7a\n·\nIV 50mcg/kg\n·\nGiven in addi",
-            "score": 0.2825268951916765,
+            "score": 0.1898819772959151,
             "start": 1449,
             "end": 1850
           }

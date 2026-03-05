@@ -15,14 +15,12 @@
     },
     "content_dimensions": [
       "drug_receptor_disposition",
-      "organ_system_process",
-      "nociception_process",
-      "autonomic_disposition",
       "acid_base_quality",
-      "neuromuscular_process"
+      "neuromuscular_process",
+      "equipment_and_physics",
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -177,37 +175,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8315432423679796,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8646560185906924,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Noradrenaline\nPhenylephrine\nMetaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n",
-            "score": 0.8315432423679796,
-            "start": 1215,
+            "text": "Metaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high dose\n↑\n↑\n↑\n↔\n",
+            "score": 0.8646560185906924,
+            "start": 1243,
             "end": 1642
           },
           {
             "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
-            "score": 0.2484321598142117,
+            "score": 0.4121438645877505,
             "start": 0,
-            "end": 1214
+            "end": 1242
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7992007600703674,
+        "score": 0.5569115406995834,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
-            "score": 0.7992007600703674,
+            "score": 0.5569115406995834,
             "start": 0,
-            "end": 1203
+            "end": 1214
           },
           {
-            "text": "Adrenaline\nNoradrenaline\nPhenylephrine\nMetaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\n",
-            "score": 0.7879256638913119,
-            "start": 1204,
+            "text": "Noradrenaline\nPhenylephrine\nMetaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n",
+            "score": 0.5235368776007585,
+            "start": 1215,
             "end": 1642
           }
         ]
@@ -231,20 +229,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8288647205382538,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6210673622762513,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
-            "score": 0.8288647205382538,
-            "start": 0,
-            "end": 1242
-          },
-          {
             "text": "Metaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high dose\n↑\n↑\n↑\n↔\n",
-            "score": 0.5022556341271618,
+            "score": 0.6210673622762513,
             "start": 1243,
             "end": 1642
+          },
+          {
+            "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
+            "score": 0.30802184928481907,
+            "start": 0,
+            "end": 1242
           }
         ]
       },
@@ -267,38 +265,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7622822048290451,
+        "score": 0.7435766909826431,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
-            "score": 0.7622822048290451,
+            "score": 0.7435766909826431,
             "start": 0,
-            "end": 1214
+            "end": 1193
           },
           {
-            "text": "Noradrenaline\nPhenylephrine\nMetaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n",
-            "score": 0.6574959828207124,
-            "start": 1215,
+            "text": "Dynamics:\nAdrenaline\nNoradrenaline\nPhenylephrine\nMetaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nR",
+            "score": 0.4652177607898892,
+            "start": 1194,
             "end": 1642
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8079632672732063,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.15671722015798292,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Phenylephrine\nMetaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high",
-            "score": 0.8079632672732063,
-            "start": 1229,
-            "end": 1642
+            "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
+            "score": 0.15671722015798292,
+            "start": 0,
+            "end": 1254
           },
           {
-            "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
-            "score": 0.7683458543951072,
-            "start": 0,
-            "end": 1228
+            "text": "Ephedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high dose\n↑\n↑\n↑\n↔\n/↑\nmAP\n↔\n/↑h",
+            "score": 0.09339430960340468,
+            "start": 1255,
+            "end": 1642
           }
         ]
       },
@@ -321,58 +319,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.5990579316066882,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7363130588750971,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Ephedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high dose\n↑\n↑\n↑\n↔\n/↑\nmAP\n↔\n/↑h",
-            "score": 0.5990579316066882,
-            "start": 1255,
+            "text": "Noradrenaline\nPhenylephrine\nMetaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n",
+            "score": 0.7363130588750971,
+            "start": 1215,
             "end": 1642
           },
           {
             "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
-            "score": 0.516381648690141,
+            "score": 0.6477185047693906,
             "start": 0,
-            "end": 1254
+            "end": 1214
           }
         ]
       },
       "special_population_role": {
-        "score": 0.5681709225557945,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.46064906350082513,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Phenylephrine\nMetaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high",
-            "score": 0.5681709225557945,
-            "start": 1229,
+            "text": "Metaraminol\nEphedrine\nReceptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high dose\n↑\n↑\n↑\n↔\n",
+            "score": 0.46064906350082513,
+            "start": 1243,
             "end": 1642
           },
           {
             "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
-            "score": 0.29151113040950316,
+            "score": 0.13651425394654748,
             "start": 0,
-            "end": 1228
+            "end": 1242
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7894496120499562,
+        "score": 0.36988972253805263,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "Receptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high dose\n↑\n↑\n↑\n↔\n/↑\nmAP\n↔\n/↑high dose\n↑",
-            "score": 0.7894496120499562,
-            "start": 1265,
-            "end": 1642
-          },
-          {
             "text": "2006B01 Describe\nthe use of different sympathomimetics to treat hypotension occurring as a\nresult of subarachnoid block.\nOutline the advantages and disadvantages of these agents.\nList:\n·\nIntro\n·\nPharm",
-            "score": 0.61651894583342,
+            "score": 0.36988972253805263,
             "start": 0,
             "end": 1264
+          },
+          {
+            "text": "Receptor effects\nβ\n1\n,\nβ\n2\n,\nα\n1\nα\n1\n,\nβ\n1\nα\n1\nα\n1\n(weak\nβ\n1\n)\nβ\n1\n,\nα\n1\nDirect\nY\nY\nY\nY\nY\nIndirect\nN\nN\nN\nY\nY\nHR\n↑\n↑ or reflex ↓\nReflex ↓HR\nReflex ↓HR\n↑\nSVR\n↔\n/↑high dose\n↑\n↑\n↑\n↔\n/↑\nmAP\n↔\n/↑high dose\n↑",
+            "score": 0.3287625795101406,
+            "start": 1265,
+            "end": 1642
           }
         ]
       },

@@ -10,9 +10,7 @@
       "score": 0.5972609386602169
     },
     "content_dimensions": [
-      "neuromuscular_process",
-      "nociception_process",
-      "drug_receptor_disposition"
+      "organ_system_process"
     ],
     "explanatory_schema": [
       "mechanism_effect_relevance",
@@ -170,37 +168,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6336067531812888,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.44768551566359926,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
-            "score": 0.6336067531812888,
-            "start": 0,
-            "end": 1808
-          },
-          {
             "text": "↓Activity at nnAChR, NMDA,\nAMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: vola",
-            "score": 0.396971029672017,
+            "score": 0.44768551566359926,
             "start": 1809,
             "end": 2357
+          },
+          {
+            "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
+            "score": 0.44167812616852115,
+            "start": 0,
+            "end": 1808
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.3244721027307196,
+        "score": 0.39237380735284266,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
-            "score": 0.3244721027307196,
+            "score": 0.39237380735284266,
             "start": 0,
-            "end": 1796
+            "end": 1806
           },
           {
-            "text": "2PK, 5-HT\no\n↓Activity at nnAChR, NMDA,\nAMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n",
-            "score": 0.25220059901524183,
-            "start": 1797,
+            "text": "o\n↓Activity at nnAChR, NMDA,\nAMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: vo",
+            "score": 0.31926121628175463,
+            "start": 1807,
             "end": 2357
           }
         ]
@@ -224,18 +222,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.2589747757634805,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6628270414999413,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
-            "score": 0.2589747757634805,
+            "score": 0.6628270414999413,
             "start": 0,
             "end": 1808
           },
           {
             "text": "↓Activity at nnAChR, NMDA,\nAMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: vola",
-            "score": 0.174519217113909,
+            "score": 0.387538527079057,
             "start": 1809,
             "end": 2357
           }
@@ -260,37 +258,37 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7598325261631611,
+        "score": 0.32518550777461525,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
-            "score": 0.7598325261631611,
+            "score": 0.32518550777461525,
             "start": 0,
             "end": 1796
           },
           {
             "text": "2PK, 5-HT\no\n↓Activity at nnAChR, NMDA,\nAMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n",
-            "score": 0.2937785327050844,
+            "score": 0.15291762409217716,
             "start": 1797,
             "end": 2357
           }
         ]
       },
       "nociception_process": {
-        "score": 0.6933702527635284,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.09015630224155849,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
-            "score": 0.6933702527635284,
+            "score": 0.09015630224155849,
             "start": 0,
-            "end": 1808
+            "end": 1835
           },
           {
-            "text": "↓Activity at nnAChR, NMDA,\nAMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: vola",
-            "score": 0.14065856668448176,
-            "start": 1809,
+            "text": "AMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: volatile agents induce unrousab",
+            "score": 0.07128135172998958,
+            "start": 1836,
             "end": 2357
           }
         ]
@@ -314,36 +312,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.26111115675759133,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.13887320349804264,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
-            "score": 0.26111115675759133,
-            "start": 0,
-            "end": 1835
+            "text": "o\n↓Activity at nnAChR, NMDA,\nAMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: vo",
+            "score": 0.13887320349804264,
+            "start": 1807,
+            "end": 2357
           },
           {
-            "text": "AMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: volatile agents induce unrousab",
-            "score": 0.1278857710804513,
-            "start": 1836,
-            "end": 2357
+            "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
+            "score": 0.1256423848664057,
+            "start": 0,
+            "end": 1806
           }
         ]
       },
       "special_population_role": {
-        "score": 0.23165414560489295,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.13476114033048603,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
-            "score": 0.23165414560489295,
+            "score": 0.13476114033048603,
             "start": 0,
             "end": 1808
           },
           {
             "text": "↓Activity at nnAChR, NMDA,\nAMPA\nOther hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: vola",
-            "score": 0.22845576096855297,
+            "score": 0.10551062286445975,
             "start": 1809,
             "end": 2357
           }
@@ -352,18 +350,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7289438071628661,
+        "score": 0.6621020729826963,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2019B04 Outline the theories,\nboth current and discredited, as to how volatile anaesthetics\ncause loss of consciousness.\nList:\n·\nConsciousness\n·\nLipid hypothesis\n·\nProtein hypothesis\n·\nOther hypothese",
-            "score": 0.7289438071628661,
+            "score": 0.6621020729826963,
             "start": 0,
             "end": 1840
           },
           {
             "text": "Other hypotheses:\nSleep\n·\nHypothesis: volatiles agents activate sleep\ncircuitry\n·\nRationale: EEG signature of volatile agents is\nsimilar to slow wave sleep\n·\nFlaw: volatile agents induce unrousable\nun",
-            "score": 0.5972609386602169,
+            "score": 0.4608181788836749,
             "start": 1841,
             "end": 2357
           }

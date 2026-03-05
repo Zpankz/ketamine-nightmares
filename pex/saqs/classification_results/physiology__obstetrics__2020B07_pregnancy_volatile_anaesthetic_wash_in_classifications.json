@@ -16,14 +16,11 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
       "pharmacokinetic_process",
       "special_population_role",
-      "equipment_and_physics",
       "gas_exchange_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "structure_function_link"
     ]
@@ -67,18 +64,18 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.7227969930924008,
+        "score": 0.7245603456098374,
         "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RBC volume 20%\n  -> ↑preload\n",
-            "score": 0.7227969930924008,
+            "score": 0.7245603456098374,
             "start": 1283,
             "end": 1872
           },
           {
             "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.42947963301423686,
+            "score": 0.4334621660057138,
             "start": 0,
             "end": 1282
           }
@@ -179,36 +176,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5906964321872293,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5746253994153698,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\n↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RBC volume 20%\n  -> ↑preloa",
-            "score": 0.5906964321872293,
-            "start": 1281,
-            "end": 1872
+            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
+            "score": 0.5746253994153698,
+            "start": 0,
+            "end": 1282
           },
           {
-            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.17863249993135413,
-            "start": 0,
-            "end": 1280
+            "text": "↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RBC volume 20%\n  -> ↑preload\n",
+            "score": 0.5241990235768847,
+            "start": 1283,
+            "end": 1872
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.22213370116389697,
+        "score": 0.26714177530863603,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑HR 25% (↑15% by end T1)\n·\n↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RB",
-            "score": 0.22213370116389697,
+            "score": 0.26714177530863603,
             "start": 1256,
             "end": 1872
           },
           {
             "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.18632263173984007,
+            "score": 0.26111115675759133,
             "start": 0,
             "end": 1255
           }
@@ -233,20 +230,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8709834944174346,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.570650813953295,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.8709834944174346,
-            "start": 0,
-            "end": 1282
-          },
-          {
             "text": "↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RBC volume 20%\n  -> ↑preload\n",
-            "score": 0.7267565414890255,
+            "score": 0.570650813953295,
             "start": 1283,
             "end": 1872
+          },
+          {
+            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
+            "score": 0.4069834656810027,
+            "start": 0,
+            "end": 1282
           }
         ]
       },
@@ -269,38 +266,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.373146719717882,
+        "score": 0.3796894888668699,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.373146719717882,
-            "start": 0,
-            "end": 1255
-          },
-          {
             "text": "↑HR 25% (↑15% by end T1)\n·\n↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RB",
-            "score": 0.28119119060424663,
+            "score": 0.3796894888668699,
             "start": 1256,
             "end": 1872
+          },
+          {
+            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
+            "score": 0.13417982729181727,
+            "start": 0,
+            "end": 1255
           }
         ]
       },
       "nociception_process": {
-        "score": 0.5874684363662216,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.11060433745697731,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.5874684363662216,
-            "start": 0,
-            "end": 1282
-          },
-          {
             "text": "↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RBC volume 20%\n  -> ↑preload\n",
-            "score": 0.4085298179966439,
+            "score": 0.11060433745697731,
             "start": 1283,
             "end": 1872
+          },
+          {
+            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
+            "score": 0.10803954311448256,
+            "start": 0,
+            "end": 1282
           }
         ]
       },
@@ -323,36 +320,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7066756231196865,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.5252583066134766,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RBC volume 20%\n  -> ↑preload\n",
-            "score": 0.7066756231196865,
-            "start": 1283,
+            "text": "↑HR 25% (↑15% by end T1)\n·\n↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RB",
+            "score": 0.5252583066134766,
+            "start": 1256,
             "end": 1872
           },
           {
             "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.6901175305580363,
+            "score": 0.20752148144486066,
             "start": 0,
-            "end": 1282
+            "end": 1255
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8171968162419349,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.8185934252001217,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.8171968162419349,
+            "score": 0.8185934252001217,
             "start": 0,
             "end": 1282
           },
           {
             "text": "↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RBC volume 20%\n  -> ↑preload\n",
-            "score": 0.3287625795101406,
+            "score": 0.15481035196343076,
             "start": 1283,
             "end": 1872
           }
@@ -361,20 +358,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8213675000686458,
+        "score": 0.5909543909858507,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
-            "score": 0.8213675000686458,
-            "start": 0,
-            "end": 1282
-          },
-          {
             "text": "↑SV 40% (↑25% by end T1)\n·\n↑CO 45% (↑40% by end T1)\nCauses:\n·\n↑Metabolic rate -> ↑preload\n·\nOestrogen -> ↑RAAS -> ↑plasma volume 40%\n  -> ↑preload\n·\nOestrogen -> ↑Epo -> ↑RBC volume 20%\n  -> ↑preload\n",
-            "score": 0.6338560556842108,
+            "score": 0.5909543909858507,
             "start": 1283,
             "end": 1872
+          },
+          {
+            "text": "2020B07 Describe\nthe effect of pregnancy, at term, on wash-in (not rate of onset)\nof volatile anaesthetic agents.\nList:\n·\nWash-in curve\n·\nIntro\n·\nCardiovascular\n·\nRespiratory\nWash-in curve\nIntro:\nWash",
+            "score": 0.5571903895668998,
+            "start": 0,
+            "end": 1282
           }
         ]
       },

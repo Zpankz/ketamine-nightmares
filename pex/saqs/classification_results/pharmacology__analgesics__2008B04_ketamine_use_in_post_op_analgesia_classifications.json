@@ -16,14 +16,12 @@
       ]
     },
     "content_dimensions": [
-      "nociception_process",
-      "drug_receptor_disposition",
+      "pharmacokinetic_process",
       "equipment_and_physics",
-      "pharmacokinetic_process"
+      "drug_receptor_disposition",
+      "organ_system_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -212,50 +210,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8593414333155183,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7503150765525042,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Hepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearan",
-            "score": 0.8593414333155183,
+            "score": 0.7503150765525042,
             "start": 1474,
             "end": 2858
           },
           {
             "text": "Resp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
-            "score": 0.4581874630615518,
+            "score": 0.7152399688596441,
             "start": 2859,
             "end": 2961
           },
           {
             "text": "2008B04 Briefly\noutline the pharmacology of ketamine with reference to its use as an analgesic\nagent in the post-operative period.\nList:\n·\nPhysicochemical\n·\nPharmacokinetic\n·\nPharmacodynamic\nPharmaceu",
-            "score": 0.14732399306894495,
+            "score": 0.14366505103412583,
             "start": 0,
             "end": 1473
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.564838127298806,
+        "score": 0.5188337427440181,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\nHepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clear",
-            "score": 0.564838127298806,
-            "start": 1472,
-            "end": 2840
+            "text": "Hepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearan",
+            "score": 0.5188337427440181,
+            "start": 1474,
+            "end": 2858
           },
           {
-            "text": "  > S-ketamine)\n·\nResp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
-            "score": 0.30385425542433225,
-            "start": 2841,
+            "text": "Resp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
+            "score": 0.3325963550051149,
+            "start": 2859,
             "end": 2961
           },
           {
             "text": "2008B04 Briefly\noutline the pharmacology of ketamine with reference to its use as an analgesic\nagent in the post-operative period.\nList:\n·\nPhysicochemical\n·\nPharmacokinetic\n·\nPharmacodynamic\nPharmaceu",
-            "score": 0.19203673272679375,
+            "score": 0.13302177898555526,
             "start": 0,
-            "end": 1471
+            "end": 1473
           }
         ]
       },
@@ -278,24 +276,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.5651650949856561,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6625854558879265,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Resp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
-            "score": 0.5651650949856561,
-            "start": 2859,
-            "end": 2961
-          },
-          {
             "text": "Hepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearan",
-            "score": 0.19712031304111735,
+            "score": 0.6625854558879265,
             "start": 1474,
             "end": 2858
           },
           {
+            "text": "Resp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
+            "score": 0.32304731886392163,
+            "start": 2859,
+            "end": 2961
+          },
+          {
             "text": "2008B04 Briefly\noutline the pharmacology of ketamine with reference to its use as an analgesic\nagent in the post-operative period.\nList:\n·\nPhysicochemical\n·\nPharmacokinetic\n·\nPharmacodynamic\nPharmaceu",
-            "score": 0.11531222505249526,
+            "score": 0.18561555034757704,
             "start": 0,
             "end": 1473
           }
@@ -326,50 +324,44 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.5258871654503776,
+        "score": 0.19275817505115483,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Hepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearan",
-            "score": 0.5258871654503776,
-            "start": 1474,
-            "end": 2858
+            "text": "Metabolism\n·\nHepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\n",
+            "score": 0.19275817505115483,
+            "start": 1461,
+            "end": 2776
           },
           {
-            "text": "Resp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
-            "score": 0.3756586907283464,
-            "start": 2859,
+            "text": "CVS: SNS stimulation, direct negative inotropy, vasodilation (R\n  > S-ketamine)\n·\nResp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
+            "score": 0.16448660559557637,
+            "start": 2777,
             "end": 2961
           },
           {
             "text": "2008B04 Briefly\noutline the pharmacology of ketamine with reference to its use as an analgesic\nagent in the post-operative period.\nList:\n·\nPhysicochemical\n·\nPharmacokinetic\n·\nPharmacodynamic\nPharmaceu",
-            "score": 0.1612217162063077,
+            "score": 0.12508529522455822,
             "start": 0,
-            "end": 1473
+            "end": 1460
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9121160516407928,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.13476114033048603,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Hepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearan",
-            "score": 0.9121160516407928,
-            "start": 1474,
-            "end": 2858
+            "text": "·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearance 17mL/kg/min, short t1/2b 2 hours\no\nSuitable f",
+            "score": 0.13476114033048603,
+            "start": 1522,
+            "end": 2961
           },
           {
             "text": "2008B04 Briefly\noutline the pharmacology of ketamine with reference to its use as an analgesic\nagent in the post-operative period.\nList:\n·\nPhysicochemical\n·\nPharmacokinetic\n·\nPharmacodynamic\nPharmaceu",
-            "score": 0.897970122007046,
+            "score": 0.10651790355261252,
             "start": 0,
-            "end": 1473
-          },
-          {
-            "text": "Resp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
-            "score": 0.4492634245081937,
-            "start": 2859,
-            "end": 2961
+            "end": 1521
           }
         ]
       },
@@ -398,42 +390,48 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.843919975397613,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8036106946982671,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearance 17mL/kg/min, short t1/2b 2 hours\no\nSuitable f",
-            "score": 0.843919975397613,
-            "start": 1522,
+            "text": "Resp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
+            "score": 0.8036106946982671,
+            "start": 2859,
             "end": 2961
           },
           {
+            "text": "Hepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearan",
+            "score": 0.4470447428487741,
+            "start": 1474,
+            "end": 2858
+          },
+          {
             "text": "2008B04 Briefly\noutline the pharmacology of ketamine with reference to its use as an analgesic\nagent in the post-operative period.\nList:\n·\nPhysicochemical\n·\nPharmacokinetic\n·\nPharmacodynamic\nPharmaceu",
-            "score": 0.39097225802777,
+            "score": 0.2632567278910027,
             "start": 0,
-            "end": 1521
+            "end": 1473
           }
         ]
       },
       "special_population_role": {
-        "score": 0.543263131082572,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.14609812862042407,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "Hepatic phase 1, CYP3A4 N-demethylation > other\n·\nActive metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearan",
-            "score": 0.543263131082572,
+            "score": 0.14609812862042407,
             "start": 1474,
             "end": 2858
           },
           {
             "text": "Resp: mild ↓minute ventilation, ↑airway secretions,\n  bronchodilation\n(bronchodilation R > S-ketamine)",
-            "score": 0.2825268951916765,
+            "score": 0.13769065726953986,
             "start": 2859,
             "end": 2961
           },
           {
             "text": "2008B04 Briefly\noutline the pharmacology of ketamine with reference to its use as an analgesic\nagent in the post-operative period.\nList:\n·\nPhysicochemical\n·\nPharmacokinetic\n·\nPharmacodynamic\nPharmaceu",
-            "score": 0.20752148144486066,
+            "score": 0.10007191072786864,
             "start": 0,
             "end": 1473
           }
@@ -442,18 +440,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8575421829580605,
+        "score": 0.27149292917090906,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Active metabolite norketamine (30% as active)\no\nMay prolong duration\no\nInactivated by hydroxylation then conjugation\no\nt\n1/2\nβ\n4 hours\n·\nRapid Clearance 17mL/kg/min, short t1/2b 2 hours\no\nSuitable for",
-            "score": 0.8575421829580605,
+            "score": 0.27149292917090906,
             "start": 1524,
             "end": 2961
           },
           {
             "text": "2008B04 Briefly\noutline the pharmacology of ketamine with reference to its use as an analgesic\nagent in the post-operative period.\nList:\n·\nPhysicochemical\n·\nPharmacokinetic\n·\nPharmacodynamic\nPharmaceu",
-            "score": 0.38221585661706947,
+            "score": 0.08520119218170379,
             "start": 0,
             "end": 1523
           }

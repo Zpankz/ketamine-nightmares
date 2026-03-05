@@ -18,14 +18,11 @@
       ]
     },
     "content_dimensions": [
-      "special_population_role",
+      "pharmacokinetic_process",
       "drug_receptor_disposition",
-      "organ_system_process",
-      "pharmacokinetic_process"
+      "organ_system_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -48,18 +45,18 @@
         ]
       },
       "mechanistic_explanation": {
-        "score": 0.6341052982314621,
+        "score": 0.6360970685656783,
         "description": "Explain how/why at mechanistic level",
         "top_chunks": [
           {
             "text": "  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. insulin -> ↑duration)\nExcretion:\nRenal\nRena",
-            "score": 0.6341052982314621,
+            "score": 0.6360970685656783,
             "start": 1439,
             "end": 2055
           },
           {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.40158359668578,
+            "score": 0.39953171320659386,
             "start": 0,
             "end": 1438
           }
@@ -178,36 +175,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8681301763567975,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7138959299702419,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑AAG -> ↓free basic drug (e.g. morphine\n  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. ins",
-            "score": 0.8681301763567975,
+            "score": 0.7138959299702419,
             "start": 1399,
             "end": 2055
           },
           {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.24469425805145512,
+            "score": 0.2509410724842214,
             "start": 0,
             "end": 1398
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.30339280916534545,
+        "score": 0.37013991264414337,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑AAG -> ↓free basic drug (e.g. morphine\n  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. ins",
-            "score": 0.30339280916534545,
+            "score": 0.37013991264414337,
             "start": 1399,
             "end": 2055
           },
           {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.17656868710877405,
+            "score": 0.15354696394416326,
             "start": 0,
             "end": 1398
           }
@@ -232,20 +229,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8634857460534524,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6323593447401579,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑AAG -> ↓free basic drug (e.g. morphine\n  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. ins",
-            "score": 0.8634857460534524,
-            "start": 1399,
+            "text": "  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. insulin -> ↑duration)\nExcretion:\nRenal\nRena",
+            "score": 0.6323593447401579,
+            "start": 1439,
             "end": 2055
           },
           {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.7856278929474474,
+            "score": 0.5367804004519314,
             "start": 0,
-            "end": 1398
+            "end": 1438
           }
         ]
       },
@@ -268,38 +265,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.5566162559351016,
+        "score": 0.1554444021999438,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.5566162559351016,
+            "score": 0.1554444021999438,
             "start": 0,
-            "end": 1398
+            "end": 1375
           },
           {
-            "text": "↑AAG -> ↓free basic drug (e.g. morphine\n  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. ins",
-            "score": 0.10957409746514832,
-            "start": 1399,
+            "text": "  -> CNS depression)\n·\n↑AAG -> ↓free basic drug (e.g. morphine\n  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Dr",
+            "score": 0.11531222505249526,
+            "start": 1376,
             "end": 2055
           }
         ]
       },
       "nociception_process": {
-        "score": 0.5435062103214029,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10803954311448256,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑AAG -> ↓free basic drug (e.g. morphine\n  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. ins",
-            "score": 0.5435062103214029,
-            "start": 1399,
+            "text": "  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. insulin -> ↑duration)\nExcretion:\nRenal\nRena",
+            "score": 0.10803954311448256,
+            "start": 1439,
             "end": 2055
           },
           {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.5165142122826307,
+            "score": 0.07785651200065953,
             "start": 0,
-            "end": 1398
+            "end": 1438
           }
         ]
       },
@@ -322,36 +319,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.28297282739996915,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.165803645501483,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.28297282739996915,
+            "score": 0.165803645501483,
             "start": 0,
-            "end": 1438
+            "end": 1398
           },
           {
-            "text": "  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. insulin -> ↑duration)\nExcretion:\nRenal\nRena",
-            "score": 0.14006190450182948,
-            "start": 1439,
+            "text": "↑AAG -> ↓free basic drug (e.g. morphine\n  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. ins",
+            "score": 0.1228719100488003,
+            "start": 1399,
             "end": 2055
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8698467137441421,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.17932362625190623,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "↑AAG -> ↓free basic drug (e.g. morphine\n  -> ↓effect)\nMetabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. ins",
-            "score": 0.8698467137441421,
+            "score": 0.17932362625190623,
             "start": 1399,
             "end": 2055
           },
           {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.7723399527572379,
+            "score": 0.1599268284374202,
             "start": 0,
             "end": 1398
           }
@@ -360,20 +357,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7871613191364488,
+        "score": 0.22686588955665188,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "Metabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. insulin -> ↑duration)\nExcretion:\nRenal\nRenal drug clearan",
-            "score": 0.7871613191364488,
-            "start": 1453,
-            "end": 2055
-          },
-          {
             "text": "2020B15 Discuss the pharmacokinetic implications of severe\nchronic kidney disease,\nusing examples of drugs used in anaesthesia to illustrate your answer.\nList:\n·\nIntro\n·\nAbsorption\n·\nDistribution\n·\nMe",
-            "score": 0.6664422980655527,
+            "score": 0.22686588955665188,
             "start": 0,
             "end": 1452
+          },
+          {
+            "text": "Metabolism:\nHepatic\n·\nUrea -> inhibition of CYP enzymes (e.g.\n  fentanyl -> ↑duration)\n·\n±H\nepatorenal syndrome\nRenal\n·\n↓Drug metabolism (e.g. insulin -> ↑duration)\nExcretion:\nRenal\nRenal drug clearan",
+            "score": 0.1718088844227446,
+            "start": 1453,
+            "end": 2055
           }
         ]
       },

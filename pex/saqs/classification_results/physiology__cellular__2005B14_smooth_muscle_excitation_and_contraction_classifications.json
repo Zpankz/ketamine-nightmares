@@ -14,11 +14,10 @@
     },
     "content_dimensions": [
       "autonomic_disposition",
-      "drug_receptor_disposition"
+      "neuromuscular_process"
     ],
     "explanatory_schema": [
-      "structure_function_link",
-      "mechanism_effect_relevance"
+      "structure_function_link"
     ]
   },
   "classifications": {
@@ -160,36 +159,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7448474166640925,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5377213403515082,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2+\n] and\n  inactivated myosin-ATPase",
-            "score": 0.7448474166640925,
-            "start": 1665,
-            "end": 1701
+            "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
+            "score": 0.5377213403515082,
+            "start": 0,
+            "end": 1673
           },
           {
-            "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.3572097328416696,
-            "start": 0,
-            "end": 1664
+            "text": "  inactivated myosin-ATPase",
+            "score": 0.34933703035082736,
+            "start": 1674,
+            "end": 1701
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7577806115529168,
+        "score": 0.684505264182439,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.7577806115529168,
+            "score": 0.684505264182439,
             "start": 0,
             "end": 1622
           },
           {
             "text": "Sustained contraction despite low ICF [Ca\n2+\n] and\n  inactivated myosin-ATPase",
-            "score": 0.22056881707219475,
+            "score": 0.20601653605049183,
             "start": 1623,
             "end": 1701
           }
@@ -208,20 +207,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.1256423848664057,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.30895152063147,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.1256423848664057,
-            "start": 0,
-            "end": 1673
-          },
-          {
             "text": "  inactivated myosin-ATPase",
-            "score": 0.10007191072786864,
+            "score": 0.30895152063147,
             "start": 1674,
             "end": 1701
+          },
+          {
+            "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
+            "score": 0.29332437688031354,
+            "start": 0,
+            "end": 1673
           }
         ]
       },
@@ -244,37 +243,31 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.2816360763540295,
+        "score": 0.6266023388936498,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.2816360763540295,
+            "score": 0.6266023388936498,
             "start": 0,
-            "end": 1622
+            "end": 1620
           },
           {
-            "text": "Sustained contraction despite low ICF [Ca\n2+\n] and\n  inactivated myosin-ATPase",
-            "score": 0.2113115715020448,
-            "start": 1623,
+            "text": "·\nSustained contraction despite low ICF [Ca\n2+\n] and\n  inactivated myosin-ATPase",
+            "score": 0.26541144562458285,
+            "start": 1621,
             "end": 1701
           }
         ]
       },
       "nociception_process": {
-        "score": 0.4169317822673183,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.17932362625190623,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.4169317822673183,
+            "score": 0.17932362625190623,
             "start": 0,
-            "end": 1664
-          },
-          {
-            "text": "2+\n] and\n  inactivated myosin-ATPase",
-            "score": 0.20377101929932123,
-            "start": 1665,
             "end": 1701
           }
         ]
@@ -298,44 +291,50 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.3047781235673439,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.22686588955665188,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.3047781235673439,
+            "score": 0.22686588955665188,
             "start": 0,
+            "end": 1664
+          },
+          {
+            "text": "2+\n] and\n  inactivated myosin-ATPase",
+            "score": 0.2166840731768605,
+            "start": 1665,
             "end": 1701
           }
         ]
       },
       "special_population_role": {
-        "score": 0.35129895544031847,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.14065856668448176,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "] and\n  inactivated myosin-ATPase",
-            "score": 0.35129895544031847,
-            "start": 1668,
+            "text": "  inactivated myosin-ATPase",
+            "score": 0.14065856668448176,
+            "start": 1674,
             "end": 1701
           },
           {
             "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.2113115715020448,
+            "score": 0.12397561162117983,
             "start": 0,
-            "end": 1667
+            "end": 1673
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8150899351016954,
+        "score": 0.23568694716034655,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.8150899351016954,
+            "score": 0.23568694716034655,
             "start": 0,
             "end": 1701
           }

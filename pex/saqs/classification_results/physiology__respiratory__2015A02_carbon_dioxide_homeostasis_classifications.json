@@ -15,18 +15,14 @@
       "score": 0.5210532226574819
     },
     "content_dimensions": [
-      "equipment_and_physics",
       "gas_exchange_process",
-      "nociception_process",
-      "organ_system_process",
-      "special_population_role",
+      "equipment_and_physics",
       "drug_receptor_disposition",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
       "structure_function_link",
       "dose_response_relationship",
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -181,36 +177,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6947594556254272,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7205848511005187,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\nMultiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of output to\n  respiratory muscle\n·\n↑2-3L/min",
-            "score": 0.6947594556254272,
-            "start": 1318,
+            "text": "Multiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of output to\n  respiratory muscle\n·\n↑2-3L/min m",
+            "score": 0.7205848511005187,
+            "start": 1320,
             "end": 2243
           },
           {
             "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
-            "score": 0.17794296815077074,
+            "score": 0.2052664429349464,
             "start": 0,
-            "end": 1317
+            "end": 1319
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.646488862955155,
+        "score": 0.6678838852837228,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Respiratory centre in dorsal medulla\n·\nMultiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of outpu",
-            "score": 0.646488862955155,
+            "score": 0.6678838852837228,
             "start": 1281,
             "end": 2243
           },
           {
             "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
-            "score": 0.16514433309482263,
+            "score": 0.16448660559557637,
             "start": 0,
             "end": 1280
           }
@@ -235,18 +231,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8213675000686458,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5852697597109906,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Multiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of output to\n  respiratory muscle\n·\n↑2-3L/min m",
-            "score": 0.8213675000686458,
+            "score": 0.5852697597109906,
             "start": 1320,
             "end": 2243
           },
           {
             "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
-            "score": 0.5080931941412556,
+            "score": 0.2606831439763029,
             "start": 0,
             "end": 1319
           }
@@ -271,36 +267,36 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.526747596212247,
+        "score": 0.3847475768790141,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Respiratory centre in dorsal medulla\n·\nMultiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of outpu",
-            "score": 0.526747596212247,
-            "start": 1281,
-            "end": 2243
+            "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
+            "score": 0.3847475768790141,
+            "start": 0,
+            "end": 1278
           },
           {
-            "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
-            "score": 0.1573559898347826,
-            "start": 0,
-            "end": 1280
+            "text": "·\nRespiratory centre in dorsal medulla\n·\nMultiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of out",
+            "score": 0.2488493710543425,
+            "start": 1279,
+            "end": 2243
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8605332160789678,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.18774158236383576,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "Multiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of output to\n  respiratory muscle\n·\n↑2-3L/min m",
-            "score": 0.8605332160789678,
+            "score": 0.18774158236383576,
             "start": 1320,
             "end": 2243
           },
           {
             "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
-            "score": 0.10500911959371668,
+            "score": 0.07785651200065953,
             "start": 0,
             "end": 1319
           }
@@ -325,36 +321,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9018636730986593,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8569393402511397,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Multiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of output to\n  respiratory muscle\n·\n↑2-3L/min m",
-            "score": 0.9018636730986593,
-            "start": 1320,
+            "text": "·\nMultiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of output to\n  respiratory muscle\n·\n↑2-3L/min",
+            "score": 0.8569393402511397,
+            "start": 1318,
             "end": 2243
           },
           {
             "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
-            "score": 0.8348556669051774,
+            "score": 0.5985447317227144,
             "start": 0,
-            "end": 1319
+            "end": 1317
           }
         ]
       },
       "special_population_role": {
-        "score": 0.766334278517655,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.33862352931131995,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "Multiple cell types incl dorsal inspiratory, ventral expiratory,\n  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of output to\n  respiratory muscle\n·\n↑2-3L/min m",
-            "score": 0.766334278517655,
+            "score": 0.33862352931131995,
             "start": 1320,
             "end": 2243
           },
           {
             "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
-            "score": 0.3586931821398125,
+            "score": 0.15228985226789557,
             "start": 0,
             "end": 1319
           }
@@ -363,18 +359,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.777866298836103,
+        "score": 0.34933703035082736,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "  Pre-Botzinger complex pacemaker cells.\nFunction\n·\n↑PaCO\n2\n-> ↑frequency and amplitude of output to\n  respiratory muscle\n·\n↑2-3L/min minute ventilation for every ↑1mmHg PaCO\n2\nEffectors:\nPrimary insp",
-            "score": 0.777866298836103,
+            "score": 0.34933703035082736,
             "start": 1385,
             "end": 2243
           },
           {
             "text": "2015A02 Outline\nthe role of carbon dioxide in the maintenance of ventilation.\nList:\n·\nIntro\n·\nSensor\n·\nController incl table of modulating factors\n·\nEffector\n·\nAltered response\nIntro:\nCO\n2\nhomeostasis",
-            "score": 0.679321278132118,
+            "score": 0.1934812122960498,
             "start": 0,
             "end": 1384
           }

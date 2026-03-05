@@ -16,15 +16,13 @@
       ]
     },
     "content_dimensions": [
-      "equipment_and_physics",
       "gas_exchange_process",
+      "equipment_and_physics",
       "organ_system_process",
-      "acid_base_quality",
-      "nociception_process"
+      "acid_base_quality"
     ],
     "explanatory_schema": [
       "structure_function_link",
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -179,48 +177,42 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.35696271260294926,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.36689203130233206,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Toxicity of opioids",
-            "score": 0.35696271260294926,
-            "start": 2468,
+            "text": "Complex effect on TLC; minimal change overall\no\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAltered geometry -> hyperinf",
+            "score": 0.36689203130233206,
+            "start": 1336,
             "end": 2488
           },
           {
-            "text": "↓FVC (~0.5%/year), ↓ERV\n�\nComplex effect on TLC; minimal change overall\no\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAl",
-            "score": 0.3084865249962589,
-            "start": 1310,
-            "end": 2467
-          },
-          {
             "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
-            "score": 0.1179788782423308,
+            "score": 0.12732266681585389,
             "start": 0,
-            "end": 1309
+            "end": 1335
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.3542497001837563,
+        "score": 0.31784647013645007,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↓FVC (~0.5%/year), ↓ERV\n�\nComplex effect on TLC; minimal change overall\no\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAl",
-            "score": 0.3542497001837563,
+            "score": 0.31784647013645007,
             "start": 1310,
-            "end": 2465
+            "end": 2467
           },
           {
-            "text": "�\n↑Toxicity of opioids",
-            "score": 0.18140657479987835,
-            "start": 2466,
+            "text": "↑Toxicity of opioids",
+            "score": 0.21437210705255258,
+            "start": 2468,
             "end": 2488
           },
           {
             "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
-            "score": 0.1638304622956888,
+            "score": 0.0924623723009821,
             "start": 0,
             "end": 1309
           }
@@ -245,18 +237,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8623093427304601,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7735306053074618,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Complex effect on TLC; minimal change overall\no\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAltered geometry -> hyperinf",
-            "score": 0.8623093427304601,
+            "score": 0.7735306053074618,
             "start": 1336,
             "end": 2488
           },
           {
             "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
-            "score": 0.7751126873366114,
+            "score": 0.29514301842447316,
             "start": 0,
             "end": 1335
           }
@@ -287,44 +279,44 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.4230327267673067,
+        "score": 0.5132658766401054,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↓FVC (~0.5%/year), ↓ERV\n�\nComplex effect on TLC; minimal change overall\no\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAl",
-            "score": 0.4230327267673067,
+            "score": 0.5132658766401054,
             "start": 1310,
-            "end": 2467
+            "end": 2453
           },
           {
-            "text": "↑Toxicity of opioids",
-            "score": 0.14979442334570606,
-            "start": 2468,
+            "text": "and ↑PaCO\n2\n�\n↑Toxicity of opioids",
+            "score": 0.18420617535904918,
+            "start": 2454,
             "end": 2488
           },
           {
             "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
-            "score": 0.10007191072786864,
+            "score": 0.17863249993135413,
             "start": 0,
             "end": 1309
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7258791319588582,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10500911959371668,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "�\nComplex effect on TLC; minimal change overall\no\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAltered geometry -> hyperi",
-            "score": 0.7258791319588582,
-            "start": 1334,
+            "text": "o\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAltered geometry -> hyperinflation -> ↑TLC\nClosing capacity\n�\nSenile emphy",
+            "score": 0.10500911959371668,
+            "start": 1382,
             "end": 2488
           },
           {
             "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
-            "score": 0.1005592983048298,
+            "score": 0.07827820752174312,
             "start": 0,
-            "end": 1333
+            "end": 1381
           }
         ]
       },
@@ -347,36 +339,42 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.958610690059836,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8681301763567975,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "o\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAltered geometry -> hyperinflation -> ↑TLC\nClosing capacity\n�\nSenile emphy",
-            "score": 0.958610690059836,
-            "start": 1382,
-            "end": 2488
+            "text": "↓FVC (~0.5%/year), ↓ERV\n�\nComplex effect on TLC; minimal change overall\no\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAl",
+            "score": 0.8681301763567975,
+            "start": 1310,
+            "end": 2467
           },
           {
             "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
-            "score": 0.5033170868667958,
+            "score": 0.3220989705720298,
             "start": 0,
-            "end": 1381
+            "end": 1309
+          },
+          {
+            "text": "↑Toxicity of opioids",
+            "score": 0.2623973993795041,
+            "start": 2468,
+            "end": 2488
           }
         ]
       },
       "special_population_role": {
-        "score": 0.5711725188768172,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.15799633458154788,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "Complex effect on TLC; minimal change overall\no\n↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAltered geometry -> hyperinf",
-            "score": 0.5711725188768172,
+            "score": 0.15799633458154788,
             "start": 1336,
             "end": 2488
           },
           {
             "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
-            "score": 0.4466669207360274,
+            "score": 0.12342301400327828,
             "start": 0,
             "end": 1335
           }
@@ -385,20 +383,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7798214241424282,
+        "score": 0.3197334123420778,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
-            "score": 0.7798214241424282,
-            "start": 0,
-            "end": 1383
-          },
-          {
             "text": "↑Lung compliance -> ↑TLC\no\n↓Chest wall compliance -> ↓TLC\no\nAtrophy of intervertebral discs -> ↓thoracic height ->\n  ↓TLC\no\nAltered geometry -> hyperinflation -> ↑TLC\nClosing capacity\n�\nSenile emphyse",
-            "score": 0.7089413345700839,
+            "score": 0.3197334123420778,
             "start": 1384,
             "end": 2488
+          },
+          {
+            "text": "2020A15 Discuss the effects of ageing on the respiratory system.\nList:\n�\nSummary\n�\nUpper airway\n�\nMechanics\n�\nVolumes\n�\nGas exchange\n�\nControl of breathing\nSummary:\nChanges\n�\nDegeneration of tissues\n�",
+            "score": 0.2589747757634805,
+            "start": 0,
+            "end": 1383
           }
         ]
       },

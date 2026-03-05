@@ -13,11 +13,10 @@
       "score": 0.5738441421605363
     },
     "content_dimensions": [
-      "drug_receptor_disposition"
+      "drug_receptor_disposition",
+      "autonomic_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -58,18 +57,18 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.6253467775657682,
+        "score": 0.6243413092716535,
         "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nEtomidate\n·\nUnknown\nFeedbac",
-            "score": 0.6253467775657682,
+            "score": 0.6243413092716535,
             "start": 1423,
             "end": 1664
           },
           {
             "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.3381397241417247,
+            "score": 0.3410467514724816,
             "start": 0,
             "end": 1422
           }
@@ -170,37 +169,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9364941169928671,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.9125665037015043,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.9364941169928671,
+            "score": 0.9125665037015043,
             "start": 0,
-            "end": 1378
+            "end": 1396
           },
           {
-            "text": "Volatile agents\n·\nBind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist a",
-            "score": 0.9116642633258352,
-            "start": 1379,
+            "text": "Bind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nE",
+            "score": 0.8072418249488453,
+            "start": 1397,
             "end": 1664
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.30063099459107706,
+        "score": 0.7066756231196865,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.30063099459107706,
+            "score": 0.7066756231196865,
             "start": 0,
-            "end": 1366
+            "end": 1378
           },
           {
-            "text": "Thiopentone\nVolatile agents\n·\nBind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWe",
-            "score": 0.19131688553747267,
-            "start": 1367,
+            "text": "Volatile agents\n·\nBind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist a",
+            "score": 0.3916091398612368,
+            "start": 1379,
             "end": 1664
           }
         ]
@@ -224,20 +223,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.08213138471900344,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.2467670878597175,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Bind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nE",
-            "score": 0.08213138471900344,
-            "start": 1397,
-            "end": 1664
+            "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
+            "score": 0.2467670878597175,
+            "start": 0,
+            "end": 1420
           },
           {
-            "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.07997781705562379,
-            "start": 0,
-            "end": 1396
+            "text": "·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nEtomidate\n·\nUnknown\nFeedb",
+            "score": 0.20676821579165858,
+            "start": 1421,
+            "end": 1664
           }
         ]
       },
@@ -260,38 +259,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.4338869701698269,
+        "score": 0.22213370116389697,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.4338869701698269,
-            "start": 0,
-            "end": 1378
+            "text": "Propofol\nThiopentone\nVolatile agents\n·\nBind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to ",
+            "score": 0.22213370116389697,
+            "start": 1358,
+            "end": 1664
           },
           {
-            "text": "Volatile agents\n·\nBind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist a",
-            "score": 0.14609812862042407,
-            "start": 1379,
-            "end": 1664
+            "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
+            "score": 0.18071066347481568,
+            "start": 0,
+            "end": 1357
           }
         ]
       },
       "nociception_process": {
-        "score": 0.3862691349864315,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.09339430960340468,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nBind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol",
-            "score": 0.3862691349864315,
-            "start": 1395,
+            "text": "↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nEtomidate\n·\nUnknown\nFeedbac",
+            "score": 0.09339430960340468,
+            "start": 1423,
             "end": 1664
           },
           {
             "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.38424080960765233,
+            "score": 0.0825659981021378,
             "start": 0,
-            "end": 1394
+            "end": 1422
           }
         ]
       },
@@ -314,58 +313,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.1949320705626118,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.16057348256172324,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nEtomidate\n·\nUnknown\nFeedbac",
-            "score": 0.1949320705626118,
-            "start": 1423,
+            "text": "Volatile agents\n·\nBind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist a",
+            "score": 0.16057348256172324,
+            "start": 1379,
             "end": 1664
           },
           {
             "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.08300191741623564,
+            "score": 0.09622297710488378,
             "start": 0,
-            "end": 1422
+            "end": 1378
           }
         ]
       },
       "special_population_role": {
-        "score": 0.2159118422576255,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.11690780739311239,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Bind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nE",
-            "score": 0.2159118422576255,
-            "start": 1397,
-            "end": 1664
-          },
-          {
             "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.1898819772959151,
+            "score": 0.11690780739311239,
             "start": 0,
             "end": 1396
+          },
+          {
+            "text": "Bind A and/or B subunit\n·\n↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nE",
+            "score": 0.10252288453633593,
+            "start": 1397,
+            "end": 1664
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6054572344794966,
+        "score": 0.2728052893640291,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
-            "score": 0.6054572344794966,
-            "start": 0,
-            "end": 1422
-          },
-          {
             "text": "↓rate of dissociation of GABA from its receptor\nBaclofen\n·\nDerivative of GABA\n·\nAgonist at GABA-B\nGamma hydroxybutyrate\n·\nPrecursor to GABA\n·\nWeak agonist at GABA-A\nAlcohol\nEtomidate\n·\nUnknown\nFeedbac",
-            "score": 0.2589747757634805,
+            "score": 0.2728052893640291,
             "start": 1423,
             "end": 1664
+          },
+          {
+            "text": "2003B03 Outline\nGABA’s role as a neurotransmitter and indicate how its actions\nmay be modified by pharmacological agents.\nList:\n·\nGABA\n·\nGABA-A\n·\nGABA-B\n·\nDrugs\nGABA: (\nγ\n-aminobutyric acid)\nType of n",
+            "score": 0.2684433312271226,
+            "start": 0,
+            "end": 1422
           }
         ]
       },

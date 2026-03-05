@@ -17,14 +17,9 @@
       ]
     },
     "content_dimensions": [
-      "pharmacokinetic_process",
-      "special_population_role",
-      "nociception_process",
-      "organ_system_process",
-      "neuromuscular_process"
+      "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "dose_response_relationship"
     ]
   },
@@ -49,12 +44,12 @@
         ]
       },
       "mechanistic_explanation": {
-        "score": 0.4544633300320392,
+        "score": 0.45044742416234007,
         "description": "Explain how/why at mechanistic level",
         "top_chunks": [
           {
             "text": "↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhysi",
-            "score": 0.4544633300320392,
+            "score": 0.45044742416234007,
             "start": 1393,
             "end": 1702
           },
@@ -179,38 +174,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.32924077855991984,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.3084865249962589,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
-            "score": 0.32924077855991984,
-            "start": 0,
-            "end": 1369
+            "text": "↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhysi",
+            "score": 0.3084865249962589,
+            "start": 1393,
+            "end": 1702
           },
           {
-            "text": "↑Compartment volumes\n·\n↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: s",
-            "score": 0.23934938244466664,
-            "start": 1370,
-            "end": 1702
+            "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
+            "score": 0.18632263173984007,
+            "start": 0,
+            "end": 1392
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.25220059901524183,
+        "score": 0.2628268805251028,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "o\n↑Compartment volumes\n·\n↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive:",
-            "score": 0.25220059901524183,
-            "start": 1368,
+            "text": "↑Compartment volumes\n·\n↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: s",
+            "score": 0.2628268805251028,
+            "start": 1370,
             "end": 1702
           },
           {
             "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
-            "score": 0.15291762409217716,
+            "score": 0.2409870944785764,
             "start": 0,
-            "end": 1367
+            "end": 1369
           }
         ]
       },
@@ -233,20 +228,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.7258791319588582,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.290606540070939,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
-            "score": 0.7258791319588582,
-            "start": 0,
-            "end": 1392
-          },
-          {
             "text": "↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhysi",
-            "score": 0.5303532742395071,
+            "score": 0.290606540070939,
             "start": 1393,
             "end": 1702
+          },
+          {
+            "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
+            "score": 0.25472975212894494,
+            "start": 0,
+            "end": 1392
           }
         ]
       },
@@ -269,38 +264,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6351016669217304,
+        "score": 0.3478683694621166,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
-            "score": 0.6351016669217304,
+            "score": 0.3478683694621166,
             "start": 0,
-            "end": 1369
+            "end": 1351
           },
           {
-            "text": "↑Compartment volumes\n·\n↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: s",
-            "score": 0.3905902785094401,
-            "start": 1370,
+            "text": "↑Cardiac output\no\n↑Compartment volumes\n·\n↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, b",
+            "score": 0.24428082950380803,
+            "start": 1352,
             "end": 1702
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8199836526412851,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1256423848664057,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Compartment volumes\n·\n↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: s",
-            "score": 0.8199836526412851,
-            "start": 1370,
+            "text": "↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhysi",
+            "score": 0.1256423848664057,
+            "start": 1393,
             "end": 1702
           },
           {
             "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
-            "score": 0.39313891861187006,
+            "score": 0.10301730154669217,
             "start": 0,
-            "end": 1369
+            "end": 1392
           }
         ]
       },
@@ -323,58 +318,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.2955985180950471,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.5349143787983943,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
-            "score": 0.2955985180950471,
+            "score": 0.5349143787983943,
             "start": 0,
-            "end": 1392
+            "end": 1369
           },
           {
-            "text": "↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhysi",
-            "score": 0.1671270277650237,
-            "start": 1393,
+            "text": "↑Compartment volumes\n·\n↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: s",
+            "score": 0.14245781704193952,
+            "start": 1370,
             "end": 1702
           }
         ]
       },
       "special_population_role": {
-        "score": 0.9037770228951163,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.4976116831732091,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "·\n↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhy",
-            "score": 0.9037770228951163,
-            "start": 1391,
+            "text": "↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhysi",
+            "score": 0.4976116831732091,
+            "start": 1393,
             "end": 1702
           },
           {
             "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
-            "score": 0.700745477047508,
+            "score": 0.47659556005891085,
             "start": 0,
-            "end": 1390
+            "end": 1392
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.739316856023697,
+        "score": 0.34518208953308893,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhysi",
-            "score": 0.739316856023697,
-            "start": 1393,
-            "end": 1702
-          },
-          {
             "text": "2020B15 Discuss factors that determine the time to awakening\nafter cessation of a propofol target infusion (TCI).\nList:\n·\nEmergence modelling\n·\nUptake\n·\nElimination\n·\nThreshold\nEmergence modelling:\nDe",
-            "score": 0.5434711915088555,
+            "score": 0.34518208953308893,
             "start": 0,
             "end": 1392
+          },
+          {
+            "text": "↓Metabolism (↓mAP ->\n↓hepatic blood flow; liver disease if severe)\n·\n↓Excretion (<1%)\n3. Threshold (factors lowering it)\nPharmacology\n·\nSynergistic: opioids, benzo\n·\nAdditive: sevoflurane, N\n2\nO\nPhysi",
+            "score": 0.19858710741881394,
+            "start": 1393,
+            "end": 1702
           }
         ]
       },

@@ -11,15 +11,10 @@
     },
     "content_dimensions": [
       "equipment_and_physics",
-      "nociception_process",
       "drug_receptor_disposition",
-      "neuromuscular_process",
-      "organ_system_process",
-      "special_population_role"
+      "organ_system_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -172,36 +167,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9208745583881597,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8122584176361644,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  agonist -> ↓risk respiratory depression (e.g. buprenorphine)\n·\nRoute:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrath",
-            "score": 0.9208745583881597,
-            "start": 1321,
+            "text": "Route:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrathecal:\n  peak effect fentanyl 30mins (systemic absorption), morphi",
+            "score": 0.8122584176361644,
+            "start": 1386,
             "end": 2295
           },
           {
             "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
-            "score": 0.28655277316211425,
+            "score": 0.6693228655984156,
             "start": 0,
-            "end": 1320
+            "end": 1385
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5169781692641474,
+        "score": 0.5972609386602169,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  agonist -> ↓risk respiratory depression (e.g. buprenorphine)\n·\nRoute:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrath",
-            "score": 0.5169781692641474,
+            "score": 0.5972609386602169,
             "start": 1321,
             "end": 2295
           },
           {
             "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
-            "score": 0.28700182061581236,
+            "score": 0.14006190450182948,
             "start": 0,
             "end": 1320
           }
@@ -226,20 +221,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8715496165777917,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6210673622762513,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Route:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrathecal:\n  peak effect fentanyl 30mins (systemic absorption), morphi",
-            "score": 0.8715496165777917,
-            "start": 1386,
+            "text": "o\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrathecal:\n  peak effect fentanyl 30mins (systemic absorption), morphine 6-12",
+            "score": 0.6210673622762513,
+            "start": 1393,
             "end": 2295
           },
           {
             "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
-            "score": 0.8593414333155183,
+            "score": 0.48063617224372523,
             "start": 0,
-            "end": 1385
+            "end": 1392
           }
         ]
       },
@@ -262,38 +257,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.9103008559585227,
+        "score": 0.4085298179966439,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  agonist -> ↓risk respiratory depression (e.g. buprenorphine)\n·\nRoute:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrath",
-            "score": 0.9103008559585227,
+            "score": 0.4085298179966439,
             "start": 1321,
             "end": 2295
           },
           {
             "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
-            "score": 0.2662758837757481,
+            "score": 0.18632263173984007,
             "start": 0,
             "end": 1320
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9394707141242575,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10651790355261252,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "  agonist -> ↓risk respiratory depression (e.g. buprenorphine)\n·\nRoute:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrath",
-            "score": 0.9394707141242575,
-            "start": 1321,
-            "end": 2295
+            "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
+            "score": 0.10651790355261252,
+            "start": 0,
+            "end": 1397
           },
           {
-            "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
-            "score": 0.8692760518176514,
-            "start": 0,
-            "end": 1320
+            "text": "  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrathecal:\n  peak effect fentanyl 30mins (systemic absorption), morphine 6-12 hour",
+            "score": 0.06850481339806207,
+            "start": 1398,
+            "end": 2295
           }
         ]
       },
@@ -316,37 +311,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9689809858347932,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8954909619307434,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrathecal:\n  peak effect fentanyl 30mins (systemic absorption), morphine 6-12 hour",
-            "score": 0.9689809858347932,
-            "start": 1398,
+            "text": "  agonist -> ↓risk respiratory depression (e.g. buprenorphine)\n·\nRoute:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrath",
+            "score": 0.8954909619307434,
+            "start": 1321,
             "end": 2295
           },
           {
             "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
-            "score": 0.22213370116389697,
+            "score": 0.1934812122960498,
             "start": 0,
-            "end": 1397
+            "end": 1320
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7048569815755269,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.2551525833359077,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
-            "score": 0.7048569815755269,
+            "score": 0.2551525833359077,
             "start": 0,
-            "end": 1320
+            "end": 1385
           },
           {
-            "text": "  agonist -> ↓risk respiratory depression (e.g. buprenorphine)\n·\nRoute:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrath",
-            "score": 0.28565571167771503,
-            "start": 1321,
+            "text": "Route:\no\nIV\n  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrathecal:\n  peak effect fentanyl 30mins (systemic absorption), morphi",
+            "score": 0.1592817529828625,
+            "start": 1386,
             "end": 2295
           }
         ]
@@ -354,20 +349,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8605332160789678,
+        "score": 0.36789031545021217,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
-            "score": 0.8605332160789678,
-            "start": 0,
-            "end": 1397
-          },
-          {
             "text": "  -> highest peak effect\no\nIM/SC\n  -> lower peak effect but risk of dose stacking if low skin/muscle blood\n  flow\no\nIntrathecal:\n  peak effect fentanyl 30mins (systemic absorption), morphine 6-12 hour",
-            "score": 0.7630956969060682,
+            "score": 0.36789031545021217,
             "start": 1398,
             "end": 2295
+          },
+          {
+            "text": "2000A15 Describe\nthe effects of opioids on the respiratory system.\nList:\n·\nRespiratory depression\n·\nAirway reflex depression\n·\nOther\nRespiratory\ndepression:\nMechanism\n·\nMOP, DOP in resp centre in dors",
+            "score": 0.20827633226924755,
+            "start": 0,
+            "end": 1397
           }
         ]
       },

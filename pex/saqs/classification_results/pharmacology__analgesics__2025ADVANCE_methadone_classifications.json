@@ -13,16 +13,11 @@
       "score": 0.8804034518017119
     },
     "content_dimensions": [
-      "nociception_process",
       "drug_receptor_disposition",
-      "equipment_and_physics",
-      "pharmacokinetic_process",
-      "special_population_role",
-      "neuromuscular_process"
+      "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "homeostatic_regulation",
-      "mechanism_effect_relevance"
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
@@ -224,48 +219,48 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8939864498892817,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7598325261631611,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2B6, 3A4 > 2C19, 2C9, 2D6\n�\nMajor metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean",
-            "score": 0.8939864498892817,
-            "start": 1348,
-            "end": 2705
+            "text": "Major metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean 1 day\nVariability:\n�\nSignif",
+            "score": 0.7598325261631611,
+            "start": 1376,
+            "end": 2773
+          },
+          {
+            "text": "↓Opioid use (up to 3/12 post-op)\n�\n↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addiction\nRespiratory\n  depression\n�\nEspecially with benzodiazapines, gabape",
+            "score": 0.5094197002645581,
+            "start": 2774,
+            "end": 4133
           },
           {
             "text": "2025ADVANCE Describe the pharmacology of methadone.\ntl;dr\n�\nLong-acting multi-modal analgesia confers risks\n�\nLong-acting multi-modal analgesia confers benefits\nPhysicochemical:\nOrigin\n�\nFirst synthes",
-            "score": 0.7384604628515647,
+            "score": 0.41149790369168415,
             "start": 0,
-            "end": 1347
-          },
-          {
-            "text": "Give a small top up at end of case if needed\n�\nTitrate against pupil size, RR, PaCO2 at steady state\nAdjuvants\nPure\n  Opioids\n:\nCareful\n�\nInduction: use short-acting opioid\n�\nRecovery: as usual\n�\nWard",
-            "score": 0.6155058330514936,
-            "start": 4008,
-            "end": 5440
+            "end": 1375
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.3852545540909096,
+        "score": 0.34056154980718345,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2B6, 3A4 > 2C19, 2C9, 2D6\n�\nMajor metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean",
-            "score": 0.3852545540909096,
+            "score": 0.34056154980718345,
             "start": 1348,
             "end": 2705
           },
           {
             "text": "Give a small top up at end of case if needed\n�\nTitrate against pupil size, RR, PaCO2 at steady state\nAdjuvants\nPure\n  Opioids\n:\nCareful\n�\nInduction: use short-acting opioid\n�\nRecovery: as usual\n�\nWard",
-            "score": 0.33452019961383367,
+            "score": 0.3325963550051149,
             "start": 4008,
             "end": 5440
           },
           {
             "text": "2025ADVANCE Describe the pharmacology of methadone.\ntl;dr\n�\nLong-acting multi-modal analgesia confers risks\n�\nLong-acting multi-modal analgesia confers benefits\nPhysicochemical:\nOrigin\n�\nFirst synthes",
-            "score": 0.2364981332625992,
+            "score": 0.2825268951916765,
             "start": 0,
             "end": 1347
           }
@@ -296,24 +291,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.4221227801089027,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4908455924850634,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓Opioid use (up to 3/12 post-op)\n�\n↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addiction\nRespiratory\n  depression\n�\nEspecially with benzodiazapines, gabape",
-            "score": 0.4221227801089027,
-            "start": 2774,
-            "end": 4133
+            "text": "Major metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean 1 day\nVariability:\n�\nSignif",
+            "score": 0.4908455924850634,
+            "start": 1376,
+            "end": 2806
           },
           {
-            "text": "Major metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean 1 day\nVariability:\n�\nSignif",
-            "score": 0.361666845444835,
-            "start": 1376,
-            "end": 2773
+            "text": "�\n↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addiction\nRespiratory\n  depression\n�\nEspecially with benzodiazapines, gabapentinoids\n�\nEspecially if sleep-di",
+            "score": 0.4590366697393574,
+            "start": 2807,
+            "end": 4182
           },
           {
             "text": "2025ADVANCE Describe the pharmacology of methadone.\ntl;dr\n�\nLong-acting multi-modal analgesia confers risks\n�\nLong-acting multi-modal analgesia confers benefits\nPhysicochemical:\nOrigin\n�\nFirst synthes",
-            "score": 0.2628268805251028,
+            "score": 0.3145562174614424,
             "start": 0,
             "end": 1375
           }
@@ -344,50 +339,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6175312105099457,
+        "score": 0.43496568635968835,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Give a small top up at end of case if needed\n�\nTitrate against pupil size, RR, PaCO2 at steady state\nAdjuvants\nPure\n  Opioids\n:\nCareful\n�\nInduction: use short-acting opioid\n�\nRecovery: as usual\n�\nWard",
-            "score": 0.6175312105099457,
-            "start": 4008,
+            "text": "Give most of it early: anaesthetic room vs induction vs pre-incision\n�\nGive a small top up at end of case if needed\n�\nTitrate against pupil size, RR, PaCO2 at steady state\nAdjuvants\nPure\n  Opioids\n:\nC",
+            "score": 0.43496568635968835,
+            "start": 3937,
             "end": 5440
           },
           {
             "text": "2B6, 3A4 > 2C19, 2C9, 2D6\n�\nMajor metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean",
-            "score": 0.6083908601387631,
+            "score": 0.22686588955665188,
             "start": 1348,
-            "end": 2705
+            "end": 2694
           },
           {
-            "text": "↓Opioid side effects (cf. pure opioids at equi-analgesic\n  doses)\n�\n↓Opioid use (up to 3/12 post-op)\n�\n↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addictio",
-            "score": 0.4597128812539918,
-            "start": 2706,
-            "end": 4007
+            "text": "Benefits\n�\n↓Opioid side effects (cf. pure opioids at equi-analgesic\n  doses)\n�\n↓Opioid use (up to 3/12 post-op)\n�\n↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use a",
+            "score": 0.1612217162063077,
+            "start": 2695,
+            "end": 3936
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9042519039731944,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.18491006489830478,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Give a small top up at end of case if needed\n�\nTitrate against pupil size, RR, PaCO2 at steady state\nAdjuvants\nPure\n  Opioids\n:\nCareful\n�\nInduction: use short-acting opioid\n�\nRecovery: as usual\n�\nWard",
-            "score": 0.9042519039731944,
-            "start": 4008,
-            "end": 5440
-          },
-          {
-            "text": "↓Opioid side effects (cf. pure opioids at equi-analgesic\n  doses)\n�\n↓Opioid use (up to 3/12 post-op)\n�\n↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addictio",
-            "score": 0.897970122007046,
-            "start": 2706,
-            "end": 4007
+            "text": "↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addiction\nRespiratory\n  depression\n�\nEspecially with benzodiazapines, gabapentinoids\n�\nEspecially if sleep-diso",
+            "score": 0.18491006489830478,
+            "start": 2809,
+            "end": 4203
           },
           {
             "text": "2025ADVANCE Describe the pharmacology of methadone.\ntl;dr\n�\nLong-acting multi-modal analgesia confers risks\n�\nLong-acting multi-modal analgesia confers benefits\nPhysicochemical:\nOrigin\n�\nFirst synthes",
-            "score": 0.879317606529836,
+            "score": 0.1573559898347826,
             "start": 0,
-            "end": 1347
+            "end": 1375
+          },
+          {
+            "text": "Ward: as usual. Lower dose or PCA if concerned.\n�\nLong acting: no intrathecal morphine. No slow-release opioid.\nBenzodiazepines\n:\nCareful\n�\nKharasch advises extreme caution\n�\nAvoid if short procedure ",
+            "score": 0.13828116177283872,
+            "start": 4204,
+            "end": 5440
           }
         ]
       },
@@ -416,76 +411,76 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8241160627604578,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.4217329390745932,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Ward: as usual. Lower dose or PCA if concerned.\n�\nLong acting: no intrathecal morphine. No slow-release opioid.\nBenzodiazepines\n:\nCareful\n�\nKharasch advises extreme caution\n�\nAvoid if short procedure ",
-            "score": 0.8241160627604578,
-            "start": 4204,
-            "end": 5440
-          },
-          {
-            "text": "Major metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean 1 day\nVariability:\n�\nSignif",
-            "score": 0.25684762720296567,
-            "start": 1376,
-            "end": 2808
-          },
-          {
-            "text": "↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addiction\nRespiratory\n  depression\n�\nEspecially with benzodiazapines, gabapentinoids\n�\nEspecially if sleep-diso",
-            "score": 0.24718278933502774,
-            "start": 2809,
-            "end": 4203
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.7293801843123591,
-        "description": "Population-specific considerations (BFO: role)",
-        "top_chunks": [
-          {
-            "text": "2025ADVANCE Describe the pharmacology of methadone.\ntl;dr\n�\nLong-acting multi-modal analgesia confers risks\n�\nLong-acting multi-modal analgesia confers benefits\nPhysicochemical:\nOrigin\n�\nFirst synthes",
-            "score": 0.7293801843123591,
-            "start": 0,
-            "end": 1347
-          },
-          {
-            "text": "�\nTitrate against pupil size, RR, PaCO2 at steady state\nAdjuvants\nPure\n  Opioids\n:\nCareful\n�\nInduction: use short-acting opioid\n�\nRecovery: as usual\n�\nWard: as usual. Lower dose or PCA if concerned.\n�",
-            "score": 0.29196393452853037,
-            "start": 4053,
+            "text": "Give a small top up at end of case if needed\n�\nTitrate against pupil size, RR, PaCO2 at steady state\nAdjuvants\nPure\n  Opioids\n:\nCareful\n�\nInduction: use short-acting opioid\n�\nRecovery: as usual\n�\nWard",
+            "score": 0.4217329390745932,
+            "start": 4008,
             "end": 5440
           },
           {
             "text": "2B6, 3A4 > 2C19, 2C9, 2D6\n�\nMajor metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean",
-            "score": 0.24016747383683887,
+            "score": 0.18140657479987835,
             "start": 1348,
             "end": 2705
+          },
+          {
+            "text": "↓Opioid side effects (cf. pure opioids at equi-analgesic\n  doses)\n�\n↓Opioid use (up to 3/12 post-op)\n�\n↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addictio",
+            "score": 0.17588393723954218,
+            "start": 2706,
+            "end": 4007
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.25769737607998944,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2025ADVANCE Describe the pharmacology of methadone.\ntl;dr\n�\nLong-acting multi-modal analgesia confers risks\n�\nLong-acting multi-modal analgesia confers benefits\nPhysicochemical:\nOrigin\n�\nFirst synthes",
+            "score": 0.25769737607998944,
+            "start": 0,
+            "end": 1375
+          },
+          {
+            "text": "Major metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean 1 day\nVariability:\n�\nSignif",
+            "score": 0.13887320349804264,
+            "start": 1376,
+            "end": 2773
+          },
+          {
+            "text": ":\nCareful\n�\nInduction: use short-acting opioid\n�\nRecovery: as usual\n�\nWard: as usual. Lower dose or PCA if concerned.\n�\nLong acting: no intrathecal morphine. No slow-release opioid.\nBenzodiazepines\n:\n",
+            "score": 0.13244504050607428,
+            "start": 4134,
+            "end": 5440
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6363457671513352,
+        "score": 0.365894701768538,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2025ADVANCE Describe the pharmacology of methadone.\ntl;dr\n�\nLong-acting multi-modal analgesia confers risks\n�\nLong-acting multi-modal analgesia confers benefits\nPhysicochemical:\nOrigin\n�\nFirst synthes",
-            "score": 0.6363457671513352,
-            "start": 0,
-            "end": 1375
+            "text": "↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addiction\nRespiratory\n  depression\n�\nEspecially with benzodiazapines, gabapentinoids\n�\nEspecially if sleep-diso",
+            "score": 0.365894701768538,
+            "start": 2809,
+            "end": 4203
+          },
+          {
+            "text": "Ward: as usual. Lower dose or PCA if concerned.\n�\nLong acting: no intrathecal morphine. No slow-release opioid.\nBenzodiazepines\n:\nCareful\n�\nKharasch advises extreme caution\n�\nAvoid if short procedure ",
+            "score": 0.2649797724816399,
+            "start": 4204,
+            "end": 5440
           },
           {
             "text": "Major metabolite inactive (EDDP -> EMDP)\n�\nMinor metabolite weakly active (nor-methadol)\nSpeed:\n�\nLongest duration of all opioids\n�\nCl 6mL/kg/min\n�\nt\n1/2β\n15-60 hours, mean 1 day\nVariability:\n�\nSignif",
-            "score": 0.6213195363978817,
+            "score": 0.23853282225019537,
             "start": 1376,
             "end": 2808
-          },
-          {
-            "text": "↓Pain scores (up to 3/12 post-op)\n�\nThe above could reduce the risk of long-term use and addiction\nRespiratory\n  depression\n�\nEspecially with benzodiazapines, gabapentinoids\n�\nEspecially if sleep-diso",
-            "score": 0.44578006530173525,
-            "start": 2809,
-            "end": 4203
           }
         ]
       },

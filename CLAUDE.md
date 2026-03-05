@@ -1,7 +1,7 @@
 <!-- gitnexus:start -->
 # GitNexus MCP
 
-This project is indexed by GitNexus as **ketamine-nightmares** (2344 symbols, 2447 relationships, 3 execution flows).
+This project is indexed by GitNexus as **ketamine-nightmares** (2566 symbols, 2700 relationships, 4 execution flows).
 
 ## Always Start Here
 

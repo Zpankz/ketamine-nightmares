@@ -13,14 +13,10 @@
       "score": 0.7319908827311787
     },
     "content_dimensions": [
-      "special_population_role",
-      "nociception_process",
       "pharmacokinetic_process",
-      "organ_system_process",
-      "neuromuscular_process"
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "dose_response_relationship",
       "structure_function_link"
     ]
@@ -174,12 +170,12 @@
         ]
       },
       "foundational_science": {
-        "score": 0.47112259772305276,
+        "score": 0.4750395976517069,
         "description": "Underlying science that informs practice",
         "top_chunks": [
           {
             "text": "I\nvolatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profile i",
-            "score": 0.47112259772305276,
+            "score": 0.4750395976517069,
             "start": 1243,
             "end": 2553
           },
@@ -224,50 +220,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5936603917203747,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5846225416580899,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "A\n/F\nI\nvolatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered prof",
-            "score": 0.5936603917203747,
-            "start": 1238,
-            "end": 2548
-          },
-          {
-            "text": "↑V\nA\n:FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mas",
-            "score": 0.1731608672870061,
-            "start": 2549,
-            "end": 2899
+            "text": "volatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profile in ",
+            "score": 0.5846225416580899,
+            "start": 1245,
+            "end": 2553
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
-            "score": 0.1718088844227446,
+            "score": 0.19565989102814468,
             "start": 0,
-            "end": 1237
+            "end": 1244
+          },
+          {
+            "text": ":FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mass (Ja",
+            "score": 0.11744260655618423,
+            "start": 2554,
+            "end": 2899
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.3903356880453444,
+        "score": 0.4240732049846119,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↓Rate of rise F\nA\n/F\nI\nvolatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma protein",
-            "score": 0.3903356880453444,
+            "score": 0.4240732049846119,
             "start": 1222,
-            "end": 2510
+            "end": 2512
+          },
+          {
+            "text": "Unaffected by simple obesity\nLung\n�\n↑V\nA\n:FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchn",
+            "score": 0.21514118653388012,
+            "start": 2513,
+            "end": 2899
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
-            "score": 0.19131688553747267,
+            "score": 0.17248408020698391,
             "start": 0,
             "end": 1221
-          },
-          {
-            "text": "�\nUnaffected by simple obesity\nLung\n�\n↑V\nA\n:FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSc",
-            "score": 0.15354696394416326,
-            "start": 2511,
-            "end": 2899
           }
         ]
       },
@@ -296,25 +292,25 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.7917236677307524,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6427902671583303,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "volatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profile in ",
-            "score": 0.7917236677307524,
+            "score": 0.6427902671583303,
             "start": 1245,
-            "end": 2553
+            "end": 2570
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
-            "score": 0.7659308045041232,
+            "score": 0.2166840731768605,
             "start": 0,
             "end": 1244
           },
           {
-            "text": ":FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mass (Ja",
-            "score": 0.20752148144486066,
-            "start": 2554,
+            "text": "  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mass (James equation)\no\nP",
+            "score": 0.15799633458154788,
+            "start": 2571,
             "end": 2899
           }
         ]
@@ -344,50 +340,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7384604628515647,
+        "score": 0.1870313090838101,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓Rate of rise F\nA\n/F\nI\nvolatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma protein",
-            "score": 0.7384604628515647,
-            "start": 1222,
-            "end": 2512
-          },
-          {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
-            "score": 0.15417787288657336,
+            "score": 0.1870313090838101,
             "start": 0,
-            "end": 1221
+            "end": 1219
           },
           {
-            "text": "Unaffected by simple obesity\nLung\n�\n↑V\nA\n:FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchn",
-            "score": 0.14979442334570606,
-            "start": 2513,
+            "text": "o\n↓Rate of rise F\nA\n/F\nI\nvolatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma prote",
+            "score": 0.17932362625190623,
+            "start": 1220,
+            "end": 2477
+          },
+          {
+            "text": "e.g. morphine 6 glucuronide\nBile\n�\nUnaffected by simple obesity\nLung\n�\n↑V\nA\n:FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose ",
+            "score": 0.11959654819828813,
+            "start": 2478,
             "end": 2899
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8617188382271614,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08609013263273645,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "/F\nI\nvolatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profil",
-            "score": 0.8617188382271614,
-            "start": 1240,
-            "end": 2548
-          },
-          {
-            "text": "↑V\nA\n:FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mas",
-            "score": 0.20827633226924755,
-            "start": 2549,
-            "end": 2899
+            "text": "volatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profile in ",
+            "score": 0.08609013263273645,
+            "start": 1245,
+            "end": 2579
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
-            "score": 0.1554444021999438,
+            "score": 0.07659908032051355,
             "start": 0,
-            "end": 1239
+            "end": 1244
+          },
+          {
+            "text": "A\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mass (James equation)\no\nParadoxica",
+            "score": 0.07088101815552864,
+            "start": 2580,
+            "end": 2899
           }
         ]
       },
@@ -416,48 +412,48 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.5122712877948727,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.2803024686265447,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "volatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profile in ",
-            "score": 0.5122712877948727,
-            "start": 1245,
-            "end": 2579
+            "text": "A\n/F\nI\nvolatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered prof",
+            "score": 0.2803024686265447,
+            "start": 1238,
+            "end": 2548
           },
           {
-            "text": "A\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mass (James equation)\no\nParadoxica",
-            "score": 0.10651790355261252,
-            "start": 2580,
+            "text": "↑V\nA\n:FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mas",
+            "score": 0.2492669590277905,
+            "start": 2549,
             "end": 2899
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
-            "score": 0.08788394835920724,
+            "score": 0.11905584709916793,
             "start": 0,
-            "end": 1244
+            "end": 1237
           }
         ]
       },
       "special_population_role": {
-        "score": 0.9089253329175384,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.4225776980549319,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "I\nvolatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profile i",
-            "score": 0.9089253329175384,
-            "start": 1243,
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
+            "score": 0.4225776980549319,
+            "start": 0,
+            "end": 1244
+          },
+          {
+            "text": "volatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profile in ",
+            "score": 0.2897033101294102,
+            "start": 1245,
             "end": 2553
           },
           {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
-            "score": 0.7302518595070161,
-            "start": 0,
-            "end": 1242
-          },
-          {
             "text": ":FRC -> ↑rate of\n  fall F\nA\n/F\nA0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mass (Ja",
-            "score": 0.2838657351814178,
+            "score": 0.27632062191629214,
             "start": 2554,
             "end": 2899
           }
@@ -466,26 +462,26 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8281911155772554,
+        "score": 0.3865229101133825,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
-            "score": 0.8281911155772554,
-            "start": 0,
-            "end": 1244
-          },
-          {
             "text": "volatile anaesthetic (partly offsets resp changes)\n�\n↑Blood volume\no\n↑Central V\nD\n-> ↓Plasma\n  concentration after loading dose\no\nRisk of awareness post-induction\nPlasma proteins\n�\nAltered profile in ",
-            "score": 0.7691477768734674,
+            "score": 0.3865229101133825,
             "start": 1245,
             "end": 2584
           },
           {
             "text": "A0\n(causes as above)\nModelling:\nMarsh TCI\n�\nEntry of total body weight inappropriate\no\n↑Dose -> toxicity (i.e. hypotension)\nSchnider TCI\n�\nPoor estimate of lean mass (James equation)\no\nParadoxical ↓in",
-            "score": 0.3066297472364717,
+            "score": 0.3043160270707983,
             "start": 2585,
             "end": 2899
+          },
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n�\nObesity\n�\nAbsorption\n�\nDistribution\n�\nMetabolism\n�\nExcretion\n�\n",
+            "score": 0.1949320705626118,
+            "start": 0,
+            "end": 1244
           }
         ]
       },

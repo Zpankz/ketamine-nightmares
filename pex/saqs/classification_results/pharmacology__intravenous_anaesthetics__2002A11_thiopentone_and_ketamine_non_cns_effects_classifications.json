@@ -17,14 +17,10 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "autonomic_disposition",
-      "nociception_process",
+      "drug_receptor_disposition",
       "equipment_and_physics"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -83,18 +79,18 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.27149292917090906,
+        "score": 0.27018379811080334,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.27149292917090906,
+            "score": 0.27018379811080334,
             "start": 0,
             "end": 1447
           },
           {
             "text": "  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved airway reflexes -> ↓risk aspiration\n·\n↑Airway secretion (often ",
-            "score": 0.21055038795004374,
+            "score": 0.20903276749660882,
             "start": 1448,
             "end": 1913
           }
@@ -177,37 +173,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.575015910408344,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7561322192814399,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.575015910408344,
+            "score": 0.7561322192814399,
             "start": 0,
             "end": 1384
           },
           {
             "text": "Direct effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved ",
-            "score": 0.32924077855991984,
+            "score": 0.29742385893649737,
             "start": 1385,
             "end": 1913
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.8254807828860911,
+        "score": 0.4635993401069995,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.8254807828860911,
+            "score": 0.4635993401069995,
             "start": 0,
-            "end": 1382
+            "end": 1384
           },
           {
-            "text": "·\nDirect effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserve",
-            "score": 0.5002653702234754,
-            "start": 1383,
+            "text": "Direct effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved ",
+            "score": 0.3211518341223151,
+            "start": 1385,
             "end": 1913
           }
         ]
@@ -231,19 +227,19 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.957380082490191,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5411199952940162,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.957380082490191,
+            "score": 0.5411199952940162,
             "start": 0,
-            "end": 1384
+            "end": 1447
           },
           {
-            "text": "Direct effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved ",
-            "score": 0.7165808924551722,
-            "start": 1385,
+            "text": "  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved airway reflexes -> ↓risk aspiration\n·\n↑Airway secretion (often ",
+            "score": 0.3791848667100366,
+            "start": 1448,
             "end": 1913
           }
         ]
@@ -267,38 +263,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.5580267529190117,
+        "score": 0.2684433312271226,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Direct effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved ",
-            "score": 0.5580267529190117,
-            "start": 1385,
-            "end": 1913
+            "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
+            "score": 0.2684433312271226,
+            "start": 0,
+            "end": 1332
           },
           {
-            "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.44902812097552003,
-            "start": 0,
-            "end": 1384
+            "text": "Direct effects balance indirect effects in health\n·\nDirect effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ",
+            "score": 0.21283868086355118,
+            "start": 1333,
+            "end": 1913
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8247992193051306,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.0966992383588072,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.8247992193051306,
-            "start": 0,
-            "end": 1384
+            "text": "  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved airway reflexes -> ↓risk aspiration\n·\n↑Airway secretion (often ",
+            "score": 0.0966992383588072,
+            "start": 1448,
+            "end": 1913
           },
           {
-            "text": "Direct effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved ",
-            "score": 0.4454516740677353,
-            "start": 1385,
-            "end": 1913
+            "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
+            "score": 0.0825659981021378,
+            "start": 0,
+            "end": 1447
           }
         ]
       },
@@ -314,43 +310,43 @@
           },
           {
             "text": "Direct effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved ",
-            "score": 0.11637447875983453,
+            "score": 0.11744260655618423,
             "start": 1385,
             "end": 1913
           }
         ]
       },
       "equipment_and_physics": {
-        "score": 0.749478019532338,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7519846744074956,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.749478019532338,
-            "start": 0,
-            "end": 1447
-          },
-          {
-            "text": "  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved airway reflexes -> ↓risk aspiration\n·\n↑Airway secretion (often ",
-            "score": 0.7129981793841875,
-            "start": 1448,
-            "end": 1913
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.5236030953813674,
-        "description": "Population-specific considerations (BFO: role)",
-        "top_chunks": [
-          {
-            "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.5236030953813674,
+            "score": 0.7519846744074956,
             "start": 0,
             "end": 1384
           },
           {
             "text": "Direct effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved ",
-            "score": 0.25642330901735677,
+            "score": 0.23690430309393176,
+            "start": 1385,
+            "end": 1913
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.13186982364320243,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
+            "score": 0.13186982364320243,
+            "start": 0,
+            "end": 1384
+          },
+          {
+            "text": "Direct effects can be unmasked if maximal SNS activity or high\n  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved ",
+            "score": 0.11637447875983453,
             "start": 1385,
             "end": 1913
           }
@@ -359,20 +355,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8470823759078229,
+        "score": 0.30201042805729156,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
-            "score": 0.8470823759078229,
-            "start": 0,
-            "end": 1447
-          },
-          {
             "text": "  dose vasoactives\nRespiratory:\nMechanisms\n·\nDirect: ↓L-Ca\n2+\n, ? other\n·\n(Indirect: ↑SNS output)\nEffects\n·\nPreserved RR, TV\n·\nPreserved airway reflexes -> ↓risk aspiration\n·\n↑Airway secretion (often ",
-            "score": 0.7947335570650536,
+            "score": 0.30201042805729156,
             "start": 1448,
             "end": 1913
+          },
+          {
+            "text": "2002A11 Briefly\noutline the effects of thiopentone and ketamine not mediated by the central\nnervous system.\nList:\nFor each:\n·\nCVS\n·\nResp\n·\nOther\nThiopentone:\nCardiovascular:\nMechanisms\n·\n↑Nitric oxide",
+            "score": 0.23731085714042086,
+            "start": 0,
+            "end": 1447
           }
         ]
       },

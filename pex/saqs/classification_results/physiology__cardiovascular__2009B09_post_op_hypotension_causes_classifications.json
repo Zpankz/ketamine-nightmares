@@ -14,11 +14,10 @@
     },
     "content_dimensions": [
       "equipment_and_physics",
-      "drug_receptor_disposition",
-      "nociception_process",
-      "organ_system_process",
       "neuromuscular_process",
+      "drug_receptor_disposition",
       "acid_base_quality",
+      "organ_system_process",
       "gas_exchange_process"
     ],
     "explanatory_schema": [
@@ -176,38 +175,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8857441707387281,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7947335570650536,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "channel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nactivity\nR",
+            "score": 0.7947335570650536,
+            "start": 1302,
+            "end": 1970
+          },
+          {
+            "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
+            "score": 0.23609234787563346,
+            "start": 0,
+            "end": 1301
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.5873391830180061,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "blocker\n·\nCa\n2+\nchannel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-",
-            "score": 0.8857441707387281,
+            "score": 0.5873391830180061,
             "start": 1286,
             "end": 1970
           },
           {
             "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
-            "score": 0.19858710741881394,
+            "score": 0.2767616374358241,
             "start": 0,
             "end": 1285
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.2623973993795041,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "β\n1\nblocker\n·\nCa\n2+\nchannel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·",
-            "score": 0.2623973993795041,
-            "start": 1282,
-            "end": 1970
-          },
-          {
-            "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
-            "score": 0.24510806609584046,
-            "start": 0,
-            "end": 1281
           }
         ]
       },
@@ -230,20 +229,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8581434784490429,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7152399688596441,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "channel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nactivity\nR",
-            "score": 0.8581434784490429,
-            "start": 1302,
+            "text": "·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nactivity\nResidual NA\n·\nIf ",
+            "score": 0.7152399688596441,
+            "start": 1318,
             "end": 1970
           },
           {
             "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
-            "score": 0.7962289807006788,
+            "score": 0.31174818149345435,
             "start": 0,
-            "end": 1301
+            "end": 1317
           }
         ]
       },
@@ -266,38 +265,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8470823759078229,
+        "score": 0.8150899351016954,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
-            "score": 0.8470823759078229,
-            "start": 0,
-            "end": 1283
+            "text": "Drug\n·\nβ\n1\nblocker\n·\nCa\n2+\nchannel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ",
+            "score": 0.8150899351016954,
+            "start": 1275,
+            "end": 1970
           },
           {
-            "text": "1\nblocker\n·\nCa\n2+\nchannel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓",
-            "score": 0.8381284697982909,
-            "start": 1284,
-            "end": 1970
+            "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
+            "score": 0.32566148493457026,
+            "start": 0,
+            "end": 1274
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8652388596695139,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.14006190450182948,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nCa\n2+\nchannel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nac",
-            "score": 0.8652388596695139,
-            "start": 1294,
+            "text": "AChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nactivity\nResidual NA\n·\nIf af",
+            "score": 0.14006190450182948,
+            "start": 1320,
             "end": 1970
           },
           {
             "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
-            "score": 0.721913193960427,
+            "score": 0.09717688216482506,
             "start": 0,
-            "end": 1293
+            "end": 1319
           }
         ]
       },
@@ -320,58 +319,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9455510935196176,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8247992193051306,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
-            "score": 0.9455510935196176,
+            "score": 0.8247992193051306,
             "start": 0,
-            "end": 1319
+            "end": 1285
           },
           {
-            "text": "AChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nactivity\nResidual NA\n·\nIf af",
-            "score": 0.22291849253518664,
-            "start": 1320,
+            "text": "blocker\n·\nCa\n2+\nchannel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-",
+            "score": 0.3321161147162773,
+            "start": 1286,
             "end": 1970
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3706404679176562,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1485560880659056,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Ca\n2+\nchannel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nacti",
-            "score": 0.3706404679176562,
-            "start": 1296,
+            "text": "channel blocker\n·\nAChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nactivity\nR",
+            "score": 0.1485560880659056,
+            "start": 1302,
             "end": 1970
           },
           {
             "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
-            "score": 0.33235619869440847,
+            "score": 0.11425582926127191,
             "start": 0,
-            "end": 1295
+            "end": 1301
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7511506289456575,
+        "score": 0.6115721341458795,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "AChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nactivity\nResidual NA\n·\nIf af",
-            "score": 0.7511506289456575,
-            "start": 1320,
-            "end": 1970
-          },
-          {
             "text": "2009B09 Classify the causes of hypotension in the early post-operative\nperiod, giving relevant examples.\nList:\n·\nIntro\n·\nPreload\n·\nRate\n·\nContractility\n·\nSVR\nIntro:\nDefinition\n<70mmHg or >20% below ba",
-            "score": 0.6455039829791565,
+            "score": 0.6115721341458795,
             "start": 0,
             "end": 1319
+          },
+          {
+            "text": "AChE reversal i.e. neostigmine\nPathology\n·\nArrhythmia\n·\nIschaemia/infarction of SA node or AV node\n↓ Contractility:\nResidual GA\n·\n↓medullary SNS output -> ↓\nβ\n1\n·\n↓L-Ca\n2+\nactivity\nResidual NA\n·\nIf af",
+            "score": 0.3094168356331381,
+            "start": 1320,
+            "end": 1970
           }
         ]
       },

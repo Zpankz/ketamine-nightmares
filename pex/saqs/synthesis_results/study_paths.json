@@ -1,91 +1,12 @@
 [
   {
-    "dimension": "nociception_process",
-    "bfo_category": "bfo:process",
-    "num_steps": 8,
-    "progression": [
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "mechanistic_explanation"
-    ],
-    "steps": [
-      {
-        "document": "other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "immediately_applicable",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "other/clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/analgesics/2006A07_naloxone.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/haemostasis_drugs/2004A08_unfractionated_heparin_adverse_effects.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "immediately_applicable",
-        "schemas": []
-      },
-      {
-        "document": "pharmacology/miscellaneous_drugs/2005B07_droperidol.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/pharmacodynamics/2002B06_tolerance_and_dependence_opioids.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/pharmacokinetics/2018B14_transdermal_kinetics.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "immediately_applicable",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      }
-    ]
-  },
-  {
     "dimension": "neuromuscular_process",
     "bfo_category": "bfo:process",
     "num_steps": 8,
     "progression": [
       "factual_recall",
       "factual_recall",
-      "factual_recall",
+      "mechanistic_explanation",
       "mechanistic_explanation",
       "mechanistic_explanation",
       "mechanistic_explanation",
@@ -97,40 +18,25 @@
         "document": "other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
         "cognitive_domain": "factual_recall",
         "clinical_relevance": "immediately_applicable",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
-        "document": "other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
+        "document": "pharmacology/miscellaneous_drugs/2004B03_anti_histamines.htm",
         "cognitive_domain": "factual_recall",
         "clinical_relevance": "foundational_science",
-        "schemas": [
-          "structure_function_link"
-        ]
-      },
-      {
-        "document": "pharmacology/miscellaneous_drugs/2005B07_droperidol.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
         "document": "other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
         "document": "pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "homeostatic_regulation"
         ]
       },
@@ -139,183 +45,30 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link",
           "homeostatic_regulation"
-        ]
-      },
-      {
-        "document": "pharmacology/inhalational_anaesthetics/2019B04_volatile_anaesthetics_mechanism_of_hypnosis.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance",
-          "structure_function_link"
         ]
       },
       {
         "document": "pharmacology/intravenous_anaesthetics/2008B03_clonidine.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      }
-    ]
-  },
-  {
-    "dimension": "organ_system_process",
-    "bfo_category": "bfo:process",
-    "num_steps": 8,
-    "progression": [
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "mechanistic_explanation",
-      "mechanistic_explanation",
-      "mechanistic_explanation"
-    ],
-    "steps": [
-      {
-        "document": "other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "structure_function_link"
-        ]
-      },
-      {
-        "document": "pharmacology/miscellaneous_drugs/2004B03_anti_histamines.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
         "schemas": []
       },
       {
-        "document": "physiology/cardiovascular/2002B09_pressure_volume_loop_left_ventricle.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "homeostatic_regulation"
-        ]
-      },
-      {
-        "document": "physiology/metabolism_and_endocrinology/2010B07_oxygen_toxicity.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "physiology/neonatology/2021A07_neonate_airway.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "structure_function_link"
-        ]
-      },
-      {
-        "document": "pharmacology/cardiovascular_drugs/2002B08_vasopressin.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance",
-          "structure_function_link"
-        ]
-      },
-      {
-        "document": "pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm",
+        "document": "pharmacology/intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
-          "homeostatic_regulation"
+          "structure_function_link"
         ]
       },
       {
-        "document": "pharmacology/cardiovascular_drugs/2007A08_treatment_of_chronic_lv_failure.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      }
-    ]
-  },
-  {
-    "dimension": "drug_receptor_disposition",
-    "bfo_category": "bfo:disposition",
-    "num_steps": 8,
-    "progression": [
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "mechanistic_explanation",
-      "mechanistic_explanation",
-      "mechanistic_explanation"
-    ],
-    "steps": [
-      {
-        "document": "pharmacology/analgesics/2006A07_naloxone.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/haemostasis_drugs/2004A08_unfractionated_heparin_adverse_effects.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "immediately_applicable",
-        "schemas": []
-      },
-      {
-        "document": "pharmacology/miscellaneous_drugs/2004B03_anti_histamines.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": []
-      },
-      {
-        "document": "pharmacology/miscellaneous_drugs/2005B07_droperidol.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/pharmacodynamics/2002B06_tolerance_and_dependence_opioids.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
+        "document": "pharmacology/muscle_relaxants/2007B06_suxamethonium_mechanisms_of_phase_1_and_phase_2_blockade.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/analgesics/2016B12_opioids_mechanism_of_analgesia.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/analgesics/2019B14_paracetamol_role_and_toxicity.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
+          "structure_function_link",
           "mechanism_effect_relevance"
         ]
       }
@@ -328,27 +81,21 @@
     "progression": [
       "factual_recall",
       "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
-      "factual_recall",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
       "mechanistic_explanation",
       "mechanistic_explanation"
     ],
     "steps": [
       {
-        "document": "other/clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm",
+        "document": "other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
         "cognitive_domain": "factual_recall",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance"
+          "structure_function_link"
         ]
-      },
-      {
-        "document": "other/equipment/2008B09_hygrometers_and_humidity.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": []
       },
       {
         "document": "other/equipment/2021B13_oxygen_safety.htm",
@@ -357,27 +104,11 @@
         "schemas": []
       },
       {
-        "document": "physiology/cardiovascular/2002B09_pressure_volume_loop_left_ventricle.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
+        "document": "pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "immediately_applicable",
         "schemas": [
           "homeostatic_regulation"
-        ]
-      },
-      {
-        "document": "physiology/metabolism_and_endocrinology/2010B07_oxygen_toxicity.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "physiology/neonatology/2021A07_neonate_airway.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "structure_function_link"
         ]
       },
       {
@@ -385,7 +116,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link",
           "homeostatic_regulation"
         ]
@@ -394,94 +124,28 @@
         "document": "pharmacology/intravenous_anaesthetics/2002A11_thiopentone_and_ketamine_non_cns_effects.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      }
-    ]
-  },
-  {
-    "dimension": "special_population_role",
-    "bfo_category": "bfo:role",
-    "num_steps": 8,
-    "progression": [
-      "factual_recall",
-      "factual_recall",
-      "mechanistic_explanation",
-      "mechanistic_explanation",
-      "mechanistic_explanation",
-      "mechanistic_explanation",
-      "mechanistic_explanation",
-      "mechanistic_explanation"
-    ],
-    "steps": [
-      {
-        "document": "physiology/metabolism_and_endocrinology/2010B07_oxygen_toxicity.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
-        "document": "physiology/neonatology/2021A07_neonate_airway.htm",
-        "cognitive_domain": "factual_recall",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "structure_function_link"
-        ]
-      },
-      {
-        "document": "pharmacology/cardiovascular_drugs/2002B08_vasopressin.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance",
-          "structure_function_link"
-        ]
-      },
-      {
-        "document": "pharmacology/cardiovascular_drugs/2021B02_ace_arb.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
-        "document": "pharmacology/inhalational_anaesthetics/2015A07_sevoflurane_effects_on_muscle.htm",
+        "document": "pharmacology/intravenous_anaesthetics/2008B03_clonidine.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
-        "schemas": [
-          "mechanism_effect_relevance",
-          "structure_function_link",
-          "homeostatic_regulation"
-        ]
+        "schemas": []
       },
       {
         "document": "pharmacology/intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
       {
-        "document": "pharmacology/miscellaneous_drugs/2000A12_oxytocin.htm",
+        "document": "physiology/ageing/2019A02_ageing_cardiovascular_effects.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
-        ]
-      },
-      {
-        "document": "pharmacology/muscle_relaxants/2020A01_suxamethonium_prolonged_effect.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "immediately_applicable",
-        "schemas": [
-          "mechanism_effect_relevance"
         ]
       }
     ]
@@ -505,24 +169,19 @@
         "document": "pharmacology/analgesics/2006A07_naloxone.htm",
         "cognitive_domain": "factual_recall",
         "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
         "document": "pharmacology/miscellaneous_drugs/2005B07_droperidol.htm",
         "cognitive_domain": "factual_recall",
         "clinical_relevance": "integrative",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
         "document": "pharmacology/cardiovascular_drugs/2002B08_vasopressin.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "integrative",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
@@ -531,7 +190,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
@@ -540,7 +198,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
@@ -549,7 +206,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
@@ -558,7 +214,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "homeostatic_regulation",
           "structure_function_link",
           "dose_response_relationship"
@@ -569,7 +224,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance",
           "homeostatic_regulation"
         ]
       }
@@ -600,16 +254,13 @@
         "document": "physiology/metabolism_and_endocrinology/2010B07_oxygen_toxicity.htm",
         "cognitive_domain": "factual_recall",
         "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
         "document": "pharmacology/intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
@@ -618,8 +269,8 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "integrative",
         "schemas": [
-          "mechanism_effect_relevance",
-          "homeostatic_regulation"
+          "homeostatic_regulation",
+          "mechanism_effect_relevance"
         ]
       },
       {
@@ -627,7 +278,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "homeostatic_regulation",
           "structure_function_link",
           "dose_response_relationship"
@@ -646,7 +296,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
@@ -655,9 +304,9 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link",
-          "homeostatic_regulation"
+          "homeostatic_regulation",
+          "mechanism_effect_relevance"
         ]
       }
     ]
@@ -682,7 +331,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "homeostatic_regulation"
         ]
       },
@@ -690,17 +338,15 @@
         "document": "pharmacology/cardiovascular_drugs/2018B10_inotropes.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
         "document": "pharmacology/muscle_relaxants/2007B06_suxamethonium_mechanisms_of_phase_1_and_phase_2_blockade.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance",
-          "structure_function_link"
+          "structure_function_link",
+          "mechanism_effect_relevance"
         ]
       },
       {
@@ -708,7 +354,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "integrative",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
@@ -717,7 +362,6 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
         ]
       },
@@ -726,25 +370,92 @@
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "structure_function_link",
-          "mechanism_effect_relevance"
+          "structure_function_link"
         ]
       },
       {
         "document": "physiology/haematology/2005B12_plasma_proteins.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
         "document": "physiology/metabolism_and_endocrinology/2009A15_lactate_metabolism.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "foundational_science",
         "schemas": [
-          "structure_function_link",
-          "mechanism_effect_relevance"
+          "structure_function_link"
+        ]
+      }
+    ]
+  },
+  {
+    "dimension": "drug_receptor_disposition",
+    "bfo_category": "bfo:disposition",
+    "num_steps": 8,
+    "progression": [
+      "factual_recall",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation"
+    ],
+    "steps": [
+      {
+        "document": "pharmacology/miscellaneous_drugs/2004B03_anti_histamines.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "pharmacology/analgesics/2016B12_opioids_mechanism_of_analgesia.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2002B08_vasopressin.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "integrative",
+        "schemas": [
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2007A08_treatment_of_chronic_lv_failure.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "integrative",
+        "schemas": []
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2018B10_inotropes.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2021B02_ace_arb.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "pharmacology/haemostasis_drugs/2011B05_protamine.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "structure_function_link"
         ]
       }
     ]
@@ -765,72 +476,230 @@
     ],
     "steps": [
       {
-        "document": "pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "immediately_applicable",
-        "schemas": [
-          "mechanism_effect_relevance",
-          "homeostatic_regulation"
-        ]
-      },
-      {
-        "document": "pharmacology/cardiovascular_drugs/2018B10_inotropes.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
-      },
-      {
         "document": "pharmacology/inhalational_anaesthetics/2015A07_sevoflurane_effects_on_muscle.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link",
           "homeostatic_regulation"
-        ]
-      },
-      {
-        "document": "pharmacology/intravenous_anaesthetics/2002A11_thiopentone_and_ketamine_non_cns_effects.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
         ]
       },
       {
         "document": "pharmacology/intravenous_anaesthetics/2008B03_clonidine.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
-        "schemas": [
-          "mechanism_effect_relevance"
-        ]
+        "schemas": []
       },
       {
         "document": "pharmacology/intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
         "schemas": [
-          "mechanism_effect_relevance",
           "structure_function_link"
-        ]
-      },
-      {
-        "document": "pharmacology/muscle_relaxants/2020A14_neostigmine_adverse_effects.htm",
-        "cognitive_domain": "mechanistic_explanation",
-        "clinical_relevance": "foundational_science",
-        "schemas": [
-          "mechanism_effect_relevance"
         ]
       },
       {
         "document": "physiology/ageing/2014A12_ageing_nervous_system_effects.htm",
         "cognitive_domain": "mechanistic_explanation",
         "clinical_relevance": "immediately_applicable",
+        "schemas": []
+      },
+      {
+        "document": "physiology/ageing/2019A02_ageing_cardiovascular_effects.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
         "schemas": [
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "physiology/cardiovascular/2019B08_neuraxial_blockade_cardiovascular_effects.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "integrative",
+        "schemas": [
+          "homeostatic_regulation",
           "mechanism_effect_relevance"
         ]
+      },
+      {
+        "document": "physiology/cardiovascular/2020B01_haemorrhagic_shock_and_anaesthesia.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "homeostatic_regulation",
+          "structure_function_link",
+          "dose_response_relationship"
+        ]
+      },
+      {
+        "document": "physiology/cellular/2003B03_cell_signalling_gaba_ergic_transmission.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      }
+    ]
+  },
+  {
+    "dimension": "special_population_role",
+    "bfo_category": "bfo:role",
+    "num_steps": 8,
+    "progression": [
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis"
+    ],
+    "steps": [
+      {
+        "document": "physiology/obstetrics/2002B01_pregnancy_pharmacokinetics.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "physiology/respiratory/2006A10_factors_increasing_respiratory_rate.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "structure_function_link",
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2016A08_treatment_of_hypertension_in_pregnancy.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "dose_response_relationship",
+          "structure_function_link",
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2017B07_ephedrine_vs_noradrenaline.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "pharmacology/inhalational_anaesthetics/2009A01_minimum_alveolar_concentration.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "pharmacology/inhalational_anaesthetics/2017B05_inhalational_anaesthetics_rate_of_onset.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "dose_response_relationship",
+          "structure_function_link",
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "pharmacology/intravenous_anaesthetics/2019A11_propofol_tci.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "structure_function_link",
+          "dose_response_relationship",
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "pharmacology/local_anaesthetics/2007A02_local_anaesthetics_neuraxial_pharmacokinetics.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "structure_function_link",
+          "homeostatic_regulation"
+        ]
+      }
+    ]
+  },
+  {
+    "dimension": "organ_system_process",
+    "bfo_category": "bfo:process",
+    "num_steps": 8,
+    "progression": [
+      "factual_recall",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation",
+      "mechanistic_explanation"
+    ],
+    "steps": [
+      {
+        "document": "pharmacology/pharmacokinetics/2018B14_transdermal_kinetics.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": []
+      },
+      {
+        "document": "pharmacology/analgesics/2016B12_opioids_mechanism_of_analgesia.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2002B08_vasopressin.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "integrative",
+        "schemas": [
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "pharmacology/cardiovascular_drugs/2021B02_ace_arb.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "pharmacology/inhalational_anaesthetics/2015A07_sevoflurane_effects_on_muscle.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "structure_function_link",
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "pharmacology/inhalational_anaesthetics/2019B04_volatile_anaesthetics_mechanism_of_hypnosis.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "pharmacology/intravenous_anaesthetics/2008B03_clonidine.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": []
       }
     ]
   }

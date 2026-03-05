@@ -13,18 +13,14 @@
       "score": 0.7341565171559492
     },
     "content_dimensions": [
+      "neuromuscular_process",
       "equipment_and_physics",
       "drug_receptor_disposition",
-      "organ_system_process",
-      "nociception_process",
-      "special_population_role",
-      "neuromuscular_process",
       "pharmacokinetic_process",
       "autonomic_disposition",
       "acid_base_quality"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link",
       "homeostatic_regulation"
     ]
@@ -228,48 +224,48 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9008986698241135,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7977180499481404,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Norketamine 30% as active\n(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal",
-            "score": 0.9008986698241135,
-            "start": 1183,
-            "end": 2388
+            "text": "(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal failure\nNo significant ef",
+            "score": 0.7977180499481404,
+            "start": 1209,
+            "end": 2411
           },
           {
-            "text": "-Anti-hyperalgaesia\nNo\nAcute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPr",
-            "score": 0.8857441707387281,
-            "start": 2389,
-            "end": 3425
+            "text": "Acute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonis",
+            "score": 0.739316856023697,
+            "start": 2412,
+            "end": 3471
           },
           {
             "text": "2007A04 Discuss\nthe suitability of ketamine as a total intravenous anaesthetic agent in\ncomparison with propofol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nLogistics\nPharmaceutics:\nPropofol (PPF)\nKetamine (KET)\nEnantiom",
-            "score": 0.45904491545732284,
+            "score": 0.3991473130309587,
             "start": 0,
-            "end": 1182
+            "end": 1208
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7610590891728439,
+        "score": 0.7498967359755564,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Yes (major advantage)\n-Anti-hyperalgaesia\nNo\nAcute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes ",
-            "score": 0.7610590891728439,
+            "score": 0.7498967359755564,
             "start": 2367,
             "end": 3407
           },
           {
             "text": "Norketamine 30% as active\n(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal",
-            "score": 0.4524218058497984,
+            "score": 0.5461274482120938,
             "start": 1183,
             "end": 2366
           },
           {
             "text": "2007A04 Discuss\nthe suitability of ketamine as a total intravenous anaesthetic agent in\ncomparison with propofol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nLogistics\nPharmaceutics:\nPropofol (PPF)\nKetamine (KET)\nEnantiom",
-            "score": 0.35031746521529306,
+            "score": 0.28655277316211425,
             "start": 0,
             "end": 1182
           }
@@ -300,26 +296,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8841573813483605,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.49276908755248594,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal failure\nNo significant ef",
-            "score": 0.8841573813483605,
-            "start": 1209,
-            "end": 2411
-          },
-          {
-            "text": "Acute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonis",
-            "score": 0.7165808924551722,
-            "start": 2412,
-            "end": 3471
+            "text": "-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal failure\nNo significant effect\nNorketamine accumulation\nTime co",
+            "score": 0.49276908755248594,
+            "start": 1246,
+            "end": 2451
           },
           {
             "text": "2007A04 Discuss\nthe suitability of ketamine as a total intravenous anaesthetic agent in\ncomparison with propofol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nLogistics\nPharmaceutics:\nPropofol (PPF)\nKetamine (KET)\nEnantiom",
-            "score": 0.16514433309482263,
+            "score": 0.3759101985219545,
             "start": 0,
-            "end": 1208
+            "end": 1245
+          },
+          {
+            "text": "Chronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonist)\n-Anti-epileptic\nMyoclonus at inductio",
+            "score": 0.3254234590270125,
+            "start": 2452,
+            "end": 3550
           }
         ]
       },
@@ -348,50 +344,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8050679294373881,
+        "score": 0.8185934252001217,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Yes (major advantage)\n-Anti-hyperalgaesia\nNo\nAcute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes ",
-            "score": 0.8050679294373881,
-            "start": 2367,
-            "end": 3407
+            "text": "-Analgesia\nNo\nYes (major advantage)\n-Anti-hyperalgaesia\nNo\nAcute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-An",
+            "score": 0.8185934252001217,
+            "start": 2353,
+            "end": 3394
+          },
+          {
+            "text": "Nil active\nNorketamine 30% as active\n(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 h",
+            "score": 0.5531914020513089,
+            "start": 1172,
+            "end": 2352
           },
           {
             "text": "2007A04 Discuss\nthe suitability of ketamine as a total intravenous anaesthetic agent in\ncomparison with propofol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nLogistics\nPharmaceutics:\nPropofol (PPF)\nKetamine (KET)\nEnantiom",
-            "score": 0.5453225632173557,
+            "score": 0.17588393723954218,
             "start": 0,
-            "end": 1182
-          },
-          {
-            "text": "Norketamine 30% as active\n(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal",
-            "score": 0.3537572601037678,
-            "start": 1183,
-            "end": 2366
+            "end": 1171
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8820211217576693,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.3437202978641945,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Acute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonis",
-            "score": 0.8820211217576693,
-            "start": 2412,
-            "end": 3439
+            "text": "Anaesthetic + analgesic\nUse in 3\nrd\nworld\nNot ideal\nIdeal\n-Cheap\n-Sole agent\n-Airway, breathing, circulation stable\nTCI available\nYes\nNo\nCost\nExpensive\nCheap",
+            "score": 0.3437202978641945,
+            "start": 3554,
+            "end": 3711
           },
           {
-            "text": "(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal failure\nNo significant ef",
-            "score": 0.8652388596695139,
-            "start": 1209,
-            "end": 2411
+            "text": "Chronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonist)\n-Anti-epileptic\nMyoclonus at inductio",
+            "score": 0.19638930530173287,
+            "start": 2452,
+            "end": 3553
           },
           {
             "text": "2007A04 Discuss\nthe suitability of ketamine as a total intravenous anaesthetic agent in\ncomparison with propofol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nLogistics\nPharmaceutics:\nPropofol (PPF)\nKetamine (KET)\nEnantiom",
-            "score": 0.7659308045041232,
+            "score": 0.19275817505115483,
             "start": 0,
-            "end": 1208
+            "end": 1260
           }
         ]
       },
@@ -420,74 +416,74 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9080015537651265,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8072418249488453,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Chronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonist)\n-Anti-epileptic\nMyoclonus at inductio",
-            "score": 0.9080015537651265,
-            "start": 2452,
-            "end": 3553
+            "text": "-Anti-hyperalgaesia\nNo\nAcute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPr",
+            "score": 0.8072418249488453,
+            "start": 2389,
+            "end": 3425
           },
           {
-            "text": "Anaesthetic + analgesic\nUse in 3\nrd\nworld\nNot ideal\nIdeal\n-Cheap\n-Sole agent\n-Airway, breathing, circulation stable\nTCI available\nYes\nNo\nCost\nExpensive\nCheap",
-            "score": 0.8432827798420172,
-            "start": 3554,
+            "text": "Norketamine 30% as active\n(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal",
+            "score": 0.678137927342183,
+            "start": 1183,
+            "end": 2388
+          },
+          {
+            "text": "↓\n↔\n-Overall:\nNeed airway + breathing support\nOften spont vent, patent airway\nLogistics:\nPropofol\nKetamine\nUse as sole agent\nNo\nAnaesthetic + analgesic\nUse in 3\nrd\nworld\nNot ideal\nIdeal\n-Cheap\n-Sole a",
+            "score": 0.5425379102381332,
+            "start": 3426,
             "end": 3711
-          },
-          {
-            "text": "2007A04 Discuss\nthe suitability of ketamine as a total intravenous anaesthetic agent in\ncomparison with propofol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nLogistics\nPharmaceutics:\nPropofol (PPF)\nKetamine (KET)\nEnantiom",
-            "score": 0.6786114956434602,
-            "start": 0,
-            "end": 1260
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8575421829580605,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.25262119035664987,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
+            "text": "Acute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonis",
+            "score": 0.25262119035664987,
+            "start": 2412,
+            "end": 3471
+          },
+          {
             "text": "(effect prolonged, less predictable)\n-Liver failure\nSafe\n↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal failure\nNo significant ef",
-            "score": 0.8575421829580605,
+            "score": 0.23690430309393176,
             "start": 1209,
             "end": 2411
           },
           {
-            "text": "2007A04 Discuss\nthe suitability of ketamine as a total intravenous anaesthetic agent in\ncomparison with propofol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nLogistics\nPharmaceutics:\nPropofol (PPF)\nKetamine (KET)\nEnantiom",
-            "score": 0.38373425311242626,
-            "start": 0,
-            "end": 1208
-          },
-          {
-            "text": "Acute: yes (↓excitability -> ↓ wind-up)\nChronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonis",
-            "score": 0.3549888438284347,
-            "start": 2412,
-            "end": 3439
+            "text": "Often spont vent, patent airway\nLogistics:\nPropofol\nKetamine\nUse as sole agent\nNo\nAnaesthetic + analgesic\nUse in 3\nrd\nworld\nNot ideal\nIdeal\n-Cheap\n-Sole agent\n-Airway, breathing, circulation stable\nTC",
+            "score": 0.14366505103412583,
+            "start": 3472,
+            "end": 3711
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8426440101652175,
+        "score": 0.31926121628175463,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal failure\nNo significant effect\nNorketamine accumulation\nTime course\n-Onset\nIV 30-60",
-            "score": 0.8426440101652175,
-            "start": 1266,
-            "end": 2451
-          },
-          {
             "text": "Chronic: yes (↓long term potentiation,\n  ↓hyperalgesia, ↓allodynia, ↓phantom pain, ↓chronic pain)\n-Anti-emesis\nYes (5-HT\n3\nantagonist)\nPro-emetic (5-HT\n3\nagonist)\n-Anti-epileptic\nMyoclonus at inductio",
-            "score": 0.766334278517655,
+            "score": 0.31926121628175463,
             "start": 2452,
             "end": 3553
           },
           {
+            "text": "↑LFTs\nExcretion\n-Route\nMetabolites 100% renal\nPPF 0.3% renal\nMetabolites 90% urine\n-t\n1/2\nβ\n5-12 hours\n2 hours\n-Renal failure\nNo significant effect\nNorketamine accumulation\nTime course\n-Onset\nIV 30-60",
+            "score": 0.25220059901524183,
+            "start": 1266,
+            "end": 2451
+          },
+          {
             "text": "2007A04 Discuss\nthe suitability of ketamine as a total intravenous anaesthetic agent in\ncomparison with propofol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nLogistics\nPharmaceutics:\nPropofol (PPF)\nKetamine (KET)\nEnantiom",
-            "score": 0.49575416246839077,
+            "score": 0.16057348256172324,
             "start": 0,
             "end": 1265
           }

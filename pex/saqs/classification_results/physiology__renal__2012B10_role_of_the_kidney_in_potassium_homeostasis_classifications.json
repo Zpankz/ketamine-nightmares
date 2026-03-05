@@ -11,14 +11,11 @@
     },
     "content_dimensions": [
       "drug_receptor_disposition",
-      "special_population_role",
-      "organ_system_process",
       "acid_base_quality",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
       "homeostatic_regulation",
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -173,36 +170,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8857441707387281,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8234313128912258,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "CRH -> ACTH (necessary for synthesis; minor\n  stimulus for release)\no\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and R",
-            "score": 0.8857441707387281,
-            "start": 1436,
+            "text": "o\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and ROMK activity\no\ni.e. ↑Na\n+\nreabsorption at\n  expense of ↑K\n+\nsecretio",
+            "score": 0.8234313128912258,
+            "start": 1504,
             "end": 2348
           },
           {
             "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
-            "score": 0.20601653605049183,
+            "score": 0.34518208953308893,
             "start": 0,
-            "end": 1435
+            "end": 1503
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5110113580426539,
+        "score": 0.42355289441287236,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "CRH -> ACTH (necessary for synthesis; minor\n  stimulus for release)\no\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and R",
-            "score": 0.5110113580426539,
+            "score": 0.42355289441287236,
             "start": 1436,
             "end": 2348
           },
           {
             "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
-            "score": 0.41602492247514117,
+            "score": 0.19932289324287283,
             "start": 0,
             "end": 1435
           }
@@ -227,20 +224,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.801412892581186,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.505837920827331,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
-            "score": 0.801412892581186,
-            "start": 0,
-            "end": 1503
+            "text": "Angiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and ROMK activity\no\ni.e. ↑Na\n+\nreabsorption at\n  expense of ↑K\n+\nsecretion\n",
+            "score": 0.505837920827331,
+            "start": 1506,
+            "end": 2348
           },
           {
-            "text": "o\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and ROMK activity\no\ni.e. ↑Na\n+\nreabsorption at\n  expense of ↑K\n+\nsecretio",
-            "score": 0.7969743099290385,
-            "start": 1504,
-            "end": 2348
+            "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
+            "score": 0.2843127098628851,
+            "start": 0,
+            "end": 1505
           }
         ]
       },
@@ -263,38 +260,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.3478683694621166,
+        "score": 0.3759101985219545,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "CRH -> ACTH (necessary for synthesis; minor\n  stimulus for release)\no\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and R",
-            "score": 0.3478683694621166,
+            "score": 0.3759101985219545,
             "start": 1436,
             "end": 2348
           },
           {
             "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
-            "score": 0.18491006489830478,
+            "score": 0.23205568751749697,
             "start": 0,
             "end": 1435
           }
         ]
       },
       "nociception_process": {
-        "score": 0.396971029672017,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.13887320349804264,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "CRH -> ACTH (necessary for synthesis; minor\n  stimulus for release)\no\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and R",
-            "score": 0.396971029672017,
-            "start": 1436,
+            "text": "Angiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and ROMK activity\no\ni.e. ↑Na\n+\nreabsorption at\n  expense of ↑K\n+\nsecretion\n",
+            "score": 0.13887320349804264,
+            "start": 1506,
             "end": 2348
           },
           {
             "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
-            "score": 0.24635176452375257,
+            "score": 0.09107466708246154,
             "start": 0,
-            "end": 1435
+            "end": 1505
           }
         ]
       },
@@ -317,58 +314,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.2843127098628851,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.2260732893915247,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Angiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and ROMK activity\no\ni.e. ↑Na\n+\nreabsorption at\n  expense of ↑K\n+\nsecretion\n",
-            "score": 0.2843127098628851,
-            "start": 1506,
+            "text": "CRH -> ACTH (necessary for synthesis; minor\n  stimulus for release)\no\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and R",
+            "score": 0.2260732893915247,
+            "start": 1436,
             "end": 2348
           },
           {
             "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
-            "score": 0.19203673272679375,
+            "score": 0.18774158236383576,
             "start": 0,
-            "end": 1505
+            "end": 1435
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8050679294373881,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.17794296815077074,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "  stimulus for release)\no\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and ROMK activity\no\ni.e. ↑Na\n+\nreabsorption at\n  ",
-            "score": 0.8050679294373881,
-            "start": 1480,
+            "text": "o\nAngiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and ROMK activity\no\ni.e. ↑Na\n+\nreabsorption at\n  expense of ↑K\n+\nsecretio",
+            "score": 0.17794296815077074,
+            "start": 1504,
             "end": 2348
           },
           {
             "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
-            "score": 0.6175312105099457,
+            "score": 0.14609812862042407,
             "start": 0,
-            "end": 1479
+            "end": 1503
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8086831144625273,
+        "score": 0.26931284321853594,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
-            "score": 0.8086831144625273,
-            "start": 0,
-            "end": 1505
-          },
-          {
             "text": "Angiotensin 2 (major)\no\nHyperkalaemia (minor)\n�\nEffect on principal cell\no\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity\no\n↑ENaC and ROMK activity\no\ni.e. ↑Na\n+\nreabsorption at\n  expense of ↑K\n+\nsecretion\n",
-            "score": 0.771544239031447,
+            "score": 0.26931284321853594,
             "start": 1506,
             "end": 2348
+          },
+          {
+            "text": "2012B10 Outline\nthe mechanisms by which the kidney maintains potassium homeostasis.\nList:\n�\nIntro\n�\nFiltration\n�\nReabsorption\n�\nSecretion\nIntro:\nNormal values\n�\nECF 3.5-5mM (tight control required for",
+            "score": 0.21514118653388012,
+            "start": 0,
+            "end": 1505
           }
         ]
       },

@@ -14,17 +14,15 @@
       "score": 0.6800303748388085
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
-      "equipment_and_physics",
-      "pharmacokinetic_process",
       "neuromuscular_process",
-      "organ_system_process",
-      "nociception_process",
+      "pharmacokinetic_process",
+      "equipment_and_physics",
       "acid_base_quality",
-      "special_population_role"
+      "drug_receptor_disposition",
+      "organ_system_process",
+      "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "dose_response_relationship",
       "homeostatic_regulation",
       "structure_function_link"
@@ -229,50 +227,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8830921926068878,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7002869831289269,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "(Gantacurium: very low)\nNo ↑K\n+\n√\nY (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√",
-            "score": 0.8830921926068878,
-            "start": 2657,
+            "text": "Y (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal ryanodine",
+            "score": 0.7002869831289269,
+            "start": 2691,
             "end": 3091
           },
           {
             "text": "= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 10 m",
-            "score": 0.686849214693223,
+            "score": 0.691978150715181,
             "start": 1388,
-            "end": 2656
+            "end": 2690
           },
           {
             "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
-            "score": 0.3183177445792676,
+            "score": 0.4949581100027542,
             "start": 0,
             "end": 1387
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5434444121717611,
+        "score": 0.6717153253539773,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "4xED\n95\n= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacur",
-            "score": 0.5434444121717611,
-            "start": 1380,
-            "end": 2646
+            "text": "(Gantacurium: very low)\nNo ↑K\n+\n√\nY (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√",
+            "score": 0.6717153253539773,
+            "start": 2657,
+            "end": 3091
+          },
+          {
+            "text": "95\n= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 1",
+            "score": 0.46495348575826273,
+            "start": 1385,
+            "end": 2656
           },
           {
             "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
-            "score": 0.46071093409545405,
+            "score": 0.387538527079057,
             "start": 0,
-            "end": 1379
-          },
-          {
-            "text": "1 in 2000\n(Gantacurium: very low)\nNo ↑K\n+\n√\nY (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hype",
-            "score": 0.36888954795622797,
-            "start": 2647,
-            "end": 3091
+            "end": 1384
           }
         ]
       },
@@ -301,24 +299,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8136773682601599,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6952218764326561,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Y (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal ryanodine",
-            "score": 0.8136773682601599,
-            "start": 2691,
-            "end": 3091
-          },
-          {
             "text": "= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 10 m",
-            "score": 0.5517886122780776,
+            "score": 0.6952218764326561,
             "start": 1388,
             "end": 2690
           },
           {
+            "text": "Y (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal ryanodine",
+            "score": 0.5662764257808777,
+            "start": 2691,
+            "end": 3091
+          },
+          {
             "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
-            "score": 0.47103576968631244,
+            "score": 0.3604267300934169,
             "start": 0,
             "end": 1387
           }
@@ -349,50 +347,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8150899351016954,
+        "score": 0.9125665037015043,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
-            "score": 0.8150899351016954,
-            "start": 0,
-            "end": 1379
+            "text": "= 0.6mg/kg: 1-1.5min\n4xED\n95\n= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n",
+            "score": 0.9125665037015043,
+            "start": 1359,
+            "end": 2586
           },
           {
-            "text": "4xED\n95\n= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacur",
-            "score": 0.7848588134661199,
-            "start": 1380,
-            "end": 2656
-          },
-          {
-            "text": "(Gantacurium: very low)\nNo ↑K\n+\n√\nY (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√",
-            "score": 0.7848588134661199,
-            "start": 2657,
+            "text": "No histamine release\nDoes not\nDoes\nNo anaphylaxis\n1 in 2500\n1 in 2000\n(Gantacurium: very low)\nNo ↑K\n+\n√\nY (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus brady",
+            "score": 0.9121160516407928,
+            "start": 2587,
             "end": 3091
+          },
+          {
+            "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
+            "score": 0.8322089010665819,
+            "start": 0,
+            "end": 1358
           }
         ]
       },
       "nociception_process": {
-        "score": 0.81296869091619,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.13015328625585776,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 10 m",
-            "score": 0.81296869091619,
-            "start": 1388,
-            "end": 2680
-          },
-          {
             "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
-            "score": 0.7962289807006788,
+            "score": 0.13015328625585776,
             "start": 0,
             "end": 1387
           },
           {
-            "text": "No ↑K\n+\n√\nY (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal",
-            "score": 0.7902092136687209,
-            "start": 2681,
+            "text": "↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal ryanodine receptor)\nNo myalg",
+            "score": 0.12452970475004799,
+            "start": 2710,
             "end": 3091
+          },
+          {
+            "text": "= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 10 m",
+            "score": 0.08924333203133303,
+            "start": 1388,
+            "end": 2709
           }
         ]
       },
@@ -421,49 +419,49 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8623093427304601,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8206763737480939,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 10 m",
-            "score": 0.8623093427304601,
-            "start": 1388,
-            "end": 2709
-          },
-          {
-            "text": "↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal ryanodine receptor)\nNo myalg",
-            "score": 0.7590129055214236,
-            "start": 2710,
-            "end": 3091
+            "text": "95\n= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 1",
+            "score": 0.8206763737480939,
+            "start": 1385,
+            "end": 2656
           },
           {
             "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
-            "score": 0.6240898014780455,
+            "score": 0.6210673622762513,
             "start": 0,
-            "end": 1387
+            "end": 1384
+          },
+          {
+            "text": "(Gantacurium: very low)\nNo ↑K\n+\n√\nY (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√",
+            "score": 0.37013991264414337,
+            "start": 2657,
+            "end": 3091
           }
         ]
       },
       "special_population_role": {
-        "score": 0.6628270414999413,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.174519217113909,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "= 1.2mg/kg: 0.75-1min\n4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 10 m",
-            "score": 0.6628270414999413,
+            "score": 0.174519217113909,
             "start": 1388,
-            "end": 2680
+            "end": 2690
           },
           {
             "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
-            "score": 0.37114125594624536,
+            "score": 0.1638304622956888,
             "start": 0,
             "end": 1387
           },
           {
-            "text": "No ↑K\n+\n√\nY (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal",
-            "score": 0.2838657351814178,
-            "start": 2681,
+            "text": "Y (depolarisation)\n↑↑↑ if denervated e.g. burns\nNo cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal ryanodine",
+            "score": 0.1485560880659056,
+            "start": 2691,
             "end": 3091
           }
         ]
@@ -471,24 +469,24 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8302071599905412,
+        "score": 0.318789326827268,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "4xED\n95\n= 1.2 mg/kg: 0.5-1min\nRapid offset TOF 0.9\n-Quick wake up after short procedure\n-Safer if CICO\n2xED\n95\n: 30-40mins\n4xED\n95\n: 45-60 mins\n4xED\n95\n: 5 mins\n(Gantacurium 10 mins max)\nAbsorption\nN/",
-            "score": 0.8302071599905412,
+            "score": 0.318789326827268,
             "start": 1410,
             "end": 2738
           },
           {
             "text": "No cardiac mAChr effect\n√\nAgonist -> sinus bradycardia, AV block, asystole,\n  esp children\nNo malignant hyperthermia\n√\nDoes\n(activate abnormal ryanodine receptor)\nNo myalgia\n√\n√\n(depolarisation)\nNo ↑I",
-            "score": 0.7376026006204958,
+            "score": 0.28610407002975813,
             "start": 2739,
             "end": 3091
           },
           {
             "text": "2006B04 Describe the advantages and disadvantages of rocuronium for rapid\nsequence induction.\nList:\n·\nIntro: rapid sequence introduction\n·\nIdeal kinetics\n·\nIdeal dynamics\nIntro:\nRapid sequence inducti",
-            "score": 0.7044014819049529,
+            "score": 0.225282248199159,
             "start": 0,
             "end": 1409
           }

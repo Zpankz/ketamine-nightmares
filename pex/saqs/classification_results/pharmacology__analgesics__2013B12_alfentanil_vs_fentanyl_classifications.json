@@ -16,22 +16,23 @@
       ]
     },
     "content_dimensions": [
-      "pharmacokinetic_process"
+      "pharmacokinetic_process",
+      "equipment_and_physics",
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "dose_response_relationship"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.11531222505249526,
+        "score": 0.11637447875983453,
         "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.11531222505249526,
+            "score": 0.11637447875983453,
             "start": 0,
             "end": 1281
           },
@@ -174,48 +175,48 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.35203576220429333,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.40749874543127046,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.35203576220429333,
+            "score": 0.40749874543127046,
             "start": 0,
-            "end": 1263
+            "end": 1281
           },
           {
-            "text": "e.g. laryngoscopy\ne.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nConte",
-            "score": 0.2658434828440508,
-            "start": 1264,
+            "text": "e.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nContext\nsensitive half ",
+            "score": 0.18140657479987835,
+            "start": 1282,
             "end": 1824
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.26887790666980355,
+        "score": 0.25769737607998944,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Alfentanil for brief intense stimulation\ne.g. laryngoscopy\ne.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration ",
-            "score": 0.26887790666980355,
-            "start": 1223,
+            "text": "e.g. laryngoscopy\ne.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nConte",
+            "score": 0.25769737607998944,
+            "start": 1264,
             "end": 1824
           },
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.15417787288657336,
+            "score": 0.23406919549587674,
             "start": 0,
-            "end": 1222
+            "end": 1263
           }
         ]
       },
       "pharmacokinetic_process": {
-        "score": 0.8275159197930162,
+        "score": 0.8268391327129939,
         "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.8275159197930162,
+            "score": 0.8268391327129939,
             "start": 0,
             "end": 1281
           },
@@ -228,18 +229,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.4112395911274856,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6513975997470169,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.4112395911274856,
+            "score": 0.6513975997470169,
             "start": 0,
             "end": 1281
           },
           {
             "text": "e.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nContext\nsensitive half ",
-            "score": 0.14245781704193952,
+            "score": 0.36689203130233206,
             "start": 1282,
             "end": 1824
           }
@@ -264,38 +265,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.2820813113627648,
+        "score": 0.21437210705255258,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "e.g. laryngoscopy\ne.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nConte",
-            "score": 0.2820813113627648,
-            "start": 1264,
-            "end": 1824
+            "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
+            "score": 0.21437210705255258,
+            "start": 0,
+            "end": 1222
           },
           {
-            "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.20827633226924755,
-            "start": 0,
-            "end": 1263
+            "text": "Alfentanil for brief intense stimulation\ne.g. laryngoscopy\ne.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration ",
+            "score": 0.19059863367246443,
+            "start": 1223,
+            "end": 1824
           }
         ]
       },
       "nociception_process": {
-        "score": 0.5212850693260809,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.174519217113909,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "e.g. laryngoscopy\ne.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nConte",
-            "score": 0.5212850693260809,
-            "start": 1264,
+            "text": "e.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nContext\nsensitive half ",
+            "score": 0.174519217113909,
+            "start": 1282,
             "end": 1824
           },
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.37114125594624536,
+            "score": 0.09622297710488378,
             "start": 0,
-            "end": 1263
+            "end": 1281
           }
         ]
       },
@@ -318,37 +319,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.24180824239107535,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7553057419485449,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "e.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nContext\nsensitive half ",
-            "score": 0.24180824239107535,
-            "start": 1282,
+            "text": "e.g. laryngoscopy\ne.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nConte",
+            "score": 0.7553057419485449,
+            "start": 1264,
             "end": 1824
           },
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.11690780739311239,
+            "score": 0.25812280612051225,
             "start": 0,
-            "end": 1281
+            "end": 1263
           }
         ]
       },
       "special_population_role": {
-        "score": 0.4033813796001826,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.16514433309482263,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.4033813796001826,
+            "score": 0.16514433309482263,
             "start": 0,
-            "end": 1263
+            "end": 1281
           },
           {
-            "text": "e.g. laryngoscopy\ne.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nConte",
-            "score": 0.2409870944785764,
-            "start": 1264,
+            "text": "e.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nContext\nsensitive half ",
+            "score": 0.11060433745697731,
+            "start": 1282,
             "end": 1824
           }
         ]
@@ -356,18 +357,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6767154052888689,
+        "score": 0.5600590967002301,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2013B12 Explain\nhow the differences in pharmacokinetics of alfentanil and fentanyl can\ninfluence the way\nthey are administered intravenously.\nList:\n·\nDistribution\n·\nElimination\n·\nCSHT\nDistribution:\nFe",
-            "score": 0.6767154052888689,
+            "score": 0.5600590967002301,
             "start": 0,
             "end": 1281
           },
           {
             "text": "e.g. lancing peri-anal abscess.\nFentanyl for medium to long duration surgery\ne.g. lap cholecystectomy\ne.g. CABG\n-TTPE (mins)\n5\n1.8\n-Duration (mins)\n10 (highly dose-dependent)\n4\nContext\nsensitive half ",
-            "score": 0.27018379811080334,
+            "score": 0.27852923486057457,
             "start": 1282,
             "end": 1824
           }

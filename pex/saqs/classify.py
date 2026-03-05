@@ -149,18 +149,21 @@ ONTOLOGY = {
         # --- BFO Dispositions: mechanisms that may be realized ---
         "drug_receptor_disposition": {
             "query": (
-                "{This discusses receptor binding, agonists, antagonists, "
-                "receptor subtypes, signal transduction pathways, ion channel "
-                "modulation, or enzyme inhibition as a drug mechanism}"
+                "{This discusses how a specific drug or drug class "
+                "interacts with receptors, ion channels, or enzymes "
+                "to produce its pharmacological effect} AND "
+                "{This names a specific receptor type or molecular target}"
             ),
             "is_iql": True,
-            "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+            "description": "Drug-receptor/target interactions (BFO: disposition)",
         },
         "autonomic_disposition": {
             "query": (
-                "{This discusses sympathetic or parasympathetic nervous system "
-                "pharmacology, adrenergic or cholinergic receptor mechanisms, "
-                "catecholamine synthesis and metabolism, or autonomic reflexes}"
+                "{This is primarily about autonomic nervous system "
+                "pharmacology or physiology} AND "
+                "{This discusses adrenoceptors, cholinergic receptors, "
+                "sympathomimetics, parasympatholytics, or autonomic "
+                "ganglionic transmission}"
             ),
             "is_iql": True,
             "description": "Autonomic nervous system mechanisms (BFO: disposition)",
@@ -179,12 +182,13 @@ ONTOLOGY = {
         },
         "organ_system_process": {
             "query": (
-                "{This discusses physiological or pathophysiological effects "
-                "on the cardiovascular, respiratory, renal, hepatic, or "
-                "central nervous systems}"
+                "{This discusses how multiple organ systems interact or "
+                "how a drug or condition produces effects across two or "
+                "more organ systems simultaneously} AND NOT "
+                "{This focuses on a single organ system in isolation}"
             ),
             "is_iql": True,
-            "description": "Organ-level physiological processes (BFO: process)",
+            "description": "Cross-system physiological interactions (BFO: process)",
         },
         "gas_exchange_process": {
             "query": (
@@ -197,21 +201,25 @@ ONTOLOGY = {
         },
         "neuromuscular_process": {
             "query": (
-                "{This discusses neuromuscular transmission, neuromuscular "
-                "blockade, cerebral blood flow regulation, intracranial "
-                "pressure dynamics, or mechanisms of general anaesthesia}"
+                "{This discusses the neuromuscular junction, acetylcholine "
+                "release at the motor end plate, depolarising or "
+                "non-depolarising neuromuscular blockade, or train-of-four "
+                "monitoring} OR "
+                "{This discusses cerebral blood flow autoregulation, "
+                "intracranial pressure dynamics, or the blood-brain barrier}"
             ),
             "is_iql": True,
             "description": "NMJ transmission and CNS processes (BFO: process)",
         },
         "nociception_process": {
             "query": (
-                "{This discusses nociceptive pathways, pain transmission, "
-                "analgesic mechanisms, opioid pharmacology, local anaesthetic "
-                "nerve blockade, or regional anaesthesia techniques}"
+                "{This discusses pain pathways, nociception, analgesic "
+                "mechanisms, or regional anaesthesia} AND "
+                "{This is primarily about pain management or pain "
+                "physiology rather than mentioning pain as a side effect}"
             ),
             "is_iql": True,
-            "description": "Pain pathways and analgesic processes (BFO: process)",
+            "description": "Pain pathways and analgesia (BFO: process)",
         },
 
         # --- BFO Qualities: measurable properties ---
@@ -230,24 +238,26 @@ ONTOLOGY = {
         # --- BFO Material Entities: equipment, physical systems ---
         "equipment_and_physics": {
             "query": (
-                "{This discusses anaesthetic equipment, breathing circuits, "
-                "vaporisers, ventilators, or monitoring devices} OR "
-                "{This discusses gas laws, vapour pressure, electrical "
-                "safety, or physical principles of measurement}"
+                "{This describes a specific piece of anaesthetic equipment "
+                "such as a vaporiser, breathing circuit, ventilator, "
+                "laryngoscope, nerve stimulator, or infusion pump} OR "
+                "{This discusses gas laws, electrical safety, laser physics, "
+                "or the physics of ultrasound in a clinical context}"
             ),
             "is_iql": True,
-            "description": "Equipment and physical principles (BFO: material entity)",
+            "description": "Named equipment and physical principles (BFO: material entity)",
         },
 
         # --- BFO Roles: context-dependent classifications ---
         "special_population_role": {
             "query": (
-                "{This discusses altered physiology or pharmacology in "
-                "pregnancy, neonates, the elderly, obese patients, or "
-                "patients with renal or hepatic impairment}"
+                "{This is specifically about how pregnancy, neonatal age, "
+                "advanced age, or morbid obesity alters drug handling "
+                "or physiological responses} AND NOT "
+                "{This merely mentions the liver or kidneys as organs}"
             ),
             "is_iql": True,
-            "description": "Population-specific considerations (BFO: role)",
+            "description": "Population-specific pharmacology (BFO: role)",
         },
     },
 
@@ -261,8 +271,10 @@ ONTOLOGY = {
     "explanatory_schema": {
         "mechanism_effect_relevance": {
             "query": (
-                "{This explains a mechanism of action AND then describes "
-                "the resulting physiological or clinical effect}"
+                "{This explains a mechanism of action and then describes "
+                "the resulting physiological or clinical effect} AND "
+                "{This contains a causal explanation, not just a list of "
+                "facts or properties}"
             ),
             "is_iql": True,
             "description": "Mechanism → effect → clinical relevance chain",

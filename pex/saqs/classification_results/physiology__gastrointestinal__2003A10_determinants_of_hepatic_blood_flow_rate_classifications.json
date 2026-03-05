@@ -10,15 +10,11 @@
       "score": 0.5275789425332795
     },
     "content_dimensions": [
-      "organ_system_process",
-      "equipment_and_physics",
-      "neuromuscular_process",
       "acid_base_quality",
-      "nociception_process"
+      "equipment_and_physics"
     ],
     "explanatory_schema": [
       "structure_function_link",
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -97,18 +93,18 @@
         ]
       },
       "applied_clinical": {
-        "score": 0.6887187219113546,
+        "score": 0.6896515785033364,
         "description": "Apply knowledge to clinical scenarios",
         "top_chunks": [
           {
             "text": "↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDeterminants of\nportal venous flow:\nEquation",
-            "score": 0.6887187219113546,
+            "score": 0.6896515785033364,
             "start": 1321,
             "end": 2336
           },
           {
             "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.43189437718341916,
+            "score": 0.4307192893417736,
             "start": 0,
             "end": 1320
           }
@@ -173,38 +169,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.25472975212894494,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.47176351676186234,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDeterminants of\nportal venous flow:\nEquation",
+            "score": 0.47176351676186234,
+            "start": 1321,
+            "end": 2336
+          },
+          {
+            "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
+            "score": 0.16317590246639627,
+            "start": 0,
+            "end": 1320
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.5326674547868705,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  bradycardia, cardiogenic shock)\n·\n↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDetermin",
-            "score": 0.25472975212894494,
+            "score": 0.5326674547868705,
             "start": 1285,
             "end": 2336
           },
           {
             "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.15481035196343076,
+            "score": 0.13186982364320243,
             "start": 0,
             "end": 1284
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.5881145504687313,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "↓CO -> ↓mAP -> ↓Q (e.g. hypovolaemia,\n  bradycardia, cardiogenic shock)\n·\n↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓",
-            "score": 0.5881145504687313,
-            "start": 1247,
-            "end": 2336
-          },
-          {
-            "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.299254522952492,
-            "start": 0,
-            "end": 1246
           }
         ]
       },
@@ -227,18 +223,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8857441707387281,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.3663932468187113,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDeterminants of\nportal venous flow:\nEquation",
-            "score": 0.8857441707387281,
+            "score": 0.3663932468187113,
             "start": 1321,
             "end": 2336
           },
           {
             "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.8841573813483605,
+            "score": 0.28565571167771503,
             "start": 0,
             "end": 1320
           }
@@ -263,38 +259,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8006771067571272,
+        "score": 0.569443865499176,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  bradycardia, cardiogenic shock)\n·\n↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDetermin",
-            "score": 0.8006771067571272,
-            "start": 1285,
+            "text": "↓CO -> ↓mAP -> ↓Q (e.g. hypovolaemia,\n  bradycardia, cardiogenic shock)\n·\n↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓",
+            "score": 0.569443865499176,
+            "start": 1247,
             "end": 2336
           },
           {
             "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.4605294499266715,
+            "score": 0.13710168849652457,
             "start": 0,
-            "end": 1284
+            "end": 1246
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7030329765910927,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.12068239347016409,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "  bradycardia, cardiogenic shock)\n·\n↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDetermin",
-            "score": 0.7030329765910927,
-            "start": 1285,
+            "text": "↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDeterminants of\nportal venous flow:\nEquation",
+            "score": 0.12068239347016409,
+            "start": 1321,
             "end": 2336
           },
           {
             "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.24057709312446773,
+            "score": 0.10252288453633593,
             "start": 0,
-            "end": 1284
+            "end": 1320
           }
         ]
       },
@@ -317,56 +313,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8551215152942102,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDeterminants of\nportal venous flow:\nEquation",
-            "score": 0.8551215152942102,
-            "start": 1321,
-            "end": 2336
-          },
-          {
-            "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.1752007806948695,
-            "start": 0,
-            "end": 1320
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.45454567710141175,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.6273549913802284,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  bradycardia, cardiogenic shock)\n·\n↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDetermin",
-            "score": 0.45454567710141175,
+            "score": 0.6273549913802284,
             "start": 1285,
             "end": 2336
           },
           {
             "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.32804583273344273,
+            "score": 0.14548752973312049,
             "start": 0,
             "end": 1284
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.16779109893341812,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDeterminants of\nportal venous flow:\nEquation",
+            "score": 0.16779109893341812,
+            "start": 1321,
+            "end": 2336
+          },
+          {
+            "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
+            "score": 0.13651425394654748,
+            "start": 0,
+            "end": 1320
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7840881577423744,
+        "score": 0.25010326402444366,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "↓TPR -> ↓mAP -> ↓Q (e.g. sepsis,\n  anaphylaxis)\nHepatic venous pressure\n·\nHVP = CVP\n·\nPPV: ↑HVP -> ↓Q\n·\nLaparoscopy: ↑HVP -> ↓Q\n·\nHeart failure: ↑HVP -> ↓Q\nDeterminants of\nportal venous flow:\nEquation",
-            "score": 0.7840881577423744,
+            "score": 0.25010326402444366,
             "start": 1321,
             "end": 2336
           },
           {
             "text": "2003A10 Describe\nthe factors influencing hepatic blood flow.\nList:\n·\nHepatic circulation summary\n·\nHepatic arterial flow\n·\nPortal venous flow\n·\nHepatic arterial buffer response\nHepatic\ncirculation:\nAr",
-            "score": 0.5669298876794445,
+            "score": 0.20752148144486066,
             "start": 0,
             "end": 1320
           }

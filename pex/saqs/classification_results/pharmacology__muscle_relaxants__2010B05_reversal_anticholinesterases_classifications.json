@@ -14,15 +14,13 @@
       ]
     },
     "content_dimensions": [
-      "nociception_process",
       "neuromuscular_process",
-      "organ_system_process",
+      "equipment_and_physics",
+      "drug_receptor_disposition",
       "autonomic_disposition",
-      "drug_receptor_disposition"
+      "organ_system_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -175,36 +173,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6821535298635499,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7581917576089247,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
-            "score": 0.6821535298635499,
-            "start": 0,
-            "end": 1280
+            "text": "Constriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑Ureteric",
+            "score": 0.7581917576089247,
+            "start": 1334,
+            "end": 1971
           },
           {
-            "text": "  AV block, ↓cardiac output (cardiac plexus M\n2\n).\no\nConstriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Sa",
-            "score": 0.6171517110661653,
-            "start": 1281,
-            "end": 1971
+            "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
+            "score": 0.6457502998162437,
+            "start": 0,
+            "end": 1333
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7098452451882751,
+        "score": 0.7465365050274453,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
-            "score": 0.7098452451882751,
+            "score": 0.7465365050274453,
             "start": 0,
             "end": 1280
           },
           {
             "text": "  AV block, ↓cardiac output (cardiac plexus M\n2\n).\no\nConstriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Sa",
-            "score": 0.6452576017335092,
+            "score": 0.7440006379023568,
             "start": 1281,
             "end": 1971
           }
@@ -229,20 +227,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8308759955364141,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6891853087660269,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Constriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑Ureteric",
-            "score": 0.8308759955364141,
-            "start": 1334,
+            "text": "  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑Ureteric\n  peristalsi",
+            "score": 0.6891853087660269,
+            "start": 1347,
             "end": 1971
           },
           {
             "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
-            "score": 0.330198056649713,
+            "score": 0.6733856664536741,
             "start": 0,
-            "end": 1333
+            "end": 1346
           }
         ]
       },
@@ -265,38 +263,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8381284697982909,
+        "score": 0.8495840659438667,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  AV block, ↓cardiac output (cardiac plexus M\n2\n).\no\nConstriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Sa",
-            "score": 0.8381284697982909,
+            "score": 0.8495840659438667,
             "start": 1281,
             "end": 1971
           },
           {
             "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
-            "score": 0.3220989705720298,
+            "score": 0.7774740987934978,
             "start": 0,
             "end": 1280
           }
         ]
       },
       "nociception_process": {
-        "score": 0.850825524926902,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10351313129730201,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2\n).\no\nConstriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑U",
-            "score": 0.850825524926902,
-            "start": 1327,
+            "text": "  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑Ureteric\n  peristalsi",
+            "score": 0.10351313129730201,
+            "start": 1347,
             "end": 1971
           },
           {
             "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
-            "score": 0.7544777466306337,
+            "score": 0.1005592983048298,
             "start": 0,
-            "end": 1326
+            "end": 1346
           }
         ]
       },
@@ -319,56 +317,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.5713029242972767,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7598325261631611,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑Ureteric\n  peristalsi",
-            "score": 0.5713029242972767,
-            "start": 1347,
+            "text": "  AV block, ↓cardiac output (cardiac plexus M\n2\n).\no\nConstriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Sa",
+            "score": 0.7598325261631611,
+            "start": 1281,
             "end": 1971
           },
           {
             "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
-            "score": 0.1005592983048298,
+            "score": 0.12342301400327828,
             "start": 0,
-            "end": 1346
+            "end": 1280
           }
         ]
       },
       "special_population_role": {
-        "score": 0.5701615952523463,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.23487730064457382,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": ").\no\nConstriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑Ure",
-            "score": 0.5701615952523463,
-            "start": 1329,
+            "text": "Constriction\n  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑Ureteric",
+            "score": 0.23487730064457382,
+            "start": 1334,
             "end": 1971
           },
           {
             "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
-            "score": 0.2754396543901626,
+            "score": 0.17046326482945487,
             "start": 0,
-            "end": 1328
+            "end": 1333
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7992007600703674,
+        "score": 0.5808638808191267,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "  of airway smooth muscle -> obstruction (airway smooth muscle M\n3\n)\no\n↑Tracheobronchial\n  secretion -> cough, aspiration (M\n3\n)\no\n↑Salivation\n  (M\n3\n)\no\n↑Lacrimation\n  (M\n3\n)\no\n↑Ureteric\n  peristalsi",
-            "score": 0.7992007600703674,
+            "score": 0.5808638808191267,
             "start": 1347,
             "end": 1971
           },
           {
             "text": "2010B05 Describe\nthe pharmacodynamic effects and clinical uses of anticholinesterase drugs.\nList:\n·\nIntro: types of interaction and clinical uses\n·\nNicotinic effects\n·\nMuscarinic effects\nIntro:\nDynami",
-            "score": 0.7954820628685595,
+            "score": 0.15481035196343076,
             "start": 0,
             "end": 1346
           }

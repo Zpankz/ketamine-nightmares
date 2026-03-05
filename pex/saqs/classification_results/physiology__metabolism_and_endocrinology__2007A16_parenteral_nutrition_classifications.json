@@ -17,10 +17,9 @@
       ]
     },
     "content_dimensions": [
-      "special_population_role"
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -175,38 +174,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.17863249993135413,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.21514118653388012,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
+            "score": 0.21514118653388012,
+            "start": 0,
+            "end": 1382
+          },
+          {
+            "text": "Sepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n  protein requirement",
+            "score": 0.14366505103412583,
+            "start": 1383,
+            "end": 1579
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.19785291387817477,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Elderly: BMR decreased\n·\nSepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n",
-            "score": 0.17863249993135413,
+            "score": 0.19785291387817477,
             "start": 1358,
             "end": 1579
           },
           {
             "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
-            "score": 0.13129612675432087,
+            "score": 0.10252288453633593,
             "start": 0,
             "end": 1357
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.17725503064072845,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
-            "score": 0.17725503064072845,
-            "start": 0,
-            "end": 1318
-          },
-          {
-            "text": "Neonate: 2x BMR, ↑requirement of all\n·\nElderly: BMR decreased\n·\nSepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hyper",
-            "score": 0.13887320349804264,
-            "start": 1319,
-            "end": 1579
           }
         ]
       },
@@ -229,20 +228,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.10803954311448256,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7161342648185822,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
-            "score": 0.10803954311448256,
-            "start": 0,
-            "end": 1382
-          },
-          {
             "text": "Sepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n  protein requirement",
-            "score": 0.10202987799295415,
+            "score": 0.7161342648185822,
             "start": 1383,
             "end": 1579
+          },
+          {
+            "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
+            "score": 0.15354696394416326,
+            "start": 0,
+            "end": 1382
           }
         ]
       },
@@ -265,38 +264,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.13186982364320243,
+        "score": 0.2159118422576255,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nElderly: BMR decreased\n·\nSepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR an",
-            "score": 0.13186982364320243,
-            "start": 1356,
+            "text": "Neonate: 2x BMR, ↑requirement of all\n·\nElderly: BMR decreased\n·\nSepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hyper",
+            "score": 0.2159118422576255,
+            "start": 1319,
             "end": 1579
           },
           {
             "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
-            "score": 0.08083535454544834,
+            "score": 0.09386232569631885,
             "start": 0,
-            "end": 1355
+            "end": 1318
           }
         ]
       },
       "nociception_process": {
-        "score": 0.2728052893640291,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1100884956529356,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Elderly: BMR decreased\n·\nSepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n",
-            "score": 0.2728052893640291,
-            "start": 1358,
+            "text": "Sepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n  protein requirement",
+            "score": 0.1100884956529356,
+            "start": 1383,
             "end": 1579
           },
           {
             "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
-            "score": 0.08788394835920724,
+            "score": 0.06929198572432578,
             "start": 0,
-            "end": 1357
+            "end": 1382
           }
         ]
       },
@@ -319,56 +318,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.11959654819828813,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "Sepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n  protein requirement",
-            "score": 0.11959654819828813,
-            "start": 1383,
-            "end": 1579
-          },
-          {
-            "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
-            "score": 0.07659908032051355,
-            "start": 0,
-            "end": 1382
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.8675549594939258,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.19638930530173287,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Elderly: BMR decreased\n·\nSepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n",
-            "score": 0.8675549594939258,
+            "score": 0.19638930530173287,
             "start": 1358,
             "end": 1579
           },
           {
             "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
-            "score": 0.42882748112318286,
+            "score": 0.07912544161184044,
             "start": 0,
             "end": 1357
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.3094168356331381,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
+            "score": 0.3094168356331381,
+            "start": 0,
+            "end": 1382
+          },
+          {
+            "text": "Sepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n  protein requirement",
+            "score": 0.2409870944785764,
+            "start": 1383,
+            "end": 1579
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6882518185065456,
+        "score": 0.3427471360775722,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Sepsis: BMR increased, catabolic state, ↑protein requirement\n·\nBurns: catabolic state, ↑protein requirement\n·\nLarge bone fracture: hypermetabolic and anabolic state, ↑BMR and\n  protein requirement",
-            "score": 0.6882518185065456,
+            "score": 0.3427471360775722,
             "start": 1383,
             "end": 1579
           },
           {
             "text": "2007A16 Briefly\noutline the components of parenteral nutrition, explaining the rationale\nfor the use of each component.\nEnergy\n·\n8.4MJ/day\n·\nBody can adapt to various macronutrient contributions\nWater",
-            "score": 0.17656868710877405,
+            "score": 0.13887320349804264,
             "start": 0,
             "end": 1382
           }

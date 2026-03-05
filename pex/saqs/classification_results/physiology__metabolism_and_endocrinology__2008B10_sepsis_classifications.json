@@ -17,18 +17,16 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
       "acid_base_quality",
       "pharmacokinetic_process",
-      "equipment_and_physics",
-      "autonomic_disposition",
+      "organ_system_process",
       "drug_receptor_disposition",
       "gas_exchange_process",
-      "special_population_role",
-      "nociception_process"
+      "neuromuscular_process",
+      "equipment_and_physics",
+      "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "structure_function_link",
       "dose_response_relationship"
@@ -233,50 +231,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7743224261658384,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7727372261985272,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "�\n↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue perfusion\nF",
-            "score": 0.7743224261658384,
-            "start": 1396,
-            "end": 2501
+            "text": "↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue perfusion\nFlu",
+            "score": 0.7727372261985272,
+            "start": 1398,
+            "end": 2528
           },
           {
-            "text": "  ↓SVR (can be profound)\n�\nAcidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS",
-            "score": 0.3325963550051149,
-            "start": 2502,
+            "text": "Acidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS\nRenal\nEffects of hypotensi",
+            "score": 0.3784283444474525,
+            "start": 2529,
             "end": 2976
           },
           {
             "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
-            "score": 0.2803024686265447,
+            "score": 0.3354838427542889,
             "start": 0,
-            "end": 1395
+            "end": 1397
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7902092136687209,
+        "score": 0.684505264182439,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
+            "text": "Cytokines: vasodilatation, capillary leak ->\n  ↓SVR (can be profound)\n�\nAcidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nC",
+            "score": 0.684505264182439,
+            "start": 2457,
+            "end": 2976
+          },
+          {
             "text": "↑Cortisol\n�\n↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue p",
-            "score": 0.7902092136687209,
+            "score": 0.5453400628593235,
             "start": 1386,
             "end": 2456
           },
           {
             "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
-            "score": 0.6819179311551313,
+            "score": 0.46155247515378167,
             "start": 0,
             "end": 1385
-          },
-          {
-            "text": "Cytokines: vasodilatation, capillary leak ->\n  ↓SVR (can be profound)\n�\nAcidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nC",
-            "score": 0.5855285776291648,
-            "start": 2457,
-            "end": 2976
           }
         ]
       },
@@ -305,26 +303,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8749147047754419,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7860118412777748,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Acidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS\nRenal\nEffects of hypotensi",
-            "score": 0.8749147047754419,
-            "start": 2529,
-            "end": 2976
-          },
-          {
             "text": "↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue perfusion\nFlu",
-            "score": 0.8302071599905412,
+            "score": 0.7860118412777748,
             "start": 1398,
             "end": 2528
           },
           {
             "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
-            "score": 0.6565230953374931,
+            "score": 0.49721363684580977,
             "start": 0,
             "end": 1397
+          },
+          {
+            "text": "Acidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS\nRenal\nEffects of hypotensi",
+            "score": 0.4309803634805221,
+            "start": 2529,
+            "end": 2976
           }
         ]
       },
@@ -353,50 +351,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.5691501776437977,
+        "score": 0.7080360654714698,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
+            "text": "Substrate mobilization:\n�\n↑Cortisol\n�\n↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑",
+            "score": 0.7080360654714698,
+            "start": 1360,
+            "end": 2456
+          },
+          {
             "text": "Cytokines: vasodilatation, capillary leak ->\n  ↓SVR (can be profound)\n�\nAcidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nC",
-            "score": 0.5691501776437977,
+            "score": 0.4902486901277285,
             "start": 2457,
             "end": 2976
           },
           {
-            "text": "↑Cortisol\n�\n↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue p",
-            "score": 0.46696899417385523,
-            "start": 1386,
-            "end": 2456
-          },
-          {
             "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
-            "score": 0.23085222312653272,
+            "score": 0.23326263346460346,
             "start": 0,
-            "end": 1385
+            "end": 1359
           }
         ]
       },
       "nociception_process": {
-        "score": 0.699828159076269,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10301730154669217,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "  ↓SVR (can be profound)\n�\nAcidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS",
-            "score": 0.699828159076269,
-            "start": 2502,
+            "text": "SNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS\nRenal\nEffects of hypotension:\n�\n↑renin, angiotensin, ",
+            "score": 0.10301730154669217,
+            "start": 2556,
             "end": 2976
           },
           {
-            "text": "�\n↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue perfusion\nF",
-            "score": 0.5916635599780036,
-            "start": 1396,
-            "end": 2501
+            "text": "↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue perfusion\nFluid\n�\nVasodilation, capil",
+            "score": 0.0957480960268055,
+            "start": 1422,
+            "end": 2555
           },
           {
             "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
-            "score": 0.2825268951916765,
+            "score": 0.08387768404930426,
             "start": 0,
-            "end": 1395
+            "end": 1421
           }
         ]
       },
@@ -425,76 +423,76 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7939834639495083,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7080360654714698,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "SNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS\nRenal\nEffects of hypotension:\n�\n↑renin, angiotensin, ",
-            "score": 0.7939834639495083,
-            "start": 2556,
+            "text": "↑Cortisol\n�\n↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue p",
+            "score": 0.7080360654714698,
+            "start": 1386,
+            "end": 2501
+          },
+          {
+            "text": "  ↓SVR (can be profound)\n�\nAcidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS",
+            "score": 0.47626447116567805,
+            "start": 2502,
             "end": 2976
           },
           {
-            "text": "↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue perfusion\nFluid\n�\nVasodilation, capil",
-            "score": 0.4639791163720213,
-            "start": 1422,
-            "end": 2555
-          },
-          {
             "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
-            "score": 0.16252292535834514,
+            "score": 0.10854962335430002,
             "start": 0,
-            "end": 1421
+            "end": 1385
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7034894789104185,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.24552225336936614,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Acidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS\nRenal\nEffects of hypotensi",
-            "score": 0.7034894789104185,
-            "start": 2529,
-            "end": 2976
-          },
-          {
             "text": "↑Insulin (resistance)\n�\n↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue perfusion\nFlu",
-            "score": 0.6487010445596815,
+            "score": 0.24552225336936614,
             "start": 1398,
             "end": 2528
           },
           {
             "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
-            "score": 0.2159118422576255,
+            "score": 0.14979442334570606,
             "start": 0,
             "end": 1397
+          },
+          {
+            "text": "Acidosis: vasodilatation\n�\nSNS: vasoconstriction (partly offsets\n  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS\nRenal\nEffects of hypotensi",
+            "score": 0.13302177898555526,
+            "start": 2529,
+            "end": 2976
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8348556669051774,
+        "score": 0.4190063762008378,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
-            "score": 0.8348556669051774,
-            "start": 0,
-            "end": 1421
-          },
-          {
             "text": "↑Catecholamines\n�\n↓Thyroid hormones\nVolume preservation:\n�\n↑RAAS\n�\n↑ADH\nAcid-base\n�\n↑Anaerobic metabolism ->\n  ↑lactic acidosis due to\no\n↑Metabolic rate\no\n↓Tissue perfusion\nFluid\n�\nVasodilation, capil",
-            "score": 0.7774740987934978,
+            "score": 0.4190063762008378,
             "start": 1422,
             "end": 2593
           },
           {
             "text": "  dilation)\nRespiratory\n�\n↑Metabolic rate -> ↑VCO\n2\n-> ↑V\nA\n�\nCapillary leak -> +/- pulmonary oedema,\n  ARDS\nRenal\nEffects of hypotension:\n�\n↑renin, angiotensin, aldosterone\n�\n+/- Failure of autoregul",
-            "score": 0.7699481495341085,
+            "score": 0.2955985180950471,
             "start": 2594,
             "end": 2976
+          },
+          {
+            "text": "2008B10 Describe sepsis and describe the metabolic consequences of\nsepsis.\nList:\n�\nDefinitions\n�\nOverall effect\n�\nMetabolic effects\n�\nOrgan system effects\nOld definitions:\nSystemic inflammatory respon",
+            "score": 0.29332437688031354,
+            "start": 0,
+            "end": 1421
           }
         ]
       },

@@ -16,12 +16,9 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "neuromuscular_process",
-      "equipment_and_physics"
+      "neuromuscular_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -176,38 +173,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4248539367855912,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.20903276749660882,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "e.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-capillary sphincter\n�\n↑P\nc\nat ve",
+            "score": 0.20903276749660882,
+            "start": 1569,
+            "end": 2313
+          },
+          {
+            "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
+            "score": 0.11478329593515615,
+            "start": 0,
+            "end": 1568
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.43941670104750025,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "1 / (permeability to protein)\n�\ne.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-",
-            "score": 0.4248539367855912,
+            "score": 0.43941670104750025,
             "start": 1537,
             "end": 2313
           },
           {
             "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
-            "score": 0.13946678392103212,
+            "score": 0.1835038816726888,
             "start": 0,
             "end": 1536
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.18420617535904918,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "∝\n1 / (permeability to protein)\n�\ne.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pr",
-            "score": 0.18420617535904918,
-            "start": 1535,
-            "end": 2313
-          },
-          {
-            "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
-            "score": 0.13302177898555526,
-            "start": 0,
-            "end": 1534
           }
         ]
       },
@@ -230,18 +227,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8413617446723678,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.42967531895805594,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "e.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-capillary sphincter\n�\n↑P\nc\nat ve",
-            "score": 0.8413617446723678,
+            "score": 0.42967531895805594,
             "start": 1569,
             "end": 2313
           },
           {
             "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
-            "score": 0.3611706135712885,
+            "score": 0.2834191075448277,
             "start": 0,
             "end": 1568
           }
@@ -266,38 +263,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7782581074303719,
+        "score": 0.7594229068755323,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "1 / (permeability to protein)\n�\ne.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-",
-            "score": 0.7782581074303719,
-            "start": 1537,
+            "text": "�\n∝\n1 / (permeability to protein)\n�\ne.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of ",
+            "score": 0.7594229068755323,
+            "start": 1533,
             "end": 2313
           },
           {
             "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
-            "score": 0.373146719717882,
+            "score": 0.24801532559250447,
             "start": 0,
-            "end": 1536
+            "end": 1532
           }
         ]
       },
       "nociception_process": {
-        "score": 0.3254234590270125,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.11637447875983453,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "1 / (permeability to protein)\n�\ne.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-",
-            "score": 0.3254234590270125,
-            "start": 1537,
+            "text": "e.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-capillary sphincter\n�\n↑P\nc\nat ve",
+            "score": 0.11637447875983453,
+            "start": 1569,
             "end": 2313
           },
           {
             "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
-            "score": 0.21055038795004374,
+            "score": 0.11372982298149485,
             "start": 0,
-            "end": 1536
+            "end": 1568
           }
         ]
       },
@@ -320,56 +317,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.6351016669217304,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "e.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-capillary sphincter\n�\n↑P\nc\nat ve",
-            "score": 0.6351016669217304,
-            "start": 1569,
-            "end": 2313
-          },
-          {
-            "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
-            "score": 0.20979078633127912,
-            "start": 0,
-            "end": 1568
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.39722688669371137,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.21823325627215462,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "1 / (permeability to protein)\n�\ne.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-",
-            "score": 0.39722688669371137,
+            "score": 0.21823325627215462,
             "start": 1537,
             "end": 2313
           },
           {
             "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
-            "score": 0.18561555034757704,
+            "score": 0.18632263173984007,
             "start": 0,
             "end": 1536
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.14671028264551744,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
+            "score": 0.14671028264551744,
+            "start": 0,
+            "end": 1568
+          },
+          {
+            "text": "e.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-capillary sphincter\n�\n↑P\nc\nat ve",
+            "score": 0.11905584709916793,
+            "start": 1569,
+            "end": 2313
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8199836526412851,
+        "score": 0.3371729585000588,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2004B16 Explain\nthe physiological processes involved in the development of interstitial oedema.\nList:\n�\nIntro\n�\nStarling hypothesis\n�\nNormal starling numbers\n�\nFactors increasing rate of transudation\n",
-            "score": 0.8199836526412851,
+            "score": 0.3371729585000588,
             "start": 0,
             "end": 1568
           },
           {
             "text": "e.g. damage to capillary -> ↓\nσ -> ↑transudate\n↑Capillary hydrostatic pressure (P\nC\n)\n�\n↑P\nC\nat arterial end (minor\n  effect)\no\nSevere hypertension\no\nRelaxation of pre-capillary sphincter\n�\n↑P\nc\nat ve",
-            "score": 0.7544777466306337,
+            "score": 0.3043160270707983,
             "start": 1569,
             "end": 2313
           }

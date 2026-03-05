@@ -16,18 +16,10 @@
       ]
     },
     "content_dimensions": [
-      "nociception_process",
-      "organ_system_process",
       "drug_receptor_disposition",
-      "autonomic_disposition",
-      "equipment_and_physics",
-      "pharmacokinetic_process",
-      "special_population_role",
-      "neuromuscular_process"
+      "pharmacokinetic_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -115,7 +107,7 @@
           },
           {
             "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.4746423953360608,
+            "score": 0.4759333999230574,
             "start": 0,
             "end": 1275
           }
@@ -180,38 +172,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8275159197930162,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8361695377043112,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Metabolism\n�\nBy COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\nExcretion\n�\nMetabolit",
-            "score": 0.8275159197930162,
-            "start": 1263,
+            "text": "By COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\nExcretion\n�\nMetabolites -> urine\n�",
+            "score": 0.8361695377043112,
+            "start": 1276,
             "end": 2179
           },
           {
             "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.39237380735284266,
+            "score": 0.31221540087919597,
             "start": 0,
-            "end": 1262
+            "end": 1275
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.8079632672732063,
+        "score": 0.5895350989401033,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.8079632672732063,
-            "start": 0,
-            "end": 1239
+            "text": "Should not cross BBB\nMetabolism\n�\nBy COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\n",
+            "score": 0.5895350989401033,
+            "start": 1242,
+            "end": 2179
           },
           {
-            "text": "�\nShould not cross BBB\nMetabolism\n�\nBy COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hour",
-            "score": 0.774717751800841,
-            "start": 1240,
-            "end": 2179
+            "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
+            "score": 0.4099486485007631,
+            "start": 0,
+            "end": 1241
           }
         ]
       },
@@ -234,18 +226,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8605332160789678,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.29742385893649737,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "By COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\nExcretion\n�\nMetabolites -> urine\n�",
-            "score": 0.8605332160789678,
+            "score": 0.29742385893649737,
             "start": 1276,
             "end": 2179
           },
           {
             "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.4456815437212684,
+            "score": 0.2658434828440508,
             "start": 0,
             "end": 1275
           }
@@ -270,38 +262,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6149989607053215,
+        "score": 0.42381303189131475,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Should not cross BBB\nMetabolism\n�\nBy COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\n",
-            "score": 0.6149989607053215,
-            "start": 1242,
-            "end": 2179
+            "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
+            "score": 0.42381303189131475,
+            "start": 0,
+            "end": 1230
           },
           {
-            "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.373146719717882,
-            "start": 0,
-            "end": 1241
+            "text": "VD 4L/kg\n�\nShould not cross BBB\nMetabolism\n�\nBy COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2",
+            "score": 0.34396375942395835,
+            "start": 1231,
+            "end": 2179
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9338275839890691,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.12958413928918883,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Metabolism\n�\nBy COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\nExcretion\n�\nMetabolit",
-            "score": 0.9338275839890691,
-            "start": 1263,
-            "end": 2179
+            "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
+            "score": 0.12958413928918883,
+            "start": 0,
+            "end": 1275
           },
           {
-            "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.5356080432724319,
-            "start": 0,
-            "end": 1262
+            "text": "By COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\nExcretion\n�\nMetabolites -> urine\n�",
+            "score": 0.10651790355261252,
+            "start": 1276,
+            "end": 2179
           }
         ]
       },
@@ -324,56 +316,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.782154629312735,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.41304863782628126,
+        "description": "Named equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Should not cross BBB\nMetabolism\n�\nBy COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\n",
+            "score": 0.41304863782628126,
+            "start": 1242,
+            "end": 2179
+          },
+          {
+            "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
+            "score": 0.2680091172688212,
+            "start": 0,
+            "end": 1241
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.16779109893341812,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "By COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\nExcretion\n�\nMetabolites -> urine\n�",
-            "score": 0.782154629312735,
+            "score": 0.16779109893341812,
             "start": 1276,
             "end": 2179
           },
           {
             "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.15799633458154788,
+            "score": 0.14917447507309806,
             "start": 0,
             "end": 1275
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.6548179104669112,
-        "description": "Population-specific considerations (BFO: role)",
-        "top_chunks": [
-          {
-            "text": "Metabolism\n�\nBy COMT and MAO -> VMA\n�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\nExcretion\n�\nMetabolit",
-            "score": 0.6548179104669112,
-            "start": 1263,
-            "end": 2179
-          },
-          {
-            "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.31408742677824225,
-            "start": 0,
-            "end": 1262
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7817667437278454,
+        "score": 0.24263091556480276,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "�\nBy COMT only -> normetadrenaline\n�\nt\n1/2\nβ\n2 mins\n�\nPoorly studied in humans; likely slow\n�\nNot susceptible to MAO or COMT\n�\nt\n1/2\nβ\n6 hours\nExcretion\n�\nMetabolites -> urine\n�\nUnknown\nPharmacodynami",
-            "score": 0.7817667437278454,
+            "score": 0.24263091556480276,
             "start": 1299,
             "end": 2179
           },
           {
             "text": "2021A06 Compare and contrast the pharmacology of\nmetaraminol and adrenaline (epinephrine).\nPhysicochemical:\nAdrenaline\nMetaraminol\nStructure\nStructure-activity\n�\nCatecholamine: direct, potent, sensiti",
-            "score": 0.3112812780886453,
+            "score": 0.12958413928918883,
             "start": 0,
             "end": 1298
           }

@@ -7,14 +7,12 @@
     },
     "clinical_relevance": {
       "primary": "foundational_science",
-      "score": 0.6193006129558387
+      "score": 0.6205628495414227
     },
     "content_dimensions": [
       "drug_receptor_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -129,18 +127,18 @@
         ]
       },
       "foundational_science": {
-        "score": 0.6193006129558387,
+        "score": 0.6205628495414227,
         "description": "Underlying science that informs practice",
         "top_chunks": [
           {
             "text": "-subunits autophosphorylate\n·\nActivation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thy",
-            "score": 0.6193006129558387,
+            "score": 0.6205628495414227,
             "start": 1293,
             "end": 2212
           },
           {
             "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.5738441421605363,
+            "score": 0.5741045959634126,
             "start": 0,
             "end": 1292
           }
@@ -167,38 +165,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.94761951652091,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8254807828860911,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
+            "score": 0.8254807828860911,
+            "start": 0,
+            "end": 1322
+          },
+          {
+            "text": "Activation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thyroxine at thyroid hormone rece",
+            "score": 0.7947335570650536,
+            "start": 1323,
+            "end": 2212
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.5089554350819842,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "-subunits autophosphorylate\n·\nActivation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thy",
-            "score": 0.94761951652091,
+            "score": 0.5089554350819842,
             "start": 1293,
             "end": 2212
           },
           {
             "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.944852730826249,
+            "score": 0.3756586907283464,
             "start": 0,
             "end": 1292
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.30063099459107706,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.30063099459107706,
-            "start": 0,
-            "end": 1290
-          },
-          {
-            "text": "β\n-subunits autophosphorylate\n·\nActivation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. t",
-            "score": 0.2585486061251438,
-            "start": 1291,
-            "end": 2212
           }
         ]
       },
@@ -221,18 +219,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.11905584709916793,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.526681413946989,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Activation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thyroxine at thyroid hormone rece",
-            "score": 0.11905584709916793,
+            "score": 0.526681413946989,
             "start": 1323,
             "end": 2212
           },
           {
             "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.09199844623487359,
+            "score": 0.5196288564928512,
             "start": 0,
             "end": 1322
           }
@@ -257,38 +255,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.17863249993135413,
+        "score": 0.21823325627215462,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "-subunits autophosphorylate\n·\nActivation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thy",
-            "score": 0.17863249993135413,
-            "start": 1293,
-            "end": 2212
+            "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
+            "score": 0.21823325627215462,
+            "start": 0,
+            "end": 1284
           },
           {
-            "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.15228985226789557,
-            "start": 0,
-            "end": 1292
+            "text": "·\nICF\nβ\n-subunits autophosphorylate\n·\nActivation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\n",
+            "score": 0.21207433610868814,
+            "start": 1285,
+            "end": 2212
           }
         ]
       },
       "nociception_process": {
-        "score": 0.2728052893640291,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10551062286445975,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "-subunits autophosphorylate\n·\nActivation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thy",
-            "score": 0.2728052893640291,
-            "start": 1293,
+            "text": "Activation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thyroxine at thyroid hormone rece",
+            "score": 0.10551062286445975,
+            "start": 1323,
             "end": 2212
           },
           {
             "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.18210408151009452,
+            "score": 0.08969914404147739,
             "start": 0,
-            "end": 1292
+            "end": 1322
           }
         ]
       },
@@ -311,56 +309,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.1800163473587149,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "Activation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thyroxine at thyroid hormone rece",
-            "score": 0.1800163473587149,
-            "start": 1323,
-            "end": 2212
-          },
-          {
-            "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.09292765927996026,
-            "start": 0,
-            "end": 1322
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.3870306155152627,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.13015328625585776,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "-subunits autophosphorylate\n·\nActivation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thy",
-            "score": 0.3870306155152627,
+            "score": 0.13015328625585776,
             "start": 1293,
             "end": 2212
           },
           {
             "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.21055038795004374,
+            "score": 0.0915358786435363,
             "start": 0,
             "end": 1292
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.12068239347016409,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Activation of tyrosine kinase activity\n·\n↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thyroxine at thyroid hormone rece",
+            "score": 0.12068239347016409,
+            "start": 1323,
+            "end": 2212
+          },
+          {
+            "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
+            "score": 0.11164036043761141,
+            "start": 0,
+            "end": 1322
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7984602001792644,
+        "score": 0.2113115715020448,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2004B01 Briefly\ndescribe how drugs produce their pharmacological effects.\nIllustrate each mechanism with examples.\nList:\n·\nReceptor – ion permeability\n·\nReceptor – second messenger\n·\nReceptor – gene t",
-            "score": 0.7984602001792644,
+            "score": 0.2113115715020448,
             "start": 0,
             "end": 1363
           },
           {
             "text": "↑PI3K activity (e.g. ↑GLUT4 expression)\n·\n↑MAPK activity (growth)\nReceptor ->\n↑↓Gene transcription:\nTranscription factor\ne.g. thyroxine at thyroid hormone receptor\n·\nUnbound receptor in cytosol\n·\nBoun",
-            "score": 0.4417764959487522,
+            "score": 0.16317590246639627,
             "start": 1364,
             "end": 2212
           }

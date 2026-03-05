@@ -17,16 +17,13 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "equipment_and_physics",
-      "nociception_process",
       "gas_exchange_process",
-      "special_population_role",
-      "neuromuscular_process",
-      "drug_receptor_disposition"
+      "drug_receptor_disposition",
+      "equipment_and_physics",
+      "organ_system_process",
+      "neuromuscular_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -181,42 +178,42 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8171968162419349,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8227449693592715,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Bronchodilatation\n·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n",
-            "score": 0.8171968162419349,
-            "start": 1236,
-            "end": 2480
+            "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
+            "score": 0.8227449693592715,
+            "start": 0,
+            "end": 1253
           },
           {
-            "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
-            "score": 0.7794311829278053,
-            "start": 0,
-            "end": 1235
+            "text": "·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n·\n↓HPV -> ↑shunt -",
+            "score": 0.6786114956434602,
+            "start": 1254,
+            "end": 2480
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.3933940538121778,
+        "score": 0.5207551228184819,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑Risk of existing OSA\nBronchodilatation\n·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·",
-            "score": 0.3933940538121778,
+            "score": 0.5207551228184819,
             "start": 1214,
             "end": 2434
           },
           {
             "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
-            "score": 0.33476100321923513,
+            "score": 0.20302569007096166,
             "start": 0,
             "end": 1213
           },
           {
             "text": "  hot and dry (e.g. machine used all weekend)",
-            "score": 0.32780706460686626,
+            "score": 0.1898819772959151,
             "start": 2435,
             "end": 2480
           }
@@ -241,20 +238,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9483001744314581,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7120990533587452,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n·\n↓HPV -> ↑shunt -",
-            "score": 0.9483001744314581,
-            "start": 1254,
+            "text": "↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n·\n↓HPV -> ↑shunt -> ",
+            "score": 0.7120990533587452,
+            "start": 1256,
             "end": 2480
           },
           {
             "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
-            "score": 0.94761951652091,
+            "score": 0.4194605178395105,
             "start": 0,
-            "end": 1253
+            "end": 1255
           }
         ]
       },
@@ -277,44 +274,44 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8335354564972123,
+        "score": 0.6129693844847373,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Risk of existing OSA\nBronchodilatation\n·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·",
-            "score": 0.8335354564972123,
-            "start": 1214,
-            "end": 2434
+            "text": "·\n↑Risk of existing OSA\nBronchodilatation\n·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation",
+            "score": 0.6129693844847373,
+            "start": 1212,
+            "end": 2425
           },
           {
             "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
-            "score": 0.699369005408923,
+            "score": 0.48381720035192516,
             "start": 0,
-            "end": 1213
+            "end": 1211
           },
           {
-            "text": "  hot and dry (e.g. machine used all weekend)",
-            "score": 0.19638930530173287,
-            "start": 2435,
+            "text": "Absorber\n  hot and dry (e.g. machine used all weekend)",
+            "score": 0.2492669590277905,
+            "start": 2426,
             "end": 2480
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8852167040648438,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.0957480960268055,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Bronchodilatation\n·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n",
-            "score": 0.8852167040648438,
-            "start": 1236,
+            "text": "↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n·\n↓HPV -> ↑shunt -> ",
+            "score": 0.0957480960268055,
+            "start": 1256,
             "end": 2480
           },
           {
             "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
-            "score": 0.6308604964719419,
+            "score": 0.0825659981021378,
             "start": 0,
-            "end": 1235
+            "end": 1255
           }
         ]
       },
@@ -337,58 +334,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9178686152809965,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n·\n↓HPV -> ↑shunt -> ",
-            "score": 0.9178686152809965,
-            "start": 1256,
-            "end": 2480
-          },
-          {
-            "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
-            "score": 0.41667263089838424,
-            "start": 0,
-            "end": 1255
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.8374770746416548,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.766334278517655,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Bronchodilatation\n·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n",
-            "score": 0.8374770746416548,
+            "score": 0.766334278517655,
             "start": 1236,
             "end": 2480
           },
           {
             "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
-            "score": 0.36789031545021217,
+            "score": 0.7405986852968663,
             "start": 0,
             "end": 1235
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.23366572148234507,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "·\n↓L-Ca\n2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n·\n↓HPV -> ↑shunt -",
+            "score": 0.23366572148234507,
+            "start": 1254,
+            "end": 2480
+          },
+          {
+            "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
+            "score": 0.15671722015798292,
+            "start": 0,
+            "end": 1253
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8681301763567975,
+        "score": 0.5688564487321023,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
-            "score": 0.8681301763567975,
-            "start": 0,
-            "end": 1261
-          },
-          {
             "text": "2+\n·\n↓Airway resistance, ↓work of breathing\n·\n↑Anatomical dead space (not significant)\nCiliary dysfunction\n·\n↑?Risk pneumonia\nPulmonary vasodilatation\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\n·\n↓HPV -> ↑shunt -> ↓PaO\n2",
-            "score": 0.8254807828860911,
+            "score": 0.5688564487321023,
             "start": 1262,
             "end": 2480
+          },
+          {
+            "text": "2010A03 Discuss\nthe adverse effects that may occur with administration of desflurane.\nList:\n·\nCVS\n·\nResp\n·\nCNS\n·\nOther physiology\n·\nCO\n2\nabsorber\nCardiovascular\nsystem:\nDirect actions\n·\nMechanisms:\no\n",
+            "score": 0.23125299073967448,
+            "start": 0,
+            "end": 1261
           }
         ]
       },

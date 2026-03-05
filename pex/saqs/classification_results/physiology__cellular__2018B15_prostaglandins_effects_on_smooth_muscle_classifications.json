@@ -12,13 +12,9 @@
     "content_dimensions": [
       "drug_receptor_disposition",
       "organ_system_process",
-      "special_population_role",
-      "nociception_process",
       "equipment_and_physics"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -171,38 +167,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8675549594939258,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8361695377043112,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
-            "score": 0.8675549594939258,
-            "start": 0,
-            "end": 1334
+            "text": ", PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruation, lab",
+            "score": 0.8361695377043112,
+            "start": 1343,
+            "end": 1803
           },
           {
-            "text": "·\nPGD\n2\n, PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruat",
-            "score": 0.8065187877039502,
-            "start": 1335,
-            "end": 1803
+            "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
+            "score": 0.7762951516073289,
+            "start": 0,
+            "end": 1342
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.35154449221815187,
+        "score": 0.49111088959860716,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
-            "score": 0.35154449221815187,
-            "start": 0,
-            "end": 1314
+            "text": "Airway\n·\nPGD\n2\n, PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in me",
+            "score": 0.49111088959860716,
+            "start": 1328,
+            "end": 1803
           },
           {
-            "text": "  retention)\nAirway\n·\nPGD\n2\n, PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nIm",
-            "score": 0.32399687407609323,
-            "start": 1315,
-            "end": 1803
+            "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
+            "score": 0.2619682848045116,
+            "start": 0,
+            "end": 1327
           }
         ]
       },
@@ -225,20 +221,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8295367351705452,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7762951516073289,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": ", PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruation, lab",
-            "score": 0.8295367351705452,
-            "start": 1343,
-            "end": 1803
+            "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
+            "score": 0.7762951516073289,
+            "start": 0,
+            "end": 1348
           },
           {
-            "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
-            "score": 0.6621020729826963,
-            "start": 0,
-            "end": 1342
+            "text": "2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruation, labour\n·\n",
+            "score": 0.43647021732083524,
+            "start": 1349,
+            "end": 1803
           }
         ]
       },
@@ -261,37 +257,37 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.2052664429349464,
+        "score": 0.1949320705626118,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  retention)\nAirway\n·\nPGD\n2\n, PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nIm",
-            "score": 0.2052664429349464,
-            "start": 1315,
-            "end": 1803
+            "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
+            "score": 0.1949320705626118,
+            "start": 0,
+            "end": 1272
           },
           {
-            "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
-            "score": 0.14979442334570606,
-            "start": 0,
-            "end": 1314
+            "text": "(NSAID -> risk of renal impairment, fluid\n  retention)\nAirway\n·\nPGD\n2\n, PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2",
+            "score": 0.1891669165469514,
+            "start": 1273,
+            "end": 1803
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7544777466306337,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1179788782423308,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
-            "score": 0.7544777466306337,
+            "score": 0.1179788782423308,
             "start": 0,
-            "end": 1334
+            "end": 1351
           },
           {
-            "text": "·\nPGD\n2\n, PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruat",
-            "score": 0.7306871567814641,
-            "start": 1335,
+            "text": "->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruation, labour\n·\nRec",
+            "score": 0.0957480960268055,
+            "start": 1352,
             "end": 1803
           }
         ]
@@ -315,56 +311,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7111985556060637,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7691477768734674,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruation, labour\n·\nRec",
-            "score": 0.7111985556060637,
-            "start": 1352,
+            "text": "Airway\n·\nPGD\n2\n, PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in me",
+            "score": 0.7691477768734674,
+            "start": 1328,
             "end": 1803
           },
           {
             "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
-            "score": 0.10450903806925663,
+            "score": 0.11112162501075684,
             "start": 0,
-            "end": 1351
+            "end": 1327
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7798214241424282,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.20979078633127912,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "PGD\n2\n, PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruatio",
-            "score": 0.7798214241424282,
-            "start": 1337,
+            "text": ", PGF\n2α\n->\n  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruation, lab",
+            "score": 0.20979078633127912,
+            "start": 1343,
             "end": 1803
           },
           {
             "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
-            "score": 0.42374799417825154,
+            "score": 0.15166364739002158,
             "start": 0,
-            "end": 1336
+            "end": 1342
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8470823759078229,
+        "score": 0.27852923486057457,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2018B15 Describe\nthe physiological role of prostaglandins on smooth muscle throughout the body.\nList:\n·\nIntro: prostaglandins\n·\nPathway\n·\nSmooth muscle effects\nIntro:\nprostaglandins\nDefinition\n·\nLipid",
-            "score": 0.8470823759078229,
+            "score": 0.27852923486057457,
             "start": 0,
             "end": 1354
           },
           {
             "text": "  bronchoconstriction\n·\nPGE\n2\n-> bronchodilatation\n(corticosteroids\n  -> ↓airway reactivity in asthma)\nUterine\n·\nPGE\n2\n, PGF\n2α\n->\n  myometrial contraction\n·\nImportant in menstruation, labour\n·\nRecept",
-            "score": 0.6432842441547613,
+            "score": 0.2649797724816399,
             "start": 1355,
             "end": 1803
           }

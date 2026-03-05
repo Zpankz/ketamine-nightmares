@@ -18,12 +18,9 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
-      "organ_system_process",
-      "equipment_and_physics"
+      "drug_receptor_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -176,38 +173,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5197613673636726,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7647180686578468,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
-            "score": 0.5197613673636726,
+            "score": 0.7647180686578468,
             "start": 0,
-            "end": 1250
+            "end": 1263
           },
           {
-            "text": "↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at c",
-            "score": 0.21514118653388012,
-            "start": 1251,
+            "text": "↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at concentration ",
+            "score": 0.11268218335253008,
+            "start": 1264,
             "end": 1641
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.22845576096855297,
+        "score": 0.27368198487016115,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
-            "score": 0.22845576096855297,
-            "start": 0,
-            "end": 1250
-          },
-          {
             "text": "↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at c",
-            "score": 0.17113527946174648,
+            "score": 0.27368198487016115,
             "start": 1251,
             "end": 1641
+          },
+          {
+            "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
+            "score": 0.1638304622956888,
+            "start": 0,
+            "end": 1250
           }
         ]
       },
@@ -230,18 +227,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8563349489658743,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4173205818185126,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
-            "score": 0.8563349489658743,
+            "score": 0.4173205818185126,
             "start": 0,
             "end": 1263
           },
           {
             "text": "↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at concentration ",
-            "score": 0.3254234590270125,
+            "score": 0.22845576096855297,
             "start": 1264,
             "end": 1641
           }
@@ -266,38 +263,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.31081469123397315,
+        "score": 0.32399687407609323,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at c",
-            "score": 0.31081469123397315,
-            "start": 1251,
+            "text": "·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at",
+            "score": 0.32399687407609323,
+            "start": 1249,
             "end": 1641
           },
           {
             "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
-            "score": 0.11060433745697731,
+            "score": 0.22766004724276212,
             "start": 0,
-            "end": 1250
+            "end": 1248
           }
         ]
       },
       "nociception_process": {
-        "score": 0.3098824694419637,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.12068239347016409,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
-            "score": 0.3098824694419637,
-            "start": 0,
-            "end": 1250
+            "text": "↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at concentration just above\nMAC-aw",
+            "score": 0.12068239347016409,
+            "start": 1281,
+            "end": 1641
           },
           {
-            "text": "↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at c",
-            "score": 0.2589747757634805,
-            "start": 1251,
-            "end": 1641
+            "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
+            "score": 0.0874334962984957,
+            "start": 0,
+            "end": 1280
           }
         ]
       },
@@ -320,37 +317,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7165808924551722,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.4889886419573461,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at concentration just above\nMAC-aw",
-            "score": 0.7165808924551722,
-            "start": 1281,
+            "text": "↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at c",
+            "score": 0.4889886419573461,
+            "start": 1251,
             "end": 1641
           },
           {
             "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
-            "score": 0.6526206502580678,
+            "score": 0.34056154980718345,
             "start": 0,
-            "end": 1280
+            "end": 1250
           }
         ]
       },
       "special_population_role": {
-        "score": 0.326852731551074,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.16448660559557637,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
-            "score": 0.326852731551074,
+            "score": 0.16448660559557637,
             "start": 0,
-            "end": 1261
+            "end": 1263
           },
           {
-            "text": "·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at concentratio",
-            "score": 0.11959654819828813,
-            "start": 1262,
+            "text": "↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at concentration ",
+            "score": 0.09717688216482506,
+            "start": 1264,
             "end": 1641
           }
         ]
@@ -358,20 +355,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8532897173544827,
+        "score": 0.2732434585109745,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
-            "score": 0.8532897173544827,
-            "start": 0,
-            "end": 1280
-          },
-          {
             "text": "↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dead space\n·\n↑PaCO\n2\n–\netCO\n2\ndifference\nD:\nexcitation\ni.e.\nGuedel’s stage 2: at concentration just above\nMAC-aw",
-            "score": 0.3771685767525581,
+            "score": 0.2732434585109745,
             "start": 1281,
             "end": 1641
+          },
+          {
+            "text": "2021B08 Describe the effects of sevoflurane on the respiratory\nsystem.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway reflexes\nPhysicochemi",
+            "score": 0.26454846377751634,
+            "start": 0,
+            "end": 1280
           }
         ]
       },

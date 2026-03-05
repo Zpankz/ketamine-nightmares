@@ -10,15 +10,13 @@
       "score": 0.6984497113177436
     },
     "content_dimensions": [
-      "equipment_and_physics",
       "organ_system_process",
+      "equipment_and_physics",
+      "drug_receptor_disposition",
       "neuromuscular_process",
-      "nociception_process",
       "autonomic_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -171,37 +169,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5328327089164347,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7473788096433502,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
-            "score": 0.5328327089164347,
+            "score": 0.7473788096433502,
             "start": 0,
             "end": 936
           },
           {
             "text": "Rapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic preconditioning\n·\nActivation ",
-            "score": 0.3047781235673439,
+            "score": 0.4634837630965707,
             "start": 937,
             "end": 1409
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.6562797021358054,
+        "score": 0.62810712733124,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
-            "score": 0.6562797021358054,
+            "score": 0.62810712733124,
             "start": 0,
-            "end": 914
+            "end": 934
           },
           {
-            "text": "(C) SNS stimulation\n·\nRapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic precond",
-            "score": 0.318789326827268,
-            "start": 915,
+            "text": "·\nRapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic preconditioning\n·\nActivatio",
+            "score": 0.3870306155152627,
+            "start": 935,
             "end": 1409
           }
         ]
@@ -225,18 +223,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8825573934438159,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7647180686578468,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
-            "score": 0.8825573934438159,
+            "score": 0.7647180686578468,
             "start": 0,
             "end": 936
           },
           {
             "text": "Rapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic preconditioning\n·\nActivation ",
-            "score": 0.8288647205382538,
+            "score": 0.6882518185065456,
             "start": 937,
             "end": 1409
           }
@@ -261,36 +259,36 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7739267106084753,
+        "score": 0.7371731194748972,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
-            "score": 0.7739267106084753,
+            "score": 0.7371731194748972,
             "start": 0,
-            "end": 934
+            "end": 879
           },
           {
-            "text": "·\nRapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic preconditioning\n·\nActivatio",
-            "score": 0.7002869831289269,
-            "start": 935,
+            "text": "Desflurane: least of all volatiles\n(C) SNS stimulation\n·\nRapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on",
+            "score": 0.33741454411207356,
+            "start": 880,
             "end": 1409
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7397445008530983,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1485560880659056,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
-            "score": 0.7397445008530983,
+            "score": 0.1485560880659056,
             "start": 0,
             "end": 936
           },
           {
             "text": "Rapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic preconditioning\n·\nActivation ",
-            "score": 0.6966071908346546,
+            "score": 0.10551062286445975,
             "start": 937,
             "end": 1409
           }
@@ -315,36 +313,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9330549500882437,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7536482354762474,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Rapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic preconditioning\n·\nActivation ",
-            "score": 0.9330549500882437,
+            "score": 0.7536482354762474,
             "start": 937,
             "end": 1409
           },
           {
             "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
-            "score": 0.7622822048290451,
+            "score": 0.5584940116410915,
             "start": 0,
             "end": 936
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3362073236198268,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.14366505103412583,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
-            "score": 0.3362073236198268,
+            "score": 0.14366505103412583,
             "start": 0,
             "end": 936
           },
           {
             "text": "Rapid ↑[desflurane] -> SNS stimulation ->\n  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic preconditioning\n·\nActivation ",
-            "score": 0.23085222312653272,
+            "score": 0.10906114075009045,
             "start": 937,
             "end": 1409
           }
@@ -353,20 +351,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6676438013055915,
+        "score": 0.31081469123397315,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
-            "score": 0.6676438013055915,
-            "start": 0,
-            "end": 978
-          },
-          {
             "text": "  ↑HR/contractility/SVR\n·\nEspecially >1.5MAC\n·\n? Airway irritation ? Systemic effect (since occurs on CP bypass)\n(D) Anaesthetic preconditioning\n·\nActivation of mitochondrial and sarcolemmal ATP-sensi",
-            "score": 0.6594384501928167,
+            "score": 0.31081469123397315,
             "start": 979,
             "end": 1409
+          },
+          {
+            "text": "2000A09 Compare\nand contrast the effects of halothane and isoflurane on the heart.\n(NOTE: I have not answered the question here, simply listed all the\nCVS effects of all the volatiles)\nList:\n·\nTable\n·",
+            "score": 0.2807466545501725,
+            "start": 0,
+            "end": 978
           }
         ]
       },

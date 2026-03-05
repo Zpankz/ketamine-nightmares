@@ -14,18 +14,15 @@
       "score": 0.7285070708290908
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
-      "nociception_process",
-      "equipment_and_physics",
       "neuromuscular_process",
-      "special_population_role",
-      "organ_system_process",
+      "equipment_and_physics",
+      "drug_receptor_disposition",
       "pharmacokinetic_process",
       "autonomic_disposition",
+      "organ_system_process",
       "acid_base_quality"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "dose_response_relationship"
     ]
   },
@@ -228,50 +225,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9008986698241135,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7875436889746668,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n4",
-            "score": 0.9008986698241135,
+            "score": 0.7875436889746668,
             "start": 1182,
-            "end": 2496
+            "end": 2524
           },
           {
-            "text": "-Malignant hyperthermia\nY\nN\nReversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation r",
-            "score": 0.7507330409722095,
-            "start": 2497,
+            "text": "Reversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation reversal\nNo\ng-cyclodextrin",
+            "score": 0.4862037119031811,
+            "start": 2525,
             "end": 2722
           },
           {
             "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
-            "score": 0.2675752651712207,
+            "score": 0.299713016871073,
             "start": 0,
             "end": 1181
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.6755278972692806,
+        "score": 0.77114579912467,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Nil\n17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolit",
-            "score": 0.6755278972692806,
-            "start": 1178,
-            "end": 2459
+            "text": "17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n4",
+            "score": 0.77114579912467,
+            "start": 1182,
+            "end": 2496
           },
           {
-            "text": "(avoid and test if FHx sux apnoea)\nN\n-Malignant hyperthermia\nY\nN\nReversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2",
-            "score": 0.3369314435607793,
-            "start": 2460,
+            "text": "-Malignant hyperthermia\nY\nN\nReversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation r",
+            "score": 0.6172782242147103,
+            "start": 2497,
             "end": 2722
           },
           {
             "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
-            "score": 0.22370484839267127,
+            "score": 0.2888014443939363,
             "start": 0,
-            "end": 1177
+            "end": 1181
           }
         ]
       },
@@ -300,26 +297,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8432827798420172,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6901175305580363,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n4",
-            "score": 0.8432827798420172,
+            "score": 0.6901175305580363,
             "start": 1182,
             "end": 2524
           },
           {
-            "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
-            "score": 0.31596446232249,
-            "start": 0,
-            "end": 1181
-          },
-          {
             "text": "Reversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation reversal\nNo\ng-cyclodextrin",
-            "score": 0.19203673272679375,
+            "score": 0.37364865958760746,
             "start": 2525,
             "end": 2722
+          },
+          {
+            "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
+            "score": 0.2636869411249029,
+            "start": 0,
+            "end": 1181
           }
         ]
       },
@@ -348,50 +345,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.853901871379576,
+        "score": 0.9489764600783787,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n4",
-            "score": 0.853901871379576,
-            "start": 1182,
-            "end": 2496
+            "text": "-Active metabolites\nNil\n17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% p",
+            "score": 0.9489764600783787,
+            "start": 1158,
+            "end": 2459
           },
           {
-            "text": "-Malignant hyperthermia\nY\nN\nReversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation r",
-            "score": 0.3604267300934169,
-            "start": 2497,
+            "text": "(avoid and test if FHx sux apnoea)\nN\n-Malignant hyperthermia\nY\nN\nReversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2",
+            "score": 0.4020970236560302,
+            "start": 2460,
             "end": 2722
           },
           {
             "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
-            "score": 0.29742385893649737,
+            "score": 0.38322790822743885,
             "start": 0,
-            "end": 1181
+            "end": 1157
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9004140778741629,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.20377101929932123,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n4",
-            "score": 0.9004140778741629,
-            "start": 1182,
-            "end": 2496
-          },
-          {
-            "text": "-Malignant hyperthermia\nY\nN\nReversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation r",
-            "score": 0.5908254168489615,
-            "start": 2497,
+            "text": ")\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation reversal\nNo\ng-cyclodextrin",
+            "score": 0.20377101929932123,
+            "start": 2579,
             "end": 2722
           },
           {
+            "text": "  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n40%\n(renal failure -> prolonged)\nPharmacodynamic:\nSu",
+            "score": 0.0816980747080833,
+            "start": 1233,
+            "end": 2578
+          },
+          {
             "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
-            "score": 0.3483576566136731,
+            "score": 0.07997781705562379,
             "start": 0,
-            "end": 1181
+            "end": 1232
           }
         ]
       },
@@ -420,74 +417,74 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8909388592499095,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7962289807006788,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n40%\n(renal failure -> prolonged)\nPharmacodynamic:\nSu",
-            "score": 0.8909388592499095,
-            "start": 1233,
-            "end": 2578
+            "text": "17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n4",
+            "score": 0.7962289807006788,
+            "start": 1182,
+            "end": 2496
           },
           {
-            "text": ")\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation reversal\nNo\ng-cyclodextrin",
-            "score": 0.46394609094087763,
-            "start": 2579,
+            "text": "-Malignant hyperthermia\nY\nN\nReversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation r",
+            "score": 0.4091745831510386,
+            "start": 2497,
             "end": 2722
           },
           {
             "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
-            "score": 0.1752007806948695,
+            "score": 0.19420584422163265,
             "start": 0,
-            "end": 1232
+            "end": 1181
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8495840659438667,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.23731085714042086,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "17-desacetyl-rocuronium (much less active, hepatic\n  elimination)\n-t\n1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n4",
-            "score": 0.8495840659438667,
+            "score": 0.23731085714042086,
             "start": 1182,
-            "end": 2520
+            "end": 2524
+          },
+          {
+            "text": "Reversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation reversal\nNo\ng-cyclodextrin",
+            "score": 0.18561555034757704,
+            "start": 2525,
+            "end": 2722
           },
           {
             "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
-            "score": 0.4290883169661092,
+            "score": 0.12013872967712319,
             "start": 0,
             "end": 1181
-          },
-          {
-            "text": "Y\nN\nReversal:\n-Spontaneous\nY and fast (5min after 4xED\n95\n)\nY but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation reversal\nNo\ng-cyclodextri",
-            "score": 0.340804115941232,
-            "start": 2521,
-            "end": 2722
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8663999592903133,
+        "score": 0.4206937660605839,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n40%\n(renal failure -> prolonged)\nPharmacodynamic:\nSuxamethonium\nRocuro",
-            "score": 0.8663999592903133,
-            "start": 1251,
-            "end": 2580
-          },
-          {
             "text": "Y but slow (30-40mins after 2xED\n95\n)\n-AChEi reversal\nPhase 1 augmented\nPhase 2 antagonised\nAntagonised\n-Chelation reversal\nNo\ng-cyclodextrin",
-            "score": 0.49184047813037074,
+            "score": 0.4206937660605839,
             "start": 2581,
             "end": 2722
           },
           {
+            "text": "1/2\nβ\n(mins)\n1-2\n70\nExcretion\n(minimal)\n(95%)\n% in bile\n-\n60%\n(liver failure -> prolonged)\n% in urine\n10% parent\n100% metabolites\n40%\n(renal failure -> prolonged)\nPharmacodynamic:\nSuxamethonium\nRocuro",
+            "score": 0.3084865249962589,
+            "start": 1251,
+            "end": 2580
+          },
+          {
             "text": "2018B04 Compare\nand contrast the pharmacology of suxamethonium and rocuronium.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nSpecial\nPhysicochemical:\nSuxamethonium\nRocuronium\nContainer\nPlastic ampoule\nGlass vial or ampoule\n",
-            "score": 0.40261063130154723,
+            "score": 0.1228719100488003,
             "start": 0,
             "end": 1250
           }

@@ -14,17 +14,13 @@
       "score": 0.7021189728349919
     },
     "content_dimensions": [
-      "nociception_process",
-      "drug_receptor_disposition",
-      "organ_system_process",
+      "autonomic_disposition",
       "equipment_and_physics",
-      "neuromuscular_process",
+      "drug_receptor_disposition",
       "pharmacokinetic_process",
-      "autonomic_disposition"
+      "organ_system_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -177,42 +173,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8765769859967216,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7227969930924008,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.8765769859967216,
-            "start": 0,
-            "end": 1299
-          },
-          {
             "text": "Spinal (dorsal horn): pre-synaptic inhibition of nociceptors\n·\nRisk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSed",
-            "score": 0.8432827798420172,
+            "score": 0.7227969930924008,
             "start": 1300,
             "end": 2798
+          },
+          {
+            "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
+            "score": 0.5451825626776254,
+            "start": 0,
+            "end": 1299
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7196975313734553,
+        "score": 0.7813784651714728,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Spinal (dorsal horn): pre-synaptic inhibition of nociceptors\n·\nRisk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSed",
-            "score": 0.7196975313734553,
+            "score": 0.7813784651714728,
             "start": 1300,
-            "end": 2785
-          },
-          {
-            "text": "  on foetus)",
-            "score": 0.2883510242849617,
-            "start": 2786,
             "end": 2798
           },
           {
             "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.28745121192986234,
+            "score": 0.313618949200329,
             "start": 0,
             "end": 1299
           }
@@ -237,20 +227,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8658201727081827,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6298600873558566,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Spinal (dorsal horn): pre-synaptic inhibition of nociceptors\n·\nRisk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSed",
-            "score": 0.8658201727081827,
-            "start": 1300,
-            "end": 2798
+            "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
+            "score": 0.6298600873558566,
+            "start": 0,
+            "end": 1360
           },
           {
-            "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.15291762409217716,
-            "start": 0,
-            "end": 1299
+            "text": "·\nRisk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSedation (M receptors in the medulla) +/- unconsciousness\n·\nMios",
+            "score": 0.6116992208677767,
+            "start": 1361,
+            "end": 2798
           }
         ]
       },
@@ -273,44 +263,44 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7939834639495083,
+        "score": 0.4358159507033624,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Spinal (dorsal horn): pre-synaptic inhibition of nociceptors\n·\nRisk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSed",
-            "score": 0.7939834639495083,
+            "score": 0.4358159507033624,
             "start": 1300,
-            "end": 2785
+            "end": 2720
           },
           {
             "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.22766004724276212,
+            "score": 0.21745787821628798,
             "start": 0,
             "end": 1299
           },
           {
-            "text": "  on foetus)",
-            "score": 0.15799633458154788,
-            "start": 2786,
+            "text": "PCA for labour analgesia (rapid onset and offset, minimal effect\n  on foetus)",
+            "score": 0.0966992383588072,
+            "start": 2721,
             "end": 2798
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9338275839890691,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.2022819500518595,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Spinal (dorsal horn): pre-synaptic inhibition of nociceptors\n·\nRisk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSed",
-            "score": 0.9338275839890691,
-            "start": 1300,
-            "end": 2798
+            "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
+            "score": 0.2022819500518595,
+            "start": 0,
+            "end": 1362
           },
           {
-            "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.7477994009847582,
-            "start": 0,
-            "end": 1299
+            "text": "Risk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSedation (M receptors in the medulla) +/- unconsciousness\n·\nMiosis",
+            "score": 0.13129612675432087,
+            "start": 1363,
+            "end": 2798
           }
         ]
       },
@@ -333,36 +323,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8483363526099783,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "Risk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSedation (M receptors in the medulla) +/- unconsciousness\n·\nMiosis",
-            "score": 0.8483363526099783,
-            "start": 1363,
-            "end": 2798
-          },
-          {
-            "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.19712031304111735,
-            "start": 0,
-            "end": 1362
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.5494127665692401,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.7371731194748972,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Spinal (dorsal horn): pre-synaptic inhibition of nociceptors\n·\nRisk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSed",
-            "score": 0.5494127665692401,
+            "score": 0.7371731194748972,
             "start": 1300,
             "end": 2798
           },
           {
             "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.29015475481172504,
+            "score": 0.3220989705720298,
+            "start": 0,
+            "end": 1299
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.19638930530173287,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Spinal (dorsal horn): pre-synaptic inhibition of nociceptors\n·\nRisk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSed",
+            "score": 0.19638930530173287,
+            "start": 1300,
+            "end": 2798
+          },
+          {
+            "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
+            "score": 0.13476114033048603,
             "start": 0,
             "end": 1299
           }
@@ -371,18 +361,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7448474166640925,
+        "score": 0.2754396543901626,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Risk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSedation (M receptors in the medulla) +/- unconsciousness\n·\nMiosis",
-            "score": 0.7448474166640925,
+            "score": 0.2754396543901626,
             "start": 1363,
             "end": 2798
           },
           {
             "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.6686037024057024,
+            "score": 0.09622297710488378,
             "start": 0,
             "end": 1362
           }
@@ -425,18 +415,18 @@
         ]
       },
       "structure_function_link": {
-        "score": 0.4067258903315847,
+        "score": 0.4033813796001826,
         "description": "Structure → function → dysfunction pattern",
         "top_chunks": [
           {
             "text": "2011A06 Write a\nbrief outline on the pharmacology of remifentanil.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nSynthetic opioid\n·\nPhenylpiperidine derivative\n·\nEster linkage\nPresentation\n·",
-            "score": 0.4067258903315847,
+            "score": 0.4033813796001826,
             "start": 0,
             "end": 1362
           },
           {
             "text": "Risk of severe pain when infusion ceased\n·\nRisk of hyperalgaesia and tolerance if prolonged, high dose\n  infusion\nOther CNS effects\n·\nSedation (M receptors in the medulla) +/- unconsciousness\n·\nMiosis",
-            "score": 0.30201042805729156,
+            "score": 0.30385425542433225,
             "start": 1363,
             "end": 2798
           }

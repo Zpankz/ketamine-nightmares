@@ -16,14 +16,9 @@
       ]
     },
     "content_dimensions": [
-      "nociception_process",
-      "pharmacokinetic_process",
-      "organ_system_process",
-      "drug_receptor_disposition"
+      "pharmacokinetic_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -128,24 +123,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6854437825385576,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.43588136890824414,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2016A09 Describe\nthe mechanism of action, pharmacokinetics and major side effects of amiodarone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure\n·\nIodine-containing\n·\nSimilar appearance to thyroxine\nP",
-            "score": 0.6854437825385576,
+            "score": 0.43588136890824414,
             "start": 0,
             "end": 1332
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.22925302922312224,
+        "score": 0.32162525056049346,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2016A09 Describe\nthe mechanism of action, pharmacokinetics and major side effects of amiodarone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure\n·\nIodine-containing\n·\nSimilar appearance to thyroxine\nP",
-            "score": 0.22925302922312224,
+            "score": 0.32162525056049346,
             "start": 0,
             "end": 1332
           }
@@ -164,12 +159,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.6970683111707597,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.37490450487384075,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2016A09 Describe\nthe mechanism of action, pharmacokinetics and major side effects of amiodarone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure\n·\nIodine-containing\n·\nSimilar appearance to thyroxine\nP",
-            "score": 0.6970683111707597,
+            "score": 0.37490450487384075,
             "start": 0,
             "end": 1332
           }
@@ -188,24 +183,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.31408742677824225,
+        "score": 0.20377101929932123,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2016A09 Describe\nthe mechanism of action, pharmacokinetics and major side effects of amiodarone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure\n·\nIodine-containing\n·\nSimilar appearance to thyroxine\nP",
-            "score": 0.31408742677824225,
+            "score": 0.20377101929932123,
             "start": 0,
             "end": 1332
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7498967359755564,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08343914521545998,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2016A09 Describe\nthe mechanism of action, pharmacokinetics and major side effects of amiodarone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure\n·\nIodine-containing\n·\nSimilar appearance to thyroxine\nP",
-            "score": 0.7498967359755564,
+            "score": 0.08343914521545998,
             "start": 0,
             "end": 1332
           }
@@ -224,24 +219,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.23609234787563346,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.28297282739996915,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2016A09 Describe\nthe mechanism of action, pharmacokinetics and major side effects of amiodarone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure\n·\nIodine-containing\n·\nSimilar appearance to thyroxine\nP",
-            "score": 0.23609234787563346,
+            "score": 0.28297282739996915,
             "start": 0,
             "end": 1332
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3594357561965272,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.174519217113909,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2016A09 Describe\nthe mechanism of action, pharmacokinetics and major side effects of amiodarone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure\n·\nIodine-containing\n·\nSimilar appearance to thyroxine\nP",
-            "score": 0.3594357561965272,
+            "score": 0.174519217113909,
             "start": 0,
             "end": 1332
           }
@@ -250,12 +245,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.9208745583881597,
+        "score": 0.20903276749660882,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2016A09 Describe\nthe mechanism of action, pharmacokinetics and major side effects of amiodarone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure\n·\nIodine-containing\n·\nSimilar appearance to thyroxine\nP",
-            "score": 0.9208745583881597,
+            "score": 0.20903276749660882,
             "start": 0,
             "end": 1332
           }

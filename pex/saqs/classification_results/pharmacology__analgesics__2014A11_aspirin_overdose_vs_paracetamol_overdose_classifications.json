@@ -13,13 +13,9 @@
       "score": 0.4914425169347414
     },
     "content_dimensions": [
-      "organ_system_process",
-      "nociception_process",
-      "special_population_role"
+      "drug_receptor_disposition"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -124,24 +120,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.28297282739996915,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.6738622395986082,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2014A11 Compare\nand contrast the management of an overdose of aspirin with that of an overdose\nof paracetamol.\nParacetamol\nAspirin\nPathophysiology\n·\nSaturated\n  glucuronidation, sulfation\n·\n↑NAPQI\n  -",
-            "score": 0.28297282739996915,
+            "score": 0.6738622395986082,
             "start": 0,
             "end": 1293
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.3495820398110333,
+        "score": 0.29105866542991604,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2014A11 Compare\nand contrast the management of an overdose of aspirin with that of an overdose\nof paracetamol.\nParacetamol\nAspirin\nPathophysiology\n·\nSaturated\n  glucuronidation, sulfation\n·\n↑NAPQI\n  -",
-            "score": 0.3495820398110333,
+            "score": 0.29105866542991604,
             "start": 0,
             "end": 1293
           }
@@ -160,12 +156,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.944852730826249,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4373210428294137,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2014A11 Compare\nand contrast the management of an overdose of aspirin with that of an overdose\nof paracetamol.\nParacetamol\nAspirin\nPathophysiology\n·\nSaturated\n  glucuronidation, sulfation\n·\n↑NAPQI\n  -",
-            "score": 0.944852730826249,
+            "score": 0.4373210428294137,
             "start": 0,
             "end": 1293
           }
@@ -184,24 +180,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.3282846746460227,
+        "score": 0.21207433610868814,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2014A11 Compare\nand contrast the management of an overdose of aspirin with that of an overdose\nof paracetamol.\nParacetamol\nAspirin\nPathophysiology\n·\nSaturated\n  glucuronidation, sulfation\n·\n↑NAPQI\n  -",
-            "score": 0.3282846746460227,
+            "score": 0.21207433610868814,
             "start": 0,
             "end": 1293
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8057941557783673,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08924333203133303,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2014A11 Compare\nand contrast the management of an overdose of aspirin with that of an overdose\nof paracetamol.\nParacetamol\nAspirin\nPathophysiology\n·\nSaturated\n  glucuronidation, sulfation\n·\n↑NAPQI\n  -",
-            "score": 0.8057941557783673,
+            "score": 0.08924333203133303,
             "start": 0,
             "end": 1293
           }
@@ -220,24 +216,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.16979284000945866,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.18561555034757704,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2014A11 Compare\nand contrast the management of an overdose of aspirin with that of an overdose\nof paracetamol.\nParacetamol\nAspirin\nPathophysiology\n·\nSaturated\n  glucuronidation, sulfation\n·\n↑NAPQI\n  -",
-            "score": 0.16979284000945866,
+            "score": 0.18561555034757704,
             "start": 0,
             "end": 1293
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8032453899893992,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.264117519872506,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2014A11 Compare\nand contrast the management of an overdose of aspirin with that of an overdose\nof paracetamol.\nParacetamol\nAspirin\nPathophysiology\n·\nSaturated\n  glucuronidation, sulfation\n·\n↑NAPQI\n  -",
-            "score": 0.8032453899893992,
+            "score": 0.264117519872506,
             "start": 0,
             "end": 1293
           }
@@ -246,12 +242,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7084888695904968,
+        "score": 0.326852731551074,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2014A11 Compare\nand contrast the management of an overdose of aspirin with that of an overdose\nof paracetamol.\nParacetamol\nAspirin\nPathophysiology\n·\nSaturated\n  glucuronidation, sulfation\n·\n↑NAPQI\n  -",
-            "score": 0.7084888695904968,
+            "score": 0.326852731551074,
             "start": 0,
             "end": 1293
           }

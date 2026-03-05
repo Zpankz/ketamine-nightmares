@@ -14,7 +14,6 @@
     },
     "content_dimensions": [
       "drug_receptor_disposition",
-      "nociception_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": []
@@ -170,37 +169,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8698467137441421,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8400731715625799,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC esterase:\nDrug target\n",
+            "score": 0.8400731715625799,
+            "start": 1411,
+            "end": 2263
+          },
+          {
+            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
+            "score": 0.453615278428747,
+            "start": 0,
+            "end": 1410
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.3254234590270125,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
-            "score": 0.8698467137441421,
+            "score": 0.3254234590270125,
             "start": 0,
             "end": 1410
           },
           {
             "text": "  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC esterase:\nDrug target\n",
-            "score": 0.7743224261658384,
+            "score": 0.20153979982073553,
             "start": 1411,
-            "end": 2263
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.3075574940524789,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
-            "score": 0.3075574940524789,
-            "start": 0,
-            "end": 1389
-          },
-          {
-            "text": "  inhibitors\n·\nOther\n  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC e",
-            "score": 0.30201042805729156,
-            "start": 1390,
             "end": 2263
           }
         ]
@@ -224,20 +223,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.3713917369958007,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4121438645877505,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
-            "score": 0.3713917369958007,
-            "start": 0,
-            "end": 1410
-          },
-          {
             "text": "  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC esterase:\nDrug target\n",
-            "score": 0.21360460483229088,
+            "score": 0.4121438645877505,
             "start": 1411,
             "end": 2263
+          },
+          {
+            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
+            "score": 0.3784283444474525,
+            "start": 0,
+            "end": 1410
           }
         ]
       },
@@ -260,36 +259,36 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.45112957058007913,
+        "score": 0.299254522952492,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
-            "score": 0.45112957058007913,
-            "start": 0,
-            "end": 1404
+            "text": "Acetylcholinesterase\n  inhibitors\n·\nOther\n  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\n",
+            "score": 0.299254522952492,
+            "start": 1369,
+            "end": 2263
           },
           {
-            "text": "Other\n  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC esterase:\nDrug t",
-            "score": 0.23771779517095493,
-            "start": 1405,
-            "end": 2263
+            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
+            "score": 0.27808680603957303,
+            "start": 0,
+            "end": 1368
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7469578442226757,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10500911959371668,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
-            "score": 0.7469578442226757,
+            "score": 0.10500911959371668,
             "start": 0,
             "end": 1410
           },
           {
             "text": "  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC esterase:\nDrug target\n",
-            "score": 0.47073808484449725,
+            "score": 0.09910133017588658,
             "start": 1411,
             "end": 2263
           }
@@ -314,36 +313,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.11905584709916793,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.1612217162063077,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
-            "score": 0.11905584709916793,
-            "start": 0,
-            "end": 1410
-          },
-          {
             "text": "  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC esterase:\nDrug target\n",
-            "score": 0.1005592983048298,
+            "score": 0.1612217162063077,
             "start": 1411,
             "end": 2263
+          },
+          {
+            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
+            "score": 0.13946678392103212,
+            "start": 0,
+            "end": 1410
           }
         ]
       },
       "special_population_role": {
-        "score": 0.4905802997354419,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.2803024686265447,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC esterase:\nDrug target\n",
-            "score": 0.4905802997354419,
+            "score": 0.2803024686265447,
             "start": 1411,
             "end": 2263
           },
           {
             "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
-            "score": 0.41401858678688724,
+            "score": 0.22925302922312224,
             "start": 0,
             "end": 1410
           }
@@ -352,20 +351,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.4590036870572001,
+        "score": 0.26714177530863603,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
-            "score": 0.4590036870572001,
-            "start": 0,
-            "end": 1410
-          },
-          {
             "text": "  drugs: metoclopramide, ketamine, oral contraceptive pill, Lithium,\n  lignocaine, ester local anaesthetics, cytotoxics\nStimulation of production\n·\nObesity\n·\nAlcohol\n  abuse\nRBC esterase:\nDrug target\n",
-            "score": 0.375155843803304,
+            "score": 0.26714177530863603,
             "start": 1411,
             "end": 2263
+          },
+          {
+            "text": "2000A14 Discuss the roles of plasma esterases on drugs used in\nanaethesia.\nList:\n·\nEsterases\n·\nPlasma cholinesterase\n·\nRBC esterase\n·\nNon-specific plasma esterase\n·\n(Muscle esterase)\nEsterases:\nActivi",
+            "score": 0.13769065726953986,
+            "start": 0,
+            "end": 1410
           }
         ]
       },

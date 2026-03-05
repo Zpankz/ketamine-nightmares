@@ -11,13 +11,11 @@
     },
     "content_dimensions": [
       "drug_receptor_disposition",
-      "nociception_process",
-      "neuromuscular_process",
-      "equipment_and_physics"
+      "autonomic_disposition",
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "structure_function_link",
-      "mechanism_effect_relevance"
+      "structure_function_link"
     ]
   },
   "classifications": {
@@ -171,36 +169,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9318869461159072,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.898461720365241,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
-            "score": 0.9318869461159072,
+            "score": 0.898461720365241,
             "start": 0,
-            "end": 1430
+            "end": 1466
           },
           {
-            "text": "↓Synaptic reinforcement = long-term\n  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nD",
-            "score": 0.2619682848045116,
-            "start": 1431,
+            "text": "  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nDissociative general anaesthesia, inc",
+            "score": 0.22213370116389697,
+            "start": 1467,
             "end": 1890
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5746904900467347,
+        "score": 0.6513975997470169,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
-            "score": 0.5746904900467347,
+            "score": 0.6513975997470169,
             "start": 0,
             "end": 1430
           },
           {
             "text": "↓Synaptic reinforcement = long-term\n  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nD",
-            "score": 0.3829748153990309,
+            "score": 0.42368295869294115,
             "start": 1431,
             "end": 1890
           }
@@ -225,19 +223,19 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.20377101929932123,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6258491725725703,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
-            "score": 0.20377101929932123,
+            "score": 0.6258491725725703,
             "start": 0,
-            "end": 1466
+            "end": 1481
           },
           {
-            "text": "  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nDissociative general anaesthesia, inc",
-            "score": 0.12177417567627631,
-            "start": 1467,
+            "text": "�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nDissociative general anaesthesia, including\n  single",
+            "score": 0.2684433312271226,
+            "start": 1482,
             "end": 1890
           }
         ]
@@ -261,38 +259,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8322089010665819,
+        "score": 0.365894701768538,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓Synaptic reinforcement = long-term\n  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nD",
-            "score": 0.8322089010665819,
-            "start": 1431,
-            "end": 1890
+            "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
+            "score": 0.365894701768538,
+            "start": 0,
+            "end": 1400
           },
           {
-            "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
-            "score": 0.3254234590270125,
-            "start": 0,
-            "end": 1430
+            "text": "  ↓hyperalgaesia, allodynia\n�\n↓Synaptic reinforcement = long-term\n  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic ",
+            "score": 0.12177417567627631,
+            "start": 1401,
+            "end": 1890
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8743576151335943,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.24221938844708332,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓Synaptic reinforcement = long-term\n  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nD",
-            "score": 0.8743576151335943,
-            "start": 1431,
+            "text": "↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nDissociative general anaesthesia, including\n  single a",
+            "score": 0.24221938844708332,
+            "start": 1484,
             "end": 1890
           },
           {
             "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
-            "score": 0.7423026239200107,
+            "score": 0.11584261865163957,
             "start": 0,
-            "end": 1430
+            "end": 1483
           }
         ]
       },
@@ -315,58 +313,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8322089010665819,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nDissociative general anaesthesia, including\n  single a",
-            "score": 0.8322089010665819,
-            "start": 1484,
-            "end": 1890
-          },
-          {
-            "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
-            "score": 0.1100884956529356,
-            "start": 0,
-            "end": 1483
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.24759886867237513,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.2606831439763029,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↓Synaptic reinforcement = long-term\n  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nD",
-            "score": 0.24759886867237513,
+            "score": 0.2606831439763029,
             "start": 1431,
             "end": 1890
           },
           {
             "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
-            "score": 0.21514118653388012,
+            "score": 0.10702368540104822,
             "start": 0,
             "end": 1430
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.15863825532763226,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  potentiation\n�\n↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nDissociative general anaesthesia, inc",
+            "score": 0.15863825532763226,
+            "start": 1467,
+            "end": 1890
+          },
+          {
+            "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
+            "score": 0.11744260655618423,
+            "start": 0,
+            "end": 1466
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.783702239115653,
+        "score": 0.27632062191629214,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
-            "score": 0.783702239115653,
-            "start": 0,
-            "end": 1483
-          },
-          {
             "text": "↓Acute somatic and neuropathic pain\n�\n↓Opioid requirement\n�\n↓Progression to chronic pain\n�\nLess utility once chronic pain established\nOther use\n�\nDissociative general anaesthesia, including\n  single a",
-            "score": 0.41654306975656447,
+            "score": 0.27632062191629214,
             "start": 1484,
             "end": 1890
+          },
+          {
+            "text": "2020B10 Discuss\nthe structure and function of the NMDA receptor and briefly describe the\ninteraction of ketamine with this receptor\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological rol",
+            "score": 0.1949320705626118,
+            "start": 0,
+            "end": 1483
           }
         ]
       },

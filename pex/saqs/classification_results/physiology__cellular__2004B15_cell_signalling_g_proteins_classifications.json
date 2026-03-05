@@ -13,7 +13,6 @@
       "drug_receptor_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -120,24 +119,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9208745583881597,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8308759955364141,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2004B15 Describe\nthe mechanism of action of G-proteins in the cell.\nList:\n·\nDiagramme\n·\nG protein\n·\nG protein subtypes\nDiagramme:\nG protein:\nStructure\n·\nHeterotrimeric ICF protein\n·\nα, β, γ subunits\nF",
-            "score": 0.9208745583881597,
+            "score": 0.8308759955364141,
             "start": 0,
             "end": 1210
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.2166840731768605,
+        "score": 0.4136952077119707,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2004B15 Describe\nthe mechanism of action of G-proteins in the cell.\nList:\n·\nDiagramme\n·\nG protein\n·\nG protein subtypes\nDiagramme:\nG protein:\nStructure\n·\nHeterotrimeric ICF protein\n·\nα, β, γ subunits\nF",
-            "score": 0.2166840731768605,
+            "score": 0.4136952077119707,
             "start": 0,
             "end": 1210
           }
@@ -156,12 +155,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.12232229789744709,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.34933703035082736,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2004B15 Describe\nthe mechanism of action of G-proteins in the cell.\nList:\n·\nDiagramme\n·\nG protein\n·\nG protein subtypes\nDiagramme:\nG protein:\nStructure\n·\nHeterotrimeric ICF protein\n·\nα, β, γ subunits\nF",
-            "score": 0.12232229789744709,
+            "score": 0.34933703035082736,
             "start": 0,
             "end": 1210
           }
@@ -180,24 +179,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.1934812122960498,
+        "score": 0.2883510242849617,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2004B15 Describe\nthe mechanism of action of G-proteins in the cell.\nList:\n·\nDiagramme\n·\nG protein\n·\nG protein subtypes\nDiagramme:\nG protein:\nStructure\n·\nHeterotrimeric ICF protein\n·\nα, β, γ subunits\nF",
-            "score": 0.1934812122960498,
+            "score": 0.2883510242849617,
             "start": 0,
             "end": 1210
           }
         ]
       },
       "nociception_process": {
-        "score": 0.290606540070939,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.11372982298149485,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2004B15 Describe\nthe mechanism of action of G-proteins in the cell.\nList:\n·\nDiagramme\n·\nG protein\n·\nG protein subtypes\nDiagramme:\nG protein:\nStructure\n·\nHeterotrimeric ICF protein\n·\nα, β, γ subunits\nF",
-            "score": 0.290606540070939,
+            "score": 0.11372982298149485,
             "start": 0,
             "end": 1210
           }
@@ -216,24 +215,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.0952745927410768,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.0981363269013407,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2004B15 Describe\nthe mechanism of action of G-proteins in the cell.\nList:\n·\nDiagramme\n·\nG protein\n·\nG protein subtypes\nDiagramme:\nG protein:\nStructure\n·\nHeterotrimeric ICF protein\n·\nα, β, γ subunits\nF",
-            "score": 0.0952745927410768,
+            "score": 0.0981363269013407,
             "start": 0,
             "end": 1210
           }
         ]
       },
       "special_population_role": {
-        "score": 0.26714177530863603,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.12958413928918883,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2004B15 Describe\nthe mechanism of action of G-proteins in the cell.\nList:\n·\nDiagramme\n·\nG protein\n·\nG protein subtypes\nDiagramme:\nG protein:\nStructure\n·\nHeterotrimeric ICF protein\n·\nα, β, γ subunits\nF",
-            "score": 0.26714177530863603,
+            "score": 0.12958413928918883,
             "start": 0,
             "end": 1210
           }
@@ -242,12 +241,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8551215152942102,
+        "score": 0.3335577019344474,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2004B15 Describe\nthe mechanism of action of G-proteins in the cell.\nList:\n·\nDiagramme\n·\nG protein\n·\nG protein subtypes\nDiagramme:\nG protein:\nStructure\n·\nHeterotrimeric ICF protein\n·\nα, β, γ subunits\nF",
-            "score": 0.8551215152942102,
+            "score": 0.3335577019344474,
             "start": 0,
             "end": 1210
           }

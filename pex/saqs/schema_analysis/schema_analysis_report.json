@@ -6,34 +6,37 @@
   "stage_1_activation": {
     "total_documents": 381,
     "dimensions_per_doc": {
-      "mean": 4.070866141732283,
-      "median": 4.0,
-      "std": 2.4703419881693325,
+      "mean": 2.7375328083989503,
+      "median": 2.0,
+      "std": 2.0491040746546108,
       "min": 0,
-      "max": 10,
-      "p25": 2.0,
-      "p75": 6.0
+      "max": 8,
+      "p25": 1.0,
+      "p75": 4.0
     },
     "activation_rates": {
       "acid_base_quality": 0.2388451443569554,
-      "autonomic_disposition": 0.24146981627296588,
-      "drug_receptor_disposition": 0.5170603674540682,
-      "equipment_and_physics": 0.5485564304461942,
+      "autonomic_disposition": 0.2650918635170604,
+      "drug_receptor_disposition": 0.5249343832020997,
+      "equipment_and_physics": 0.37270341207349084,
       "gas_exchange_process": 0.2572178477690289,
-      "neuromuscular_process": 0.4409448818897638,
-      "nociception_process": 0.5538057742782152,
-      "organ_system_process": 0.5800524934383202,
+      "neuromuscular_process": 0.32020997375328086,
+      "nociception_process": 0.005249343832020997,
+      "organ_system_process": 0.3963254593175853,
       "pharmacokinetic_process": 0.28346456692913385,
-      "special_population_role": 0.4094488188976378
+      "special_population_role": 0.07349081364829396
     },
     "high_activation": {},
-    "low_activation": {}
+    "low_activation": {
+      "nociception_process": 0.005249343832020997,
+      "special_population_role": 0.07349081364829396
+    }
   },
   "stage_2_score_distributions": {
     "acid_base_quality": {
       "count": 381,
-      "mean": 0.417248764496152,
-      "std": 0.21125281588644088,
+      "mean": 0.41727735020594214,
+      "std": 0.21126535125961113,
       "median": 0.37364865958760746,
       "p10": 0.17046326482945487,
       "p90": 0.7397445008530983,
@@ -50,62 +53,62 @@
     },
     "autonomic_disposition": {
       "count": 381,
-      "mean": 0.41833119926715195,
-      "std": 0.2306230827897963,
-      "median": 0.36241165568293926,
-      "p10": 0.1592817529828625,
-      "p90": 0.7977180499481404,
-      "skewness": 0.579,
-      "bimodality_coefficient": 0.646,
+      "mean": 0.44459628807704715,
+      "std": 0.20515203154064,
+      "median": 0.39071759251925914,
+      "p10": 0.19785291387817477,
+      "p90": 0.7507330409722095,
+      "skewness": 0.377,
+      "bimodality_coefficient": 0.595,
       "is_bimodal": true,
       "score_buckets": {
-        "low_0_to_0.3": 152,
-        "mid_0.3_to_0.5": 103,
-        "marginal_0.5_to_0.6": 34,
-        "moderate_0.6_to_0.8": 56,
-        "high_0.8_to_1.0": 36
+        "low_0_to_0.3": 121,
+        "mid_0.3_to_0.5": 115,
+        "marginal_0.5_to_0.6": 44,
+        "moderate_0.6_to_0.8": 85,
+        "high_0.8_to_1.0": 16
       }
     },
     "drug_receptor_disposition": {
       "count": 381,
-      "mean": 0.5822666796604294,
-      "std": 0.27324202518630597,
-      "median": 0.6338560556842108,
-      "p10": 0.19420584422163265,
-      "p90": 0.9004140778741629,
-      "skewness": -0.262,
-      "bimodality_coefficient": 0.681,
+      "mean": 0.5501976492665107,
+      "std": 0.26279731953928837,
+      "median": 0.6230832104573046,
+      "p10": 0.14006190450182948,
+      "p90": 0.8387782837936923,
+      "skewness": -0.42,
+      "bimodality_coefficient": 0.699,
       "is_bimodal": true,
       "score_buckets": {
         "low_0_to_0.3": 91,
-        "mid_0.3_to_0.5": 58,
-        "marginal_0.5_to_0.6": 35,
-        "moderate_0.6_to_0.8": 69,
-        "high_0.8_to_1.0": 128
+        "mid_0.3_to_0.5": 59,
+        "marginal_0.5_to_0.6": 31,
+        "moderate_0.6_to_0.8": 116,
+        "high_0.8_to_1.0": 84
       }
     },
     "equipment_and_physics": {
       "count": 381,
-      "mean": 0.5820494819630108,
-      "std": 0.304453421188557,
-      "median": 0.699828159076269,
-      "p10": 0.13186982364320243,
-      "p90": 0.915241295005019,
-      "skewness": -0.345,
-      "bimodality_coefficient": 0.735,
+      "mean": 0.4778129538020123,
+      "std": 0.25184663736355917,
+      "median": 0.4512082304921907,
+      "p10": 0.15863825532763226,
+      "p90": 0.8185934252001217,
+      "skewness": 0.115,
+      "bimodality_coefficient": 0.638,
       "is_bimodal": true,
       "score_buckets": {
-        "low_0_to_0.3": 106,
-        "mid_0.3_to_0.5": 45,
-        "marginal_0.5_to_0.6": 21,
-        "moderate_0.6_to_0.8": 67,
-        "high_0.8_to_1.0": 142
+        "low_0_to_0.3": 126,
+        "mid_0.3_to_0.5": 84,
+        "marginal_0.5_to_0.6": 29,
+        "moderate_0.6_to_0.8": 87,
+        "high_0.8_to_1.0": 55
       }
     },
     "gas_exchange_process": {
       "count": 381,
-      "mean": 0.37220922983699617,
-      "std": 0.2893921796901931,
+      "mean": 0.3721967979195433,
+      "std": 0.2893744836424258,
       "median": 0.24718278933502774,
       "p10": 0.10252288453633593,
       "p90": 0.8804034518017119,
@@ -122,62 +125,62 @@
     },
     "neuromuscular_process": {
       "count": 381,
-      "mean": 0.5282513378512901,
-      "std": 0.25469035883545266,
-      "median": 0.526747596212247,
-      "p10": 0.1934812122960498,
-      "p90": 0.8470823759078229,
-      "skewness": -0.073,
-      "bimodality_coefficient": 0.63,
+      "mean": 0.45272136815272346,
+      "std": 0.25202755049014236,
+      "median": 0.36789031545021217,
+      "p10": 0.17794296815077074,
+      "p90": 0.8374770746416548,
+      "skewness": 0.482,
+      "bimodality_coefficient": 0.675,
       "is_bimodal": true,
       "score_buckets": {
-        "low_0_to_0.3": 99,
-        "mid_0.3_to_0.5": 80,
-        "marginal_0.5_to_0.6": 34,
-        "moderate_0.6_to_0.8": 88,
-        "high_0.8_to_1.0": 80
+        "low_0_to_0.3": 143,
+        "mid_0.3_to_0.5": 95,
+        "marginal_0.5_to_0.6": 21,
+        "moderate_0.6_to_0.8": 67,
+        "high_0.8_to_1.0": 55
       }
     },
     "nociception_process": {
       "count": 381,
-      "mean": 0.6003367693077363,
-      "std": 0.26999641367315685,
-      "median": 0.6956839729292017,
-      "p10": 0.20006027090401593,
-      "p90": 0.89944070169517,
-      "skewness": -0.403,
-      "bimodality_coefficient": 0.69,
+      "mean": 0.1327502798512245,
+      "std": 0.06993804342571971,
+      "median": 0.11584261865163957,
+      "p10": 0.08213138471900344,
+      "p90": 0.19565989102814468,
+      "skewness": 3.606,
+      "bimodality_coefficient": 0.685,
       "is_bimodal": true,
       "score_buckets": {
-        "low_0_to_0.3": 81,
-        "mid_0.3_to_0.5": 56,
-        "marginal_0.5_to_0.6": 33,
-        "moderate_0.6_to_0.8": 78,
-        "high_0.8_to_1.0": 133
+        "low_0_to_0.3": 368,
+        "mid_0.3_to_0.5": 10,
+        "marginal_0.5_to_0.6": 1,
+        "moderate_0.6_to_0.8": 2,
+        "high_0.8_to_1.0": 0
       }
     },
     "organ_system_process": {
       "count": 381,
-      "mean": 0.5943964442797331,
-      "std": 0.3008566567573443,
-      "median": 0.7319908827311787,
-      "p10": 0.13946678392103212,
-      "p90": 0.910756667968667,
-      "skewness": -0.448,
-      "bimodality_coefficient": 0.77,
+      "mean": 0.5162094409910254,
+      "std": 0.20867908479991706,
+      "median": 0.5331301509742074,
+      "p10": 0.23366572148234507,
+      "p90": 0.7844736825697805,
+      "skewness": -0.139,
+      "bimodality_coefficient": 0.583,
       "is_bimodal": true,
       "score_buckets": {
-        "low_0_to_0.3": 106,
-        "mid_0.3_to_0.5": 40,
-        "marginal_0.5_to_0.6": 14,
-        "moderate_0.6_to_0.8": 60,
-        "high_0.8_to_1.0": 161
+        "low_0_to_0.3": 83,
+        "mid_0.3_to_0.5": 89,
+        "marginal_0.5_to_0.6": 58,
+        "moderate_0.6_to_0.8": 125,
+        "high_0.8_to_1.0": 26
       }
     },
     "pharmacokinetic_process": {
       "count": 381,
-      "mean": 0.4257420588605698,
-      "std": 0.24561375446138695,
+      "mean": 0.4257433007239918,
+      "std": 0.24560345024704838,
       "median": 0.37943715045857734,
       "p10": 0.10803954311448256,
       "p90": 0.7932317842083414,
@@ -194,20 +197,20 @@
     },
     "special_population_role": {
       "count": 381,
-      "mean": 0.5042485944912799,
-      "std": 0.2513994855253694,
-      "median": 0.4720281773761867,
-      "p10": 0.19638930530173287,
-      "p90": 0.8445555978000561,
-      "skewness": 0.098,
-      "bimodality_coefficient": 0.641,
+      "mean": 0.2378751598704787,
+      "std": 0.1746007927504267,
+      "median": 0.174519217113909,
+      "p10": 0.10301730154669217,
+      "p90": 0.4695144563191499,
+      "skewness": 1.963,
+      "bimodality_coefficient": 0.784,
       "is_bimodal": true,
       "score_buckets": {
-        "low_0_to_0.3": 113,
-        "mid_0.3_to_0.5": 85,
-        "marginal_0.5_to_0.6": 27,
-        "moderate_0.6_to_0.8": 87,
-        "high_0.8_to_1.0": 69
+        "low_0_to_0.3": 308,
+        "mid_0.3_to_0.5": 37,
+        "marginal_0.5_to_0.6": 8,
+        "moderate_0.6_to_0.8": 20,
+        "high_0.8_to_1.0": 8
       }
     }
   },
@@ -227,143 +230,126 @@
     "jaccard_matrix": {
       "acid_base_quality": {
         "acid_base_quality": 1.0,
-        "autonomic_disposition": 0.22,
-        "drug_receptor_disposition": 0.205,
-        "equipment_and_physics": 0.277,
+        "autonomic_disposition": 0.208,
+        "drug_receptor_disposition": 0.244,
+        "equipment_and_physics": 0.324,
         "gas_exchange_process": 0.277,
-        "neuromuscular_process": 0.282,
-        "nociception_process": 0.218,
-        "organ_system_process": 0.295,
+        "neuromuscular_process": 0.291,
+        "nociception_process": 0.0,
+        "organ_system_process": 0.241,
         "pharmacokinetic_process": 0.157,
-        "special_population_role": 0.273
+        "special_population_role": 0.072
       },
       "autonomic_disposition": {
-        "acid_base_quality": 0.22,
+        "acid_base_quality": 0.208,
         "autonomic_disposition": 1.0,
-        "drug_receptor_disposition": 0.332,
-        "equipment_and_physics": 0.314,
-        "gas_exchange_process": 0.188,
-        "neuromuscular_process": 0.361,
-        "nociception_process": 0.371,
-        "organ_system_process": 0.326,
-        "pharmacokinetic_process": 0.163,
-        "special_population_role": 0.259
+        "drug_receptor_disposition": 0.447,
+        "equipment_and_physics": 0.358,
+        "gas_exchange_process": 0.157,
+        "neuromuscular_process": 0.497,
+        "nociception_process": 0.01,
+        "organ_system_process": 0.377,
+        "pharmacokinetic_process": 0.168,
+        "special_population_role": 0.057
       },
       "drug_receptor_disposition": {
-        "acid_base_quality": 0.205,
-        "autonomic_disposition": 0.332,
+        "acid_base_quality": 0.244,
+        "autonomic_disposition": 0.447,
         "drug_receptor_disposition": 1.0,
-        "equipment_and_physics": 0.31,
-        "gas_exchange_process": 0.135,
-        "neuromuscular_process": 0.431,
-        "nociception_process": 0.606,
-        "organ_system_process": 0.422,
-        "pharmacokinetic_process": 0.298,
-        "special_population_role": 0.368
+        "equipment_and_physics": 0.352,
+        "gas_exchange_process": 0.164,
+        "neuromuscular_process": 0.425,
+        "nociception_process": 0.01,
+        "organ_system_process": 0.513,
+        "pharmacokinetic_process": 0.305,
+        "special_population_role": 0.06
       },
       "equipment_and_physics": {
-        "acid_base_quality": 0.277,
-        "autonomic_disposition": 0.314,
-        "drug_receptor_disposition": 0.31,
+        "acid_base_quality": 0.324,
+        "autonomic_disposition": 0.358,
+        "drug_receptor_disposition": 0.352,
         "equipment_and_physics": 1.0,
-        "gas_exchange_process": 0.371,
-        "neuromuscular_process": 0.514,
-        "nociception_process": 0.453,
-        "organ_system_process": 0.564,
-        "pharmacokinetic_process": 0.248,
-        "special_population_role": 0.377
+        "gas_exchange_process": 0.364,
+        "neuromuscular_process": 0.382,
+        "nociception_process": 0.0,
+        "organ_system_process": 0.376,
+        "pharmacokinetic_process": 0.214,
+        "special_population_role": 0.09
       },
       "gas_exchange_process": {
         "acid_base_quality": 0.277,
-        "autonomic_disposition": 0.188,
-        "drug_receptor_disposition": 0.135,
-        "equipment_and_physics": 0.371,
+        "autonomic_disposition": 0.157,
+        "drug_receptor_disposition": 0.164,
+        "equipment_and_physics": 0.364,
         "gas_exchange_process": 1.0,
-        "neuromuscular_process": 0.243,
-        "nociception_process": 0.166,
-        "organ_system_process": 0.324,
+        "neuromuscular_process": 0.202,
+        "nociception_process": 0.0,
+        "organ_system_process": 0.215,
         "pharmacokinetic_process": 0.102,
-        "special_population_role": 0.233
+        "special_population_role": 0.077
       },
       "neuromuscular_process": {
-        "acid_base_quality": 0.282,
-        "autonomic_disposition": 0.361,
-        "drug_receptor_disposition": 0.431,
-        "equipment_and_physics": 0.514,
-        "gas_exchange_process": 0.243,
+        "acid_base_quality": 0.291,
+        "autonomic_disposition": 0.497,
+        "drug_receptor_disposition": 0.425,
+        "equipment_and_physics": 0.382,
+        "gas_exchange_process": 0.202,
         "neuromuscular_process": 1.0,
-        "nociception_process": 0.613,
-        "organ_system_process": 0.514,
-        "pharmacokinetic_process": 0.266,
-        "special_population_role": 0.385
+        "nociception_process": 0.0,
+        "organ_system_process": 0.358,
+        "pharmacokinetic_process": 0.211,
+        "special_population_role": 0.064
       },
       "nociception_process": {
-        "acid_base_quality": 0.218,
-        "autonomic_disposition": 0.371,
-        "drug_receptor_disposition": 0.606,
-        "equipment_and_physics": 0.453,
-        "gas_exchange_process": 0.166,
-        "neuromuscular_process": 0.613,
+        "acid_base_quality": 0.0,
+        "autonomic_disposition": 0.01,
+        "drug_receptor_disposition": 0.01,
+        "equipment_and_physics": 0.0,
+        "gas_exchange_process": 0.0,
+        "neuromuscular_process": 0.0,
         "nociception_process": 1.0,
-        "organ_system_process": 0.505,
-        "pharmacokinetic_process": 0.313,
-        "special_population_role": 0.422
+        "organ_system_process": 0.013,
+        "pharmacokinetic_process": 0.0,
+        "special_population_role": 0.0
       },
       "organ_system_process": {
-        "acid_base_quality": 0.295,
-        "autonomic_disposition": 0.326,
-        "drug_receptor_disposition": 0.422,
-        "equipment_and_physics": 0.564,
-        "gas_exchange_process": 0.324,
-        "neuromuscular_process": 0.514,
-        "nociception_process": 0.505,
+        "acid_base_quality": 0.241,
+        "autonomic_disposition": 0.377,
+        "drug_receptor_disposition": 0.513,
+        "equipment_and_physics": 0.376,
+        "gas_exchange_process": 0.215,
+        "neuromuscular_process": 0.358,
+        "nociception_process": 0.013,
         "organ_system_process": 1.0,
-        "pharmacokinetic_process": 0.275,
-        "special_population_role": 0.545
+        "pharmacokinetic_process": 0.257,
+        "special_population_role": 0.085
       },
       "pharmacokinetic_process": {
         "acid_base_quality": 0.157,
-        "autonomic_disposition": 0.163,
-        "drug_receptor_disposition": 0.298,
-        "equipment_and_physics": 0.248,
+        "autonomic_disposition": 0.168,
+        "drug_receptor_disposition": 0.305,
+        "equipment_and_physics": 0.214,
         "gas_exchange_process": 0.102,
-        "neuromuscular_process": 0.266,
-        "nociception_process": 0.313,
-        "organ_system_process": 0.275,
+        "neuromuscular_process": 0.211,
+        "nociception_process": 0.0,
+        "organ_system_process": 0.257,
         "pharmacokinetic_process": 1.0,
-        "special_population_role": 0.361
+        "special_population_role": 0.133
       },
       "special_population_role": {
-        "acid_base_quality": 0.273,
-        "autonomic_disposition": 0.259,
-        "drug_receptor_disposition": 0.368,
-        "equipment_and_physics": 0.377,
-        "gas_exchange_process": 0.233,
-        "neuromuscular_process": 0.385,
-        "nociception_process": 0.422,
-        "organ_system_process": 0.545,
-        "pharmacokinetic_process": 0.361,
+        "acid_base_quality": 0.072,
+        "autonomic_disposition": 0.057,
+        "drug_receptor_disposition": 0.06,
+        "equipment_and_physics": 0.09,
+        "gas_exchange_process": 0.077,
+        "neuromuscular_process": 0.064,
+        "nociception_process": 0.0,
+        "organ_system_process": 0.085,
+        "pharmacokinetic_process": 0.133,
         "special_population_role": 1.0
       }
     },
-    "redundant_pairs": [
-      {
-        "dim_a": "neuromuscular_process",
-        "dim_b": "nociception_process",
-        "jaccard": 0.613,
-        "co_occurrences": 144,
-        "a_total": 168,
-        "b_total": 211
-      },
-      {
-        "dim_a": "drug_receptor_disposition",
-        "dim_b": "nociception_process",
-        "jaccard": 0.606,
-        "co_occurrences": 154,
-        "a_total": 197,
-        "b_total": 211
-      }
-    ]
+    "redundant_pairs": []
   },
   "stage_4_threshold_sensitivity": {
     "acid_base_quality": {
@@ -410,118 +396,118 @@
     "autonomic_disposition": {
       "thresholds": {
         "0.4": {
-          "active_count": 164,
-          "rate": 0.43
+          "active_count": 187,
+          "rate": 0.491
         },
         "0.45": {
-          "active_count": 137,
-          "rate": 0.36
+          "active_count": 165,
+          "rate": 0.433
         },
         "0.5": {
-          "active_count": 126,
-          "rate": 0.331
+          "active_count": 145,
+          "rate": 0.381
         },
         "0.55": {
-          "active_count": 105,
-          "rate": 0.276
+          "active_count": 125,
+          "rate": 0.328
         },
         "0.6": {
-          "active_count": 92,
-          "rate": 0.241
+          "active_count": 101,
+          "rate": 0.265
         },
         "0.65": {
-          "active_count": 85,
-          "rate": 0.223
+          "active_count": 84,
+          "rate": 0.22
         },
         "0.7": {
-          "active_count": 71,
-          "rate": 0.186
+          "active_count": 65,
+          "rate": 0.171
         },
         "0.75": {
-          "active_count": 55,
-          "rate": 0.144
+          "active_count": 39,
+          "rate": 0.102
         }
       },
-      "optimal_threshold": 0.425,
+      "optimal_threshold": 0.725,
       "max_drop_between": [
-        0.4,
-        0.45
+        0.7,
+        0.75
       ]
     },
     "drug_receptor_disposition": {
       "thresholds": {
         "0.4": {
-          "active_count": 257,
-          "rate": 0.675
+          "active_count": 260,
+          "rate": 0.682
         },
         "0.45": {
-          "active_count": 240,
-          "rate": 0.63
+          "active_count": 245,
+          "rate": 0.643
         },
         "0.5": {
-          "active_count": 232,
-          "rate": 0.609
+          "active_count": 231,
+          "rate": 0.606
         },
         "0.55": {
-          "active_count": 215,
-          "rate": 0.564
+          "active_count": 214,
+          "rate": 0.562
         },
         "0.6": {
-          "active_count": 197,
-          "rate": 0.517
+          "active_count": 200,
+          "rate": 0.525
         },
         "0.65": {
-          "active_count": 181,
-          "rate": 0.475
+          "active_count": 183,
+          "rate": 0.48
         },
         "0.7": {
-          "active_count": 170,
-          "rate": 0.446
+          "active_count": 165,
+          "rate": 0.433
         },
         "0.75": {
-          "active_count": 153,
-          "rate": 0.402
+          "active_count": 135,
+          "rate": 0.354
         }
       },
-      "optimal_threshold": 0.575,
+      "optimal_threshold": 0.725,
       "max_drop_between": [
-        0.55,
-        0.6
+        0.7,
+        0.75
       ]
     },
     "equipment_and_physics": {
       "thresholds": {
         "0.4": {
-          "active_count": 251,
-          "rate": 0.659
+          "active_count": 206,
+          "rate": 0.541
         },
         "0.45": {
-          "active_count": 239,
-          "rate": 0.627
+          "active_count": 192,
+          "rate": 0.504
         },
         "0.5": {
-          "active_count": 230,
-          "rate": 0.604
+          "active_count": 171,
+          "rate": 0.449
         },
         "0.55": {
-          "active_count": 219,
-          "rate": 0.575
+          "active_count": 151,
+          "rate": 0.396
         },
         "0.6": {
-          "active_count": 209,
-          "rate": 0.549
+          "active_count": 142,
+          "rate": 0.373
         },
         "0.65": {
-          "active_count": 195,
-          "rate": 0.512
+          "active_count": 131,
+          "rate": 0.344
         },
         "0.7": {
-          "active_count": 190,
-          "rate": 0.499
+          "active_count": 113,
+          "rate": 0.297
         },
         "0.75": {
-          "active_count": 170,
-          "rate": 0.446
+          "active_count": 87,
+          "rate": 0.228
         }
       },
       "optimal_threshold": 0.725,
@@ -574,77 +560,36 @@
     "neuromuscular_process": {
       "thresholds": {
         "0.4": {
-          "active_count": 235,
-          "rate": 0.617
+          "active_count": 174,
+          "rate": 0.457
         },
         "0.45": {
-          "active_count": 213,
-          "rate": 0.559
+          "active_count": 157,
+          "rate": 0.412
         },
         "0.5": {
-          "active_count": 202,
-          "rate": 0.53
+          "active_count": 143,
+          "rate": 0.375
         },
         "0.55": {
-          "active_count": 184,
-          "rate": 0.483
+          "active_count": 133,
+          "rate": 0.349
         },
         "0.6": {
-          "active_count": 168,
-          "rate": 0.441
+          "active_count": 122,
+          "rate": 0.32
         },
         "0.65": {
-          "active_count": 150,
-          "rate": 0.394
+          "active_count": 111,
+          "rate": 0.291
         },
         "0.7": {
-          "active_count": 136,
-          "rate": 0.357
+          "active_count": 96,
+          "rate": 0.252
         },
         "0.75": {
-          "active_count": 117,
-          "rate": 0.307
-        }
-      },
-      "optimal_threshold": 0.425,
-      "max_drop_between": [
-        0.4,
-        0.45
-      ]
-    },
-    "nociception_process": {
-      "thresholds": {
-        "0.4": {
-          "active_count": 264,
-          "rate": 0.693
-        },
-        "0.45": {
-          "active_count": 252,
-          "rate": 0.661
-        },
-        "0.5": {
-          "active_count": 244,
-          "rate": 0.64
-        },
-        "0.55": {
-          "active_count": 226,
-          "rate": 0.593
-        },
-        "0.6": {
-          "active_count": 211,
-          "rate": 0.554
-        },
-        "0.65": {
-          "active_count": 205,
-          "rate": 0.538
-        },
-        "0.7": {
-          "active_count": 189,
-          "rate": 0.496
-        },
-        "0.75": {
-          "active_count": 162,
-          "rate": 0.425
+          "active_count": 72,
+          "rate": 0.189
         }
       },
       "optimal_threshold": 0.725,
@@ -653,45 +598,86 @@
         0.75
       ]
     },
+    "nociception_process": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 5,
+          "rate": 0.013
+        },
+        "0.45": {
+          "active_count": 4,
+          "rate": 0.01
+        },
+        "0.5": {
+          "active_count": 3,
+          "rate": 0.008
+        },
+        "0.55": {
+          "active_count": 2,
+          "rate": 0.005
+        },
+        "0.6": {
+          "active_count": 2,
+          "rate": 0.005
+        },
+        "0.65": {
+          "active_count": 0,
+          "rate": 0.0
+        },
+        "0.7": {
+          "active_count": 0,
+          "rate": 0.0
+        },
+        "0.75": {
+          "active_count": 0,
+          "rate": 0.0
+        }
+      },
+      "optimal_threshold": 0.625,
+      "max_drop_between": [
+        0.6,
+        0.65
+      ]
+    },
     "organ_system_process": {
       "thresholds": {
         "0.4": {
-          "active_count": 253,
-          "rate": 0.664
+          "active_count": 251,
+          "rate": 0.659
         },
         "0.45": {
-          "active_count": 245,
-          "rate": 0.643
+          "active_count": 229,
+          "rate": 0.601
         },
         "0.5": {
-          "active_count": 235,
-          "rate": 0.617
+          "active_count": 209,
+          "rate": 0.549
         },
         "0.55": {
-          "active_count": 231,
-          "rate": 0.606
+          "active_count": 184,
+          "rate": 0.483
         },
         "0.6": {
-          "active_count": 221,
-          "rate": 0.58
+          "active_count": 151,
+          "rate": 0.396
         },
         "0.65": {
-          "active_count": 212,
-          "rate": 0.556
+          "active_count": 128,
+          "rate": 0.336
         },
         "0.7": {
-          "active_count": 198,
-          "rate": 0.52
+          "active_count": 97,
+          "rate": 0.255
         },
         "0.75": {
-          "active_count": 186,
-          "rate": 0.488
+          "active_count": 67,
+          "rate": 0.176
         }
       },
-      "optimal_threshold": 0.675,
+      "optimal_threshold": 0.575,
       "max_drop_between": [
-        0.65,
-        0.7
+        0.55,
+        0.6
       ]
     },
     "pharmacokinetic_process": {
@@ -738,42 +724,42 @@
     "special_population_role": {
       "thresholds": {
         "0.4": {
-          "active_count": 214,
-          "rate": 0.562
+          "active_count": 54,
+          "rate": 0.142
         },
         "0.45": {
-          "active_count": 200,
-          "rate": 0.525
+          "active_count": 42,
+          "rate": 0.11
         },
         "0.5": {
-          "active_count": 183,
-          "rate": 0.48
+          "active_count": 36,
+          "rate": 0.094
         },
         "0.55": {
-          "active_count": 170,
-          "rate": 0.446
+          "active_count": 33,
+          "rate": 0.087
         },
         "0.6": {
-          "active_count": 156,
-          "rate": 0.409
+          "active_count": 28,
+          "rate": 0.073
         },
         "0.65": {
-          "active_count": 140,
-          "rate": 0.367
+          "active_count": 24,
+          "rate": 0.063
         },
         "0.7": {
-          "active_count": 123,
-          "rate": 0.323
+          "active_count": 18,
+          "rate": 0.047
         },
         "0.75": {
-          "active_count": 91,
-          "rate": 0.239
+          "active_count": 13,
+          "rate": 0.034
         }
       },
-      "optimal_threshold": 0.725,
+      "optimal_threshold": 0.425,
       "max_drop_between": [
-        0.7,
-        0.75
+        0.4,
+        0.45
       ]
     }
   },
@@ -1035,45 +1021,44 @@
       "other": {
         "count": 45,
         "dimension_rates": {
-          "equipment_and_physics": 0.711,
-          "organ_system_process": 0.267,
+          "equipment_and_physics": 0.489,
           "gas_exchange_process": 0.267,
           "acid_base_quality": 0.156,
-          "nociception_process": 0.133,
-          "neuromuscular_process": 0.133,
-          "special_population_role": 0.067,
-          "drug_receptor_disposition": 0.044,
-          "pharmacokinetic_process": 0.044
+          "neuromuscular_process": 0.111,
+          "drug_receptor_disposition": 0.067,
+          "pharmacokinetic_process": 0.044,
+          "autonomic_disposition": 0.044,
+          "special_population_role": 0.022,
+          "organ_system_process": 0.022
         }
       },
       "pharmacology": {
         "count": 157,
         "dimension_rates": {
-          "nociception_process": 0.771,
-          "drug_receptor_disposition": 0.752,
-          "organ_system_process": 0.554,
-          "neuromuscular_process": 0.51,
+          "drug_receptor_disposition": 0.675,
           "pharmacokinetic_process": 0.478,
-          "equipment_and_physics": 0.446,
-          "special_population_role": 0.427,
-          "autonomic_disposition": 0.248,
+          "organ_system_process": 0.414,
+          "neuromuscular_process": 0.401,
+          "autonomic_disposition": 0.287,
+          "equipment_and_physics": 0.28,
           "acid_base_quality": 0.166,
-          "gas_exchange_process": 0.096
+          "gas_exchange_process": 0.096,
+          "special_population_role": 0.07
         }
       },
       "physiology": {
         "count": 179,
         "dimension_rates": {
-          "organ_system_process": 0.682,
-          "equipment_and_physics": 0.598,
-          "special_population_role": 0.48,
-          "nociception_process": 0.469,
-          "neuromuscular_process": 0.458,
-          "drug_receptor_disposition": 0.43,
+          "drug_receptor_disposition": 0.508,
+          "organ_system_process": 0.475,
+          "equipment_and_physics": 0.425,
           "gas_exchange_process": 0.397,
           "acid_base_quality": 0.324,
-          "autonomic_disposition": 0.296,
-          "pharmacokinetic_process": 0.173
+          "neuromuscular_process": 0.302,
+          "autonomic_disposition": 0.302,
+          "pharmacokinetic_process": 0.173,
+          "special_population_role": 0.089,
+          "nociception_process": 0.011
         }
       }
     },
@@ -1081,28 +1066,27 @@
       "other/anatomy": {
         "count": 4,
         "top_dimensions": {
-          "neuromuscular_process": 0.5,
-          "nociception_process": 0.25,
-          "organ_system_process": 0.25
+          "neuromuscular_process": 0.25,
+          "equipment_and_physics": 0.25
         }
       },
       "other/clinical_measurement": {
         "count": 17,
         "top_dimensions": {
-          "equipment_and_physics": 0.706,
-          "organ_system_process": 0.647,
+          "equipment_and_physics": 0.353,
           "gas_exchange_process": 0.294,
-          "neuromuscular_process": 0.235,
-          "nociception_process": 0.235
+          "acid_base_quality": 0.235,
+          "neuromuscular_process": 0.176,
+          "drug_receptor_disposition": 0.176
         }
       },
       "other/equipment": {
         "count": 20,
         "top_dimensions": {
-          "equipment_and_physics": 0.9,
+          "equipment_and_physics": 0.65,
           "gas_exchange_process": 0.35,
           "acid_base_quality": 0.15,
-          "nociception_process": 0.05
+          "neuromuscular_process": 0.05
         }
       },
       "other/physics": {
@@ -1114,119 +1098,114 @@
       "pharmacology/analgesics": {
         "count": 21,
         "top_dimensions": {
-          "nociception_process": 0.952,
-          "drug_receptor_disposition": 0.857,
+          "drug_receptor_disposition": 0.762,
+          "organ_system_process": 0.571,
           "pharmacokinetic_process": 0.524,
-          "organ_system_process": 0.476,
-          "special_population_role": 0.381
+          "equipment_and_physics": 0.333,
+          "autonomic_disposition": 0.238
         }
       },
       "pharmacology/cardiovascular_drugs": {
         "count": 16,
         "top_dimensions": {
           "drug_receptor_disposition": 0.875,
-          "organ_system_process": 0.812,
-          "nociception_process": 0.75,
           "pharmacokinetic_process": 0.5,
-          "acid_base_quality": 0.438
+          "acid_base_quality": 0.438,
+          "organ_system_process": 0.375,
+          "neuromuscular_process": 0.312
         }
       },
       "pharmacology/haemostasis_drugs": {
         "count": 7,
         "top_dimensions": {
-          "drug_receptor_disposition": 0.857,
           "pharmacokinetic_process": 0.714,
-          "special_population_role": 0.429,
-          "nociception_process": 0.286,
-          "organ_system_process": 0.143
+          "drug_receptor_disposition": 0.571,
+          "organ_system_process": 0.286,
+          "neuromuscular_process": 0.143
         }
       },
       "pharmacology/inhalational_anaesthetics": {
         "count": 21,
         "top_dimensions": {
-          "equipment_and_physics": 0.857,
-          "organ_system_process": 0.714,
-          "nociception_process": 0.667,
-          "neuromuscular_process": 0.619,
-          "special_population_role": 0.524
+          "drug_receptor_disposition": 0.524,
+          "neuromuscular_process": 0.476,
+          "organ_system_process": 0.429,
+          "equipment_and_physics": 0.381,
+          "gas_exchange_process": 0.381
         }
       },
       "pharmacology/intravenous_anaesthetics": {
         "count": 22,
         "top_dimensions": {
-          "nociception_process": 0.909,
-          "organ_system_process": 0.818,
-          "drug_receptor_disposition": 0.773,
-          "equipment_and_physics": 0.727,
-          "neuromuscular_process": 0.727
+          "pharmacokinetic_process": 0.727,
+          "drug_receptor_disposition": 0.682,
+          "neuromuscular_process": 0.591,
+          "equipment_and_physics": 0.545,
+          "organ_system_process": 0.5
         }
       },
       "pharmacology/local_anaesthetics": {
         "count": 15,
         "top_dimensions": {
-          "nociception_process": 0.933,
-          "neuromuscular_process": 0.8,
-          "drug_receptor_disposition": 0.667,
-          "organ_system_process": 0.533,
-          "special_population_role": 0.467
+          "drug_receptor_disposition": 0.733,
+          "neuromuscular_process": 0.667,
+          "pharmacokinetic_process": 0.467,
+          "autonomic_disposition": 0.4,
+          "organ_system_process": 0.333
         }
       },
       "pharmacology/miscellaneous_drugs": {
         "count": 22,
         "top_dimensions": {
-          "drug_receptor_disposition": 0.773,
-          "nociception_process": 0.727,
+          "drug_receptor_disposition": 0.682,
           "pharmacokinetic_process": 0.364,
-          "organ_system_process": 0.364,
-          "neuromuscular_process": 0.318
+          "organ_system_process": 0.273,
+          "neuromuscular_process": 0.227,
+          "equipment_and_physics": 0.227
         }
       },
       "pharmacology/muscle_relaxants": {
         "count": 15,
         "top_dimensions": {
-          "drug_receptor_disposition": 1.0,
           "neuromuscular_process": 0.933,
-          "nociception_process": 0.933,
-          "organ_system_process": 0.867,
-          "special_population_role": 0.6
+          "drug_receptor_disposition": 0.867,
+          "autonomic_disposition": 0.667,
+          "organ_system_process": 0.533,
+          "acid_base_quality": 0.4
         }
       },
       "pharmacology/pharmaceutics": {
         "count": 3,
         "top_dimensions": {
-          "nociception_process": 1.0,
-          "equipment_and_physics": 0.667,
+          "organ_system_process": 0.333,
           "drug_receptor_disposition": 0.333,
           "neuromuscular_process": 0.333,
-          "autonomic_disposition": 0.333
+          "autonomic_disposition": 0.333,
+          "pharmacokinetic_process": 0.333
         }
       },
       "pharmacology/pharmacodynamics": {
         "count": 6,
         "top_dimensions": {
-          "drug_receptor_disposition": 1.0,
-          "nociception_process": 0.667,
-          "neuromuscular_process": 0.333,
-          "pharmacokinetic_process": 0.333,
-          "equipment_and_physics": 0.333
+          "drug_receptor_disposition": 0.5,
+          "organ_system_process": 0.333,
+          "pharmacokinetic_process": 0.333
         }
       },
       "pharmacology/pharmacokinetics": {
         "count": 9,
         "top_dimensions": {
           "pharmacokinetic_process": 0.667,
-          "drug_receptor_disposition": 0.444,
-          "special_population_role": 0.333,
-          "nociception_process": 0.222,
-          "organ_system_process": 0.111
+          "organ_system_process": 0.333,
+          "drug_receptor_disposition": 0.333
         }
       },
       "physiology/acid_base": {
         "count": 6,
         "top_dimensions": {
+          "organ_system_process": 0.667,
+          "drug_receptor_disposition": 0.667,
           "acid_base_quality": 0.667,
-          "organ_system_process": 0.5,
-          "special_population_role": 0.5,
           "pharmacokinetic_process": 0.5,
           "gas_exchange_process": 0.5
         }
@@ -1234,252 +1213,210 @@
       "physiology/ageing": {
         "count": 5,
         "top_dimensions": {
-          "organ_system_process": 1.0,
-          "equipment_and_physics": 0.8,
-          "special_population_role": 0.8,
-          "nociception_process": 0.6,
-          "neuromuscular_process": 0.6
+          "equipment_and_physics": 0.6,
+          "gas_exchange_process": 0.4,
+          "acid_base_quality": 0.4,
+          "autonomic_disposition": 0.4,
+          "drug_receptor_disposition": 0.2
         }
       },
       "physiology/cardiovascular": {
         "count": 28,
         "top_dimensions": {
-          "organ_system_process": 0.929,
-          "equipment_and_physics": 0.714,
-          "neuromuscular_process": 0.679,
-          "nociception_process": 0.607,
-          "drug_receptor_disposition": 0.536
+          "drug_receptor_disposition": 0.571,
+          "equipment_and_physics": 0.571,
+          "neuromuscular_process": 0.536,
+          "autonomic_disposition": 0.5,
+          "gas_exchange_process": 0.5
         }
       },
       "physiology/cellular": {
         "count": 16,
         "top_dimensions": {
-          "drug_receptor_disposition": 0.812,
-          "nociception_process": 0.5,
-          "organ_system_process": 0.25,
-          "equipment_and_physics": 0.25,
-          "neuromuscular_process": 0.188
+          "drug_receptor_disposition": 0.625,
+          "autonomic_disposition": 0.375,
+          "organ_system_process": 0.312,
+          "neuromuscular_process": 0.25,
+          "equipment_and_physics": 0.125
         }
       },
       "physiology/gastrointestinal": {
         "count": 7,
         "top_dimensions": {
-          "special_population_role": 0.714,
+          "drug_receptor_disposition": 0.714,
           "acid_base_quality": 0.571,
-          "organ_system_process": 0.571,
-          "drug_receptor_disposition": 0.429,
-          "nociception_process": 0.429
+          "equipment_and_physics": 0.286,
+          "pharmacokinetic_process": 0.286,
+          "organ_system_process": 0.286
         }
       },
       "physiology/haematology": {
         "count": 13,
         "top_dimensions": {
+          "organ_system_process": 0.385,
+          "drug_receptor_disposition": 0.385,
           "gas_exchange_process": 0.308,
-          "drug_receptor_disposition": 0.231,
-          "acid_base_quality": 0.231,
-          "special_population_role": 0.231,
-          "organ_system_process": 0.154
+          "acid_base_quality": 0.231
         }
       },
       "physiology/immunology": {
         "count": 4,
         "top_dimensions": {
-          "drug_receptor_disposition": 0.75,
-          "equipment_and_physics": 0.5,
-          "autonomic_disposition": 0.25,
-          "organ_system_process": 0.25,
-          "nociception_process": 0.25
+          "organ_system_process": 0.75,
+          "drug_receptor_disposition": 0.5,
+          "equipment_and_physics": 0.25,
+          "gas_exchange_process": 0.25,
+          "autonomic_disposition": 0.25
         }
       },
       "physiology/metabolism_and_endocrinology": {
         "count": 12,
         "top_dimensions": {
-          "organ_system_process": 0.75,
-          "special_population_role": 0.75,
-          "drug_receptor_disposition": 0.667,
-          "autonomic_disposition": 0.583,
-          "nociception_process": 0.333
+          "drug_receptor_disposition": 0.583,
+          "organ_system_process": 0.5,
+          "autonomic_disposition": 0.333,
+          "neuromuscular_process": 0.25,
+          "equipment_and_physics": 0.25
         }
       },
       "physiology/neonatology": {
         "count": 4,
         "top_dimensions": {
-          "special_population_role": 1.0,
-          "organ_system_process": 1.0,
-          "equipment_and_physics": 1.0,
-          "neuromuscular_process": 0.5,
-          "pharmacokinetic_process": 0.5
+          "special_population_role": 0.75,
+          "pharmacokinetic_process": 0.5,
+          "organ_system_process": 0.5,
+          "gas_exchange_process": 0.5,
+          "equipment_and_physics": 0.5
         }
       },
       "physiology/neurophysiology": {
         "count": 11,
         "top_dimensions": {
           "neuromuscular_process": 0.818,
-          "equipment_and_physics": 0.727,
-          "organ_system_process": 0.636,
-          "nociception_process": 0.636,
-          "gas_exchange_process": 0.545
+          "equipment_and_physics": 0.636,
+          "organ_system_process": 0.545,
+          "autonomic_disposition": 0.545,
+          "drug_receptor_disposition": 0.545
         }
       },
       "physiology/obesity": {
         "count": 5,
         "top_dimensions": {
-          "organ_system_process": 1.0,
-          "equipment_and_physics": 1.0,
           "pharmacokinetic_process": 0.8,
-          "neuromuscular_process": 0.6,
-          "special_population_role": 0.2
+          "special_population_role": 0.6,
+          "equipment_and_physics": 0.6,
+          "neuromuscular_process": 0.4,
+          "drug_receptor_disposition": 0.4
         }
       },
       "physiology/obstetrics": {
         "count": 6,
         "top_dimensions": {
-          "organ_system_process": 1.0,
-          "special_population_role": 1.0,
-          "nociception_process": 0.667,
-          "neuromuscular_process": 0.667,
-          "pharmacokinetic_process": 0.667
+          "special_population_role": 0.667,
+          "pharmacokinetic_process": 0.667,
+          "organ_system_process": 0.5,
+          "gas_exchange_process": 0.5,
+          "equipment_and_physics": 0.333
         }
       },
       "physiology/pain": {
         "count": 5,
         "top_dimensions": {
-          "nociception_process": 1.0,
           "drug_receptor_disposition": 1.0,
-          "neuromuscular_process": 0.8,
-          "autonomic_disposition": 0.6,
-          "equipment_and_physics": 0.4
+          "organ_system_process": 1.0,
+          "autonomic_disposition": 0.8,
+          "nociception_process": 0.4
         }
       },
       "physiology/renal": {
         "count": 19,
         "top_dimensions": {
-          "organ_system_process": 0.842,
-          "special_population_role": 0.842,
-          "nociception_process": 0.579,
-          "drug_receptor_disposition": 0.579,
-          "equipment_and_physics": 0.526
+          "organ_system_process": 0.684,
+          "drug_receptor_disposition": 0.632,
+          "equipment_and_physics": 0.526,
+          "acid_base_quality": 0.474,
+          "autonomic_disposition": 0.368
         }
       },
       "physiology/respiratory": {
         "count": 30,
         "top_dimensions": {
-          "equipment_and_physics": 0.933,
-          "organ_system_process": 0.867,
           "gas_exchange_process": 0.833,
-          "neuromuscular_process": 0.467,
-          "acid_base_quality": 0.433
+          "equipment_and_physics": 0.533,
+          "acid_base_quality": 0.433,
+          "organ_system_process": 0.367,
+          "drug_receptor_disposition": 0.3
         }
       },
       "physiology/special_physiology": {
         "count": 3,
         "top_dimensions": {
           "gas_exchange_process": 1.0,
-          "autonomic_disposition": 1.0,
           "equipment_and_physics": 1.0,
-          "nociception_process": 1.0,
-          "neuromuscular_process": 1.0
+          "neuromuscular_process": 1.0,
+          "drug_receptor_disposition": 1.0,
+          "organ_system_process": 1.0
         }
       },
       "physiology/thermoregulation": {
         "count": 5,
         "top_dimensions": {
-          "equipment_and_physics": 1.0,
-          "neuromuscular_process": 0.6,
-          "autonomic_disposition": 0.6,
-          "nociception_process": 0.6,
-          "drug_receptor_disposition": 0.4
+          "equipment_and_physics": 0.6,
+          "drug_receptor_disposition": 0.6,
+          "neuromuscular_process": 0.4,
+          "autonomic_disposition": 0.4,
+          "gas_exchange_process": 0.4
         }
       }
     },
     "surprising_affinities": [
       {
         "category": "physiology",
-        "dimension": "equipment_and_physics",
-        "rate": 0.598,
-        "note": "equipment_and_physics activates in 60% of physiology docs but is not expected"
-      },
-      {
-        "category": "physiology",
-        "dimension": "special_population_role",
-        "rate": 0.48,
-        "note": "special_population_role activates in 48% of physiology docs but is not expected"
-      },
-      {
-        "category": "physiology",
-        "dimension": "nociception_process",
-        "rate": 0.469,
-        "note": "nociception_process activates in 47% of physiology docs but is not expected"
-      },
-      {
-        "category": "physiology",
-        "dimension": "neuromuscular_process",
-        "rate": 0.458,
-        "note": "neuromuscular_process activates in 46% of physiology docs but is not expected"
-      },
-      {
-        "category": "pharmacology",
-        "dimension": "equipment_and_physics",
-        "rate": 0.446,
-        "note": "equipment_and_physics activates in 45% of pharmacology docs but is not expected"
-      },
-      {
-        "category": "physiology",
         "dimension": "drug_receptor_disposition",
-        "rate": 0.43,
-        "note": "drug_receptor_disposition activates in 43% of physiology docs but is not expected"
+        "rate": 0.508,
+        "note": "drug_receptor_disposition activates in 51% of physiology docs but is not expected"
       },
       {
-        "category": "pharmacology",
-        "dimension": "special_population_role",
-        "rate": 0.427,
-        "note": "special_population_role activates in 43% of pharmacology docs but is not expected"
+        "category": "physiology",
+        "dimension": "equipment_and_physics",
+        "rate": 0.425,
+        "note": "equipment_and_physics activates in 42% of physiology docs but is not expected"
       }
     ]
   },
   "stage_7_information_theory": {
     "dimension_entropy": {
       "acid_base_quality": 0.7931,
-      "autonomic_disposition": 0.7975,
-      "drug_receptor_disposition": 0.9992,
-      "equipment_and_physics": 0.9932,
+      "autonomic_disposition": 0.8343,
+      "drug_receptor_disposition": 0.9982,
+      "equipment_and_physics": 0.9527,
       "gas_exchange_process": 0.8225,
-      "neuromuscular_process": 0.9899,
-      "nociception_process": 0.9916,
-      "organ_system_process": 0.9814,
+      "neuromuscular_process": 0.9046,
+      "nociception_process": 0.0473,
+      "organ_system_process": 0.9688,
       "pharmacokinetic_process": 0.8601,
-      "special_population_role": 0.9762
+      "special_population_role": 0.3788
     },
     "discriminability_ranking": [
       {
         "dimension": "drug_receptor_disposition",
-        "entropy": 0.9992,
-        "activation_rate": 0.517
-      },
-      {
-        "dimension": "equipment_and_physics",
-        "entropy": 0.9932,
-        "activation_rate": 0.549
-      },
-      {
-        "dimension": "nociception_process",
-        "entropy": 0.9916,
-        "activation_rate": 0.554
-      },
-      {
-        "dimension": "neuromuscular_process",
-        "entropy": 0.9899,
-        "activation_rate": 0.441
+        "entropy": 0.9982,
+        "activation_rate": 0.525
       },
       {
         "dimension": "organ_system_process",
-        "entropy": 0.9814,
-        "activation_rate": 0.58
+        "entropy": 0.9688,
+        "activation_rate": 0.396
       },
       {
-        "dimension": "special_population_role",
-        "entropy": 0.9762,
-        "activation_rate": 0.409
+        "dimension": "equipment_and_physics",
+        "entropy": 0.9527,
+        "activation_rate": 0.373
+      },
+      {
+        "dimension": "neuromuscular_process",
+        "entropy": 0.9046,
+        "activation_rate": 0.32
       },
       {
         "dimension": "pharmacokinetic_process",
@@ -1487,45 +1424,43 @@
         "activation_rate": 0.283
       },
       {
+        "dimension": "autonomic_disposition",
+        "entropy": 0.8343,
+        "activation_rate": 0.265
+      },
+      {
         "dimension": "gas_exchange_process",
         "entropy": 0.8225,
         "activation_rate": 0.257
       },
       {
-        "dimension": "autonomic_disposition",
-        "entropy": 0.7975,
-        "activation_rate": 0.241
-      },
-      {
         "dimension": "acid_base_quality",
         "entropy": 0.7931,
         "activation_rate": 0.239
+      },
+      {
+        "dimension": "special_population_role",
+        "entropy": 0.3788,
+        "activation_rate": 0.073
+      },
+      {
+        "dimension": "nociception_process",
+        "entropy": 0.0473,
+        "activation_rate": 0.005
       }
     ],
     "high_mutual_information_pairs": [
       {
-        "dim_a": "neuromuscular_process",
-        "dim_b": "nociception_process",
-        "mutual_information": 0.2285,
-        "normalized_mi": 0.2308
-      },
-      {
-        "dim_a": "drug_receptor_disposition",
-        "dim_b": "nociception_process",
-        "mutual_information": 0.169,
-        "normalized_mi": 0.1704
-      },
-      {
-        "dim_a": "organ_system_process",
-        "dim_b": "special_population_role",
-        "mutual_information": 0.1641,
-        "normalized_mi": 0.1682
+        "dim_a": "autonomic_disposition",
+        "dim_b": "neuromuscular_process",
+        "mutual_information": 0.1968,
+        "normalized_mi": 0.2359
       },
       {
         "dim_a": "autonomic_disposition",
-        "dim_b": "nociception_process",
-        "mutual_information": 0.1196,
-        "normalized_mi": 0.15
+        "dim_b": "drug_receptor_disposition",
+        "mutual_information": 0.1871,
+        "normalized_mi": 0.2243
       }
     ]
   },
@@ -1533,45 +1468,83 @@
     "num_clusters": 5,
     "clusters": {
       "cluster_0": {
-        "size": 129,
+        "size": 67,
         "top_dimensions": [
           {
+            "dimension": "gas_exchange_process",
+            "rate": 1.0
+          },
+          {
             "dimension": "equipment_and_physics",
-            "rate": 0.566
+            "rate": 0.94
           },
           {
             "dimension": "organ_system_process",
-            "rate": 0.419
+            "rate": 0.627
           },
           {
-            "dimension": "gas_exchange_process",
-            "rate": 0.372
-          },
-          {
-            "dimension": "special_population_role",
-            "rate": 0.225
+            "dimension": "drug_receptor_disposition",
+            "rate": 0.567
           },
           {
             "dimension": "acid_base_quality",
-            "rate": 0.209
+            "rate": 0.507
+          }
+        ],
+        "top_categories": [
+          {
+            "category": "physiology/respiratory",
+            "count": 14
+          },
+          {
+            "category": "physiology/cardiovascular",
+            "count": 12
+          },
+          {
+            "category": "other/equipment",
+            "count": 5
+          },
+          {
+            "category": "pharmacology/inhalational_anaesthetics",
+            "count": 5
+          },
+          {
+            "category": "pharmacology/intravenous_anaesthetics",
+            "count": 4
+          }
+        ],
+        "sample_docs": [
+          "other/clinical_measurement/2004B11_oximetry.htm",
+          "other/clinical_measurement/2020B06_capnograph.htm",
+          "other/clinical_measurement/2021B05_pa_catheter_insertion.htm",
+          "other/equipment/2016A02_circle_breathing_system.htm",
+          "other/equipment/2016B08_vacuum_insulated_evaporator.htm"
+        ]
+      },
+      "cluster_1": {
+        "size": 116,
+        "top_dimensions": [
+          {
+            "dimension": "gas_exchange_process",
+            "rate": 0.207
           }
         ],
         "top_categories": [
           {
             "category": "other/equipment",
-            "count": 20
+            "count": 15
           },
           {
             "category": "physiology/respiratory",
-            "count": 17
+            "count": 13
           },
           {
             "category": "other/clinical_measurement",
-            "count": 14
+            "count": 9
           },
           {
-            "category": "physiology/haematology",
-            "count": 10
+            "category": "physiology/cardiovascular",
+            "count": 9
           },
           {
             "category": "pharmacology/inhalational_anaesthetics",
@@ -1580,222 +1553,156 @@
         ],
         "sample_docs": [
           "other/anatomy/2013A08_laryngeal_anatomy.htm",
+          "other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
           "other/anatomy/2014B01_cubital_fossa_anatomy.htm",
           "other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
-          "other/clinical_measurement/2004A13_renal_clearance.htm",
-          "other/clinical_measurement/2004B11_oximetry.htm"
-        ]
-      },
-      "cluster_1": {
-        "size": 37,
-        "top_dimensions": [
-          {
-            "dimension": "drug_receptor_disposition",
-            "rate": 1.0
-          },
-          {
-            "dimension": "organ_system_process",
-            "rate": 0.405
-          },
-          {
-            "dimension": "special_population_role",
-            "rate": 0.297
-          },
-          {
-            "dimension": "pharmacokinetic_process",
-            "rate": 0.216
-          }
-        ],
-        "top_categories": [
-          {
-            "category": "physiology/cellular",
-            "count": 5
-          },
-          {
-            "category": "pharmacology/haemostasis_drugs",
-            "count": 4
-          },
-          {
-            "category": "physiology/cardiovascular",
-            "count": 4
-          },
-          {
-            "category": "physiology/metabolism_and_endocrinology",
-            "count": 4
-          },
-          {
-            "category": "pharmacology/pharmacokinetics",
-            "count": 3
-          }
-        ],
-        "sample_docs": [
-          "pharmacology/cardiovascular_drugs/2008A08_treatment_of_myocardial_ischaemia.htm",
-          "pharmacology/cardiovascular_drugs/2018B10_inotropes.htm",
-          "pharmacology/haemostasis_drugs/2008B07_anti_platelets.htm",
-          "pharmacology/haemostasis_drugs/2014B08_bridging_from_warfarin_to_low_molecular_weight_heparins.htm",
-          "pharmacology/haemostasis_drugs/2017A08_unfractionated_heparin_vs_low_molecular_weight_heparins.htm"
+          "other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm"
         ]
       },
       "cluster_2": {
-        "size": 60,
+        "size": 52,
         "top_dimensions": [
           {
             "dimension": "pharmacokinetic_process",
             "rate": 1.0
           },
           {
-            "dimension": "nociception_process",
-            "rate": 0.933
-          },
-          {
-            "dimension": "neuromuscular_process",
-            "rate": 0.9
-          },
-          {
-            "dimension": "organ_system_process",
-            "rate": 0.883
-          },
-          {
-            "dimension": "equipment_and_physics",
-            "rate": 0.867
-          }
-        ],
-        "top_categories": [
-          {
-            "category": "pharmacology/intravenous_anaesthetics",
-            "count": 14
-          },
-          {
-            "category": "pharmacology/inhalational_anaesthetics",
-            "count": 6
-          },
-          {
-            "category": "pharmacology/local_anaesthetics",
-            "count": 6
-          },
-          {
-            "category": "pharmacology/cardiovascular_drugs",
-            "count": 5
-          },
-          {
-            "category": "pharmacology/muscle_relaxants",
-            "count": 4
-          }
-        ],
-        "sample_docs": [
-          "pharmacology/analgesics/2011A06_remifentanil.htm",
-          "pharmacology/analgesics/2025ADVANCE_methadone.htm",
-          "pharmacology/cardiovascular_drugs/2001A15_esmolol_vs_propranolol.htm",
-          "pharmacology/cardiovascular_drugs/2006B07_treatment_of_ventricular_fibrillation.htm",
-          "pharmacology/cardiovascular_drugs/2016A08_treatment_of_hypertension_in_pregnancy.htm"
-        ]
-      },
-      "cluster_3": {
-        "size": 94,
-        "top_dimensions": [
-          {
-            "dimension": "nociception_process",
-            "rate": 0.947
-          },
-          {
-            "dimension": "neuromuscular_process",
-            "rate": 0.883
-          },
-          {
-            "dimension": "organ_system_process",
-            "rate": 0.872
-          },
-          {
-            "dimension": "equipment_and_physics",
-            "rate": 0.851
-          },
-          {
             "dimension": "drug_receptor_disposition",
-            "rate": 0.66
-          }
-        ],
-        "top_categories": [
-          {
-            "category": "physiology/cardiovascular",
-            "count": 13
-          },
-          {
-            "category": "physiology/respiratory",
-            "count": 10
-          },
-          {
-            "category": "pharmacology/muscle_relaxants",
-            "count": 9
-          },
-          {
-            "category": "pharmacology/inhalational_anaesthetics",
-            "count": 7
-          },
-          {
-            "category": "physiology/neurophysiology",
-            "count": 7
-          }
-        ],
-        "sample_docs": [
-          "other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
-          "other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
-          "pharmacology/analgesics/2000A15_opioids_respiratory_effects.htm",
-          "pharmacology/analgesics/2009A05_intrathecal_opioids.htm",
-          "pharmacology/analgesics/2018A05_opioids_therapeutic_and_adverse_effects.htm"
-        ]
-      },
-      "cluster_4": {
-        "size": 61,
-        "top_dimensions": [
-          {
-            "dimension": "nociception_process",
-            "rate": 1.0
-          },
-          {
-            "dimension": "drug_receptor_disposition",
-            "rate": 0.803
-          },
-          {
-            "dimension": "pharmacokinetic_process",
-            "rate": 0.328
-          },
-          {
-            "dimension": "organ_system_process",
-            "rate": 0.279
-          },
-          {
-            "dimension": "neuromuscular_process",
-            "rate": 0.23
+            "rate": 0.365
           }
         ],
         "top_categories": [
           {
             "category": "pharmacology/analgesics",
-            "count": 13
+            "count": 6
+          },
+          {
+            "category": "pharmacology/intravenous_anaesthetics",
+            "count": 6
           },
           {
             "category": "pharmacology/miscellaneous_drugs",
-            "count": 11
+            "count": 5
+          },
+          {
+            "category": "pharmacology/cardiovascular_drugs",
+            "count": 4
+          },
+          {
+            "category": "pharmacology/haemostasis_drugs",
+            "count": 4
+          }
+        ],
+        "sample_docs": [
+          "other/clinical_measurement/2004A13_renal_clearance.htm",
+          "other/clinical_measurement/2019A06_renal_function_tests.htm",
+          "pharmacology/analgesics/2006A07_naloxone.htm",
+          "pharmacology/analgesics/2010B01_morphine_vs_oxycodone.htm",
+          "pharmacology/analgesics/2013B12_alfentanil_vs_fentanyl.htm"
+        ]
+      },
+      "cluster_3": {
+        "size": 55,
+        "top_dimensions": [
+          {
+            "dimension": "drug_receptor_disposition",
+            "rate": 0.964
+          },
+          {
+            "dimension": "neuromuscular_process",
+            "rate": 0.418
+          },
+          {
+            "dimension": "autonomic_disposition",
+            "rate": 0.364
+          },
+          {
+            "dimension": "acid_base_quality",
+            "rate": 0.236
+          }
+        ],
+        "top_categories": [
+          {
+            "category": "pharmacology/miscellaneous_drugs",
+            "count": 7
+          },
+          {
+            "category": "physiology/cellular",
+            "count": 6
           },
           {
             "category": "pharmacology/cardiovascular_drugs",
             "count": 5
           },
           {
-            "category": "pharmacology/local_anaesthetics",
+            "category": "pharmacology/muscle_relaxants",
             "count": 5
           },
           {
-            "category": "physiology/cellular",
-            "count": 4
+            "category": "pharmacology/inhalational_anaesthetics",
+            "count": 3
           }
         ],
         "sample_docs": [
-          "other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
-          "other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
-          "pharmacology/analgesics/2006A07_naloxone.htm",
+          "other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+          "other/clinical_measurement/2017A15_liver_function_tests.htm",
+          "pharmacology/analgesics/2014A10_morphine_vs_tramadol.htm",
+          "pharmacology/analgesics/2014A11_aspirin_overdose_vs_paracetamol_overdose.htm",
+          "pharmacology/cardiovascular_drugs/1999B12_sodium_nitroprusside.htm"
+        ]
+      },
+      "cluster_4": {
+        "size": 91,
+        "top_dimensions": [
+          {
+            "dimension": "drug_receptor_disposition",
+            "rate": 0.989
+          },
+          {
+            "dimension": "organ_system_process",
+            "rate": 0.967
+          },
+          {
+            "dimension": "autonomic_disposition",
+            "rate": 0.56
+          },
+          {
+            "dimension": "neuromuscular_process",
+            "rate": 0.538
+          },
+          {
+            "dimension": "equipment_and_physics",
+            "rate": 0.462
+          }
+        ],
+        "top_categories": [
+          {
+            "category": "pharmacology/analgesics",
+            "count": 11
+          },
+          {
+            "category": "pharmacology/intravenous_anaesthetics",
+            "count": 9
+          },
+          {
+            "category": "physiology/renal",
+            "count": 9
+          },
+          {
+            "category": "pharmacology/muscle_relaxants",
+            "count": 8
+          },
+          {
+            "category": "pharmacology/cardiovascular_drugs",
+            "count": 5
+          }
+        ],
+        "sample_docs": [
+          "other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+          "pharmacology/analgesics/2000A15_opioids_respiratory_effects.htm",
           "pharmacology/analgesics/2007A03_opioids_inter_individual_variation.htm",
-          "pharmacology/analgesics/2007B03_opioids_transition_from_iv_to_oral.htm"
+          "pharmacology/analgesics/2008B04_ketamine_use_in_post_op_analgesia.htm",
+          "pharmacology/analgesics/2009A05_intrathecal_opioids.htm"
         ]
       }
     }
@@ -1809,29 +1716,13 @@
       "docs_with_terms": 83
     },
     "dimension_complexity_correlation": {
-      "nociception_process": {
-        "mean_tree_depth": 1.31,
-        "doc_count": 211
-      },
       "neuromuscular_process": {
-        "mean_tree_depth": 1.37,
-        "doc_count": 168
-      },
-      "organ_system_process": {
-        "mean_tree_depth": 1.34,
-        "doc_count": 221
-      },
-      "drug_receptor_disposition": {
-        "mean_tree_depth": 1.33,
-        "doc_count": 197
+        "mean_tree_depth": 1.4,
+        "doc_count": 122
       },
       "equipment_and_physics": {
-        "mean_tree_depth": 1.37,
-        "doc_count": 209
-      },
-      "special_population_role": {
-        "mean_tree_depth": 1.36,
-        "doc_count": 156
+        "mean_tree_depth": 1.38,
+        "doc_count": 142
       },
       "pharmacokinetic_process": {
         "mean_tree_depth": 1.29,
@@ -1845,16 +1736,40 @@
         "mean_tree_depth": 1.34,
         "doc_count": 91
       },
+      "drug_receptor_disposition": {
+        "mean_tree_depth": 1.34,
+        "doc_count": 200
+      },
       "autonomic_disposition": {
-        "mean_tree_depth": 1.38,
-        "doc_count": 92
+        "mean_tree_depth": 1.4,
+        "doc_count": 101
+      },
+      "special_population_role": {
+        "mean_tree_depth": 1.34,
+        "doc_count": 28
+      },
+      "organ_system_process": {
+        "mean_tree_depth": 1.39,
+        "doc_count": 151
+      },
+      "nociception_process": {
+        "mean_tree_depth": 1.62,
+        "doc_count": 2
       }
     },
     "under_tagged_complex_documents": [
       {
+        "source": "pharmacology/analgesics/2025ADVANCE_methadone.htm",
+        "complexity_score": 170,
+        "num_dimensions": 2,
+        "num_segments": 170,
+        "num_crossrefs": 0,
+        "num_terms": 0
+      },
+      {
         "source": "other/clinical_measurement/2017B04_electroencephalography_in_anaesthesia.htm",
         "complexity_score": 124,
-        "num_dimensions": 2,
+        "num_dimensions": 0,
         "num_segments": 115,
         "num_crossrefs": 3,
         "num_terms": 0
@@ -1862,10 +1777,26 @@
       {
         "source": "other/physics/2010B11_ultrasonography_physical_principles.htm",
         "complexity_score": 111,
-        "num_dimensions": 0,
+        "num_dimensions": 1,
         "num_segments": 96,
         "num_crossrefs": 5,
         "num_terms": 0
+      },
+      {
+        "source": "physiology/haematology/2018B06_blood_transfusion_adverse_effects.htm",
+        "complexity_score": 111,
+        "num_dimensions": 2,
+        "num_segments": 90,
+        "num_crossrefs": 7,
+        "num_terms": 0
+      },
+      {
+        "source": "physiology/respiratory/2008B13_alveolar_time_constants.htm",
+        "complexity_score": 101,
+        "num_dimensions": 2,
+        "num_segments": 88,
+        "num_crossrefs": 3,
+        "num_terms": 2
       },
       {
         "source": "other/clinical_measurement/2019A06_renal_function_tests.htm",
@@ -1876,11 +1807,27 @@
         "num_terms": 0
       },
       {
+        "source": "physiology/metabolism_and_endocrinology/2014A14_fasting_6_hours_vs_24_hours.htm",
+        "complexity_score": 96,
+        "num_dimensions": 2,
+        "num_segments": 90,
+        "num_crossrefs": 2,
+        "num_terms": 0
+      },
+      {
         "source": "pharmacology/local_anaesthetics/2010A01_local_anaesthetics_structure_activity_relationships.htm",
         "complexity_score": 89,
-        "num_dimensions": 1,
+        "num_dimensions": 0,
         "num_segments": 74,
         "num_crossrefs": 5,
+        "num_terms": 0
+      },
+      {
+        "source": "physiology/obstetrics/2009B04_obesity_pharmacokinetics.htm",
+        "complexity_score": 89,
+        "num_dimensions": 2,
+        "num_segments": 71,
+        "num_crossrefs": 6,
         "num_terms": 0
       },
       {
@@ -1894,81 +1841,41 @@
       {
         "source": "other/physics/2013B08_resonance_and_damping.htm",
         "complexity_score": 85,
-        "num_dimensions": 1,
+        "num_dimensions": 0,
         "num_segments": 72,
         "num_crossrefs": 1,
         "num_terms": 5
       },
       {
+        "source": "physiology/obesity/2009B04_obesity_pharmacokinetics.htm",
+        "complexity_score": 85,
+        "num_dimensions": 1,
+        "num_segments": 76,
+        "num_crossrefs": 3,
+        "num_terms": 0
+      },
+      {
         "source": "other/equipment/2015B15_electrical_safety.htm",
         "complexity_score": 84,
-        "num_dimensions": 1,
+        "num_dimensions": 0,
         "num_segments": 84,
         "num_crossrefs": 0,
         "num_terms": 0
       },
       {
-        "source": "physiology/thermoregulation/2001A05_thermoregulation_role_of_the_skin.htm",
-        "complexity_score": 76,
+        "source": "physiology/respiratory/2018A13_lung_compliance.htm",
+        "complexity_score": 83,
         "num_dimensions": 1,
-        "num_segments": 67,
-        "num_crossrefs": 3,
-        "num_terms": 0
-      },
-      {
-        "source": "other/physics/2011A16_flow_physics.htm",
-        "complexity_score": 73,
-        "num_dimensions": 1,
-        "num_segments": 58,
-        "num_crossrefs": 1,
-        "num_terms": 6
-      },
-      {
-        "source": "physiology/immunology/2000B15_latex_allergy.htm",
-        "complexity_score": 73,
-        "num_dimensions": 1,
-        "num_segments": 64,
-        "num_crossrefs": 3,
-        "num_terms": 0
-      },
-      {
-        "source": "physiology/gastrointestinal/2015A03_functions_of_the_liver.htm",
-        "complexity_score": 72,
-        "num_dimensions": 2,
-        "num_segments": 72,
-        "num_crossrefs": 0,
-        "num_terms": 0
-      },
-      {
-        "source": "other/clinical_measurement/2005A16_cardiac_output_monitoring_doppler_ultrasonography.htm",
-        "complexity_score": 71,
-        "num_dimensions": 1,
-        "num_segments": 59,
-        "num_crossrefs": 4,
-        "num_terms": 0
-      },
-      {
-        "source": "physiology/haematology/2000B04_blood_transfusion_compatibility_testing.htm",
-        "complexity_score": 71,
-        "num_dimensions": 0,
-        "num_segments": 62,
-        "num_crossrefs": 3,
-        "num_terms": 0
-      },
-      {
-        "source": "pharmacology/pharmacokinetics/2015B04_half_life_vs_context_sensitive_half_time.htm",
-        "complexity_score": 70,
-        "num_dimensions": 2,
         "num_segments": 66,
-        "num_crossrefs": 0,
-        "num_terms": 2
+        "num_crossrefs": 5,
+        "num_terms": 1
       },
       {
-        "source": "physiology/thermoregulation/2008A10_thermoneutral_zone.htm",
-        "complexity_score": 68,
-        "num_dimensions": 1,
-        "num_segments": 59,
-        "num_crossrefs": 3,
+        "source": "physiology/respiratory/2005B09_wests_zones_of_the_lungs.htm",
+        "complexity_score": 80,
+        "num_dimensions": 2,
+        "num_segments": 77,
+        "num_crossrefs": 1,
         "num_terms": 0
       }
     ]
@@ -1976,14 +1883,6 @@
   "stage_10_embedding_coherence": {
     "global_mean_similarity": 0.3996,
     "dimension_coherence": {
-      "autonomic_disposition": {
-        "num_docs": 55,
-        "intra_similarity": 0.4534,
-        "inter_similarity": 0.4066,
-        "global_similarity": 0.3996,
-        "coherence_ratio": 1.135,
-        "separation": 0.0468
-      },
       "gas_exchange_process": {
         "num_docs": 60,
         "intra_similarity": 0.4534,
@@ -1993,20 +1892,28 @@
         "separation": 0.0651
       },
       "neuromuscular_process": {
-        "num_docs": 83,
-        "intra_similarity": 0.4455,
-        "inter_similarity": 0.3938,
+        "num_docs": 69,
+        "intra_similarity": 0.4513,
+        "inter_similarity": 0.4007,
         "global_similarity": 0.3996,
-        "coherence_ratio": 1.115,
-        "separation": 0.0516
+        "coherence_ratio": 1.13,
+        "separation": 0.0507
       },
-      "nociception_process": {
-        "num_docs": 108,
-        "intra_similarity": 0.443,
-        "inter_similarity": 0.3803,
+      "autonomic_disposition": {
+        "num_docs": 54,
+        "intra_similarity": 0.4492,
+        "inter_similarity": 0.4039,
         "global_similarity": 0.3996,
-        "coherence_ratio": 1.109,
-        "separation": 0.0627
+        "coherence_ratio": 1.124,
+        "separation": 0.0453
+      },
+      "organ_system_process": {
+        "num_docs": 74,
+        "intra_similarity": 0.4424,
+        "inter_similarity": 0.4019,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.107,
+        "separation": 0.0405
       },
       "pharmacokinetic_process": {
         "num_docs": 53,
@@ -2016,13 +1923,29 @@
         "coherence_ratio": 1.097,
         "separation": 0.0359
       },
-      "drug_receptor_disposition": {
-        "num_docs": 100,
-        "intra_similarity": 0.4373,
-        "inter_similarity": 0.3823,
+      "special_population_role": {
+        "num_docs": 15,
+        "intra_similarity": 0.4336,
+        "inter_similarity": 0.4005,
         "global_similarity": 0.3996,
-        "coherence_ratio": 1.094,
-        "separation": 0.055
+        "coherence_ratio": 1.085,
+        "separation": 0.033
+      },
+      "drug_receptor_disposition": {
+        "num_docs": 110,
+        "intra_similarity": 0.43,
+        "inter_similarity": 0.3859,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.076,
+        "separation": 0.0442
+      },
+      "equipment_and_physics": {
+        "num_docs": 75,
+        "intra_similarity": 0.4284,
+        "inter_similarity": 0.3993,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.072,
+        "separation": 0.0291
       },
       "acid_base_quality": {
         "num_docs": 46,
@@ -2031,39 +1954,10 @@
         "global_similarity": 0.3996,
         "coherence_ratio": 1.066,
         "separation": 0.0207
-      },
-      "organ_system_process": {
-        "num_docs": 123,
-        "intra_similarity": 0.4226,
-        "inter_similarity": 0.3882,
-        "global_similarity": 0.3996,
-        "coherence_ratio": 1.058,
-        "separation": 0.0343
-      },
-      "special_population_role": {
-        "num_docs": 78,
-        "intra_similarity": 0.4228,
-        "inter_similarity": 0.4011,
-        "global_similarity": 0.3996,
-        "coherence_ratio": 1.058,
-        "separation": 0.0217
-      },
-      "equipment_and_physics": {
-        "num_docs": 115,
-        "intra_similarity": 0.4218,
-        "inter_similarity": 0.3864,
-        "global_similarity": 0.3996,
-        "coherence_ratio": 1.056,
-        "separation": 0.0354
       }
     },
     "low_coherence_dimensions": [],
     "coherence_ranking": [
-      {
-        "dimension": "autonomic_disposition",
-        "coherence_ratio": 1.135,
-        "separation": 0.0468
-      },
       {
         "dimension": "gas_exchange_process",
         "coherence_ratio": 1.135,
@@ -2071,13 +1965,18 @@
       },
       {
         "dimension": "neuromuscular_process",
-        "coherence_ratio": 1.115,
-        "separation": 0.0516
+        "coherence_ratio": 1.13,
+        "separation": 0.0507
       },
       {
-        "dimension": "nociception_process",
-        "coherence_ratio": 1.109,
-        "separation": 0.0627
+        "dimension": "autonomic_disposition",
+        "coherence_ratio": 1.124,
+        "separation": 0.0453
+      },
+      {
+        "dimension": "organ_system_process",
+        "coherence_ratio": 1.107,
+        "separation": 0.0405
       },
       {
         "dimension": "pharmacokinetic_process",
@@ -2085,29 +1984,24 @@
         "separation": 0.0359
       },
       {
+        "dimension": "special_population_role",
+        "coherence_ratio": 1.085,
+        "separation": 0.033
+      },
+      {
         "dimension": "drug_receptor_disposition",
-        "coherence_ratio": 1.094,
-        "separation": 0.055
+        "coherence_ratio": 1.076,
+        "separation": 0.0442
+      },
+      {
+        "dimension": "equipment_and_physics",
+        "coherence_ratio": 1.072,
+        "separation": 0.0291
       },
       {
         "dimension": "acid_base_quality",
         "coherence_ratio": 1.066,
         "separation": 0.0207
-      },
-      {
-        "dimension": "organ_system_process",
-        "coherence_ratio": 1.058,
-        "separation": 0.0343
-      },
-      {
-        "dimension": "special_population_role",
-        "coherence_ratio": 1.058,
-        "separation": 0.0217
-      },
-      {
-        "dimension": "equipment_and_physics",
-        "coherence_ratio": 1.056,
-        "separation": 0.0354
       }
     ]
   },
@@ -2134,10 +2028,8 @@
       {
         "source": "other/physics/2013B08_resonance_and_damping.htm",
         "num_terms": 5,
-        "num_dimensions": 1,
-        "dimensions": [
-          "equipment_and_physics"
-        ],
+        "num_dimensions": 0,
+        "dimensions": [],
         "terms": [
           "natural frequency",
           "fundamental frequency",
@@ -2148,12 +2040,25 @@
         "term_mention_count": 8
       },
       {
-        "source": "other/equipment/2008B09_hygrometers_and_humidity.htm",
-        "num_terms": 3,
+        "source": "physiology/metabolism_and_endocrinology/2006B16_effects_of_hypoglycaemia.htm",
+        "num_terms": 4,
         "num_dimensions": 1,
         "dimensions": [
-          "equipment_and_physics"
+          "organ_system_process"
         ],
+        "terms": [
+          "gl",
+          "gng",
+          "gg",
+          "ll"
+        ],
+        "term_mention_count": 8
+      },
+      {
+        "source": "other/equipment/2008B09_hygrometers_and_humidity.htm",
+        "num_terms": 3,
+        "num_dimensions": 0,
+        "dimensions": [],
         "terms": [
           "humidity",
           "absolute humidity",
@@ -2162,48 +2067,78 @@
         "term_mention_count": 9
       },
       {
-        "source": "pharmacology/pharmacodynamics/2020B11_dose_response_curves_opioids.htm",
+        "source": "pharmacology/pharmaceutics/2020B08_anaesthetics_environment.htm",
         "num_terms": 3,
         "num_dimensions": 1,
         "dimensions": [
-          "drug_receptor_disposition"
+          "pharmacokinetic_process"
         ],
+        "terms": [
+          "greenhouse gas",
+          "anthropogenic global warming",
+          "ozone layer"
+        ],
+        "term_mention_count": 5
+      },
+      {
+        "source": "pharmacology/pharmacodynamics/2020B11_dose_response_curves_opioids.htm",
+        "num_terms": 3,
+        "num_dimensions": 0,
+        "dimensions": [],
         "terms": [
           "potency",
           "efficacy",
           "inverse agonist"
         ],
         "term_mention_count": 7
-      },
-      {
-        "source": "physiology/gastrointestinal/2017B10_gastric_emptying_rate.htm",
-        "num_terms": 3,
-        "num_dimensions": 1,
-        "dimensions": [
-          "drug_receptor_disposition"
-        ],
-        "terms": [
-          "ger",
-          "ac",
-          "pr"
-        ],
-        "term_mention_count": 10
       }
     ],
     "term_poor_dim_rich": [
       {
-        "source": "physiology/respiratory/2021A15_response_to_hypoxaemia_awake_and_anaesthetised.htm",
+        "source": "pharmacology/cardiovascular_drugs/2016A08_treatment_of_hypertension_in_pregnancy.htm",
         "num_terms": 0,
-        "num_dimensions": 10,
+        "num_dimensions": 8,
         "dimensions": [
           "equipment_and_physics",
+          "drug_receptor_disposition",
+          "pharmacokinetic_process",
           "neuromuscular_process",
-          "nociception_process",
+          "autonomic_disposition",
+          "acid_base_quality",
+          "organ_system_process",
+          "special_population_role"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "pharmacology/inhalational_anaesthetics/2017B05_inhalational_anaesthetics_rate_of_onset.htm",
+        "num_terms": 0,
+        "num_dimensions": 8,
+        "dimensions": [
+          "special_population_role",
+          "gas_exchange_process",
+          "organ_system_process",
+          "acid_base_quality",
+          "pharmacokinetic_process",
+          "neuromuscular_process",
+          "equipment_and_physics",
+          "drug_receptor_disposition"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/respiratory/2021A15_response_to_hypoxaemia_awake_and_anaesthetised.htm",
+        "num_terms": 0,
+        "num_dimensions": 8,
+        "dimensions": [
+          "equipment_and_physics",
+          "gas_exchange_process",
           "organ_system_process",
           "drug_receptor_disposition",
-          "gas_exchange_process",
           "autonomic_disposition",
-          "special_population_role",
+          "neuromuscular_process",
           "pharmacokinetic_process",
           "acid_base_quality"
         ],
@@ -2213,108 +2148,32 @@
       {
         "source": "physiology/special_physiology/2006A09_cardiovascular_response_to_exercise.htm",
         "num_terms": 0,
-        "num_dimensions": 10,
+        "num_dimensions": 8,
         "dimensions": [
           "gas_exchange_process",
-          "organ_system_process",
-          "autonomic_disposition",
           "equipment_and_physics",
-          "special_population_role",
-          "nociception_process",
-          "acid_base_quality",
           "neuromuscular_process",
           "drug_receptor_disposition",
+          "autonomic_disposition",
+          "acid_base_quality",
+          "organ_system_process",
           "pharmacokinetic_process"
         ],
         "terms": [],
         "term_mention_count": 0
       },
       {
-        "source": "pharmacology/cardiovascular_drugs/2016A08_treatment_of_hypertension_in_pregnancy.htm",
+        "source": "pharmacology/inhalational_anaesthetics/2019A10_sevoflurane_regional_circulation_effects.htm",
         "num_terms": 0,
-        "num_dimensions": 9,
+        "num_dimensions": 7,
         "dimensions": [
-          "nociception_process",
-          "drug_receptor_disposition",
-          "equipment_and_physics",
-          "special_population_role",
-          "organ_system_process",
           "neuromuscular_process",
-          "pharmacokinetic_process",
-          "autonomic_disposition",
-          "acid_base_quality"
-        ],
-        "terms": [],
-        "term_mention_count": 0
-      },
-      {
-        "source": "pharmacology/cardiovascular_drugs/2018A08_metoprolol.htm",
-        "num_terms": 0,
-        "num_dimensions": 9,
-        "dimensions": [
-          "organ_system_process",
-          "special_population_role",
-          "nociception_process",
-          "equipment_and_physics",
-          "drug_receptor_disposition",
-          "neuromuscular_process",
-          "pharmacokinetic_process",
           "acid_base_quality",
+          "gas_exchange_process",
+          "equipment_and_physics",
+          "drug_receptor_disposition",
+          "organ_system_process",
           "autonomic_disposition"
-        ],
-        "terms": [],
-        "term_mention_count": 0
-      },
-      {
-        "source": "pharmacology/inhalational_anaesthetics/2001B10_nitrous_oxide_adverse_effects.htm",
-        "num_terms": 0,
-        "num_dimensions": 9,
-        "dimensions": [
-          "equipment_and_physics",
-          "drug_receptor_disposition",
-          "nociception_process",
-          "neuromuscular_process",
-          "special_population_role",
-          "organ_system_process",
-          "gas_exchange_process",
-          "autonomic_disposition",
-          "pharmacokinetic_process"
-        ],
-        "terms": [],
-        "term_mention_count": 0
-      },
-      {
-        "source": "pharmacology/inhalational_anaesthetics/2021A01_nitrous_oxide_advantages_and_disadvantages.htm",
-        "num_terms": 0,
-        "num_dimensions": 9,
-        "dimensions": [
-          "equipment_and_physics",
-          "organ_system_process",
-          "nociception_process",
-          "neuromuscular_process",
-          "gas_exchange_process",
-          "special_population_role",
-          "acid_base_quality",
-          "drug_receptor_disposition",
-          "pharmacokinetic_process"
-        ],
-        "terms": [],
-        "term_mention_count": 0
-      },
-      {
-        "source": "pharmacology/intravenous_anaesthetics/2007A04_propofol_tiva_vs_ketamine_tiva.htm",
-        "num_terms": 0,
-        "num_dimensions": 9,
-        "dimensions": [
-          "equipment_and_physics",
-          "drug_receptor_disposition",
-          "organ_system_process",
-          "nociception_process",
-          "special_population_role",
-          "neuromuscular_process",
-          "pharmacokinetic_process",
-          "autonomic_disposition",
-          "acid_base_quality"
         ],
         "terms": [],
         "term_mention_count": 0
@@ -2322,15 +2181,13 @@
       {
         "source": "pharmacology/intravenous_anaesthetics/2018A07_intravenous_induction_dosing_in_youth_old_age_and_shock.htm",
         "num_terms": 0,
-        "num_dimensions": 9,
+        "num_dimensions": 7,
         "dimensions": [
-          "equipment_and_physics",
-          "nociception_process",
-          "autonomic_disposition",
           "neuromuscular_process",
-          "organ_system_process",
+          "autonomic_disposition",
           "gas_exchange_process",
           "acid_base_quality",
+          "equipment_and_physics",
           "drug_receptor_disposition",
           "pharmacokinetic_process"
         ],
@@ -2338,37 +2195,65 @@
         "term_mention_count": 0
       },
       {
-        "source": "pharmacology/muscle_relaxants/2018B04_suxamethonium_vs_rocuronium.htm",
+        "source": "pharmacology/intravenous_anaesthetics/2020A13_intravenous_induction_rate_of_onset.htm",
         "num_terms": 0,
-        "num_dimensions": 9,
+        "num_dimensions": 7,
         "dimensions": [
-          "drug_receptor_disposition",
-          "nociception_process",
-          "equipment_and_physics",
-          "neuromuscular_process",
-          "special_population_role",
-          "organ_system_process",
           "pharmacokinetic_process",
+          "special_population_role",
+          "drug_receptor_disposition",
           "autonomic_disposition",
+          "organ_system_process",
+          "neuromuscular_process",
           "acid_base_quality"
         ],
         "terms": [],
         "term_mention_count": 0
       },
       {
-        "source": "physiology/cardiovascular/2015A06_baroreceptors.htm",
+        "source": "pharmacology/intravenous_anaesthetics/2021B04_dexmedetomidine.htm",
         "num_terms": 0,
-        "num_dimensions": 9,
+        "num_dimensions": 7,
         "dimensions": [
-          "equipment_and_physics",
           "organ_system_process",
-          "autonomic_disposition",
-          "nociception_process",
           "drug_receptor_disposition",
           "neuromuscular_process",
-          "gas_exchange_process",
+          "equipment_and_physics",
+          "autonomic_disposition",
+          "pharmacokinetic_process",
+          "acid_base_quality"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "pharmacology/local_anaesthetics/2007A02_local_anaesthetics_neuraxial_pharmacokinetics.htm",
+        "num_terms": 0,
+        "num_dimensions": 7,
+        "dimensions": [
+          "pharmacokinetic_process",
+          "equipment_and_physics",
           "special_population_role",
-          "pharmacokinetic_process"
+          "drug_receptor_disposition",
+          "organ_system_process",
+          "neuromuscular_process",
+          "acid_base_quality"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "pharmacology/miscellaneous_drugs/2019B10_effects_of_csl_infusion.htm",
+        "num_terms": 0,
+        "num_dimensions": 7,
+        "dimensions": [
+          "equipment_and_physics",
+          "drug_receptor_disposition",
+          "organ_system_process",
+          "neuromuscular_process",
+          "autonomic_disposition",
+          "pharmacokinetic_process",
+          "acid_base_quality"
         ],
         "terms": [],
         "term_mention_count": 0
@@ -2384,20 +2269,20 @@
       "autonomic_disposition": {
         "mean_terms": 0.5,
         "median_terms": 0.0,
-        "docs_with_terms": 21,
-        "total_docs": 92
+        "docs_with_terms": 26,
+        "total_docs": 101
       },
       "drug_receptor_disposition": {
         "mean_terms": 0.4,
         "median_terms": 0.0,
         "docs_with_terms": 40,
-        "total_docs": 197
+        "total_docs": 200
       },
       "equipment_and_physics": {
-        "mean_terms": 0.6,
+        "mean_terms": 0.5,
         "median_terms": 0.0,
-        "docs_with_terms": 53,
-        "total_docs": 209
+        "docs_with_terms": 34,
+        "total_docs": 142
       },
       "gas_exchange_process": {
         "mean_terms": 0.6,
@@ -2408,20 +2293,20 @@
       "neuromuscular_process": {
         "mean_terms": 0.5,
         "median_terms": 0.0,
-        "docs_with_terms": 38,
-        "total_docs": 168
+        "docs_with_terms": 28,
+        "total_docs": 122
       },
       "nociception_process": {
-        "mean_terms": 0.4,
+        "mean_terms": 0.0,
         "median_terms": 0.0,
-        "docs_with_terms": 44,
-        "total_docs": 211
+        "docs_with_terms": 0,
+        "total_docs": 2
       },
       "organ_system_process": {
-        "mean_terms": 0.4,
+        "mean_terms": 0.5,
         "median_terms": 0.0,
-        "docs_with_terms": 47,
-        "total_docs": 221
+        "docs_with_terms": 38,
+        "total_docs": 151
       },
       "pharmacokinetic_process": {
         "mean_terms": 0.4,
@@ -2430,33 +2315,34 @@
         "total_docs": 108
       },
       "special_population_role": {
-        "mean_terms": 0.5,
+        "mean_terms": 0.9,
         "median_terms": 0.0,
-        "docs_with_terms": 37,
-        "total_docs": 156
+        "docs_with_terms": 9,
+        "total_docs": 28
       }
     }
   },
   "recommendations": [
     {
-      "type": "INVESTIGATE_OVERLAP",
-      "priority": "medium",
-      "dimensions": [
-        "neuromuscular_process",
-        "nociception_process"
-      ],
-      "reason": "Jaccard similarity 0.61 — significant overlap",
-      "action": "Review queries for semantic overlap; consider merging or sharpening"
+      "type": "DROP_DIMENSION",
+      "priority": "high",
+      "dimension": "nociception_process",
+      "reason": "Activation rate 0.5% is below 10% — too sparse to be useful",
+      "action": "Remove 'nociception_process' from the ontology"
     },
     {
-      "type": "INVESTIGATE_OVERLAP",
+      "type": "DROP_DIMENSION",
+      "priority": "high",
+      "dimension": "special_population_role",
+      "reason": "Activation rate 7.3% is below 10% — too sparse to be useful",
+      "action": "Remove 'special_population_role' from the ontology"
+    },
+    {
+      "type": "RECALIBRATE_QUERY",
       "priority": "medium",
-      "dimensions": [
-        "drug_receptor_disposition",
-        "nociception_process"
-      ],
-      "reason": "Jaccard similarity 0.61 — significant overlap",
-      "action": "Review queries for semantic overlap; consider merging or sharpening"
+      "dimension": "nociception_process",
+      "reason": "Score std=0.070 — all documents score similarly, no discriminative power (mean=0.133)",
+      "action": "Rewrite the IQL query for 'nociception_process' to be more specific"
     },
     {
       "type": "UNDER_TAGGED_DOCUMENTS",
@@ -2464,17 +2350,17 @@
       "reason": "15 documents have rich structural complexity (many segments, crossrefs, terms) but ≤2 active dimensions — the ontology may be missing content types present in these docs",
       "action": "Review these documents to identify missing ontology dimensions",
       "examples": [
+        "pharmacology/analgesics/2025ADVANCE_methadone.htm",
         "other/clinical_measurement/2017B04_electroencephalography_in_anaesthesia.htm",
         "other/physics/2010B11_ultrasonography_physical_principles.htm",
-        "other/clinical_measurement/2019A06_renal_function_tests.htm",
-        "pharmacology/local_anaesthetics/2010A01_local_anaesthetics_structure_activity_relationships.htm",
-        "other/equipment/2014A08_surgical_diathermy.htm"
+        "physiology/haematology/2018B06_blood_transfusion_adverse_effects.htm",
+        "physiology/respiratory/2008B13_alveolar_time_constants.htm"
       ]
     },
     {
       "type": "TERM_DIMENSION_MISALIGNMENT",
       "priority": "medium",
-      "reason": "5 documents have ≥3 extracted domain terms but ≤1 active dimension — terminology density suggests content the ontology fails to classify",
+      "reason": "6 documents have ≥3 extracted domain terms but ≤1 active dimension — terminology density suggests content the ontology fails to classify",
       "action": "Inspect extracted terms for these documents and consider adding new dimensions that cover this content",
       "examples": [
         {
@@ -2498,6 +2384,15 @@
           ]
         },
         {
+          "source": "physiology/metabolism_and_endocrinology/2006B16_effects_of_hypoglycaemia.htm",
+          "terms": [
+            "gl",
+            "gng",
+            "gg",
+            "ll"
+          ]
+        },
+        {
           "source": "other/equipment/2008B09_hygrometers_and_humidity.htm",
           "terms": [
             "humidity",
@@ -2506,19 +2401,11 @@
           ]
         },
         {
-          "source": "pharmacology/pharmacodynamics/2020B11_dose_response_curves_opioids.htm",
+          "source": "pharmacology/pharmaceutics/2020B08_anaesthetics_environment.htm",
           "terms": [
-            "potency",
-            "efficacy",
-            "inverse agonist"
-          ]
-        },
-        {
-          "source": "physiology/gastrointestinal/2017B10_gastric_emptying_rate.htm",
-          "terms": [
-            "ger",
-            "ac",
-            "pr"
+            "greenhouse gas",
+            "anthropogenic global warming",
+            "ozone layer"
           ]
         }
       ]
@@ -2534,8 +2421,15 @@
       "type": "ADJUST_THRESHOLD",
       "priority": "low",
       "dimension": "autonomic_disposition",
-      "reason": "Optimal threshold 0.42 differs from global 0.6",
-      "action": "Consider per-dimension threshold of 0.42 for 'autonomic_disposition'"
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'autonomic_disposition'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "drug_receptor_disposition",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'drug_receptor_disposition'"
     },
     {
       "type": "ADJUST_THRESHOLD",
@@ -2555,15 +2449,8 @@
       "type": "ADJUST_THRESHOLD",
       "priority": "low",
       "dimension": "neuromuscular_process",
-      "reason": "Optimal threshold 0.42 differs from global 0.6",
-      "action": "Consider per-dimension threshold of 0.42 for 'neuromuscular_process'"
-    },
-    {
-      "type": "ADJUST_THRESHOLD",
-      "priority": "low",
-      "dimension": "nociception_process",
       "reason": "Optimal threshold 0.72 differs from global 0.6",
-      "action": "Consider per-dimension threshold of 0.72 for 'nociception_process'"
+      "action": "Consider per-dimension threshold of 0.72 for 'neuromuscular_process'"
     },
     {
       "type": "ADJUST_THRESHOLD",
@@ -2576,63 +2463,23 @@
       "type": "ADJUST_THRESHOLD",
       "priority": "low",
       "dimension": "special_population_role",
-      "reason": "Optimal threshold 0.72 differs from global 0.6",
-      "action": "Consider per-dimension threshold of 0.72 for 'special_population_role'"
-    },
-    {
-      "type": "INVESTIGATE_AFFINITY",
-      "priority": "low",
-      "dimension": "equipment_and_physics",
-      "category": "physiology",
-      "reason": "equipment_and_physics activates in 60% of physiology docs but is not expected",
-      "action": "Check if this is genuine signal or classifier noise"
-    },
-    {
-      "type": "INVESTIGATE_AFFINITY",
-      "priority": "low",
-      "dimension": "special_population_role",
-      "category": "physiology",
-      "reason": "special_population_role activates in 48% of physiology docs but is not expected",
-      "action": "Check if this is genuine signal or classifier noise"
-    },
-    {
-      "type": "INVESTIGATE_AFFINITY",
-      "priority": "low",
-      "dimension": "nociception_process",
-      "category": "physiology",
-      "reason": "nociception_process activates in 47% of physiology docs but is not expected",
-      "action": "Check if this is genuine signal or classifier noise"
-    },
-    {
-      "type": "INVESTIGATE_AFFINITY",
-      "priority": "low",
-      "dimension": "neuromuscular_process",
-      "category": "physiology",
-      "reason": "neuromuscular_process activates in 46% of physiology docs but is not expected",
-      "action": "Check if this is genuine signal or classifier noise"
-    },
-    {
-      "type": "INVESTIGATE_AFFINITY",
-      "priority": "low",
-      "dimension": "equipment_and_physics",
-      "category": "pharmacology",
-      "reason": "equipment_and_physics activates in 45% of pharmacology docs but is not expected",
-      "action": "Check if this is genuine signal or classifier noise"
+      "reason": "Optimal threshold 0.42 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.42 for 'special_population_role'"
     },
     {
       "type": "INVESTIGATE_AFFINITY",
       "priority": "low",
       "dimension": "drug_receptor_disposition",
       "category": "physiology",
-      "reason": "drug_receptor_disposition activates in 43% of physiology docs but is not expected",
+      "reason": "drug_receptor_disposition activates in 51% of physiology docs but is not expected",
       "action": "Check if this is genuine signal or classifier noise"
     },
     {
       "type": "INVESTIGATE_AFFINITY",
       "priority": "low",
-      "dimension": "special_population_role",
-      "category": "pharmacology",
-      "reason": "special_population_role activates in 43% of pharmacology docs but is not expected",
+      "dimension": "equipment_and_physics",
+      "category": "physiology",
+      "reason": "equipment_and_physics activates in 42% of physiology docs but is not expected",
       "action": "Check if this is genuine signal or classifier noise"
     }
   ]

@@ -14,15 +14,10 @@
       "score": 0.742727683668005
     },
     "content_dimensions": [
-      "nociception_process",
-      "equipment_and_physics",
-      "organ_system_process",
-      "neuromuscular_process",
       "drug_receptor_disposition",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -177,37 +172,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7205848511005187,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.613223263008594,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "CVS toxicity:\nLAST\n�\nInhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocard",
-            "score": 0.7205848511005187,
-            "start": 1410,
+            "text": "Inhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocardial depression,\n  ↓mA",
+            "score": 0.613223263008594,
+            "start": 1431,
             "end": 2399
           },
           {
             "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
-            "score": 0.7053121460285681,
+            "score": 0.46287291140407344,
             "start": 0,
-            "end": 1409
+            "end": 1430
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.32732975003005915,
+        "score": 0.5742348098676079,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
-            "score": 0.32732975003005915,
+            "score": 0.5742348098676079,
             "start": 0,
-            "end": 1381
+            "end": 1409
           },
           {
-            "text": "Euphoria, delirium, seizure\nCVS toxicity:\nLAST\n�\nInhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ",
-            "score": 0.2513605397792321,
-            "start": 1382,
+            "text": "CVS toxicity:\nLAST\n�\nInhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocard",
+            "score": 0.4901823690698416,
+            "start": 1410,
             "end": 2399
           }
         ]
@@ -231,18 +226,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8136773682601599,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5632025792236997,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Inhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocardial depression,\n  ↓mA",
-            "score": 0.8136773682601599,
+            "score": 0.5632025792236997,
             "start": 1431,
             "end": 2399
           },
           {
             "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
-            "score": 0.3801943292522238,
+            "score": 0.45452097275973746,
             "start": 0,
             "end": 1430
           }
@@ -267,37 +262,37 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7691477768734674,
+        "score": 0.3412894563149706,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
-            "score": 0.7691477768734674,
+            "score": 0.3412894563149706,
             "start": 0,
             "end": 1381
           },
           {
             "text": "Euphoria, delirium, seizure\nCVS toxicity:\nLAST\n�\nInhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ",
-            "score": 0.24345511195943695,
+            "score": 0.19932289324287283,
             "start": 1382,
             "end": 2399
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9143549994473417,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.13129612675432087,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
-            "score": 0.9143549994473417,
+            "score": 0.13129612675432087,
             "start": 0,
-            "end": 1409
+            "end": 1430
           },
           {
-            "text": "CVS toxicity:\nLAST\n�\nInhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocard",
-            "score": 0.48156384461609636,
-            "start": 1410,
+            "text": "Inhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocardial depression,\n  ↓mA",
+            "score": 0.10153827963475912,
+            "start": 1431,
             "end": 2399
           }
         ]
@@ -321,58 +316,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8477101477321045,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.2838657351814178,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
-            "score": 0.8477101477321045,
+            "score": 0.2838657351814178,
             "start": 0,
-            "end": 1430
+            "end": 1409
           },
           {
-            "text": "Inhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocardial depression,\n  ↓mA",
-            "score": 0.2159118422576255,
-            "start": 1431,
+            "text": "CVS toxicity:\nLAST\n�\nInhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocard",
+            "score": 0.17725503064072845,
+            "start": 1410,
             "end": 2399
           }
         ]
       },
       "special_population_role": {
-        "score": 0.5482405783848551,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.14487848470578973,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "LAST\n�\nInhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocardial depression",
-            "score": 0.5482405783848551,
-            "start": 1424,
-            "end": 2399
+            "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
+            "score": 0.14487848470578973,
+            "start": 0,
+            "end": 1430
           },
           {
-            "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
-            "score": 0.22925302922312224,
-            "start": 0,
-            "end": 1423
+            "text": "Inhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocardial depression,\n  ↓mA",
+            "score": 0.14245781704193952,
+            "start": 1431,
+            "end": 2399
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8079632672732063,
+        "score": 0.2879009466412548,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
-            "score": 0.8079632672732063,
-            "start": 0,
-            "end": 1430
-          },
-          {
             "text": "Inhibit VDNaC;, also VDKC and VDCC at higher\n  concentration\n�\nECG �pulled apart� (long Q, wide QRS),\n  tachyarrhythmia, VF arrest\n�\nFirst phase: ↑HR, ↑mAP\n�\nSecond phase: myocardial depression,\n  ↓mA",
-            "score": 0.6545740405967849,
+            "score": 0.2879009466412548,
             "start": 1431,
             "end": 2399
+          },
+          {
+            "text": "2015A04 A\nsurgeon wishes to use topical local anaesthetic in the nose before surgery in a\n30 year old 70kg man.\nHe normally uses topical cocaine 5% plus lignocaine 2% with adrenaline\n1:100,000 injecti",
+            "score": 0.2741208680411419,
+            "start": 0,
+            "end": 1430
           }
         ]
       },

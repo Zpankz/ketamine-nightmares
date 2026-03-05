@@ -13,18 +13,15 @@
       "score": 0.780989793787836
     },
     "content_dimensions": [
-      "nociception_process",
-      "equipment_and_physics",
-      "neuromuscular_process",
       "organ_system_process",
       "drug_receptor_disposition",
+      "neuromuscular_process",
+      "equipment_and_physics",
       "autonomic_disposition",
       "pharmacokinetic_process",
       "acid_base_quality"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -40,7 +37,7 @@
           },
           {
             "text": "Post-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC / propofol Cp\n50\no\n↓CMRO\n2\n/",
-            "score": 0.1479392611338598,
+            "score": 0.149174475073098,
             "start": 1255,
             "end": 2087
           }
@@ -177,38 +174,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8381284697982909,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8275159197930162,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "o\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC / propofol Cp\n50\no\n↓CMRO\n2",
+            "score": 0.8275159197930162,
+            "start": 1253,
+            "end": 2087
+          },
+          {
+            "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
+            "score": 0.8234313128912258,
+            "start": 0,
+            "end": 1252
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.7397445008530983,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
-            "score": 0.8381284697982909,
+            "score": 0.7397445008530983,
             "start": 0,
             "end": 1225
           },
           {
             "text": "Pre-synaptic: ↓NAd release\no\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC",
-            "score": 0.7120990533587452,
+            "score": 0.7165808924551722,
             "start": 1226,
             "end": 2087
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.7350202275183602,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "o\nPre-synaptic: ↓NAd release\no\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓M",
-            "score": 0.7350202275183602,
-            "start": 1224,
-            "end": 2087
-          },
-          {
-            "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
-            "score": 0.5949472922587289,
-            "start": 0,
-            "end": 1223
           }
         ]
       },
@@ -231,20 +228,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.852676006931055,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.8445555978000561,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "o\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC / propofol Cp\n50\no\n↓CMRO\n2",
-            "score": 0.852676006931055,
-            "start": 1253,
+            "text": "Post-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC / propofol Cp\n50\no\n↓CMRO\n2\n/",
+            "score": 0.8445555978000561,
+            "start": 1255,
             "end": 2087
           },
           {
             "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
-            "score": 0.4263512208790649,
+            "score": 0.3437202978641945,
             "start": 0,
-            "end": 1252
+            "end": 1254
           }
         ]
       },
@@ -267,38 +264,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8929763145989518,
+        "score": 0.8006771067571272,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Pre-synaptic: ↓NAd release\no\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC",
-            "score": 0.8929763145989518,
-            "start": 1226,
+            "text": "Peripheral nerves\no\nPre-synaptic: ↓NAd release\no\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsuf",
+            "score": 0.8006771067571272,
+            "start": 1206,
             "end": 2087
           },
           {
             "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
-            "score": 0.6826244959044427,
+            "score": 0.481166257255982,
             "start": 0,
-            "end": 1225
+            "end": 1205
           }
         ]
       },
       "nociception_process": {
-        "score": 0.94761951652091,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1752007806948695,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Pre-synaptic: ↓NAd release\no\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC",
-            "score": 0.94761951652091,
-            "start": 1226,
-            "end": 2087
+            "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
+            "score": 0.1752007806948695,
+            "start": 0,
+            "end": 1254
           },
           {
-            "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
-            "score": 0.8220570318492292,
-            "start": 0,
-            "end": 1225
+            "text": "Post-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC / propofol Cp\n50\no\n↓CMRO\n2\n/",
+            "score": 0.11531222505249526,
+            "start": 1255,
+            "end": 2087
           }
         ]
       },
@@ -321,37 +318,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9376191323348395,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.771544239031447,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Post-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC / propofol Cp\n50\no\n↓CMRO\n2\n/",
-            "score": 0.9376191323348395,
-            "start": 1255,
+            "text": "Pre-synaptic: ↓NAd release\no\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC",
+            "score": 0.771544239031447,
+            "start": 1226,
             "end": 2087
           },
           {
             "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
-            "score": 0.2197887268753907,
+            "score": 0.3567157558452387,
             "start": 0,
-            "end": 1254
+            "end": 1225
           }
         ]
       },
       "special_population_role": {
-        "score": 0.4501966064746102,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.17725503064072845,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
-            "score": 0.4501966064746102,
+            "score": 0.17725503064072845,
             "start": 0,
-            "end": 1225
+            "end": 1252
           },
           {
-            "text": "Pre-synaptic: ↓NAd release\no\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC",
-            "score": 0.3639029314343218,
-            "start": 1226,
+            "text": "o\nPost-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC / propofol Cp\n50\no\n↓CMRO\n2",
+            "score": 0.1731608672870061,
+            "start": 1253,
             "end": 2087
           }
         ]
@@ -359,18 +356,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.850825524926902,
+        "score": 0.2409870944785764,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Post-synaptic: similar to α\n1\nCNS\n·\nAnxiolysis and sedation\no\nRousable\nand co-operative\no\nAirway\nand breathing unaffected\n·\nGeneral anaesthesia\no\nInsufficient alone\no\n↓MAC / propofol Cp\n50\no\n↓CMRO\n2\n/",
-            "score": 0.850825524926902,
+            "score": 0.2409870944785764,
             "start": 1255,
             "end": 2087
           },
           {
             "text": "2021B04 Describe the pharmacology of dexmedetomidine.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\n·\nDex(tro)-medetomidine = enantiopure\n·\nNo additives – safe for neuraxial use\nPharmacokinetics:\nAdministration",
-            "score": 0.721913193960427,
+            "score": 0.11164036043761141,
             "start": 0,
             "end": 1254
           }

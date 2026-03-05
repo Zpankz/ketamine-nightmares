@@ -16,14 +16,12 @@
       ]
     },
     "content_dimensions": [
-      "equipment_and_physics",
-      "gas_exchange_process",
       "neuromuscular_process",
+      "gas_exchange_process",
+      "equipment_and_physics",
       "acid_base_quality"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -128,24 +126,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.3671415130881525,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.3388655371870019,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.3671415130881525,
+            "score": 0.3388655371870019,
             "start": 0,
             "end": 1052
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.23085222312653272,
+        "score": 0.28297282739996915,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.23085222312653272,
+            "score": 0.28297282739996915,
             "start": 0,
             "end": 1052
           }
@@ -164,12 +162,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.4678613990197066,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.31408742677824225,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.4678613990197066,
+            "score": 0.31408742677824225,
             "start": 0,
             "end": 1052
           }
@@ -188,24 +186,30 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8185934252001217,
+        "score": 0.8846877749475047,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.8185934252001217,
+            "score": 0.8846877749475047,
             "start": 0,
+            "end": 997
+          },
+          {
+            "text": "  ICP is high and compensatory responses are exhausted",
+            "score": 0.23447305528923598,
+            "start": 998,
             "end": 1052
           }
         ]
       },
       "nociception_process": {
-        "score": 0.3425040171792877,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.15608002460238707,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.3425040171792877,
+            "score": 0.15608002460238707,
             "start": 0,
             "end": 1052
           }
@@ -224,24 +228,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8782258243237235,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7651226993554261,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.8782258243237235,
+            "score": 0.7651226993554261,
             "start": 0,
             "end": 1052
           }
         ]
       },
       "special_population_role": {
-        "score": 0.23934938244466664,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.18280318375806526,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.23934938244466664,
+            "score": 0.18280318375806526,
             "start": 0,
             "end": 1052
           }
@@ -250,12 +254,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.749478019532338,
+        "score": 0.3983788264805119,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.749478019532338,
+            "score": 0.3983788264805119,
             "start": 0,
             "end": 1052
           }

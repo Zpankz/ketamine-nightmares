@@ -230,7 +230,7 @@ def build_unified_graph(layers):
 
     # --- Edges: crossrefs (enrichment) ---
     for path, doc in enrichments.items():
-        for xref in doc.get("crossrefs", []):
+        for xref in doc.get("crossreferences", []):
             target_path = xref.get("target", "")
             if f"doc:{target_path}" in nodes:
                 edges.append({
@@ -302,7 +302,7 @@ def detect_knowledge_gaps(nodes, edges, layers):
     # Complex enrichments (many segments, crossrefs) with few dimensions
     for path, doc in layers["enrichments"].items():
         n_seg = len(doc.get("segments", []))
-        n_xref = len(doc.get("crossrefs", []))
+        n_xref = len(doc.get("crossreferences", []))
         class_info = layers["classification_manifest"].get(path, {})
         n_dim = class_info.get("num_active_dimensions", 0)
         complexity = n_seg + n_xref * 3
@@ -358,7 +358,7 @@ def compute_dialectical_tensions(nodes, edges, layers):
         src_domain = class_manifest.get(path, {}).get("cognitive_domain")
         if not src_domain:
             continue
-        for xref in doc.get("crossrefs", []):
+        for xref in doc.get("crossreferences", []):
             target = xref.get("target", "")
             tgt_domain = class_manifest.get(target, {}).get("cognitive_domain")
             if tgt_domain and tgt_domain != src_domain:

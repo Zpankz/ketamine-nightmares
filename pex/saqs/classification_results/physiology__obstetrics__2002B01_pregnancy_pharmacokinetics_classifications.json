@@ -18,15 +18,10 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
       "special_population_role",
-      "nociception_process",
-      "neuromuscular_process",
-      "pharmacokinetic_process",
-      "equipment_and_physics"
+      "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -175,48 +170,48 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.30570328895109333,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5116744945847502,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.30570328895109333,
+            "score": 0.5116744945847502,
             "start": 0,
-            "end": 1288
+            "end": 1321
           },
           {
-            "text": "↑Renal blood flow 80% -> ↑GFR ->\n  ↑excretion unchanged drugs e.g. LMWH",
-            "score": 0.2794151488994812,
-            "start": 1289,
+            "text": "  ↑excretion unchanged drugs e.g. LMWH",
+            "score": 0.12232229789744709,
+            "start": 1322,
             "end": 1360
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.27368198487016115,
+        "score": 0.2820813113627648,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.27368198487016115,
+            "score": 0.2820813113627648,
             "start": 0,
             "end": 1288
           },
           {
             "text": "↑Renal blood flow 80% -> ↑GFR ->\n  ↑excretion unchanged drugs e.g. LMWH",
-            "score": 0.12342301400327828,
+            "score": 0.250521980467662,
             "start": 1289,
             "end": 1360
           }
         ]
       },
       "pharmacokinetic_process": {
-        "score": 0.6942967110489067,
+        "score": 0.6933702527635284,
         "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.6942967110489067,
+            "score": 0.6933702527635284,
             "start": 0,
             "end": 1321
           },
@@ -229,18 +224,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8959896239471639,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5851403358726774,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.8959896239471639,
+            "score": 0.5851403358726774,
             "start": 0,
             "end": 1321
           },
           {
             "text": "  ↑excretion unchanged drugs e.g. LMWH",
-            "score": 0.07912544161184044,
+            "score": 0.19785291387817477,
             "start": 1322,
             "end": 1360
           }
@@ -265,37 +260,37 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7012036403146291,
+        "score": 0.17932362625190623,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Renal blood flow 80% -> ↑GFR ->\n  ↑excretion unchanged drugs e.g. LMWH",
-            "score": 0.7012036403146291,
-            "start": 1289,
-            "end": 1360
-          },
-          {
             "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.5346500954924445,
+            "score": 0.17932362625190623,
             "start": 0,
             "end": 1288
+          },
+          {
+            "text": "↑Renal blood flow 80% -> ↑GFR ->\n  ↑excretion unchanged drugs e.g. LMWH",
+            "score": 0.1554444021999438,
+            "start": 1289,
+            "end": 1360
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7098452451882751,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.09107466708246154,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.7098452451882751,
+            "score": 0.09107466708246154,
             "start": 0,
-            "end": 1288
+            "end": 1321
           },
           {
-            "text": "↑Renal blood flow 80% -> ↑GFR ->\n  ↑excretion unchanged drugs e.g. LMWH",
-            "score": 0.2892522064991136,
-            "start": 1289,
+            "text": "  ↑excretion unchanged drugs e.g. LMWH",
+            "score": 0.07168292080041282,
+            "start": 1322,
             "end": 1360
           }
         ]
@@ -319,37 +314,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.6172782242147103,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.2649797724816399,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.6172782242147103,
-            "start": 0,
-            "end": 1321
-          },
-          {
-            "text": "  ↑excretion unchanged drugs e.g. LMWH",
-            "score": 0.07576714551953342,
-            "start": 1322,
-            "end": 1360
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.8944893771355402,
-        "description": "Population-specific considerations (BFO: role)",
-        "top_chunks": [
-          {
-            "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.8944893771355402,
+            "score": 0.2649797724816399,
             "start": 0,
             "end": 1288
           },
           {
             "text": "↑Renal blood flow 80% -> ↑GFR ->\n  ↑excretion unchanged drugs e.g. LMWH",
-            "score": 0.4335601904297757,
+            "score": 0.23406919549587674,
             "start": 1289,
+            "end": 1360
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8451896480365693,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
+            "score": 0.8451896480365693,
+            "start": 0,
+            "end": 1321
+          },
+          {
+            "text": "  ↑excretion unchanged drugs e.g. LMWH",
+            "score": 0.10351313129730201,
+            "start": 1322,
             "end": 1360
           }
         ]
@@ -357,12 +352,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.726318015129839,
+        "score": 0.25727231633199493,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2002B01 Outline\nthe influences of pregnancy on pharmacokinetics.\nList:\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\nAbsorption:\nOral\n·\n↓Gastric emptying in labour -> ↑risk\n  aspiration\nInhaled",
-            "score": 0.726318015129839,
+            "score": 0.25727231633199493,
             "start": 0,
             "end": 1360
           }

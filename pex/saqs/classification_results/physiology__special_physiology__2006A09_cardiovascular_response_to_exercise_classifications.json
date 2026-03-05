@@ -16,21 +16,19 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
-      "organ_system_process",
-      "autonomic_disposition",
       "equipment_and_physics",
-      "special_population_role",
-      "nociception_process",
-      "acid_base_quality",
       "neuromuscular_process",
       "drug_receptor_disposition",
+      "autonomic_disposition",
+      "acid_base_quality",
+      "organ_system_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "dose_response_relationship",
       "structure_function_link",
-      "homeostatic_regulation"
+      "homeostatic_regulation",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -232,50 +230,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7482196179441566,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8171968162419349,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Causes:\no\n↑Cardiac output\no\nRight shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n+\n",
-            "score": 0.7482196179441566,
-            "start": 2283,
-            "end": 3460
-          },
-          {
-            "text": "Cardiac output\n·\n↓ due to:\no\n↑Afterload\no\nBaroreceptor reflex\nBlood pressure\n·\n↑SBP, DBP, mAP\n·\nDue to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptation to isotonic\nexercise:\nHeart\n·\n↑",
-            "score": 0.7345885543754173,
-            "start": 3461,
+            "text": "Baroreceptor reflex\nBlood pressure\n·\n↑SBP, DBP, mAP\n·\nDue to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptation to isotonic\nexercise:\nHeart\n·\n↑Mitochondria, ↑TCA\ncycle and fatty acid ox",
+            "score": 0.8171968162419349,
+            "start": 3503,
             "end": 4259
           },
           {
-            "text": "↑↑cardiac output*\n·\nSkeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n",
-            "score": 0.5381009538417152,
-            "start": 1214,
-            "end": 2282
+            "text": "Skeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n·\nVentricular contra",
+            "score": 0.8028796869588828,
+            "start": 1234,
+            "end": 2310
+          },
+          {
+            "text": "Right shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n+\n-> ↑2,3-DPG -> right shift\n·",
+            "score": 0.7482196179441566,
+            "start": 2311,
+            "end": 3502
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.8581434784490429,
+        "score": 0.811546548460212,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "mAP: minimal change\n·\nCauses:\no\n↑Cardiac output\no\nRight shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissu",
-            "score": 0.8581434784490429,
-            "start": 2261,
-            "end": 3427
-          },
-          {
-            "text": "2006A09 Outline the systemic\ncardiovascular response to exercise.\nList:\n·\nResponse to isotonic exercise\n·\nResponse to isometric exercise\n·\nAdaptations to isotonic exercise\n·\nAdaptations to isometric e",
-            "score": 0.7532329121402825,
-            "start": 0,
-            "end": 1213
+            "text": "·\nCauses:\no\n↑Cardiac output\no\nRight shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n",
+            "score": 0.811546548460212,
+            "start": 2281,
+            "end": 3440
           },
           {
             "text": "↑↑cardiac output*\n·\nSkeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n",
-            "score": 0.7030329765910927,
+            "score": 0.6467349212375613,
             "start": 1214,
-            "end": 2260
+            "end": 2280
+          },
+          {
+            "text": "2006A09 Outline the systemic\ncardiovascular response to exercise.\nList:\n·\nResponse to isotonic exercise\n·\nResponse to isometric exercise\n·\nAdaptations to isotonic exercise\n·\nAdaptations to isometric e",
+            "score": 0.5816421967994027,
+            "start": 0,
+            "end": 1213
           }
         ]
       },
@@ -304,26 +302,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8809441529008322,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7699481495341085,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2006A09 Outline the systemic\ncardiovascular response to exercise.\nList:\n·\nResponse to isotonic exercise\n·\nResponse to isometric exercise\n·\nAdaptations to isotonic exercise\n·\nAdaptations to isometric e",
-            "score": 0.8809441529008322,
-            "start": 0,
-            "end": 1233
-          },
-          {
-            "text": "Baroreceptor reflex\nBlood pressure\n·\n↑SBP, DBP, mAP\n·\nDue to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptation to isotonic\nexercise:\nHeart\n·\n↑Mitochondria, ↑TCA\ncycle and fatty acid ox",
-            "score": 0.8743576151335943,
-            "start": 3503,
-            "end": 4259
+            "text": "reflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n+\n-> ↑2,3-DPG -> right shift\n·\nHence ↑O\n2\nextraction\n(ment",
+            "score": 0.7699481495341085,
+            "start": 2339,
+            "end": 3539
           },
           {
             "text": "Skeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n·\nVentricular contra",
-            "score": 0.8470823759078229,
+            "score": 0.7302518595070161,
             "start": 1234,
-            "end": 2310
+            "end": 2338
+          },
+          {
+            "text": "2006A09 Outline the systemic\ncardiovascular response to exercise.\nList:\n·\nResponse to isotonic exercise\n·\nResponse to isometric exercise\n·\nAdaptations to isotonic exercise\n·\nAdaptations to isometric e",
+            "score": 0.5984164033142201,
+            "start": 0,
+            "end": 1233
           }
         ]
       },
@@ -352,50 +350,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7511506289456575,
+        "score": 0.8374770746416548,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑↑cardiac output*\n·\nSkeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n",
-            "score": 0.7511506289456575,
-            "start": 1214,
-            "end": 2260
+            "text": "↓DBP: due to\n↓afterload\no\nmAP: minimal change\n·\nCauses:\no\n↑Cardiac output\no\nRight shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n]",
+            "score": 0.8374770746416548,
+            "start": 2235,
+            "end": 3362
           },
           {
-            "text": "mAP: minimal change\n·\nCauses:\no\n↑Cardiac output\no\nRight shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissu",
-            "score": 0.7448474166640925,
-            "start": 2261,
-            "end": 3427
+            "text": "*Note ↑↑preload drives\n↑↑cardiac output*\n·\nSkeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> in",
+            "score": 0.5769022601251674,
+            "start": 1191,
+            "end": 2234
           },
           {
-            "text": "↑Afterload\no\nBaroreceptor reflex\nCardiac output\n·\n↓ due to:\no\n↑Afterload\no\nBaroreceptor reflex\nBlood pressure\n·\n↑SBP, DBP, mAP\n·\nDue to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptatio",
-            "score": 0.4282407226129332,
-            "start": 3428,
+            "text": "Partly offset by baroreceptor reflex\nStroke volume\n·\n↓ due to:\no\n↑Afterload\no\nBaroreceptor reflex\nCardiac output\n·\n↓ due to:\no\n↑Afterload\no\nBaroreceptor reflex\nBlood pressure\n·\n↑SBP, DBP, mAP\n·\nDue to",
+            "score": 0.36067462921498505,
+            "start": 3363,
             "end": 4259
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8006771067571272,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.13302177898555526,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑↑cardiac output*\n·\nSkeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n",
-            "score": 0.8006771067571272,
-            "start": 1214,
-            "end": 2282
-          },
-          {
-            "text": "Causes:\no\n↑Cardiac output\no\nRight shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n+\n",
-            "score": 0.7048569815755269,
-            "start": 2283,
-            "end": 3460
+            "text": "Due to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptation to isotonic\nexercise:\nHeart\n·\n↑Mitochondria, ↑TCA\ncycle and fatty acid oxidative enzymes\n·\nEccentric hypertrophy (due to\n↑prelo",
+            "score": 0.13302177898555526,
+            "start": 3557,
+            "end": 4259
           },
           {
             "text": "2006A09 Outline the systemic\ncardiovascular response to exercise.\nList:\n·\nResponse to isotonic exercise\n·\nResponse to isometric exercise\n·\nAdaptations to isotonic exercise\n·\nAdaptations to isometric e",
-            "score": 0.3916091398612368,
+            "score": 0.10753089785761477,
             "start": 0,
-            "end": 1213
+            "end": 1265
+          },
+          {
+            "text": "↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n·\nVentricular contraction -> atrial elongation\n-> ↓C",
+            "score": 0.09339430960340468,
+            "start": 1266,
+            "end": 2364
           }
         ]
       },
@@ -424,74 +422,74 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8545124702668796,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8532897173544827,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n·\nVentricular contraction -> atrial elongation\n-> ↓C",
-            "score": 0.8545124702668796,
-            "start": 1266,
-            "end": 2364
+            "text": "↑↑cardiac output*\n·\nSkeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n",
+            "score": 0.8532897173544827,
+            "start": 1214,
+            "end": 2280
           },
           {
-            "text": "↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n+\n-> ↑2,3-DPG -> right shift\n·\nHence ↑O\n2\nextraction\n(mentioned by the examiner)\nIso",
-            "score": 0.6695624409660015,
-            "start": 2365,
-            "end": 3556
-          },
-          {
-            "text": "Due to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptation to isotonic\nexercise:\nHeart\n·\n↑Mitochondria, ↑TCA\ncycle and fatty acid oxidative enzymes\n·\nEccentric hypertrophy (due to\n↑prelo",
-            "score": 0.3427471360775722,
-            "start": 3557,
+            "text": "Baroreceptor reflex\nCardiac output\n·\n↓ due to:\no\n↑Afterload\no\nBaroreceptor reflex\nBlood pressure\n·\n↑SBP, DBP, mAP\n·\nDue to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptation to isotonic",
+            "score": 0.4231627552283361,
+            "start": 3441,
             "end": 4259
+          },
+          {
+            "text": "·\nCauses:\no\n↑Cardiac output\no\nRight shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n",
+            "score": 0.3061663567535194,
+            "start": 2281,
+            "end": 3440
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8220570318492292,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.2197887268753907,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "↑Afterload\no\nBaroreceptor reflex\nBlood pressure\n·\n↑SBP, DBP, mAP\n·\nDue to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptation to isotonic\nexercise:\nHeart\n·\n↑Mitochondria, ↑TCA\ncycle and ",
-            "score": 0.8220570318492292,
-            "start": 3490,
-            "end": 4259
-          },
-          {
-            "text": "·\nSkeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n·\nVentricular cont",
-            "score": 0.2807466545501725,
-            "start": 1232,
+            "text": "Skeletal muscle vasodilation ->\n↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n·\nVentricular contra",
+            "score": 0.2197887268753907,
+            "start": 1234,
             "end": 2310
           },
           {
+            "text": "Baroreceptor reflex\nBlood pressure\n·\n↑SBP, DBP, mAP\n·\nDue to ↑SVR\nOxyhaemoglobin dissociation curve\n·\nLesser extent\nAdaptation to isotonic\nexercise:\nHeart\n·\n↑Mitochondria, ↑TCA\ncycle and fatty acid ox",
+            "score": 0.1898819772959151,
+            "start": 3503,
+            "end": 4259
+          },
+          {
             "text": "Right shift of baroreceptor\nreflex\no\nPartly offset by\n↓SVR\nOxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n+\n-> ↑2,3-DPG -> right shift\n·",
-            "score": 0.22766004724276212,
+            "score": 0.18071066347481568,
             "start": 2311,
-            "end": 3489
+            "end": 3502
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8581434784490429,
+        "score": 0.6760031259239069,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "Oxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n+\n-> ↑2,3-DPG -> right shift\n·\nHence ↑O\n2\nextraction\n(mentioned by the examiner)\nIsometri",
-            "score": 0.8581434784490429,
-            "start": 2370,
-            "end": 3568
-          },
-          {
             "text": "↑venous return (VR)\n·\nSNS α\n1\n-> constrict\ncapacitance vessels -> ↑MSFP\n·\nSkeletal muscle pump ->\n↑MSFP\n·\nThoracic pump -> intermittent ↓CVP\n-> ↑VR\n·\nVentricular contraction -> atrial elongation\n-> ↓C",
-            "score": 0.7954820628685595,
+            "score": 0.6760031259239069,
             "start": 1266,
             "end": 2369
           },
           {
+            "text": "Oxyhaemoglobin dissociation curve\n·\nBohr effect: ↑pCO\n2\n,\n↑[H\n+\n] -> right shift\n·\nAt tissues:\n↑temp/↓pO\n2\n/↑H\n+\n-> ↑2,3-DPG -> right shift\n·\nHence ↑O\n2\nextraction\n(mentioned by the examiner)\nIsometri",
+            "score": 0.660892384856582,
+            "start": 2370,
+            "end": 3568
+          },
+          {
             "text": "2006A09 Outline the systemic\ncardiovascular response to exercise.\nList:\n·\nResponse to isotonic exercise\n·\nResponse to isometric exercise\n·\nAdaptations to isotonic exercise\n·\nAdaptations to isometric e",
-            "score": 0.7840881577423744,
+            "score": 0.29015475481172504,
             "start": 0,
             "end": 1265
           }

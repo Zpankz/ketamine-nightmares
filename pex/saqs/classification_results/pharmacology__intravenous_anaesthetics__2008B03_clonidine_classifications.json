@@ -16,16 +16,13 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
       "drug_receptor_disposition",
-      "nociception_process",
-      "neuromuscular_process",
+      "organ_system_process",
+      "autonomic_disposition",
       "equipment_and_physics",
-      "autonomic_disposition"
+      "neuromuscular_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -66,18 +63,18 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.47699288968422854,
+        "score": 0.481166257255982,
         "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.47699288968422854,
+            "score": 0.481166257255982,
             "start": 0,
             "end": 1236
           },
           {
             "text": "Central post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response to laryngoscopy and\nsurg",
-            "score": 0.2667086480533769,
+            "score": 0.26454846377751634,
             "start": 1237,
             "end": 1504
           }
@@ -178,36 +175,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9303125961326126,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8669782210144448,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.9303125961326126,
+            "score": 0.8669782210144448,
             "start": 0,
-            "end": 1212
+            "end": 1229
           },
           {
-            "text": "↓SVR, ↓mAP, ↓HR,\n↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response ",
-            "score": 0.7147923014370632,
-            "start": 1213,
+            "text": "↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response to laryngoscopy a",
+            "score": 0.8185934252001217,
+            "start": 1230,
             "end": 1504
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7025761410635025,
+        "score": 0.783702239115653,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.7025761410635025,
+            "score": 0.783702239115653,
             "start": 0,
             "end": 1212
           },
           {
             "text": "↓SVR, ↓mAP, ↓HR,\n↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response ",
-            "score": 0.4121438645877505,
+            "score": 0.41615444467392854,
             "start": 1213,
             "end": 1504
           }
@@ -232,18 +229,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9330549500882437,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7921012912419733,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.9330549500882437,
+            "score": 0.7921012912419733,
             "start": 0,
             "end": 1229
           },
           {
             "text": "↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response to laryngoscopy a",
-            "score": 0.7354515362224836,
+            "score": 0.3577039633886169,
             "start": 1230,
             "end": 1504
           }
@@ -268,38 +265,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8704158607108111,
+        "score": 0.61651894583342,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.8704158607108111,
+            "score": 0.61651894583342,
             "start": 0,
-            "end": 1212
+            "end": 1205
           },
           {
-            "text": "↓SVR, ↓mAP, ↓HR,\n↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response ",
-            "score": 0.3666426091800214,
-            "start": 1213,
+            "text": "Then\n:\n↓SVR, ↓mAP, ↓HR,\n↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Re",
+            "score": 0.23245761627092265,
+            "start": 1206,
             "end": 1504
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8919604568855175,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10854962335430002,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.8919604568855175,
-            "start": 0,
-            "end": 1212
+            "text": "o\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response to laryngoscopy and\nsu",
+            "score": 0.10854962335430002,
+            "start": 1235,
+            "end": 1504
           },
           {
-            "text": "↓SVR, ↓mAP, ↓HR,\n↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response ",
-            "score": 0.7293801843123591,
-            "start": 1213,
-            "end": 1504
+            "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
+            "score": 0.09339430960340468,
+            "start": 0,
+            "end": 1234
           }
         ]
       },
@@ -322,58 +319,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7984602001792644,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.7984602001792644,
-            "start": 0,
-            "end": 1234
-          },
-          {
-            "text": "o\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response to laryngoscopy and\nsu",
-            "score": 0.20601653605049183,
-            "start": 1235,
-            "end": 1504
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.2636869411249029,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.6933702527635284,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↓SVR, ↓mAP, ↓HR,\n↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response ",
-            "score": 0.2636869411249029,
+            "score": 0.6933702527635284,
             "start": 1213,
             "end": 1504
           },
           {
             "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.23731085714042086,
+            "score": 0.307093459852579,
             "start": 0,
             "end": 1212
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.17383924611324467,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "↔\nCO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response to laryngoscopy a",
+            "score": 0.17383924611324467,
+            "start": 1230,
+            "end": 1504
+          },
+          {
+            "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
+            "score": 0.14979442334570606,
+            "start": 0,
+            "end": 1229
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8213675000686458,
+        "score": 0.31784647013645007,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.8213675000686458,
-            "start": 0,
-            "end": 1236
-          },
-          {
             "text": "Central post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response to laryngoscopy and\nsurg",
-            "score": 0.6540860977117229,
+            "score": 0.31784647013645007,
             "start": 1237,
             "end": 1504
+          },
+          {
+            "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
+            "score": 0.29241707730381167,
+            "start": 0,
+            "end": 1236
           }
         ]
       },
@@ -396,18 +393,18 @@
         ]
       },
       "homeostatic_regulation": {
-        "score": 0.5742348098676079,
+        "score": 0.5713681238758043,
         "description": "Equilibrium → perturbation → compensation pattern",
         "top_chunks": [
           {
             "text": "2008B03 List the\nanaesthetic-related uses of clonidine.\nWhat are the effects of clonidine on the cardiovascular and central\nnervous\nsystems and how are these effects mediated?\nReceptor\n·\nα\n2\nadrenocep",
-            "score": 0.5742348098676079,
+            "score": 0.5713681238758043,
             "start": 0,
             "end": 1231
           },
           {
             "text": "CO\no\nCentral post-synaptic > peripheral pre-synaptic\nα\n2A\no\nSevere if large bolus\n·\nAfter cessation\n:\n±\nrebound hypertension, agitation\no\nα\n2\nreceptor upregulation\nUse:\n·\n↓Response to laryngoscopy and",
-            "score": 0.48501038381332695,
+            "score": 0.4837509168534188,
             "start": 1232,
             "end": 1504
           }

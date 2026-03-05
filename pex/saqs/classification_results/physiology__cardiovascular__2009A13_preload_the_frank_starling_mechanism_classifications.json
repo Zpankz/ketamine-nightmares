@@ -11,10 +11,10 @@
     },
     "content_dimensions": [
       "drug_receptor_disposition",
-      "organ_system_process"
+      "organ_system_process",
+      "neuromuscular_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -121,24 +121,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8335354564972123,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7817667437278454,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2009A13 What is\nthe Frank-Starling mechanism?\nDescribe its relationship to excitation-contraction coupling.\nList:\n·\nIntro: excitation and\ncontraction\n·\nFrank-Starling\nmechanism\nIntro:\nexcitation-contr",
-            "score": 0.8335354564972123,
+            "score": 0.7817667437278454,
             "start": 0,
             "end": 1464
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.37616176240147503,
+        "score": 0.5119397395746508,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2009A13 What is\nthe Frank-Starling mechanism?\nDescribe its relationship to excitation-contraction coupling.\nList:\n·\nIntro: excitation and\ncontraction\n·\nFrank-Starling\nmechanism\nIntro:\nexcitation-contr",
-            "score": 0.37616176240147503,
+            "score": 0.5119397395746508,
             "start": 0,
             "end": 1464
           }
@@ -157,12 +157,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8122584176361644,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.777866298836103,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2009A13 What is\nthe Frank-Starling mechanism?\nDescribe its relationship to excitation-contraction coupling.\nList:\n·\nIntro: excitation and\ncontraction\n·\nFrank-Starling\nmechanism\nIntro:\nexcitation-contr",
-            "score": 0.8122584176361644,
+            "score": 0.777866298836103,
             "start": 0,
             "end": 1464
           }
@@ -181,24 +181,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.3547423982664908,
+        "score": 0.7477994009847582,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2009A13 What is\nthe Frank-Starling mechanism?\nDescribe its relationship to excitation-contraction coupling.\nList:\n·\nIntro: excitation and\ncontraction\n·\nFrank-Starling\nmechanism\nIntro:\nexcitation-contr",
-            "score": 0.3547423982664908,
+            "score": 0.7477994009847582,
             "start": 0,
             "end": 1464
           }
         ]
       },
       "nociception_process": {
-        "score": 0.5684973912194917,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.21055038795004374,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2009A13 What is\nthe Frank-Starling mechanism?\nDescribe its relationship to excitation-contraction coupling.\nList:\n·\nIntro: excitation and\ncontraction\n·\nFrank-Starling\nmechanism\nIntro:\nexcitation-contr",
-            "score": 0.5684973912194917,
+            "score": 0.21055038795004374,
             "start": 0,
             "end": 1464
           }
@@ -217,24 +217,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.39594807629745715,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.36290850301271366,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2009A13 What is\nthe Frank-Starling mechanism?\nDescribe its relationship to excitation-contraction coupling.\nList:\n·\nIntro: excitation and\ncontraction\n·\nFrank-Starling\nmechanism\nIntro:\nexcitation-contr",
-            "score": 0.39594807629745715,
+            "score": 0.36290850301271366,
             "start": 0,
             "end": 1464
           }
         ]
       },
       "special_population_role": {
-        "score": 0.2159118422576255,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.12958413928918883,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2009A13 What is\nthe Frank-Starling mechanism?\nDescribe its relationship to excitation-contraction coupling.\nList:\n·\nIntro: excitation and\ncontraction\n·\nFrank-Starling\nmechanism\nIntro:\nexcitation-contr",
-            "score": 0.2159118422576255,
+            "score": 0.12958413928918883,
             "start": 0,
             "end": 1464
           }
@@ -243,12 +243,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8749147047754419,
+        "score": 0.3547423982664908,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2009A13 What is\nthe Frank-Starling mechanism?\nDescribe its relationship to excitation-contraction coupling.\nList:\n·\nIntro: excitation and\ncontraction\n·\nFrank-Starling\nmechanism\nIntro:\nexcitation-contr",
-            "score": 0.8749147047754419,
+            "score": 0.3547423982664908,
             "start": 0,
             "end": 1464
           }

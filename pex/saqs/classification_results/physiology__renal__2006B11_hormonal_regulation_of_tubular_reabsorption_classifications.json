@@ -11,14 +11,11 @@
     },
     "content_dimensions": [
       "drug_receptor_disposition",
-      "organ_system_process",
-      "neuromuscular_process",
-      "nociception_process",
       "equipment_and_physics",
-      "special_population_role"
+      "organ_system_process",
+      "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -173,36 +170,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8841573813483605,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.850825524926902,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
-            "score": 0.8841573813483605,
+            "score": 0.850825524926902,
             "start": 0,
             "end": 1323
           },
           {
             "text": "  recta flow, ↑washout of medullary interstitium -> ↓reabsorption\n·\nDistal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting duct: inhibit ENaC -> ↓Na\n+\nreabsorption\nAdrenaline\n·\nCellular: β",
-            "score": 0.8658201727081827,
+            "score": 0.8302071599905412,
             "start": 1324,
             "end": 2129
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5794360890811407,
+        "score": 0.6533536768458332,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  recta flow, ↑washout of medullary interstitium -> ↓reabsorption\n·\nDistal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting duct: inhibit ENaC -> ↓Na\n+\nreabsorption\nAdrenaline\n·\nCellular: β",
-            "score": 0.5794360890811407,
+            "score": 0.6533536768458332,
             "start": 1324,
             "end": 2129
           },
           {
             "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
-            "score": 0.32924077855991984,
+            "score": 0.4888560119615301,
             "start": 0,
             "end": 1323
           }
@@ -227,20 +224,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.850825524926902,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6961457445756679,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
-            "score": 0.850825524926902,
-            "start": 0,
-            "end": 1323
-          },
-          {
             "text": "  recta flow, ↑washout of medullary interstitium -> ↓reabsorption\n·\nDistal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting duct: inhibit ENaC -> ↓Na\n+\nreabsorption\nAdrenaline\n·\nCellular: β",
-            "score": 0.7544777466306337,
+            "score": 0.6961457445756679,
             "start": 1324,
             "end": 2129
+          },
+          {
+            "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
+            "score": 0.43369089648741393,
+            "start": 0,
+            "end": 1323
           }
         ]
       },
@@ -263,36 +260,36 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7367432721089973,
+        "score": 0.3713917369958007,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  recta flow, ↑washout of medullary interstitium -> ↓reabsorption\n·\nDistal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting duct: inhibit ENaC -> ↓Na\n+\nreabsorption\nAdrenaline\n·\nCellular: β",
-            "score": 0.7367432721089973,
-            "start": 1324,
-            "end": 2129
+            "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
+            "score": 0.3713917369958007,
+            "start": 0,
+            "end": 1258
           },
           {
-            "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
-            "score": 0.3708908328871195,
-            "start": 0,
-            "end": 1323
+            "text": "Vascular: dilate afferent and efferent arterioles -> ↑GFR, ↑vasa\n  recta flow, ↑washout of medullary interstitium -> ↓reabsorption\n·\nDistal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting ",
+            "score": 0.35080807876927406,
+            "start": 1259,
+            "end": 2129
           }
         ]
       },
       "nociception_process": {
-        "score": 0.721913193960427,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1638304622956888,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "  recta flow, ↑washout of medullary interstitium -> ↓reabsorption\n·\nDistal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting duct: inhibit ENaC -> ↓Na\n+\nreabsorption\nAdrenaline\n·\nCellular: β",
-            "score": 0.721913193960427,
+            "score": 0.1638304622956888,
             "start": 1324,
             "end": 2129
           },
           {
             "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
-            "score": 0.4175798296835002,
+            "score": 0.09958592212583708,
             "start": 0,
             "end": 1323
           }
@@ -317,36 +314,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7129981793841875,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7856278929474474,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  recta flow, ↑washout of medullary interstitium -> ↓reabsorption\n·\nDistal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting duct: inhibit ENaC -> ↓Na\n+\nreabsorption\nAdrenaline\n·\nCellular: β",
-            "score": 0.7129981793841875,
+            "score": 0.7856278929474474,
             "start": 1324,
             "end": 2129
           },
           {
             "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
-            "score": 0.20006027090401593,
+            "score": 0.20676821579165858,
             "start": 0,
             "end": 1323
           }
         ]
       },
       "special_population_role": {
-        "score": 0.6560362405760417,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1891669165469514,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "  recta flow, ↑washout of medullary interstitium -> ↓reabsorption\n·\nDistal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting duct: inhibit ENaC -> ↓Na\n+\nreabsorption\nAdrenaline\n·\nCellular: β",
-            "score": 0.6560362405760417,
+            "score": 0.1891669165469514,
             "start": 1324,
             "end": 2129
           },
           {
             "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
-            "score": 0.6457502998162437,
+            "score": 0.12232229789744709,
             "start": 0,
             "end": 1323
           }
@@ -355,18 +352,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8341963544985169,
+        "score": 0.2381251169525195,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2006B11 List the\nhormones that regulate tubular reabsorption and describe their action and site\nof action.\nHormone\nEffect\nRenin\n·\nEnzymatic cleavage angiotensinogen -> angiotensin 1 (precursor\n  to AT",
-            "score": 0.8341963544985169,
+            "score": 0.2381251169525195,
             "start": 0,
             "end": 1391
           },
           {
             "text": "Distal tubule: inhibit NCC -> ↓Na\n+\nCl\n-\nreabsorption\n·\nCollecting duct: inhibit ENaC -> ↓Na\n+\nreabsorption\nAdrenaline\n·\nCellular: β\n1\nG\ns\nGPCR -> ↑Ca\n2+\n;\nα\n1\nG\nq\nGPCR -> ↑cAMP\n·\nVascular (\nβ\n1\n): ju",
-            "score": 0.6896515785033364,
+            "score": 0.1949320705626118,
             "start": 1392,
             "end": 2129
           }

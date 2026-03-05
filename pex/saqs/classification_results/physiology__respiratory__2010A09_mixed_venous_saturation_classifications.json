@@ -19,11 +19,9 @@
     "content_dimensions": [
       "gas_exchange_process",
       "organ_system_process",
-      "neuromuscular_process",
-      "equipment_and_physics",
-      "special_population_role",
-      "nociception_process",
-      "pharmacokinetic_process"
+      "drug_receptor_disposition",
+      "pharmacokinetic_process",
+      "equipment_and_physics"
     ],
     "explanatory_schema": [
       "mechanism_effect_relevance",
@@ -183,38 +181,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5151221994792273,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7192533454498276,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2\n·\nRight shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓p",
-            "score": 0.5151221994792273,
-            "start": 1090,
+            "text": "Right shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓pH\no\n",
+            "score": 0.7192533454498276,
+            "start": 1094,
             "end": 2308
           },
           {
             "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
-            "score": 0.15863825532763226,
+            "score": 0.18774158236383576,
             "start": 0,
-            "end": 1089
+            "end": 1093
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.4283059096222788,
+        "score": 0.4919731338282604,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2\n:PaO\n2\n·\nRight shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO",
-            "score": 0.4283059096222788,
-            "start": 1083,
+            "text": ":PaO\n2\n·\nRight shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2",
+            "score": 0.4919731338282604,
+            "start": 1085,
             "end": 2308
           },
           {
             "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
-            "score": 0.14006190450182948,
+            "score": 0.18140657479987835,
             "start": 0,
-            "end": 1082
+            "end": 1084
           }
         ]
       },
@@ -237,18 +235,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9125665037015043,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.8451896480365693,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Right shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓pH\no\n",
-            "score": 0.9125665037015043,
+            "score": 0.8451896480365693,
             "start": 1094,
             "end": 2308
           },
           {
             "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
-            "score": 0.8804034518017119,
+            "score": 0.42954485959835287,
             "start": 0,
             "end": 1093
           }
@@ -273,38 +271,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8809441529008322,
+        "score": 0.42563498491256724,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": ":PaO\n2\n·\nRight shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2",
-            "score": 0.8809441529008322,
-            "start": 1085,
+            "text": "↓SaO\n2\n:PaO\n2\n·\nRight shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect:",
+            "score": 0.42563498491256724,
+            "start": 1078,
             "end": 2308
           },
           {
             "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
-            "score": 0.41072308969835974,
+            "score": 0.3437202978641945,
             "start": 0,
-            "end": 1084
+            "end": 1077
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7414513938748561,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.09717688216482506,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2\n·\nRight shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓p",
-            "score": 0.7414513938748561,
-            "start": 1090,
-            "end": 2308
+            "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
+            "score": 0.09717688216482506,
+            "start": 0,
+            "end": 1139
           },
           {
-            "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
-            "score": 0.23731085714042086,
-            "start": 0,
-            "end": 1089
+            "text": "o\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓pH\no\n↑Temp\no\n↑2,3-DPG\n↓Hufner’s constant\n·\nMethaemo",
+            "score": 0.08698437799387108,
+            "start": 1140,
+            "end": 2308
           }
         ]
       },
@@ -327,56 +325,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.858743228103057,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.6640339077886219,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "o\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓pH\no\n↑Temp\no\n↑2,3-DPG\n↓Hufner’s constant\n·\nMethaemo",
-            "score": 0.858743228103057,
-            "start": 1140,
+            "text": ":PaO\n2\n·\nRight shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2",
+            "score": 0.6640339077886219,
+            "start": 1085,
             "end": 2308
           },
           {
             "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
-            "score": 0.6484555077818482,
+            "score": 0.25472975212894494,
             "start": 0,
-            "end": 1139
+            "end": 1084
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7856278929474474,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.37616176240147503,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "·\nRight shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓pH\n",
-            "score": 0.7856278929474474,
-            "start": 1092,
+            "text": "Right shift oxyhaemoglobin dissociation curve\no\nAllosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓pH\no\n",
+            "score": 0.37616176240147503,
+            "start": 1094,
             "end": 2308
           },
           {
             "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
-            "score": 0.24345511195943695,
+            "score": 0.16448660559557637,
             "start": 0,
-            "end": 1091
+            "end": 1093
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8483363526099783,
+        "score": 0.774717751800841,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Allosteric\n  interactions between haem groups\no\nRelaxed\n  -> tense state\no\nOccurs\n  if ↑tissue metabolic rate\n·\nCauses:\no\nBohr\n  effect: ↑pCO\n2\n, ↓pH\no\n↑Temp\no\n↑2,3-DPG\n↓Hufner’s constant\n·\nMethaemogl",
-            "score": 0.8483363526099783,
+            "score": 0.774717751800841,
             "start": 1142,
             "end": 2308
           },
           {
             "text": "2010A09 Explain\nthe physiological factors that may lead to a decrease in\nmixed venous blood oxygen saturation.\nList:\n·\nIntro\n·\n↓CaO\n2\n·\n↓CO\n·\n↑VO\n2\n·\n↓SvO\n2\n:PvO\n2\nIntro:\nDefinition\n·\nMixed venous oxy",
-            "score": 0.7755072325981134,
+            "score": 0.4422684026132168,
             "start": 0,
             "end": 1141
           }

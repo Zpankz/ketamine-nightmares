@@ -14,18 +14,15 @@
     },
     "content_dimensions": [
       "acid_base_quality",
-      "organ_system_process",
-      "nociception_process",
       "neuromuscular_process",
       "drug_receptor_disposition",
       "equipment_and_physics",
       "autonomic_disposition",
+      "organ_system_process",
       "gas_exchange_process",
-      "pharmacokinetic_process",
-      "special_population_role"
+      "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -189,7 +186,7 @@
           },
           {
             "text": "  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-drug",
-            "score": 0.3254234590270125,
+            "score": 0.3244721027307196,
             "start": 1545,
             "end": 2810
           },
@@ -228,48 +225,48 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8820211217576693,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8157938246409508,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "MoA:\n  class 1b Na\n+\nchannel blockade\no\nMinimal\n  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, ",
-            "score": 0.8820211217576693,
-            "start": 2790,
+            "text": "  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, seizure)\nVasopressin\n·\nDose:\n  40 IU once only\n·",
+            "score": 0.8157938246409508,
+            "start": 2838,
             "end": 4004
           },
           {
-            "text": "↔/↑\n  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-",
-            "score": 0.6250954951261593,
-            "start": 1541,
-            "end": 2789
+            "text": "↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-drug measures\nMore hel",
+            "score": 0.7586025223491444,
+            "start": 1563,
+            "end": 2837
           },
           {
             "text": "2006B07 Outline the drug and non-drug\ntreatment of ventricular fibrillation in the adult.\nBriefly describe their mechanisms of action and side effects.\nDo not discuss basic life support, airway therap",
-            "score": 0.22370484839267127,
+            "score": 0.23326263346460346,
             "start": 0,
-            "end": 1540
+            "end": 1562
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.8213675000686458,
+        "score": 0.7111985556060637,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↔/↑\n  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-",
-            "score": 0.8213675000686458,
-            "start": 1541,
-            "end": 2762
-          },
-          {
-            "text": "  line for refractory VF\n·\nMoA:\n  class 1b Na\n+\nchannel blockade\no\nMinimal\n  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (ti",
-            "score": 0.482557898523582,
-            "start": 2763,
+            "text": "·\nMoA:\n  class 1b Na\n+\nchannel blockade\no\nMinimal\n  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling",
+            "score": 0.7111985556060637,
+            "start": 2788,
             "end": 4004
           },
           {
+            "text": "↔/↑\n  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-",
+            "score": 0.6263513404123925,
+            "start": 1541,
+            "end": 2787
+          },
+          {
             "text": "2006B07 Outline the drug and non-drug\ntreatment of ventricular fibrillation in the adult.\nBriefly describe their mechanisms of action and side effects.\nDo not discuss basic life support, airway therap",
-            "score": 0.23005185046589166,
+            "score": 0.29241707730381167,
             "start": 0,
             "end": 1540
           }
@@ -300,24 +297,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9342120983427782,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6664422980655527,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, seizure)\nVasopressin\n·\nDose:\n  40 IU once only\n·",
-            "score": 0.9342120983427782,
-            "start": 2838,
-            "end": 4004
-          },
-          {
             "text": "↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-drug measures\nMore hel",
-            "score": 0.8914503766457,
+            "score": 0.6664422980655527,
             "start": 1563,
             "end": 2837
           },
           {
+            "text": "  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, seizure)\nVasopressin\n·\nDose:\n  40 IU once only\n·",
+            "score": 0.4847452190295293,
+            "start": 2838,
+            "end": 4004
+          },
+          {
             "text": "2006B07 Outline the drug and non-drug\ntreatment of ventricular fibrillation in the adult.\nBriefly describe their mechanisms of action and side effects.\nDo not discuss basic life support, airway therap",
-            "score": 0.8432827798420172,
+            "score": 0.24139747765085562,
             "start": 0,
             "end": 1562
           }
@@ -348,50 +345,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.9018636730986593,
+        "score": 0.8883596395623885,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nMoA:\n  class 1b Na\n+\nchannel blockade\no\nMinimal\n  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling",
-            "score": 0.9018636730986593,
-            "start": 2788,
+            "text": "  biphasic better than 360J monophasic\no\n↔/↑\n  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, el",
+            "score": 0.8883596395623885,
+            "start": 1500,
+            "end": 2725
+          },
+          {
+            "text": "Lignocaine\n·\nDose:\n  1mg/kg\n·\nSecond\n  line for refractory VF\n·\nMoA:\n  class 1b Na\n+\nchannel blockade\no\nMinimal\n  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy",
+            "score": 0.858743228103057,
+            "start": 2726,
             "end": 4004
           },
           {
-            "text": "↔/↑\n  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-",
-            "score": 0.7544777466306337,
-            "start": 1541,
-            "end": 2787
-          },
-          {
             "text": "2006B07 Outline the drug and non-drug\ntreatment of ventricular fibrillation in the adult.\nBriefly describe their mechanisms of action and side effects.\nDo not discuss basic life support, airway therap",
-            "score": 0.22845576096855297,
+            "score": 0.42127822849156676,
             "start": 0,
-            "end": 1540
+            "end": 1499
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9156824635374905,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10401037605283608,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "MoA:\n  class 1b Na\n+\nchannel blockade\no\nMinimal\n  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, ",
-            "score": 0.9156824635374905,
-            "start": 2790,
+            "text": "↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, seizure)\nVasopressin\n·\nDose:\n  40 IU once only\n·\nAlternative\n  to a",
+            "score": 0.10401037605283608,
+            "start": 2857,
             "end": 4004
           },
           {
-            "text": "↔/↑\n  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-",
-            "score": 0.8857441707387281,
-            "start": 1541,
-            "end": 2789
+            "text": "  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-drug measures\nMore helpful for ",
+            "score": 0.09339430960340468,
+            "start": 1572,
+            "end": 2856
           },
           {
             "text": "2006B07 Outline the drug and non-drug\ntreatment of ventricular fibrillation in the adult.\nBriefly describe their mechanisms of action and side effects.\nDo not discuss basic life support, airway therap",
-            "score": 0.32971927115415006,
+            "score": 0.09061480910082127,
             "start": 0,
-            "end": 1540
+            "end": 1571
           }
         ]
       },
@@ -420,74 +417,74 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.842003665418452,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7751126873366114,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, seizure)\nVasopressin\n·\nDose:\n  40 IU once only\n·\nAlternative\n  to a",
-            "score": 0.842003665418452,
-            "start": 2857,
+            "text": "MoA:\n  class 1b Na\n+\nchannel blockade\no\nMinimal\n  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, ",
+            "score": 0.7751126873366114,
+            "start": 2790,
             "end": 4004
           },
           {
-            "text": "  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-drug measures\nMore helpful for ",
-            "score": 0.5099502721664796,
-            "start": 1572,
-            "end": 2856
+            "text": "↔/↑\n  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-",
+            "score": 0.5518502429918758,
+            "start": 1541,
+            "end": 2789
           },
           {
             "text": "2006B07 Outline the drug and non-drug\ntreatment of ventricular fibrillation in the adult.\nBriefly describe their mechanisms of action and side effects.\nDo not discuss basic life support, airway therap",
-            "score": 0.16187153020170925,
+            "score": 0.2794151488994812,
             "start": 0,
-            "end": 1571
+            "end": 1540
           }
         ]
       },
       "special_population_role": {
-        "score": 0.60034013024833,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.18280318375806526,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "  effectiveness\no\n↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-drug",
-            "score": 0.60034013024833,
-            "start": 1545,
-            "end": 2810
+            "text": "↓ energy\n  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-drug measures\nMore hel",
+            "score": 0.18280318375806526,
+            "start": 1563,
+            "end": 2837
           },
           {
-            "text": "channel blockade\no\nMinimal\n  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, seizure)\nVasopressin\n",
-            "score": 0.4548977344755104,
-            "start": 2811,
+            "text": "  ↓slope phase 0\no\n↓Absolute\n  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, seizure)\nVasopressin\n·\nDose:\n  40 IU once only\n·",
+            "score": 0.14487848470578973,
+            "start": 2838,
             "end": 4004
           },
           {
             "text": "2006B07 Outline the drug and non-drug\ntreatment of ventricular fibrillation in the adult.\nBriefly describe their mechanisms of action and side effects.\nDo not discuss basic life support, airway therap",
-            "score": 0.10301730154669217,
+            "score": 0.10351313129730201,
             "start": 0,
-            "end": 1544
+            "end": 1562
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8698467137441421,
+        "score": 0.5570591703541025,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2006B07 Outline the drug and non-drug\ntreatment of ventricular fibrillation in the adult.\nBriefly describe their mechanisms of action and side effects.\nDo not discuss basic life support, airway therap",
-            "score": 0.8698467137441421,
+            "score": 0.5570591703541025,
             "start": 0,
             "end": 1571
           },
           {
             "text": "  -> ↓ electrical injury\n·\nMoA:\n  depolarize whole myocardium -> silence -> sinus rhythm\n·\nSEs:\n  skin burns, internal burns, electrocution of staff, fire/explosion\nNon-drug measures\nMore helpful for ",
-            "score": 0.8675549594939258,
+            "score": 0.4063396082796254,
             "start": 1572,
             "end": 2866
           },
           {
             "text": "  refractory period\n·\nSE:\no\nCardiac:\n  AV block, ↓ inotropy, arrhythmias\no\nCNS:\n  excitation (tinnitus, perioral tingling, seizure)\nVasopressin\n·\nDose:\n  40 IU once only\n·\nAlternative\n  to adrenaline ",
-            "score": 0.7134472268378858,
+            "score": 0.21207433610868814,
             "start": 2867,
             "end": 4004
           }

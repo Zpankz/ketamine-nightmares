@@ -13,17 +13,15 @@
       "score": 0.6266023388936498
     },
     "content_dimensions": [
-      "organ_system_process",
-      "equipment_and_physics",
       "neuromuscular_process",
-      "nociception_process",
-      "special_population_role",
-      "pharmacokinetic_process",
-      "drug_receptor_disposition"
+      "equipment_and_physics",
+      "drug_receptor_disposition",
+      "autonomic_disposition",
+      "organ_system_process",
+      "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "homeostatic_regulation",
-      "mechanism_effect_relevance"
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
@@ -177,36 +175,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.631360348735736,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.763501866737401,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↓Viscosity -> ↑regional microcirculatory\n  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO,",
-            "score": 0.631360348735736,
-            "start": 1284,
+            "text": "  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity",
+            "score": 0.763501866737401,
+            "start": 1325,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.25727231633199493,
+            "score": 0.2530421557773242,
             "start": 0,
-            "end": 1283
+            "end": 1324
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.31737550409555726,
+        "score": 0.7586025223491444,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↓Viscosity -> ↑regional microcirculatory\n  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO,",
-            "score": 0.31737550409555726,
+            "score": 0.7586025223491444,
             "start": 1284,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.20302569007096166,
+            "score": 0.16187153020170925,
             "start": 0,
             "end": 1283
           }
@@ -231,18 +229,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9204490146302581,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7461147923643375,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity",
-            "score": 0.9204490146302581,
+            "score": 0.7461147923643375,
             "start": 1325,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.7719422903055657,
+            "score": 0.3235219459138018,
             "start": 0,
             "end": 1324
           }
@@ -267,38 +265,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8934820964473875,
+        "score": 0.842003665418452,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↓Viscosity -> ↑regional microcirculatory\n  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO,",
-            "score": 0.8934820964473875,
+            "score": 0.842003665418452,
             "start": 1284,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.42863187612419573,
+            "score": 0.6938336432464807,
             "start": 0,
             "end": 1283
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8904259025348517,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08653659094165504,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓Viscosity -> ↑regional microcirculatory\n  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO,",
-            "score": 0.8904259025348517,
-            "start": 1284,
+            "text": "Thrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity -> ↓regional microci",
+            "score": 0.08653659094165504,
+            "start": 1346,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.3084865249962589,
+            "score": 0.08387768404930426,
             "start": 0,
-            "end": 1283
+            "end": 1345
           }
         ]
       },
@@ -321,36 +319,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9125665037015043,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8394265174382769,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Thrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity -> ↓regional microci",
-            "score": 0.9125665037015043,
-            "start": 1346,
+            "text": "↓Viscosity -> ↑regional microcirculatory\n  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO,",
+            "score": 0.8394265174382769,
+            "start": 1284,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.21360460483229088,
+            "score": 0.24759886867237513,
             "start": 0,
-            "end": 1345
+            "end": 1283
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7152399688596441,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1835038816726888,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.7152399688596441,
+            "score": 0.1835038816726888,
             "start": 0,
             "end": 1324
           },
           {
             "text": "  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity",
-            "score": 0.42811035490001087,
+            "score": 0.0957480960268055,
             "start": 1325,
             "end": 2126
           }
@@ -359,18 +357,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7969743099290385,
+        "score": 0.3855081211630234,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Thrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity -> ↓regional microci",
-            "score": 0.7969743099290385,
+            "score": 0.3855081211630234,
             "start": 1346,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.5526266741596836,
+            "score": 0.2534634949725546,
             "start": 0,
             "end": 1345
           }

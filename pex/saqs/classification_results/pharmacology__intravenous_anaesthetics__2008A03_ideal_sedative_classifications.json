@@ -14,14 +14,9 @@
     },
     "content_dimensions": [
       "pharmacokinetic_process",
-      "organ_system_process",
-      "special_population_role",
-      "nociception_process",
-      "equipment_and_physics",
-      "drug_receptor_disposition"
+      "equipment_and_physics"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link",
       "homeostatic_regulation",
       "dose_response_relationship"
@@ -226,50 +221,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6435311373382169,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5650343136403116,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulation of airway secretion\nY\nY",
+            "score": 0.5650343136403116,
+            "start": 2514,
+            "end": 2711
+          },
+          {
+            "text": "fast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 h",
+            "score": 0.43673197636150307,
+            "start": 1381,
+            "end": 2513
+          },
+          {
+            "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
+            "score": 0.15799633458154788,
+            "start": 0,
+            "end": 1380
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.4674978054054969,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "1/2\nα\nfast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: ",
-            "score": 0.6435311373382169,
+            "score": 0.4674978054054969,
             "start": 1375,
             "end": 2454
           },
           {
             "text": "↓mAP\nNo respiratory depression\nSignificant, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBr",
-            "score": 0.34469455337775406,
+            "score": 0.313618949200329,
             "start": 2455,
             "end": 2711
           },
           {
             "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
-            "score": 0.15041593405613324,
+            "score": 0.21055038795004374,
             "start": 0,
             "end": 1374
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.4584718834086257,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "Y (t\n1/2\nα\nfast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min",
-            "score": 0.4584718834086257,
-            "start": 1370,
-            "end": 2450
-          },
-          {
-            "text": "↓CO\n↓mAP\nNo respiratory depression\nSignificant, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMor",
-            "score": 0.32971927115415006,
-            "start": 2451,
-            "end": 2711
-          },
-          {
-            "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
-            "score": 0.1898819772959151,
-            "start": 0,
-            "end": 1369
           }
         ]
       },
@@ -298,26 +293,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8065187877039502,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5200926342135807,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "fast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 h",
-            "score": 0.8065187877039502,
-            "start": 1381,
-            "end": 2513
+            "text": "Y (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 hours (unimpor",
+            "score": 0.5200926342135807,
+            "start": 1394,
+            "end": 2522
           },
           {
-            "text": "↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulation of airway secretion\nY\nY",
-            "score": 0.6291091671128806,
-            "start": 2514,
+            "text": "↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulation of airway secretion\nY\nY",
+            "score": 0.3544960170208435,
+            "start": 2523,
             "end": 2711
           },
           {
             "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
-            "score": 0.17248408020698391,
+            "score": 0.21283868086355118,
             "start": 0,
-            "end": 1380
+            "end": 1393
           }
         ]
       },
@@ -346,50 +341,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.44472935530438973,
+        "score": 0.4932334084386612,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "1/2\nα\nfast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: ",
-            "score": 0.44472935530438973,
-            "start": 1375,
-            "end": 2454
-          },
-          {
-            "text": "↓mAP\nNo respiratory depression\nSignificant, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBr",
-            "score": 0.2937785327050844,
-            "start": 2455,
+            "text": "↓HR, ↓contractility, ↓SVR\n↓CO\n↓mAP\nNo respiratory depression\nSignificant, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserve",
+            "score": 0.4932334084386612,
+            "start": 2425,
             "end": 2711
           },
           {
+            "text": "Y (>99%)\nY (t\n1/2\nα\nfast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60",
+            "score": 0.373146719717882,
+            "start": 1361,
+            "end": 2424
+          },
+          {
             "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
-            "score": 0.24510806609584046,
+            "score": 0.18071066347481568,
             "start": 0,
-            "end": 1374
+            "end": 1360
           }
         ]
       },
       "nociception_process": {
-        "score": 0.773134110443348,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.14548752973312049,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "α\nfast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12",
-            "score": 0.773134110443348,
-            "start": 1379,
-            "end": 2485
-          },
-          {
             "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
-            "score": 0.7354515362224836,
+            "score": 0.14548752973312049,
             "start": 0,
-            "end": 1378
+            "end": 1398
           },
           {
-            "text": "Significant, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulatio",
-            "score": 0.6432842441547613,
-            "start": 2486,
+            "text": "2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulation of airway secretion\nY\nY",
+            "score": 0.10957409746514832,
+            "start": 2541,
             "end": 2711
+          },
+          {
+            "text": "DSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 hours (unimportant)",
+            "score": 0.08083535454544834,
+            "start": 1399,
+            "end": 2540
           }
         ]
       },
@@ -418,48 +413,48 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7444242132356791,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.6702807288458499,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulation of airway secretion\nY\nY",
-            "score": 0.7444242132356791,
-            "start": 2541,
+            "text": "1/2\nα\nfast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: ",
+            "score": 0.6702807288458499,
+            "start": 1375,
+            "end": 2454
+          },
+          {
+            "text": "↓mAP\nNo respiratory depression\nSignificant, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBr",
+            "score": 0.5639223651788641,
+            "start": 2455,
             "end": 2711
           },
           {
-            "text": "DSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 hours (unimportant)",
-            "score": 0.37893263772374886,
-            "start": 1399,
-            "end": 2540
-          },
-          {
             "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
-            "score": 0.25940131470313366,
+            "score": 0.21055038795004374,
             "start": 0,
-            "end": 1398
+            "end": 1374
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7890692179613494,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.23406919549587674,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "fast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 h",
-            "score": 0.7890692179613494,
-            "start": 1381,
-            "end": 2485
-          },
-          {
-            "text": "Significant, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulatio",
-            "score": 0.461032677654174,
-            "start": 2486,
+            "text": "↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulation of airway secretion\nY\nY",
+            "score": 0.23406919549587674,
+            "start": 2514,
             "end": 2711
           },
           {
+            "text": "fast 2 mins)\nY (V\nDSS\n4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 h",
+            "score": 0.15799633458154788,
+            "start": 1381,
+            "end": 2513
+          },
+          {
             "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
-            "score": 0.30570328895109333,
+            "score": 0.14917447507309806,
             "start": 0,
             "end": 1380
           }
@@ -468,24 +463,24 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7276325221722416,
+        "score": 0.2946878539714319,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 hours (unimportant)\nNon",
-            "score": 0.7276325221722416,
-            "start": 1403,
-            "end": 2544
-          },
-          {
             "text": "  ↑PaCO\n2\nMild, dose-dependent\n↓RR, ↓TV\n↓Response to ↓PaO\n2\n,\n  ↑PaCO\n2\nPreserved airway reflexes\nLess\nMore\nBronchodilation\nY\nN\nNo stimulation of airway secretion\nY\nY",
-            "score": 0.6859125732217579,
+            "score": 0.2946878539714319,
             "start": 2545,
             "end": 2711
           },
           {
+            "text": "4L/kg)\nY/N (t\n1/2ke0\n4 mins)\nY\nY (90%\nY (t1/2\nα\n?)\nY (V\nDSS\n1.5L/kg)\nMetabolism\nRapid clearance\nShort t\n1/2\nβ\nNo active metabolites (prolongs effect)\nY: 30-60mL/kg/min\nNo: 5-12 hours (unimportant)\nNon",
+            "score": 0.20302569007096166,
+            "start": 1403,
+            "end": 2544
+          },
+          {
             "text": "2008A03 Describe\nthe ideal pharmacokinetic and pharmacodynamic properties of agents used for\nsedation.\nOutline the pharmacology of midazolam and propofol with reference to these\nideal properties.\nList",
-            "score": 0.31502532066888583,
+            "score": 0.0957480960268055,
             "start": 0,
             "end": 1402
           }

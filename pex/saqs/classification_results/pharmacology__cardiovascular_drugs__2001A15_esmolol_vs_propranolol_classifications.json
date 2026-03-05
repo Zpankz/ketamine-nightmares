@@ -13,16 +13,12 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "nociception_process",
-      "equipment_and_physics",
-      "drug_receptor_disposition",
+      "pharmacokinetic_process",
       "neuromuscular_process",
-      "pharmacokinetic_process"
+      "drug_receptor_disposition",
+      "equipment_and_physics"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -175,38 +171,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7794311829278053,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.6125884700934532,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
-            "score": 0.7794311829278053,
+            "score": 0.6125884700934532,
             "start": 0,
-            "end": 1254
+            "end": 1281
           },
           {
-            "text": "Thyrotoxicosis\n·\nAnxiety\n·\nTremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV blo",
-            "score": 0.6220757285522401,
-            "start": 1255,
+            "text": "Tremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acute LV failure",
+            "score": 0.3254234590270125,
+            "start": 1282,
             "end": 1915
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5856579716804575,
+        "score": 0.584752005012337,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
-            "score": 0.5856579716804575,
-            "start": 0,
-            "end": 1252
+            "text": "Thyrotoxicosis\n·\nAnxiety\n·\nTremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV blo",
+            "score": 0.584752005012337,
+            "start": 1255,
+            "end": 1915
           },
           {
-            "text": "·\nThyrotoxicosis\n·\nAnxiety\n·\nTremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV b",
-            "score": 0.5401551603435621,
-            "start": 1253,
-            "end": 1915
+            "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
+            "score": 0.5689543629207361,
+            "start": 0,
+            "end": 1254
           }
         ]
       },
@@ -229,20 +225,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8514439119340944,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.3986349420472507,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Tremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acute LV failure",
-            "score": 0.8514439119340944,
-            "start": 1282,
-            "end": 1915
+            "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
+            "score": 0.3986349420472507,
+            "start": 0,
+            "end": 1288
           },
           {
-            "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
-            "score": 0.3052405443745728,
-            "start": 0,
-            "end": 1281
+            "text": "·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acute LV failure, worse",
+            "score": 0.3916091398612368,
+            "start": 1289,
+            "end": 1915
           }
         ]
       },
@@ -265,38 +261,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7606506175553334,
+        "score": 0.6543301029823438,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Thyrotoxicosis\n·\nAnxiety\n·\nTremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV blo",
-            "score": 0.7606506175553334,
-            "start": 1255,
+            "text": "·\nHOCM\n·\nThyrotoxicosis\n·\nAnxiety\n·\nTremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCV",
+            "score": 0.6543301029823438,
+            "start": 1246,
             "end": 1915
           },
           {
             "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
-            "score": 0.5692154451656738,
+            "score": 0.6238382375985251,
             "start": 0,
-            "end": 1254
+            "end": 1245
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8514439119340944,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.10301730154669217,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nAnxiety\n·\nTremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acut",
-            "score": 0.8514439119340944,
-            "start": 1270,
-            "end": 1915
+            "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
+            "score": 0.10301730154669217,
+            "start": 0,
+            "end": 1290
           },
           {
-            "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
-            "score": 0.7129981793841875,
-            "start": 0,
-            "end": 1269
+            "text": "Intra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acute LV failure, worsen ",
+            "score": 0.09292765927996026,
+            "start": 1291,
+            "end": 1915
           }
         ]
       },
@@ -319,37 +315,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8495840659438667,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.6096643119546556,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Intra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acute LV failure, worsen ",
-            "score": 0.8495840659438667,
-            "start": 1291,
+            "text": "Thyrotoxicosis\n·\nAnxiety\n·\nTremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV blo",
+            "score": 0.6096643119546556,
+            "start": 1255,
             "end": 1915
           },
           {
             "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
-            "score": 0.37440199658521534,
+            "score": 0.2803024686265447,
             "start": 0,
-            "end": 1290
+            "end": 1254
           }
         ]
       },
       "special_population_role": {
-        "score": 0.38893634000816285,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1752007806948695,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
-            "score": 0.38893634000816285,
+            "score": 0.1752007806948695,
             "start": 0,
-            "end": 1271
+            "end": 1281
           },
           {
-            "text": "Anxiety\n·\nTremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acute ",
-            "score": 0.30339280916534545,
-            "start": 1272,
+            "text": "Tremor\n·\nIntra-op hypertension\n·\nAblate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acute LV failure",
+            "score": 0.13302177898555526,
+            "start": 1282,
             "end": 1915
           }
         ]
@@ -357,18 +353,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.763501866737401,
+        "score": 0.33452019961383367,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Ablate pressor response to laryngoscopy\nSide effects and toxicity\n·\nCNS: drowsiness, fatigue, depression, insomnia,\nnightmares\n·\nCVS: AV block, worsen acute LV failure, worsen peripheral\nvascular dise",
-            "score": 0.763501866737401,
+            "score": 0.33452019961383367,
             "start": 1315,
             "end": 1915
           },
           {
             "text": "2001A15 Compare and contrast\nthe pharmacology of esmolol and propranolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPropranolol\nEsmolol\nStructure\nRacemic\nAchiral\nPharmacokinetic:\nPropranolol\nEsmolol\nAdmin",
-            "score": 0.5551064985700492,
+            "score": 0.1290165055825653,
             "start": 0,
             "end": 1314
           }

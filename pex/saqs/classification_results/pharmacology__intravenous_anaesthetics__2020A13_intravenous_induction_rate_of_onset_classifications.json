@@ -16,17 +16,16 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
-      "special_population_role",
       "pharmacokinetic_process",
+      "special_population_role",
+      "drug_receptor_disposition",
+      "autonomic_disposition",
       "organ_system_process",
       "neuromuscular_process",
-      "nociception_process",
       "acid_base_quality"
     ],
     "explanatory_schema": [
       "structure_function_link",
-      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "dose_response_relationship"
     ]
@@ -230,48 +229,48 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9217217924782568,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7962289807006788,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  dose of propofol by 20%\n�\nAdditive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolera",
-            "score": 0.9217217924782568,
-            "start": 2691,
+            "text": "Additive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolerance: chronic barbiturate use",
+            "score": 0.7962289807006788,
+            "start": 2719,
             "end": 3384
           },
           {
             "text": "  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Dis",
-            "score": 0.5286334489432762,
+            "score": 0.7066756231196865,
             "start": 1642,
-            "end": 2690
+            "end": 2718
           },
           {
             "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
-            "score": 0.36216332407375884,
+            "score": 0.19785291387817477,
             "start": 0,
             "end": 1641
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.3855081211630234,
+        "score": 0.7675423837290772,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  dose of propofol by 20%\n�\nAdditive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolera",
-            "score": 0.3855081211630234,
+            "score": 0.7675423837290772,
             "start": 2691,
             "end": 3384
           },
           {
             "text": "  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Dis",
-            "score": 0.32399687407609323,
+            "score": 0.42954485959835287,
             "start": 1642,
             "end": 2690
           },
           {
             "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
-            "score": 0.23528193134215322,
+            "score": 0.2965105210895817,
             "start": 0,
             "end": 1641
           }
@@ -302,26 +301,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8652388596695139,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.766334278517655,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Dis",
-            "score": 0.8652388596695139,
+            "score": 0.766334278517655,
             "start": 1642,
             "end": 2718
           },
           {
-            "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
-            "score": 0.5525280916771533,
-            "start": 0,
-            "end": 1641
-          },
-          {
             "text": "Additive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolerance: chronic barbiturate use",
-            "score": 0.22370484839267127,
+            "score": 0.3852545540909096,
             "start": 2719,
             "end": 3384
+          },
+          {
+            "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
+            "score": 0.26111115675759133,
+            "start": 0,
+            "end": 1641
           }
         ]
       },
@@ -350,50 +349,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8348556669051774,
+        "score": 0.7048569815755269,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
-            "score": 0.8348556669051774,
-            "start": 0,
-            "end": 1641
-          },
-          {
-            "text": "  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Dis",
-            "score": 0.766334278517655,
-            "start": 1642,
-            "end": 2690
-          },
-          {
-            "text": "  dose of propofol by 20%\n�\nAdditive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolera",
-            "score": 0.5714333213640734,
-            "start": 2691,
+            "text": "Synergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n�\nAdditive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.",
+            "score": 0.7048569815755269,
+            "start": 2648,
             "end": 3384
+          },
+          {
+            "text": "↓Central blood volume\n  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output ",
+            "score": 0.5881145504687313,
+            "start": 1620,
+            "end": 2647
+          },
+          {
+            "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
+            "score": 0.2602554991469016,
+            "start": 0,
+            "end": 1619
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8234313128912258,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1336000407096868,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
+            "text": "Additive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolerance: chronic barbiturate use",
+            "score": 0.1336000407096868,
+            "start": 2719,
+            "end": 3384
+          },
+          {
             "text": "  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Dis",
-            "score": 0.8234313128912258,
+            "score": 0.11905584709916793,
             "start": 1642,
-            "end": 2690
+            "end": 2718
           },
           {
             "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
-            "score": 0.7482196179441566,
+            "score": 0.1179788782423308,
             "start": 0,
             "end": 1641
-          },
-          {
-            "text": "  dose of propofol by 20%\n�\nAdditive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolera",
-            "score": 0.700745477047508,
-            "start": 2691,
-            "end": 3384
           }
         ]
       },
@@ -422,48 +421,48 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.5646746255830829,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.4512082304921907,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
-            "score": 0.5646746255830829,
-            "start": 0,
-            "end": 1641
+            "text": "  dose of propofol by 20%\n�\nAdditive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolera",
+            "score": 0.4512082304921907,
+            "start": 2691,
+            "end": 3384
           },
           {
             "text": "  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Dis",
-            "score": 0.22135047558413734,
+            "score": 0.43827040779926224,
+            "start": 1642,
+            "end": 2690
+          },
+          {
+            "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
+            "score": 0.13417982729181727,
+            "start": 0,
+            "end": 1641
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8432827798420172,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Dis",
+            "score": 0.8432827798420172,
             "start": 1642,
             "end": 2718
           },
           {
             "text": "Additive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolerance: chronic barbiturate use",
-            "score": 0.19638930530173287,
+            "score": 0.45545163275887945,
             "start": 2719,
-            "end": 3384
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.8857441707387281,
-        "description": "Population-specific considerations (BFO: role)",
-        "top_chunks": [
-          {
-            "text": "  (↑pregnant/obese/neonate, ↓elderly/shock)\n�\n↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Dis",
-            "score": 0.8857441707387281,
-            "start": 1642,
-            "end": 2716
-          },
-          {
-            "text": "�\nAdditive: e.g. ↓propofol Cp\n50\nif co-induction with volatile agent\n�\nInfra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolerance: chronic barbiturate u",
-            "score": 0.8692760518176514,
-            "start": 2717,
             "end": 3384
           },
           {
             "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
-            "score": 0.5157850886069901,
+            "score": 0.3197334123420778,
             "start": 0,
             "end": 1641
           }
@@ -472,24 +471,24 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7647180686578468,
+        "score": 0.5233382200659535,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2020A13 Describe\nthe time course between an intravenous injection of a general\nanaesthetic agent to loss of consciousness. Explain the delay using\npharmacokinetic principles.\nList:\n�\nIntro\n�\nSummary\n�",
-            "score": 0.7647180686578468,
+            "score": 0.5233382200659535,
             "start": 0,
             "end": 1687
           },
           {
             "text": "↑Recirculatory second peak (important if\n  bolus is slow)\nTime to peak\nSpeed\n∝\n�\n↑Rate of delivery to effect site\no\n↑Cardiac output (note bivalent)\no\n↓Distance from injection site (e.g. jugular\n  cf. ",
-            "score": 0.6702807288458499,
+            "score": 0.3369314435607793,
             "start": 1688,
             "end": 2787
           },
           {
             "text": "Infra-additive: e.g. ketamine + midazolam\n�\nAntagonistic: e.g. propofol + acute\n  amphetamines\n�\nTolerance: chronic barbiturate use ->\n  ↑Cp\n50\nPharmacogenomics\n�\ne.g. propofol Cp\n50\nfor immobility\n  ",
-            "score": 0.34469455337775406,
+            "score": 0.2852076985629369,
             "start": 2788,
             "end": 3384
           }

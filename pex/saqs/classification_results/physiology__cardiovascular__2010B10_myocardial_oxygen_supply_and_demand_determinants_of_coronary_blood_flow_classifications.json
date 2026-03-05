@@ -15,16 +15,14 @@
       "score": 0.6731472684489259
     },
     "content_dimensions": [
-      "nociception_process",
-      "organ_system_process",
-      "equipment_and_physics",
       "autonomic_disposition",
+      "equipment_and_physics",
+      "drug_receptor_disposition",
       "pharmacokinetic_process",
-      "neuromuscular_process"
+      "organ_system_process"
     ],
     "explanatory_schema": [
       "structure_function_link",
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -179,36 +177,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.3804468310238008,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7414513938748561,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "systole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregu",
-            "score": 0.3804468310238008,
-            "start": 1343,
+            "text": "Supply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n",
+            "score": 0.7414513938748561,
+            "start": 1353,
             "end": 2183
           },
           {
             "text": "2010B10 Discuss the factors\nthat influence coronary blood flow.\nList:\n·\nCoronary arterial anatomy\n·\nDeterminants of coronary blood flow – left\nand right\nCoronary arterial\nanatomy:\nLMCA\n·\nOrigin behind",
-            "score": 0.09292765927996026,
+            "score": 0.09861813254725033,
             "start": 0,
-            "end": 1342
+            "end": 1352
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.8164961183273113,
+        "score": 0.7917236677307524,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Compression of small intramyocardial vessels in\nsystole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\n",
-            "score": 0.8164961183273113,
+            "score": 0.7917236677307524,
             "start": 1295,
             "end": 2183
           },
           {
             "text": "2010B10 Discuss the factors\nthat influence coronary blood flow.\nList:\n·\nCoronary arterial anatomy\n·\nDeterminants of coronary blood flow – left\nand right\nCoronary arterial\nanatomy:\nLMCA\n·\nOrigin behind",
-            "score": 0.0952745927410768,
+            "score": 0.09765591089184561,
             "start": 0,
             "end": 1294
           }
@@ -233,18 +231,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8532897173544827,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6358483091534938,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Supply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n",
-            "score": 0.8532897173544827,
+            "score": 0.6358483091534938,
             "start": 1353,
             "end": 2183
           },
           {
             "text": "2010B10 Discuss the factors\nthat influence coronary blood flow.\nList:\n·\nCoronary arterial anatomy\n·\nDeterminants of coronary blood flow – left\nand right\nCoronary arterial\nanatomy:\nLMCA\n·\nOrigin behind",
-            "score": 0.8157938246409508,
+            "score": 0.18774158236383576,
             "start": 0,
             "end": 1352
           }
@@ -269,38 +267,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6606502369044678,
+        "score": 0.34493828749529926,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Compression of small intramyocardial vessels in\nsystole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\n",
-            "score": 0.6606502369044678,
+            "score": 0.34493828749529926,
             "start": 1295,
             "end": 2183
           },
           {
             "text": "2010B10 Discuss the factors\nthat influence coronary blood flow.\nList:\n·\nCoronary arterial anatomy\n·\nDeterminants of coronary blood flow – left\nand right\nCoronary arterial\nanatomy:\nLMCA\n·\nOrigin behind",
-            "score": 0.5649035246532859,
+            "score": 0.14548752973312049,
             "start": 0,
             "end": 1294
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8732389311266837,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.11905584709916793,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "systole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregu",
-            "score": 0.8732389311266837,
-            "start": 1343,
+            "text": "diastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n↑AoP ->\n↑coronary arter",
+            "score": 0.11905584709916793,
+            "start": 1376,
             "end": 2183
           },
           {
             "text": "2010B10 Discuss the factors\nthat influence coronary blood flow.\nList:\n·\nCoronary arterial anatomy\n·\nDeterminants of coronary blood flow – left\nand right\nCoronary arterial\nanatomy:\nLMCA\n·\nOrigin behind",
-            "score": 0.10702368540104822,
+            "score": 0.08653659094165504,
             "start": 0,
-            "end": 1342
+            "end": 1375
           }
         ]
       },
@@ -323,56 +321,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8374770746416548,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.748639460220768,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "diastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n↑AoP ->\n↑coronary arter",
-            "score": 0.8374770746416548,
-            "start": 1376,
+            "text": "systole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregu",
+            "score": 0.748639460220768,
+            "start": 1343,
             "end": 2183
           },
           {
             "text": "2010B10 Discuss the factors\nthat influence coronary blood flow.\nList:\n·\nCoronary arterial anatomy\n·\nDeterminants of coronary blood flow – left\nand right\nCoronary arterial\nanatomy:\nLMCA\n·\nOrigin behind",
-            "score": 0.12452970475004799,
+            "score": 0.19059863367246443,
             "start": 0,
-            "end": 1375
+            "end": 1342
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3809519972103232,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1835038816726888,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "o\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\n",
-            "score": 0.3809519972103232,
-            "start": 1351,
+            "text": "Supply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n",
+            "score": 0.1835038816726888,
+            "start": 1353,
             "end": 2183
           },
           {
             "text": "2010B10 Discuss the factors\nthat influence coronary blood flow.\nList:\n·\nCoronary arterial anatomy\n·\nDeterminants of coronary blood flow – left\nand right\nCoronary arterial\nanatomy:\nLMCA\n·\nOrigin behind",
-            "score": 0.0957480960268055,
+            "score": 0.0812660655061236,
             "start": 0,
-            "end": 1350
+            "end": 1352
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8171968162419349,
+        "score": 0.2492669590277905,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Metabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> dilate\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n↑AoP ->\n↑coronary artery stretch -",
-            "score": 0.8171968162419349,
+            "score": 0.2492669590277905,
             "start": 1387,
             "end": 2183
           },
           {
             "text": "2010B10 Discuss the factors\nthat influence coronary blood flow.\nList:\n·\nCoronary arterial anatomy\n·\nDeterminants of coronary blood flow – left\nand right\nCoronary arterial\nanatomy:\nLMCA\n·\nOrigin behind",
-            "score": 0.4271980174927452,
+            "score": 0.17248408020698391,
             "start": 0,
             "end": 1386
           }

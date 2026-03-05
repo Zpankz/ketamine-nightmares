@@ -19,16 +19,14 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "nociception_process",
-      "neuromuscular_process",
-      "drug_receptor_disposition",
       "equipment_and_physics",
-      "special_population_role",
+      "drug_receptor_disposition",
+      "organ_system_process",
+      "neuromuscular_process",
+      "autonomic_disposition",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -184,7 +182,7 @@
     "content_dimensions": {
       "drug_receptor_disposition": {
         "score": 0.8072418249488453,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
@@ -194,33 +192,33 @@
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.15103900835879944,
+            "score": 0.13946678392103212,
             "start": 0,
             "end": 1467
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.5466399160547698,
+        "score": 0.7341565171559492,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑osmolality (sensitive to\n∆\n2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into ap",
-            "score": 0.5466399160547698,
-            "start": 1440,
-            "end": 2711
+            "text": "∆\n2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collectin",
+            "score": 0.7341565171559492,
+            "start": 1466,
+            "end": 2741
           },
           {
-            "text": "↑ renin release (see RAAS) (β\n1\n)",
-            "score": 0.3510534842604531,
-            "start": 2712,
+            "text": "1\n)",
+            "score": 0.31081469123397315,
+            "start": 2742,
             "end": 2745
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.23690430309393176,
+            "score": 0.225282248199159,
             "start": 0,
-            "end": 1439
+            "end": 1465
           }
         ]
       },
@@ -243,20 +241,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8904259025348517,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7798214241424282,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.8904259025348517,
-            "start": 0,
-            "end": 1467
-          },
-          {
             "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
-            "score": 0.8288647205382538,
+            "score": 0.7798214241424282,
             "start": 1468,
             "end": 2745
+          },
+          {
+            "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
+            "score": 0.2807466545501725,
+            "start": 0,
+            "end": 1467
           }
         ]
       },
@@ -279,54 +277,54 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8094013663275356,
+        "score": 0.7345885543754173,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "∆\n2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collectin",
-            "score": 0.8094013663275356,
-            "start": 1466,
-            "end": 2741
+            "text": "↑osmolality (sensitive to\n∆\n2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into ap",
+            "score": 0.7345885543754173,
+            "start": 1440,
+            "end": 2707
+          },
+          {
+            "text": ")\n·\n↑ renin release (see RAAS) (β\n1\n)",
+            "score": 0.7147923014370632,
+            "start": 2708,
+            "end": 2745
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.6676438013055915,
+            "score": 0.21901020621216397,
             "start": 0,
-            "end": 1465
-          },
-          {
-            "text": "1\n)",
-            "score": 0.2807466545501725,
-            "start": 2742,
-            "end": 2745
+            "end": 1439
           }
         ]
       },
       "nociception_process": {
-        "score": 0.875470295249952,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.27193002429858243,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
-            "score": 0.875470295249952,
-            "start": 1468,
+            "text": "↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInserti",
+            "score": 0.27193002429858243,
+            "start": 1508,
             "end": 2745
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.2636869411249029,
+            "score": 0.10153827963475912,
             "start": 0,
-            "end": 1467
+            "end": 1507
           }
         ]
       },
       "acid_base_quality": {
-        "score": 0.5106134602456694,
+        "score": 0.5177734660890345,
         "description": "Acid-base and electrolyte qualities (BFO: quality)",
         "top_chunks": [
           {
             "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
-            "score": 0.5106134602456694,
+            "score": 0.5177734660890345,
             "start": 1468,
             "end": 2745
           },
@@ -339,68 +337,74 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7813784651714728,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8185934252001217,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInserti",
-            "score": 0.7813784651714728,
-            "start": 1508,
+            "text": "∆\n2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collectin",
+            "score": 0.8185934252001217,
+            "start": 1466,
+            "end": 2743
+          },
+          {
+            "text": ")",
+            "score": 0.5201257600803928,
+            "start": 2744,
             "end": 2745
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.225282248199159,
+            "score": 0.10500911959371668,
             "start": 0,
-            "end": 1507
+            "end": 1465
           }
         ]
       },
       "special_population_role": {
-        "score": 0.7332913519466231,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.19275817505115483,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
-            "score": 0.7332913519466231,
-            "start": 1468,
-            "end": 2745
-          },
-          {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.7306871567814641,
+            "score": 0.19275817505115483,
             "start": 0,
             "end": 1467
+          },
+          {
+            "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
+            "score": 0.1835038816726888,
+            "start": 1468,
+            "end": 2745
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8387782837936923,
+        "score": 0.4443682697333246,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInserti",
-            "score": 0.8387782837936923,
+            "score": 0.4443682697333246,
             "start": 1508,
             "end": 2745
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.7825421217837121,
+            "score": 0.307093459852579,
             "start": 0,
             "end": 1507
           }
         ]
       },
       "dose_response_relationship": {
-        "score": 0.33862352931131995,
+        "score": 0.335724931895025,
         "description": "Dose/stimulus → response → modifiers pattern",
         "top_chunks": [
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.33862352931131995,
+            "score": 0.335724931895025,
             "start": 0,
             "end": 1507
           },

@@ -13,13 +13,9 @@
       ]
     },
     "content_dimensions": [
-      "gas_exchange_process",
-      "organ_system_process",
-      "equipment_and_physics",
-      "neuromuscular_process"
+      "gas_exchange_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "dose_response_relationship",
       "structure_function_link"
@@ -176,36 +172,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.19420584422163265,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.23245761627092265,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "= (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper 100mL arterial blood\nEffect ",
-            "score": 0.19420584422163265,
+            "score": 0.23245761627092265,
             "start": 1394,
             "end": 2330
           },
           {
             "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
-            "score": 0.15291762409217716,
+            "score": 0.17046326482945487,
             "start": 0,
             "end": 1393
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.22449276740188667,
+        "score": 0.2530421557773242,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Coronary vascular resistance\n= (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper",
-            "score": 0.22449276740188667,
+            "score": 0.2530421557773242,
             "start": 1365,
             "end": 2330
           },
           {
             "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
-            "score": 0.14245781704193952,
+            "score": 0.16646454350278764,
             "start": 0,
             "end": 1364
           }
@@ -230,20 +226,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8575421829580605,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.5584640420715531,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
-            "score": 0.8575421829580605,
-            "start": 0,
-            "end": 1393
-          },
-          {
             "text": "= (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper 100mL arterial blood\nEffect ",
-            "score": 0.4763969046186327,
+            "score": 0.5584640420715531,
             "start": 1394,
             "end": 2330
+          },
+          {
+            "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
+            "score": 0.5043785143000725,
+            "start": 0,
+            "end": 1393
           }
         ]
       },
@@ -266,38 +262,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6071161676031026,
+        "score": 0.30017184092373095,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Coronary vascular resistance\n= (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper",
-            "score": 0.6071161676031026,
-            "start": 1365,
+            "text": "In diastole = [AoP (80) – CVP (2)] / resistance\nCoronary vascular resistance\n= (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x S",
+            "score": 0.30017184092373095,
+            "start": 1317,
             "end": 2330
           },
           {
             "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
-            "score": 0.20676821579165858,
+            "score": 0.14185652155095707,
             "start": 0,
-            "end": 1364
+            "end": 1316
           }
         ]
       },
       "nociception_process": {
-        "score": 0.20006027090401593,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.09292765927996026,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "= (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper 100mL arterial blood\nEffect ",
-            "score": 0.20006027090401593,
-            "start": 1394,
+            "text": "x radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper 100mL arterial blood\nEffect on oxygen supply:\n↓%Diastole\n·\n↑H",
+            "score": 0.09292765927996026,
+            "start": 1427,
             "end": 2330
           },
           {
             "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
-            "score": 0.14245781704193952,
+            "score": 0.0924623723009821,
             "start": 0,
-            "end": 1393
+            "end": 1426
           }
         ]
       },
@@ -320,36 +316,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7341565171559492,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.23528193134215322,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "x radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper 100mL arterial blood\nEffect on oxygen supply:\n↓%Diastole\n·\n↑H",
-            "score": 0.7341565171559492,
-            "start": 1427,
+            "text": "Coronary vascular resistance\n= (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper",
+            "score": 0.23528193134215322,
+            "start": 1365,
             "end": 2330
           },
           {
             "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
-            "score": 0.2007992399296327,
+            "score": 0.1485560880659056,
             "start": 0,
-            "end": 1426
+            "end": 1364
           }
         ]
       },
       "special_population_role": {
-        "score": 0.1934812122960498,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.12620097548419282,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "= (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper 100mL arterial blood\nEffect ",
-            "score": 0.1934812122960498,
+            "score": 0.12620097548419282,
             "start": 1394,
             "end": 2330
           },
           {
             "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
-            "score": 0.12232229789744709,
+            "score": 0.11584261865163957,
             "start": 0,
             "end": 1393
           }
@@ -358,18 +354,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8234313128912258,
+        "score": 0.5588136646190451,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2003B09 Describe\nthe effects of tachycardia on myocardial oxygen supply and demand in a normal\nheart.\nList:\n·\nIntro\n·\nEffects on supply\n·\nEffects on demand\nIntro:\nBackground\n·\nHigh O\n2\nconsumption: MV",
-            "score": 0.8234313128912258,
+            "score": 0.5588136646190451,
             "start": 0,
             "end": 1435
           },
           {
             "text": "4\n)\n(radius is the major factor since power of four)\nOxygen content\n= [Hb]g/L x SaO\n2\n% x 1.34 + 0.03 x PaO\n2\nNormal 20mL O\n2\nper 100mL arterial blood\nEffect on oxygen supply:\n↓%Diastole\n·\n↑HR -> ↓flo",
-            "score": 0.7280699757014175,
+            "score": 0.32924077855991984,
             "start": 1436,
             "end": 2330
           }

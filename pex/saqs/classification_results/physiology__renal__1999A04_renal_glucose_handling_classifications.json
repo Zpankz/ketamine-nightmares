@@ -15,13 +15,8 @@
         "immediately_applicable"
       ]
     },
-    "content_dimensions": [
-      "organ_system_process",
-      "nociception_process",
-      "special_population_role"
-    ],
+    "content_dimensions": [],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -176,38 +171,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5409056098367956,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.4062108692441719,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
+            "score": 0.4062108692441719,
+            "start": 0,
+            "end": 1404
+          },
+          {
+            "text": "/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
+            "score": 0.21055038795004374,
+            "start": 1405,
+            "end": 1566
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.5591414710601781,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": ": due to medullary washout and ↑Na\n+\n/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
-            "score": 0.5409056098367956,
+            "score": 0.5591414710601781,
             "start": 1368,
             "end": 1566
           },
           {
             "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
-            "score": 0.31081469123397315,
+            "score": 0.24386778071856008,
             "start": 0,
             "end": 1367
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.41136874226725056,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "+\n: due to medullary washout and ↑Na\n+\n/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
-            "score": 0.41136874226725056,
-            "start": 1366,
-            "end": 1566
-          },
-          {
-            "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
-            "score": 0.19131688553747267,
-            "start": 0,
-            "end": 1365
           }
         ]
       },
@@ -230,20 +225,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8495840659438667,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4368628670492074,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
-            "score": 0.8495840659438667,
-            "start": 0,
-            "end": 1404
+            "text": "+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
+            "score": 0.4368628670492074,
+            "start": 1408,
+            "end": 1566
           },
           {
-            "text": "/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
-            "score": 0.3098824694419637,
-            "start": 1405,
-            "end": 1566
+            "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
+            "score": 0.41913611918087346,
+            "start": 0,
+            "end": 1407
           }
         ]
       },
@@ -266,38 +261,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.5340719185639581,
+        "score": 0.3183177445792676,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": ": due to medullary washout and ↑Na\n+\n/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
-            "score": 0.5340719185639581,
-            "start": 1368,
+            "text": "Loss of K\n+\n: due to medullary washout and ↑Na\n+\n/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑",
+            "score": 0.3183177445792676,
+            "start": 1356,
             "end": 1566
           },
           {
             "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
-            "score": 0.25472975212894494,
+            "score": 0.21207433610868814,
             "start": 0,
-            "end": 1367
+            "end": 1355
           }
         ]
       },
       "nociception_process": {
-        "score": 0.691513475003741,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1256423848664057,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": ": due to medullary washout and ↑Na\n+\n/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
-            "score": 0.691513475003741,
-            "start": 1368,
+            "text": "antiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
+            "score": 0.1256423848664057,
+            "start": 1410,
             "end": 1566
           },
           {
             "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
-            "score": 0.2381251169525195,
+            "score": 0.1010480871715535,
             "start": 0,
-            "end": 1367
+            "end": 1409
           }
         ]
       },
@@ -320,56 +315,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.23165414560489295,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.30155028868225636,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "antiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
-            "score": 0.23165414560489295,
-            "start": 1410,
+            "text": ": due to medullary washout and ↑Na\n+\n/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
+            "score": 0.30155028868225636,
+            "start": 1368,
             "end": 1566
           },
           {
             "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
-            "score": 0.12958413928918883,
+            "score": 0.12068239347016409,
             "start": 0,
-            "end": 1409
+            "end": 1367
           }
         ]
       },
       "special_population_role": {
-        "score": 0.6891853087660269,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.25812280612051225,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
-            "score": 0.6891853087660269,
-            "start": 0,
-            "end": 1367
+            "text": "/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
+            "score": 0.25812280612051225,
+            "start": 1405,
+            "end": 1566
           },
           {
-            "text": ": due to medullary washout and ↑Na\n+\n/K\n+\nantiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
-            "score": 0.463500273895174,
-            "start": 1368,
-            "end": 1566
+            "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
+            "score": 0.188453451539788,
+            "start": 0,
+            "end": 1404
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8557290077565394,
+        "score": 0.4680927918273457,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "1999A04 Explain\nhow the kidney handles glucose. Describe the physiological\nconsequences of glycosuria.\nList:\n·\nRenal handling\n·\nConsequences of glycosuria\nRenal handling:\nFiltration\n·\nPolar but small ",
-            "score": 0.8557290077565394,
+            "score": 0.4680927918273457,
             "start": 0,
             "end": 1409
           },
           {
             "text": "antiport in distal nephron (aldosterone)\nCompensatory responses\n·\nTo hyperosmolality: ↑ADH\n·\nTo hypovolaemia: ↑ADH, ↓ANP\n·\nTo hypotension: ↑SNS, ↑RAAS, ↑ADH",
-            "score": 0.7482196179441566,
+            "score": 0.3885549653159038,
             "start": 1410,
             "end": 1566
           }

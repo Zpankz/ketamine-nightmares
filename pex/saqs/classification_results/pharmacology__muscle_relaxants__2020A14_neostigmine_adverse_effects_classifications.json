@@ -14,14 +14,9 @@
     },
     "content_dimensions": [
       "drug_receptor_disposition",
-      "organ_system_process",
-      "neuromuscular_process",
-      "nociception_process",
-      "autonomic_disposition"
+      "neuromuscular_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -126,24 +121,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8341963544985169,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7977180499481404,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A13 Describe the adverse effects of neostigmine\nList:\n·\nPharmacodynamics\n·\nNicotonic adverse effects\n·\nMuscarinic adverse effects\nPharmacodynamics:\nReceptor interaction\n·\nForms reversible carbamyl",
-            "score": 0.8341963544985169,
+            "score": 0.7977180499481404,
             "start": 0,
             "end": 1187
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7075829226961883,
+        "score": 0.5114092440305866,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A13 Describe the adverse effects of neostigmine\nList:\n·\nPharmacodynamics\n·\nNicotonic adverse effects\n·\nMuscarinic adverse effects\nPharmacodynamics:\nReceptor interaction\n·\nForms reversible carbamyl",
-            "score": 0.7075829226961883,
+            "score": 0.5114092440305866,
             "start": 0,
             "end": 1187
           }
@@ -162,12 +157,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8094013663275356,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4961521957472001,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A13 Describe the adverse effects of neostigmine\nList:\n·\nPharmacodynamics\n·\nNicotonic adverse effects\n·\nMuscarinic adverse effects\nPharmacodynamics:\nReceptor interaction\n·\nForms reversible carbamyl",
-            "score": 0.8094013663275356,
+            "score": 0.4961521957472001,
             "start": 0,
             "end": 1187
           }
@@ -186,24 +181,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7659308045041232,
+        "score": 0.7786495244158627,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A13 Describe the adverse effects of neostigmine\nList:\n·\nPharmacodynamics\n·\nNicotonic adverse effects\n·\nMuscarinic adverse effects\nPharmacodynamics:\nReceptor interaction\n·\nForms reversible carbamyl",
-            "score": 0.7659308045041232,
+            "score": 0.7786495244158627,
             "start": 0,
             "end": 1187
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7345885543754173,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08924333203133303,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A13 Describe the adverse effects of neostigmine\nList:\n·\nPharmacodynamics\n·\nNicotonic adverse effects\n·\nMuscarinic adverse effects\nPharmacodynamics:\nReceptor interaction\n·\nForms reversible carbamyl",
-            "score": 0.7345885543754173,
+            "score": 0.08924333203133303,
             "start": 0,
             "end": 1187
           }
@@ -222,24 +217,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.22213370116389697,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.22449276740188667,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2020A13 Describe the adverse effects of neostigmine\nList:\n·\nPharmacodynamics\n·\nNicotonic adverse effects\n·\nMuscarinic adverse effects\nPharmacodynamics:\nReceptor interaction\n·\nForms reversible carbamyl",
-            "score": 0.22213370116389697,
+            "score": 0.22449276740188667,
             "start": 0,
             "end": 1187
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3330768842966407,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.16252292535834514,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2020A13 Describe the adverse effects of neostigmine\nList:\n·\nPharmacodynamics\n·\nNicotonic adverse effects\n·\nMuscarinic adverse effects\nPharmacodynamics:\nReceptor interaction\n·\nForms reversible carbamyl",
-            "score": 0.3330768842966407,
+            "score": 0.16252292535834514,
             "start": 0,
             "end": 1187
           }
@@ -248,12 +243,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7924785185551395,
+        "score": 0.17383924611324467,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2020A13 Describe the adverse effects of neostigmine\nList:\n·\nPharmacodynamics\n·\nNicotonic adverse effects\n·\nMuscarinic adverse effects\nPharmacodynamics:\nReceptor interaction\n·\nForms reversible carbamyl",
-            "score": 0.7924785185551395,
+            "score": 0.17383924611324467,
             "start": 0,
             "end": 1187
           }

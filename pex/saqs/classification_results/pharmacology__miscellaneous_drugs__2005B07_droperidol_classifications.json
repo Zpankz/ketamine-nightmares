@@ -16,14 +16,9 @@
       ]
     },
     "content_dimensions": [
-      "nociception_process",
-      "drug_receptor_disposition",
-      "pharmacokinetic_process",
-      "neuromuscular_process"
+      "pharmacokinetic_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -128,24 +123,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8308759955364141,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.5112766167063776,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005B07 Briefly\noutline the pharmacology of droperidol, emphasising its\nmechanism of action, peri-operative use and side effects.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nButyrophenone\nPresentati",
-            "score": 0.8308759955364141,
+            "score": 0.5112766167063776,
             "start": 0,
             "end": 1245
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.32732975003005915,
+        "score": 0.5770972927025286,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005B07 Briefly\noutline the pharmacology of droperidol, emphasising its\nmechanism of action, peri-operative use and side effects.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nButyrophenone\nPresentati",
-            "score": 0.32732975003005915,
+            "score": 0.5770972927025286,
             "start": 0,
             "end": 1245
           }
@@ -164,12 +159,12 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.591728013997075,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.2942330252332108,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B07 Briefly\noutline the pharmacology of droperidol, emphasising its\nmechanism of action, peri-operative use and side effects.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nButyrophenone\nPresentati",
-            "score": 0.591728013997075,
+            "score": 0.2942330252332108,
             "start": 0,
             "end": 1245
           }
@@ -188,24 +183,24 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7276325221722416,
+        "score": 0.17794296815077074,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B07 Briefly\noutline the pharmacology of droperidol, emphasising its\nmechanism of action, peri-operative use and side effects.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nButyrophenone\nPresentati",
-            "score": 0.7276325221722416,
+            "score": 0.17794296815077074,
             "start": 0,
             "end": 1245
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8557290077565394,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.07743609402993808,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B07 Briefly\noutline the pharmacology of droperidol, emphasising its\nmechanism of action, peri-operative use and side effects.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nButyrophenone\nPresentati",
-            "score": 0.8557290077565394,
+            "score": 0.07743609402993808,
             "start": 0,
             "end": 1245
           }
@@ -224,24 +219,24 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.42876227736966677,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.22213370116389697,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2005B07 Briefly\noutline the pharmacology of droperidol, emphasising its\nmechanism of action, peri-operative use and side effects.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nButyrophenone\nPresentati",
-            "score": 0.42876227736966677,
+            "score": 0.22213370116389697,
             "start": 0,
             "end": 1245
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3084865249962589,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.13129612675432087,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2005B07 Briefly\noutline the pharmacology of droperidol, emphasising its\nmechanism of action, peri-operative use and side effects.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nButyrophenone\nPresentati",
-            "score": 0.3084865249962589,
+            "score": 0.13129612675432087,
             "start": 0,
             "end": 1245
           }
@@ -250,12 +245,12 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8934820964473875,
+        "score": 0.07912544161184044,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2005B07 Briefly\noutline the pharmacology of droperidol, emphasising its\nmechanism of action, peri-operative use and side effects.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nClass\n·\nButyrophenone\nPresentati",
-            "score": 0.8934820964473875,
+            "score": 0.07912544161184044,
             "start": 0,
             "end": 1245
           }

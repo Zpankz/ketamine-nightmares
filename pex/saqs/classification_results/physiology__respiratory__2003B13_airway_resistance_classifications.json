@@ -16,16 +16,10 @@
       ]
     },
     "content_dimensions": [
-      "equipment_and_physics",
-      "organ_system_process",
       "acid_base_quality",
-      "special_population_role",
-      "nociception_process",
-      "neuromuscular_process"
+      "organ_system_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -178,38 +172,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4472254586731615,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.19638930530173287,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "Supine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstrict\no\nNANC: VIP -> N",
+            "score": 0.19638930530173287,
+            "start": 1313,
+            "end": 2452
+          },
+          {
+            "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
+            "score": 0.09433170997702066,
+            "start": 0,
+            "end": 1312
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.27808680603957303,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Pregnant\no\nObese\no\nSupine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstri",
-            "score": 0.4472254586731615,
+            "score": 0.27808680603957303,
             "start": 1294,
             "end": 2452
           },
           {
             "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
-            "score": 0.14306065974886034,
+            "score": 0.18632263173984007,
             "start": 0,
             "end": 1293
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.14609812862042407,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "↓Relative lung volume\no\nPregnant\no\nObese\no\nSupine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\n",
-            "score": 0.14609812862042407,
-            "start": 1270,
-            "end": 2452
-          },
-          {
-            "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
-            "score": 0.14427099224346063,
-            "start": 0,
-            "end": 1269
           }
         ]
       },
@@ -232,18 +226,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8617188382271614,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6157591903923476,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Supine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstrict\no\nNANC: VIP -> N",
-            "score": 0.8617188382271614,
+            "score": 0.6157591903923476,
             "start": 1313,
             "end": 2452
           },
           {
             "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
-            "score": 0.31408742677824225,
+            "score": 0.12845038342220835,
             "start": 0,
             "end": 1312
           }
@@ -268,38 +262,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6175312105099457,
+        "score": 0.29332437688031354,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Pregnant\no\nObese\no\nSupine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstri",
-            "score": 0.6175312105099457,
-            "start": 1294,
+            "text": "↓Relative lung volume\no\nPregnant\no\nObese\no\nSupine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\n",
+            "score": 0.29332437688031354,
+            "start": 1270,
             "end": 2452
           },
           {
             "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
-            "score": 0.17588393723954218,
+            "score": 0.20601653605049183,
             "start": 0,
-            "end": 1293
+            "end": 1269
           }
         ]
       },
       "nociception_process": {
-        "score": 0.6328584869118477,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.08083535454544834,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "o\nObese\no\nSupine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstrict\no\nNANC",
-            "score": 0.6328584869118477,
-            "start": 1303,
-            "end": 2452
+            "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
+            "score": 0.08083535454544834,
+            "start": 0,
+            "end": 1321
           },
           {
-            "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
-            "score": 0.12732266681585389,
-            "start": 0,
-            "end": 1302
+            "text": "Anaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstrict\no\nNANC: VIP -> NO dilatio",
+            "score": 0.07997781705562379,
+            "start": 1322,
+            "end": 2452
           }
         ]
       },
@@ -322,56 +316,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8929763145989518,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.5135310855925241,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Anaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstrict\no\nNANC: VIP -> NO dilatio",
-            "score": 0.8929763145989518,
-            "start": 1322,
+            "text": "Pregnant\no\nObese\no\nSupine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstri",
+            "score": 0.5135310855925241,
+            "start": 1294,
             "end": 2452
           },
           {
             "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
-            "score": 0.26714177530863603,
+            "score": 0.12397561162117983,
             "start": 0,
-            "end": 1321
+            "end": 1293
           }
         ]
       },
       "special_population_role": {
-        "score": 0.6403165939069506,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.29788102716500814,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Obese\no\nSupine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstrict\no\nNANC: ",
-            "score": 0.6403165939069506,
-            "start": 1305,
+            "text": "Supine\no\nAnaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstrict\no\nNANC: VIP -> N",
+            "score": 0.29788102716500814,
+            "start": 1313,
             "end": 2452
           },
           {
             "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
-            "score": 0.21283868086355118,
+            "score": 0.21745787821628798,
             "start": 0,
-            "end": 1304
+            "end": 1312
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7902092136687209,
+        "score": 0.5603539744521816,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Anaesthetised\n·\nIntraluminal obstruction:\no\nMucus, foreign body, tumour\n·\nLuminal obstruction: bronchoconstriction,\nswelling\no\nSNS:\nβ\n2\n-> dilate\no\nPSNS -> mAChR ->\nconstrict\no\nNANC: VIP -> NO dilatio",
-            "score": 0.7902092136687209,
+            "score": 0.5603539744521816,
             "start": 1322,
             "end": 2452
           },
           {
             "text": "2003B13 Describe the factors\nthat affect airways resistance.\nList:\n·\nIntro\n·\nFactors ↑lower airway\nresistance\n·\nFactors ↑upper airway\nresistance\nIntro:\nOhm’s law\n·\nResistance (cmH\n2\nO/L/s) = (mouth\npr",
-            "score": 0.19131688553747267,
+            "score": 0.17046326482945487,
             "start": 0,
             "end": 1321
           }

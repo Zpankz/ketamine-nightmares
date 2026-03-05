@@ -14,11 +14,10 @@
       "score": 0.5815125011674356
     },
     "content_dimensions": [
-      "drug_receptor_disposition"
+      "drug_receptor_disposition",
+      "organ_system_process"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -171,38 +170,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8043401089718551,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.6318599650869055,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Stimulate antral contraction:\nSource\nRelease stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerot",
-            "score": 0.8043401089718551,
-            "start": 1435,
-            "end": 1854
+            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
+            "score": 0.6318599650869055,
+            "start": 0,
+            "end": 1471
           },
           {
-            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
-            "score": 0.3718928726687599,
-            "start": 0,
-            "end": 1434
+            "text": "Release stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerotonin\nDuodenal wall?\n?\nInhibit antral ",
+            "score": 0.6142382595937566,
+            "start": 1472,
+            "end": 1854
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.36241165568293926,
+        "score": 0.35622203314571915,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
-            "score": 0.36241165568293926,
-            "start": 0,
-            "end": 1416
-          },
-          {
             "text": "Hormonal factors:\nStimulate antral contraction:\nSource\nRelease stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHy",
-            "score": 0.3131507853067769,
+            "score": 0.35622203314571915,
             "start": 1417,
             "end": 1854
+          },
+          {
+            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
+            "score": 0.23853282225019537,
+            "start": 0,
+            "end": 1416
           }
         ]
       },
@@ -225,18 +224,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.3468905981658887,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6245927608782155,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Release stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerotonin\nDuodenal wall?\n?\nInhibit antral ",
-            "score": 0.3468905981658887,
+            "score": 0.6245927608782155,
             "start": 1472,
             "end": 1854
           },
           {
             "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
-            "score": 0.13417982729181727,
+            "score": 0.5243976534237149,
             "start": 0,
             "end": 1471
           }
@@ -261,38 +260,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.25684762720296567,
+        "score": 0.3197334123420778,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Hormonal factors:\nStimulate antral contraction:\nSource\nRelease stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHy",
-            "score": 0.25684762720296567,
-            "start": 1417,
+            "text": "↑AC\nHormonal factors:\nStimulate antral contraction:\nSource\nRelease stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncell",
+            "score": 0.3197334123420778,
+            "start": 1413,
             "end": 1854
           },
           {
             "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
-            "score": 0.25557578676432086,
+            "score": 0.3075574940524789,
             "start": 0,
-            "end": 1416
+            "end": 1412
           }
         ]
       },
       "nociception_process": {
-        "score": 0.5806043665945434,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.14366505103412583,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
-            "score": 0.5806043665945434,
-            "start": 0,
-            "end": 1434
+            "text": "Gastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerotonin\nDuodenal wall?\n?\nInhibit antral contraction:\nSour",
+            "score": 0.14366505103412583,
+            "start": 1489,
+            "end": 1854
           },
           {
-            "text": "Stimulate antral contraction:\nSource\nRelease stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerot",
-            "score": 0.29879635968537094,
-            "start": 1435,
-            "end": 1854
+            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
+            "score": 0.10601355011071832,
+            "start": 0,
+            "end": 1488
           }
         ]
       },
@@ -315,58 +314,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.32589958541887476,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.2256775738341617,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
-            "score": 0.32589958541887476,
+            "score": 0.2256775738341617,
             "start": 0,
-            "end": 1488
+            "end": 1416
           },
           {
-            "text": "Gastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerotonin\nDuodenal wall?\n?\nInhibit antral contraction:\nSour",
-            "score": 0.0966992383588072,
-            "start": 1489,
+            "text": "Hormonal factors:\nStimulate antral contraction:\nSource\nRelease stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHy",
+            "score": 0.10153827963475912,
+            "start": 1417,
             "end": 1854
           }
         ]
       },
       "special_population_role": {
-        "score": 0.38196297726998507,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.3254234590270125,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Stimulate antral contraction:\nSource\nRelease stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerot",
-            "score": 0.38196297726998507,
-            "start": 1435,
-            "end": 1854
+            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
+            "score": 0.3254234590270125,
+            "start": 0,
+            "end": 1471
           },
           {
-            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
-            "score": 0.27456010762145544,
-            "start": 0,
-            "end": 1434
+            "text": "Release stimulus\nGastrin\nGastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerotonin\nDuodenal wall?\n?\nInhibit antral ",
+            "score": 0.18071066347481568,
+            "start": 1472,
+            "end": 1854
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7924785185551395,
+        "score": 0.29879635968537094,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
-            "score": 0.7924785185551395,
-            "start": 0,
-            "end": 1496
-          },
-          {
             "text": "Gastric G cells\nDuodenal protein\nGastric distension\nMotilin\nDuodenal M cells\nDuodenal fat, acid\nInsulin\nIslet\nβ\ncells\nHyperglycaemia\nSerotonin\nDuodenal wall?\n?\nInhibit antral contraction:\nSource\nRelea",
-            "score": 0.39594807629745715,
+            "score": 0.29879635968537094,
             "start": 1497,
             "end": 1854
+          },
+          {
+            "text": "2017B10 Describe the\nphysiological processes that influence the rate of gastric\nemptying.\nList:\n·\nIntro\n·\nPhysicochemical\n·\nNeural: extrinsic and intrinsic\n·\nHormonal factors\nIntro:\nSignificance\n·\nGas",
+            "score": 0.29332437688031354,
+            "start": 0,
+            "end": 1496
           }
         ]
       },

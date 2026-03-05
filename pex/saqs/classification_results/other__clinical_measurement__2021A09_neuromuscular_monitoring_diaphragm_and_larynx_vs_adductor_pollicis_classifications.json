@@ -17,11 +17,11 @@
     },
     "content_dimensions": [
       "neuromuscular_process",
-      "equipment_and_physics",
-      "nociception_process"
+      "organ_system_process",
+      "drug_receptor_disposition",
+      "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -176,37 +176,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5073635736483486,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7345885543754173,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
-            "score": 0.5073635736483486,
+            "score": 0.7345885543754173,
             "start": 0,
             "end": 1317
           },
           {
             "text": "https://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
-            "score": 0.24593681960249583,
+            "score": 0.13476114033048603,
             "start": 1318,
             "end": 1488
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.32589958541887476,
+        "score": 0.6046908816513193,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
-            "score": 0.32589958541887476,
+            "score": 0.6046908816513193,
             "start": 0,
-            "end": 1278
+            "end": 1305
           },
           {
-            "text": "Extubate at TOF ratio >0.9\nReferences:\nhttps://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF030",
-            "score": 0.30155028868225636,
-            "start": 1279,
+            "text": "References:\nhttps://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
+            "score": 0.2509410724842214,
+            "start": 1306,
             "end": 1488
           }
         ]
@@ -230,18 +230,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.3614186986159831,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7524011313276249,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
-            "score": 0.3614186986159831,
+            "score": 0.7524011313276249,
             "start": 0,
             "end": 1317
           },
           {
             "text": "https://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
-            "score": 0.13302177898555526,
+            "score": 0.27236747782775833,
             "start": 1318,
             "end": 1488
           }
@@ -266,38 +266,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.9234009196794866,
+        "score": 0.8361695377043112,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
-            "score": 0.9234009196794866,
+            "score": 0.8361695377043112,
             "start": 0,
-            "end": 1305
+            "end": 1278
           },
           {
-            "text": "References:\nhttps://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
-            "score": 0.7143442883222849,
-            "start": 1306,
+            "text": "Extubate at TOF ratio >0.9\nReferences:\nhttps://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF030",
+            "score": 0.6966071908346546,
+            "start": 1279,
             "end": 1488
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7025761410635025,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.3564688626617831,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
-            "score": 0.7025761410635025,
-            "start": 0,
-            "end": 1317
-          },
-          {
             "text": "https://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
-            "score": 0.699369005408923,
+            "score": 0.3564688626617831,
             "start": 1318,
             "end": 1488
+          },
+          {
+            "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
+            "score": 0.1592817529828625,
+            "start": 0,
+            "end": 1317
           }
         ]
       },
@@ -320,56 +320,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8681301763567975,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.558223504051248,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "https://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
-            "score": 0.8681301763567975,
-            "start": 1318,
-            "end": 1488
+            "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
+            "score": 0.558223504051248,
+            "start": 0,
+            "end": 1305
           },
           {
-            "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
-            "score": 0.6887187219113546,
-            "start": 0,
-            "end": 1317
+            "text": "References:\nhttps://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
+            "score": 0.330198056649713,
+            "start": 1306,
+            "end": 1488
           }
         ]
       },
       "special_population_role": {
-        "score": 0.3631570185417808,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1949320705626118,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
-            "score": 0.3631570185417808,
-            "start": 0,
-            "end": 1317
-          },
-          {
             "text": "https://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
-            "score": 0.24593681960249583,
+            "score": 0.1949320705626118,
             "start": 1318,
             "end": 1488
+          },
+          {
+            "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
+            "score": 0.15103900835879944,
+            "start": 0,
+            "end": 1317
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.852676006931055,
+        "score": 0.42882748112318286,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2021A09 Explain the onset and offset of neuromuscular\nblock at the diaphragm, larynx and adductor pollicis after an intubating dose\nof vecuronium. What are the clinical implications of these differenc",
-            "score": 0.852676006931055,
+            "score": 0.42882748112318286,
             "start": 0,
             "end": 1317
           },
           {
             "text": "https://pubs.asahq.org/anesthesiology/article/117/5/934/13433/Neuromuscular-MonitoringMore-than-Meets-the-Eye\nhttps://link.springer.com/content/pdf/10.1007/BF03019373.pdf",
-            "score": 0.2843127098628851,
+            "score": 0.24221938844708332,
             "start": 1318,
             "end": 1488
           }

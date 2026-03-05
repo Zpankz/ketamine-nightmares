@@ -13,12 +13,11 @@
       ]
     },
     "content_dimensions": [
-      "nociception_process",
       "drug_receptor_disposition",
-      "autonomic_disposition"
+      "autonomic_disposition",
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -173,38 +172,38 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8575421829580605,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.843919975397613,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
-            "score": 0.8575421829580605,
+            "score": 0.843919975397613,
             "start": 0,
             "end": 1672
           },
           {
             "text": "VPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPh",
-            "score": 0.8495840659438667,
+            "score": 0.7723399527572379,
             "start": 1673,
             "end": 2183
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7586025223491444,
+        "score": 0.7610590891728439,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Somatosensation\n·\nVPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescend",
-            "score": 0.7586025223491444,
-            "start": 1655,
+            "text": "·\nVPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\n",
+            "score": 0.7610590891728439,
+            "start": 1671,
             "end": 2183
           },
           {
             "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
-            "score": 0.20302569007096166,
+            "score": 0.3043160270707983,
             "start": 0,
-            "end": 1654
+            "end": 1670
           }
         ]
       },
@@ -227,18 +226,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.23771779517095493,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6854437825385576,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "VPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPh",
-            "score": 0.23771779517095493,
+            "score": 0.6854437825385576,
             "start": 1673,
             "end": 2183
           },
           {
             "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
-            "score": 0.14125677189694305,
+            "score": 0.3604267300934169,
             "start": 0,
             "end": 1672
           }
@@ -263,37 +262,37 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.37868046360211827,
+        "score": 0.3577039633886169,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nVPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\n",
-            "score": 0.37868046360211827,
-            "start": 1671,
+            "text": "afferents:\nSomatosensation\n·\nVPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic respo",
+            "score": 0.3577039633886169,
+            "start": 1644,
             "end": 2183
           },
           {
             "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
-            "score": 0.2852076985629369,
+            "score": 0.1612217162063077,
             "start": 0,
-            "end": 1670
+            "end": 1643
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9561331860628184,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.19565989102814468,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
-            "score": 0.9561331860628184,
+            "score": 0.19565989102814468,
             "start": 0,
-            "end": 1672
+            "end": 1710
           },
           {
-            "text": "VPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPh",
-            "score": 0.8381284697982909,
-            "start": 1673,
+            "text": "  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPhysiology\n·\nPathway: PAG or RVM -> dors",
+            "score": 0.1290165055825653,
+            "start": 1711,
             "end": 2183
           }
         ]
@@ -317,36 +316,36 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.32924077855991984,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPhysiology\n·\nPathway: PAG or RVM -> dors",
-            "score": 0.32924077855991984,
-            "start": 1711,
-            "end": 2183
-          },
-          {
-            "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
-            "score": 0.1100884956529356,
-            "start": 0,
-            "end": 1710
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.4973463186438789,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.3183177445792676,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "VPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPh",
-            "score": 0.4973463186438789,
+            "score": 0.3183177445792676,
             "start": 1673,
             "end": 2183
           },
           {
             "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
-            "score": 0.11584261865163957,
+            "score": 0.14917447507309806,
+            "start": 0,
+            "end": 1672
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.1485560880659056,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "VPL thalamus -> primary somatosensory\n  cortex\no\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPh",
+            "score": 0.1485560880659056,
+            "start": 1673,
+            "end": 2183
+          },
+          {
+            "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
+            "score": 0.11320527503558757,
             "start": 0,
             "end": 1672
           }
@@ -355,20 +354,20 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8021470861218252,
+        "score": 0.26153953714843536,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "o\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPhysiology\n·\nPathway: PAG or RVM -> dorsal horn v",
-            "score": 0.8021470861218252,
-            "start": 1720,
-            "end": 2183
-          },
-          {
             "text": "2021A05 Describe\nthe peripheral and central nervous system pathways that lead to perception of\npain following a laceration of the thumb.\nList:\n·\nDefinition\n·\nNociceptive receptor and primary afferent\n",
-            "score": 0.7639076521243664,
+            "score": 0.26153953714843536,
             "start": 0,
             "end": 1719
+          },
+          {
+            "text": "o\nLocalisation\nOther aspects\n·\nBrainstem -> medial thalamus, hypothalamus,\n  amygdala\no\nAffective response\no\nAutonomic response\nDescending\nmodulation:\nPhysiology\n·\nPathway: PAG or RVM -> dorsal horn v",
+            "score": 0.2492669590277905,
+            "start": 1720,
+            "end": 2183
           }
         ]
       },

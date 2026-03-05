@@ -13,18 +13,15 @@
       "score": 0.6230832104573046
     },
     "content_dimensions": [
-      "equipment_and_physics",
-      "organ_system_process",
-      "autonomic_disposition",
-      "nociception_process",
-      "drug_receptor_disposition",
       "neuromuscular_process",
+      "equipment_and_physics",
+      "autonomic_disposition",
+      "drug_receptor_disposition",
       "gas_exchange_process",
-      "special_population_role",
+      "organ_system_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "structure_function_link",
       "dose_response_relationship"
@@ -229,48 +226,48 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8532897173544827,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8288647205382538,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption from\n  collecting ducts\n·\n↑",
+            "score": 0.8288647205382538,
+            "start": 1470,
+            "end": 2856
+          },
+          {
+            "text": "↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabsorption\n  from proximal tubule -> ↑blood v",
+            "score": 0.801412892581186,
+            "start": 2857,
+            "end": 3266
+          },
+          {
+            "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
+            "score": 0.7829292210001332,
+            "start": 0,
+            "end": 1469
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.8698467137441421,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑Vasoconstriction -> ↑SVR\n·\n->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption",
-            "score": 0.8532897173544827,
+            "score": 0.8698467137441421,
             "start": 1442,
             "end": 2815
           },
           {
             "text": "  blood flow -> ↑GFR\nHormonal efferent\n·\n↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabso",
-            "score": 0.5661457099918269,
+            "score": 0.5615658698368755,
             "start": 2816,
             "end": 3266
           },
           {
             "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
-            "score": 0.5595020078453226,
-            "start": 0,
-            "end": 1441
-          }
-        ]
-      },
-      "autonomic_disposition": {
-        "score": 0.8919604568855175,
-        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
-        "top_chunks": [
-          {
-            "text": "↑Vasoconstriction -> ↑SVR\n·\n->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption",
-            "score": 0.8919604568855175,
-            "start": 1442,
-            "end": 2774
-          },
-          {
-            "text": "Afferent arteriolar dilatation -> ↑renal\n  blood flow -> ↑GFR\nHormonal efferent\n·\n↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripher",
-            "score": 0.4388271099676946,
-            "start": 2775,
-            "end": 3266
-          },
-          {
-            "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
-            "score": 0.3084865249962589,
+            "score": 0.3354838427542889,
             "start": 0,
             "end": 1441
           }
@@ -301,26 +298,26 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9056682900229793,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.6702807288458499,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
+            "text": "↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabsorption\n  from proximal tubule -> ↑blood v",
+            "score": 0.6702807288458499,
+            "start": 2857,
+            "end": 3266
+          },
+          {
             "text": "->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption from\n  collecting ducts\n·\n↑",
-            "score": 0.9056682900229793,
+            "score": 0.6693228655984156,
             "start": 1470,
             "end": 2856
           },
           {
             "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
-            "score": 0.8787724585001864,
+            "score": 0.3806993870441614,
             "start": 0,
             "end": 1469
-          },
-          {
-            "text": "↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabsorption\n  from proximal tubule -> ↑blood v",
-            "score": 0.4377793089230842,
-            "start": 2857,
-            "end": 3266
           }
         ]
       },
@@ -349,50 +346,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8341963544985169,
+        "score": 0.8743576151335943,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↑Vasoconstriction -> ↑SVR\n·\n->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption",
-            "score": 0.8341963544985169,
+            "score": 0.8743576151335943,
             "start": 1442,
             "end": 2774
           },
           {
             "text": "Afferent arteriolar dilatation -> ↑renal\n  blood flow -> ↑GFR\nHormonal efferent\n·\n↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripher",
-            "score": 0.6550617125047007,
+            "score": 0.4790461425547522,
             "start": 2775,
             "end": 3266
           },
           {
             "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
-            "score": 0.6204366871633353,
+            "score": 0.42368295869294115,
             "start": 0,
             "end": 1441
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8669782210144448,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.13129612675432087,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\n->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption from\n  collecting ducts\n·",
-            "score": 0.8669782210144448,
-            "start": 1468,
-            "end": 2854
+            "text": "->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption from\n  collecting ducts\n·\n↑",
+            "score": 0.13129612675432087,
+            "start": 1470,
+            "end": 2856
           },
           {
-            "text": "·\n↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabsorption\n  from proximal tubule -> ↑blood",
-            "score": 0.5926300906026984,
-            "start": 2855,
+            "text": "↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabsorption\n  from proximal tubule -> ↑blood v",
+            "score": 0.11584261865163957,
+            "start": 2857,
             "end": 3266
           },
           {
             "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
-            "score": 0.4865352160459997,
+            "score": 0.11478329593515615,
             "start": 0,
-            "end": 1467
+            "end": 1469
           }
         ]
       },
@@ -421,48 +418,48 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9084641213564637,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8721142289195487,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption from\n  collecting ducts\n·\n↑",
-            "score": 0.9084641213564637,
-            "start": 1470,
-            "end": 2856
+            "text": "↑Vasoconstriction -> ↑SVR\n·\n->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption",
+            "score": 0.8721142289195487,
+            "start": 1442,
+            "end": 2815
           },
           {
-            "text": "↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabsorption\n  from proximal tubule -> ↑blood v",
-            "score": 0.6970683111707597,
-            "start": 2857,
+            "text": "  blood flow -> ↑GFR\nHormonal efferent\n·\n↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabso",
+            "score": 0.38779255990805606,
+            "start": 2816,
             "end": 3266
           },
           {
             "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
-            "score": 0.22686588955665188,
+            "score": 0.3420179858485293,
             "start": 0,
-            "end": 1469
+            "end": 1441
           }
         ]
       },
       "special_population_role": {
-        "score": 0.6849746793311141,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.17248408020698391,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "->↑cardiac output, ↑mAP\nHormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption from\n  collecting ducts\n·\n↑",
-            "score": 0.6849746793311141,
+            "score": 0.17248408020698391,
             "start": 1470,
             "end": 2856
           },
           {
             "text": "↑Activity of renin-angiotensin system:\n·\nAngiotensin 2:\no\nEfferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabsorption\n  from proximal tubule -> ↑blood v",
-            "score": 0.3456698970176562,
+            "score": 0.1485560880659056,
             "start": 2857,
             "end": 3266
           },
           {
             "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
-            "score": 0.2623973993795041,
+            "score": 0.12013872967712319,
             "start": 0,
             "end": 1469
           }
@@ -471,24 +468,24 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.814384449652423,
+        "score": 0.2538852076356624,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "Hormonal efferent\n·\n↑ADH release from hypothalamus (note normally\n  minimal)\n·\nAquaporin-2 insertion into apical membrane\n·\n↑free H\n2\nO reabsorption from\n  collecting ducts\n·\n↑blood volume -> ↑mAP\nEff",
-            "score": 0.814384449652423,
+            "score": 0.2538852076356624,
             "start": 1494,
             "end": 2914
           },
           {
             "text": "2015A06 Describe the role of the baroreceptors in the control\nof systemic arterial pressure.\nList:\n·\nIntro\n·\nHigh pressure\nbaroreceptors\n·\nLow pressure\nbaroreceptors\n·\nRenal baroreceptors\nIntro:\nbaror",
-            "score": 0.726318015129839,
+            "score": 0.2484321598142117,
             "start": 0,
             "end": 1493
           },
           {
             "text": "Efferent > afferent arteriolar\n  vasoconstriction\no\nPeripheral vasoconstriction\no\n↑Na\n+\n/H\n2\nO reabsorption\n  from proximal tubule -> ↑blood volume\no\n↑mAP\n·\nAldosterone:\no\n↑Na\n+\nreabsorption from late",
-            "score": 0.679794085594363,
+            "score": 0.24469425805145512,
             "start": 2915,
             "end": 3266
           }

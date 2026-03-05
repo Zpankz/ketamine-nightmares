@@ -19,12 +19,10 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
+      "neuromuscular_process",
       "equipment_and_physics",
-      "organ_system_process",
-      "special_population_role",
       "pharmacokinetic_process",
-      "acid_base_quality",
-      "neuromuscular_process"
+      "acid_base_quality"
     ],
     "explanatory_schema": [
       "mechanism_effect_relevance",
@@ -231,50 +229,50 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.29742385893649737,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.2381251169525195,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  maldistribution of V and Q)\nAnatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\n",
-            "score": 0.29742385893649737,
-            "start": 1367,
-            "end": 2689
-          },
-          {
-            "text": "·\n50% N\n2\nO widens CO\n2\n’s\n  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial p",
-            "score": 0.19059863367246443,
-            "start": 2690,
-            "end": 3284
+            "text": "Anatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\no\nAxial streaming\no\nCardiac im",
+            "score": 0.2381251169525195,
+            "start": 1397,
+            "end": 2716
           },
           {
             "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
-            "score": 0.15799633458154788,
+            "score": 0.1256423848664057,
             "start": 0,
-            "end": 1366
+            "end": 1396
+          },
+          {
+            "text": "  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial pressure\nCalibration failure",
+            "score": 0.10401037605283608,
+            "start": 2717,
+            "end": 3284
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.2467670878597175,
+        "score": 0.3584457829792495,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Hypoventilated alveoli (due to\n  maldistribution of V and Q)\nAnatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of abso",
-            "score": 0.2467670878597175,
-            "start": 1335,
-            "end": 2594
+            "text": "  maldistribution of V and Q)\nAnatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\n",
+            "score": 0.3584457829792495,
+            "start": 1367,
+            "end": 2668
           },
           {
-            "text": "  in the presence of another\n·\nDue to collision between molecules raising\n  their energy level\n·\n50% N\n2\nO widens CO\n2\n’s\n  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressu",
-            "score": 0.15671722015798292,
-            "start": 2595,
+            "text": "  their energy level\n·\n50% N\n2\nO widens CO\n2\n’s\n  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber ",
+            "score": 0.2732434585109745,
+            "start": 2669,
             "end": 3284
           },
           {
             "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
-            "score": 0.13302177898555526,
+            "score": 0.20903276749660882,
             "start": 0,
-            "end": 1334
+            "end": 1366
           }
         ]
       },
@@ -303,24 +301,24 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.7969743099290385,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4808349498547634,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "Anatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\no\nAxial streaming\no\nCardiac im",
-            "score": 0.7969743099290385,
+            "score": 0.4808349498547634,
             "start": 1397,
             "end": 2716
           },
           {
             "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
-            "score": 0.7066756231196865,
+            "score": 0.2942330252332108,
             "start": 0,
             "end": 1396
           },
           {
             "text": "  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial pressure\nCalibration failure",
-            "score": 0.08878886373592071,
+            "score": 0.24386778071856008,
             "start": 2717,
             "end": 3284
           }
@@ -351,49 +349,49 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.6172782242147103,
+        "score": 0.8122584176361644,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
-            "score": 0.6172782242147103,
-            "start": 0,
-            "end": 1334
+            "text": "Widening of the absorption peak for a gas when\n  in the presence of another\n·\nDue to collision between molecules raising\n  their energy level\n·\n50% N\n2\nO widens CO\n2\n’s\n  absorption peak by 10%\n·\nFIX:",
+            "score": 0.8122584176361644,
+            "start": 2548,
+            "end": 3284
           },
           {
             "text": "↑Hypoventilated alveoli (due to\n  maldistribution of V and Q)\nAnatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of abso",
-            "score": 0.51359738682804,
+            "score": 0.5959760232943172,
             "start": 1335,
-            "end": 2594
+            "end": 2547
           },
           {
-            "text": "  in the presence of another\n·\nDue to collision between molecules raising\n  their energy level\n·\n50% N\n2\nO widens CO\n2\n’s\n  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressu",
-            "score": 0.3495820398110333,
-            "start": 2595,
-            "end": 3284
+            "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
+            "score": 0.17656868710877405,
+            "start": 0,
+            "end": 1334
           }
         ]
       },
       "nociception_process": {
-        "score": 0.4431868837893865,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.12068239347016409,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "  maldistribution of V and Q)\nAnatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\n",
-            "score": 0.4431868837893865,
-            "start": 1367,
-            "end": 2691
-          },
-          {
             "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
-            "score": 0.4102067539563503,
+            "score": 0.12068239347016409,
             "start": 0,
-            "end": 1366
+            "end": 1410
           },
           {
-            "text": "50% N\n2\nO widens CO\n2\n’s\n  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial pre",
-            "score": 0.17113527946174648,
-            "start": 2692,
+            "text": "Cause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\no\nAxial streaming\no\nCardiac impulse -> mixin",
+            "score": 0.09480246485705024,
+            "start": 1411,
+            "end": 2743
+          },
+          {
+            "text": "FIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial pressure\nCalibration failure\n·\nFIX: auto regular three ",
+            "score": 0.06772250857897068,
+            "start": 2744,
             "end": 3284
           }
         ]
@@ -423,74 +421,74 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8893956625430228,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.8094013663275356,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
-            "score": 0.8893956625430228,
+            "score": 0.8094013663275356,
             "start": 0,
-            "end": 1410
+            "end": 1366
           },
           {
-            "text": "Cause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\no\nAxial streaming\no\nCardiac impulse -> mixin",
-            "score": 0.8893956625430228,
-            "start": 1411,
-            "end": 2743
+            "text": "  maldistribution of V and Q)\nAnatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\n",
+            "score": 0.8036106946982671,
+            "start": 1367,
+            "end": 2689
           },
           {
-            "text": "FIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial pressure\nCalibration failure\n·\nFIX: auto regular three ",
-            "score": 0.801412892581186,
-            "start": 2744,
+            "text": "·\n50% N\n2\nO widens CO\n2\n’s\n  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial p",
+            "score": 0.6683638359153561,
+            "start": 2690,
             "end": 3284
           }
         ]
       },
       "special_population_role": {
-        "score": 0.735882480127494,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.4035098767691399,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "  maldistribution of V and Q)\nAnatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\n",
-            "score": 0.735882480127494,
-            "start": 1367,
-            "end": 2691
+            "text": "Anatomical DS\nCause of absolute increase:\n·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\no\nAxial streaming\no\nCardiac im",
+            "score": 0.4035098767691399,
+            "start": 1397,
+            "end": 2716
           },
           {
-            "text": "50% N\n2\nO widens CO\n2\n’s\n  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial pre",
-            "score": 0.5558943068016625,
-            "start": 2692,
+            "text": "  absorption peak by 10%\n·\nFIX: use reference chambers\nRam-gas effect\n·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial pressure\nCalibration failure",
+            "score": 0.18561555034757704,
+            "start": 2717,
             "end": 3284
           },
           {
             "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
-            "score": 0.31081469123397315,
+            "score": 0.10651790355261252,
             "start": 0,
-            "end": 1366
+            "end": 1396
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7719422903055657,
+        "score": 0.7465365050274453,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "·\n↑Tidal volume (plateau at V\nT\n~350mL)\n·\nBronchodilation (sevoflurane, pregnancy)\nCause of absolute decrease:\n·\n↓↓Tidal volume\no\nAxial streaming\no\nCardiac impulse -> mixing\n(Note\n  ↓VT increases rela",
-            "score": 0.7719422903055657,
+            "score": 0.7465365050274453,
             "start": 1439,
             "end": 2786
           },
           {
             "text": "2020A03 Discuss\npossible causes of for the PaCO\n2\ndiffering from etCO\n2\nin\nan anaesthetized, intubated patient on IPPV.\nCauses:\n·\nDead space\n·\nIncomplete alveolar emptying\n·\nMeasurement error\n·\nSampli",
-            "score": 0.7503150765525042,
+            "score": 0.7289438071628661,
             "start": 0,
             "end": 1438
           },
           {
             "text": "·\nPressure-drop across the sampling line\n·\n↓ total pressure inside sample chamber -> ↓\n  CO\n2\npartial pressure\nCalibration failure\n·\nFIX: auto regular three point calibration\nSampling error:\nDilution ",
-            "score": 0.20827633226924755,
+            "score": 0.20752148144486066,
             "start": 2787,
             "end": 3284
           }

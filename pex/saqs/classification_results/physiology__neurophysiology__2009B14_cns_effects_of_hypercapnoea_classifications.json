@@ -18,16 +18,15 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "autonomic_disposition",
+      "drug_receptor_disposition",
       "acid_base_quality",
       "gas_exchange_process",
-      "equipment_and_physics",
+      "organ_system_process",
       "neuromuscular_process",
-      "drug_receptor_disposition"
+      "equipment_and_physics",
+      "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link",
       "homeostatic_regulation",
       "dose_response_relationship"
@@ -149,7 +148,7 @@
           },
           {
             "text": "6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect on CBF\nRatio: +1mmHg ↑PaCO\n2\n-> +2-3% ↑CBF\n(Modified from Miller’s\n  An",
-            "score": 0.4518951781087641,
+            "score": 0.45031584500928773,
             "start": 2242,
             "end": 2466
           }
@@ -232,49 +231,49 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7044014819049529,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.8413617446723678,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "-> CNS ischaemia\nChemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peri",
-            "score": 0.7044014819049529,
-            "start": 1074,
+            "text": "Chemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemorecep",
+            "score": 0.8413617446723678,
+            "start": 1091,
             "end": 2170
           },
           {
-            "text": "Ohm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect ",
-            "score": 0.250521980467662,
-            "start": 2171,
-            "end": 2466
+            "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
+            "score": 0.31596446232249,
+            "start": 0,
+            "end": 1090
           },
           {
-            "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
-            "score": 0.22291849253518664,
-            "start": 0,
-            "end": 1073
+            "text": "Ohm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect ",
+            "score": 0.17248408020698391,
+            "start": 2171,
+            "end": 2466
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.8652388596695139,
+        "score": 0.6956839729292017,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2\n-> CNS ischaemia\nChemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates pe",
-            "score": 0.8652388596695139,
-            "start": 1072,
-            "end": 2149
+            "text": "-> CNS ischaemia\nChemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peri",
+            "score": 0.6956839729292017,
+            "start": 1074,
+            "end": 2170
           },
           {
             "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
-            "score": 0.25812280612051225,
+            "score": 0.3456698970176562,
             "start": 0,
-            "end": 1071
+            "end": 1073
           },
           {
-            "text": "  note power of 4\n4.\nOhm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracra",
-            "score": 0.23406919549587674,
-            "start": 2150,
+            "text": "Ohm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect ",
+            "score": 0.22766004724276212,
+            "start": 2171,
             "end": 2466
           }
         ]
@@ -304,25 +303,25 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.8999280892721313,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7909672325033913,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "Chemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemorecep",
-            "score": 0.8999280892721313,
-            "start": 1091,
-            "end": 2170
+            "text": "·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemoreceptors directly\n·\nMV↑2-3L/min per +1mmHg",
+            "score": 0.7909672325033913,
+            "start": 1129,
+            "end": 2215
           },
           {
             "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
-            "score": 0.853901871379576,
+            "score": 0.7860118412777748,
             "start": 0,
-            "end": 1090
+            "end": 1128
           },
           {
-            "text": "Ohm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect ",
-            "score": 0.3084865249962589,
-            "start": 2171,
+            "text": "↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect on CBF\nRatio: +1mmHg ↑PaCO\n2\n-> +2-3% ↑CBF\n(M",
+            "score": 0.2807466545501725,
+            "start": 2216,
             "end": 2466
           }
         ]
@@ -352,50 +351,50 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.7205848511005187,
+        "score": 0.774717751800841,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "4.\nOhm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffe",
-            "score": 0.7205848511005187,
-            "start": 2168,
+            "text": "x radius\n4\n)\n  note power of 4\n4.\nOhm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -",
+            "score": 0.774717751800841,
+            "start": 2137,
             "end": 2466
           },
           {
-            "text": "-> CNS ischaemia\nChemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peri",
-            "score": 0.7034894789104185,
-            "start": 1074,
-            "end": 2167
+            "text": "↓PaO\n2\n-> CNS ischaemia\nChemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulat",
+            "score": 0.4775889301891401,
+            "start": 1067,
+            "end": 2136
           },
           {
             "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
-            "score": 0.5905674370147446,
+            "score": 0.3852545540909096,
             "start": 0,
-            "end": 1073
+            "end": 1066
           }
         ]
       },
       "nociception_process": {
-        "score": 0.5906964321872293,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.19565989102814468,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "-> CNS ischaemia\nChemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peri",
-            "score": 0.5906964321872293,
-            "start": 1074,
-            "end": 2170
-          },
-          {
-            "text": "Ohm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect ",
-            "score": 0.3708908328871195,
-            "start": 2171,
+            "text": "6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect on CBF\nRatio: +1mmHg ↑PaCO\n2\n-> +2-3% ↑CBF\n(Modified from Miller’s\n  An",
+            "score": 0.19565989102814468,
+            "start": 2242,
             "end": 2466
           },
           {
+            "text": "2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemoreceptors directly\n·\nMV↑2-3L/min per +1mmHg PaCO",
+            "score": 0.11690780739311239,
+            "start": 1134,
+            "end": 2241
+          },
+          {
             "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
-            "score": 0.3442072892544602,
+            "score": 0.10351313129730201,
             "start": 0,
-            "end": 1073
+            "end": 1133
           }
         ]
       },
@@ -424,76 +423,76 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.7947335570650536,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7477994009847582,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemoreceptors directly\n·\nMV↑2-3L/min per +1mmHg PaCO",
-            "score": 0.7947335570650536,
-            "start": 1134,
-            "end": 2241
+            "text": "-> CNS ischaemia\nChemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peri",
+            "score": 0.7477994009847582,
+            "start": 1074,
+            "end": 2170
           },
           {
             "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
-            "score": 0.7723399527572379,
+            "score": 0.3094168356331381,
             "start": 0,
-            "end": 1133
+            "end": 1073
           },
           {
-            "text": "6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect on CBF\nRatio: +1mmHg ↑PaCO\n2\n-> +2-3% ↑CBF\n(Modified from Miller’s\n  An",
-            "score": 0.5002653702234754,
-            "start": 2242,
+            "text": "Ohm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect ",
+            "score": 0.271056192837134,
+            "start": 2171,
             "end": 2466
           }
         ]
       },
       "special_population_role": {
-        "score": 0.4763969046186327,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.14306065974886034,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "Chemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemorecep",
-            "score": 0.4763969046186327,
-            "start": 1091,
-            "end": 2170
-          },
-          {
             "text": "Ohm’s law: CBF = (mAP – CVP or ICP) / CVR\n5.\n↑Vessel radius -> ↑volume\n6.\nMonroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect ",
-            "score": 0.17113527946174648,
+            "score": 0.14306065974886034,
             "start": 2171,
             "end": 2466
           },
           {
             "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
-            "score": 0.1612217162063077,
+            "score": 0.13417982729181727,
             "start": 0,
             "end": 1090
+          },
+          {
+            "text": "Chemoreceptors and respiratory centre\n·\nCO\n2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemorecep",
+            "score": 0.1228719100488003,
+            "start": 1091,
+            "end": 2170
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8206763737480939,
+        "score": 0.4863363123414241,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "diffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemoreceptors directly\n·\nMV↑2-3L/min per +1mmHg PaCO\n2",
-            "score": 0.8206763737480939,
+            "score": 0.4863363123414241,
             "start": 1136,
             "end": 2244
           },
           {
-            "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
-            "score": 0.7886884284979552,
-            "start": 0,
-            "end": 1135
-          },
-          {
             "text": "Monroe-Kellie doctrine: after compensation\n  exhausted, ↑volume one intracranial substance -> ↑↑ intracranial pressure\nEffect on CBF\nRatio: +1mmHg ↑PaCO\n2\n-> +2-3% ↑CBF\n(Modified from Miller’s\n  Anaes",
-            "score": 0.7034894789104185,
+            "score": 0.44066186596023893,
             "start": 2245,
             "end": 2466
+          },
+          {
+            "text": "2009B14 Outline\nthe central nervous system effects on an awake person breathing air containing\ncarbon dioxide.\nList:\n·\nIntro\n·\nParenchymal effects\n·\nNeurovascular and pressure effects\nIntro:\nCO\n2\n·\nCo",
+            "score": 0.30155028868225636,
+            "start": 0,
+            "end": 1135
           }
         ]
       },
@@ -546,12 +545,12 @@
         ]
       },
       "structure_function_link": {
-        "score": 0.7921012912419733,
+        "score": 0.7924785185551395,
         "description": "Structure → function → dysfunction pattern",
         "top_chunks": [
           {
             "text": "2\ndiffuses into central chemoreceptors in ventral\n  medulla -> ↑[H\n+\n] -> ↑afferent to respiratory centre ->\n  ↑RR, TV\n·\nCO2 stimulates peripheral chemoreceptors directly\n·\nMV↑2-3L/min per +1mmHg PaCO",
-            "score": 0.7921012912419733,
+            "score": 0.7924785185551395,
             "start": 1134,
             "end": 2241
           },

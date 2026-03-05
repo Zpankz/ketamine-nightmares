@@ -14,7 +14,6 @@
       ]
     },
     "content_dimensions": [
-      "nociception_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": []
@@ -170,36 +169,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.2754396543901626,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.3671415130881525,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
-            "score": 0.2754396543901626,
+            "score": 0.3671415130881525,
             "start": 0,
-            "end": 1237
+            "end": 1266
           },
           {
-            "text": "(2) 2D6 -> oxymorphone (15%)\n-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolite",
-            "score": 0.22213370116389697,
-            "start": 1238,
+            "text": "-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolites -> urine*\n10% oxycodone -> ",
+            "score": 0.1949320705626118,
+            "start": 1267,
             "end": 1619
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.2113115715020448,
+        "score": 0.24016747383683887,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
-            "score": 0.2113115715020448,
+            "score": 0.24016747383683887,
             "start": 0,
             "end": 1237
           },
           {
             "text": "(2) 2D6 -> oxymorphone (15%)\n-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolite",
-            "score": 0.20153979982073553,
+            "score": 0.22370484839267127,
             "start": 1238,
             "end": 1619
           }
@@ -224,20 +223,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.34493828749529926,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.365894701768538,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolites -> urine*\n10% oxycodone -> ",
-            "score": 0.34493828749529926,
-            "start": 1267,
-            "end": 1619
-          },
-          {
             "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
-            "score": 0.2619682848045116,
+            "score": 0.365894701768538,
             "start": 0,
             "end": 1266
+          },
+          {
+            "text": "-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolites -> urine*\n10% oxycodone -> ",
+            "score": 0.31174818149345435,
+            "start": 1267,
+            "end": 1619
           }
         ]
       },
@@ -260,37 +259,37 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.21745787821628798,
+        "score": 0.13592835209685608,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
-            "score": 0.21745787821628798,
+            "score": 0.13592835209685608,
             "start": 0,
-            "end": 1237
+            "end": 1206
           },
           {
-            "text": "(2) 2D6 -> oxymorphone (15%)\n-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolite",
-            "score": 0.12342301400327828,
-            "start": 1238,
+            "text": "(1) 3A4 -> noroxycodone (most)\n(2) 2D6 -> oxymorphone (15%)\n-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinim",
+            "score": 0.11851662443329414,
+            "start": 1207,
             "end": 1619
           }
         ]
       },
       "nociception_process": {
-        "score": 0.8065187877039502,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.1256423848664057,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
             "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
-            "score": 0.8065187877039502,
+            "score": 0.1256423848664057,
             "start": 0,
-            "end": 1237
+            "end": 1289
           },
           {
-            "text": "(2) 2D6 -> oxymorphone (15%)\n-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolite",
-            "score": 0.6526206502580678,
-            "start": 1238,
+            "text": "(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolites -> urine*\n10% oxycodone -> urine\n*Renal failure re",
+            "score": 0.12342301400327828,
+            "start": 1290,
             "end": 1619
           }
         ]
@@ -314,58 +313,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.08698437799387108,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
-            "score": 0.08698437799387108,
-            "start": 0,
-            "end": 1289
-          },
-          {
-            "text": "(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolites -> urine*\n10% oxycodone -> urine\n*Renal failure re",
-            "score": 0.08475870499498107,
-            "start": 1290,
-            "end": 1619
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.5861107723504877,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.11372982298149485,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "(2) 2D6 -> oxymorphone (15%)\n-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolite",
-            "score": 0.5861107723504877,
+            "score": 0.11372982298149485,
             "start": 1238,
             "end": 1619
           },
           {
             "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
-            "score": 0.15481035196343076,
+            "score": 0.10803954311448256,
             "start": 0,
             "end": 1237
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.17046326482945487,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "-14x analgesic potency\n(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolites -> urine*\n10% oxycodone -> ",
+            "score": 0.17046326482945487,
+            "start": 1267,
+            "end": 1619
+          },
+          {
+            "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
+            "score": 0.10854962335430002,
+            "start": 0,
+            "end": 1266
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.4636323627179105,
+        "score": 0.2667086480533769,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
-            "score": 0.4636323627179105,
-            "start": 0,
-            "end": 1289
-          },
-          {
             "text": "(3) 6\nα\nand 6\nβ\n-oxycodol (10%)\n(4) Oxycodone-n-oxide\nExcretion:\nMorphine\nOxycodone\nRoute\nMetabolites -> urine*\nMinimal morphine -> urine\nMetabolites -> urine*\n10% oxycodone -> urine\n*Renal failure re",
-            "score": 0.3098824694419637,
+            "score": 0.2667086480533769,
             "start": 1290,
             "end": 1619
+          },
+          {
+            "text": "2010B01 Compare\nand contrast the pharmacokinetics of orally and intravenously\nadministered morphine and oxycodone.\nList:\n·\nEquipotent doses\n·\nTime course\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExc",
+            "score": 0.13592835209685608,
+            "start": 0,
+            "end": 1289
           }
         ]
       },

@@ -16,14 +16,13 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
       "neuromuscular_process",
-      "autonomic_disposition",
       "equipment_and_physics",
-      "nociception_process"
+      "organ_system_process",
+      "autonomic_disposition",
+      "drug_receptor_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "dose_response_relationship",
       "structure_function_link"
@@ -180,30 +179,30 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5508681012348167,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.7039456475161461,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↓CPP, ↓and CBF (in\nseconds)\no\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS",
-            "score": 0.5508681012348167,
-            "start": 1424,
+            "text": "o\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS effect\n·\nMyogenic autoregul",
+            "score": 0.7039456475161461,
+            "start": 1452,
             "end": 2447
           },
           {
             "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
-            "score": 0.09622297710488378,
+            "score": 0.13828116177283872,
             "start": 0,
-            "end": 1423
+            "end": 1451
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.8308759955364141,
+        "score": 0.7174731048083236,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↓CPP, ↓and CBF (in\nseconds)\no\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS",
-            "score": 0.8308759955364141,
+            "score": 0.7174731048083236,
             "start": 1424,
             "end": 2447
           },
@@ -234,20 +233,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9212988168066547,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7540631803975041,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "o\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS effect\n·\nMyogenic autoregul",
-            "score": 0.9212988168066547,
-            "start": 1452,
+            "text": "mAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS effect\n·\nMyogenic autoregulat",
+            "score": 0.7540631803975041,
+            "start": 1454,
             "end": 2447
           },
           {
             "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
-            "score": 0.11959654819828813,
+            "score": 0.330198056649713,
             "start": 0,
-            "end": 1451
+            "end": 1453
           }
         ]
       },
@@ -270,38 +269,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8545124702668796,
+        "score": 0.8341963544985169,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
-            "score": 0.8545124702668796,
+            "score": 0.8341963544985169,
             "start": 0,
-            "end": 1423
+            "end": 1421
           },
           {
-            "text": "↓CPP, ↓and CBF (in\nseconds)\no\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS",
-            "score": 0.7829292210001332,
-            "start": 1424,
+            "text": "·\n↓CPP, ↓and CBF (in\nseconds)\no\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nC",
+            "score": 0.7917236677307524,
+            "start": 1422,
             "end": 2447
           }
         ]
       },
       "nociception_process": {
-        "score": 0.756544888040563,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.14065856668448176,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓CPP, ↓and CBF (in\nseconds)\no\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS",
-            "score": 0.756544888040563,
-            "start": 1424,
+            "text": "mAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS effect\n·\nMyogenic autoregulat",
+            "score": 0.14065856668448176,
+            "start": 1454,
             "end": 2447
           },
           {
             "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
-            "score": 0.15041593405613324,
+            "score": 0.08924333203133303,
             "start": 0,
-            "end": 1423
+            "end": 1453
           }
         ]
       },
@@ -324,58 +323,58 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8213675000686458,
-        "description": "Equipment and physical principles (BFO: material entity)",
-        "top_chunks": [
-          {
-            "text": "mAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS effect\n·\nMyogenic autoregulat",
-            "score": 0.8213675000686458,
-            "start": 1454,
-            "end": 2447
-          },
-          {
-            "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
-            "score": 0.1554444021999438,
-            "start": 0,
-            "end": 1453
-          }
-        ]
-      },
-      "special_population_role": {
-        "score": 0.5592725814580549,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.8150899351016954,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↓CPP, ↓and CBF (in\nseconds)\no\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS",
-            "score": 0.5592725814580549,
+            "score": 0.8150899351016954,
             "start": 1424,
             "end": 2447
           },
           {
             "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
-            "score": 0.11584261865163957,
+            "score": 0.15417787288657336,
             "start": 0,
             "end": 1423
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.24552225336936614,
+        "description": "Population-specific pharmacology (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "o\nmAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS effect\n·\nMyogenic autoregul",
+            "score": 0.24552225336936614,
+            "start": 1452,
+            "end": 2447
+          },
+          {
+            "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
+            "score": 0.10753089785761477,
+            "start": 0,
+            "end": 1451
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8432827798420172,
+        "score": 0.47378188401119603,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
-            "score": 0.8432827798420172,
-            "start": 0,
-            "end": 1453
-          },
-          {
             "text": "mAP: venous pooling ->\n↓preload -> ↓CO -> ↓mAP ->\n↓CPP -> CBF\nCompensation: supine ->\nstanding\nAim\n·\nAttenuate the drop in CPP\n·\nNote: all responses impaired under GA\nCNS effect\n·\nMyogenic autoregulat",
-            "score": 0.8288647205382538,
+            "score": 0.47378188401119603,
             "start": 1454,
             "end": 2447
+          },
+          {
+            "text": "2003A12 Explain the mechanisms\nthat maintain cerebral blood flow on moving\nfrom a supine to a standing position.\nList:\n·\nIntro: cerebral circulation and flow\ndynamics\n·\nDirect effect: cerebral and sys",
+            "score": 0.44946072435961015,
+            "start": 0,
+            "end": 1453
           }
         ]
       },

@@ -13,15 +13,12 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "equipment_and_physics",
-      "special_population_role",
       "acid_base_quality",
-      "autonomic_disposition"
+      "organ_system_process"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link",
+      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -176,36 +173,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.3885549653159038,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.3495820398110333,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Usually ~1 at glomerulus, ~0 at liver sinusoid\n·\n↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressu",
-            "score": 0.3885549653159038,
-            "start": 1513,
+            "text": "↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressure (P\nBC\n)\n·\n↑P\nBC\n-> ↓GFR (e.g. ureteric\n  obstr",
+            "score": 0.3495820398110333,
+            "start": 1562,
             "end": 2366
           },
           {
             "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
-            "score": 0.19932289324287283,
+            "score": 0.1573559898347826,
             "start": 0,
-            "end": 1512
+            "end": 1561
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.7448474166640925,
+        "score": 0.34664632315416677,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Usually ~1 at glomerulus, ~0 at liver sinusoid\n·\n↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressu",
-            "score": 0.7448474166640925,
+            "score": 0.34664632315416677,
             "start": 1513,
             "end": 2366
           },
           {
             "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
-            "score": 0.11164036043761141,
+            "score": 0.15166364739002158,
             "start": 0,
             "end": 1512
           }
@@ -230,18 +227,18 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9047254072589233,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.7134472268378858,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
             "text": "↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressure (P\nBC\n)\n·\n↑P\nBC\n-> ↓GFR (e.g. ureteric\n  obstr",
-            "score": 0.9047254072589233,
+            "score": 0.7134472268378858,
             "start": 1562,
             "end": 2366
           },
           {
             "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
-            "score": 0.686849214693223,
+            "score": 0.37641338226567556,
             "start": 0,
             "end": 1561
           }
@@ -266,38 +263,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.48242535110691365,
+        "score": 0.24221938844708332,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
-            "score": 0.48242535110691365,
-            "start": 0,
-            "end": 1512
-          },
-          {
             "text": "Usually ~1 at glomerulus, ~0 at liver sinusoid\n·\n↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressu",
-            "score": 0.4728884155957035,
+            "score": 0.24221938844708332,
             "start": 1513,
             "end": 2366
+          },
+          {
+            "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
+            "score": 0.23205568751749697,
+            "start": 0,
+            "end": 1512
           }
         ]
       },
       "nociception_process": {
-        "score": 0.30017184092373095,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.12122754149981366,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "Usually ~1 at glomerulus, ~0 at liver sinusoid\n·\n↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressu",
-            "score": 0.30017184092373095,
-            "start": 1513,
-            "end": 2366
+            "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
+            "score": 0.12122754149981366,
+            "start": 0,
+            "end": 1561
           },
           {
-            "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
-            "score": 0.2022819500518595,
-            "start": 0,
-            "end": 1512
+            "text": "↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressure (P\nBC\n)\n·\n↑P\nBC\n-> ↓GFR (e.g. ureteric\n  obstr",
+            "score": 0.10702368540104822,
+            "start": 1562,
+            "end": 2366
           }
         ]
       },
@@ -320,56 +317,56 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8709834944174346,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.4220578009094209,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressure (P\nBC\n)\n·\n↑P\nBC\n-> ↓GFR (e.g. ureteric\n  obstr",
-            "score": 0.8709834944174346,
-            "start": 1562,
+            "text": "Usually ~1 at glomerulus, ~0 at liver sinusoid\n·\n↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressu",
+            "score": 0.4220578009094209,
+            "start": 1513,
             "end": 2366
           },
           {
             "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
-            "score": 0.25472975212894494,
+            "score": 0.14917447507309806,
             "start": 0,
-            "end": 1561
+            "end": 1512
           }
         ]
       },
       "special_population_role": {
-        "score": 0.8094013663275356,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1179788782423308,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
-            "text": "·\n↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressure (P\nBC\n)\n·\n↑P\nBC\n-> ↓GFR (e.g. ureteric\n  obs",
-            "score": 0.8094013663275356,
-            "start": 1560,
-            "end": 2366
+            "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
+            "score": 0.1179788782423308,
+            "start": 0,
+            "end": 1561
           },
           {
-            "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
-            "score": 0.46693594554565193,
-            "start": 0,
-            "end": 1559
+            "text": "↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressure (P\nBC\n)\n·\n↑P\nBC\n-> ↓GFR (e.g. ureteric\n  obstr",
+            "score": 0.11531222505249526,
+            "start": 1562,
+            "end": 2366
           }
         ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.864071647903144,
+        "score": 0.6062231517752152,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2005B10 Describe\nthe forces acting across the glomerular capillary membrane.\nExplain how afferent and efferent arteriolar tone affect glomerular filtration\nrate.\nList:\n·\nCorpuscular anatomy\n·\nStarling",
-            "score": 0.864071647903144,
+            "score": 0.6062231517752152,
             "start": 0,
             "end": 1561
           },
           {
             "text": "↓ σ -> ↑↑GFR (e.g. nephrotic syndrome)\nGlomerular capillary hydrostatic pressure (P\nGC\n)\n·\n↑P\nGC\n-> ↑GFR (e.g. ↑↑mAP)\nBowman’s space hydrostatic pressure (P\nBC\n)\n·\n↑P\nBC\n-> ↓GFR (e.g. ureteric\n  obstr",
-            "score": 0.7630956969060682,
+            "score": 0.24221938844708332,
             "start": 1562,
             "end": 2366
           }

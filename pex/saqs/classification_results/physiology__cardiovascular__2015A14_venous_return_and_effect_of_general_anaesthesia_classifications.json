@@ -13,13 +13,9 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_process",
-      "equipment_and_physics",
-      "neuromuscular_process",
-      "nociception_process"
+      "equipment_and_physics"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -62,18 +58,18 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.5314609179060324,
+        "score": 0.5238679594631781,
         "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Venodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility -> ↑",
-            "score": 0.5314609179060324,
+            "score": 0.5238679594631781,
             "start": 1619,
             "end": 2218
           },
           {
             "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.3791848667100366,
+            "score": 0.3796894888668699,
             "start": 0,
             "end": 1618
           }
@@ -98,18 +94,18 @@
         ]
       },
       "applied_clinical": {
-        "score": 0.6029010477306415,
+        "score": 0.6039240962107097,
         "description": "Apply knowledge to clinical scenarios",
         "top_chunks": [
           {
             "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.6029010477306415,
+            "score": 0.6039240962107097,
             "start": 0,
             "end": 1618
           },
           {
             "text": "Venodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility -> ↑",
-            "score": 0.4453860006412118,
+            "score": 0.44584574835552176,
             "start": 1619,
             "end": 2218
           }
@@ -174,36 +170,36 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.14917447507309806,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.23245761627092265,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.14917447507309806,
+            "score": 0.23245761627092265,
             "start": 0,
-            "end": 1555
+            "end": 1616
           },
           {
-            "text": "Immobilisation, paralysis -> absence of\n  pump\nVenous valves\n�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation -",
-            "score": 0.11216054585062639,
-            "start": 1556,
+            "text": "�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility ->",
+            "score": 0.1256423848664057,
+            "start": 1617,
             "end": 2218
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.2606831439763029,
+        "score": 0.30339280916534545,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.2606831439763029,
+            "score": 0.30339280916534545,
             "start": 0,
             "end": 1555
           },
           {
             "text": "Immobilisation, paralysis -> absence of\n  pump\nVenous valves\n�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation -",
-            "score": 0.14793926113385975,
+            "score": 0.19638930530173287,
             "start": 1556,
             "end": 2218
           }
@@ -228,20 +224,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.9112111362640793,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.2937785327050844,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility ->",
-            "score": 0.9112111362640793,
-            "start": 1617,
+            "text": "Venodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility -> ↑",
+            "score": 0.2937785327050844,
+            "start": 1619,
             "end": 2218
           },
           {
             "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.7205848511005187,
+            "score": 0.29332437688031354,
             "start": 0,
-            "end": 1616
+            "end": 1618
           }
         ]
       },
@@ -264,38 +260,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8852167040648438,
+        "score": 0.20377101929932123,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.8852167040648438,
-            "start": 0,
-            "end": 1555
+            "text": "�\nImmobilisation, paralysis -> absence of\n  pump\nVenous valves\n�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation",
+            "score": 0.20377101929932123,
+            "start": 1554,
+            "end": 2218
           },
           {
-            "text": "Immobilisation, paralysis -> absence of\n  pump\nVenous valves\n�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation -",
-            "score": 0.5246955859322152,
-            "start": 1556,
-            "end": 2218
+            "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
+            "score": 0.19858710741881394,
+            "start": 0,
+            "end": 1553
           }
         ]
       },
       "nociception_process": {
-        "score": 0.7201413667339189,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.11112162501075684,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.7201413667339189,
-            "start": 0,
-            "end": 1595
+            "text": "Venodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility -> ↑",
+            "score": 0.11112162501075684,
+            "start": 1619,
+            "end": 2218
           },
           {
-            "text": "  pump\nVenous valves\n�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA",
-            "score": 0.1891669165469514,
-            "start": 1596,
-            "end": 2218
+            "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
+            "score": 0.08698437799387108,
+            "start": 0,
+            "end": 1618
           }
         ]
       },
@@ -318,37 +314,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.9061376743036813,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.7909672325033913,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Venodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility -> ↑",
-            "score": 0.9061376743036813,
-            "start": 1619,
+            "text": "Immobilisation, paralysis -> absence of\n  pump\nVenous valves\n�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation -",
+            "score": 0.7909672325033913,
+            "start": 1556,
             "end": 2218
           },
           {
             "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.8108330834530486,
+            "score": 0.20601653605049183,
             "start": 0,
-            "end": 1618
+            "end": 1555
           }
         ]
       },
       "special_population_role": {
-        "score": 0.2007992399296327,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.11112162501075684,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.2007992399296327,
+            "score": 0.11112162501075684,
             "start": 0,
-            "end": 1595
+            "end": 1616
           },
           {
-            "text": "  pump\nVenous valves\n�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA",
-            "score": 0.16912400446358591,
-            "start": 1596,
+            "text": "�\nVenodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility ->",
+            "score": 0.08698437799387108,
+            "start": 1617,
             "end": 2218
           }
         ]
@@ -356,18 +352,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8094013663275356,
+        "score": 0.3197334123420778,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2015A14 Describe\nthe determinants of venous return and the effect general anaesthesia would have\non these.\nList:\n�\nVenous return\nphysiology: curve, equation, components\n�\nFactors affecting MSFP\n�\nFact",
-            "score": 0.8094013663275356,
+            "score": 0.3197334123420778,
             "start": 0,
             "end": 1618
           },
           {
             "text": "Venodilators -> +/- valve incompetence\n  (e.g. GA, neuraxial)\nFactors\naffecting RAP:\nCardiac function\n�\nRV contraction -> RA elongation ->\n  ↓RAP (not a direct determinant)\n�\nGA -> ↓contractility -> ↑",
-            "score": 0.4608099291755714,
+            "score": 0.28745121192986234,
             "start": 1619,
             "end": 2218
           }

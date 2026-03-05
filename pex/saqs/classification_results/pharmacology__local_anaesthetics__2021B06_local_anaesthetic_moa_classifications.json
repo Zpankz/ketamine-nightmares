@@ -17,14 +17,11 @@
       ]
     },
     "content_dimensions": [
-      "nociception_process",
-      "drug_receptor_disposition",
       "neuromuscular_process",
-      "equipment_and_physics",
+      "drug_receptor_disposition",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -179,37 +176,37 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9121160516407928,
-        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "score": 0.811546548460212,
+        "description": "Drug-receptor/target interactions (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
-            "score": 0.9121160516407928,
+            "score": 0.811546548460212,
             "start": 0,
-            "end": 1530
+            "end": 1540
           },
           {
-            "text": "2-5\n12-30\nHeavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++",
-            "score": 0.6031568810847061,
-            "start": 1531,
+            "text": "Heavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++++",
+            "score": 0.2409870944785764,
+            "start": 1541,
             "end": 1733
           }
         ]
       },
       "autonomic_disposition": {
-        "score": 0.6138577331375298,
+        "score": 0.7414513938748561,
         "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
-            "score": 0.6138577331375298,
+            "score": 0.7414513938748561,
             "start": 0,
-            "end": 1502
+            "end": 1513
           },
           {
-            "text": "Sharp pain\nCold temperature\n2-5\n12-30\nHeavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomo",
-            "score": 0.4509079972295445,
-            "start": 1503,
+            "text": "Cold temperature\n2-5\n12-30\nHeavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3",
+            "score": 0.5562224903725784,
+            "start": 1514,
             "end": 1733
           }
         ]
@@ -233,20 +230,20 @@
         ]
       },
       "organ_system_process": {
-        "score": 0.21055038795004374,
-        "description": "Organ-level physiological processes (BFO: process)",
+        "score": 0.4459114330072063,
+        "description": "Cross-system physiological interactions (BFO: process)",
         "top_chunks": [
           {
-            "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
-            "score": 0.21055038795004374,
-            "start": 0,
-            "end": 1540
+            "text": "++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++++",
+            "score": 0.4459114330072063,
+            "start": 1547,
+            "end": 1733
           },
           {
-            "text": "Heavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++++",
-            "score": 0.09339430960340468,
-            "start": 1541,
-            "end": 1733
+            "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
+            "score": 0.29879635968537094,
+            "start": 0,
+            "end": 1546
           }
         ]
       },
@@ -269,38 +266,38 @@
         ]
       },
       "neuromuscular_process": {
-        "score": 0.8675549594939258,
+        "score": 0.8830921926068878,
         "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
-            "score": 0.8675549594939258,
+            "score": 0.8830921926068878,
             "start": 0,
-            "end": 1513
+            "end": 1500
           },
           {
-            "text": "Cold temperature\n2-5\n12-30\nHeavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3",
-            "score": 0.17863249993135413,
-            "start": 1514,
+            "text": "δ\nSharp pain\nCold temperature\n2-5\n12-30\nHeavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vaso",
+            "score": 0.22370484839267127,
+            "start": 1501,
             "end": 1733
           }
         ]
       },
       "nociception_process": {
-        "score": 0.9398375381531419,
-        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "score": 0.3306771344015845,
+        "description": "Pain pathways and analgesia (BFO: process)",
         "top_chunks": [
           {
-            "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
-            "score": 0.9398375381531419,
-            "start": 0,
-            "end": 1530
+            "text": "Pre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++++",
+            "score": 0.3306771344015845,
+            "start": 1554,
+            "end": 1733
           },
           {
-            "text": "2-5\n12-30\nHeavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++",
-            "score": 0.7954820628685595,
-            "start": 1531,
-            "end": 1733
+            "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
+            "score": 0.12068239347016409,
+            "start": 0,
+            "end": 1553
           }
         ]
       },
@@ -323,37 +320,37 @@
         ]
       },
       "equipment_and_physics": {
-        "score": 0.8669782210144448,
-        "description": "Equipment and physical principles (BFO: material entity)",
+        "score": 0.5762520058217484,
+        "description": "Named equipment and physical principles (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
-            "score": 0.8669782210144448,
+            "score": 0.5762520058217484,
             "start": 0,
-            "end": 1553
+            "end": 1530
           },
           {
-            "text": "Pre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++++",
-            "score": 0.3865229101133825,
-            "start": 1554,
+            "text": "2-5\n12-30\nHeavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++",
+            "score": 0.32971927115415006,
+            "start": 1531,
             "end": 1733
           }
         ]
       },
       "special_population_role": {
-        "score": 0.250521980467662,
-        "description": "Population-specific considerations (BFO: role)",
+        "score": 0.1612217162063077,
+        "description": "Population-specific pharmacology (BFO: role)",
         "top_chunks": [
           {
             "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
-            "score": 0.250521980467662,
+            "score": 0.1612217162063077,
             "start": 0,
-            "end": 1534
+            "end": 1540
           },
           {
-            "text": "12-30\nHeavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++++",
-            "score": 0.18420617535904918,
-            "start": 1535,
+            "text": "Heavy\n++++\nB\nPre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++++",
+            "score": 0.10651790355261252,
+            "start": 1541,
             "end": 1733
           }
         ]
@@ -361,18 +358,18 @@
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.8749147047754419,
+        "score": 0.38221585661706947,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2021B06 Explain\nhow local anaesthetics prevent the conduction of action potentials\nwithin a major peripheral nerve.\nList:\n·\nNerve physiology\n·\nMechanism of action\n·\nDifferential effects\nNerve physiolo",
-            "score": 0.8749147047754419,
+            "score": 0.38221585661706947,
             "start": 0,
             "end": 1553
           },
           {
             "text": "Pre-ganglionic:\nSNS and PSNS\n<3\n3-15\nLight\n++++++\nC-polymodal\nDull pain\nWarm temperature\n0.4-1.2\n0.5-2.3\nNone\n+++++\nC-SNS\nPost-ganglionic:\nSNS vasomotor\n0.3-1.3\n0.7-2.3\nNone\n+++++",
-            "score": 0.5034497668459529,
+            "score": 0.26714177530863603,
             "start": 1554,
             "end": 1733
           }
