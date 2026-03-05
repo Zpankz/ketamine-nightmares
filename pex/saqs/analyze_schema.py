@@ -426,7 +426,7 @@ def analyze_category_affinity(manifest):
     expected_map = {
         "other": {"physics_and_engineering", "monitoring_and_measurement"},
         "pharmacology": {
-            "dose_response_kinetics", "receptor_pharmacology",
+            "pharmacology_mechanisms",
             "organ_system_effects", "pain_and_analgesia",
             "neuromuscular_and_cns",
         },

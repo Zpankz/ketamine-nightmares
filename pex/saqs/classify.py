@@ -53,11 +53,13 @@ ONTOLOGY = {
     "cognitive_domain": {
         "factual_recall": {
             "query": (
-                "{This requires listing, naming, or defining specific facts, "
-                "values, or classifications}"
+                "{This is a short-answer question that asks the student to "
+                "list, name, or define specific facts without any explanation} "
+                "AND NOT {This asks how or why something occurs} "
+                "AND NOT {This involves comparing two or more entities}"
             ),
             "is_iql": True,
-            "description": "Pure recall of facts, values, definitions, or lists",
+            "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         },
         "mechanistic_explanation": {
             "query": (
@@ -72,15 +74,17 @@ ONTOLOGY = {
         "comparative_analysis": {
             "query": (
                 "{This requires comparing or contrasting two or more drugs, "
-                "agents, techniques, or physiological processes}"
+                "agents, techniques, or physiological processes} AND "
+                "{This explicitly names at least two entities to compare}"
             ),
             "is_iql": True,
-            "description": "Compare/contrast multiple entities",
+            "description": "Compare/contrast multiple named entities",
         },
         "quantitative_reasoning": {
             "query": (
-                "{This requires calculating, deriving equations, interpreting "
-                "graphs, or applying mathematical relationships}"
+                "{This requires calculating a numerical answer, deriving an "
+                "equation, interpreting a graph or curve, or applying a "
+                "mathematical formula}"
             ),
             "is_iql": True,
             "description": "Mathematical or graphical reasoning required",
@@ -136,23 +140,14 @@ ONTOLOGY = {
     # A document can match multiple dimensions.
     # ------------------------------------------------------------------
     "content_dimensions": {
-        "dose_response_kinetics": {
+        "pharmacology_mechanisms": {
             "query": (
                 "{This discusses dose-response relationships, pharmacokinetic "
-                "parameters, half-life, clearance, volume of distribution, "
-                "bioavailability, or drug concentration curves}"
+                "parameters, receptor binding, agonists, antagonists, signal "
+                "transduction, half-life, clearance, or volume of distribution}"
             ),
             "is_iql": True,
-            "description": "PK/PD parameters and dose-response",
-        },
-        "receptor_pharmacology": {
-            "query": (
-                "{This discusses specific receptors, receptor subtypes, "
-                "agonists, antagonists, receptor binding, signal transduction "
-                "pathways, or second messenger systems}"
-            ),
-            "is_iql": True,
-            "description": "Receptor mechanisms and ligand interactions",
+            "description": "PK/PD parameters, receptor mechanisms, and drug interactions",
         },
         "organ_system_effects": {
             "query": (
@@ -174,30 +169,35 @@ ONTOLOGY = {
         },
         "monitoring_and_measurement": {
             "query": (
-                "{This discusses clinical measurement techniques, monitoring "
-                "devices, transducers, waveform interpretation, or "
-                "laboratory investigations}"
+                "{This discusses specific monitoring devices such as "
+                "pulse oximeters, capnographs, arterial line transducers, "
+                "or neuromuscular monitors} OR "
+                "{This discusses waveform interpretation or calibration "
+                "of clinical measurement equipment}"
             ),
             "is_iql": True,
-            "description": "Clinical measurement and monitoring",
+            "description": "Specific monitoring devices and measurement techniques",
         },
         "physics_and_engineering": {
             "query": (
-                "{This discusses physical principles, gas laws, fluid "
-                "dynamics, electrical safety, laser physics, or the "
-                "engineering principles of anaesthetic equipment}"
+                "{This discusses gas laws, vapour pressure, or fluid "
+                "dynamics in the context of anaesthetic circuits} OR "
+                "{This discusses electrical safety, defibrillators, "
+                "diathermy, or laser physics in the operating theatre}"
             ),
             "is_iql": True,
-            "description": "Physics and equipment engineering principles",
+            "description": "Physics and equipment engineering in anaesthetic context",
         },
         "acid_base_and_electrolytes": {
             "query": (
-                "{This discusses acid-base balance, pH regulation, buffer "
-                "systems, electrolyte homeostasis, or disorders of sodium, "
-                "potassium, calcium, or magnesium}"
+                "{This discusses the Henderson-Hasselbalch equation, "
+                "Stewart approach, base excess, anion gap, or buffer "
+                "systems} OR "
+                "{This discusses clinical disorders of sodium, potassium, "
+                "calcium, magnesium, or phosphate homeostasis}"
             ),
             "is_iql": True,
-            "description": "Acid-base and electrolyte physiology",
+            "description": "Acid-base physiology and electrolyte disorders",
         },
         "autonomic_nervous_system": {
             "query": (
@@ -208,15 +208,6 @@ ONTOLOGY = {
             ),
             "is_iql": True,
             "description": "ANS physiology and pharmacology",
-        },
-        "haemostasis_and_transfusion": {
-            "query": (
-                "{This discusses coagulation pathways, platelet function, "
-                "anticoagulant drugs, thrombolysis, blood products, "
-                "transfusion reactions, or point-of-care coagulation testing}"
-            ),
-            "is_iql": True,
-            "description": "Coagulation, bleeding, and transfusion",
         },
         "pain_and_analgesia": {
             "query": (
