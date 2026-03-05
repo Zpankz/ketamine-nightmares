@@ -9,7 +9,10 @@
       "primary": "foundational_science",
       "score": 0.4607934298138313
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "clinical_measurement_process",
+      "nociception_process"
+    ],
     "explanatory_schema": [
       "homeostatic_regulation"
     ]
@@ -213,26 +216,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.24801532559250447,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.35696271260294926,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "EEG taken in short epochs\n·\nSeparation into component sine waves\n·\nRepresented as a spectral array (frequency,\n  power (=amplitude\n2\n),\n±\ntime)\n·\nPrecursor to many types of analysis\nTypes of analysis\n",
-            "score": 0.24801532559250447,
-            "start": 1560,
-            "end": 3192
+            "text": "·\nEEG taken in short epochs\n·\nSeparation into component sine waves\n·\nRepresented as a spectral array (frequency,\n  power (=amplitude\n2\n),\n±\ntime)\n·\nPrecursor to many types of analysis\nTypes of analysi",
+            "score": 0.35696271260294926,
+            "start": 1558,
+            "end": 3151
+          },
+          {
+            "text": "In EEG: ↓Chaos = ↑synchrony = ↓entropy =\n  ↓number\nReadouts\n(1) State entropy\n·\nScale 0-91\n·\nFrequency 0.8-32Hz\n·\nLonger epochs -> transient fluctuations\n  eliminated\n·\nIndex of hypnotic component of ",
+            "score": 0.24221938844708332,
+            "start": 3152,
+            "end": 3946
           },
           {
             "text": "2017B04 Describe\nthe generation and features of a normal awake EEG (60%). Briefly discuss the\nprocessing performed by quantitative EEG monitors (such as BIS or entropy) to\nproduce a single\nnumber from",
-            "score": 0.21283868086355118,
+            "score": 0.18491006489830478,
             "start": 0,
-            "end": 1559
-          },
-          {
-            "text": "  ↓number\nReadouts\n(1) State entropy\n·\nScale 0-91\n·\nFrequency 0.8-32Hz\n·\nLonger epochs -> transient fluctuations\n  eliminated\n·\nIndex of hypnotic component of anaesthesia\n(2) Response entropy\n·\nScale ",
-            "score": 0.18280318375806526,
-            "start": 3193,
-            "end": 3946
+            "end": 1557
           }
         ]
       },
@@ -357,26 +360,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12732266681585389,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6584677696173781,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Scale 0-91\n·\nFrequency 0.8-32Hz\n·\nLonger epochs -> transient fluctuations\n  eliminated\n·\nIndex of hypnotic component of anaesthesia\n(2) Response entropy\n·\nScale 0-100\n·\nFrequency 0.8-47Hz\n·\nIncludes E",
-            "score": 0.12732266681585389,
-            "start": 3232,
+            "text": "In EEG: ↓Chaos = ↑synchrony = ↓entropy =\n  ↓number\nReadouts\n(1) State entropy\n·\nScale 0-91\n·\nFrequency 0.8-32Hz\n·\nLonger epochs -> transient fluctuations\n  eliminated\n·\nIndex of hypnotic component of ",
+            "score": 0.6584677696173781,
+            "start": 3152,
             "end": 3946
           },
           {
-            "text": "2017B04 Describe\nthe generation and features of a normal awake EEG (60%). Briefly discuss the\nprocessing performed by quantitative EEG monitors (such as BIS or entropy) to\nproduce a single\nnumber from",
-            "score": 0.12397561162117983,
-            "start": 0,
-            "end": 1587
+            "text": "·\nEEG taken in short epochs\n·\nSeparation into component sine waves\n·\nRepresented as a spectral array (frequency,\n  power (=amplitude\n2\n),\n±\ntime)\n·\nPrecursor to many types of analysis\nTypes of analysi",
+            "score": 0.23245761627092265,
+            "start": 1558,
+            "end": 3151
           },
           {
-            "text": "Separation into component sine waves\n·\nRepresented as a spectral array (frequency,\n  power (=amplitude\n2\n),\n±\ntime)\n·\nPrecursor to many types of analysis\nTypes of analysis\n·\nTime domain analysis: e.g.",
-            "score": 0.09061480910082127,
-            "start": 1588,
-            "end": 3231
+            "text": "2017B04 Describe\nthe generation and features of a normal awake EEG (60%). Briefly discuss the\nprocessing performed by quantitative EEG monitors (such as BIS or entropy) to\nproduce a single\nnumber from",
+            "score": 0.19638930530173287,
+            "start": 0,
+            "end": 1557
           }
         ]
       },
@@ -451,30 +454,78 @@
             "end": 1559
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.1100884956529356,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2017B04 Describe\nthe generation and features of a normal awake EEG (60%). Briefly discuss the\nprocessing performed by quantitative EEG monitors (such as BIS or entropy) to\nproduce a single\nnumber from",
+            "score": 0.1100884956529356,
+            "start": 0,
+            "end": 1587
+          },
+          {
+            "text": "Separation into component sine waves\n·\nRepresented as a spectral array (frequency,\n  power (=amplitude\n2\n),\n±\ntime)\n·\nPrecursor to many types of analysis\nTypes of analysis\n·\nTime domain analysis: e.g.",
+            "score": 0.08475870499498107,
+            "start": 1588,
+            "end": 3231
+          },
+          {
+            "text": "Scale 0-91\n·\nFrequency 0.8-32Hz\n·\nLonger epochs -> transient fluctuations\n  eliminated\n·\nIndex of hypnotic component of anaesthesia\n(2) Response entropy\n·\nScale 0-100\n·\nFrequency 0.8-47Hz\n·\nIncludes E",
+            "score": 0.08083535454544834,
+            "start": 3232,
+            "end": 3946
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8407182470171375,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2017B04 Describe\nthe generation and features of a normal awake EEG (60%). Briefly discuss the\nprocessing performed by quantitative EEG monitors (such as BIS or entropy) to\nproduce a single\nnumber from",
+            "score": 0.8407182470171375,
+            "start": 0,
+            "end": 1534
+          },
+          {
+            "text": "In EEG: ↓Chaos = ↑synchrony = ↓entropy =\n  ↓number\nReadouts\n(1) State entropy\n·\nScale 0-91\n·\nFrequency 0.8-32Hz\n·\nLonger epochs -> transient fluctuations\n  eliminated\n·\nIndex of hypnotic component of ",
+            "score": 0.7829292210001332,
+            "start": 3152,
+            "end": 3946
+          },
+          {
+            "text": "Fourier transformation\n·\nEEG taken in short epochs\n·\nSeparation into component sine waves\n·\nRepresented as a spectral array (frequency,\n  power (=amplitude\n2\n),\n±\ntime)\n·\nPrecursor to many types of an",
+            "score": 0.22213370116389697,
+            "start": 1535,
+            "end": 3151
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.31926121628175463,
+        "score": 0.22370484839267127,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "·\nFrequency 0.8-32Hz\n·\nLonger epochs -> transient fluctuations\n  eliminated\n·\nIndex of hypnotic component of anaesthesia\n(2) Response entropy\n·\nScale 0-100\n·\nFrequency 0.8-47Hz\n·\nIncludes EMG data\n·\nS",
-            "score": 0.31926121628175463,
-            "start": 3243,
+            "text": "EEG taken in short epochs\n·\nSeparation into component sine waves\n·\nRepresented as a spectral array (frequency,\n  power (=amplitude\n2\n),\n±\ntime)\n·\nPrecursor to many types of analysis\nTypes of analysis\n",
+            "score": 0.22370484839267127,
+            "start": 1560,
+            "end": 3151
+          },
+          {
+            "text": "In EEG: ↓Chaos = ↑synchrony = ↓entropy =\n  ↓number\nReadouts\n(1) State entropy\n·\nScale 0-91\n·\nFrequency 0.8-32Hz\n·\nLonger epochs -> transient fluctuations\n  eliminated\n·\nIndex of hypnotic component of ",
+            "score": 0.20827633226924755,
+            "start": 3152,
             "end": 3946
           },
           {
-            "text": "Separation into component sine waves\n·\nRepresented as a spectral array (frequency,\n  power (=amplitude\n2\n),\n±\ntime)\n·\nPrecursor to many types of analysis\nTypes of analysis\n·\nTime domain analysis: e.g.",
-            "score": 0.2509410724842214,
-            "start": 1588,
-            "end": 3242
-          },
-          {
             "text": "2017B04 Describe\nthe generation and features of a normal awake EEG (60%). Briefly discuss the\nprocessing performed by quantitative EEG monitors (such as BIS or entropy) to\nproduce a single\nnumber from",
-            "score": 0.18210408151009452,
+            "score": 0.15417787288657336,
             "start": 0,
-            "end": 1587
+            "end": 1559
           }
         ]
       },

@@ -18,13 +18,15 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "equipment_and_physics",
       "special_population_role",
       "organ_system_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "structure_function_link"
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -226,25 +228,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.3619150539625578,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5509338618532158,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Lean mass -> ↑VO\n2\n-> secondary polycythaemia\n·\n↑Angiotensin 2, aldosterone, ↓ANP -> ↑Na\n+\n/H\n2\nO\n  reabsorption -> ↑ECF and plasma volume\n-> Absolute blood vol ↑\n-> Relative blood vol ↓(approx. 45mL",
-            "score": 0.3619150539625578,
-            "start": 1389,
-            "end": 2550
+            "text": "Hypervolaemia\n·\n↑Lean mass -> ↑VO\n2\n-> secondary polycythaemia\n·\n↑Angiotensin 2, aldosterone, ↓ANP -> ↑Na\n+\n/H\n2\nO\n  reabsorption -> ↑ECF and plasma volume\n-> Absolute blood vol ↑\n-> Relative blood vo",
+            "score": 0.5509338618532158,
+            "start": 1373,
+            "end": 2498
           },
           {
             "text": "2018A02 Describe\nthe cardiovascular changes that occur with morbid obesity.\nList:\n·\nIntro\n·\nHeart\n·\nVasculature\n·\nHaemodynamics\n·\nElectrics\nIntro:\nMorbid obesity\n·\nBMI >35kg/m\n2\nCause of changes\n·\n↑Fa",
-            "score": 0.23085222312653272,
+            "score": 0.2619682848045116,
             "start": 0,
-            "end": 1388
+            "end": 1372
           },
           {
-            "text": "Prolonged QT interval\n·\nAV block\n·\nBundle branch block\n-> Risk of AV block including third degree,\n  trifascicular\nCommon pathology\n·\nAF: absent P wave, wandering baseline\n·\nIschaemia: ST↑↓, TWI, path",
-            "score": 0.13534398140930778,
-            "start": 2551,
+            "text": "Cause: fatty infiltration, fibrosis, lipotoxicity\n·\nProlonged QT interval\n·\nAV block\n·\nBundle branch block\n-> Risk of AV block including third degree,\n  trifascicular\nCommon pathology\n·\nAF: absent P w",
+            "score": 0.20302569007096166,
+            "start": 2499,
             "end": 2820
           }
         ]
@@ -370,26 +372,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.16317590246639627,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.19565989102814468,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nBundle branch block\n-> Risk of AV block including third degree,\n  trifascicular\nCommon pathology\n·\nAF: absent P wave, wandering baseline\n·\nIschaemia: ST↑↓, TWI, pathological Q waves\n·\nCor pulmonale ",
-            "score": 0.16317590246639627,
-            "start": 2584,
+            "text": "Hypervolaemia\n·\n↑Lean mass -> ↑VO\n2\n-> secondary polycythaemia\n·\n↑Angiotensin 2, aldosterone, ↓ANP -> ↑Na\n+\n/H\n2\nO\n  reabsorption -> ↑ECF and plasma volume\n-> Absolute blood vol ↑\n-> Relative blood vo",
+            "score": 0.19565989102814468,
+            "start": 1373,
+            "end": 2498
+          },
+          {
+            "text": "Cause: fatty infiltration, fibrosis, lipotoxicity\n·\nProlonged QT interval\n·\nAV block\n·\nBundle branch block\n-> Risk of AV block including third degree,\n  trifascicular\nCommon pathology\n·\nAF: absent P w",
+            "score": 0.14487848470578973,
+            "start": 2499,
             "end": 2820
           },
           {
             "text": "2018A02 Describe\nthe cardiovascular changes that occur with morbid obesity.\nList:\n·\nIntro\n·\nHeart\n·\nVasculature\n·\nHaemodynamics\n·\nElectrics\nIntro:\nMorbid obesity\n·\nBMI >35kg/m\n2\nCause of changes\n·\n↑Fa",
-            "score": 0.1005592983048298,
+            "score": 0.10906114075009045,
             "start": 0,
-            "end": 1388
-          },
-          {
-            "text": "↑Lean mass -> ↑VO\n2\n-> secondary polycythaemia\n·\n↑Angiotensin 2, aldosterone, ↓ANP -> ↑Na\n+\n/H\n2\nO\n  reabsorption -> ↑ECF and plasma volume\n-> Absolute blood vol ↑\n-> Relative blood vol ↓(approx. 45mL",
-            "score": 0.08564500055265845,
-            "start": 1389,
-            "end": 2583
+            "end": 1372
           }
         ]
       },
@@ -464,29 +466,77 @@
             "end": 2820
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.3537572601037678,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Bundle branch block\n-> Risk of AV block including third degree,\n  trifascicular\nCommon pathology\n·\nAF: absent P wave, wandering baseline\n·\nIschaemia: ST↑↓, TWI, pathological Q waves\n·\nCor pulmonale (O",
+            "score": 0.3537572601037678,
+            "start": 2586,
+            "end": 2820
+          },
+          {
+            "text": "↑Lean mass -> ↑VO\n2\n-> secondary polycythaemia\n·\n↑Angiotensin 2, aldosterone, ↓ANP -> ↑Na\n+\n/H\n2\nO\n  reabsorption -> ↑ECF and plasma volume\n-> Absolute blood vol ↑\n-> Relative blood vol ↓(approx. 45mL",
+            "score": 0.324947631255672,
+            "start": 1389,
+            "end": 2585
+          },
+          {
+            "text": "2018A02 Describe\nthe cardiovascular changes that occur with morbid obesity.\nList:\n·\nIntro\n·\nHeart\n·\nVasculature\n·\nHaemodynamics\n·\nElectrics\nIntro:\nMorbid obesity\n·\nBMI >35kg/m\n2\nCause of changes\n·\n↑Fa",
+            "score": 0.2942330252332108,
+            "start": 0,
+            "end": 1388
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8599380954981706,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Vasculature:\nHypervolaemia\n·\n↑Lean mass -> ↑VO\n2\n-> secondary polycythaemia\n·\n↑Angiotensin 2, aldosterone, ↓ANP -> ↑Na\n+\n/H\n2\nO\n  reabsorption -> ↑ECF and plasma volume\n-> Absolute blood vol ↑\n-> Rela",
+            "score": 0.8599380954981706,
+            "start": 1360,
+            "end": 2475
+          },
+          {
+            "text": "2018A02 Describe\nthe cardiovascular changes that occur with morbid obesity.\nList:\n·\nIntro\n·\nHeart\n·\nVasculature\n·\nHaemodynamics\n·\nElectrics\nIntro:\nMorbid obesity\n·\nBMI >35kg/m\n2\nCause of changes\n·\n↑Fa",
+            "score": 0.7165808924551722,
+            "start": 0,
+            "end": 1359
+          },
+          {
+            "text": "Obesity cardiomyopathy\nCause: fatty infiltration, fibrosis, lipotoxicity\n·\nProlonged QT interval\n·\nAV block\n·\nBundle branch block\n-> Risk of AV block including third degree,\n  trifascicular\nCommon pat",
+            "score": 0.28700182061581236,
+            "start": 2476,
+            "end": 2820
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.44752120087303066,
+        "score": 0.6905831643668621,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
+            "text": "Hypervolaemia\n·\n↑Lean mass -> ↑VO\n2\n-> secondary polycythaemia\n·\n↑Angiotensin 2, aldosterone, ↓ANP -> ↑Na\n+\n/H\n2\nO\n  reabsorption -> ↑ECF and plasma volume\n-> Absolute blood vol ↑\n-> Relative blood vo",
+            "score": 0.6905831643668621,
+            "start": 1373,
+            "end": 2498
+          },
+          {
             "text": "2018A02 Describe\nthe cardiovascular changes that occur with morbid obesity.\nList:\n·\nIntro\n·\nHeart\n·\nVasculature\n·\nHaemodynamics\n·\nElectrics\nIntro:\nMorbid obesity\n·\nBMI >35kg/m\n2\nCause of changes\n·\n↑Fa",
-            "score": 0.44752120087303066,
+            "score": 0.6800303748388085,
             "start": 0,
-            "end": 1406
+            "end": 1372
           },
           {
-            "text": "2\n-> secondary polycythaemia\n·\n↑Angiotensin 2, aldosterone, ↓ANP -> ↑Na\n+\n/H\n2\nO\n  reabsorption -> ↑ECF and plasma volume\n-> Absolute blood vol ↑\n-> Relative blood vol ↓(approx. 45mL/kg)\nAtheroscleros",
-            "score": 0.3926287952747533,
-            "start": 1407,
-            "end": 2605
-          },
-          {
-            "text": "-> Risk of AV block including third degree,\n  trifascicular\nCommon pathology\n·\nAF: absent P wave, wandering baseline\n·\nIschaemia: ST↑↓, TWI, pathological Q waves\n·\nCor pulmonale (OSA, OHS): LAD, RBBB,",
-            "score": 0.22213370116389697,
-            "start": 2606,
+            "text": "Cause: fatty infiltration, fibrosis, lipotoxicity\n·\nProlonged QT interval\n·\nAV block\n·\nBundle branch block\n-> Risk of AV block including third degree,\n  trifascicular\nCommon pathology\n·\nAF: absent P w",
+            "score": 0.44775124428462515,
+            "start": 2499,
             "end": 2820
           }
         ]

@@ -170,20 +170,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4708703870553614,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4754699303033363,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Substance enters cell within a vesicle\n·\nRequires energy (ATP)\n·\nNon-specific\n·\ne.g. dendritic cell sampling lymph\nPhagocytosis\n·\nPiece of membrane engulfs large substance\n·\nRequires energy (ATP)\n·\ne.",
-            "score": 0.4708703870553614,
-            "start": 1715,
+            "text": "·\nSubstance enters cell within a vesicle\n·\nRequires energy (ATP)\n·\nNon-specific\n·\ne.g. dendritic cell sampling lymph\nPhagocytosis\n·\nPiece of membrane engulfs large substance\n·\nRequires energy (ATP)\n·\n",
+            "score": 0.4754699303033363,
+            "start": 1713,
             "end": 2258
           },
           {
             "text": "2010A16 Describe\nthe processes whereby substances may cross cell membranes, giving examples.\nList:\n·\nIntro: membrane and particle\n·\nDiffusion\n·\nActive transport\n·\nVesicular transport\nIntro:\nCell membr",
-            "score": 0.4059534237299375,
+            "score": 0.2052664429349464,
             "start": 0,
-            "end": 1714
+            "end": 1712
           }
         ]
       },
@@ -278,19 +278,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08653659094165504,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.14185652155095707,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2010A16 Describe\nthe processes whereby substances may cross cell membranes, giving examples.\nList:\n·\nIntro: membrane and particle\n·\nDiffusion\n·\nActive transport\n·\nVesicular transport\nIntro:\nCell membr",
-            "score": 0.08653659094165504,
+            "score": 0.14185652155095707,
             "start": 0,
-            "end": 1755
+            "end": 1714
           },
           {
-            "text": "Requires energy (ATP)\n·\nNon-specific\n·\ne.g. dendritic cell sampling lymph\nPhagocytosis\n·\nPiece of membrane engulfs large substance\n·\nRequires energy (ATP)\n·\ne.g. neutrophil and bacterium\nReceptor-medi",
-            "score": 0.08300191741623564,
-            "start": 1756,
+            "text": "Substance enters cell within a vesicle\n·\nRequires energy (ATP)\n·\nNon-specific\n·\ne.g. dendritic cell sampling lymph\nPhagocytosis\n·\nPiece of membrane engulfs large substance\n·\nRequires energy (ATP)\n·\ne.",
+            "score": 0.09386232569631885,
+            "start": 1715,
             "end": 2258
           }
         ]
@@ -348,24 +348,60 @@
             "end": 1714
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.28745121192986234,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.17932362625190623,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Requires energy (ATP)\n·\nNon-specific\n·\ne.g. dendritic cell sampling lymph\nPhagocytosis\n·\nPiece of membrane engulfs large substance\n·\nRequires energy (ATP)\n·\ne.g. neutrophil and bacterium\nReceptor-medi",
-            "score": 0.28745121192986234,
+            "score": 0.17932362625190623,
             "start": 1756,
             "end": 2258
           },
           {
             "text": "2010A16 Describe\nthe processes whereby substances may cross cell membranes, giving examples.\nList:\n·\nIntro: membrane and particle\n·\nDiffusion\n·\nActive transport\n·\nVesicular transport\nIntro:\nCell membr",
-            "score": 0.1898819772959151,
+            "score": 0.15166364739002158,
             "start": 0,
             "end": 1755
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.16057348256172324,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\nSubstance enters cell within a vesicle\n·\nRequires energy (ATP)\n·\nNon-specific\n·\ne.g. dendritic cell sampling lymph\nPhagocytosis\n·\nPiece of membrane engulfs large substance\n·\nRequires energy (ATP)\n·\n",
+            "score": 0.16057348256172324,
+            "start": 1713,
+            "end": 2258
+          },
+          {
+            "text": "2010A16 Describe\nthe processes whereby substances may cross cell membranes, giving examples.\nList:\n·\nIntro: membrane and particle\n·\nDiffusion\n·\nActive transport\n·\nVesicular transport\nIntro:\nCell membr",
+            "score": 0.14979442334570606,
+            "start": 0,
+            "end": 1712
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.4702750545997272,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Substance enters cell within a vesicle\n·\nRequires energy (ATP)\n·\nNon-specific\n·\ne.g. dendritic cell sampling lymph\nPhagocytosis\n·\nPiece of membrane engulfs large substance\n·\nRequires energy (ATP)\n·\ne.",
+            "score": 0.4702750545997272,
+            "start": 1715,
+            "end": 2258
+          },
+          {
+            "text": "2010A16 Describe\nthe processes whereby substances may cross cell membranes, giving examples.\nList:\n·\nIntro: membrane and particle\n·\nDiffusion\n·\nActive transport\n·\nVesicular transport\nIntro:\nCell membr",
+            "score": 0.2776447299150455,
+            "start": 0,
+            "end": 1714
           }
         ]
       },

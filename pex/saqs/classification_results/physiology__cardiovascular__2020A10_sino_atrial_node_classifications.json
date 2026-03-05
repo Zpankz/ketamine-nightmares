@@ -12,7 +12,7 @@
     "content_dimensions": [
       "neuromuscular_process",
       "autonomic_disposition",
-      "drug_receptor_disposition"
+      "clinical_measurement_process"
     ],
     "explanatory_schema": [
       "structure_function_link"
@@ -169,20 +169,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6487010445596815,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.43836863985749225,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\n↑PSNS: -> ↓I\nf\n, ↑I\nK\n-> ↓steepness phase 4, increased hyperpolarisation\n·\n↓Temp -> ↓cell metabolic rate (enzymes,\n  pumps)\n·\nHypoxia -> failure of Na\n+\nK\n+\nATPase,\n  unable to repolarize cell, HCN ",
-            "score": 0.6487010445596815,
-            "start": 1534,
-            "end": 1874
+            "text": "2020A09 Compare\nand contrast the actional potentials from the sino-atrial node and a\nventricular myocyte.\nList:\n·\nIntro\n·\nGraph and conductance\n·\nPacemaker action\npotential\nIntro:\nAction potential\n·\nA",
+            "score": 0.43836863985749225,
+            "start": 0,
+            "end": 1466
           },
           {
-            "text": "2020A09 Compare\nand contrast the actional potentials from the sino-atrial node and a\nventricular myocyte.\nList:\n·\nIntro\n·\nGraph and conductance\n·\nPacemaker action\npotential\nIntro:\nAction potential\n·\nA",
-            "score": 0.491774150645115,
-            "start": 0,
-            "end": 1533
+            "text": "Neonate: ↑resting HR (fixed stroke volume)\nFactors decreasing rate\n·\n↑PSNS: -> ↓I\nf\n, ↑I\nK\n-> ↓steepness phase 4, increased hyperpolarisation\n·\n↓Temp -> ↓cell metabolic rate (enzymes,\n  pumps)\n·\nHypox",
+            "score": 0.4208236304550369,
+            "start": 1467,
+            "end": 1874
           }
         ]
       },
@@ -277,19 +277,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08924333203133303,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.17383924611324467,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A09 Compare\nand contrast the actional potentials from the sino-atrial node and a\nventricular myocyte.\nList:\n·\nIntro\n·\nGraph and conductance\n·\nPacemaker action\npotential\nIntro:\nAction potential\n·\nA",
-            "score": 0.08924333203133303,
+            "score": 0.17383924611324467,
             "start": 0,
-            "end": 1535
+            "end": 1466
           },
           {
-            "text": "↑PSNS: -> ↓I\nf\n, ↑I\nK\n-> ↓steepness phase 4, increased hyperpolarisation\n·\n↓Temp -> ↓cell metabolic rate (enzymes,\n  pumps)\n·\nHypoxia -> failure of Na\n+\nK\n+\nATPase,\n  unable to repolarize cell, HCN no",
-            "score": 0.08343914521545998,
-            "start": 1536,
+            "text": "Neonate: ↑resting HR (fixed stroke volume)\nFactors decreasing rate\n·\n↑PSNS: -> ↓I\nf\n, ↑I\nK\n-> ↓steepness phase 4, increased hyperpolarisation\n·\n↓Temp -> ↓cell metabolic rate (enzymes,\n  pumps)\n·\nHypox",
+            "score": 0.14366505103412583,
+            "start": 1467,
             "end": 1874
           }
         ]
@@ -347,24 +347,60 @@
             "end": 1533
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.30802184928481907,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.3378979270173037,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↑PSNS: -> ↓I\nf\n, ↑I\nK\n-> ↓steepness phase 4, increased hyperpolarisation\n·\n↓Temp -> ↓cell metabolic rate (enzymes,\n  pumps)\n·\nHypoxia -> failure of Na\n+\nK\n+\nATPase,\n  unable to repolarize cell, HCN no",
-            "score": 0.30802184928481907,
+            "score": 0.3378979270173037,
             "start": 1536,
             "end": 1874
           },
           {
             "text": "2020A09 Compare\nand contrast the actional potentials from the sino-atrial node and a\nventricular myocyte.\nList:\n·\nIntro\n·\nGraph and conductance\n·\nPacemaker action\npotential\nIntro:\nAction potential\n·\nA",
-            "score": 0.21283868086355118,
+            "score": 0.2159118422576255,
             "start": 0,
             "end": 1535
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.6924425059475212,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Neonate: ↑resting HR (fixed stroke volume)\nFactors decreasing rate\n·\n↑PSNS: -> ↓I\nf\n, ↑I\nK\n-> ↓steepness phase 4, increased hyperpolarisation\n·\n↓Temp -> ↓cell metabolic rate (enzymes,\n  pumps)\n·\nHypox",
+            "score": 0.6924425059475212,
+            "start": 1467,
+            "end": 1874
+          },
+          {
+            "text": "2020A09 Compare\nand contrast the actional potentials from the sino-atrial node and a\nventricular myocyte.\nList:\n·\nIntro\n·\nGraph and conductance\n·\nPacemaker action\npotential\nIntro:\nAction potential\n·\nA",
+            "score": 0.6577390329259438,
+            "start": 0,
+            "end": 1466
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.4988058358212547,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Neonate: ↑resting HR (fixed stroke volume)\nFactors decreasing rate\n·\n↑PSNS: -> ↓I\nf\n, ↑I\nK\n-> ↓steepness phase 4, increased hyperpolarisation\n·\n↓Temp -> ↓cell metabolic rate (enzymes,\n  pumps)\n·\nHypox",
+            "score": 0.4988058358212547,
+            "start": 1467,
+            "end": 1874
+          },
+          {
+            "text": "2020A09 Compare\nand contrast the actional potentials from the sino-atrial node and a\nventricular myocyte.\nList:\n·\nIntro\n·\nGraph and conductance\n·\nPacemaker action\npotential\nIntro:\nAction potential\n·\nA",
+            "score": 0.22965224581842933,
+            "start": 0,
+            "end": 1466
           }
         ]
       },

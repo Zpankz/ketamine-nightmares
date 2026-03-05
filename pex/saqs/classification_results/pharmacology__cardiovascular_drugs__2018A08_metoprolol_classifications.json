@@ -22,9 +22,11 @@
       "neuromuscular_process",
       "organ_system_process",
       "acid_base_quality",
+      "nociception_process",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -179,18 +181,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7954820628685595,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7590129055214236,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2018A08 Outline\nthe pharmacology of intravenous metoprolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nEnantiomers\nR-metoprolol\nS-metoprolol\nPresentation\nIV solution\nTablets as tartrate (quick) or succinat",
-            "score": 0.7954820628685595,
+            "score": 0.7590129055214236,
             "start": 0,
             "end": 1302
           },
           {
             "text": "↓contractility, ↓remodelling in LV failure\n·\n↓cardiac output, ↓mAP acutely (offset by ↑SVR)\n·\n+/- Worsen peripheral vascular disease (more a\n  problem if non-selective)\n·\n+/- rebound effects if abrupt",
-            "score": 0.6422960366113832,
+            "score": 0.3774204195411882,
             "start": 1303,
             "end": 2150
           }
@@ -287,20 +289,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.14065856668448176,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6826244959044427,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2018A08 Outline\nthe pharmacology of intravenous metoprolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nEnantiomers\nR-metoprolol\nS-metoprolol\nPresentation\nIV solution\nTablets as tartrate (quick) or succinat",
-            "score": 0.14065856668448176,
-            "start": 0,
-            "end": 1302
-          },
-          {
             "text": "↓contractility, ↓remodelling in LV failure\n·\n↓cardiac output, ↓mAP acutely (offset by ↑SVR)\n·\n+/- Worsen peripheral vascular disease (more a\n  problem if non-selective)\n·\n+/- rebound effects if abrupt",
-            "score": 0.09015630224155849,
+            "score": 0.6826244959044427,
             "start": 1303,
             "end": 2150
+          },
+          {
+            "text": "2018A08 Outline\nthe pharmacology of intravenous metoprolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nEnantiomers\nR-metoprolol\nS-metoprolol\nPresentation\nIV solution\nTablets as tartrate (quick) or succinat",
+            "score": 0.365894701768538,
+            "start": 0,
+            "end": 1302
           }
         ]
       },
@@ -357,24 +359,60 @@
             "end": 2150
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.270619815687641,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.17656868710877405,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "·\n↓cardiac output, ↓mAP acutely (offset by ↑SVR)\n·\n+/- Worsen peripheral vascular disease (more a\n  problem if non-selective)\n·\n+/- rebound effects if abrupt cessation\nResp effects\n·\nRisk bronchospasm",
-            "score": 0.270619815687641,
-            "start": 1346,
+            "text": "↓contractility, ↓remodelling in LV failure\n·\n↓cardiac output, ↓mAP acutely (offset by ↑SVR)\n·\n+/- Worsen peripheral vascular disease (more a\n  problem if non-selective)\n·\n+/- rebound effects if abrupt",
+            "score": 0.17656868710877405,
+            "start": 1303,
             "end": 2150
           },
           {
             "text": "2018A08 Outline\nthe pharmacology of intravenous metoprolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nEnantiomers\nR-metoprolol\nS-metoprolol\nPresentation\nIV solution\nTablets as tartrate (quick) or succinat",
-            "score": 0.10153827963475912,
+            "score": 0.0915358786435363,
             "start": 0,
-            "end": 1345
+            "end": 1302
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.5840398349607948,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\n↓contractility, ↓remodelling in LV failure\n·\n↓cardiac output, ↓mAP acutely (offset by ↑SVR)\n·\n+/- Worsen peripheral vascular disease (more a\n  problem if non-selective)\n·\n+/- rebound effects if abru",
+            "score": 0.5840398349607948,
+            "start": 1301,
+            "end": 2150
+          },
+          {
+            "text": "2018A08 Outline\nthe pharmacology of intravenous metoprolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nEnantiomers\nR-metoprolol\nS-metoprolol\nPresentation\nIV solution\nTablets as tartrate (quick) or succinat",
+            "score": 0.11372982298149485,
+            "start": 0,
+            "end": 1300
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7954820628685595,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "↓contractility, ↓remodelling in LV failure\n·\n↓cardiac output, ↓mAP acutely (offset by ↑SVR)\n·\n+/- Worsen peripheral vascular disease (more a\n  problem if non-selective)\n·\n+/- rebound effects if abrupt",
+            "score": 0.7954820628685595,
+            "start": 1303,
+            "end": 2150
+          },
+          {
+            "text": "2018A08 Outline\nthe pharmacology of intravenous metoprolol.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nEnantiomers\nR-metoprolol\nS-metoprolol\nPresentation\nIV solution\nTablets as tartrate (quick) or succinat",
+            "score": 0.6128424258885341,
+            "start": 0,
+            "end": 1302
           }
         ]
       },

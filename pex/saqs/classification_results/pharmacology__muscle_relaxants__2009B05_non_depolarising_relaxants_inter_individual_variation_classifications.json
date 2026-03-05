@@ -14,12 +14,14 @@
     },
     "content_dimensions": [
       "neuromuscular_process",
-      "drug_receptor_disposition",
       "organ_system_process",
+      "drug_receptor_disposition",
+      "clinical_measurement_process",
       "autonomic_disposition",
       "special_population_role"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -174,18 +176,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8846877749475047,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7954820628685595,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  if very short acting (e.g. rapacuronium)\n·\nObesity/alcohol -> ↑pseudocholinesterase\n  -> ↑ON, ↓PE, ↓DUR (mivacurium only)\n·\nCYP gain-of-function polymorphism ->\n  ↑metabolism -> ↓DUR (e.g. vecuroniu",
-            "score": 0.8846877749475047,
+            "score": 0.7954820628685595,
             "start": 1307,
             "end": 2332
           },
           {
             "text": "2009B05 Describe\nthe factors that may decrease the clinical response to\nnon-depolarising neuromuscular blocking agents.\nList:\n·\nIntro\n·\nPhys\n·\nPath (kinetic and dynamic)\n·\nDrug factors\n·\nDrug interact",
-            "score": 0.23731085714042086,
+            "score": 0.6584677696173781,
             "start": 0,
             "end": 1306
           }
@@ -282,20 +284,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09292765927996026,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.47176351676186234,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Obesity/alcohol -> ↑pseudocholinesterase\n  -> ↑ON, ↓PE, ↓DUR (mivacurium only)\n·\nCYP gain-of-function polymorphism ->\n  ↑metabolism -> ↓DUR (e.g. vecuronium)\nDynamic\n↑Extra-junctional receptors -> ↑ON",
-            "score": 0.09292765927996026,
-            "start": 1352,
-            "end": 2332
+            "text": "2009B05 Describe\nthe factors that may decrease the clinical response to\nnon-depolarising neuromuscular blocking agents.\nList:\n·\nIntro\n·\nPhys\n·\nPath (kinetic and dynamic)\n·\nDrug factors\n·\nDrug interact",
+            "score": 0.47176351676186234,
+            "start": 0,
+            "end": 1306
           },
           {
-            "text": "2009B05 Describe\nthe factors that may decrease the clinical response to\nnon-depolarising neuromuscular blocking agents.\nList:\n·\nIntro\n·\nPhys\n·\nPath (kinetic and dynamic)\n·\nDrug factors\n·\nDrug interact",
-            "score": 0.0874334962984957,
-            "start": 0,
-            "end": 1351
+            "text": "  if very short acting (e.g. rapacuronium)\n·\nObesity/alcohol -> ↑pseudocholinesterase\n  -> ↑ON, ↓PE, ↓DUR (mivacurium only)\n·\nCYP gain-of-function polymorphism ->\n  ↑metabolism -> ↓DUR (e.g. vecuroniu",
+            "score": 0.39735483293146234,
+            "start": 1307,
+            "end": 2332
           }
         ]
       },
@@ -352,24 +354,60 @@
             "end": 2332
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.14065856668448176,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2009B05 Describe\nthe factors that may decrease the clinical response to\nnon-depolarising neuromuscular blocking agents.\nList:\n·\nIntro\n·\nPhys\n·\nPath (kinetic and dynamic)\n·\nDrug factors\n·\nDrug interact",
+            "score": 0.14065856668448176,
+            "start": 0,
+            "end": 1351
+          },
+          {
+            "text": "Obesity/alcohol -> ↑pseudocholinesterase\n  -> ↑ON, ↓PE, ↓DUR (mivacurium only)\n·\nCYP gain-of-function polymorphism ->\n  ↑metabolism -> ↓DUR (e.g. vecuronium)\nDynamic\n↑Extra-junctional receptors -> ↑ON",
+            "score": 0.13015328625585776,
+            "start": 1352,
+            "end": 2332
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7875436889746668,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2009B05 Describe\nthe factors that may decrease the clinical response to\nnon-depolarising neuromuscular blocking agents.\nList:\n·\nIntro\n·\nPhys\n·\nPath (kinetic and dynamic)\n·\nDrug factors\n·\nDrug interact",
+            "score": 0.7875436889746668,
+            "start": 0,
+            "end": 1306
+          },
+          {
+            "text": "  if very short acting (e.g. rapacuronium)\n·\nObesity/alcohol -> ↑pseudocholinesterase\n  -> ↑ON, ↓PE, ↓DUR (mivacurium only)\n·\nCYP gain-of-function polymorphism ->\n  ↑metabolism -> ↓DUR (e.g. vecuroniu",
+            "score": 0.23609234787563346,
+            "start": 1307,
+            "end": 2332
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.2623973993795041,
+        "score": 0.8381284697982909,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "Obesity/alcohol -> ↑pseudocholinesterase\n  -> ↑ON, ↓PE, ↓DUR (mivacurium only)\n·\nCYP gain-of-function polymorphism ->\n  ↑metabolism -> ↓DUR (e.g. vecuronium)\nDynamic\n↑Extra-junctional receptors -> ↑ON",
-            "score": 0.2623973993795041,
-            "start": 1352,
+            "text": "  if very short acting (e.g. rapacuronium)\n·\nObesity/alcohol -> ↑pseudocholinesterase\n  -> ↑ON, ↓PE, ↓DUR (mivacurium only)\n·\nCYP gain-of-function polymorphism ->\n  ↑metabolism -> ↓DUR (e.g. vecuroniu",
+            "score": 0.8381284697982909,
+            "start": 1307,
             "end": 2332
           },
           {
             "text": "2009B05 Describe\nthe factors that may decrease the clinical response to\nnon-depolarising neuromuscular blocking agents.\nList:\n·\nIntro\n·\nPhys\n·\nPath (kinetic and dynamic)\n·\nDrug factors\n·\nDrug interact",
-            "score": 0.2467670878597175,
+            "score": 0.7540631803975041,
             "start": 0,
-            "end": 1351
+            "end": 1306
           }
         ]
       },

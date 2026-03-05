@@ -10,7 +10,9 @@
       "score": 0.5389095705890392
     },
     "content_dimensions": [],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -163,19 +165,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5285672901084498,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4298057865607457,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "1999A14 Briefly\noutline the pharmacological effects of the volatile anaesthetic agents on the\nkidneys.\nList:\n·\n↓GFR\n·\nCompound A nephrotoxicity\n·\nFluoride toxicity\n↓GFR:\nCardiovascular causes\n·\n↓L-Ca\n",
-            "score": 0.5285672901084498,
+            "score": 0.4298057865607457,
             "start": 0,
-            "end": 1228
+            "end": 1187
           },
           {
-            "text": "Sevoflurane\n·\n2-5% metabolized (since low BGPC)\n·\nLarge amount of fluoride production, but hepatic > renal",
-            "score": 0.15863825532763226,
-            "start": 1229,
+            "text": "Threshold 50mcg/mL, occurs at 2MAC hours\nSevoflurane\n·\n2-5% metabolized (since low BGPC)\n·\nLarge amount of fluoride production, but hepatic > renal",
+            "score": 0.24635176452375257,
+            "start": 1188,
             "end": 1335
           }
         ]
@@ -271,19 +273,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08300191741623564,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2697481404929839,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "1999A14 Briefly\noutline the pharmacological effects of the volatile anaesthetic agents on the\nkidneys.\nList:\n·\n↓GFR\n·\nCompound A nephrotoxicity\n·\nFluoride toxicity\n↓GFR:\nCardiovascular causes\n·\n↓L-Ca\n",
-            "score": 0.08300191741623564,
+            "score": 0.2697481404929839,
             "start": 0,
-            "end": 1242
+            "end": 1228
           },
           {
-            "text": "2-5% metabolized (since low BGPC)\n·\nLarge amount of fluoride production, but hepatic > renal",
-            "score": 0.07743609402993808,
-            "start": 1243,
+            "text": "Sevoflurane\n·\n2-5% metabolized (since low BGPC)\n·\nLarge amount of fluoride production, but hepatic > renal",
+            "score": 0.09861813254725033,
+            "start": 1229,
             "end": 1335
           }
         ]
@@ -341,23 +343,59 @@
             "end": 1335
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2798586332660812,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.13186982364320243,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "1999A14 Briefly\noutline the pharmacological effects of the volatile anaesthetic agents on the\nkidneys.\nList:\n·\n↓GFR\n·\nCompound A nephrotoxicity\n·\nFluoride toxicity\n↓GFR:\nCardiovascular causes\n·\n↓L-Ca\n",
-            "score": 0.2798586332660812,
+            "score": 0.13186982364320243,
             "start": 0,
             "end": 1242
           },
           {
             "text": "2-5% metabolized (since low BGPC)\n·\nLarge amount of fluoride production, but hepatic > renal",
-            "score": 0.20979078633127912,
+            "score": 0.10551062286445975,
             "start": 1243,
+            "end": 1335
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.19131688553747267,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "1999A14 Briefly\noutline the pharmacological effects of the volatile anaesthetic agents on the\nkidneys.\nList:\n·\n↓GFR\n·\nCompound A nephrotoxicity\n·\nFluoride toxicity\n↓GFR:\nCardiovascular causes\n·\n↓L-Ca\n",
+            "score": 0.19131688553747267,
+            "start": 0,
+            "end": 1187
+          },
+          {
+            "text": "Threshold 50mcg/mL, occurs at 2MAC hours\nSevoflurane\n·\n2-5% metabolized (since low BGPC)\n·\nLarge amount of fluoride production, but hepatic > renal",
+            "score": 0.19059863367246443,
+            "start": 1188,
+            "end": 1335
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7659308045041232,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "1999A14 Briefly\noutline the pharmacological effects of the volatile anaesthetic agents on the\nkidneys.\nList:\n·\n↓GFR\n·\nCompound A nephrotoxicity\n·\nFluoride toxicity\n↓GFR:\nCardiovascular causes\n·\n↓L-Ca\n",
+            "score": 0.7659308045041232,
+            "start": 0,
+            "end": 1228
+          },
+          {
+            "text": "Sevoflurane\n·\n2-5% metabolized (since low BGPC)\n·\nLarge amount of fluoride production, but hepatic > renal",
+            "score": 0.3893178288824906,
+            "start": 1229,
             "end": 1335
           }
         ]

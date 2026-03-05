@@ -16,9 +16,12 @@
       ]
     },
     "content_dimensions": [
-      "gas_exchange_process"
+      "gas_exchange_process",
+      "drug_receptor_disposition"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -123,12 +126,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.49469276382011756,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6560362405760417,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A10 An infusion of 50 mL of 50% dextrose is given to a healthy 70kg\nadult.\nDescribe the possible metabolic pathways for the dextrose.\nUtilisation:\nOccurs if\n  ↓insulin, ↑glucagon\nAerobic: -> 36 AT",
-            "score": 0.49469276382011756,
+            "score": 0.6560362405760417,
             "start": 0,
             "end": 1130
           }
@@ -195,12 +198,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10252288453633593,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.19131688553747267,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A10 An infusion of 50 mL of 50% dextrose is given to a healthy 70kg\nadult.\nDescribe the possible metabolic pathways for the dextrose.\nUtilisation:\nOccurs if\n  ↓insulin, ↑glucagon\nAerobic: -> 36 AT",
-            "score": 0.10252288453633593,
+            "score": 0.19131688553747267,
             "start": 0,
             "end": 1130
           }
@@ -241,16 +244,40 @@
             "end": 1130
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.21360460483229088,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2020A10 An infusion of 50 mL of 50% dextrose is given to a healthy 70kg\nadult.\nDescribe the possible metabolic pathways for the dextrose.\nUtilisation:\nOccurs if\n  ↓insulin, ↑glucagon\nAerobic: -> 36 AT",
+            "score": 0.21360460483229088,
+            "start": 0,
+            "end": 1130
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.14185652155095707,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2020A10 An infusion of 50 mL of 50% dextrose is given to a healthy 70kg\nadult.\nDescribe the possible metabolic pathways for the dextrose.\nUtilisation:\nOccurs if\n  ↓insulin, ↑glucagon\nAerobic: -> 36 AT",
+            "score": 0.14185652155095707,
+            "start": 0,
+            "end": 1130
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.28565571167771503,
+        "score": 0.6577390329259438,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2020A10 An infusion of 50 mL of 50% dextrose is given to a healthy 70kg\nadult.\nDescribe the possible metabolic pathways for the dextrose.\nUtilisation:\nOccurs if\n  ↓insulin, ↑glucagon\nAerobic: -> 36 AT",
-            "score": 0.28565571167771503,
+            "score": 0.6577390329259438,
             "start": 0,
             "end": 1130
           }

@@ -122,12 +122,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.09480246485705024,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.14065856668448176,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.09480246485705024,
+            "score": 0.14065856668448176,
             "start": 0,
             "end": 1096
           }
@@ -194,12 +194,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.1179788782423308,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.25940131470313366,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.1179788782423308,
+            "score": 0.25940131470313366,
             "start": 0,
             "end": 1096
           }
@@ -240,16 +240,40 @@
             "end": 1096
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.12013872967712319,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.12013872967712319,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.09433170997702066,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.09433170997702066,
+            "start": 0,
+            "end": 1096
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.20827633226924755,
+        "score": 0.14245781704193952,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.20827633226924755,
+            "score": 0.14245781704193952,
             "start": 0,
             "end": 1096
           }

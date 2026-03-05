@@ -13,10 +13,12 @@
       "score": 0.6111907975938285
     },
     "content_dimensions": [
-      "organ_system_process",
-      "drug_receptor_disposition"
+      "drug_receptor_disposition",
+      "organ_system_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -169,19 +171,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.699369005408923,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.783702239115653,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.699369005408923,
+            "score": 0.783702239115653,
             "start": 0,
-            "end": 1377
+            "end": 1343
           },
           {
-            "text": "Renal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.6647571751274265,
-            "start": 1378,
+            "text": "(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.40878769237123336,
+            "start": 1344,
             "end": 1499
           }
         ]
@@ -277,20 +279,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.17383924611324467,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.29605435248385387,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.17383924611324467,
-            "start": 1416,
-            "end": 1499
+            "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
+            "score": 0.29605435248385387,
+            "start": 0,
+            "end": 1343
           },
           {
-            "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.09386232569631885,
-            "start": 0,
-            "end": 1415
+            "text": "(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.16187153020170925,
+            "start": 1344,
+            "end": 1499
           }
         ]
       },
@@ -347,23 +349,59 @@
             "end": 1499
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.17046326482945487,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.17046326482945487,
+            "start": 1416,
+            "end": 1499
+          },
+          {
+            "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
+            "score": 0.15671722015798292,
+            "start": 0,
+            "end": 1415
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.19565989102814468,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
+            "score": 0.19565989102814468,
+            "start": 0,
+            "end": 1343
+          },
+          {
+            "text": "(important if renal impairment)\n·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.15799633458154788,
+            "start": 1344,
+            "end": 1499
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.26454846377751634,
+        "score": 0.8634857460534524,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2021B02 Briefly outline the mechanisms by which ACE inhibitors\nand angiotensin receptor blockers produce a) their therapeutic\neffects b) potential adverse effects.\nList:\n·\nRAAS flowchart\n·\nHormone eff",
-            "score": 0.26454846377751634,
+            "score": 0.8634857460534524,
             "start": 0,
-            "end": 1415
+            "end": 1375
           },
           {
-            "text": "(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
-            "score": 0.2260732893915247,
-            "start": 1416,
+            "text": "·\nRenal vasoconstriction -> dysfunction\n(especially peri-op, thiazide, NSAID)\n·\nBradykinin -> angioedema, cough (ACEi\nonly)",
+            "score": 0.5901803885737409,
+            "start": 1376,
             "end": 1499
           }
         ]

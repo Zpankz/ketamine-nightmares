@@ -15,14 +15,16 @@
     "content_dimensions": [
       "gas_exchange_process",
       "neuromuscular_process",
+      "clinical_measurement_process",
       "autonomic_disposition",
       "equipment_and_physics",
-      "drug_receptor_disposition",
-      "organ_system_process"
+      "organ_system_process",
+      "anatomy_structure"
     ],
     "explanatory_schema": [
       "structure_function_link",
-      "homeostatic_regulation"
+      "homeostatic_regulation",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -176,20 +178,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7825421217837121,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5822905319778907,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Non-linear response. Doubles at 30mmHg.\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓MR -> ↓SBF via metabolic\n  autoregulation\n�\nNear linear response: ↓7%",
-            "score": 0.7825421217837121,
-            "start": 1240,
+            "text": "�\nNon-linear response. Doubles at 30mmHg.\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓MR -> ↓SBF via metabolic\n  autoregulation\n�\nNear linear response: ↓",
+            "score": 0.5822905319778907,
+            "start": 1238,
             "end": 2095
           },
           {
             "text": "2016B06 Discuss\nthe determinants and control of spinal cord perfusion.\nList:\n�\nIntro\n�\nFlow dynamics\n�\nRegular of vascular resistance\n�\nAnatomical factors\nIntro:\nPhysiology\n�\nSimilar to brain tissue\n�",
-            "score": 0.21437210705255258,
+            "score": 0.23894091082715616,
             "start": 0,
-            "end": 1239
+            "end": 1237
           }
         ]
       },
@@ -284,20 +286,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.15166364739002158,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.5109450425517149,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2016B06 Discuss\nthe determinants and control of spinal cord perfusion.\nList:\n�\nIntro\n�\nFlow dynamics\n�\nRegular of vascular resistance\n�\nAnatomical factors\nIntro:\nPhysiology\n�\nSimilar to brain tissue\n�",
-            "score": 0.15166364739002158,
-            "start": 0,
-            "end": 1239
-          },
-          {
             "text": "Non-linear response. Doubles at 30mmHg.\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓MR -> ↓SBF via metabolic\n  autoregulation\n�\nNear linear response: ↓7%",
-            "score": 0.14609812862042407,
+            "score": 0.5109450425517149,
             "start": 1240,
             "end": 2095
+          },
+          {
+            "text": "2016B06 Discuss\nthe determinants and control of spinal cord perfusion.\nList:\n�\nIntro\n�\nFlow dynamics\n�\nRegular of vascular resistance\n�\nAnatomical factors\nIntro:\nPhysiology\n�\nSimilar to brain tissue\n�",
+            "score": 0.21514118653388012,
+            "start": 0,
+            "end": 1239
           }
         ]
       },
@@ -354,24 +356,60 @@
             "end": 1239
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.6170251846009692,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Non-linear response. Doubles at 30mmHg.\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓MR -> ↓SBF via metabolic\n  autoregulation\n�\nNear linear response: ↓7%",
+            "score": 0.6170251846009692,
+            "start": 1240,
+            "end": 2095
+          },
+          {
+            "text": "2016B06 Discuss\nthe determinants and control of spinal cord perfusion.\nList:\n�\nIntro\n�\nFlow dynamics\n�\nRegular of vascular resistance\n�\nAnatomical factors\nIntro:\nPhysiology\n�\nSimilar to brain tissue\n�",
+            "score": 0.299713016871073,
+            "start": 0,
+            "end": 1239
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8652388596695139,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "�\nNon-linear response. Doubles at 30mmHg.\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓MR -> ↓SBF via metabolic\n  autoregulation\n�\nNear linear response: ↓",
+            "score": 0.8652388596695139,
+            "start": 1238,
+            "end": 2095
+          },
+          {
+            "text": "2016B06 Discuss\nthe determinants and control of spinal cord perfusion.\nList:\n�\nIntro\n�\nFlow dynamics\n�\nRegular of vascular resistance\n�\nAnatomical factors\nIntro:\nPhysiology\n�\nSimilar to brain tissue\n�",
+            "score": 0.7350202275183602,
+            "start": 0,
+            "end": 1237
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.22291849253518664,
+        "score": 0.6077536681244852,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2016B06 Discuss\nthe determinants and control of spinal cord perfusion.\nList:\n�\nIntro\n�\nFlow dynamics\n�\nRegular of vascular resistance\n�\nAnatomical factors\nIntro:\nPhysiology\n�\nSimilar to brain tissue\n�",
-            "score": 0.22291849253518664,
-            "start": 0,
-            "end": 1279
+            "text": "Non-linear response. Doubles at 30mmHg.\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓MR -> ↓SBF via metabolic\n  autoregulation\n�\nNear linear response: ↓7%",
+            "score": 0.6077536681244852,
+            "start": 1240,
+            "end": 2095
           },
           {
-            "text": "Carbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓MR -> ↓SBF via metabolic\n  autoregulation\n�\nNear linear response: ↓7% per 1\n�\nC\nOther\n�\nNeural: noradrenaline",
-            "score": 0.20752148144486066,
-            "start": 1280,
-            "end": 2095
+            "text": "2016B06 Discuss\nthe determinants and control of spinal cord perfusion.\nList:\n�\nIntro\n�\nFlow dynamics\n�\nRegular of vascular resistance\n�\nAnatomical factors\nIntro:\nPhysiology\n�\nSimilar to brain tissue\n�",
+            "score": 0.27897201595542515,
+            "start": 0,
+            "end": 1239
           }
         ]
       },

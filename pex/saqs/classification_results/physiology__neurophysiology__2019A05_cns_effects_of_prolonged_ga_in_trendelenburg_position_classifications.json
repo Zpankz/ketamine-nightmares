@@ -17,9 +17,12 @@
     },
     "content_dimensions": [
       "neuromuscular_process",
-      "gas_exchange_process"
+      "gas_exchange_process",
+      "clinical_measurement_process",
+      "nociception_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -174,19 +177,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.2509410724842214,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.2397582368620805,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2019A05 Discuss\nthe cerebral effects of prolonged anaesthesia in the steep head down position.\nList:\n·\nEffects of hydrostatic pressure change\n·\nEffects of respiratory embarrassment\n·\nEffects of genera",
-            "score": 0.2509410724842214,
+            "score": 0.2397582368620805,
             "start": 0,
-            "end": 1475
+            "end": 1427
           },
           {
-            "text": "2\n·\n↓FRC\n·\nAlveolar collapse\n·\n↑Shunt\n·\n↓PaO\n2\n·\n↓DO\n2\n·\nRisk of CNS ischaemia\n·\nReduction in CMRO\n2\nunder GA is protective\nEffect of\nprolonged general anaesthesia:\n·\nDrowsiness (drug accumulation)\n·\n",
-            "score": 0.2007992399296327,
-            "start": 1476,
+            "text": "+/- ↑ICP (once volume buffering exhausted)\n↓PaO\n2\n·\n↓FRC\n·\nAlveolar collapse\n·\n↑Shunt\n·\n↓PaO\n2\n·\n↓DO\n2\n·\nRisk of CNS ischaemia\n·\nReduction in CMRO\n2\nunder GA is protective\nEffect of\nprolonged general ",
+            "score": 0.19565989102814468,
+            "start": 1428,
             "end": 1872
           }
         ]
@@ -282,19 +285,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09061480910082127,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6229573238060732,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2019A05 Discuss\nthe cerebral effects of prolonged anaesthesia in the steep head down position.\nList:\n·\nEffects of hydrostatic pressure change\n·\nEffects of respiratory embarrassment\n·\nEffects of genera",
-            "score": 0.09061480910082127,
+            "score": 0.6229573238060732,
             "start": 0,
-            "end": 1479
+            "end": 1470
           },
           {
-            "text": "↓FRC\n·\nAlveolar collapse\n·\n↑Shunt\n·\n↓PaO\n2\n·\n↓DO\n2\n·\nRisk of CNS ischaemia\n·\nReduction in CMRO\n2\nunder GA is protective\nEffect of\nprolonged general anaesthesia:\n·\nDrowsiness (drug accumulation)\n·\nNaus",
-            "score": 0.08520119218170379,
-            "start": 1480,
+            "text": "↓PaO\n2\n·\n↓FRC\n·\nAlveolar collapse\n·\n↑Shunt\n·\n↓PaO\n2\n·\n↓DO\n2\n·\nRisk of CNS ischaemia\n·\nReduction in CMRO\n2\nunder GA is protective\nEffect of\nprolonged general anaesthesia:\n·\nDrowsiness (drug accumulatio",
+            "score": 0.6074987048429407,
+            "start": 1471,
             "end": 1872
           }
         ]
@@ -352,23 +355,59 @@
             "end": 1872
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.2623973993795041,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2019A05 Discuss\nthe cerebral effects of prolonged anaesthesia in the steep head down position.\nList:\n·\nEffects of hydrostatic pressure change\n·\nEffects of respiratory embarrassment\n·\nEffects of genera",
+            "score": 0.2623973993795041,
+            "start": 0,
+            "end": 1479
+          },
+          {
+            "text": "↓FRC\n·\nAlveolar collapse\n·\n↑Shunt\n·\n↓PaO\n2\n·\n↓DO\n2\n·\nRisk of CNS ischaemia\n·\nReduction in CMRO\n2\nunder GA is protective\nEffect of\nprolonged general anaesthesia:\n·\nDrowsiness (drug accumulation)\n·\nNaus",
+            "score": 0.14548752973312049,
+            "start": 1480,
+            "end": 1872
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7363130588750971,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2019A05 Discuss\nthe cerebral effects of prolonged anaesthesia in the steep head down position.\nList:\n·\nEffects of hydrostatic pressure change\n·\nEffects of respiratory embarrassment\n·\nEffects of genera",
+            "score": 0.7363130588750971,
+            "start": 0,
+            "end": 1427
+          },
+          {
+            "text": "+/- ↑ICP (once volume buffering exhausted)\n↓PaO\n2\n·\n↓FRC\n·\nAlveolar collapse\n·\n↑Shunt\n·\n↓PaO\n2\n·\n↓DO\n2\n·\nRisk of CNS ischaemia\n·\nReduction in CMRO\n2\nunder GA is protective\nEffect of\nprolonged general ",
+            "score": 0.225282248199159,
+            "start": 1428,
+            "end": 1872
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.4187469185774672,
+        "score": 0.7448474166640925,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2019A05 Discuss\nthe cerebral effects of prolonged anaesthesia in the steep head down position.\nList:\n·\nEffects of hydrostatic pressure change\n·\nEffects of respiratory embarrassment\n·\nEffects of genera",
-            "score": 0.4187469185774672,
+            "score": 0.7448474166640925,
             "start": 0,
-            "end": 1484
+            "end": 1470
           },
           {
-            "text": "·\nAlveolar collapse\n·\n↑Shunt\n·\n↓PaO\n2\n·\n↓DO\n2\n·\nRisk of CNS ischaemia\n·\nReduction in CMRO\n2\nunder GA is protective\nEffect of\nprolonged general anaesthesia:\n·\nDrowsiness (drug accumulation)\n·\nNausea an",
-            "score": 0.30063099459107706,
-            "start": 1485,
+            "text": "↓PaO\n2\n·\n↓FRC\n·\nAlveolar collapse\n·\n↑Shunt\n·\n↓PaO\n2\n·\n↓DO\n2\n·\nRisk of CNS ischaemia\n·\nReduction in CMRO\n2\nunder GA is protective\nEffect of\nprolonged general anaesthesia:\n·\nDrowsiness (drug accumulatio",
+            "score": 0.6365944048142264,
+            "start": 1471,
             "end": 1872
           }
         ]

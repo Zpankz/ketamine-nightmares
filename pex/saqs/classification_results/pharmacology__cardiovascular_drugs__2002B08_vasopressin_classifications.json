@@ -13,11 +13,12 @@
       "score": 0.5404726771650628
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "pharmacokinetic_process",
+      "drug_receptor_disposition",
       "organ_system_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -124,12 +125,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8502055766542939,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6938336432464807,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002B08 Outline the\npharmacological effects of vasopressin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics: (not sure if\nwould score marks)\nStructure\n·\nNonapeptide\nProduction\n·\nSupraoptic and paraventricular hypo",
-            "score": 0.8502055766542939,
+            "score": 0.6938336432464807,
             "start": 0,
             "end": 1217
           }
@@ -196,12 +197,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08833573667416476,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.45154962806558624,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2002B08 Outline the\npharmacological effects of vasopressin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics: (not sure if\nwould score marks)\nStructure\n·\nNonapeptide\nProduction\n·\nSupraoptic and paraventricular hypo",
-            "score": 0.08833573667416476,
+            "score": 0.45154962806558624,
             "start": 0,
             "end": 1217
           }
@@ -242,16 +243,40 @@
             "end": 1217
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.19203673272679375,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2002B08 Outline the\npharmacological effects of vasopressin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics: (not sure if\nwould score marks)\nStructure\n·\nNonapeptide\nProduction\n·\nSupraoptic and paraventricular hypo",
+            "score": 0.19203673272679375,
+            "start": 0,
+            "end": 1217
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.23894091082715616,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2002B08 Outline the\npharmacological effects of vasopressin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics: (not sure if\nwould score marks)\nStructure\n·\nNonapeptide\nProduction\n·\nSupraoptic and paraventricular hypo",
+            "score": 0.23894091082715616,
+            "start": 0,
+            "end": 1217
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.14125677189694305,
+        "score": 0.8675549594939258,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2002B08 Outline the\npharmacological effects of vasopressin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics: (not sure if\nwould score marks)\nStructure\n·\nNonapeptide\nProduction\n·\nSupraoptic and paraventricular hypo",
-            "score": 0.14125677189694305,
+            "score": 0.8675549594939258,
             "start": 0,
             "end": 1217
           }

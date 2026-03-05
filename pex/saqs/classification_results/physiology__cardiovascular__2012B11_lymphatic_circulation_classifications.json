@@ -9,7 +9,9 @@
       "primary": "foundational_science",
       "score": 0.5055725798320735
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "anatomy_structure"
+    ],
     "explanatory_schema": [
       "structure_function_link"
     ]
@@ -165,19 +167,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.2409870944785764,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.2534634949725546,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2012B11 Outline\nthe important features of the lymphatic circulation.\nList:\n·\nLymph composition\n·\nAnatomy\n·\nPhysiology\nLymph\ncomposition:\n·\nWater\n·\nElectrolytes\n·\nProtein (almost from liver due to perm",
-            "score": 0.2409870944785764,
+            "score": 0.2534634949725546,
             "start": 0,
-            "end": 1628
+            "end": 1562
           },
           {
-            "text": "  medulla, allows water to enter vasa recta, preserves osmotic gradient\nRole in disease\n·\nLymphoedema\no\nDestruction\n  e.g. surgery, radiation\no\nObstruction\n  e.g. tumour",
-            "score": 0.11531222505249526,
-            "start": 1629,
+            "text": "Formation of concentrated urine: removal of protein-rich ISF from\n  medulla, allows water to enter vasa recta, preserves osmotic gradient\nRole in disease\n·\nLymphoedema\no\nDestruction\n  e.g. surgery, ra",
+            "score": 0.20903276749660882,
+            "start": 1563,
             "end": 1798
           }
         ]
@@ -273,18 +275,18 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11584261865163957,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.13534398140930778,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2012B11 Outline\nthe important features of the lymphatic circulation.\nList:\n·\nLymph composition\n·\nAnatomy\n·\nPhysiology\nLymph\ncomposition:\n·\nWater\n·\nElectrolytes\n·\nProtein (almost from liver due to perm",
-            "score": 0.11584261865163957,
+            "score": 0.13534398140930778,
             "start": 0,
             "end": 1628
           },
           {
             "text": "  medulla, allows water to enter vasa recta, preserves osmotic gradient\nRole in disease\n·\nLymphoedema\no\nDestruction\n  e.g. surgery, radiation\no\nObstruction\n  e.g. tumour",
-            "score": 0.08878886373592071,
+            "score": 0.13534398140930778,
             "start": 1629,
             "end": 1798
           }
@@ -343,22 +345,58 @@
             "end": 1798
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.37364865958760746,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.7431523727970344,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  medulla, allows water to enter vasa recta, preserves osmotic gradient\nRole in disease\n·\nLymphoedema\no\nDestruction\n  e.g. surgery, radiation\no\nObstruction\n  e.g. tumour",
-            "score": 0.37364865958760746,
+            "score": 0.7431523727970344,
             "start": 1629,
             "end": 1798
           },
           {
             "text": "2012B11 Outline\nthe important features of the lymphatic circulation.\nList:\n·\nLymph composition\n·\nAnatomy\n·\nPhysiology\nLymph\ncomposition:\n·\nWater\n·\nElectrolytes\n·\nProtein (almost from liver due to perm",
-            "score": 0.12068239347016409,
+            "score": 0.529294990165364,
+            "start": 0,
+            "end": 1628
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.13015328625585776,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2012B11 Outline\nthe important features of the lymphatic circulation.\nList:\n·\nLymph composition\n·\nAnatomy\n·\nPhysiology\nLymph\ncomposition:\n·\nWater\n·\nElectrolytes\n·\nProtein (almost from liver due to perm",
+            "score": 0.13015328625585776,
+            "start": 0,
+            "end": 1562
+          },
+          {
+            "text": "Formation of concentrated urine: removal of protein-rich ISF from\n  medulla, allows water to enter vasa recta, preserves osmotic gradient\nRole in disease\n·\nLymphoedema\no\nDestruction\n  e.g. surgery, ra",
+            "score": 0.11851662443329414,
+            "start": 1563,
+            "end": 1798
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3738997150614138,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  medulla, allows water to enter vasa recta, preserves osmotic gradient\nRole in disease\n·\nLymphoedema\no\nDestruction\n  e.g. surgery, radiation\no\nObstruction\n  e.g. tumour",
+            "score": 0.3738997150614138,
+            "start": 1629,
+            "end": 1798
+          },
+          {
+            "text": "2012B11 Outline\nthe important features of the lymphatic circulation.\nList:\n·\nLymph composition\n·\nAnatomy\n·\nPhysiology\nLymph\ncomposition:\n·\nWater\n·\nElectrolytes\n·\nProtein (almost from liver due to perm",
+            "score": 0.23205568751749697,
             "start": 0,
             "end": 1628
           }

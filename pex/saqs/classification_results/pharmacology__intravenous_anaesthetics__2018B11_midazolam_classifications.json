@@ -13,12 +13,15 @@
       "score": 0.6348526651679158
     },
     "content_dimensions": [
-      "organ_system_process",
       "drug_receptor_disposition",
+      "organ_system_process",
+      "nociception_process",
       "neuromuscular_process",
       "pharmacokinetic_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -171,20 +174,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.782154629312735,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.8502055766542939,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\n↑probability of active conformation\n·\n↑Cl\n-\nconductance, prevention of depolarisation to\n  action potential\n·\n(Not hyperpolarization, since RMP -70mV and Cl- Nernst potential\n  -65mV)\nGABA-A subtype",
-            "score": 0.782154629312735,
-            "start": 1285,
+            "text": "Positive allosteric modulator at BDZ site on GABA-A receptor, at\n  A-G interface\n·\n↑probability of active conformation\n·\n↑Cl\n-\nconductance, prevention of depolarisation to\n  action potential\n·\n(Not hy",
+            "score": 0.8502055766542939,
+            "start": 1204,
             "end": 2659
           },
           {
             "text": "2018B11 Describe\nthe pharmacology of midazolam.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPresentation\n·\n5mg in 5mL ampoule, aqueous solution\nAlso as tablets\nStructure\n·\nHeterocyclic benzodiazepine\n·\nI\nmi",
-            "score": 0.6961457445756679,
+            "score": 0.6114450346840962,
             "start": 0,
-            "end": 1284
+            "end": 1203
           }
         ]
       },
@@ -279,20 +282,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11425582926127191,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7397445008530983,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2018B11 Describe\nthe pharmacology of midazolam.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPresentation\n·\n5mg in 5mL ampoule, aqueous solution\nAlso as tablets\nStructure\n·\nHeterocyclic benzodiazepine\n·\nI\nmi",
-            "score": 0.11425582926127191,
-            "start": 0,
-            "end": 1286
+            "text": "Positive allosteric modulator at BDZ site on GABA-A receptor, at\n  A-G interface\n·\n↑probability of active conformation\n·\n↑Cl\n-\nconductance, prevention of depolarisation to\n  action potential\n·\n(Not hy",
+            "score": 0.7397445008530983,
+            "start": 1204,
+            "end": 2659
           },
           {
-            "text": "↑probability of active conformation\n·\n↑Cl\n-\nconductance, prevention of depolarisation to\n  action potential\n·\n(Not hyperpolarization, since RMP -70mV and Cl- Nernst potential\n  -65mV)\nGABA-A subtypes\n",
-            "score": 0.066172416010931,
-            "start": 1287,
-            "end": 2659
+            "text": "2018B11 Describe\nthe pharmacology of midazolam.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPresentation\n·\n5mg in 5mL ampoule, aqueous solution\nAlso as tablets\nStructure\n·\nHeterocyclic benzodiazepine\n·\nI\nmi",
+            "score": 0.25557578676432086,
+            "start": 0,
+            "end": 1203
           }
         ]
       },
@@ -349,24 +352,60 @@
             "end": 1284
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.358198446737951,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.1179788782423308,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↑probability of active conformation\n·\n↑Cl\n-\nconductance, prevention of depolarisation to\n  action potential\n·\n(Not hyperpolarization, since RMP -70mV and Cl- Nernst potential\n  -65mV)\nGABA-A subtypes\n",
-            "score": 0.358198446737951,
+            "score": 0.1179788782423308,
             "start": 1287,
+            "end": 2659
+          },
+          {
+            "text": "2018B11 Describe\nthe pharmacology of midazolam.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPresentation\n·\n5mg in 5mL ampoule, aqueous solution\nAlso as tablets\nStructure\n·\nHeterocyclic benzodiazepine\n·\nI\nmi",
+            "score": 0.09107466708246154,
+            "start": 0,
+            "end": 1286
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.14427099224346063,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Positive allosteric modulator at BDZ site on GABA-A receptor, at\n  A-G interface\n·\n↑probability of active conformation\n·\n↑Cl\n-\nconductance, prevention of depolarisation to\n  action potential\n·\n(Not hy",
+            "score": 0.14427099224346063,
+            "start": 1204,
             "end": 2659
           },
           {
             "text": "2018B11 Describe\nthe pharmacology of midazolam.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPresentation\n·\n5mg in 5mL ampoule, aqueous solution\nAlso as tablets\nStructure\n·\nHeterocyclic benzodiazepine\n·\nI\nmi",
             "score": 0.1100884956529356,
             "start": 0,
-            "end": 1286
+            "end": 1203
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8557290077565394,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  A-G interface\n·\n↑probability of active conformation\n·\n↑Cl\n-\nconductance, prevention of depolarisation to\n  action potential\n·\n(Not hyperpolarization, since RMP -70mV and Cl- Nernst potential\n  -65mV",
+            "score": 0.8557290077565394,
+            "start": 1269,
+            "end": 2659
+          },
+          {
+            "text": "2018B11 Describe\nthe pharmacology of midazolam.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nPresentation\n·\n5mg in 5mL ampoule, aqueous solution\nAlso as tablets\nStructure\n·\nHeterocyclic benzodiazepine\n·\nI\nmi",
+            "score": 0.5809936237991622,
+            "start": 0,
+            "end": 1268
           }
         ]
       },

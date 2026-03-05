@@ -17,13 +17,16 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "equipment_and_physics",
-      "drug_receptor_disposition",
       "neuromuscular_process",
+      "nociception_process",
       "organ_system_process",
+      "drug_receptor_disposition",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link",
       "homeostatic_regulation"
     ]
@@ -221,25 +224,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8241160627604578,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6601657313538715,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↓CO, ↓SVR -> ↓aortic root diastolic\n  pressure -> ↓total coronary flow\no\n↓flow through stenosis\n·\nRarely significant\n·\nIsoflurane > others due to greater\n  reduction in SVR\nSmooth muscle:\nMechanism\n·\n",
-            "score": 0.8241160627604578,
+            "score": 0.6601657313538715,
             "start": 1376,
-            "end": 2644
+            "end": 2578
           },
           {
             "text": "2015A07 Briefly\noutline the effects of sevoflurane on skeletal, smooth and cardiac muscle\ntissues.\nInclude how these effects are mediated and their clinical significance.\nIntro:\n·\nSevoflurane: relevan",
-            "score": 0.8057941557783673,
+            "score": 0.6134770898866175,
             "start": 0,
             "end": 1375
           },
           {
-            "text": "·\nContinuous Ca\n2+\nrelease from SR causing continuous\n  contraction\n·\nIdiosyncratic, not dose-dependent like all the above",
-            "score": 0.20903276749660882,
-            "start": 2645,
+            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine receptor\n·\nContinuous Ca\n2+\nrelease from SR causing continuous\n  contraction\n·\nIdiosyncratic, not dose-dependent like all the above",
+            "score": 0.3594357561965272,
+            "start": 2579,
             "end": 2767
           }
         ]
@@ -365,26 +368,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11690780739311239,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7025761410635025,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "↓CO, ↓SVR -> ↓aortic root diastolic\n  pressure -> ↓total coronary flow\no\n↓flow through stenosis\n·\nRarely significant\n·\nIsoflurane > others due to greater\n  reduction in SVR\nSmooth muscle:\nMechanism\n·\n",
-            "score": 0.11690780739311239,
+            "score": 0.7025761410635025,
             "start": 1376,
-            "end": 2663
-          },
-          {
-            "text": "release from SR causing continuous\n  contraction\n·\nIdiosyncratic, not dose-dependent like all the above",
-            "score": 0.1100884956529356,
-            "start": 2664,
-            "end": 2767
+            "end": 2578
           },
           {
             "text": "2015A07 Briefly\noutline the effects of sevoflurane on skeletal, smooth and cardiac muscle\ntissues.\nInclude how these effects are mediated and their clinical significance.\nIntro:\n·\nSevoflurane: relevan",
-            "score": 0.10906114075009045,
+            "score": 0.24386778071856008,
             "start": 0,
             "end": 1375
+          },
+          {
+            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine receptor\n·\nContinuous Ca\n2+\nrelease from SR causing continuous\n  contraction\n·\nIdiosyncratic, not dose-dependent like all the above",
+            "score": 0.12068239347016409,
+            "start": 2579,
+            "end": 2767
           }
         ]
       },
@@ -459,24 +462,78 @@
             "end": 1375
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.4262209766950106,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.4314373210672184,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  pressure -> ↓total coronary flow\no\n↓flow through stenosis\n·\nRarely significant\n·\nIsoflurane > others due to greater\n  reduction in SVR\nSmooth muscle:\nMechanism\n·\n↓L-Ca\n2+\n, ↑NO, ↓SNS\nSystemic vasodi",
-            "score": 0.4262209766950106,
+            "score": 0.4314373210672184,
             "start": 1412,
-            "end": 2767
+            "end": 2714
           },
           {
             "text": "2015A07 Briefly\noutline the effects of sevoflurane on skeletal, smooth and cardiac muscle\ntissues.\nInclude how these effects are mediated and their clinical significance.\nIntro:\n·\nSevoflurane: relevan",
             "score": 0.21745787821628798,
             "start": 0,
             "end": 1411
+          },
+          {
+            "text": "Idiosyncratic, not dose-dependent like all the above",
+            "score": 0.11851662443329414,
+            "start": 2715,
+            "end": 2767
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8830921926068878,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↓CO, ↓SVR -> ↓aortic root diastolic\n  pressure -> ↓total coronary flow\no\n↓flow through stenosis\n·\nRarely significant\n·\nIsoflurane > others due to greater\n  reduction in SVR\nSmooth muscle:\nMechanism\n·\n",
+            "score": 0.8830921926068878,
+            "start": 1376,
+            "end": 2578
+          },
+          {
+            "text": "2015A07 Briefly\noutline the effects of sevoflurane on skeletal, smooth and cardiac muscle\ntissues.\nInclude how these effects are mediated and their clinical significance.\nIntro:\n·\nSevoflurane: relevan",
+            "score": 0.14609812862042407,
+            "start": 0,
+            "end": 1375
+          },
+          {
+            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine receptor\n·\nContinuous Ca\n2+\nrelease from SR causing continuous\n  contraction\n·\nIdiosyncratic, not dose-dependent like all the above",
+            "score": 0.0966992383588072,
+            "start": 2579,
+            "end": 2767
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8288647205382538,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2015A07 Briefly\noutline the effects of sevoflurane on skeletal, smooth and cardiac muscle\ntissues.\nInclude how these effects are mediated and their clinical significance.\nIntro:\n·\nSevoflurane: relevan",
+            "score": 0.8288647205382538,
+            "start": 0,
+            "end": 1375
+          },
+          {
+            "text": "↓CO, ↓SVR -> ↓aortic root diastolic\n  pressure -> ↓total coronary flow\no\n↓flow through stenosis\n·\nRarely significant\n·\nIsoflurane > others due to greater\n  reduction in SVR\nSmooth muscle:\nMechanism\n·\n",
+            "score": 0.7947335570650536,
+            "start": 1376,
+            "end": 2578
+          },
+          {
+            "text": "Mutation in RYR1 gene encoding skeletal muscle ryanodine receptor\n·\nContinuous Ca\n2+\nrelease from SR causing continuous\n  contraction\n·\nIdiosyncratic, not dose-dependent like all the above",
+            "score": 0.44289162165196494,
+            "start": 2579,
+            "end": 2767
           }
         ]
       },

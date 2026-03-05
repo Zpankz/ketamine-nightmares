@@ -16,12 +16,13 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "autonomic_disposition",
+      "nociception_process",
       "organ_system_process",
-      "nociception_process"
+      "drug_receptor_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -176,20 +177,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8575421829580605,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7143442883222849,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2014B05 Describe\nthe physiology of pain pathways and how drugs may modulate the perception of\npain.\nList:\n·\nNociceptive receptor\n·\nPrimary afferent\n·\nSecondary afferent and tracts\n·\nTertiary afferent ",
-            "score": 0.8575421829580605,
-            "start": 0,
-            "end": 1598
+            "text": "  threshold, only when sensitized\n·\nNote also interneurons: excitatory and\n  inhibitory\n·\nNote inhibitory afferents: e.g. Aβ conveying\n  light touch\nPhysiology: tracts\n·\nDecussation in anterior commis",
+            "score": 0.7143442883222849,
+            "start": 1565,
+            "end": 2857
           },
           {
-            "text": "·\nNote also interneurons: excitatory and\n  inhibitory\n·\nNote inhibitory afferents: e.g. Aβ conveying\n  light touch\nPhysiology: tracts\n·\nDecussation in anterior commissure\n·\nAscent in spinothalamic tra",
-            "score": 0.8557290077565394,
-            "start": 1599,
-            "end": 2857
+            "text": "2014B05 Describe\nthe physiology of pain pathways and how drugs may modulate the perception of\npain.\nList:\n·\nNociceptive receptor\n·\nPrimary afferent\n·\nSecondary afferent and tracts\n·\nTertiary afferent ",
+            "score": 0.6455039829791565,
+            "start": 0,
+            "end": 1564
           }
         ]
       },
@@ -290,19 +291,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.6242155623919118,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7687470092603256,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2014B05 Describe\nthe physiology of pain pathways and how drugs may modulate the perception of\npain.\nList:\n·\nNociceptive receptor\n·\nPrimary afferent\n·\nSecondary afferent and tracts\n·\nTertiary afferent ",
-            "score": 0.6242155623919118,
+            "score": 0.7687470092603256,
             "start": 0,
-            "end": 1600
+            "end": 1564
           },
           {
-            "text": "Note also interneurons: excitatory and\n  inhibitory\n·\nNote inhibitory afferents: e.g. Aβ conveying\n  light touch\nPhysiology: tracts\n·\nDecussation in anterior commissure\n·\nAscent in spinothalamic tract",
-            "score": 0.10551062286445975,
-            "start": 1601,
+            "text": "  threshold, only when sensitized\n·\nNote also interneurons: excitatory and\n  inhibitory\n·\nNote inhibitory afferents: e.g. Aβ conveying\n  light touch\nPhysiology: tracts\n·\nDecussation in anterior commis",
+            "score": 0.6521316305378833,
+            "start": 1565,
             "end": 2857
           }
         ]
@@ -360,24 +361,60 @@
             "end": 2857
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2628268805251028,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.43830315136499703,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Note also interneurons: excitatory and\n  inhibitory\n·\nNote inhibitory afferents: e.g. Aβ conveying\n  light touch\nPhysiology: tracts\n·\nDecussation in anterior commissure\n·\nAscent in spinothalamic tract",
-            "score": 0.2628268805251028,
+            "score": 0.43830315136499703,
             "start": 1601,
             "end": 2857
           },
           {
             "text": "2014B05 Describe\nthe physiology of pain pathways and how drugs may modulate the perception of\npain.\nList:\n·\nNociceptive receptor\n·\nPrimary afferent\n·\nSecondary afferent and tracts\n·\nTertiary afferent ",
-            "score": 0.19785291387817477,
+            "score": 0.24139747765085562,
             "start": 0,
             "end": 1600
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.16979284000945866,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  threshold, only when sensitized\n·\nNote also interneurons: excitatory and\n  inhibitory\n·\nNote inhibitory afferents: e.g. Aβ conveying\n  light touch\nPhysiology: tracts\n·\nDecussation in anterior commis",
+            "score": 0.16979284000945866,
+            "start": 1565,
+            "end": 2857
+          },
+          {
+            "text": "2014B05 Describe\nthe physiology of pain pathways and how drugs may modulate the perception of\npain.\nList:\n·\nNociceptive receptor\n·\nPrimary afferent\n·\nSecondary afferent and tracts\n·\nTertiary afferent ",
+            "score": 0.09061480910082127,
+            "start": 0,
+            "end": 1564
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6291091671128806,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  threshold, only when sensitized\n·\nNote also interneurons: excitatory and\n  inhibitory\n·\nNote inhibitory afferents: e.g. Aβ conveying\n  light touch\nPhysiology: tracts\n·\nDecussation in anterior commis",
+            "score": 0.6291091671128806,
+            "start": 1565,
+            "end": 2857
+          },
+          {
+            "text": "2014B05 Describe\nthe physiology of pain pathways and how drugs may modulate the perception of\npain.\nList:\n·\nNociceptive receptor\n·\nPrimary afferent\n·\nSecondary afferent and tracts\n·\nTertiary afferent ",
+            "score": 0.6052018317852121,
+            "start": 0,
+            "end": 1564
           }
         ]
       },

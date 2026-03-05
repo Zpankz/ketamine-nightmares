@@ -16,14 +16,16 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "acid_base_quality",
+      "nociception_process",
       "pharmacokinetic_process",
       "equipment_and_physics",
       "neuromuscular_process",
-      "organ_system_process",
-      "drug_receptor_disposition"
+      "organ_system_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -226,26 +228,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6348526651679158,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5790464959122755,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "P: offset can�t be sped up\nEffect of liver failure\nMinimal\nMinimal\nBoth safe\nEffect of renal failure\nMinimal\nMinimal\nBoth safe\nRisk of accumulation\nIV: indefinite accumulation possible\nInhaled: cannot",
-            "score": 0.6348526651679158,
-            "start": 1465,
-            "end": 2645
+            "text": "A\n,\n  ↑FGF\nP: offset can�t be sped up\nEffect of liver failure\nMinimal\nMinimal\nBoth safe\nEffect of renal failure\nMinimal\nMinimal\nBoth safe\nRisk of accumulation\nIV: indefinite accumulation possible\nInha",
+            "score": 0.5790464959122755,
+            "start": 1454,
+            "end": 2608
+          },
+          {
+            "text": "PPF TIVA if PHx PONV +++\nEEG effects\n↓frequency, ↑amplitude\nBS if ↑↑[PPF]\nAnticonvulsant\n10% myoclonus\nSame as for PPF.\nSimilar EEG signatures.\nBoth suitable for BIS or entropy monitoring.\nCMRO\n2\nMax ",
+            "score": 0.5291957644838661,
+            "start": 2609,
+            "end": 3045
           },
           {
             "text": "2012B02 Compare and contrast propofol and sevoflurane for maintenance of\nanaesthesia with respect to kinetics, cardiovascular and central nervous system\neffects.\nList:\n�\nKinetics\n�\nCVS effects\n�\nCNS e",
-            "score": 0.36092259040593133,
+            "score": 0.35993111843774905,
             "start": 0,
-            "end": 1464
-          },
-          {
-            "text": "↓frequency, ↑amplitude\nBS if ↑↑[PPF]\nAnticonvulsant\n10% myoclonus\nSame as for PPF.\nSimilar EEG signatures.\nBoth suitable for BIS or entropy monitoring.\nCMRO\n2\nMax ↓60% if isoelectric\nMax ↓60% if isoel",
-            "score": 0.18280318375806526,
-            "start": 2646,
-            "end": 3045
+            "end": 1453
           }
         ]
       },
@@ -370,26 +372,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09292765927996026,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7902092136687209,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2012B02 Compare and contrast propofol and sevoflurane for maintenance of\nanaesthesia with respect to kinetics, cardiovascular and central nervous system\neffects.\nList:\n�\nKinetics\n�\nCVS effects\n�\nCNS e",
-            "score": 0.09292765927996026,
+            "score": 0.7902092136687209,
             "start": 0,
-            "end": 1464
+            "end": 1455
           },
           {
-            "text": "↓frequency, ↑amplitude\nBS if ↑↑[PPF]\nAnticonvulsant\n10% myoclonus\nSame as for PPF.\nSimilar EEG signatures.\nBoth suitable for BIS or entropy monitoring.\nCMRO\n2\nMax ↓60% if isoelectric\nMax ↓60% if isoel",
-            "score": 0.08564500055265845,
-            "start": 2646,
+            "text": ",\n  ↑FGF\nP: offset can�t be sped up\nEffect of liver failure\nMinimal\nMinimal\nBoth safe\nEffect of renal failure\nMinimal\nMinimal\nBoth safe\nRisk of accumulation\nIV: indefinite accumulation possible\nInhale",
+            "score": 0.6736239901965329,
+            "start": 1456,
+            "end": 2608
+          },
+          {
+            "text": "PPF TIVA if PHx PONV +++\nEEG effects\n↓frequency, ↑amplitude\nBS if ↑↑[PPF]\nAnticonvulsant\n10% myoclonus\nSame as for PPF.\nSimilar EEG signatures.\nBoth suitable for BIS or entropy monitoring.\nCMRO\n2\nMax ",
+            "score": 0.31408742677824225,
+            "start": 2609,
             "end": 3045
-          },
-          {
-            "text": "P: offset can�t be sped up\nEffect of liver failure\nMinimal\nMinimal\nBoth safe\nEffect of renal failure\nMinimal\nMinimal\nBoth safe\nRisk of accumulation\nIV: indefinite accumulation possible\nInhaled: cannot",
-            "score": 0.0825659981021378,
-            "start": 1465,
-            "end": 2645
           }
         ]
       },
@@ -464,30 +466,78 @@
             "end": 3045
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.22291849253518664,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "P: offset can�t be sped up\nEffect of liver failure\nMinimal\nMinimal\nBoth safe\nEffect of renal failure\nMinimal\nMinimal\nBoth safe\nRisk of accumulation\nIV: indefinite accumulation possible\nInhaled: cannot",
+            "score": 0.22291849253518664,
+            "start": 1465,
+            "end": 2645
+          },
+          {
+            "text": "2012B02 Compare and contrast propofol and sevoflurane for maintenance of\nanaesthesia with respect to kinetics, cardiovascular and central nervous system\neffects.\nList:\n�\nKinetics\n�\nCVS effects\n�\nCNS e",
+            "score": 0.1638304622956888,
+            "start": 0,
+            "end": 1464
+          },
+          {
+            "text": "↓frequency, ↑amplitude\nBS if ↑↑[PPF]\nAnticonvulsant\n10% myoclonus\nSame as for PPF.\nSimilar EEG signatures.\nBoth suitable for BIS or entropy monitoring.\nCMRO\n2\nMax ↓60% if isoelectric\nMax ↓60% if isoel",
+            "score": 0.08387768404930426,
+            "start": 2646,
+            "end": 3045
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.853901871379576,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "PPF TIVA if PHx PONV +++\nEEG effects\n↓frequency, ↑amplitude\nBS if ↑↑[PPF]\nAnticonvulsant\n10% myoclonus\nSame as for PPF.\nSimilar EEG signatures.\nBoth suitable for BIS or entropy monitoring.\nCMRO\n2\nMax ",
+            "score": 0.853901871379576,
+            "start": 2609,
+            "end": 3045
+          },
+          {
+            "text": "A\n,\n  ↑FGF\nP: offset can�t be sped up\nEffect of liver failure\nMinimal\nMinimal\nBoth safe\nEffect of renal failure\nMinimal\nMinimal\nBoth safe\nRisk of accumulation\nIV: indefinite accumulation possible\nInha",
+            "score": 0.8108330834530486,
+            "start": 1454,
+            "end": 2608
+          },
+          {
+            "text": "2012B02 Compare and contrast propofol and sevoflurane for maintenance of\nanaesthesia with respect to kinetics, cardiovascular and central nervous system\neffects.\nList:\n�\nKinetics\n�\nCVS effects\n�\nCNS e",
+            "score": 0.2484321598142117,
+            "start": 0,
+            "end": 1453
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.3183177445792676,
+        "score": 0.7276325221722416,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "P: offset can�t be sped up\nEffect of liver failure\nMinimal\nMinimal\nBoth safe\nEffect of renal failure\nMinimal\nMinimal\nBoth safe\nRisk of accumulation\nIV: indefinite accumulation possible\nInhaled: cannot",
-            "score": 0.3183177445792676,
-            "start": 1465,
-            "end": 2668
-          },
-          {
-            "text": "BS if ↑↑[PPF]\nAnticonvulsant\n10% myoclonus\nSame as for PPF.\nSimilar EEG signatures.\nBoth suitable for BIS or entropy monitoring.\nCMRO\n2\nMax ↓60% if isoelectric\nMax ↓60% if isoelectric EEG\nCBF\n↓\n∝\nCMRO",
-            "score": 0.16057348256172324,
-            "start": 2669,
-            "end": 3045
+            "text": ",\n  ↑FGF\nP: offset can�t be sped up\nEffect of liver failure\nMinimal\nMinimal\nBoth safe\nEffect of renal failure\nMinimal\nMinimal\nBoth safe\nRisk of accumulation\nIV: indefinite accumulation possible\nInhale",
+            "score": 0.7276325221722416,
+            "start": 1456,
+            "end": 2608
           },
           {
             "text": "2012B02 Compare and contrast propofol and sevoflurane for maintenance of\nanaesthesia with respect to kinetics, cardiovascular and central nervous system\neffects.\nList:\n�\nKinetics\n�\nCVS effects\n�\nCNS e",
-            "score": 0.15417787288657336,
+            "score": 0.5429335043075418,
             "start": 0,
-            "end": 1464
+            "end": 1455
+          },
+          {
+            "text": "PPF TIVA if PHx PONV +++\nEEG effects\n↓frequency, ↑amplitude\nBS if ↑↑[PPF]\nAnticonvulsant\n10% myoclonus\nSame as for PPF.\nSimilar EEG signatures.\nBoth suitable for BIS or entropy monitoring.\nCMRO\n2\nMax ",
+            "score": 0.40068553689420267,
+            "start": 2609,
+            "end": 3045
           }
         ]
       },

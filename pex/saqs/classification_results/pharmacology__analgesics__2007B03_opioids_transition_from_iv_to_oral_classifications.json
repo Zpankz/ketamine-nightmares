@@ -9,8 +9,12 @@
       "primary": "integrative",
       "score": 0.4270677175515529
     },
-    "content_dimensions": [],
-    "explanatory_schema": []
+    "content_dimensions": [
+      "nociception_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -163,18 +167,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5334606187792539,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3829748153990309,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  (partial agonist, ceiling effect on resp depression)\no\nTapentadol\n  (↓opioid effect)\n·\nChronic pain history:\no\nTramadol\n  (70% of effect via NAd and 5HT reuptake inhibition)\no\nTapentadol\n  (NAd reup",
-            "score": 0.5334606187792539,
+            "score": 0.3829748153990309,
             "start": 1475,
             "end": 2632
           },
           {
             "text": "2007B03 Outline\nthe important pharmacological considerations concerning choice of\nopioid and dosage when converting from intravenous morphine to oral opioid\nanalgesia\nin the post-operative period.\nLis",
-            "score": 0.29833852758508644,
+            "score": 0.3552353536143021,
             "start": 0,
             "end": 1474
           }
@@ -271,20 +275,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.23045184296828788,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.8545124702668796,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Tapentadol\n  (↓opioid effect)\n·\nChronic pain history:\no\nTramadol\n  (70% of effect via NAd and 5HT reuptake inhibition)\no\nTapentadol\n  (NAd reuptake inhibition)\no\nMethadone\n  (multiple non-opioid effec",
-            "score": 0.23045184296828788,
-            "start": 1532,
+            "text": "  (partial agonist, ceiling effect on resp depression)\no\nTapentadol\n  (↓opioid effect)\n·\nChronic pain history:\no\nTramadol\n  (70% of effect via NAd and 5HT reuptake inhibition)\no\nTapentadol\n  (NAd reup",
+            "score": 0.8545124702668796,
+            "start": 1475,
             "end": 2632
           },
           {
             "text": "2007B03 Outline\nthe important pharmacological considerations concerning choice of\nopioid and dosage when converting from intravenous morphine to oral opioid\nanalgesia\nin the post-operative period.\nLis",
-            "score": 0.10351313129730201,
+            "score": 0.7691477768734674,
             "start": 0,
-            "end": 1531
+            "end": 1474
           }
         ]
       },
@@ -341,24 +345,60 @@
             "end": 2632
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.24180824239107535,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.1638304622956888,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Tapentadol\n  (↓opioid effect)\n·\nChronic pain history:\no\nTramadol\n  (70% of effect via NAd and 5HT reuptake inhibition)\no\nTapentadol\n  (NAd reuptake inhibition)\no\nMethadone\n  (multiple non-opioid effec",
-            "score": 0.24180824239107535,
+            "score": 0.1638304622956888,
             "start": 1532,
             "end": 2632
           },
           {
             "text": "2007B03 Outline\nthe important pharmacological considerations concerning choice of\nopioid and dosage when converting from intravenous morphine to oral opioid\nanalgesia\nin the post-operative period.\nLis",
-            "score": 0.1100884956529356,
+            "score": 0.08083535454544834,
             "start": 0,
             "end": 1531
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.1290165055825653,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  (partial agonist, ceiling effect on resp depression)\no\nTapentadol\n  (↓opioid effect)\n·\nChronic pain history:\no\nTramadol\n  (70% of effect via NAd and 5HT reuptake inhibition)\no\nTapentadol\n  (NAd reup",
+            "score": 0.1290165055825653,
+            "start": 1475,
+            "end": 2632
+          },
+          {
+            "text": "2007B03 Outline\nthe important pharmacological considerations concerning choice of\nopioid and dosage when converting from intravenous morphine to oral opioid\nanalgesia\nin the post-operative period.\nLis",
+            "score": 0.07827820752174312,
+            "start": 0,
+            "end": 1474
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7423026239200107,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  (partial agonist, ceiling effect on resp depression)\no\nTapentadol\n  (↓opioid effect)\n·\nChronic pain history:\no\nTramadol\n  (70% of effect via NAd and 5HT reuptake inhibition)\no\nTapentadol\n  (NAd reup",
+            "score": 0.7423026239200107,
+            "start": 1475,
+            "end": 2632
+          },
+          {
+            "text": "2007B03 Outline\nthe important pharmacological considerations concerning choice of\nopioid and dosage when converting from intravenous morphine to oral opioid\nanalgesia\nin the post-operative period.\nLis",
+            "score": 0.28119119060424663,
+            "start": 0,
+            "end": 1474
           }
         ]
       },

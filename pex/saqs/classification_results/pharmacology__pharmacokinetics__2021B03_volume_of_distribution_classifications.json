@@ -13,7 +13,8 @@
       ]
     },
     "content_dimensions": [
-      "pharmacokinetic_process"
+      "pharmacokinetic_process",
+      "clinical_measurement_process"
     ],
     "explanatory_schema": []
   },
@@ -168,19 +169,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.15608002460238707,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.24635176452375257,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B03 a) Define “volume of\ndistribution”. What factors influence the\nsize of the volume of distribution? b) How may it be used in the\ncalculation of a loading dose? What assumptions are made in this",
-            "score": 0.15608002460238707,
+            "score": 0.24635176452375257,
             "start": 0,
-            "end": 1394
+            "end": 1349
           },
           {
-            "text": "↑V\nD\nwater soluble drugs\n·\n↓Plasma proteins (e.g. liver failure):\n↑V\nD\nhighly plasma protein bound\ndrugs\n·\nIf low hepatic extraction ratio:\n↑↑Free drug ->\n↑↑effect (e.g. phenytoin)\n·\nDehydration: ↓V\nD",
-            "score": 0.14306065974886034,
-            "start": 1395,
+            "text": "Fluid overload (heart/liver/kidney failure):\n↑V\nD\nwater soluble drugs\n·\n↓Plasma proteins (e.g. liver failure):\n↑V\nD\nhighly plasma protein bound\ndrugs\n·\nIf low hepatic extraction ratio:\n↑↑Free drug ->\n",
+            "score": 0.23568694716034655,
+            "start": 1350,
             "end": 2193
           }
         ]
@@ -276,19 +277,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.0812660655061236,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.13476114033048603,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2021B03 a) Define “volume of\ndistribution”. What factors influence the\nsize of the volume of distribution? b) How may it be used in the\ncalculation of a loading dose? What assumptions are made in this",
-            "score": 0.0812660655061236,
+            "score": 0.13476114033048603,
             "start": 0,
-            "end": 1399
+            "end": 1349
           },
           {
-            "text": "water soluble drugs\n·\n↓Plasma proteins (e.g. liver failure):\n↑V\nD\nhighly plasma protein bound\ndrugs\n·\nIf low hepatic extraction ratio:\n↑↑Free drug ->\n↑↑effect (e.g. phenytoin)\n·\nDehydration: ↓V\nDC\nmos",
-            "score": 0.0812660655061236,
-            "start": 1400,
+            "text": "Fluid overload (heart/liver/kidney failure):\n↑V\nD\nwater soluble drugs\n·\n↓Plasma proteins (e.g. liver failure):\n↑V\nD\nhighly plasma protein bound\ndrugs\n·\nIf low hepatic extraction ratio:\n↑↑Free drug ->\n",
+            "score": 0.12620097548419282,
+            "start": 1350,
             "end": 2193
           }
         ]
@@ -346,24 +347,60 @@
             "end": 2193
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.19565989102814468,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.13476114033048603,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "·\n↓Plasma proteins (e.g. liver failure):\n↑V\nD\nhighly plasma protein bound\ndrugs\n·\nIf low hepatic extraction ratio:\n↑↑Free drug ->\n↑↑effect (e.g. phenytoin)\n·\nDehydration: ↓V\nDC\nmost\ndrugs (e.g. propof",
-            "score": 0.19565989102814468,
-            "start": 1420,
+            "text": "water soluble drugs\n·\n↓Plasma proteins (e.g. liver failure):\n↑V\nD\nhighly plasma protein bound\ndrugs\n·\nIf low hepatic extraction ratio:\n↑↑Free drug ->\n↑↑effect (e.g. phenytoin)\n·\nDehydration: ↓V\nDC\nmos",
+            "score": 0.13476114033048603,
+            "start": 1400,
             "end": 2193
           },
           {
             "text": "2021B03 a) Define “volume of\ndistribution”. What factors influence the\nsize of the volume of distribution? b) How may it be used in the\ncalculation of a loading dose? What assumptions are made in this",
-            "score": 0.13828116177283872,
+            "score": 0.11905584709916793,
             "start": 0,
-            "end": 1419
+            "end": 1399
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7606506175553334,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Fluid overload (heart/liver/kidney failure):\n↑V\nD\nwater soluble drugs\n·\n↓Plasma proteins (e.g. liver failure):\n↑V\nD\nhighly plasma protein bound\ndrugs\n·\nIf low hepatic extraction ratio:\n↑↑Free drug ->\n",
+            "score": 0.7606506175553334,
+            "start": 1350,
+            "end": 2193
+          },
+          {
+            "text": "2021B03 a) Define “volume of\ndistribution”. What factors influence the\nsize of the volume of distribution? b) How may it be used in the\ncalculation of a loading dose? What assumptions are made in this",
+            "score": 0.10906114075009045,
+            "start": 0,
+            "end": 1349
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3824687894900543,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Fluid overload (heart/liver/kidney failure):\n↑V\nD\nwater soluble drugs\n·\n↓Plasma proteins (e.g. liver failure):\n↑V\nD\nhighly plasma protein bound\ndrugs\n·\nIf low hepatic extraction ratio:\n↑↑Free drug ->\n",
+            "score": 0.3824687894900543,
+            "start": 1350,
+            "end": 2193
+          },
+          {
+            "text": "2021B03 a) Define “volume of\ndistribution”. What factors influence the\nsize of the volume of distribution? b) How may it be used in the\ncalculation of a loading dose? What assumptions are made in this",
+            "score": 0.15799633458154788,
+            "start": 0,
+            "end": 1349
           }
         ]
       },

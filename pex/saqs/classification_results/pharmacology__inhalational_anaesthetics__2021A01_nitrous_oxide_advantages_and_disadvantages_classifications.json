@@ -17,8 +17,9 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
+      "nociception_process",
       "gas_exchange_process",
-      "drug_receptor_disposition",
       "acid_base_quality",
       "pharmacokinetic_process",
       "organ_system_process"
@@ -26,6 +27,7 @@
     "explanatory_schema": [
       "structure_function_link",
       "dose_response_relationship",
+      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -228,25 +230,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7044014819049529,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5388765691885101,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\nLow muscle:blood PC (1.2)\n·\nLow fat:blood PC (2.3)\n·\nMinimal accumulation in long case\nExpansion of existing closed air spaces:\n·\n↑size pneumothorax\n·\n↑Bowel gas -> difficult laparoscopy\n·\n↑Ocular g",
-            "score": 0.7044014819049529,
-            "start": 1558,
-            "end": 2879
+            "text": "volatile drug\n-\nD\n·\nLow muscle:blood PC (1.2)\n·\nLow fat:blood PC (2.3)\n·\nMinimal accumulation in long case\nExpansion of existing closed air spaces:\n·\n↑size pneumothorax\n·\n↑Bowel gas -> difficult lapar",
+            "score": 0.5388765691885101,
+            "start": 1540,
+            "end": 2800
           },
           {
             "text": "2021A01 Describe\nthe advantages and disadvantages of using nitrous oxide as part of a general\nanaesthetic.\nList:\n·\nPC: pros and cons\n·\nPK: pros and cons\n·\nPD: pros and cons\nPharmaceutics:\nPros\nCons\n·\n",
-            "score": 0.29241707730381167,
+            "score": 0.27897201595542515,
             "start": 0,
-            "end": 1557
+            "end": 1539
           },
           {
-            "text": "? ↑Risk abortion in PACU staff\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.1010480871715535,
-            "start": 2880,
+            "text": "Subacute combined degeneration of the cord (chronic\n  abuse)\n·\nTeratogenesis\n·\n? ↑Risk abortion in PACU staff\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.13769065726953986,
+            "start": 2801,
             "end": 2959
           }
         ]
@@ -372,25 +374,25 @@
         ]
       },
       "nociception_process": {
-        "score": 0.19059863367246443,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7639076521243664,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Low muscle:blood PC (1.2)\n·\nLow fat:blood PC (2.3)\n·\nMinimal accumulation in long case\nExpansion of existing closed air spaces:\n·\n↑size pneumothorax\n·\n↑Bowel gas -> difficult laparoscopy\n·\n↑Ocular gas",
-            "score": 0.19059863367246443,
-            "start": 1560,
-            "end": 2910
+            "text": "volatile drug\n-\nD\n·\nLow muscle:blood PC (1.2)\n·\nLow fat:blood PC (2.3)\n·\nMinimal accumulation in long case\nExpansion of existing closed air spaces:\n·\n↑size pneumothorax\n·\n↑Bowel gas -> difficult lapar",
+            "score": 0.7639076521243664,
+            "start": 1540,
+            "end": 2852
           },
           {
             "text": "2021A01 Describe\nthe advantages and disadvantages of using nitrous oxide as part of a general\nanaesthetic.\nList:\n·\nPC: pros and cons\n·\nPK: pros and cons\n·\nPD: pros and cons\nPharmaceutics:\nPros\nCons\n·\n",
-            "score": 0.10551062286445975,
+            "score": 0.21514118653388012,
             "start": 0,
-            "end": 1559
+            "end": 1539
           },
           {
-            "text": "Feedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.0915358786435363,
-            "start": 2911,
+            "text": "  abuse)\n·\nTeratogenesis\n·\n? ↑Risk abortion in PACU staff\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.13129612675432087,
+            "start": 2853,
             "end": 2959
           }
         ]
@@ -466,29 +468,77 @@
             "end": 1557
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.24263091556480276,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.24469425805145512,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "Low muscle:blood PC (1.2)\n·\nLow fat:blood PC (2.3)\n·\nMinimal accumulation in long case\nExpansion of existing closed air spaces:\n·\n↑size pneumothorax\n·\n↑Bowel gas -> difficult laparoscopy\n·\n↑Ocular gas",
+            "score": 0.24469425805145512,
+            "start": 1560,
+            "end": 2910
+          },
+          {
             "text": "2021A01 Describe\nthe advantages and disadvantages of using nitrous oxide as part of a general\nanaesthetic.\nList:\n·\nPC: pros and cons\n·\nPK: pros and cons\n·\nPD: pros and cons\nPharmaceutics:\nPros\nCons\n·\n",
-            "score": 0.24263091556480276,
+            "score": 0.1010480871715535,
             "start": 0,
             "end": 1559
           },
           {
-            "text": "Low muscle:blood PC (1.2)\n·\nLow fat:blood PC (2.3)\n·\nMinimal accumulation in long case\nExpansion of existing closed air spaces:\n·\n↑size pneumothorax\n·\n↑Bowel gas -> difficult laparoscopy\n·\n↑Ocular gas",
-            "score": 0.22925302922312224,
-            "start": 1560,
-            "end": 2927
+            "text": "Feedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.0957480960268055,
+            "start": 2911,
+            "end": 2959
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7755072325981134,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "volatile drug\n-\nD\n·\nLow muscle:blood PC (1.2)\n·\nLow fat:blood PC (2.3)\n·\nMinimal accumulation in long case\nExpansion of existing closed air spaces:\n·\n↑size pneumothorax\n·\n↑Bowel gas -> difficult lapar",
+            "score": 0.7755072325981134,
+            "start": 1540,
+            "end": 2800
           },
           {
-            "text": "at\nketaminenightmares@gmail.com",
-            "score": 0.16252292535834514,
-            "start": 2928,
+            "text": "2021A01 Describe\nthe advantages and disadvantages of using nitrous oxide as part of a general\nanaesthetic.\nList:\n·\nPC: pros and cons\n·\nPK: pros and cons\n·\nPD: pros and cons\nPharmaceutics:\nPros\nCons\n·\n",
+            "score": 0.2052664429349464,
+            "start": 0,
+            "end": 1539
+          },
+          {
+            "text": "Subacute combined degeneration of the cord (chronic\n  abuse)\n·\nTeratogenesis\n·\n? ↑Risk abortion in PACU staff\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.13015328625585776,
+            "start": 2801,
+            "end": 2959
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7909672325033913,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "volatile drug\n-\nD\n·\nLow muscle:blood PC (1.2)\n·\nLow fat:blood PC (2.3)\n·\nMinimal accumulation in long case\nExpansion of existing closed air spaces:\n·\n↑size pneumothorax\n·\n↑Bowel gas -> difficult lapar",
+            "score": 0.7909672325033913,
+            "start": 1540,
+            "end": 2852
+          },
+          {
+            "text": "2021A01 Describe\nthe advantages and disadvantages of using nitrous oxide as part of a general\nanaesthetic.\nList:\n·\nPC: pros and cons\n·\nPK: pros and cons\n·\nPD: pros and cons\nPharmaceutics:\nPros\nCons\n·\n",
+            "score": 0.40762759217280825,
+            "start": 0,
+            "end": 1539
+          },
+          {
+            "text": "  abuse)\n·\nTeratogenesis\n·\n? ↑Risk abortion in PACU staff\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.3420179858485293,
+            "start": 2853,
             "end": 2959
           }
         ]

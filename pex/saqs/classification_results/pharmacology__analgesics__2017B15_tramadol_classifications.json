@@ -13,12 +13,15 @@
       ]
     },
     "content_dimensions": [
+      "nociception_process",
       "pharmacokinetic_process",
-      "drug_receptor_disposition",
       "organ_system_process",
-      "autonomic_disposition"
+      "autonomic_disposition",
+      "drug_receptor_disposition"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -171,20 +174,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6788481658776849,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6205628495414227,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\n↓Post-synaptic activation at the dorsal horn\no\nShort\n  term: ↓excitability, ↓wind-up\no\nLong\n  term: ↓synaptic reinforcement, ↓long term potentiation\nUses\n·\nAnalgesia: somatic, visceral, neuropathic\n",
-            "score": 0.6788481658776849,
-            "start": 1422,
+            "text": "SRI: ↑5-HT descending modulation of same; ↑ and ↓ pain afferents\nNMDA effects\n·\n↓Post-synaptic activation at the dorsal horn\no\nShort\n  term: ↓excitability, ↓wind-up\no\nLong\n  term: ↓synaptic reinforcem",
+            "score": 0.6205628495414227,
+            "start": 1344,
             "end": 2369
           },
           {
             "text": "2017B15 Write\nbrief notes on the pharmacology of tramadol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nVariability\nPharmaceutics:\nClass\n·\nCyclohexanol derivative\nPresentation\n·\nRacemic mixture\n·\nAqueous solution in clear ",
-            "score": 0.6141114304407498,
+            "score": 0.5292288399282553,
             "start": 0,
-            "end": 1421
+            "end": 1343
           }
         ]
       },
@@ -279,20 +282,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.23205568751749697,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.8381284697982909,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2017B15 Write\nbrief notes on the pharmacology of tramadol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nVariability\nPharmaceutics:\nClass\n·\nCyclohexanol derivative\nPresentation\n·\nRacemic mixture\n·\nAqueous solution in clear ",
-            "score": 0.23205568751749697,
-            "start": 0,
-            "end": 1423
+            "text": "SRI: ↑5-HT descending modulation of same; ↑ and ↓ pain afferents\nNMDA effects\n·\n↓Post-synaptic activation at the dorsal horn\no\nShort\n  term: ↓excitability, ↓wind-up\no\nLong\n  term: ↓synaptic reinforcem",
+            "score": 0.8381284697982909,
+            "start": 1344,
+            "end": 2369
           },
           {
-            "text": "↓Post-synaptic activation at the dorsal horn\no\nShort\n  term: ↓excitability, ↓wind-up\no\nLong\n  term: ↓synaptic reinforcement, ↓long term potentiation\nUses\n·\nAnalgesia: somatic, visceral, neuropathic\n·\n",
-            "score": 0.07576714551953342,
-            "start": 1424,
-            "end": 2369
+            "text": "2017B15 Write\nbrief notes on the pharmacology of tramadol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nVariability\nPharmaceutics:\nClass\n·\nCyclohexanol derivative\nPresentation\n·\nRacemic mixture\n·\nAqueous solution in clear ",
+            "score": 0.691978150715181,
+            "start": 0,
+            "end": 1343
           }
         ]
       },
@@ -349,24 +352,60 @@
             "end": 2369
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2045179371314406,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.28700182061581236,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↓Post-synaptic activation at the dorsal horn\no\nShort\n  term: ↓excitability, ↓wind-up\no\nLong\n  term: ↓synaptic reinforcement, ↓long term potentiation\nUses\n·\nAnalgesia: somatic, visceral, neuropathic\n·\n",
-            "score": 0.2045179371314406,
+            "score": 0.28700182061581236,
             "start": 1424,
             "end": 2369
           },
           {
             "text": "2017B15 Write\nbrief notes on the pharmacology of tramadol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nVariability\nPharmaceutics:\nClass\n·\nCyclohexanol derivative\nPresentation\n·\nRacemic mixture\n·\nAqueous solution in clear ",
-            "score": 0.0816980747080833,
+            "score": 0.08878886373592071,
             "start": 0,
             "end": 1423
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.12122754149981366,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "SRI: ↑5-HT descending modulation of same; ↑ and ↓ pain afferents\nNMDA effects\n·\n↓Post-synaptic activation at the dorsal horn\no\nShort\n  term: ↓excitability, ↓wind-up\no\nLong\n  term: ↓synaptic reinforcem",
+            "score": 0.12122754149981366,
+            "start": 1344,
+            "end": 2369
+          },
+          {
+            "text": "2017B15 Write\nbrief notes on the pharmacology of tramadol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nVariability\nPharmaceutics:\nClass\n·\nCyclohexanol derivative\nPresentation\n·\nRacemic mixture\n·\nAqueous solution in clear ",
+            "score": 0.09339430960340468,
+            "start": 0,
+            "end": 1343
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7762951516073289,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "SRI: ↑5-HT descending modulation of same; ↑ and ↓ pain afferents\nNMDA effects\n·\n↓Post-synaptic activation at the dorsal horn\no\nShort\n  term: ↓excitability, ↓wind-up\no\nLong\n  term: ↓synaptic reinforcem",
+            "score": 0.7762951516073289,
+            "start": 1344,
+            "end": 2369
+          },
+          {
+            "text": "2017B15 Write\nbrief notes on the pharmacology of tramadol.\nList:\n·\nPC\n·\nPK\n·\nPD\n·\nVariability\nPharmaceutics:\nClass\n·\nCyclohexanol derivative\nPresentation\n·\nRacemic mixture\n·\nAqueous solution in clear ",
+            "score": 0.44233399741563184,
+            "start": 0,
+            "end": 1343
           }
         ]
       },

@@ -15,10 +15,12 @@
     "content_dimensions": [
       "acid_base_quality",
       "gas_exchange_process",
-      "drug_receptor_disposition"
+      "drug_receptor_disposition",
+      "clinical_measurement_process"
     ],
     "explanatory_schema": [
-      "structure_function_link"
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -172,20 +174,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7138959299702419,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6802665876579223,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2\nfrom tissues into capillary blood\n·\nMechanism:\no\nCO\n2\n+ H\n2\nO < -> H\n+\n+ HCO\n3\n-\n(carbonic anhydrase in RBC)\no\nKHb + H\n+\n<-> HHb + K\n+\n(buffering by imidazole groups of histidine residues)\no\nHCO\n3\n-",
-            "score": 0.7138959299702419,
-            "start": 1239,
+            "text": "Maintain partial pressure gradient for CO\n2\nfrom tissues into capillary blood\n·\nMechanism:\no\nCO\n2\n+ H\n2\nO < -> H\n+\n+ HCO\n3\n-\n(carbonic anhydrase in RBC)\no\nKHb + H\n+\n<-> HHb + K\n+\n(buffering by imidazo",
+            "score": 0.6802665876579223,
+            "start": 1197,
             "end": 2193
           },
           {
             "text": "2004B09 Describe\nhow carbon dioxide is produced in the body.\nHow does it move from the site of production to the pulmonary capillary?\nList:\n·\nProduction\n·\nTransfer\n·\nCarriage\n·\nVariable CO\n2\naffinity\n",
-            "score": 0.17656868710877405,
+            "score": 0.31502532066888583,
             "start": 0,
-            "end": 1238
+            "end": 1196
           }
         ]
       },
@@ -280,20 +282,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13186982364320243,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.22925302922312224,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "from tissues into capillary blood\n·\nMechanism:\no\nCO\n2\n+ H\n2\nO < -> H\n+\n+ HCO\n3\n-\n(carbonic anhydrase in RBC)\no\nKHb + H\n+\n<-> HHb + K\n+\n(buffering by imidazole groups of histidine residues)\no\nHCO\n3\n-\ne",
-            "score": 0.13186982364320243,
-            "start": 1241,
+            "text": "Maintain partial pressure gradient for CO\n2\nfrom tissues into capillary blood\n·\nMechanism:\no\nCO\n2\n+ H\n2\nO < -> H\n+\n+ HCO\n3\n-\n(carbonic anhydrase in RBC)\no\nKHb + H\n+\n<-> HHb + K\n+\n(buffering by imidazo",
+            "score": 0.22925302922312224,
+            "start": 1197,
             "end": 2193
           },
           {
             "text": "2004B09 Describe\nhow carbon dioxide is produced in the body.\nHow does it move from the site of production to the pulmonary capillary?\nList:\n·\nProduction\n·\nTransfer\n·\nCarriage\n·\nVariable CO\n2\naffinity\n",
-            "score": 0.08833573667416476,
+            "score": 0.10702368540104822,
             "start": 0,
-            "end": 1240
+            "end": 1196
           }
         ]
       },
@@ -350,24 +352,60 @@
             "end": 2193
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.23326263346460346,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2004B09 Describe\nhow carbon dioxide is produced in the body.\nHow does it move from the site of production to the pulmonary capillary?\nList:\n·\nProduction\n·\nTransfer\n·\nCarriage\n·\nVariable CO\n2\naffinity\n",
+            "score": 0.23326263346460346,
+            "start": 0,
+            "end": 1240
+          },
+          {
+            "text": "from tissues into capillary blood\n·\nMechanism:\no\nCO\n2\n+ H\n2\nO < -> H\n+\n+ HCO\n3\n-\n(carbonic anhydrase in RBC)\no\nKHb + H\n+\n<-> HHb + K\n+\n(buffering by imidazole groups of histidine residues)\no\nHCO\n3\n-\ne",
+            "score": 0.17656868710877405,
+            "start": 1241,
+            "end": 2193
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.6788481658776849,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Maintain partial pressure gradient for CO\n2\nfrom tissues into capillary blood\n·\nMechanism:\no\nCO\n2\n+ H\n2\nO < -> H\n+\n+ HCO\n3\n-\n(carbonic anhydrase in RBC)\no\nKHb + H\n+\n<-> HHb + K\n+\n(buffering by imidazo",
+            "score": 0.6788481658776849,
+            "start": 1197,
+            "end": 2193
+          },
+          {
+            "text": "2004B09 Describe\nhow carbon dioxide is produced in the body.\nHow does it move from the site of production to the pulmonary capillary?\nList:\n·\nProduction\n·\nTransfer\n·\nCarriage\n·\nVariable CO\n2\naffinity\n",
+            "score": 0.24552225336936614,
+            "start": 0,
+            "end": 1196
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.29241707730381167,
+        "score": 0.6788481658776849,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2004B09 Describe\nhow carbon dioxide is produced in the body.\nHow does it move from the site of production to the pulmonary capillary?\nList:\n·\nProduction\n·\nTransfer\n·\nCarriage\n·\nVariable CO\n2\naffinity\n",
-            "score": 0.29241707730381167,
-            "start": 0,
-            "end": 1274
+            "text": "Maintain partial pressure gradient for CO\n2\nfrom tissues into capillary blood\n·\nMechanism:\no\nCO\n2\n+ H\n2\nO < -> H\n+\n+ HCO\n3\n-\n(carbonic anhydrase in RBC)\no\nKHb + H\n+\n<-> HHb + K\n+\n(buffering by imidazo",
+            "score": 0.6788481658776849,
+            "start": 1197,
+            "end": 2193
           },
           {
-            "text": "·\nMechanism:\no\nCO\n2\n+ H\n2\nO < -> H\n+\n+ HCO\n3\n-\n(carbonic anhydrase in RBC)\no\nKHb + H\n+\n<-> HHb + K\n+\n(buffering by imidazole groups of histidine residues)\no\nHCO\n3\n-\nexchanged for Cl\n-\nat membrane (Ham",
-            "score": 0.250521980467662,
-            "start": 1275,
-            "end": 2193
+            "text": "2004B09 Describe\nhow carbon dioxide is produced in the body.\nHow does it move from the site of production to the pulmonary capillary?\nList:\n·\nProduction\n·\nTransfer\n·\nCarriage\n·\nVariable CO\n2\naffinity\n",
+            "score": 0.2732434585109745,
+            "start": 0,
+            "end": 1196
           }
         ]
       },

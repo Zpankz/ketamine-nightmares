@@ -13,6 +13,7 @@
       "score": 0.4694483229560241
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
@@ -171,20 +172,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.15103900835879944,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.32732975003005915,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Same 50% secreted into thin descending limb of\n  the loop of Henle\no\nSame 50% reabsorbed at medullary collecting\n  duct (i.e. urea recycling)\n�\nProblems:\no\nGFR can fall by 50% before significant ↑[ure",
-            "score": 0.15103900835879944,
-            "start": 1496,
+            "text": "Freely filtered, 50% reabsorbed\no\nSame 50% secreted into thin descending limb of\n  the loop of Henle\no\nSame 50% reabsorbed at medullary collecting\n  duct (i.e. urea recycling)\n�\nProblems:\no\nGFR can fa",
+            "score": 0.32732975003005915,
+            "start": 1462,
             "end": 2028
           },
           {
             "text": "2004A13 Describe\nthe concept of renal clearance and its use to estimate glomerular filtration\nrate.\nList:\n�\nIntro: clearance, ideal tracer\n�\nTracer comparison\nClearance:\nRenal clearance\n�\nHypothetical",
-            "score": 0.14917447507309806,
+            "score": 0.10450903806925663,
             "start": 0,
-            "end": 1495
+            "end": 1461
           }
         ]
       },
@@ -279,20 +280,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.0733016050091523,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.12452970475004799,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Same 50% secreted into thin descending limb of\n  the loop of Henle\no\nSame 50% reabsorbed at medullary collecting\n  duct (i.e. urea recycling)\n�\nProblems:\no\nGFR can fall by 50% before significant ↑[ure",
-            "score": 0.0733016050091523,
-            "start": 1496,
+            "text": "Freely filtered, 50% reabsorbed\no\nSame 50% secreted into thin descending limb of\n  the loop of Henle\no\nSame 50% reabsorbed at medullary collecting\n  duct (i.e. urea recycling)\n�\nProblems:\no\nGFR can fa",
+            "score": 0.12452970475004799,
+            "start": 1462,
             "end": 2028
           },
           {
             "text": "2004A13 Describe\nthe concept of renal clearance and its use to estimate glomerular filtration\nrate.\nList:\n�\nIntro: clearance, ideal tracer\n�\nTracer comparison\nClearance:\nRenal clearance\n�\nHypothetical",
-            "score": 0.06464153682837724,
+            "score": 0.07912544161184044,
             "start": 0,
-            "end": 1495
+            "end": 1461
           }
         ]
       },
@@ -349,24 +350,60 @@
             "end": 2028
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.29151113040950316,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.3903356880453444,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  the loop of Henle\no\nSame 50% reabsorbed at medullary collecting\n  duct (i.e. urea recycling)\n�\nProblems:\no\nGFR can fall by 50% before significant ↑[urea]\no\nDehydration or high protein intake ->\n  ↑[",
-            "score": 0.29151113040950316,
-            "start": 1543,
+            "text": "Same 50% secreted into thin descending limb of\n  the loop of Henle\no\nSame 50% reabsorbed at medullary collecting\n  duct (i.e. urea recycling)\n�\nProblems:\no\nGFR can fall by 50% before significant ↑[ure",
+            "score": 0.3903356880453444,
+            "start": 1496,
             "end": 2028
           },
           {
             "text": "2004A13 Describe\nthe concept of renal clearance and its use to estimate glomerular filtration\nrate.\nList:\n�\nIntro: clearance, ideal tracer\n�\nTracer comparison\nClearance:\nRenal clearance\n�\nHypothetical",
-            "score": 0.11690780739311239,
+            "score": 0.12732266681585389,
             "start": 0,
-            "end": 1542
+            "end": 1495
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8006771067571272,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Freely filtered, 50% reabsorbed\no\nSame 50% secreted into thin descending limb of\n  the loop of Henle\no\nSame 50% reabsorbed at medullary collecting\n  duct (i.e. urea recycling)\n�\nProblems:\no\nGFR can fa",
+            "score": 0.8006771067571272,
+            "start": 1462,
+            "end": 2028
+          },
+          {
+            "text": "2004A13 Describe\nthe concept of renal clearance and its use to estimate glomerular filtration\nrate.\nList:\n�\nIntro: clearance, ideal tracer\n�\nTracer comparison\nClearance:\nRenal clearance\n�\nHypothetical",
+            "score": 0.3084865249962589,
+            "start": 0,
+            "end": 1461
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.31596446232249,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "o\nSame 50% secreted into thin descending limb of\n  the loop of Henle\no\nSame 50% reabsorbed at medullary collecting\n  duct (i.e. urea recycling)\n�\nProblems:\no\nGFR can fall by 50% before significant ↑[u",
+            "score": 0.31596446232249,
+            "start": 1494,
+            "end": 2028
+          },
+          {
+            "text": "2004A13 Describe\nthe concept of renal clearance and its use to estimate glomerular filtration\nrate.\nList:\n�\nIntro: clearance, ideal tracer\n�\nTracer comparison\nClearance:\nRenal clearance\n�\nHypothetical",
+            "score": 0.15671722015798292,
+            "start": 0,
+            "end": 1493
           }
         ]
       },

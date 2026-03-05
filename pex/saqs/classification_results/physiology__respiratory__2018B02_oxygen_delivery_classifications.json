@@ -15,6 +15,7 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
+      "clinical_measurement_process",
       "organ_system_process"
     ],
     "explanatory_schema": [
@@ -221,26 +222,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.22766004724276212,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.24469425805145512,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  ↓ pO\n2\nfrom end-pulmonary capillary to systemic artery.\n�\nComprises:\no\nLow VQ regions\no\nShunt\n�\nShunt equation: calculates venous admixture as\n  a proportion\no\nQs/Qt = (CcO\n2\n� CaO\n2\n) /\n  (CcO\n2\n� ",
-            "score": 0.22766004724276212,
-            "start": 1181,
-            "end": 2323
-          },
-          {
-            "text": "↓Thickness\n�\n↑Capillarisation -> ↓diffusion\n  distance\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.2022819500518595,
-            "start": 2324,
-            "end": 2427
-          },
-          {
             "text": "2018B02 Discuss\nthe factors that affect oxygen transport from the alveoli to the tissues.\nList:\n�\nIntro\n�\nAlveolus -> pulmonary capillary\n�\nPulmonary capillary -> systemic arterial\nblood\n�\nSystemic ar",
-            "score": 0.11959654819828813,
+            "score": 0.24469425805145512,
             "start": 0,
-            "end": 1180
+            "end": 1100
+          },
+          {
+            "text": "  need to be added to end-pulmonary capillary blood to account for the observed\n  ↓ pO\n2\nfrom end-pulmonary capillary to systemic artery.\n�\nComprises:\no\nLow VQ regions\no\nShunt\n�\nShunt equation: calcul",
+            "score": 0.22135047558413734,
+            "start": 1101,
+            "end": 2218
+          },
+          {
+            "text": "↑Capillarisation (e.g. adaptation to\n  aerobic exercise)\n�\n↑Recruitment and distension (e.g.\n  exercise)\n↓Thickness\n�\n↑Capillarisation -> ↓diffusion\n  distance\nFeedback welcome\nat\nketaminenightmares@g",
+            "score": 0.18071066347481568,
+            "start": 2219,
+            "end": 2427
           }
         ]
       },
@@ -365,26 +366,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12177417567627631,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.21437210705255258,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2\nfrom end-pulmonary capillary to systemic artery.\n�\nComprises:\no\nLow VQ regions\no\nShunt\n�\nShunt equation: calculates venous admixture as\n  a proportion\no\nQs/Qt = (CcO\n2\n� CaO\n2\n) /\n  (CcO\n2\n� CvO\n2\n)",
-            "score": 0.12177417567627631,
-            "start": 1188,
-            "end": 2336
-          },
-          {
-            "text": "↑Capillarisation -> ↓diffusion\n  distance\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.10202987799295415,
-            "start": 2337,
+            "text": "↑Capillarisation (e.g. adaptation to\n  aerobic exercise)\n�\n↑Recruitment and distension (e.g.\n  exercise)\n↓Thickness\n�\n↑Capillarisation -> ↓diffusion\n  distance\nFeedback welcome\nat\nketaminenightmares@g",
+            "score": 0.21437210705255258,
+            "start": 2219,
             "end": 2427
           },
           {
+            "text": "  need to be added to end-pulmonary capillary blood to account for the observed\n  ↓ pO\n2\nfrom end-pulmonary capillary to systemic artery.\n�\nComprises:\no\nLow VQ regions\no\nShunt\n�\nShunt equation: calcul",
+            "score": 0.15291762409217716,
+            "start": 1101,
+            "end": 2218
+          },
+          {
             "text": "2018B02 Discuss\nthe factors that affect oxygen transport from the alveoli to the tissues.\nList:\n�\nIntro\n�\nAlveolus -> pulmonary capillary\n�\nPulmonary capillary -> systemic arterial\nblood\n�\nSystemic ar",
-            "score": 0.08788394835920724,
+            "score": 0.1485560880659056,
             "start": 0,
-            "end": 1187
+            "end": 1100
           }
         ]
       },
@@ -459,30 +460,78 @@
             "end": 1180
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.31596446232249,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.4260256266104978,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "from end-pulmonary capillary to systemic artery.\n�\nComprises:\no\nLow VQ regions\no\nShunt\n�\nShunt equation: calculates venous admixture as\n  a proportion\no\nQs/Qt = (CcO\n2\n� CaO\n2\n) /\n  (CcO\n2\n� CvO\n2\n)\no",
-            "score": 0.31596446232249,
+            "score": 0.4260256266104978,
             "start": 1190,
             "end": 2336
           },
           {
             "text": "2018B02 Discuss\nthe factors that affect oxygen transport from the alveoli to the tissues.\nList:\n�\nIntro\n�\nAlveolus -> pulmonary capillary\n�\nPulmonary capillary -> systemic arterial\nblood\n�\nSystemic ar",
-            "score": 0.28610407002975813,
+            "score": 0.2728052893640291,
             "start": 0,
             "end": 1189
           },
           {
             "text": "↑Capillarisation -> ↓diffusion\n  distance\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.2197887268753907,
+            "score": 0.25642330901735677,
             "start": 2337,
             "end": 2427
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8846877749475047,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  need to be added to end-pulmonary capillary blood to account for the observed\n  ↓ pO\n2\nfrom end-pulmonary capillary to systemic artery.\n�\nComprises:\no\nLow VQ regions\no\nShunt\n�\nShunt equation: calcul",
+            "score": 0.8846877749475047,
+            "start": 1101,
+            "end": 2218
+          },
+          {
+            "text": "↑Capillarisation (e.g. adaptation to\n  aerobic exercise)\n�\n↑Recruitment and distension (e.g.\n  exercise)\n↓Thickness\n�\n↑Capillarisation -> ↓diffusion\n  distance\nFeedback welcome\nat\nketaminenightmares@g",
+            "score": 0.7695481570317122,
+            "start": 2219,
+            "end": 2427
+          },
+          {
+            "text": "2018B02 Discuss\nthe factors that affect oxygen transport from the alveoli to the tissues.\nList:\n�\nIntro\n�\nAlveolus -> pulmonary capillary\n�\nPulmonary capillary -> systemic arterial\nblood\n�\nSystemic ar",
+            "score": 0.49336607339329525,
+            "start": 0,
+            "end": 1100
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3666426091800214,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  need to be added to end-pulmonary capillary blood to account for the observed\n  ↓ pO\n2\nfrom end-pulmonary capillary to systemic artery.\n�\nComprises:\no\nLow VQ regions\no\nShunt\n�\nShunt equation: calcul",
+            "score": 0.3666426091800214,
+            "start": 1101,
+            "end": 2218
+          },
+          {
+            "text": "↑Capillarisation (e.g. adaptation to\n  aerobic exercise)\n�\n↑Recruitment and distension (e.g.\n  exercise)\n↓Thickness\n�\n↑Capillarisation -> ↓diffusion\n  distance\nFeedback welcome\nat\nketaminenightmares@g",
+            "score": 0.2767616374358241,
+            "start": 2219,
+            "end": 2427
+          },
+          {
+            "text": "2018B02 Discuss\nthe factors that affect oxygen transport from the alveoli to the tissues.\nList:\n�\nIntro\n�\nAlveolus -> pulmonary capillary\n�\nPulmonary capillary -> systemic arterial\nblood\n�\nSystemic ar",
+            "score": 0.19712031304111735,
+            "start": 0,
+            "end": 1100
           }
         ]
       },

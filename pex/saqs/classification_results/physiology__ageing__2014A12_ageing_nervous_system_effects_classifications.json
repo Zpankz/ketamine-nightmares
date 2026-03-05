@@ -19,9 +19,11 @@
     },
     "content_dimensions": [
       "autonomic_disposition",
-      "drug_receptor_disposition"
+      "nociception_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -174,20 +176,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7507330409722095,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.32732975003005915,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "nervous system:\nChanges\n·\n↓Cardiac β\n1\nadrenoceptors\n·\n↓post-adrenoceptor signalling\n·\n(↑Circulating noradrenaline partly offsets above)\nEffect on pain\n·\n↓Autonomic response to pain\n·\nRisk of undertre",
-            "score": 0.7507330409722095,
-            "start": 1566,
-            "end": 1875
+            "text": "2014A12 Describe\nthe alterations to the physiology of the nervous system in the older patient\nand outline the consequent effects on pain perception.\nList:\n·\nIntro: definitions and significance\n·\nCentr",
+            "score": 0.32732975003005915,
+            "start": 0,
+            "end": 1523
           },
           {
-            "text": "2014A12 Describe\nthe alterations to the physiology of the nervous system in the older patient\nand outline the consequent effects on pain perception.\nList:\n·\nIntro: definitions and significance\n·\nCentr",
-            "score": 0.3988911042672105,
-            "start": 0,
-            "end": 1565
+            "text": "  -> ↓ pain e.g. toe amputation\nAutonomic\nnervous system:\nChanges\n·\n↓Cardiac β\n1\nadrenoceptors\n·\n↓post-adrenoceptor signalling\n·\n(↑Circulating noradrenaline partly offsets above)\nEffect on pain\n·\n↓Aut",
+            "score": 0.324947631255672,
+            "start": 1524,
+            "end": 1875
           }
         ]
       },
@@ -282,19 +284,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.4452054070316682,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7894496120499562,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2014A12 Describe\nthe alterations to the physiology of the nervous system in the older patient\nand outline the consequent effects on pain perception.\nList:\n·\nIntro: definitions and significance\n·\nCentr",
-            "score": 0.4452054070316682,
+            "score": 0.7894496120499562,
             "start": 0,
-            "end": 1591
+            "end": 1555
           },
           {
-            "text": "↓Cardiac β\n1\nadrenoceptors\n·\n↓post-adrenoceptor signalling\n·\n(↑Circulating noradrenaline partly offsets above)\nEffect on pain\n·\n↓Autonomic response to pain\n·\nRisk of undertreatment intra-op\nDrugs\n·\nβ\n",
-            "score": 0.14306065974886034,
-            "start": 1592,
+            "text": "Autonomic\nnervous system:\nChanges\n·\n↓Cardiac β\n1\nadrenoceptors\n·\n↓post-adrenoceptor signalling\n·\n(↑Circulating noradrenaline partly offsets above)\nEffect on pain\n·\n↓Autonomic response to pain\n·\nRisk o",
+            "score": 0.6933702527635284,
+            "start": 1556,
             "end": 1875
           }
         ]
@@ -352,24 +354,60 @@
             "end": 1875
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.40904560901414927,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.188453451539788,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "2014A12 Describe\nthe alterations to the physiology of the nervous system in the older patient\nand outline the consequent effects on pain perception.\nList:\n·\nIntro: definitions and significance\n·\nCentr",
+            "score": 0.188453451539788,
+            "start": 0,
+            "end": 1591
+          },
+          {
             "text": "↓Cardiac β\n1\nadrenoceptors\n·\n↓post-adrenoceptor signalling\n·\n(↑Circulating noradrenaline partly offsets above)\nEffect on pain\n·\n↓Autonomic response to pain\n·\nRisk of undertreatment intra-op\nDrugs\n·\nβ\n",
-            "score": 0.40904560901414927,
+            "score": 0.1592817529828625,
             "start": 1592,
+            "end": 1875
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.19565989102814468,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  -> ↓ pain e.g. toe amputation\nAutonomic\nnervous system:\nChanges\n·\n↓Cardiac β\n1\nadrenoceptors\n·\n↓post-adrenoceptor signalling\n·\n(↑Circulating noradrenaline partly offsets above)\nEffect on pain\n·\n↓Aut",
+            "score": 0.19565989102814468,
+            "start": 1524,
             "end": 1875
           },
           {
             "text": "2014A12 Describe\nthe alterations to the physiology of the nervous system in the older patient\nand outline the consequent effects on pain perception.\nList:\n·\nIntro: definitions and significance\n·\nCentr",
-            "score": 0.23205568751749697,
+            "score": 0.0915358786435363,
             "start": 0,
-            "end": 1591
+            "end": 1523
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6482099054968764,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2014A12 Describe\nthe alterations to the physiology of the nervous system in the older patient\nand outline the consequent effects on pain perception.\nList:\n·\nIntro: definitions and significance\n·\nCentr",
+            "score": 0.6482099054968764,
+            "start": 0,
+            "end": 1555
+          },
+          {
+            "text": "Autonomic\nnervous system:\nChanges\n·\n↓Cardiac β\n1\nadrenoceptors\n·\n↓post-adrenoceptor signalling\n·\n(↑Circulating noradrenaline partly offsets above)\nEffect on pain\n·\n↓Autonomic response to pain\n·\nRisk o",
+            "score": 0.4596716452319962,
+            "start": 1556,
+            "end": 1875
           }
         ]
       },

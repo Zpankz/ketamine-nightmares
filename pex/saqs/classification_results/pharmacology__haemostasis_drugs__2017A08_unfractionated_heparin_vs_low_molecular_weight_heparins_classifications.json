@@ -18,6 +18,7 @@
       "drug_receptor_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -172,20 +173,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6141114304407498,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6533536768458332,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\nII:X ratio = 1:1 (Only saccharides >18 long can bridge AT3 and\n  II)\n·\nAlso 11, 9, VIIa:TF complex\n·\nIIa:Xa ratio = 1: 2-3\nPlatelet activation\n·\nYes\n·\nMinimal\nReversibility with protamine\n·\nNear 100",
-            "score": 0.6141114304407498,
-            "start": 1355,
+            "text": "(30% of heparins have a pentasaccharide sequence that binds AT3)\n·\nSame\nFactors inhibited\n·\nII:X ratio = 1:1 (Only saccharides >18 long can bridge AT3 and\n  II)\n·\nAlso 11, 9, VIIa:TF complex\n·\nIIa:Xa ",
+            "score": 0.6533536768458332,
+            "start": 1265,
             "end": 2213
           },
           {
             "text": "2017A08 Compare\nand contrast low molecular weight heparin and unfractionated heparin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nUnfractionated heparin (UFH)\nLow molecular weight heparin (LMWH)\nMW\n5-25kDa\n",
-            "score": 0.37013991264414337,
+            "score": 0.5525773833549925,
             "start": 0,
-            "end": 1354
+            "end": 1264
           }
         ]
       },
@@ -280,20 +281,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09107466708246154,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.3388655371870019,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2017A08 Compare\nand contrast low molecular weight heparin and unfractionated heparin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nUnfractionated heparin (UFH)\nLow molecular weight heparin (LMWH)\nMW\n5-25kDa\n",
-            "score": 0.09107466708246154,
-            "start": 0,
-            "end": 1356
+            "text": "·\nSame\nFactors inhibited\n·\nII:X ratio = 1:1 (Only saccharides >18 long can bridge AT3 and\n  II)\n·\nAlso 11, 9, VIIa:TF complex\n·\nIIa:Xa ratio = 1: 2-3\nPlatelet activation\n·\nYes\n·\nMinimal\nReversibility ",
+            "score": 0.3388655371870019,
+            "start": 1330,
+            "end": 2213
           },
           {
-            "text": "II:X ratio = 1:1 (Only saccharides >18 long can bridge AT3 and\n  II)\n·\nAlso 11, 9, VIIa:TF complex\n·\nIIa:Xa ratio = 1: 2-3\nPlatelet activation\n·\nYes\n·\nMinimal\nReversibility with protamine\n·\nNear 100%\n",
-            "score": 0.07248977602788173,
-            "start": 1357,
-            "end": 2213
+            "text": "2017A08 Compare\nand contrast low molecular weight heparin and unfractionated heparin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nUnfractionated heparin (UFH)\nLow molecular weight heparin (LMWH)\nMW\n5-25kDa\n",
+            "score": 0.1592817529828625,
+            "start": 0,
+            "end": 1329
           }
         ]
       },
@@ -350,24 +351,60 @@
             "end": 2213
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.18632263173984007,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.10957409746514832,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "2017A08 Compare\nand contrast low molecular weight heparin and unfractionated heparin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nUnfractionated heparin (UFH)\nLow molecular weight heparin (LMWH)\nMW\n5-25kDa\n",
+            "score": 0.10957409746514832,
+            "start": 0,
+            "end": 1356
+          },
+          {
             "text": "II:X ratio = 1:1 (Only saccharides >18 long can bridge AT3 and\n  II)\n·\nAlso 11, 9, VIIa:TF complex\n·\nIIa:Xa ratio = 1: 2-3\nPlatelet activation\n·\nYes\n·\nMinimal\nReversibility with protamine\n·\nNear 100%\n",
-            "score": 0.18632263173984007,
+            "score": 0.08431753646250958,
             "start": 1357,
+            "end": 2213
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.3061663567535194,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "(30% of heparins have a pentasaccharide sequence that binds AT3)\n·\nSame\nFactors inhibited\n·\nII:X ratio = 1:1 (Only saccharides >18 long can bridge AT3 and\n  II)\n·\nAlso 11, 9, VIIa:TF complex\n·\nIIa:Xa ",
+            "score": 0.3061663567535194,
+            "start": 1265,
             "end": 2213
           },
           {
             "text": "2017A08 Compare\nand contrast low molecular weight heparin and unfractionated heparin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nUnfractionated heparin (UFH)\nLow molecular weight heparin (LMWH)\nMW\n5-25kDa\n",
-            "score": 0.16448660559557637,
+            "score": 0.22686588955665188,
             "start": 0,
-            "end": 1356
+            "end": 1264
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.771544239031447,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Same\nFactors inhibited\n·\nII:X ratio = 1:1 (Only saccharides >18 long can bridge AT3 and\n  II)\n·\nAlso 11, 9, VIIa:TF complex\n·\nIIa:Xa ratio = 1: 2-3\nPlatelet activation\n·\nYes\n·\nMinimal\nReversibility wi",
+            "score": 0.771544239031447,
+            "start": 1332,
+            "end": 2213
+          },
+          {
+            "text": "2017A08 Compare\nand contrast low molecular weight heparin and unfractionated heparin.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nUnfractionated heparin (UFH)\nLow molecular weight heparin (LMWH)\nMW\n5-25kDa\n",
+            "score": 0.5531441746906401,
+            "start": 0,
+            "end": 1331
           }
         ]
       },

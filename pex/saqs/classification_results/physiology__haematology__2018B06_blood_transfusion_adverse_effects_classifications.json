@@ -18,10 +18,12 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
-      "organ_system_process"
+      "organ_system_process",
+      "clinical_measurement_process"
     ],
     "explanatory_schema": [
-      "structure_function_link"
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -223,25 +225,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4656472428897615,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3921188687384824,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Risk of haemochromatosis -> damage to liver, pancreas,\nheart, pituitary\nMicroaggregates\n·\nMicrovascular occlusion -> multi-organ dysfunction\n(especially lung)\nDilution:\nCoag factors\n·\nDilutional coagu",
-            "score": 0.4656472428897615,
+            "score": 0.3921188687384824,
             "start": 1246,
-            "end": 2717
+            "end": 2687
           },
           {
             "text": "2018B06 Outline the adverse\neffects which could occur following the rapid transfusion\nof ten units of packed red cells.\nList:\n·\nIntroduction\n·\nStorage lesion\n·\nOverload\n·\nDilution\n·\nMetabolic\n·\nImmune",
-            "score": 0.2509410724842214,
+            "score": 0.2803024686265447,
             "start": 0,
             "end": 1245
           },
           {
-            "text": "Certain bacteria can multiply in the cold\nViruses\n·\nHBV, HCV, HIV; CMV\nOther\n·\nParasites (e.g. P.falciparum malaria)\n·\nPrion",
-            "score": 0.12013872967712319,
-            "start": 2718,
+            "text": "Platelets (room temp) > RBC\n·\nCertain bacteria can multiply in the cold\nViruses\n·\nHBV, HCV, HIV; CMV\nOther\n·\nParasites (e.g. P.falciparum malaria)\n·\nPrion",
+            "score": 0.24345511195943695,
+            "start": 2688,
             "end": 2842
           }
         ]
@@ -367,26 +369,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.15228985226789557,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.19203673272679375,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Parasites (e.g. P.falciparum malaria)\n·\nPrion",
-            "score": 0.15228985226789557,
-            "start": 2797,
-            "end": 2842
-          },
-          {
-            "text": "Microaggregates\n·\nMicrovascular occlusion -> multi-organ dysfunction\n(especially lung)\nDilution:\nCoag factors\n·\nDilutional coagulopathy\no\nCoag factors esp fibrinogen\no\nPlatelets\nPlasma\n·\nHyperviscosit",
-            "score": 0.08788394835920724,
-            "start": 1318,
-            "end": 2796
+            "text": "Risk of haemochromatosis -> damage to liver, pancreas,\nheart, pituitary\nMicroaggregates\n·\nMicrovascular occlusion -> multi-organ dysfunction\n(especially lung)\nDilution:\nCoag factors\n·\nDilutional coagu",
+            "score": 0.19203673272679375,
+            "start": 1246,
+            "end": 2687
           },
           {
             "text": "2018B06 Outline the adverse\neffects which could occur following the rapid transfusion\nof ten units of packed red cells.\nList:\n·\nIntroduction\n·\nStorage lesion\n·\nOverload\n·\nDilution\n·\nMetabolic\n·\nImmune",
-            "score": 0.0874334962984957,
+            "score": 0.11164036043761141,
             "start": 0,
-            "end": 1317
+            "end": 1245
+          },
+          {
+            "text": "Platelets (room temp) > RBC\n·\nCertain bacteria can multiply in the cold\nViruses\n·\nHBV, HCV, HIV; CMV\nOther\n·\nParasites (e.g. P.falciparum malaria)\n·\nPrion",
+            "score": 0.10753089785761477,
+            "start": 2688,
+            "end": 2842
           }
         ]
       },
@@ -461,29 +463,77 @@
             "end": 2842
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.49840778308797523,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.24386778071856008,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "Parasites (e.g. P.falciparum malaria)\n·\nPrion",
+            "score": 0.24386778071856008,
+            "start": 2797,
+            "end": 2842
+          },
+          {
             "text": "Microaggregates\n·\nMicrovascular occlusion -> multi-organ dysfunction\n(especially lung)\nDilution:\nCoag factors\n·\nDilutional coagulopathy\no\nCoag factors esp fibrinogen\no\nPlatelets\nPlasma\n·\nHyperviscosit",
-            "score": 0.49840778308797523,
+            "score": 0.23326263346460346,
             "start": 1318,
             "end": 2796
           },
           {
             "text": "2018B06 Outline the adverse\neffects which could occur following the rapid transfusion\nof ten units of packed red cells.\nList:\n·\nIntroduction\n·\nStorage lesion\n·\nOverload\n·\nDilution\n·\nMetabolic\n·\nImmune",
-            "score": 0.23487730064457382,
+            "score": 0.16514433309482263,
             "start": 0,
             "end": 1317
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.6745765409729876,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Risk of haemochromatosis -> damage to liver, pancreas,\nheart, pituitary\nMicroaggregates\n·\nMicrovascular occlusion -> multi-organ dysfunction\n(especially lung)\nDilution:\nCoag factors\n·\nDilutional coagu",
+            "score": 0.6745765409729876,
+            "start": 1246,
+            "end": 2687
           },
           {
-            "text": "Parasites (e.g. P.falciparum malaria)\n·\nPrion",
-            "score": 0.1800163473587149,
-            "start": 2797,
+            "text": "Platelets (room temp) > RBC\n·\nCertain bacteria can multiply in the cold\nViruses\n·\nHBV, HCV, HIV; CMV\nOther\n·\nParasites (e.g. P.falciparum malaria)\n·\nPrion",
+            "score": 0.19275817505115483,
+            "start": 2688,
+            "end": 2842
+          },
+          {
+            "text": "2018B06 Outline the adverse\neffects which could occur following the rapid transfusion\nof ten units of packed red cells.\nList:\n·\nIntroduction\n·\nStorage lesion\n·\nOverload\n·\nDilution\n·\nMetabolic\n·\nImmune",
+            "score": 0.11744260655618423,
+            "start": 0,
+            "end": 1245
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7448474166640925,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Risk of haemochromatosis -> damage to liver, pancreas,\nheart, pituitary\nMicroaggregates\n·\nMicrovascular occlusion -> multi-organ dysfunction\n(especially lung)\nDilution:\nCoag factors\n·\nDilutional coagu",
+            "score": 0.7448474166640925,
+            "start": 1246,
+            "end": 2687
+          },
+          {
+            "text": "2018B06 Outline the adverse\neffects which could occur following the rapid transfusion\nof ten units of packed red cells.\nList:\n·\nIntroduction\n·\nStorage lesion\n·\nOverload\n·\nDilution\n·\nMetabolic\n·\nImmune",
+            "score": 0.6457502998162437,
+            "start": 0,
+            "end": 1245
+          },
+          {
+            "text": "Platelets (room temp) > RBC\n·\nCertain bacteria can multiply in the cold\nViruses\n·\nHBV, HCV, HIV; CMV\nOther\n·\nParasites (e.g. P.falciparum malaria)\n·\nPrion",
+            "score": 0.24469425805145512,
+            "start": 2688,
             "end": 2842
           }
         ]

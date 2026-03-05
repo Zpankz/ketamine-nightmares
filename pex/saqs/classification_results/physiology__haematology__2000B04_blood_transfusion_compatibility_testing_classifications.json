@@ -166,20 +166,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.21055038795004374,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3369314435607793,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "RhD: wash away serum, add Coombs reagent,\nobserve for agglutination (since IgG, monomeric)\n·\nPerformed for ABO and RhD\nReverse typing\n·\nPatient’s serum + RBC solutions\nknown to have A Ag, B Ag or RhD ",
-            "score": 0.21055038795004374,
-            "start": 1762,
+            "text": "o\nRhD: wash away serum, add Coombs reagent,\nobserve for agglutination (since IgG, monomeric)\n·\nPerformed for ABO and RhD\nReverse typing\n·\nPatient’s serum + RBC solutions\nknown to have A Ag, B Ag or Rh",
+            "score": 0.3369314435607793,
+            "start": 1760,
             "end": 2473
           },
           {
             "text": "2000B04 Outline the principles\nof compatibility testing of allogeneic (homologous) blood for\ntransfusions.\nList:\n·\nPrinciples\n·\nBlood groups\n·\nCompatibility testing\nPrinciples:\nGrouping\n·\nRBCs have me",
-            "score": 0.18071066347481568,
+            "score": 0.2732434585109745,
             "start": 0,
-            "end": 1761
+            "end": 1759
           }
         ]
       },
@@ -274,18 +274,18 @@
         ]
       },
       "nociception_process": {
-        "score": 0.06540458546295926,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.07870118319334535,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "RhD: wash away serum, add Coombs reagent,\nobserve for agglutination (since IgG, monomeric)\n·\nPerformed for ABO and RhD\nReverse typing\n·\nPatient’s serum + RBC solutions\nknown to have A Ag, B Ag or RhD ",
-            "score": 0.06540458546295926,
+            "score": 0.07870118319334535,
             "start": 1762,
             "end": 2473
           },
           {
             "text": "2000B04 Outline the principles\nof compatibility testing of allogeneic (homologous) blood for\ntransfusions.\nList:\n·\nPrinciples\n·\nBlood groups\n·\nCompatibility testing\nPrinciples:\nGrouping\n·\nRBCs have me",
-            "score": 0.05870671697453507,
+            "score": 0.07088101815552864,
             "start": 0,
             "end": 1761
           }
@@ -344,24 +344,60 @@
             "end": 2473
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.165803645501483,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.11744260655618423,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "observe for agglutination (since IgG, monomeric)\n·\nPerformed for ABO and RhD\nReverse typing\n·\nPatient’s serum + RBC solutions\nknown to have A Ag, B Ag or RhD A\no\nABO: as above\no\nRhD: as above\n·\nPerfor",
-            "score": 0.165803645501483,
+            "score": 0.11744260655618423,
             "start": 1804,
             "end": 2473
           },
           {
             "text": "2000B04 Outline the principles\nof compatibility testing of allogeneic (homologous) blood for\ntransfusions.\nList:\n·\nPrinciples\n·\nBlood groups\n·\nCompatibility testing\nPrinciples:\nGrouping\n·\nRBCs have me",
-            "score": 0.14065856668448176,
+            "score": 0.11637447875983453,
             "start": 0,
             "end": 1803
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.16779109893341812,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "IgM, pentameric)\no\nRhD: wash away serum, add Coombs reagent,\nobserve for agglutination (since IgG, monomeric)\n·\nPerformed for ABO and RhD\nReverse typing\n·\nPatient’s serum + RBC solutions\nknown to have",
+            "score": 0.16779109893341812,
+            "start": 1743,
+            "end": 2473
+          },
+          {
+            "text": "2000B04 Outline the principles\nof compatibility testing of allogeneic (homologous) blood for\ntransfusions.\nList:\n·\nPrinciples\n·\nBlood groups\n·\nCompatibility testing\nPrinciples:\nGrouping\n·\nRBCs have me",
+            "score": 0.0741184288718156,
+            "start": 0,
+            "end": 1742
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.23853282225019537,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "RhD: wash away serum, add Coombs reagent,\nobserve for agglutination (since IgG, monomeric)\n·\nPerformed for ABO and RhD\nReverse typing\n·\nPatient’s serum + RBC solutions\nknown to have A Ag, B Ag or RhD ",
+            "score": 0.23853282225019537,
+            "start": 1762,
+            "end": 2473
+          },
+          {
+            "text": "2000B04 Outline the principles\nof compatibility testing of allogeneic (homologous) blood for\ntransfusions.\nList:\n·\nPrinciples\n·\nBlood groups\n·\nCompatibility testing\nPrinciples:\nGrouping\n·\nRBCs have me",
+            "score": 0.18280318375806526,
+            "start": 0,
+            "end": 1761
           }
         ]
       },

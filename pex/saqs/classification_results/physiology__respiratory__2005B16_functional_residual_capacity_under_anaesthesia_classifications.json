@@ -13,7 +13,9 @@
         "foundational_science"
       ]
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "clinical_measurement_process"
+    ],
     "explanatory_schema": []
   },
   "classifications": {
@@ -167,20 +169,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.13417982729181727,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.22291849253518664,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2005B16 Explain\nthe changes in functional residual capacity that take place with administration\nof anaesthesia.\nList:\n·\nIntro: FRC\n·\nEffect of anaesthesia\nIntro:\nfunctional residual capacity (FRC)\nDef",
-            "score": 0.13417982729181727,
-            "start": 0,
-            "end": 1660
+            "text": "·\n↑Airway pressure -> alveolar distension -> ↑FRC\n·\nImportant for dependent areas\nExtubation\n·\nCoughing, loss of positive airway pressure\n  -> atelectasis -> ↓FRC\n·\nAttenuated by PEEP\nPosture\n·\nDiaphr",
+            "score": 0.22291849253518664,
+            "start": 1659,
+            "end": 2129
           },
           {
-            "text": "↑Airway pressure -> alveolar distension -> ↑FRC\n·\nImportant for dependent areas\nExtubation\n·\nCoughing, loss of positive airway pressure\n  -> atelectasis -> ↓FRC\n·\nAttenuated by PEEP\nPosture\n·\nDiaphrag",
-            "score": 0.11060433745697731,
-            "start": 1661,
-            "end": 2129
+            "text": "2005B16 Explain\nthe changes in functional residual capacity that take place with administration\nof anaesthesia.\nList:\n·\nIntro: FRC\n·\nEffect of anaesthesia\nIntro:\nfunctional residual capacity (FRC)\nDef",
+            "score": 0.1278857710804513,
+            "start": 0,
+            "end": 1658
           }
         ]
       },
@@ -275,20 +277,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.15799633458154788,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2942330252332108,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Airway pressure -> alveolar distension -> ↑FRC\n·\nImportant for dependent areas\nExtubation\n·\nCoughing, loss of positive airway pressure\n  -> atelectasis -> ↓FRC\n·\nAttenuated by PEEP\nPosture\n·\nDiaphrag",
-            "score": 0.15799633458154788,
-            "start": 1661,
-            "end": 2129
-          },
-          {
             "text": "2005B16 Explain\nthe changes in functional residual capacity that take place with administration\nof anaesthesia.\nList:\n·\nIntro: FRC\n·\nEffect of anaesthesia\nIntro:\nfunctional residual capacity (FRC)\nDef",
-            "score": 0.10803954311448256,
+            "score": 0.2942330252332108,
             "start": 0,
             "end": 1660
+          },
+          {
+            "text": "↑Airway pressure -> alveolar distension -> ↑FRC\n·\nImportant for dependent areas\nExtubation\n·\nCoughing, loss of positive airway pressure\n  -> atelectasis -> ↓FRC\n·\nAttenuated by PEEP\nPosture\n·\nDiaphrag",
+            "score": 0.2551525833359077,
+            "start": 1661,
+            "end": 2129
           }
         ]
       },
@@ -345,22 +347,58 @@
             "end": 2129
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.39671522001279147,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.52224549335802,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↑Airway pressure -> alveolar distension -> ↑FRC\n·\nImportant for dependent areas\nExtubation\n·\nCoughing, loss of positive airway pressure\n  -> atelectasis -> ↓FRC\n·\nAttenuated by PEEP\nPosture\n·\nDiaphrag",
-            "score": 0.39671522001279147,
+            "score": 0.52224549335802,
             "start": 1661,
             "end": 2129
           },
           {
             "text": "2005B16 Explain\nthe changes in functional residual capacity that take place with administration\nof anaesthesia.\nList:\n·\nIntro: FRC\n·\nEffect of anaesthesia\nIntro:\nfunctional residual capacity (FRC)\nDef",
-            "score": 0.2834191075448277,
+            "score": 0.1638304622956888,
+            "start": 0,
+            "end": 1660
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8569393402511397,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\n↑Airway pressure -> alveolar distension -> ↑FRC\n·\nImportant for dependent areas\nExtubation\n·\nCoughing, loss of positive airway pressure\n  -> atelectasis -> ↓FRC\n·\nAttenuated by PEEP\nPosture\n·\nDiaphr",
+            "score": 0.8569393402511397,
+            "start": 1659,
+            "end": 2129
+          },
+          {
+            "text": "2005B16 Explain\nthe changes in functional residual capacity that take place with administration\nof anaesthesia.\nList:\n·\nIntro: FRC\n·\nEffect of anaesthesia\nIntro:\nfunctional residual capacity (FRC)\nDef",
+            "score": 0.17248408020698391,
+            "start": 0,
+            "end": 1658
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.2649797724816399,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "↑Airway pressure -> alveolar distension -> ↑FRC\n·\nImportant for dependent areas\nExtubation\n·\nCoughing, loss of positive airway pressure\n  -> atelectasis -> ↓FRC\n·\nAttenuated by PEEP\nPosture\n·\nDiaphrag",
+            "score": 0.2649797724816399,
+            "start": 1661,
+            "end": 2129
+          },
+          {
+            "text": "2005B16 Explain\nthe changes in functional residual capacity that take place with administration\nof anaesthesia.\nList:\n·\nIntro: FRC\n·\nEffect of anaesthesia\nIntro:\nfunctional residual capacity (FRC)\nDef",
+            "score": 0.25940131470313366,
             "start": 0,
             "end": 1660
           }

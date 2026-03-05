@@ -15,7 +15,9 @@
     "content_dimensions": [
       "organ_system_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -168,20 +170,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5548766769340255,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.43849962228001726,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2006B16 Describe\nthe physiological consequences of acute hypoglycaemia.\nList:\n·\nIntro and importance\n·\nMetabolic pathways and key enzymes\n·\nPhysiological response to ↓BGL\n·\nClinical signs of ↓BGL\nIntr",
-            "score": 0.5548766769340255,
-            "start": 0,
-            "end": 1286
+            "text": "↑Proteolysis\n-> hepatic GNG via Cori cycle and glucose-alanine cycle\nAdipose\n·\n↓Glucose\n  uptake for glycerol\n·\n↑LL,\n  ↓\nDNL\nClinical signs:\nOf hypoglycaemia\n·\nWeakness,\n  hunger, agitation\n·\nConfusio",
+            "score": 0.43849962228001726,
+            "start": 1274,
+            "end": 1678
           },
           {
-            "text": "-> hepatic GNG via Cori cycle and glucose-alanine cycle\nAdipose\n·\n↓Glucose\n  uptake for glycerol\n·\n↑LL,\n  ↓\nDNL\nClinical signs:\nOf hypoglycaemia\n·\nWeakness,\n  hunger, agitation\n·\nConfusion\n, coma, dea",
-            "score": 0.553070251977755,
-            "start": 1287,
-            "end": 1678
+            "text": "2006B16 Describe\nthe physiological consequences of acute hypoglycaemia.\nList:\n·\nIntro and importance\n·\nMetabolic pathways and key enzymes\n·\nPhysiological response to ↓BGL\n·\nClinical signs of ↓BGL\nIntr",
+            "score": 0.3437202978641945,
+            "start": 0,
+            "end": 1273
           }
         ]
       },
@@ -276,20 +278,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10854962335430002,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.20903276749660882,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "-> hepatic GNG via Cori cycle and glucose-alanine cycle\nAdipose\n·\n↓Glucose\n  uptake for glycerol\n·\n↑LL,\n  ↓\nDNL\nClinical signs:\nOf hypoglycaemia\n·\nWeakness,\n  hunger, agitation\n·\nConfusion\n, coma, dea",
-            "score": 0.10854962335430002,
-            "start": 1287,
+            "text": "↑Proteolysis\n-> hepatic GNG via Cori cycle and glucose-alanine cycle\nAdipose\n·\n↓Glucose\n  uptake for glycerol\n·\n↑LL,\n  ↓\nDNL\nClinical signs:\nOf hypoglycaemia\n·\nWeakness,\n  hunger, agitation\n·\nConfusio",
+            "score": 0.20903276749660882,
+            "start": 1274,
             "end": 1678
           },
           {
             "text": "2006B16 Describe\nthe physiological consequences of acute hypoglycaemia.\nList:\n·\nIntro and importance\n·\nMetabolic pathways and key enzymes\n·\nPhysiological response to ↓BGL\n·\nClinical signs of ↓BGL\nIntr",
-            "score": 0.09386232569631885,
+            "score": 0.13887320349804264,
             "start": 0,
-            "end": 1286
+            "end": 1273
           }
         ]
       },
@@ -346,24 +348,60 @@
             "end": 1678
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.21745787821628798,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "-> hepatic GNG via Cori cycle and glucose-alanine cycle\nAdipose\n·\n↓Glucose\n  uptake for glycerol\n·\n↑LL,\n  ↓\nDNL\nClinical signs:\nOf hypoglycaemia\n·\nWeakness,\n  hunger, agitation\n·\nConfusion\n, coma, dea",
+            "score": 0.21745787821628798,
+            "start": 1287,
+            "end": 1678
+          },
+          {
+            "text": "2006B16 Describe\nthe physiological consequences of acute hypoglycaemia.\nList:\n·\nIntro and importance\n·\nMetabolic pathways and key enzymes\n·\nPhysiological response to ↓BGL\n·\nClinical signs of ↓BGL\nIntr",
+            "score": 0.12676106887331628,
+            "start": 0,
+            "end": 1286
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.46028198578326757,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↑Proteolysis\n-> hepatic GNG via Cori cycle and glucose-alanine cycle\nAdipose\n·\n↓Glucose\n  uptake for glycerol\n·\n↑LL,\n  ↓\nDNL\nClinical signs:\nOf hypoglycaemia\n·\nWeakness,\n  hunger, agitation\n·\nConfusio",
+            "score": 0.46028198578326757,
+            "start": 1274,
+            "end": 1678
+          },
+          {
+            "text": "2006B16 Describe\nthe physiological consequences of acute hypoglycaemia.\nList:\n·\nIntro and importance\n·\nMetabolic pathways and key enzymes\n·\nPhysiological response to ↓BGL\n·\nClinical signs of ↓BGL\nIntr",
+            "score": 0.17863249993135413,
+            "start": 0,
+            "end": 1273
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.2741208680411419,
+        "score": 0.7598325261631611,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2006B16 Describe\nthe physiological consequences of acute hypoglycaemia.\nList:\n·\nIntro and importance\n·\nMetabolic pathways and key enzymes\n·\nPhysiological response to ↓BGL\n·\nClinical signs of ↓BGL\nIntr",
-            "score": 0.2741208680411419,
-            "start": 0,
-            "end": 1286
+            "text": "↑Proteolysis\n-> hepatic GNG via Cori cycle and glucose-alanine cycle\nAdipose\n·\n↓Glucose\n  uptake for glycerol\n·\n↑LL,\n  ↓\nDNL\nClinical signs:\nOf hypoglycaemia\n·\nWeakness,\n  hunger, agitation\n·\nConfusio",
+            "score": 0.7598325261631611,
+            "start": 1274,
+            "end": 1678
           },
           {
-            "text": "-> hepatic GNG via Cori cycle and glucose-alanine cycle\nAdipose\n·\n↓Glucose\n  uptake for glycerol\n·\n↑LL,\n  ↓\nDNL\nClinical signs:\nOf hypoglycaemia\n·\nWeakness,\n  hunger, agitation\n·\nConfusion\n, coma, dea",
-            "score": 0.23690430309393176,
-            "start": 1287,
-            "end": 1678
+            "text": "2006B16 Describe\nthe physiological consequences of acute hypoglycaemia.\nList:\n·\nIntro and importance\n·\nMetabolic pathways and key enzymes\n·\nPhysiological response to ↓BGL\n·\nClinical signs of ↓BGL\nIntr",
+            "score": 0.7341565171559492,
+            "start": 0,
+            "end": 1273
           }
         ]
       },

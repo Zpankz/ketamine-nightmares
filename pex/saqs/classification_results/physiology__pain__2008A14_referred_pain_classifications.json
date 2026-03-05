@@ -10,7 +10,8 @@
       "score": 0.5790464959122755
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
+      "anatomy_structure",
+      "nociception_process",
       "organ_system_process",
       "autonomic_disposition"
     ],
@@ -170,19 +171,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8247992193051306,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4701345003791863,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2008A14 Describe the pathways whereby\nmyocardial ischaemia may be experienced\nas pain in the throat or arm regions.\nList:\n·\nIntro:\nmyocardial ischaemia\n·\nReferred\npain\n·\nMyocardial\ngeneral visceral af",
-            "score": 0.8247992193051306,
+            "score": 0.4701345003791863,
             "start": 0,
-            "end": 1588
+            "end": 1565
           },
           {
-            "text": "Ascent or descent 1-2 layers via\n  Lissauer’s tract\n(\nhence also upper limbs, abdomen)\no\nDirect synapse with wide dynamic range 2°\n  afferents in deeper layers\no\nConvergence onto somatic nociceptive\n ",
-            "score": 0.7367432721089973,
-            "start": 1589,
+            "text": "  intermediolateral)\no\nAscent or descent 1-2 layers via\n  Lissauer’s tract\n(\nhence also upper limbs, abdomen)\no\nDirect synapse with wide dynamic range 2°\n  afferents in deeper layers\no\nConvergence ont",
+            "score": 0.3311565037628375,
+            "start": 1566,
             "end": 2548
           }
         ]
@@ -278,19 +279,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.5021229511586448,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6731472684489259,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2008A14 Describe the pathways whereby\nmyocardial ischaemia may be experienced\nas pain in the throat or arm regions.\nList:\n·\nIntro:\nmyocardial ischaemia\n·\nReferred\npain\n·\nMyocardial\ngeneral visceral af",
-            "score": 0.5021229511586448,
+            "score": 0.6731472684489259,
             "start": 0,
-            "end": 1588
+            "end": 1565
           },
           {
-            "text": "Ascent or descent 1-2 layers via\n  Lissauer’s tract\n(\nhence also upper limbs, abdomen)\no\nDirect synapse with wide dynamic range 2°\n  afferents in deeper layers\no\nConvergence onto somatic nociceptive\n ",
-            "score": 0.2197887268753907,
-            "start": 1589,
+            "text": "  intermediolateral)\no\nAscent or descent 1-2 layers via\n  Lissauer’s tract\n(\nhence also upper limbs, abdomen)\no\nDirect synapse with wide dynamic range 2°\n  afferents in deeper layers\no\nConvergence ont",
+            "score": 0.5394540518775844,
+            "start": 1566,
             "end": 2548
           }
         ]
@@ -348,23 +349,59 @@
             "end": 2548
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.8341963544985169,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Ascent or descent 1-2 layers via\n  Lissauer’s tract\n(\nhence also upper limbs, abdomen)\no\nDirect synapse with wide dynamic range 2°\n  afferents in deeper layers\no\nConvergence onto somatic nociceptive\n ",
+            "score": 0.8341963544985169,
+            "start": 1589,
+            "end": 2548
+          },
+          {
+            "text": "2008A14 Describe the pathways whereby\nmyocardial ischaemia may be experienced\nas pain in the throat or arm regions.\nList:\n·\nIntro:\nmyocardial ischaemia\n·\nReferred\npain\n·\nMyocardial\ngeneral visceral af",
+            "score": 0.39620374321684443,
+            "start": 0,
+            "end": 1588
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.2728052893640291,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  intermediolateral)\no\nAscent or descent 1-2 layers via\n  Lissauer’s tract\n(\nhence also upper limbs, abdomen)\no\nDirect synapse with wide dynamic range 2°\n  afferents in deeper layers\no\nConvergence ont",
+            "score": 0.2728052893640291,
+            "start": 1566,
+            "end": 2548
+          },
+          {
+            "text": "2008A14 Describe the pathways whereby\nmyocardial ischaemia may be experienced\nas pain in the throat or arm regions.\nList:\n·\nIntro:\nmyocardial ischaemia\n·\nReferred\npain\n·\nMyocardial\ngeneral visceral af",
+            "score": 0.2022819500518595,
+            "start": 0,
+            "end": 1565
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7380317151954884,
+        "score": 0.7856278929474474,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2008A14 Describe the pathways whereby\nmyocardial ischaemia may be experienced\nas pain in the throat or arm regions.\nList:\n·\nIntro:\nmyocardial ischaemia\n·\nReferred\npain\n·\nMyocardial\ngeneral visceral af",
-            "score": 0.7380317151954884,
+            "score": 0.7856278929474474,
             "start": 0,
-            "end": 1588
+            "end": 1565
           },
           {
-            "text": "Ascent or descent 1-2 layers via\n  Lissauer’s tract\n(\nhence also upper limbs, abdomen)\no\nDirect synapse with wide dynamic range 2°\n  afferents in deeper layers\no\nConvergence onto somatic nociceptive\n ",
-            "score": 0.24759886867237513,
-            "start": 1589,
+            "text": "  intermediolateral)\no\nAscent or descent 1-2 layers via\n  Lissauer’s tract\n(\nhence also upper limbs, abdomen)\no\nDirect synapse with wide dynamic range 2°\n  afferents in deeper layers\no\nConvergence ont",
+            "score": 0.3282846746460227,
+            "start": 1566,
             "end": 2548
           }
         ]

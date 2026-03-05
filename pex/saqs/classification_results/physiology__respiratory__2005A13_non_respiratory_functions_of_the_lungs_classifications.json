@@ -14,7 +14,6 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
-      "drug_receptor_disposition",
       "equipment_and_physics",
       "organ_system_process"
     ],
@@ -174,20 +173,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7727372261985272,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5958474705644042,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
-            "score": 0.7727372261985272,
-            "start": 1496,
+            "text": "o\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabo",
+            "score": 0.5958474705644042,
+            "start": 1494,
             "end": 2235
           },
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.18071066347481568,
+            "score": 0.21055038795004374,
             "start": 0,
-            "end": 1495
+            "end": 1493
           }
         ]
       },
@@ -282,20 +281,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10551062286445975,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2680091172688212,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
-            "score": 0.10551062286445975,
-            "start": 1511,
+            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
+            "score": 0.2680091172688212,
+            "start": 1496,
             "end": 2235
           },
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.10450903806925663,
+            "score": 0.12068239347016409,
             "start": 0,
-            "end": 1510
+            "end": 1495
           }
         ]
       },
@@ -352,24 +351,60 @@
             "end": 1495
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.27632062191629214,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.36514733483208417,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
-            "score": 0.27632062191629214,
+            "score": 0.36514733483208417,
             "start": 1511,
             "end": 2235
           },
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.2045179371314406,
+            "score": 0.14185652155095707,
             "start": 0,
             "end": 1510
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.44072741854194514,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.44072741854194514,
+            "start": 0,
+            "end": 1493
+          },
+          {
+            "text": "o\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabo",
+            "score": 0.41602492247514117,
+            "start": 1494,
+            "end": 2235
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.45493273641939463,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
+            "score": 0.45493273641939463,
+            "start": 1496,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.25642330901735677,
+            "start": 0,
+            "end": 1495
           }
         ]
       },

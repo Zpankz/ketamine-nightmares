@@ -10,7 +10,9 @@
       "score": 0.6106821711175093
     },
     "content_dimensions": [],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -163,19 +165,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.44867160610008094,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4763969046186327,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021A12 Define\nthe terms “tolerance” and “tachyphylaxis”.\nDiscuss the different mechanisms by which tolerance can develop, giving\nexamples where appropriate.\nList:\n·\nTachyphylaxis: definition, cause, ",
-            "score": 0.44867160610008094,
+            "score": 0.4763969046186327,
             "start": 0,
-            "end": 1631
+            "end": 1605
           },
           {
-            "text": "Neuroplasticity:\no\ne.g. cocaine effect on basal ganglia\no\n↓Euphoria\n·\nUpregulation of antagonistic mechanism\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.4171909723209001,
-            "start": 1632,
+            "text": "  conformational change\n·\nNeuroplasticity:\no\ne.g. cocaine effect on basal ganglia\no\n↓Euphoria\n·\nUpregulation of antagonistic mechanism\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.3354838427542889,
+            "start": 1606,
             "end": 1789
           }
         ]
@@ -271,20 +273,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.17248408020698391,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.47427831705052126,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "e.g. cocaine effect on basal ganglia\no\n↓Euphoria\n·\nUpregulation of antagonistic mechanism\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.17248408020698391,
-            "start": 1651,
-            "end": 1789
+            "text": "2021A12 Define\nthe terms “tolerance” and “tachyphylaxis”.\nDiscuss the different mechanisms by which tolerance can develop, giving\nexamples where appropriate.\nList:\n·\nTachyphylaxis: definition, cause, ",
+            "score": 0.47427831705052126,
+            "start": 0,
+            "end": 1605
           },
           {
-            "text": "2021A12 Define\nthe terms “tolerance” and “tachyphylaxis”.\nDiscuss the different mechanisms by which tolerance can develop, giving\nexamples where appropriate.\nList:\n·\nTachyphylaxis: definition, cause, ",
-            "score": 0.07743609402993808,
-            "start": 0,
-            "end": 1650
+            "text": "  conformational change\n·\nNeuroplasticity:\no\ne.g. cocaine effect on basal ganglia\no\n↓Euphoria\n·\nUpregulation of antagonistic mechanism\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.3867767369914061,
+            "start": 1606,
+            "end": 1789
           }
         ]
       },
@@ -341,24 +343,60 @@
             "end": 1631
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.34518208953308893,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2794151488994812,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "e.g. cocaine effect on basal ganglia\no\n↓Euphoria\n·\nUpregulation of antagonistic mechanism\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.34518208953308893,
+            "score": 0.2794151488994812,
             "start": 1651,
             "end": 1789
           },
           {
             "text": "2021A12 Define\nthe terms “tolerance” and “tachyphylaxis”.\nDiscuss the different mechanisms by which tolerance can develop, giving\nexamples where appropriate.\nList:\n·\nTachyphylaxis: definition, cause, ",
-            "score": 0.2534634949725546,
+            "score": 0.09015630224155849,
             "start": 0,
             "end": 1650
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.13244504050607428,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  conformational change\n·\nNeuroplasticity:\no\ne.g. cocaine effect on basal ganglia\no\n↓Euphoria\n·\nUpregulation of antagonistic mechanism\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.13244504050607428,
+            "start": 1606,
+            "end": 1789
+          },
+          {
+            "text": "2021A12 Define\nthe terms “tolerance” and “tachyphylaxis”.\nDiscuss the different mechanisms by which tolerance can develop, giving\nexamples where appropriate.\nList:\n·\nTachyphylaxis: definition, cause, ",
+            "score": 0.08969914404147739,
+            "start": 0,
+            "end": 1605
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.735882480127494,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2021A12 Define\nthe terms “tolerance” and “tachyphylaxis”.\nDiscuss the different mechanisms by which tolerance can develop, giving\nexamples where appropriate.\nList:\n·\nTachyphylaxis: definition, cause, ",
+            "score": 0.735882480127494,
+            "start": 0,
+            "end": 1605
+          },
+          {
+            "text": "  conformational change\n·\nNeuroplasticity:\no\ne.g. cocaine effect on basal ganglia\no\n↓Euphoria\n·\nUpregulation of antagonistic mechanism\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.37364865958760746,
+            "start": 1606,
+            "end": 1789
           }
         ]
       },

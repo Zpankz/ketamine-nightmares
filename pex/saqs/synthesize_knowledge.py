@@ -25,6 +25,7 @@ Run AFTER all 5 pipeline steps and classify.py with BFO ontology.
 
 import json
 import math
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -677,8 +678,6 @@ def compute_difficulty_and_yield(layers):
         )
 
         # --- Exam yield ---
-        # Extract year from filename
-        import re
         year_match = re.search(r"(\d{4})[AB]", path)
         exam_year = int(year_match.group(1)) if year_match else 2000
         recency_score = min((exam_year - 1998) / 25, 1)  # 0–1, higher = more recent

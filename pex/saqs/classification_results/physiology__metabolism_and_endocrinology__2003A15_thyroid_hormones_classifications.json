@@ -14,12 +14,14 @@
     },
     "content_dimensions": [
       "autonomic_disposition",
+      "clinical_measurement_process",
       "neuromuscular_process",
       "organ_system_process",
-      "drug_receptor_disposition",
-      "equipment_and_physics"
+      "equipment_and_physics",
+      "drug_receptor_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -174,20 +176,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7482196179441566,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6769526811360784,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "vasodilatation -> ↑venous return\no\n↑Catecholamines\no\nPermissive effect on\ncatecholamines\no\n↑Number of myocardial\nβ\n1\nadrenoceptors\nRespiratory\n·\n↑RR and TV\no\n↑Metabolic rate ->\n↑VCO\n2\n(Krebs cycle)\nCN",
-            "score": 0.7482196179441566,
-            "start": 1288,
-            "end": 1760
+            "text": "2003A15 Describe the\nphysiological actions of thyroid hormones.\nList:\n·\nIntro\n·\nMetabolic effects\n·\nOrgan system effects\nIntro:\nStructure\n·\nPolypeptide\n·\nContains iodine\nSynthesis\n·\nIn follicular cell",
+            "score": 0.6769526811360784,
+            "start": 0,
+            "end": 1259
           },
           {
-            "text": "2003A15 Describe the\nphysiological actions of thyroid hormones.\nList:\n·\nIntro\n·\nMetabolic effects\n·\nOrgan system effects\nIntro:\nStructure\n·\nPolypeptide\n·\nContains iodine\nSynthesis\n·\nIn follicular cell",
-            "score": 0.6555491127317523,
-            "start": 0,
-            "end": 1287
+            "text": "Metabolic autoregulation ->\nvasodilatation -> ↑venous return\no\n↑Catecholamines\no\nPermissive effect on\ncatecholamines\no\n↑Number of myocardial\nβ\n1\nadrenoceptors\nRespiratory\n·\n↑RR and TV\no\n↑Metabolic rat",
+            "score": 0.5403943314318509,
+            "start": 1260,
+            "end": 1760
           }
         ]
       },
@@ -282,20 +284,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11112162501075684,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.4978107073244742,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Catecholamines\no\nPermissive effect on\ncatecholamines\no\n↑Number of myocardial\nβ\n1\nadrenoceptors\nRespiratory\n·\n↑RR and TV\no\n↑Metabolic rate ->\n↑VCO\n2\n(Krebs cycle)\nCNS\n·\nIn utero:\no\nNecessary for norma",
-            "score": 0.11112162501075684,
-            "start": 1323,
+            "text": "vasodilatation -> ↑venous return\no\n↑Catecholamines\no\nPermissive effect on\ncatecholamines\no\n↑Number of myocardial\nβ\n1\nadrenoceptors\nRespiratory\n·\n↑RR and TV\no\n↑Metabolic rate ->\n↑VCO\n2\n(Krebs cycle)\nCN",
+            "score": 0.4978107073244742,
+            "start": 1288,
             "end": 1760
           },
           {
             "text": "2003A15 Describe the\nphysiological actions of thyroid hormones.\nList:\n·\nIntro\n·\nMetabolic effects\n·\nOrgan system effects\nIntro:\nStructure\n·\nPolypeptide\n·\nContains iodine\nSynthesis\n·\nIn follicular cell",
-            "score": 0.08698437799387108,
+            "score": 0.10651790355261252,
             "start": 0,
-            "end": 1322
+            "end": 1287
           }
         ]
       },
@@ -352,23 +354,59 @@
             "end": 1287
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.2513605397792321,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↑Catecholamines\no\nPermissive effect on\ncatecholamines\no\n↑Number of myocardial\nβ\n1\nadrenoceptors\nRespiratory\n·\n↑RR and TV\no\n↑Metabolic rate ->\n↑VCO\n2\n(Krebs cycle)\nCNS\n·\nIn utero:\no\nNecessary for norma",
+            "score": 0.2513605397792321,
+            "start": 1323,
+            "end": 1760
+          },
+          {
+            "text": "2003A15 Describe the\nphysiological actions of thyroid hormones.\nList:\n·\nIntro\n·\nMetabolic effects\n·\nOrgan system effects\nIntro:\nStructure\n·\nPolypeptide\n·\nContains iodine\nSynthesis\n·\nIn follicular cell",
+            "score": 0.17383924611324467,
+            "start": 0,
+            "end": 1322
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8213675000686458,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Metabolic autoregulation ->\nvasodilatation -> ↑venous return\no\n↑Catecholamines\no\nPermissive effect on\ncatecholamines\no\n↑Number of myocardial\nβ\n1\nadrenoceptors\nRespiratory\n·\n↑RR and TV\no\n↑Metabolic rat",
+            "score": 0.8213675000686458,
+            "start": 1260,
+            "end": 1760
+          },
+          {
+            "text": "2003A15 Describe the\nphysiological actions of thyroid hormones.\nList:\n·\nIntro\n·\nMetabolic effects\n·\nOrgan system effects\nIntro:\nStructure\n·\nPolypeptide\n·\nContains iodine\nSynthesis\n·\nIn follicular cell",
+            "score": 0.10500911959371668,
+            "start": 0,
+            "end": 1259
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.2488493710543425,
+        "score": 0.8192893365251843,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2003A15 Describe the\nphysiological actions of thyroid hormones.\nList:\n·\nIntro\n·\nMetabolic effects\n·\nOrgan system effects\nIntro:\nStructure\n·\nPolypeptide\n·\nContains iodine\nSynthesis\n·\nIn follicular cell",
-            "score": 0.2488493710543425,
+            "score": 0.8192893365251843,
             "start": 0,
-            "end": 1322
+            "end": 1287
           },
           {
-            "text": "↑Catecholamines\no\nPermissive effect on\ncatecholamines\no\n↑Number of myocardial\nβ\n1\nadrenoceptors\nRespiratory\n·\n↑RR and TV\no\n↑Metabolic rate ->\n↑VCO\n2\n(Krebs cycle)\nCNS\n·\nIn utero:\no\nNecessary for norma",
-            "score": 0.2397582368620805,
-            "start": 1323,
+            "text": "vasodilatation -> ↑venous return\no\n↑Catecholamines\no\nPermissive effect on\ncatecholamines\no\n↑Number of myocardial\nβ\n1\nadrenoceptors\nRespiratory\n·\n↑RR and TV\no\n↑Metabolic rate ->\n↑VCO\n2\n(Krebs cycle)\nCN",
+            "score": 0.6693228655984156,
+            "start": 1288,
             "end": 1760
           }
         ]

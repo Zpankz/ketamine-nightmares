@@ -15,14 +15,18 @@
     },
     "content_dimensions": [
       "neuromuscular_process",
+      "clinical_measurement_process",
       "equipment_and_physics",
+      "anatomy_structure",
       "organ_system_process",
+      "nociception_process",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
       "homeostatic_regulation",
       "dose_response_relationship",
-      "structure_function_link"
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -224,26 +228,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.599699174491176,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.47907926460426387,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Neck strictures (↑venous pressure)\n�\n↓Volume\no\n↓Temp\no\n↓PaCO\n2\no\n↓↓mAP?*\no\nReverse Trendelenburg\n(*The relationship between mAP and CBV is not clear to me)\nTrendelenburg:\nExample\n�\nGynae laparoscopy\n�",
-            "score": 0.599699174491176,
-            "start": 1419,
+            "text": "o\nNeck strictures (↑venous pressure)\n�\n↓Volume\no\n↓Temp\no\n↓PaCO\n2\no\n↓↓mAP?*\no\nReverse Trendelenburg\n(*The relationship between mAP and CBV is not clear to me)\nTrendelenburg:\nExample\n�\nGynae laparoscopy",
+            "score": 0.47907926460426387,
+            "start": 1417,
             "end": 2615
           },
           {
             "text": "Loosen any neck strictures (↓CVP)\nPhysiological\n�\n↑\npO\n2\n(normalise CBF)\n�\n↓pCO\n2\n(↓CBF\n�\n↓Temp (↓CMRO\n2\n->\n  ↓CBF) (note doesn�t improve outcomes after TBI)\nPharmacological\n�\nHypnotics: propofol, thi",
-            "score": 0.3754072391217847,
+            "score": 0.38449416694850636,
             "start": 2616,
             "end": 3206
           },
           {
             "text": "2009A09 Discuss\nthe physiological factors that determine intracranial pressure (ICP).\nDescribe how changes in posture affect ICP.\nList:\n�\nIntro\n�\nMonroe-Kellie doctrine\n�\nFactors affecting each compon",
-            "score": 0.1010480871715535,
+            "score": 0.13946678392103212,
             "start": 0,
-            "end": 1418
+            "end": 1416
           }
         ]
       },
@@ -368,26 +372,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.19420584422163265,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7371731194748972,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓Volume\no\n↓Temp\no\n↓PaCO\n2\no\n↓↓mAP?*\no\nReverse Trendelenburg\n(*The relationship between mAP and CBV is not clear to me)\nTrendelenburg:\nExample\n�\nGynae laparoscopy\n�\nSay -10mmHg = -13.5cm\nDirect effect\n",
-            "score": 0.19420584422163265,
-            "start": 1456,
-            "end": 2672
-          },
-          {
-            "text": "(normalise CBF)\n�\n↓pCO\n2\n(↓CBF\n�\n↓Temp (↓CMRO\n2\n->\n  ↓CBF) (note doesn�t improve outcomes after TBI)\nPharmacological\n�\nHypnotics: propofol, thiopentone (↓CMRO\n2\n)\n�\nAnti-epileptics: e.g. levetiracetam",
-            "score": 0.1612217162063077,
-            "start": 2673,
+            "text": "Loosen any neck strictures (↓CVP)\nPhysiological\n�\n↑\npO\n2\n(normalise CBF)\n�\n↓pCO\n2\n(↓CBF\n�\n↓Temp (↓CMRO\n2\n->\n  ↓CBF) (note doesn�t improve outcomes after TBI)\nPharmacological\n�\nHypnotics: propofol, thi",
+            "score": 0.7371731194748972,
+            "start": 2616,
             "end": 3206
           },
           {
+            "text": "Neck strictures (↑venous pressure)\n�\n↓Volume\no\n↓Temp\no\n↓PaCO\n2\no\n↓↓mAP?*\no\nReverse Trendelenburg\n(*The relationship between mAP and CBV is not clear to me)\nTrendelenburg:\nExample\n�\nGynae laparoscopy\n�",
+            "score": 0.4978107073244742,
+            "start": 1419,
+            "end": 2615
+          },
+          {
             "text": "2009A09 Discuss\nthe physiological factors that determine intracranial pressure (ICP).\nDescribe how changes in posture affect ICP.\nList:\n�\nIntro\n�\nMonroe-Kellie doctrine\n�\nFactors affecting each compon",
-            "score": 0.08788394835920724,
+            "score": 0.11905584709916793,
             "start": 0,
-            "end": 1455
+            "end": 1418
           }
         ]
       },
@@ -462,30 +466,78 @@
             "end": 1418
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.43339681883085873,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.7962289807006788,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↓Volume\no\n↓Temp\no\n↓PaCO\n2\no\n↓↓mAP?*\no\nReverse Trendelenburg\n(*The relationship between mAP and CBV is not clear to me)\nTrendelenburg:\nExample\n�\nGynae laparoscopy\n�\nSay -10mmHg = -13.5cm\nDirect effect\n",
-            "score": 0.43339681883085873,
+            "score": 0.7962289807006788,
             "start": 1456,
             "end": 2672
           },
           {
             "text": "2009A09 Discuss\nthe physiological factors that determine intracranial pressure (ICP).\nDescribe how changes in posture affect ICP.\nList:\n�\nIntro\n�\nMonroe-Kellie doctrine\n�\nFactors affecting each compon",
-            "score": 0.3362073236198268,
+            "score": 0.20827633226924755,
             "start": 0,
             "end": 1455
           },
           {
             "text": "(normalise CBF)\n�\n↓pCO\n2\n(↓CBF\n�\n↓Temp (↓CMRO\n2\n->\n  ↓CBF) (note doesn�t improve outcomes after TBI)\nPharmacological\n�\nHypnotics: propofol, thiopentone (↓CMRO\n2\n)\n�\nAnti-epileptics: e.g. levetiracetam",
-            "score": 0.2585486061251438,
+            "score": 0.1835038816726888,
             "start": 2673,
             "end": 3206
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8400731715625799,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Trendelenburg (↑venous pressure)\no\nNeck strictures (↑venous pressure)\n�\n↓Volume\no\n↓Temp\no\n↓PaCO\n2\no\n↓↓mAP?*\no\nReverse Trendelenburg\n(*The relationship between mAP and CBV is not clear to me)\nTrendelen",
+            "score": 0.8400731715625799,
+            "start": 1384,
+            "end": 2602
+          },
+          {
+            "text": "�\n  (↓CVP)\n�\nLoosen any neck strictures (↓CVP)\nPhysiological\n�\n↑\npO\n2\n(normalise CBF)\n�\n↓pCO\n2\n(↓CBF\n�\n↓Temp (↓CMRO\n2\n->\n  ↓CBF) (note doesn�t improve outcomes after TBI)\nPharmacological\n�\nHypnotics: ",
+            "score": 0.6288587440537546,
+            "start": 2603,
+            "end": 3206
+          },
+          {
+            "text": "2009A09 Discuss\nthe physiological factors that determine intracranial pressure (ICP).\nDescribe how changes in posture affect ICP.\nList:\n�\nIntro\n�\nMonroe-Kellie doctrine\n�\nFactors affecting each compon",
+            "score": 0.42674200508286775,
+            "start": 0,
+            "end": 1383
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6378366759262412,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Neck strictures (↑venous pressure)\n�\n↓Volume\no\n↓Temp\no\n↓PaCO\n2\no\n↓↓mAP?*\no\nReverse Trendelenburg\n(*The relationship between mAP and CBV is not clear to me)\nTrendelenburg:\nExample\n�\nGynae laparoscopy\n�",
+            "score": 0.6378366759262412,
+            "start": 1419,
+            "end": 2615
+          },
+          {
+            "text": "Loosen any neck strictures (↓CVP)\nPhysiological\n�\n↑\npO\n2\n(normalise CBF)\n�\n↓pCO\n2\n(↓CBF\n�\n↓Temp (↓CMRO\n2\n->\n  ↓CBF) (note doesn�t improve outcomes after TBI)\nPharmacological\n�\nHypnotics: propofol, thi",
+            "score": 0.536499726104826,
+            "start": 2616,
+            "end": 3206
+          },
+          {
+            "text": "2009A09 Discuss\nthe physiological factors that determine intracranial pressure (ICP).\nDescribe how changes in posture affect ICP.\nList:\n�\nIntro\n�\nMonroe-Kellie doctrine\n�\nFactors affecting each compon",
+            "score": 0.1485560880659056,
+            "start": 0,
+            "end": 1418
           }
         ]
       },

@@ -16,10 +16,11 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
+      "clinical_measurement_process",
       "equipment_and_physics"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -174,20 +175,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7766885250141251,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5246293799871284,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2001A07 Describe how the body detects and responds to water deficit.\nList:\n·\nIntroduction\n·\nDetection: receptors\n·\nResponses: ADH and thirst\nIntroduction:\nWater distribution\n·\nTotal\n  body water 60% o",
-            "score": 0.7766885250141251,
-            "start": 0,
-            "end": 1440
+            "text": "∆\n2%\n·\n↓blood volume: sensitive ↓10% = ↓500mL = ↓TBW 4L; overrides\n  osmolality\n·\n↓mAP\n·\nAngiotensin 2\n·\nStress: e.g. surgery\n·\nDrugs: e.g. SSRI\nEffects:\n·\nInsertion of aquaporin 2 into apical membran",
+            "score": 0.5246293799871284,
+            "start": 1434,
+            "end": 1947
           },
           {
-            "text": "↓blood volume: sensitive ↓10% = ↓500mL = ↓TBW 4L; overrides\n  osmolality\n·\n↓mAP\n·\nAngiotensin 2\n·\nStress: e.g. surgery\n·\nDrugs: e.g. SSRI\nEffects:\n·\nInsertion of aquaporin 2 into apical membrane of co",
-            "score": 0.5559927662101312,
-            "start": 1441,
-            "end": 1947
+            "text": "2001A07 Describe how the body detects and responds to water deficit.\nList:\n·\nIntroduction\n·\nDetection: receptors\n·\nResponses: ADH and thirst\nIntroduction:\nWater distribution\n·\nTotal\n  body water 60% o",
+            "score": 0.28745121192986234,
+            "start": 0,
+            "end": 1433
           }
         ]
       },
@@ -282,20 +283,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12397561162117983,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.3549888438284347,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓blood volume: sensitive ↓10% = ↓500mL = ↓TBW 4L; overrides\n  osmolality\n·\n↓mAP\n·\nAngiotensin 2\n·\nStress: e.g. surgery\n·\nDrugs: e.g. SSRI\nEffects:\n·\nInsertion of aquaporin 2 into apical membrane of co",
-            "score": 0.12397561162117983,
-            "start": 1441,
+            "text": "∆\n2%\n·\n↓blood volume: sensitive ↓10% = ↓500mL = ↓TBW 4L; overrides\n  osmolality\n·\n↓mAP\n·\nAngiotensin 2\n·\nStress: e.g. surgery\n·\nDrugs: e.g. SSRI\nEffects:\n·\nInsertion of aquaporin 2 into apical membran",
+            "score": 0.3549888438284347,
+            "start": 1434,
             "end": 1947
           },
           {
             "text": "2001A07 Describe how the body detects and responds to water deficit.\nList:\n·\nIntroduction\n·\nDetection: receptors\n·\nResponses: ADH and thirst\nIntroduction:\nWater distribution\n·\nTotal\n  body water 60% o",
-            "score": 0.12122754149981366,
+            "score": 0.19420584422163265,
             "start": 0,
-            "end": 1440
+            "end": 1433
           }
         ]
       },
@@ -352,24 +353,60 @@
             "end": 1947
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.4248539367855912,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2728052893640291,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2001A07 Describe how the body detects and responds to water deficit.\nList:\n·\nIntroduction\n·\nDetection: receptors\n·\nResponses: ADH and thirst\nIntroduction:\nWater distribution\n·\nTotal\n  body water 60% o",
-            "score": 0.4248539367855912,
+            "score": 0.2728052893640291,
             "start": 0,
             "end": 1440
           },
           {
             "text": "↓blood volume: sensitive ↓10% = ↓500mL = ↓TBW 4L; overrides\n  osmolality\n·\n↓mAP\n·\nAngiotensin 2\n·\nStress: e.g. surgery\n·\nDrugs: e.g. SSRI\nEffects:\n·\nInsertion of aquaporin 2 into apical membrane of co",
-            "score": 0.3029316888292404,
+            "score": 0.2409870944785764,
             "start": 1441,
             "end": 1947
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7302518595070161,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2001A07 Describe how the body detects and responds to water deficit.\nList:\n·\nIntroduction\n·\nDetection: receptors\n·\nResponses: ADH and thirst\nIntroduction:\nWater distribution\n·\nTotal\n  body water 60% o",
+            "score": 0.7302518595070161,
+            "start": 0,
+            "end": 1433
+          },
+          {
+            "text": "∆\n2%\n·\n↓blood volume: sensitive ↓10% = ↓500mL = ↓TBW 4L; overrides\n  osmolality\n·\n↓mAP\n·\nAngiotensin 2\n·\nStress: e.g. surgery\n·\nDrugs: e.g. SSRI\nEffects:\n·\nInsertion of aquaporin 2 into apical membran",
+            "score": 0.4901823690698416,
+            "start": 1434,
+            "end": 1947
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.698909522648282,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "∆\n2%\n·\n↓blood volume: sensitive ↓10% = ↓500mL = ↓TBW 4L; overrides\n  osmolality\n·\n↓mAP\n·\nAngiotensin 2\n·\nStress: e.g. surgery\n·\nDrugs: e.g. SSRI\nEffects:\n·\nInsertion of aquaporin 2 into apical membran",
+            "score": 0.698909522648282,
+            "start": 1434,
+            "end": 1947
+          },
+          {
+            "text": "2001A07 Describe how the body detects and responds to water deficit.\nList:\n·\nIntroduction\n·\nDetection: receptors\n·\nResponses: ADH and thirst\nIntroduction:\nWater distribution\n·\nTotal\n  body water 60% o",
+            "score": 0.6370914969872863,
+            "start": 0,
+            "end": 1433
           }
         ]
       },

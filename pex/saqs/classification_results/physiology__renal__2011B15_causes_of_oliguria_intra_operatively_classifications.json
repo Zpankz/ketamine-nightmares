@@ -20,13 +20,16 @@
     },
     "content_dimensions": [
       "equipment_and_physics",
-      "drug_receptor_disposition",
+      "clinical_measurement_process",
       "organ_system_process",
+      "nociception_process",
       "neuromuscular_process",
       "autonomic_disposition",
+      "drug_receptor_disposition",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -181,18 +184,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8072418249488453,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7147923014370632,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
-            "score": 0.8072418249488453,
+            "score": 0.7147923014370632,
             "start": 1468,
             "end": 2745
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.13946678392103212,
+            "score": 0.21055038795004374,
             "start": 0,
             "end": 1467
           }
@@ -301,20 +304,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.27193002429858243,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.748639460220768,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInserti",
-            "score": 0.27193002429858243,
-            "start": 1508,
+            "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
+            "score": 0.748639460220768,
+            "start": 1468,
             "end": 2745
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.10153827963475912,
+            "score": 0.15228985226789557,
             "start": 0,
-            "end": 1507
+            "end": 1467
           }
         ]
       },
@@ -377,24 +380,60 @@
             "end": 2745
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.4443682697333246,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.29742385893649737,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInserti",
-            "score": 0.4443682697333246,
+            "score": 0.29742385893649737,
             "start": 1508,
             "end": 2745
           },
           {
             "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
-            "score": 0.307093459852579,
+            "score": 0.12232229789744709,
             "start": 0,
             "end": 1507
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8108330834530486,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
+            "score": 0.8108330834530486,
+            "start": 1468,
+            "end": 2745
+          },
+          {
+            "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
+            "score": 0.2022819500518595,
+            "start": 0,
+            "end": 1467
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8355133944044236,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2%) – dehydration from pre-op fasting\n·\n↓blood volume (sensitive to\n∆10\n% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nRenal effects:\n·\nInsertion of aquaporin 2 into apical membrane of collecting ",
+            "score": 0.8355133944044236,
+            "start": 1468,
+            "end": 2745
+          },
+          {
+            "text": "2011B15 Outline the physiological changes that might explain why an\notherwise well patient\nmay have a reduced urine output intra-operatively.\nList:\n·\nIntro\n·\nGlomerular filtration physiology\n·\nFactors",
+            "score": 0.30063099459107706,
+            "start": 0,
+            "end": 1467
           }
         ]
       },

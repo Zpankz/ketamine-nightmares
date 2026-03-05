@@ -45,9 +45,9 @@
   },
   "content_dimensions": {
     "drug_receptor_disposition": {
-      "query": "{This discusses how a specific drug or drug class interacts with receptors, ion channels, or enzymes to produce its pharmacological effect} AND {This names a specific receptor type or molecular target}",
+      "query": "{The main purpose of this text is to explain how a specific named drug interacts with a specific named receptor, ion channel, or enzyme at the molecular level} AND {This describes binding affinity, agonism, antagonism, or allosteric modulation at a named molecular target}",
       "is_iql": true,
-      "description": "Drug-receptor/target interactions (BFO: disposition)"
+      "description": "Drug-receptor/target interactions as central topic (BFO: disposition)"
     },
     "autonomic_disposition": {
       "query": "{This is primarily about autonomic nervous system pharmacology or physiology} AND {This discusses adrenoceptors, cholinergic receptors, sympathomimetics, parasympatholytics, or autonomic ganglionic transmission}",
@@ -75,9 +75,9 @@
       "description": "NMJ transmission and CNS processes (BFO: process)"
     },
     "nociception_process": {
-      "query": "{This discusses pain pathways, nociception, analgesic mechanisms, or regional anaesthesia} AND {This is primarily about pain management or pain physiology rather than mentioning pain as a side effect}",
+      "query": "{This discusses pain pathways, nociception, analgesic mechanisms, local anaesthetic nerve blockade, opioid analgesia, or regional anaesthesia techniques} AND {Pain management, analgesia, or nerve blockade is a major topic of this text, not just briefly mentioned}",
       "is_iql": true,
-      "description": "Pain pathways and analgesia (BFO: process)"
+      "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)"
     },
     "acid_base_quality": {
       "query": "{This discusses the Henderson-Hasselbalch equation, Stewart approach, base excess, anion gap, or buffer systems} OR {This discusses clinical disorders of sodium, potassium, calcium, magnesium, or phosphate homeostasis}",
@@ -89,6 +89,16 @@
       "is_iql": true,
       "description": "Named equipment and physical principles (BFO: material entity)"
     },
+    "anatomy_structure": {
+      "query": "{This describes the anatomy of a specific body region, nerve, vessel, or organ} AND {This includes named anatomical landmarks, surface anatomy, or spatial relationships between structures}",
+      "is_iql": true,
+      "description": "Named anatomical structures and regions (BFO: material entity)"
+    },
+    "clinical_measurement_process": {
+      "query": "{This describes how a clinical measurement or monitoring device works, including the physical principles behind measuring blood pressure, oxygen saturation, cardiac output, temperature, or electrical brain activity} OR {This discusses calibration, sources of error, or accuracy limitations of a clinical monitor}",
+      "is_iql": true,
+      "description": "Clinical monitoring and measurement principles (BFO: process)"
+    },
     "special_population_role": {
       "query": "{This is specifically about how pregnancy, neonatal age, advanced age, or morbid obesity alters drug handling or physiological responses} AND NOT {This merely mentions the liver or kidneys as organs}",
       "is_iql": true,
@@ -97,7 +107,7 @@
   },
   "explanatory_schema": {
     "mechanism_effect_relevance": {
-      "query": "{This explains a mechanism of action and then describes the resulting physiological or clinical effect} AND {This contains a causal explanation, not just a list of facts or properties}",
+      "query": "{This text traces how a drug mechanism of action at the receptor or molecular level leads to the observed clinical effects, side effects, or toxicity in patients}",
       "is_iql": true,
       "description": "Mechanism → effect → clinical relevance chain"
     },

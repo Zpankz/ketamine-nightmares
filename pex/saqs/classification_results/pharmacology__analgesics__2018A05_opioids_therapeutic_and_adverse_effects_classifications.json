@@ -13,14 +13,17 @@
       "score": 0.631610186449518
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "equipment_and_physics",
+      "drug_receptor_disposition",
       "autonomic_disposition",
       "organ_system_process",
+      "nociception_process",
       "neuromuscular_process",
+      "anatomy_structure",
       "acid_base_quality"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -223,25 +226,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8704158607108111,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7947335570650536,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Descending\n  modulation of dorsal horn\n·\nEspecially\n  layers 2, pre-synaptic inhibition\n·\n(Tramadol,\n  tapentadol, methadone)\nLocal anaesthetic\nVdNaC\n·\nSensory\n  neurons\n·\n(Pethidine)\nSedation\nM, K\n·",
-            "score": 0.8704158607108111,
-            "start": 1406,
-            "end": 2656
+            "text": "  and NAd reuptake inhibition\n·\n↑Descending\n  modulation of dorsal horn\n·\nEspecially\n  layers 2, pre-synaptic inhibition\n·\n(Tramadol,\n  tapentadol, methadone)\nLocal anaesthetic\nVdNaC\n·\nSensory\n  neuro",
+            "score": 0.7947335570650536,
+            "start": 1374,
+            "end": 2593
           },
           {
             "text": "2018A05 List the\ndesired and adverse effects of opioids and the corresponding\nanatomical location of the receptors being acted upon.\nList:\n·\nIntro: opioids and receptors\n·\nCNS effects\n·\nCVS effects\n·\n",
-            "score": 0.8698467137441421,
+            "score": 0.7536482354762474,
             "start": 0,
-            "end": 1405
+            "end": 1373
           },
           {
-            "text": "↓RR > ↓V\nT\n↓MV response to ↑PaCO\n2\n(R shift, ↓slope)\n↓MV response to ↓PaO\n2\n(less affected)\nM, D\nM\n·\nMedulla\n  respiratory centre\n·\nPeripheral\n  and central chemoreceptors\n↓Airway reflexes, anti-tussi",
-            "score": 0.7856278929474474,
-            "start": 2657,
+            "text": "  – antagonist)\nRespiratory:\nEffect\nReceptor\nLocation / (drug)\n↓RR > ↓V\nT\n↓MV response to ↑PaCO\n2\n(R shift, ↓slope)\n↓MV response to ↓PaO\n2\n(less affected)\nM, D\nM\n·\nMedulla\n  respiratory centre\n·\nPerip",
+            "score": 0.6835655004032701,
+            "start": 2594,
             "end": 3288
           }
         ]
@@ -367,26 +370,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11060433745697731,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7311220933301964,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓MV response to ↑PaCO\n2\n(R shift, ↓slope)\n↓MV response to ↓PaO\n2\n(less affected)\nM, D\nM\n·\nMedulla\n  respiratory centre\n·\nPeripheral\n  and central chemoreceptors\n↓Airway reflexes, anti-tussive, ETT tol",
-            "score": 0.11060433745697731,
-            "start": 2668,
-            "end": 3288
+            "text": "·\n↑Descending\n  modulation of dorsal horn\n·\nEspecially\n  layers 2, pre-synaptic inhibition\n·\n(Tramadol,\n  tapentadol, methadone)\nLocal anaesthetic\nVdNaC\n·\nSensory\n  neurons\n·\n(Pethidine)\nSedation\nM, K",
+            "score": 0.7311220933301964,
+            "start": 1404,
+            "end": 2638
           },
           {
             "text": "2018A05 List the\ndesired and adverse effects of opioids and the corresponding\nanatomical location of the receptors being acted upon.\nList:\n·\nIntro: opioids and receptors\n·\nCNS effects\n·\nCVS effects\n·\n",
-            "score": 0.10854962335430002,
+            "score": 0.725000296793374,
             "start": 0,
-            "end": 1417
+            "end": 1403
           },
           {
-            "text": "  modulation of dorsal horn\n·\nEspecially\n  layers 2, pre-synaptic inhibition\n·\n(Tramadol,\n  tapentadol, methadone)\nLocal anaesthetic\nVdNaC\n·\nSensory\n  neurons\n·\n(Pethidine)\nSedation\nM, K\n·\nAscending\n ",
-            "score": 0.09433170997702066,
-            "start": 1418,
-            "end": 2667
+            "text": "Location / (drug)\n↓RR > ↓V\nT\n↓MV response to ↑PaCO\n2\n(R shift, ↓slope)\n↓MV response to ↓PaO\n2\n(less affected)\nM, D\nM\n·\nMedulla\n  respiratory centre\n·\nPeripheral\n  and central chemoreceptors\n↓Airway re",
+            "score": 0.6504179601889668,
+            "start": 2639,
+            "end": 3288
           }
         ]
       },
@@ -461,30 +464,78 @@
             "end": 1405
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.6616184083987072,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↓MV response to ↑PaCO\n2\n(R shift, ↓slope)\n↓MV response to ↓PaO\n2\n(less affected)\nM, D\nM\n·\nMedulla\n  respiratory centre\n·\nPeripheral\n  and central chemoreceptors\n↓Airway reflexes, anti-tussive, ETT tol",
+            "score": 0.6616184083987072,
+            "start": 2668,
+            "end": 3288
+          },
+          {
+            "text": "  modulation of dorsal horn\n·\nEspecially\n  layers 2, pre-synaptic inhibition\n·\n(Tramadol,\n  tapentadol, methadone)\nLocal anaesthetic\nVdNaC\n·\nSensory\n  neurons\n·\n(Pethidine)\nSedation\nM, K\n·\nAscending\n ",
+            "score": 0.5928877304918468,
+            "start": 1418,
+            "end": 2667
+          },
+          {
+            "text": "2018A05 List the\ndesired and adverse effects of opioids and the corresponding\nanatomical location of the receptors being acted upon.\nList:\n·\nIntro: opioids and receptors\n·\nCNS effects\n·\nCVS effects\n·\n",
+            "score": 0.5695417522982,
+            "start": 0,
+            "end": 1417
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.41330723557994303,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  – antagonist)\nRespiratory:\nEffect\nReceptor\nLocation / (drug)\n↓RR > ↓V\nT\n↓MV response to ↑PaCO\n2\n(R shift, ↓slope)\n↓MV response to ↓PaO\n2\n(less affected)\nM, D\nM\n·\nMedulla\n  respiratory centre\n·\nPerip",
+            "score": 0.41330723557994303,
+            "start": 2594,
+            "end": 3288
+          },
+          {
+            "text": "  and NAd reuptake inhibition\n·\n↑Descending\n  modulation of dorsal horn\n·\nEspecially\n  layers 2, pre-synaptic inhibition\n·\n(Tramadol,\n  tapentadol, methadone)\nLocal anaesthetic\nVdNaC\n·\nSensory\n  neuro",
+            "score": 0.165803645501483,
+            "start": 1374,
+            "end": 2593
+          },
+          {
+            "text": "2018A05 List the\ndesired and adverse effects of opioids and the corresponding\nanatomical location of the receptors being acted upon.\nList:\n·\nIntro: opioids and receptors\n·\nCNS effects\n·\nCVS effects\n·\n",
+            "score": 0.08833573667416476,
+            "start": 0,
+            "end": 1373
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.3183177445792676,
+        "score": 0.8483363526099783,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "(R shift, ↓slope)\n↓MV response to ↓PaO\n2\n(less affected)\nM, D\nM\n·\nMedulla\n  respiratory centre\n·\nPeripheral\n  and central chemoreceptors\n↓Airway reflexes, anti-tussive, ETT tolerance\n?\n·\nMedulla\nChest",
-            "score": 0.3183177445792676,
-            "start": 2692,
-            "end": 3288
-          },
-          {
-            "text": "·\nEspecially\n  layers 2, pre-synaptic inhibition\n·\n(Tramadol,\n  tapentadol, methadone)\nLocal anaesthetic\nVdNaC\n·\nSensory\n  neurons\n·\n(Pethidine)\nSedation\nM, K\n·\nAscending\n  reticular activating system",
-            "score": 0.30895152063147,
-            "start": 1446,
-            "end": 2691
+            "text": "·\n↑Descending\n  modulation of dorsal horn\n·\nEspecially\n  layers 2, pre-synaptic inhibition\n·\n(Tramadol,\n  tapentadol, methadone)\nLocal anaesthetic\nVdNaC\n·\nSensory\n  neurons\n·\n(Pethidine)\nSedation\nM, K",
+            "score": 0.8483363526099783,
+            "start": 1404,
+            "end": 2638
           },
           {
             "text": "2018A05 List the\ndesired and adverse effects of opioids and the corresponding\nanatomical location of the receptors being acted upon.\nList:\n·\nIntro: opioids and receptors\n·\nCNS effects\n·\nCVS effects\n·\n",
-            "score": 0.17588393723954218,
+            "score": 0.8028796869588828,
             "start": 0,
-            "end": 1445
+            "end": 1403
+          },
+          {
+            "text": "Location / (drug)\n↓RR > ↓V\nT\n↓MV response to ↑PaCO\n2\n(R shift, ↓slope)\n↓MV response to ↓PaO\n2\n(less affected)\nM, D\nM\n·\nMedulla\n  respiratory centre\n·\nPeripheral\n  and central chemoreceptors\n↓Airway re",
+            "score": 0.7939834639495083,
+            "start": 2639,
+            "end": 3288
           }
         ]
       },

@@ -13,10 +13,11 @@
       ]
     },
     "content_dimensions": [
-      "pharmacokinetic_process",
-      "drug_receptor_disposition"
+      "clinical_measurement_process",
+      "pharmacokinetic_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -171,19 +172,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6187953385807919,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.596875581262427,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2004A06 Outline the circulatory\neffects of glyceryl trinitrate.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nStructure\n·\nHydrocarbon backbone\nThree nitrate groups\nPresentation\n·\nFor IV injection: 50mg in 10mL\n",
-            "score": 0.6187953385807919,
+            "score": 0.596875581262427,
             "start": 0,
-            "end": 1272
+            "end": 1245
           },
           {
-            "text": "2\nsupply; but\nreflex ↑HR\n·\nEmergency ↓uterine tone at\nLUSCS\nSide effects\n·\nReflex ↑HR\n·\nFlushing, headache\nSpecial\n·\nTachyphylaxis – depletion of sulfhydryl\ngroups (fix: withhold 12 hours)\n·\nMethaemog",
-            "score": 0.18774158236383576,
-            "start": 1273,
+            "text": "↑coronary blood flow and O\n2\nsupply; but\nreflex ↑HR\n·\nEmergency ↓uterine tone at\nLUSCS\nSide effects\n·\nReflex ↑HR\n·\nFlushing, headache\nSpecial\n·\nTachyphylaxis – depletion of sulfhydryl\ngroups (fix: wit",
+            "score": 0.3437202978641945,
+            "start": 1246,
             "end": 1502
           }
         ]
@@ -279,19 +280,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10753089785761477,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.26153953714843536,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2004A06 Outline the circulatory\neffects of glyceryl trinitrate.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nStructure\n·\nHydrocarbon backbone\nThree nitrate groups\nPresentation\n·\nFor IV injection: 50mg in 10mL\n",
-            "score": 0.10753089785761477,
+            "score": 0.26153953714843536,
             "start": 0,
-            "end": 1286
+            "end": 1245
           },
           {
-            "text": "reflex ↑HR\n·\nEmergency ↓uterine tone at\nLUSCS\nSide effects\n·\nReflex ↑HR\n·\nFlushing, headache\nSpecial\n·\nTachyphylaxis – depletion of sulfhydryl\ngroups (fix: withhold 12 hours)\n·\nMethaemoglobinaemia wit",
-            "score": 0.09765591089184561,
-            "start": 1287,
+            "text": "↑coronary blood flow and O\n2\nsupply; but\nreflex ↑HR\n·\nEmergency ↓uterine tone at\nLUSCS\nSide effects\n·\nReflex ↑HR\n·\nFlushing, headache\nSpecial\n·\nTachyphylaxis – depletion of sulfhydryl\ngroups (fix: wit",
+            "score": 0.24221938844708332,
+            "start": 1246,
             "end": 1502
           }
         ]
@@ -349,24 +350,60 @@
             "end": 1272
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3282846746460227,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.16252292535834514,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "reflex ↑HR\n·\nEmergency ↓uterine tone at\nLUSCS\nSide effects\n·\nReflex ↑HR\n·\nFlushing, headache\nSpecial\n·\nTachyphylaxis – depletion of sulfhydryl\ngroups (fix: withhold 12 hours)\n·\nMethaemoglobinaemia wit",
-            "score": 0.3282846746460227,
+            "score": 0.16252292535834514,
             "start": 1287,
             "end": 1502
           },
           {
             "text": "2004A06 Outline the circulatory\neffects of glyceryl trinitrate.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nStructure\n·\nHydrocarbon backbone\nThree nitrate groups\nPresentation\n·\nFor IV injection: 50mg in 10mL\n",
-            "score": 0.21823325627215462,
+            "score": 0.13946678392103212,
             "start": 0,
             "end": 1286
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7241200392364413,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↑coronary blood flow and O\n2\nsupply; but\nreflex ↑HR\n·\nEmergency ↓uterine tone at\nLUSCS\nSide effects\n·\nReflex ↑HR\n·\nFlushing, headache\nSpecial\n·\nTachyphylaxis – depletion of sulfhydryl\ngroups (fix: wit",
+            "score": 0.7241200392364413,
+            "start": 1246,
+            "end": 1502
+          },
+          {
+            "text": "2004A06 Outline the circulatory\neffects of glyceryl trinitrate.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nStructure\n·\nHydrocarbon backbone\nThree nitrate groups\nPresentation\n·\nFor IV injection: 50mg in 10mL\n",
+            "score": 0.13129612675432087,
+            "start": 0,
+            "end": 1245
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7703477541815708,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2004A06 Outline the circulatory\neffects of glyceryl trinitrate.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nStructure\n·\nHydrocarbon backbone\nThree nitrate groups\nPresentation\n·\nFor IV injection: 50mg in 10mL\n",
+            "score": 0.7703477541815708,
+            "start": 0,
+            "end": 1245
+          },
+          {
+            "text": "↑coronary blood flow and O\n2\nsupply; but\nreflex ↑HR\n·\nEmergency ↓uterine tone at\nLUSCS\nSide effects\n·\nReflex ↑HR\n·\nFlushing, headache\nSpecial\n·\nTachyphylaxis – depletion of sulfhydryl\ngroups (fix: wit",
+            "score": 0.6807387837182455,
+            "start": 1246,
+            "end": 1502
           }
         ]
       },

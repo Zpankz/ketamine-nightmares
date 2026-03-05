@@ -17,6 +17,7 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
+      "clinical_measurement_process",
       "special_population_role",
       "equipment_and_physics"
     ],
@@ -224,25 +225,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.13244504050607428,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.2807466545501725,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Distortion of chest wall: e.g. pregnancy,\n  kyphoscoliosis -> ↓FRC\n�\nDiaphragm and intercostal tone: ↓FRC 15%\n  under GA (paralysed or not)\n�\nChest wall compression: e.g. ↓FRC\n  supine, pregnant, obes",
-            "score": 0.13244504050607428,
+            "score": 0.2807466545501725,
             "start": 1441,
-            "end": 2635
+            "end": 2633
           },
           {
             "text": "2015A09 What are\nthe physiological consequences of decreasing\nfunctional residual capacity by one litre in an adult?\nList:\n�\nIntro: definition and significance\n�\nDeterminants of FRC\n�\nEffects of 1L re",
-            "score": 0.11425582926127191,
+            "score": 0.18491006489830478,
             "start": 0,
             "end": 1440
           },
           {
-            "text": "Low volume: compress extra-alveolar vessel\n�\nHigh volume: compress alveolar vessels\nWith 1L reduction in FRC:\n�\nNew equilibrium at reduced FRC\n�\nBut ↓FRC -> ↓all vessel radii\n  -> ↑resistance\nFeedback",
-            "score": 0.10007191072786864,
-            "start": 2636,
+            "text": "�\nLow volume: compress extra-alveolar vessel\n�\nHigh volume: compress alveolar vessels\nWith 1L reduction in FRC:\n�\nNew equilibrium at reduced FRC\n�\nBut ↓FRC -> ↓all vessel radii\n  -> ↑resistance\nFeedba",
+            "score": 0.16448660559557637,
+            "start": 2634,
             "end": 2876
           }
         ]
@@ -368,25 +369,25 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09061480910082127,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.20377101929932123,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
+            "text": "Distortion of chest wall: e.g. pregnancy,\n  kyphoscoliosis -> ↓FRC\n�\nDiaphragm and intercostal tone: ↓FRC 15%\n  under GA (paralysed or not)\n�\nChest wall compression: e.g. ↓FRC\n  supine, pregnant, obes",
+            "score": 0.20377101929932123,
+            "start": 1441,
+            "end": 2635
+          },
+          {
             "text": "2015A09 What are\nthe physiological consequences of decreasing\nfunctional residual capacity by one litre in an adult?\nList:\n�\nIntro: definition and significance\n�\nDeterminants of FRC\n�\nEffects of 1L re",
-            "score": 0.09061480910082127,
+            "score": 0.11905584709916793,
             "start": 0,
-            "end": 1482
+            "end": 1440
           },
           {
-            "text": "  kyphoscoliosis -> ↓FRC\n�\nDiaphragm and intercostal tone: ↓FRC 15%\n  under GA (paralysed or not)\n�\nChest wall compression: e.g. ↓FRC\n  supine, pregnant, obese\nEffects of 1L\nreduction in FRC:\n(1)↓O\n2\n",
-            "score": 0.07494026869750434,
-            "start": 1483,
-            "end": 2719
-          },
-          {
-            "text": "With 1L reduction in FRC:\n�\nNew equilibrium at reduced FRC\n�\nBut ↓FRC -> ↓all vessel radii\n  -> ↑resistance\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.07008404688069232,
-            "start": 2720,
+            "text": "Low volume: compress extra-alveolar vessel\n�\nHigh volume: compress alveolar vessels\nWith 1L reduction in FRC:\n�\nNew equilibrium at reduced FRC\n�\nBut ↓FRC -> ↓all vessel radii\n  -> ↑resistance\nFeedback",
+            "score": 0.09015630224155849,
+            "start": 2636,
             "end": 2876
           }
         ]
@@ -462,29 +463,77 @@
             "end": 2876
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.43104563707926397,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.27456010762145544,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  kyphoscoliosis -> ↓FRC\n�\nDiaphragm and intercostal tone: ↓FRC 15%\n  under GA (paralysed or not)\n�\nChest wall compression: e.g. ↓FRC\n  supine, pregnant, obese\nEffects of 1L\nreduction in FRC:\n(1)↓O\n2\n",
-            "score": 0.43104563707926397,
-            "start": 1483,
-            "end": 2719
-          },
-          {
             "text": "2015A09 What are\nthe physiological consequences of decreasing\nfunctional residual capacity by one litre in an adult?\nList:\n�\nIntro: definition and significance\n�\nDeterminants of FRC\n�\nEffects of 1L re",
-            "score": 0.271056192837134,
+            "score": 0.27456010762145544,
             "start": 0,
             "end": 1482
           },
           {
+            "text": "  kyphoscoliosis -> ↓FRC\n�\nDiaphragm and intercostal tone: ↓FRC 15%\n  under GA (paralysed or not)\n�\nChest wall compression: e.g. ↓FRC\n  supine, pregnant, obese\nEffects of 1L\nreduction in FRC:\n(1)↓O\n2\n",
+            "score": 0.2697481404929839,
+            "start": 1483,
+            "end": 2719
+          },
+          {
             "text": "With 1L reduction in FRC:\n�\nNew equilibrium at reduced FRC\n�\nBut ↓FRC -> ↓all vessel radii\n  -> ↑resistance\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.14185652155095707,
+            "score": 0.1800163473587149,
             "start": 2720,
+            "end": 2876
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7456927065420009,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Distortion of chest wall: e.g. pregnancy,\n  kyphoscoliosis -> ↓FRC\n�\nDiaphragm and intercostal tone: ↓FRC 15%\n  under GA (paralysed or not)\n�\nChest wall compression: e.g. ↓FRC\n  supine, pregnant, obes",
+            "score": 0.7456927065420009,
+            "start": 1441,
+            "end": 2633
+          },
+          {
+            "text": "�\nLow volume: compress extra-alveolar vessel\n�\nHigh volume: compress alveolar vessels\nWith 1L reduction in FRC:\n�\nNew equilibrium at reduced FRC\n�\nBut ↓FRC -> ↓all vessel radii\n  -> ↑resistance\nFeedba",
+            "score": 0.41706137246571134,
+            "start": 2634,
+            "end": 2876
+          },
+          {
+            "text": "2015A09 What are\nthe physiological consequences of decreasing\nfunctional residual capacity by one litre in an adult?\nList:\n�\nIntro: definition and significance\n�\nDeterminants of FRC\n�\nEffects of 1L re",
+            "score": 0.2513605397792321,
+            "start": 0,
+            "end": 1440
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.4794436173671221,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Distortion of chest wall: e.g. pregnancy,\n  kyphoscoliosis -> ↓FRC\n�\nDiaphragm and intercostal tone: ↓FRC 15%\n  under GA (paralysed or not)\n�\nChest wall compression: e.g. ↓FRC\n  supine, pregnant, obes",
+            "score": 0.4794436173671221,
+            "start": 1441,
+            "end": 2635
+          },
+          {
+            "text": "2015A09 What are\nthe physiological consequences of decreasing\nfunctional residual capacity by one litre in an adult?\nList:\n�\nIntro: definition and significance\n�\nDeterminants of FRC\n�\nEffects of 1L re",
+            "score": 0.2772030069075993,
+            "start": 0,
+            "end": 1440
+          },
+          {
+            "text": "Low volume: compress extra-alveolar vessel\n�\nHigh volume: compress alveolar vessels\nWith 1L reduction in FRC:\n�\nNew equilibrium at reduced FRC\n�\nBut ↓FRC -> ↓all vessel radii\n  -> ↑resistance\nFeedback",
+            "score": 0.14065856668448176,
+            "start": 2636,
             "end": 2876
           }
         ]

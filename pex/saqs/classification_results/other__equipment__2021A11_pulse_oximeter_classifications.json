@@ -12,7 +12,9 @@
       "primary": "foundational_science",
       "score": 0.6415542170207504
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "clinical_measurement_process"
+    ],
     "explanatory_schema": []
   },
   "classifications": {
@@ -118,12 +120,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.10601355011071832,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.13828116177283872,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2004B11 Explain\nhow a pulse oximeter works. Do NOT discuss the potential sources of error.\nList:\n·\nPhysics\n·\nDevice\nPhysics:\nBeer-Lambert principle\n·\nAbsorption\n∝\nconcentration of the absorbing substa",
-            "score": 0.10601355011071832,
+            "score": 0.13828116177283872,
             "start": 0,
             "end": 1000
           }
@@ -190,12 +192,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07659908032051355,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.1179788782423308,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2004B11 Explain\nhow a pulse oximeter works. Do NOT discuss the potential sources of error.\nList:\n·\nPhysics\n·\nDevice\nPhysics:\nBeer-Lambert principle\n·\nAbsorption\n∝\nconcentration of the absorbing substa",
-            "score": 0.07659908032051355,
+            "score": 0.1179788782423308,
             "start": 0,
             "end": 1000
           }
@@ -236,16 +238,40 @@
             "end": 1000
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.12013872967712319,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2004B11 Explain\nhow a pulse oximeter works. Do NOT discuss the potential sources of error.\nList:\n·\nPhysics\n·\nDevice\nPhysics:\nBeer-Lambert principle\n·\nAbsorption\n∝\nconcentration of the absorbing substa",
+            "score": 0.12013872967712319,
+            "start": 0,
+            "end": 1000
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7774740987934978,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2004B11 Explain\nhow a pulse oximeter works. Do NOT discuss the potential sources of error.\nList:\n·\nPhysics\n·\nDevice\nPhysics:\nBeer-Lambert principle\n·\nAbsorption\n∝\nconcentration of the absorbing substa",
+            "score": 0.7774740987934978,
+            "start": 0,
+            "end": 1000
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.11584261865163957,
+        "score": 0.1100884956529356,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2004B11 Explain\nhow a pulse oximeter works. Do NOT discuss the potential sources of error.\nList:\n·\nPhysics\n·\nDevice\nPhysics:\nBeer-Lambert principle\n·\nAbsorption\n∝\nconcentration of the absorbing substa",
-            "score": 0.11584261865163957,
+            "score": 0.1100884956529356,
             "start": 0,
             "end": 1000
           }

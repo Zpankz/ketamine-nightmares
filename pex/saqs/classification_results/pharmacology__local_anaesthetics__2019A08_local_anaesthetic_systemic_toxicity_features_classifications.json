@@ -17,10 +17,13 @@
     },
     "content_dimensions": [
       "drug_receptor_disposition",
+      "nociception_process",
       "neuromuscular_process",
       "organ_system_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -173,19 +176,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8254807828860911,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.8185934252001217,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2019A08 20mL of 1%\nropivacaine is inadvertently administered intravenously over\n15 seconds to a 60 year old, 60kg woman. Describe the potential complications\nand mechanisms of these. Do not discuss tr",
-            "score": 0.8254807828860911,
+            "score": 0.8185934252001217,
             "start": 0,
-            "end": 1393
+            "end": 1387
           },
           {
-            "text": "120 mins\nCNS toxicity:\nMechanism\n·\nInhibition\n  of neuronal VDNaC\n·\nHighly\n  lipid soluble (300x procaine), easy passage across BBB\nEffects\n·\nInitial\n  excitatory effects\no\nInhibition\n  of inhibitory ",
-            "score": 0.7759013874121433,
-            "start": 1394,
+            "text": "1/2\nβ\n120 mins\nCNS toxicity:\nMechanism\n·\nInhibition\n  of neuronal VDNaC\n·\nHighly\n  lipid soluble (300x procaine), easy passage across BBB\nEffects\n·\nInitial\n  excitatory effects\no\nInhibition\n  of inhib",
+            "score": 0.48726456010416813,
+            "start": 1388,
             "end": 2226
           }
         ]
@@ -281,19 +284,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11744260655618423,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6526206502580678,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2019A08 20mL of 1%\nropivacaine is inadvertently administered intravenously over\n15 seconds to a 60 year old, 60kg woman. Describe the potential complications\nand mechanisms of these. Do not discuss tr",
-            "score": 0.11744260655618423,
+            "score": 0.6526206502580678,
             "start": 0,
-            "end": 1416
+            "end": 1391
           },
           {
-            "text": "Mechanism\n·\nInhibition\n  of neuronal VDNaC\n·\nHighly\n  lipid soluble (300x procaine), easy passage across BBB\nEffects\n·\nInitial\n  excitatory effects\no\nInhibition\n  of inhibitory interneurons\no\nPeri-ora",
-            "score": 0.09765591089184561,
-            "start": 1417,
+            "text": "β\n120 mins\nCNS toxicity:\nMechanism\n·\nInhibition\n  of neuronal VDNaC\n·\nHighly\n  lipid soluble (300x procaine), easy passage across BBB\nEffects\n·\nInitial\n  excitatory effects\no\nInhibition\n  of inhibitor",
+            "score": 0.353511137044845,
+            "start": 1392,
             "end": 2226
           }
         ]
@@ -351,24 +354,60 @@
             "end": 2226
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.1898819772959151,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Mechanism\n·\nInhibition\n  of neuronal VDNaC\n·\nHighly\n  lipid soluble (300x procaine), easy passage across BBB\nEffects\n·\nInitial\n  excitatory effects\no\nInhibition\n  of inhibitory interneurons\no\nPeri-ora",
+            "score": 0.1898819772959151,
+            "start": 1417,
+            "end": 2226
+          },
+          {
+            "text": "2019A08 20mL of 1%\nropivacaine is inadvertently administered intravenously over\n15 seconds to a 60 year old, 60kg woman. Describe the potential complications\nand mechanisms of these. Do not discuss tr",
+            "score": 0.14006190450182948,
+            "start": 0,
+            "end": 1416
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.36216332407375884,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "1/2\nβ\n120 mins\nCNS toxicity:\nMechanism\n·\nInhibition\n  of neuronal VDNaC\n·\nHighly\n  lipid soluble (300x procaine), easy passage across BBB\nEffects\n·\nInitial\n  excitatory effects\no\nInhibition\n  of inhib",
+            "score": 0.36216332407375884,
+            "start": 1388,
+            "end": 2226
+          },
+          {
+            "text": "2019A08 20mL of 1%\nropivacaine is inadvertently administered intravenously over\n15 seconds to a 60 year old, 60kg woman. Describe the potential complications\nand mechanisms of these. Do not discuss tr",
+            "score": 0.21514118653388012,
+            "start": 0,
+            "end": 1387
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.4143420283195424,
+        "score": 0.8737990245158072,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2019A08 20mL of 1%\nropivacaine is inadvertently administered intravenously over\n15 seconds to a 60 year old, 60kg woman. Describe the potential complications\nand mechanisms of these. Do not discuss tr",
-            "score": 0.4143420283195424,
-            "start": 0,
-            "end": 1426
+            "text": "β\n120 mins\nCNS toxicity:\nMechanism\n·\nInhibition\n  of neuronal VDNaC\n·\nHighly\n  lipid soluble (300x procaine), easy passage across BBB\nEffects\n·\nInitial\n  excitatory effects\no\nInhibition\n  of inhibitor",
+            "score": 0.8737990245158072,
+            "start": 1392,
+            "end": 2226
           },
           {
-            "text": "·\nInhibition\n  of neuronal VDNaC\n·\nHighly\n  lipid soluble (300x procaine), easy passage across BBB\nEffects\n·\nInitial\n  excitatory effects\no\nInhibition\n  of inhibitory interneurons\no\nPeri-oral\n  tingli",
-            "score": 0.274999703206626,
-            "start": 1427,
-            "end": 2226
+            "text": "2019A08 20mL of 1%\nropivacaine is inadvertently administered intravenously over\n15 seconds to a 60 year old, 60kg woman. Describe the potential complications\nand mechanisms of these. Do not discuss tr",
+            "score": 0.8348556669051774,
+            "start": 0,
+            "end": 1391
           }
         ]
       },

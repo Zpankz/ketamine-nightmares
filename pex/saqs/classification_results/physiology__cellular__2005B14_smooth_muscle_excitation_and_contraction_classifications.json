@@ -159,20 +159,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5377213403515082,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3898266577123184,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.5377213403515082,
-            "start": 0,
-            "end": 1673
+            "text": "2+\n] and\n  inactivated myosin-ATPase",
+            "score": 0.3898266577123184,
+            "start": 1665,
+            "end": 1701
           },
           {
-            "text": "  inactivated myosin-ATPase",
-            "score": 0.34933703035082736,
-            "start": 1674,
-            "end": 1701
+            "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
+            "score": 0.24552225336936614,
+            "start": 0,
+            "end": 1664
           }
         ]
       },
@@ -261,13 +261,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.17932362625190623,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2589747757634805,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.17932362625190623,
+            "score": 0.2589747757634805,
             "start": 0,
+            "end": 1667
+          },
+          {
+            "text": "] and\n  inactivated myosin-ATPase",
+            "score": 0.16845675763202042,
+            "start": 1668,
             "end": 1701
           }
         ]
@@ -325,17 +331,53 @@
             "end": 1673
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.28700182061581236,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
+            "score": 0.28700182061581236,
+            "start": 0,
+            "end": 1701
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.23894091082715616,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2+\n] and\n  inactivated myosin-ATPase",
+            "score": 0.23894091082715616,
+            "start": 1665,
+            "end": 1701
+          },
+          {
+            "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
+            "score": 0.22291849253518664,
+            "start": 0,
+            "end": 1664
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.23568694716034655,
+        "score": 0.32924077855991984,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2005B14 Describe\nthe processes of excitation and contraction within smooth muscle cells.\nList:\n·\nStructure compared with striated\n·\nFunction compared with striated\n·\nExcitation and contraction process",
-            "score": 0.23568694716034655,
+            "score": 0.32924077855991984,
             "start": 0,
+            "end": 1667
+          },
+          {
+            "text": "] and\n  inactivated myosin-ATPase",
+            "score": 0.299713016871073,
+            "start": 1668,
             "end": 1701
           }
         ]

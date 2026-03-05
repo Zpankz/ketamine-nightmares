@@ -16,16 +16,19 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
+      "clinical_measurement_process",
       "equipment_and_physics",
       "autonomic_disposition",
       "organ_system_process",
-      "drug_receptor_disposition",
       "acid_base_quality",
+      "nociception_process",
+      "anatomy_structure",
       "neuromuscular_process"
     ],
     "explanatory_schema": [
       "structure_function_link",
-      "homeostatic_regulation"
+      "homeostatic_regulation",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -227,26 +230,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7174731048083236,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5734533966899584,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Supply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> vasodilatation\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregula",
-            "score": 0.7174731048083236,
-            "start": 1394,
-            "end": 2475
+            "text": "systole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> vasodilatation\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic ",
+            "score": 0.5734533966899584,
+            "start": 1384,
+            "end": 2468
           },
           {
-            "text": "↑SVR: e.g.\nα\n1\n-\nagonist\n·\n↑Preload -> ↑radius\n-> ↑MVO\n2\n(less important)\no\ni.e. ↑venous\nreturn\nBasal consumption (25%)\n·\n↑Temp -> ↑enzyme\nrate -> ↑MVO\n2\n·\nHypertrophy ->\n↑MVO\n2\nHeart rate\n(15-25%)\n·\n",
-            "score": 0.30063099459107706,
-            "start": 2476,
+            "text": "HOCM\no\n↑SVR: e.g.\nα\n1\n-\nagonist\n·\n↑Preload -> ↑radius\n-> ↑MVO\n2\n(less important)\no\ni.e. ↑venous\nreturn\nBasal consumption (25%)\n·\n↑Temp -> ↑enzyme\nrate -> ↑MVO\n2\n·\nHypertrophy ->\n↑MVO\n2\nHeart rate\n(15-",
+            "score": 0.5704551404016472,
+            "start": 2469,
             "end": 2928
           },
           {
             "text": "2020B05 Describe the\ndeterminants of left ventricular myocardial oxygen supply and\ndemand.\nList:\n·\nIntro\n·\nLV oxygen supply determinants\n·\nLV oxygen demand determinants\nIntro:\nSummary\n·\nHigh O\n2\nconsu",
-            "score": 0.10450903806925663,
+            "score": 0.19203673272679375,
             "start": 0,
-            "end": 1393
+            "end": 1383
           }
         ]
       },
@@ -371,26 +374,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.20153979982073553,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6129693844847373,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Preload -> ↑radius\n-> ↑MVO\n2\n(less important)\no\ni.e. ↑venous\nreturn\nBasal consumption (25%)\n·\n↑Temp -> ↑enzyme\nrate -> ↑MVO\n2\n·\nHypertrophy ->\n↑MVO\n2\nHeart rate\n(15-25%)\n·\n↑HR -> number of contractio",
-            "score": 0.20153979982073553,
-            "start": 2503,
+            "text": "systole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> vasodilatation\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic ",
+            "score": 0.6129693844847373,
+            "start": 1384,
+            "end": 2468
+          },
+          {
+            "text": "HOCM\no\n↑SVR: e.g.\nα\n1\n-\nagonist\n·\n↑Preload -> ↑radius\n-> ↑MVO\n2\n(less important)\no\ni.e. ↑venous\nreturn\nBasal consumption (25%)\n·\n↑Temp -> ↑enzyme\nrate -> ↑MVO\n2\n·\nHypertrophy ->\n↑MVO\n2\nHeart rate\n(15-",
+            "score": 0.2045179371314406,
+            "start": 2469,
             "end": 2928
           },
           {
-            "text": "diastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> vasodilatation\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n↑AoP ->\n↑corona",
-            "score": 0.14427099224346063,
-            "start": 1417,
-            "end": 2502
-          },
-          {
             "text": "2020B05 Describe the\ndeterminants of left ventricular myocardial oxygen supply and\ndemand.\nList:\n·\nIntro\n·\nLV oxygen supply determinants\n·\nLV oxygen demand determinants\nIntro:\nSummary\n·\nHigh O\n2\nconsu",
-            "score": 0.08387768404930426,
+            "score": 0.09910133017588658,
             "start": 0,
-            "end": 1416
+            "end": 1383
           }
         ]
       },
@@ -465,30 +468,78 @@
             "end": 1393
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.35894064412563764,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.6101733422876816,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> vasodilatation\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n↑AoP ->\n↑coronary artery",
-            "score": 0.35894064412563764,
-            "start": 1426,
+            "text": "diastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> vasodilatation\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic autoregulation:\no\n↑AoP ->\n↑corona",
+            "score": 0.6101733422876816,
+            "start": 1417,
             "end": 2502
           },
           {
             "text": "↑Preload -> ↑radius\n-> ↑MVO\n2\n(less important)\no\ni.e. ↑venous\nreturn\nBasal consumption (25%)\n·\n↑Temp -> ↑enzyme\nrate -> ↑MVO\n2\n·\nHypertrophy ->\n↑MVO\n2\nHeart rate\n(15-25%)\n·\n↑HR -> number of contractio",
-            "score": 0.25599936209764323,
+            "score": 0.24510806609584046,
             "start": 2503,
             "end": 2928
           },
           {
             "text": "2020B05 Describe the\ndeterminants of left ventricular myocardial oxygen supply and\ndemand.\nList:\n·\nIntro\n·\nLV oxygen supply determinants\n·\nLV oxygen demand determinants\nIntro:\nSummary\n·\nHigh O\n2\nconsu",
-            "score": 0.16845675763202042,
+            "score": 0.23406919549587674,
             "start": 0,
-            "end": 1425
+            "end": 1416
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8464530360558368,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "systole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> vasodilatation\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic ",
+            "score": 0.8464530360558368,
+            "start": 1384,
+            "end": 2433
+          },
+          {
+            "text": "LVOT obstruction: aortic stenosis,\nHOCM\no\n↑SVR: e.g.\nα\n1\n-\nagonist\n·\n↑Preload -> ↑radius\n-> ↑MVO\n2\n(less important)\no\ni.e. ↑venous\nreturn\nBasal consumption (25%)\n·\n↑Temp -> ↑enzyme\nrate -> ↑MVO\n2\n·\nHy",
+            "score": 0.799939729095984,
+            "start": 2434,
+            "end": 2928
+          },
+          {
+            "text": "2020B05 Describe the\ndeterminants of left ventricular myocardial oxygen supply and\ndemand.\nList:\n·\nIntro\n·\nLV oxygen supply determinants\n·\nLV oxygen demand determinants\nIntro:\nSummary\n·\nHigh O\n2\nconsu",
+            "score": 0.723238362564176,
+            "start": 0,
+            "end": 1383
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6535978845550492,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "systole\no\nSupply to LV mainly in\ndiastole\n·\nMetabolic autoregulation:\no\n↑MVO\n2\n->\n↑pCO\n2\n/H\n+\n/K\n+\n/adenosine/lactate\n-> ↑NO -> vasodilatation\no\nMost important\no\nCouples demand with\nsupply\n·\nMyogenic ",
+            "score": 0.6535978845550492,
+            "start": 1384,
+            "end": 2468
+          },
+          {
+            "text": "HOCM\no\n↑SVR: e.g.\nα\n1\n-\nagonist\n·\n↑Preload -> ↑radius\n-> ↑MVO\n2\n(less important)\no\ni.e. ↑venous\nreturn\nBasal consumption (25%)\n·\n↑Temp -> ↑enzyme\nrate -> ↑MVO\n2\n·\nHypertrophy ->\n↑MVO\n2\nHeart rate\n(15-",
+            "score": 0.5616313601425078,
+            "start": 2469,
+            "end": 2928
+          },
+          {
+            "text": "2020B05 Describe the\ndeterminants of left ventricular myocardial oxygen supply and\ndemand.\nList:\n·\nIntro\n·\nLV oxygen supply determinants\n·\nLV oxygen demand determinants\nIntro:\nSummary\n·\nHigh O\n2\nconsu",
+            "score": 0.1612217162063077,
+            "start": 0,
+            "end": 1383
           }
         ]
       },

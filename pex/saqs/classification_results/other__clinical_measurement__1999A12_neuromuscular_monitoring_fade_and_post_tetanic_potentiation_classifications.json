@@ -10,9 +10,12 @@
       "score": 0.5304194094120431
     },
     "content_dimensions": [
-      "neuromuscular_process"
+      "neuromuscular_process",
+      "nociception_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -117,12 +120,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5580595458442721,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.47305386177106895,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "1999A12 Explain\nthe phenomena known as fade and post-tetanic facilitation associated with\nthe use of neuromuscular blocking agents.\nFade:\nDescription\n·\nProgressive reduction in twitch height with high",
-            "score": 0.5580595458442721,
+            "score": 0.47305386177106895,
             "start": 0,
             "end": 1271
           }
@@ -189,12 +192,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08431753646250958,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7276325221722416,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "1999A12 Explain\nthe phenomena known as fade and post-tetanic facilitation associated with\nthe use of neuromuscular blocking agents.\nFade:\nDescription\n·\nProgressive reduction in twitch height with high",
-            "score": 0.08431753646250958,
+            "score": 0.7276325221722416,
             "start": 0,
             "end": 1271
           }
@@ -235,16 +238,40 @@
             "end": 1271
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.17383924611324467,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "1999A12 Explain\nthe phenomena known as fade and post-tetanic facilitation associated with\nthe use of neuromuscular blocking agents.\nFade:\nDescription\n·\nProgressive reduction in twitch height with high",
+            "score": 0.17383924611324467,
+            "start": 0,
+            "end": 1271
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.1612217162063077,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "1999A12 Explain\nthe phenomena known as fade and post-tetanic facilitation associated with\nthe use of neuromuscular blocking agents.\nFade:\nDescription\n·\nProgressive reduction in twitch height with high",
+            "score": 0.1612217162063077,
+            "start": 0,
+            "end": 1271
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.4599355638206533,
+        "score": 0.7622822048290451,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "1999A12 Explain\nthe phenomena known as fade and post-tetanic facilitation associated with\nthe use of neuromuscular blocking agents.\nFade:\nDescription\n·\nProgressive reduction in twitch height with high",
-            "score": 0.4599355638206533,
+            "score": 0.7622822048290451,
             "start": 0,
             "end": 1271
           }

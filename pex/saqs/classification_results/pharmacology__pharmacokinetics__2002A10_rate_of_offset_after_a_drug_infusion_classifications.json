@@ -17,7 +17,9 @@
       "organ_system_process",
       "drug_receptor_disposition"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -170,20 +172,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6671634164334771,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7192533454498276,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑opioid sensitivity in elderly, neonate ->\n↓Ce\n50\n·\nTolerance: e.g. chronic opioids -> receptor\ndownregulation -> ↑Ce\n50\nDrug interactions\n·\nSynergistic: e.g. midazolam + propofol synergism\n-> ↓Ce\n50\n",
-            "score": 0.6671634164334771,
-            "start": 1446,
+            "text": "Individual variability: e.g.\n↑opioid sensitivity in elderly, neonate ->\n↓Ce\n50\n·\nTolerance: e.g. chronic opioids -> receptor\ndownregulation -> ↑Ce\n50\nDrug interactions\n·\nSynergistic: e.g. midazolam + ",
+            "score": 0.7192533454498276,
+            "start": 1417,
             "end": 2111
           },
           {
             "text": "2002A10 Outline the factors\nthat determine recovery (offset of action) after ceasing a drug\ninfusion.\nList:\n·\nIntro\n·\nFinal Ce\n·\nRemoval from effect site\n·\nElimination from central compartment\n·\nThres",
-            "score": 0.165803645501483,
+            "score": 0.270619815687641,
             "start": 0,
-            "end": 1445
+            "end": 1416
           }
         ]
       },
@@ -278,20 +280,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10551062286445975,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2585486061251438,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑opioid sensitivity in elderly, neonate ->\n↓Ce\n50\n·\nTolerance: e.g. chronic opioids -> receptor\ndownregulation -> ↑Ce\n50\nDrug interactions\n·\nSynergistic: e.g. midazolam + propofol synergism\n-> ↓Ce\n50\n",
-            "score": 0.10551062286445975,
-            "start": 1446,
+            "text": "Individual variability: e.g.\n↑opioid sensitivity in elderly, neonate ->\n↓Ce\n50\n·\nTolerance: e.g. chronic opioids -> receptor\ndownregulation -> ↑Ce\n50\nDrug interactions\n·\nSynergistic: e.g. midazolam + ",
+            "score": 0.2585486061251438,
+            "start": 1417,
             "end": 2111
           },
           {
             "text": "2002A10 Outline the factors\nthat determine recovery (offset of action) after ceasing a drug\ninfusion.\nList:\n·\nIntro\n·\nFinal Ce\n·\nRemoval from effect site\n·\nElimination from central compartment\n·\nThres",
-            "score": 0.1005592983048298,
+            "score": 0.24635176452375257,
             "start": 0,
-            "end": 1445
+            "end": 1416
           }
         ]
       },
@@ -348,24 +350,60 @@
             "end": 1445
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.21823325627215462,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.09339430960340468,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↓Ce\n50\n·\nTolerance: e.g. chronic opioids -> receptor\ndownregulation -> ↑Ce\n50\nDrug interactions\n·\nSynergistic: e.g. midazolam + propofol synergism\n-> ↓Ce\n50\nfor both\n·\nAdditive: e.g. propofol + sevofl",
-            "score": 0.21823325627215462,
-            "start": 1489,
+            "text": "↑opioid sensitivity in elderly, neonate ->\n↓Ce\n50\n·\nTolerance: e.g. chronic opioids -> receptor\ndownregulation -> ↑Ce\n50\nDrug interactions\n·\nSynergistic: e.g. midazolam + propofol synergism\n-> ↓Ce\n50\n",
+            "score": 0.09339430960340468,
+            "start": 1446,
             "end": 2111
           },
           {
             "text": "2002A10 Outline the factors\nthat determine recovery (offset of action) after ceasing a drug\ninfusion.\nList:\n·\nIntro\n·\nFinal Ce\n·\nRemoval from effect site\n·\nElimination from central compartment\n·\nThres",
-            "score": 0.21360460483229088,
+            "score": 0.07743609402993808,
             "start": 0,
-            "end": 1488
+            "end": 1445
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.13302177898555526,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Individual variability: e.g.\n↑opioid sensitivity in elderly, neonate ->\n↓Ce\n50\n·\nTolerance: e.g. chronic opioids -> receptor\ndownregulation -> ↑Ce\n50\nDrug interactions\n·\nSynergistic: e.g. midazolam + ",
+            "score": 0.13302177898555526,
+            "start": 1417,
+            "end": 2111
+          },
+          {
+            "text": "2002A10 Outline the factors\nthat determine recovery (offset of action) after ceasing a drug\ninfusion.\nList:\n·\nIntro\n·\nFinal Ce\n·\nRemoval from effect site\n·\nElimination from central compartment\n·\nThres",
+            "score": 0.11531222505249526,
+            "start": 0,
+            "end": 1416
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.749478019532338,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Individual variability: e.g.\n↑opioid sensitivity in elderly, neonate ->\n↓Ce\n50\n·\nTolerance: e.g. chronic opioids -> receptor\ndownregulation -> ↑Ce\n50\nDrug interactions\n·\nSynergistic: e.g. midazolam + ",
+            "score": 0.749478019532338,
+            "start": 1417,
+            "end": 2111
+          },
+          {
+            "text": "2002A10 Outline the factors\nthat determine recovery (offset of action) after ceasing a drug\ninfusion.\nList:\n·\nIntro\n·\nFinal Ce\n·\nRemoval from effect site\n·\nElimination from central compartment\n·\nThres",
+            "score": 0.45366467329298354,
+            "start": 0,
+            "end": 1416
           }
         ]
       },

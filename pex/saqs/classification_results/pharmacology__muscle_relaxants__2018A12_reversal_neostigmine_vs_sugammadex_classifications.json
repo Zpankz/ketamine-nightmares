@@ -14,10 +14,12 @@
     },
     "content_dimensions": [
       "neuromuscular_process",
+      "nociception_process",
       "pharmacokinetic_process",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -172,20 +174,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5289973072712298,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5272770255423033,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "(but augment mivacurium - inhibit PChE)\nReversal of aminosteroids\nDepolarising block\nAugment\n-\nPlasma cholinesterase\nInhibit\n-\nOther clinical uses\n-Pseudo-obstruction\n-Atonic bladder\n-Myasthaenia grav",
-            "score": 0.5289973072712298,
-            "start": 1294,
-            "end": 2180
-          },
-          {
             "text": "2018A12 Compare\nand contrast the pharmacology of neostigmine and sugammadex.\nList:\n�\nIntro\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nNeostigmine\nSugammadex\nStructure\nQuaternary amine\nModified γ\n-cyclodextrin\n8-",
-            "score": 0.5014595328363146,
+            "score": 0.5272770255423033,
             "start": 0,
             "end": 1293
+          },
+          {
+            "text": "(but augment mivacurium - inhibit PChE)\nReversal of aminosteroids\nDepolarising block\nAugment\n-\nPlasma cholinesterase\nInhibit\n-\nOther clinical uses\n-Pseudo-obstruction\n-Atonic bladder\n-Myasthaenia grav",
+            "score": 0.373146719717882,
+            "start": 1294,
+            "end": 2180
           }
         ]
       },
@@ -280,20 +282,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10551062286445975,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7902092136687209,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Reversal of aminosteroids\nDepolarising block\nAugment\n-\nPlasma cholinesterase\nInhibit\n-\nOther clinical uses\n-Pseudo-obstruction\n-Atonic bladder\n-Myasthaenia gravis\n(Other factors only if crossing BBB):",
-            "score": 0.10551062286445975,
-            "start": 1334,
+            "text": "(but augment mivacurium - inhibit PChE)\nReversal of aminosteroids\nDepolarising block\nAugment\n-\nPlasma cholinesterase\nInhibit\n-\nOther clinical uses\n-Pseudo-obstruction\n-Atonic bladder\n-Myasthaenia grav",
+            "score": 0.7902092136687209,
+            "start": 1294,
             "end": 2180
           },
           {
             "text": "2018A12 Compare\nand contrast the pharmacology of neostigmine and sugammadex.\nList:\n�\nIntro\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nNeostigmine\nSugammadex\nStructure\nQuaternary amine\nModified γ\n-cyclodextrin\n8-",
-            "score": 0.09480246485705024,
+            "score": 0.24718278933502774,
             "start": 0,
-            "end": 1333
+            "end": 1293
           }
         ]
       },
@@ -350,24 +352,60 @@
             "end": 1293
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.20752148144486066,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.11584261865163957,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Reversal of aminosteroids\nDepolarising block\nAugment\n-\nPlasma cholinesterase\nInhibit\n-\nOther clinical uses\n-Pseudo-obstruction\n-Atonic bladder\n-Myasthaenia gravis\n(Other factors only if crossing BBB):",
-            "score": 0.20752148144486066,
+            "score": 0.11584261865163957,
             "start": 1334,
             "end": 2180
           },
           {
             "text": "2018A12 Compare\nand contrast the pharmacology of neostigmine and sugammadex.\nList:\n�\nIntro\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nNeostigmine\nSugammadex\nStructure\nQuaternary amine\nModified γ\n-cyclodextrin\n8-",
-            "score": 0.12508529522455822,
+            "score": 0.08213138471900344,
             "start": 0,
             "end": 1333
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.375155843803304,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "(but augment mivacurium - inhibit PChE)\nReversal of aminosteroids\nDepolarising block\nAugment\n-\nPlasma cholinesterase\nInhibit\n-\nOther clinical uses\n-Pseudo-obstruction\n-Atonic bladder\n-Myasthaenia grav",
+            "score": 0.375155843803304,
+            "start": 1294,
+            "end": 2180
+          },
+          {
+            "text": "2018A12 Compare\nand contrast the pharmacology of neostigmine and sugammadex.\nList:\n�\nIntro\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nNeostigmine\nSugammadex\nStructure\nQuaternary amine\nModified γ\n-cyclodextrin\n8-",
+            "score": 0.12620097548419282,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7954820628685595,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "(but augment mivacurium - inhibit PChE)\nReversal of aminosteroids\nDepolarising block\nAugment\n-\nPlasma cholinesterase\nInhibit\n-\nOther clinical uses\n-Pseudo-obstruction\n-Atonic bladder\n-Myasthaenia grav",
+            "score": 0.7954820628685595,
+            "start": 1294,
+            "end": 2180
+          },
+          {
+            "text": "2018A12 Compare\nand contrast the pharmacology of neostigmine and sugammadex.\nList:\n�\nIntro\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nNeostigmine\nSugammadex\nStructure\nQuaternary amine\nModified γ\n-cyclodextrin\n8-",
+            "score": 0.47401354735636547,
+            "start": 0,
+            "end": 1293
           }
         ]
       },

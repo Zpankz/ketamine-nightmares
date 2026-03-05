@@ -10,11 +10,11 @@
       "score": 0.46033147729067597
     },
     "content_dimensions": [
-      "pharmacokinetic_process",
-      "drug_receptor_disposition"
+      "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "structure_function_link"
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -168,20 +168,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6283577240635493,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4274586429292541,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Carbopol (thickener)\n·\nNaOH -> pH 9 -> ↑↑unionised %\n  lignocaine and prilocaine -> ↑rate of onset\n·\nH\n2\nO\nEutectic mixture\n·\nRatio producing lowest melting point\n  (eutectic temperature)\n·\nRatio: 2.5",
-            "score": 0.6283577240635493,
-            "start": 1468,
+            "text": "  (emulsifier)\n·\nCarbopol (thickener)\n·\nNaOH -> pH 9 -> ↑↑unionised %\n  lignocaine and prilocaine -> ↑rate of onset\n·\nH\n2\nO\nEutectic mixture\n·\nRatio producing lowest melting point\n  (eutectic temperat",
+            "score": 0.4274586429292541,
+            "start": 1451,
             "end": 2539
           },
           {
             "text": "2004A03 Briefly\ndescribe the factors that determine skin penetration by local anaesthetics.\nBriefly describe the formulation and pharmacology of EMLA cream.\nList:\n·\nSkin penetration\n·\nFactors affectin",
-            "score": 0.19203673272679375,
+            "score": 0.23853282225019537,
             "start": 0,
-            "end": 1467
+            "end": 1450
           }
         ]
       },
@@ -276,19 +276,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13302177898555526,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.4304582477017998,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2004A03 Briefly\ndescribe the factors that determine skin penetration by local anaesthetics.\nBriefly describe the formulation and pharmacology of EMLA cream.\nList:\n·\nSkin penetration\n·\nFactors affectin",
-            "score": 0.13302177898555526,
+            "score": 0.4304582477017998,
             "start": 0,
-            "end": 1490
+            "end": 1465
           },
           {
-            "text": "NaOH -> pH 9 -> ↑↑unionised %\n  lignocaine and prilocaine -> ↑rate of onset\n·\nH\n2\nO\nEutectic mixture\n·\nRatio producing lowest melting point\n  (eutectic temperature)\n·\nRatio: 2.5% lignocaine + 2.5% pri",
-            "score": 0.10906114075009045,
-            "start": 1491,
+            "text": "·\nCarbopol (thickener)\n·\nNaOH -> pH 9 -> ↑↑unionised %\n  lignocaine and prilocaine -> ↑rate of onset\n·\nH\n2\nO\nEutectic mixture\n·\nRatio producing lowest melting point\n  (eutectic temperature)\n·\nRatio: 2",
+            "score": 0.2732434585109745,
+            "start": 1466,
             "end": 2539
           }
         ]
@@ -346,24 +346,60 @@
             "end": 2539
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2007992399296327,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.5351125804041947,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "2004A03 Briefly\ndescribe the factors that determine skin penetration by local anaesthetics.\nBriefly describe the formulation and pharmacology of EMLA cream.\nList:\n·\nSkin penetration\n·\nFactors affectin",
+            "score": 0.5351125804041947,
+            "start": 0,
+            "end": 1490
+          },
+          {
             "text": "NaOH -> pH 9 -> ↑↑unionised %\n  lignocaine and prilocaine -> ↑rate of onset\n·\nH\n2\nO\nEutectic mixture\n·\nRatio producing lowest melting point\n  (eutectic temperature)\n·\nRatio: 2.5% lignocaine + 2.5% pri",
-            "score": 0.2007992399296327,
+            "score": 0.0915358786435363,
             "start": 1491,
+            "end": 2539
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.18632263173984007,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  (emulsifier)\n·\nCarbopol (thickener)\n·\nNaOH -> pH 9 -> ↑↑unionised %\n  lignocaine and prilocaine -> ↑rate of onset\n·\nH\n2\nO\nEutectic mixture\n·\nRatio producing lowest melting point\n  (eutectic temperat",
+            "score": 0.18632263173984007,
+            "start": 1451,
             "end": 2539
           },
           {
             "text": "2004A03 Briefly\ndescribe the factors that determine skin penetration by local anaesthetics.\nBriefly describe the formulation and pharmacology of EMLA cream.\nList:\n·\nSkin penetration\n·\nFactors affectin",
-            "score": 0.11478329593515615,
+            "score": 0.0966992383588072,
             "start": 0,
-            "end": 1490
+            "end": 1450
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7057669747667892,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Carbopol (thickener)\n·\nNaOH -> pH 9 -> ↑↑unionised %\n  lignocaine and prilocaine -> ↑rate of onset\n·\nH\n2\nO\nEutectic mixture\n·\nRatio producing lowest melting point\n  (eutectic temperature)\n·\nRatio: 2.5",
+            "score": 0.7057669747667892,
+            "start": 1468,
+            "end": 2539
+          },
+          {
+            "text": "2004A03 Briefly\ndescribe the factors that determine skin penetration by local anaesthetics.\nBriefly describe the formulation and pharmacology of EMLA cream.\nList:\n·\nSkin penetration\n·\nFactors affectin",
+            "score": 0.3549888438284347,
+            "start": 0,
+            "end": 1467
           }
         ]
       },

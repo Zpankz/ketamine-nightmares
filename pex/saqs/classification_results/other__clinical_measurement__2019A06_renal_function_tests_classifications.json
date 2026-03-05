@@ -13,6 +13,7 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": []
@@ -168,20 +169,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.24345511195943695,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.2260732893915247,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  significant increase in creatinine or urea\nGFR estimation:\nCockroft-Gault equation\n·\neGFR = [(140 – age) x LBW] / (72 x SCr)    ( x\n  0.85 if female)\no\nLean body weight in kg\no\nSerum creatinine in m",
-            "score": 0.24345511195943695,
-            "start": 1543,
+            "text": "Interpretation: >50% decrease in GFR before\n  significant increase in creatinine or urea\nGFR estimation:\nCockroft-Gault equation\n·\neGFR = [(140 – age) x LBW] / (72 x SCr)    ( x\n  0.85 if female)\no\nLe",
+            "score": 0.2260732893915247,
+            "start": 1499,
             "end": 2784
           },
           {
             "text": "2019A06 Outline\nthe clinical laboratory tests of renal function. What are the limitations of\neach?\nList:\n·\nIntro\n·\nPlasma markers\n·\nGFR estimation\n·\nGFR measurement\nIntro:\nRenal function\n·\nKidneys exc",
-            "score": 0.16448660559557637,
+            "score": 0.1835038816726888,
             "start": 0,
-            "end": 1542
+            "end": 1498
           }
         ]
       },
@@ -276,20 +277,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07088101815552864,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.10957409746514832,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2019A06 Outline\nthe clinical laboratory tests of renal function. What are the limitations of\neach?\nList:\n·\nIntro\n·\nPlasma markers\n·\nGFR estimation\n·\nGFR measurement\nIntro:\nRenal function\n·\nKidneys exc",
-            "score": 0.07088101815552864,
-            "start": 0,
-            "end": 1587
+            "text": "  significant increase in creatinine or urea\nGFR estimation:\nCockroft-Gault equation\n·\neGFR = [(140 – age) x LBW] / (72 x SCr)    ( x\n  0.85 if female)\no\nLean body weight in kg\no\nSerum creatinine in m",
+            "score": 0.10957409746514832,
+            "start": 1543,
+            "end": 2784
           },
           {
-            "text": "GFR estimation:\nCockroft-Gault equation\n·\neGFR = [(140 – age) x LBW] / (72 x SCr)    ( x\n  0.85 if female)\no\nLean body weight in kg\no\nSerum creatinine in mg/dL\nMDRD\n·\neGFR = 175 x SCr\n-1.154\nx age\n-0.",
-            "score": 0.06540458546295926,
-            "start": 1588,
-            "end": 2784
+            "text": "2019A06 Outline\nthe clinical laboratory tests of renal function. What are the limitations of\neach?\nList:\n·\nIntro\n·\nPlasma markers\n·\nGFR estimation\n·\nGFR measurement\nIntro:\nRenal function\n·\nKidneys exc",
+            "score": 0.07870118319334535,
+            "start": 0,
+            "end": 1542
           }
         ]
       },
@@ -346,24 +347,60 @@
             "end": 1542
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.22135047558413734,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.18491006489830478,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Cockroft-Gault equation\n·\neGFR = [(140 – age) x LBW] / (72 x SCr)    ( x\n  0.85 if female)\no\nLean body weight in kg\no\nSerum creatinine in mg/dL\nMDRD\n·\neGFR = 175 x SCr\n-1.154\nx age\n-0.203\n( x 0.742 if",
-            "score": 0.22135047558413734,
-            "start": 1604,
+            "text": "GFR estimation:\nCockroft-Gault equation\n·\neGFR = [(140 – age) x LBW] / (72 x SCr)    ( x\n  0.85 if female)\no\nLean body weight in kg\no\nSerum creatinine in mg/dL\nMDRD\n·\neGFR = 175 x SCr\n-1.154\nx age\n-0.",
+            "score": 0.18491006489830478,
+            "start": 1588,
             "end": 2784
           },
           {
             "text": "2019A06 Outline\nthe clinical laboratory tests of renal function. What are the limitations of\neach?\nList:\n·\nIntro\n·\nPlasma markers\n·\nGFR estimation\n·\nGFR measurement\nIntro:\nRenal function\n·\nKidneys exc",
-            "score": 0.19420584422163265,
+            "score": 0.11112162501075684,
             "start": 0,
-            "end": 1603
+            "end": 1587
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.9535898449184361,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Interpretation: >50% decrease in GFR before\n  significant increase in creatinine or urea\nGFR estimation:\nCockroft-Gault equation\n·\neGFR = [(140 – age) x LBW] / (72 x SCr)    ( x\n  0.85 if female)\no\nLe",
+            "score": 0.9535898449184361,
+            "start": 1499,
+            "end": 2784
+          },
+          {
+            "text": "2019A06 Outline\nthe clinical laboratory tests of renal function. What are the limitations of\neach?\nList:\n·\nIntro\n·\nPlasma markers\n·\nGFR estimation\n·\nGFR measurement\nIntro:\nRenal function\n·\nKidneys exc",
+            "score": 0.7879256638913119,
+            "start": 0,
+            "end": 1498
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.24968492344749585,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2019A06 Outline\nthe clinical laboratory tests of renal function. What are the limitations of\neach?\nList:\n·\nIntro\n·\nPlasma markers\n·\nGFR estimation\n·\nGFR measurement\nIntro:\nRenal function\n·\nKidneys exc",
+            "score": 0.24968492344749585,
+            "start": 0,
+            "end": 1542
+          },
+          {
+            "text": "  significant increase in creatinine or urea\nGFR estimation:\nCockroft-Gault equation\n·\neGFR = [(140 – age) x LBW] / (72 x SCr)    ( x\n  0.85 if female)\no\nLean body weight in kg\no\nSerum creatinine in m",
+            "score": 0.24469425805145512,
+            "start": 1543,
+            "end": 2784
           }
         ]
       },

@@ -13,10 +13,13 @@
       ]
     },
     "content_dimensions": [
+      "nociception_process",
       "drug_receptor_disposition",
       "organ_system_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -169,20 +172,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8646560185906924,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.786778554494324,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2018B13 List the\ndrugs which affect uterine tone and outline the adverse effects of these\nagents.\nList:\n·\nOxytocics table\n·\nTocolytic table\nOxytocics: *Note\nrisk foetal asphyxia antepartum*\nMechanism ",
-            "score": 0.8646560185906924,
-            "start": 0,
-            "end": 1269
+            "text": "  activity), lactic acidosis (\nβ\n2\nliver and skeletal muscle), tremor\n  (\nβ\n2\nskeletal muscle)\nNifedipine\n·\nInhibit L-Ca\n2+\n-> ↓ICF [Ca\n2+\n]\n·\nAE: reflex ↑HR, peripheral oedema\nGTN\n·\nProdrug\n·\nReacts ",
+            "score": 0.786778554494324,
+            "start": 1237,
+            "end": 2037
           },
           {
-            "text": "2\nliver and skeletal muscle), tremor\n  (\nβ\n2\nskeletal muscle)\nNifedipine\n·\nInhibit L-Ca\n2+\n-> ↓ICF [Ca\n2+\n]\n·\nAE: reflex ↑HR, peripheral oedema\nGTN\n·\nProdrug\n·\nReacts with endothelial ICF sulfhydryl g",
-            "score": 0.8302071599905412,
-            "start": 1270,
-            "end": 2037
+            "text": "2018B13 List the\ndrugs which affect uterine tone and outline the adverse effects of these\nagents.\nList:\n·\nOxytocics table\n·\nTocolytic table\nOxytocics: *Note\nrisk foetal asphyxia antepartum*\nMechanism ",
+            "score": 0.7755072325981134,
+            "start": 0,
+            "end": 1236
           }
         ]
       },
@@ -277,20 +280,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09199844623487359,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.8006771067571272,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "liver and skeletal muscle), tremor\n  (\nβ\n2\nskeletal muscle)\nNifedipine\n·\nInhibit L-Ca\n2+\n-> ↓ICF [Ca\n2+\n]\n·\nAE: reflex ↑HR, peripheral oedema\nGTN\n·\nProdrug\n·\nReacts with endothelial ICF sulfhydryl gro",
-            "score": 0.09199844623487359,
-            "start": 1272,
+            "text": "  activity), lactic acidosis (\nβ\n2\nliver and skeletal muscle), tremor\n  (\nβ\n2\nskeletal muscle)\nNifedipine\n·\nInhibit L-Ca\n2+\n-> ↓ICF [Ca\n2+\n]\n·\nAE: reflex ↑HR, peripheral oedema\nGTN\n·\nProdrug\n·\nReacts ",
+            "score": 0.8006771067571272,
+            "start": 1237,
             "end": 2037
           },
           {
             "text": "2018B13 List the\ndrugs which affect uterine tone and outline the adverse effects of these\nagents.\nList:\n·\nOxytocics table\n·\nTocolytic table\nOxytocics: *Note\nrisk foetal asphyxia antepartum*\nMechanism ",
-            "score": 0.06929198572432578,
+            "score": 0.23934938244466664,
             "start": 0,
-            "end": 1271
+            "end": 1236
           }
         ]
       },
@@ -347,24 +350,60 @@
             "end": 1269
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.22370484839267127,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.21055038795004374,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  (\nβ\n2\nskeletal muscle)\nNifedipine\n·\nInhibit L-Ca\n2+\n-> ↓ICF [Ca\n2+\n]\n·\nAE: reflex ↑HR, peripheral oedema\nGTN\n·\nProdrug\n·\nReacts with endothelial ICF sulfhydryl groups -> NO ->\n  activate GC -> ↑cGMP",
-            "score": 0.22370484839267127,
-            "start": 1307,
+            "text": "liver and skeletal muscle), tremor\n  (\nβ\n2\nskeletal muscle)\nNifedipine\n·\nInhibit L-Ca\n2+\n-> ↓ICF [Ca\n2+\n]\n·\nAE: reflex ↑HR, peripheral oedema\nGTN\n·\nProdrug\n·\nReacts with endothelial ICF sulfhydryl gro",
+            "score": 0.21055038795004374,
+            "start": 1272,
             "end": 2037
           },
           {
             "text": "2018B13 List the\ndrugs which affect uterine tone and outline the adverse effects of these\nagents.\nList:\n·\nOxytocics table\n·\nTocolytic table\nOxytocics: *Note\nrisk foetal asphyxia antepartum*\nMechanism ",
-            "score": 0.22135047558413734,
+            "score": 0.12958413928918883,
             "start": 0,
-            "end": 1306
+            "end": 1271
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.25642330901735677,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  activity), lactic acidosis (\nβ\n2\nliver and skeletal muscle), tremor\n  (\nβ\n2\nskeletal muscle)\nNifedipine\n·\nInhibit L-Ca\n2+\n-> ↓ICF [Ca\n2+\n]\n·\nAE: reflex ↑HR, peripheral oedema\nGTN\n·\nProdrug\n·\nReacts ",
+            "score": 0.25642330901735677,
+            "start": 1237,
+            "end": 2037
+          },
+          {
+            "text": "2018B13 List the\ndrugs which affect uterine tone and outline the adverse effects of these\nagents.\nList:\n·\nOxytocics table\n·\nTocolytic table\nOxytocics: *Note\nrisk foetal asphyxia antepartum*\nMechanism ",
+            "score": 0.0874334962984957,
+            "start": 0,
+            "end": 1236
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8704158607108111,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2018B13 List the\ndrugs which affect uterine tone and outline the adverse effects of these\nagents.\nList:\n·\nOxytocics table\n·\nTocolytic table\nOxytocics: *Note\nrisk foetal asphyxia antepartum*\nMechanism ",
+            "score": 0.8704158607108111,
+            "start": 0,
+            "end": 1236
+          },
+          {
+            "text": "  activity), lactic acidosis (\nβ\n2\nliver and skeletal muscle), tremor\n  (\nβ\n2\nskeletal muscle)\nNifedipine\n·\nInhibit L-Ca\n2+\n-> ↓ICF [Ca\n2+\n]\n·\nAE: reflex ↑HR, peripheral oedema\nGTN\n·\nProdrug\n·\nReacts ",
+            "score": 0.8050679294373881,
+            "start": 1237,
+            "end": 2037
           }
         ]
       },

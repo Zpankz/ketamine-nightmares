@@ -15,14 +15,15 @@
     "content_dimensions": [
       "autonomic_disposition",
       "neuromuscular_process",
-      "drug_receptor_disposition",
       "organ_system_process",
+      "drug_receptor_disposition",
+      "nociception_process",
       "equipment_and_physics",
       "acid_base_quality"
     ],
     "explanatory_schema": [
-      "structure_function_link",
-      "mechanism_effect_relevance"
+      "mechanism_effect_relevance",
+      "structure_function_link"
     ]
   },
   "classifications": {
@@ -224,26 +225,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8220570318492292,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7210279840445749,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "H\n1\n(G\nq\n): Vasodilatation,\n  capillary leak, ↓mAP; ↓AV node conduction, coronary vasoconstriction,\n  bronchoconstriction\no\nH\n2\n(G\ns\n): ↑contractility,\n  ↑chronotropy, coronary vasodilatation, broncho",
-            "score": 0.8220570318492292,
-            "start": 1472,
-            "end": 2977
-          },
-          {
-            "text": "Cardiac mAChR effects\n·\nVecuronium: agonist -> ↓HR (rare)\n·\nPancuronium: antagonist -> ↑HR (common)\n·\nRocuronium: minimal effect\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.4921721191639093,
-            "start": 2978,
-            "end": 3155
+            "text": "Effects via G protein coupled receptors\no\nH\n1\n(G\nq\n): Vasodilatation,\n  capillary leak, ↓mAP; ↓AV node conduction, coronary vasoconstriction,\n  bronchoconstriction\no\nH\n2\n(G\ns\n): ↑contractility,\n  ↑chr",
+            "score": 0.7210279840445749,
+            "start": 1430,
+            "end": 2904
           },
           {
             "text": "2016A04 Discuss\nthe potential adverse effects of non-depolarising muscle relaxants.\nList:\n·\nGeneral adverse effects\n·\nBenzylisoquinolinium specific\n·\nAminosteroid specific\nGeneral adverse\neffects:\nUns",
-            "score": 0.2807466545501725,
+            "score": 0.3806993870441614,
             "start": 0,
-            "end": 1471
+            "end": 1429
+          },
+          {
+            "text": "  degranulation, angioedema, bronchospasm, vasodilatation/capillary leak\nCardiac mAChR effects\n·\nVecuronium: agonist -> ↓HR (rare)\n·\nPancuronium: antagonist -> ↑HR (common)\n·\nRocuronium: minimal effec",
+            "score": 0.2883510242849617,
+            "start": 2905,
+            "end": 3155
           }
         ]
       },
@@ -368,26 +369,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12958413928918883,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7192533454498276,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Vecuronium: agonist -> ↓HR (rare)\n·\nPancuronium: antagonist -> ↑HR (common)\n·\nRocuronium: minimal effect\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.12958413928918883,
-            "start": 3002,
-            "end": 3155
+            "text": "Effects via G protein coupled receptors\no\nH\n1\n(G\nq\n): Vasodilatation,\n  capillary leak, ↓mAP; ↓AV node conduction, coronary vasoconstriction,\n  bronchoconstriction\no\nH\n2\n(G\ns\n): ↑contractility,\n  ↑chr",
+            "score": 0.7192533454498276,
+            "start": 1430,
+            "end": 2904
           },
           {
             "text": "2016A04 Discuss\nthe potential adverse effects of non-depolarising muscle relaxants.\nList:\n·\nGeneral adverse effects\n·\nBenzylisoquinolinium specific\n·\nAminosteroid specific\nGeneral adverse\neffects:\nUns",
-            "score": 0.07997781705562379,
+            "score": 0.26454846377751634,
             "start": 0,
-            "end": 1478
+            "end": 1429
           },
           {
-            "text": "q\n): Vasodilatation,\n  capillary leak, ↓mAP; ↓AV node conduction, coronary vasoconstriction,\n  bronchoconstriction\no\nH\n2\n(G\ns\n): ↑contractility,\n  ↑chronotropy, coronary vasodilatation, bronchodilatio",
-            "score": 0.066172416010931,
-            "start": 1479,
-            "end": 3001
+            "text": "  degranulation, angioedema, bronchospasm, vasodilatation/capillary leak\nCardiac mAChR effects\n·\nVecuronium: agonist -> ↓HR (rare)\n·\nPancuronium: antagonist -> ↑HR (common)\n·\nRocuronium: minimal effec",
+            "score": 0.165803645501483,
+            "start": 2905,
+            "end": 3155
           }
         ]
       },
@@ -462,29 +463,77 @@
             "end": 1471
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.33862352931131995,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "q\n): Vasodilatation,\n  capillary leak, ↓mAP; ↓AV node conduction, coronary vasoconstriction,\n  bronchoconstriction\no\nH\n2\n(G\ns\n): ↑contractility,\n  ↑chronotropy, coronary vasodilatation, bronchodilatio",
+            "score": 0.33862352931131995,
+            "start": 1479,
+            "end": 3001
+          },
+          {
+            "text": "Vecuronium: agonist -> ↓HR (rare)\n·\nPancuronium: antagonist -> ↑HR (common)\n·\nRocuronium: minimal effect\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.17794296815077074,
+            "start": 3002,
+            "end": 3155
+          },
+          {
+            "text": "2016A04 Discuss\nthe potential adverse effects of non-depolarising muscle relaxants.\nList:\n·\nGeneral adverse effects\n·\nBenzylisoquinolinium specific\n·\nAminosteroid specific\nGeneral adverse\neffects:\nUns",
+            "score": 0.10450903806925663,
+            "start": 0,
+            "end": 1478
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.301090477351718,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  degranulation, angioedema, bronchospasm, vasodilatation/capillary leak\nCardiac mAChR effects\n·\nVecuronium: agonist -> ↓HR (rare)\n·\nPancuronium: antagonist -> ↑HR (common)\n·\nRocuronium: minimal effec",
+            "score": 0.301090477351718,
+            "start": 2905,
+            "end": 3155
+          },
+          {
+            "text": "Effects via G protein coupled receptors\no\nH\n1\n(G\nq\n): Vasodilatation,\n  capillary leak, ↓mAP; ↓AV node conduction, coronary vasoconstriction,\n  bronchoconstriction\no\nH\n2\n(G\ns\n): ↑contractility,\n  ↑chr",
+            "score": 0.13946678392103212,
+            "start": 1430,
+            "end": 2904
+          },
+          {
+            "text": "2016A04 Discuss\nthe potential adverse effects of non-depolarising muscle relaxants.\nList:\n·\nGeneral adverse effects\n·\nBenzylisoquinolinium specific\n·\nAminosteroid specific\nGeneral adverse\neffects:\nUns",
+            "score": 0.09622297710488378,
+            "start": 0,
+            "end": 1429
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6161391275696707,
+        "score": 0.8830921926068878,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "): Vasodilatation,\n  capillary leak, ↓mAP; ↓AV node conduction, coronary vasoconstriction,\n  bronchoconstriction\no\nH\n2\n(G\ns\n): ↑contractility,\n  ↑chronotropy, coronary vasodilatation, bronchodilation ",
-            "score": 0.6161391275696707,
-            "start": 1481,
-            "end": 3001
+            "text": "Effects via G protein coupled receptors\no\nH\n1\n(G\nq\n): Vasodilatation,\n  capillary leak, ↓mAP; ↓AV node conduction, coronary vasoconstriction,\n  bronchoconstriction\no\nH\n2\n(G\ns\n): ↑contractility,\n  ↑chr",
+            "score": 0.8830921926068878,
+            "start": 1430,
+            "end": 2904
           },
           {
             "text": "2016A04 Discuss\nthe potential adverse effects of non-depolarising muscle relaxants.\nList:\n·\nGeneral adverse effects\n·\nBenzylisoquinolinium specific\n·\nAminosteroid specific\nGeneral adverse\neffects:\nUns",
-            "score": 0.23045184296828788,
+            "score": 0.7143442883222849,
             "start": 0,
-            "end": 1480
+            "end": 1429
           },
           {
-            "text": "Vecuronium: agonist -> ↓HR (rare)\n·\nPancuronium: antagonist -> ↑HR (common)\n·\nRocuronium: minimal effect\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.21823325627215462,
-            "start": 3002,
+            "text": "  degranulation, angioedema, bronchospasm, vasodilatation/capillary leak\nCardiac mAChR effects\n·\nVecuronium: agonist -> ↓HR (rare)\n·\nPancuronium: antagonist -> ↑HR (common)\n·\nRocuronium: minimal effec",
+            "score": 0.6105549828475033,
+            "start": 2905,
             "end": 3155
           }
         ]

@@ -16,10 +16,12 @@
     "content_dimensions": [
       "neuromuscular_process",
       "pharmacokinetic_process",
+      "acid_base_quality",
       "drug_receptor_disposition",
-      "acid_base_quality"
+      "nociception_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -174,19 +176,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7503150765525042,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6635513739632672,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2009A04 Compare\nand contrast atropine and glycopyrrolate.\nDiscuss the clinical implications of these differences.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nAtropine\nGlycopyrrolate\nStructure\nTertiary amine\nQ",
-            "score": 0.7503150765525042,
+            "score": 0.6635513739632672,
             "start": 0,
-            "end": 1201
+            "end": 1172
           },
           {
-            "text": "  PONV\n·\nTreat\n  organophosphate poisoning\n·\nReversal\n  of neuromuscular blockade\n·\nAnti-sialagogue",
-            "score": 0.3388655371870019,
-            "start": 1202,
+            "text": "  treatment of ↓HR\n·\nPrevent\n  PONV\n·\nTreat\n  organophosphate poisoning\n·\nReversal\n  of neuromuscular blockade\n·\nAnti-sialagogue",
+            "score": 0.2928705582501452,
+            "start": 1173,
             "end": 1301
           }
         ]
@@ -282,19 +284,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11164036043761141,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.650172884498102,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2009A04 Compare\nand contrast atropine and glycopyrrolate.\nDiscuss the clinical implications of these differences.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nAtropine\nGlycopyrrolate\nStructure\nTertiary amine\nQ",
-            "score": 0.11164036043761141,
+            "score": 0.650172884498102,
             "start": 0,
-            "end": 1210
+            "end": 1172
           },
           {
-            "text": "Treat\n  organophosphate poisoning\n·\nReversal\n  of neuromuscular blockade\n·\nAnti-sialagogue",
-            "score": 0.1100884956529356,
-            "start": 1211,
+            "text": "  treatment of ↓HR\n·\nPrevent\n  PONV\n·\nTreat\n  organophosphate poisoning\n·\nReversal\n  of neuromuscular blockade\n·\nAnti-sialagogue",
+            "score": 0.43555429676406227,
+            "start": 1173,
             "end": 1301
           }
         ]
@@ -352,24 +354,60 @@
             "end": 1201
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.24263091556480276,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.15481035196343076,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  organophosphate poisoning\n·\nReversal\n  of neuromuscular blockade\n·\nAnti-sialagogue",
-            "score": 0.24263091556480276,
-            "start": 1217,
+            "text": "Treat\n  organophosphate poisoning\n·\nReversal\n  of neuromuscular blockade\n·\nAnti-sialagogue",
+            "score": 0.15481035196343076,
+            "start": 1211,
             "end": 1301
           },
           {
             "text": "2009A04 Compare\nand contrast atropine and glycopyrrolate.\nDiscuss the clinical implications of these differences.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nAtropine\nGlycopyrrolate\nStructure\nTertiary amine\nQ",
-            "score": 0.17932362625190623,
+            "score": 0.0924623723009821,
             "start": 0,
-            "end": 1216
+            "end": 1210
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.4151185414909471,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2009A04 Compare\nand contrast atropine and glycopyrrolate.\nDiscuss the clinical implications of these differences.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nAtropine\nGlycopyrrolate\nStructure\nTertiary amine\nQ",
+            "score": 0.4151185414909471,
+            "start": 0,
+            "end": 1172
+          },
+          {
+            "text": "  treatment of ↓HR\n·\nPrevent\n  PONV\n·\nTreat\n  organophosphate poisoning\n·\nReversal\n  of neuromuscular blockade\n·\nAnti-sialagogue",
+            "score": 0.11584261865163957,
+            "start": 1173,
+            "end": 1301
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6975291050505792,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2009A04 Compare\nand contrast atropine and glycopyrrolate.\nDiscuss the clinical implications of these differences.\nList:\n·\nPC\n·\nPK\n·\nPD\nPharmaceutics:\nAtropine\nGlycopyrrolate\nStructure\nTertiary amine\nQ",
+            "score": 0.6975291050505792,
+            "start": 0,
+            "end": 1191
+          },
+          {
+            "text": "·\nPrevent\n  PONV\n·\nTreat\n  organophosphate poisoning\n·\nReversal\n  of neuromuscular blockade\n·\nAnti-sialagogue",
+            "score": 0.489054957448285,
+            "start": 1192,
+            "end": 1301
           }
         ]
       },

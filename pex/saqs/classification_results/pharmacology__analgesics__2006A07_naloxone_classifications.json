@@ -17,9 +17,12 @@
       ]
     },
     "content_dimensions": [
-      "pharmacokinetic_process"
+      "pharmacokinetic_process",
+      "drug_receptor_disposition"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -124,12 +127,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.41356587362007896,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6029010477306415,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2006A07 Briefly\noutline the pharmacology of naloxone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nPhenanthrene nucleus with substitution on amine group conferring\n  antagonism\n·\nPresented ",
-            "score": 0.41356587362007896,
+            "score": 0.6029010477306415,
             "start": 0,
             "end": 1323
           }
@@ -202,12 +205,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11690780739311239,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.5776822686603253,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2006A07 Briefly\noutline the pharmacology of naloxone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nPhenanthrene nucleus with substitution on amine group conferring\n  antagonism\n·\nPresented ",
-            "score": 0.11690780739311239,
+            "score": 0.5776822686603253,
             "start": 0,
             "end": 1323
           }
@@ -248,16 +251,40 @@
             "end": 1323
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.08564500055265845,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2006A07 Briefly\noutline the pharmacology of naloxone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nPhenanthrene nucleus with substitution on amine group conferring\n  antagonism\n·\nPresented ",
+            "score": 0.08564500055265845,
+            "start": 0,
+            "end": 1323
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.1005592983048298,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2006A07 Briefly\noutline the pharmacology of naloxone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nPhenanthrene nucleus with substitution on amine group conferring\n  antagonism\n·\nPresented ",
+            "score": 0.1005592983048298,
+            "start": 0,
+            "end": 1323
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.07912544161184044,
+        "score": 0.6741004145811254,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2006A07 Briefly\noutline the pharmacology of naloxone.\nList:\n·\nPC\n·\nPK\n·\nPD\nPhysicochemical:\nStructure/class\n·\nPhenanthrene nucleus with substitution on amine group conferring\n  antagonism\n·\nPresented ",
-            "score": 0.07912544161184044,
+            "score": 0.6741004145811254,
             "start": 0,
             "end": 1323
           }

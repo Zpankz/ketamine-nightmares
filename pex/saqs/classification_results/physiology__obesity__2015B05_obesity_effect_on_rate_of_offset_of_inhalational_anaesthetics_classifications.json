@@ -17,16 +17,18 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "neuromuscular_process",
       "pharmacokinetic_process",
       "special_population_role",
-      "drug_receptor_disposition",
       "organ_system_process",
-      "equipment_and_physics"
+      "equipment_and_physics",
+      "drug_receptor_disposition"
     ],
     "explanatory_schema": [
       "structure_function_link",
-      "dose_response_relationship"
+      "dose_response_relationship",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -228,25 +230,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7573690844351972,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6029010477306415,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "May not be included in kinetic model\n·\nRate of equilibration between effect site and\nVRG\n∝\no\nBlood flow to brain per unit mass (not %\ncardiac output to brain)\no\n1/(brain-blood partition\ncoefficient)\n1",
-            "score": 0.7573690844351972,
-            "start": 1413,
-            "end": 2576
+            "text": "1\n·\nMay not be included in kinetic model\n·\nRate of equilibration between effect site and\nVRG\n∝\no\nBlood flow to brain per unit mass (not %\ncardiac output to brain)\no\n1/(brain-blood partition\ncoefficien",
+            "score": 0.6029010477306415,
+            "start": 1409,
+            "end": 2547
           },
           {
             "text": "2015B05 Describe how morbid\nobesity affects time to awakening (not wash-out)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nEliminati",
-            "score": 0.22686588955665188,
+            "score": 0.3084865249962589,
             "start": 0,
-            "end": 1412
+            "end": 1408
           },
           {
-            "text": "↓Chest wall compliance ->\n↓ventilation under GA\no\n↓Chest wall compliance ->\n↓↓FRC under GA and supine;\n↓lung volume -> ↓lung compliance\n3.MAC awake: (normal\n~0.33)\nPatient factors\n·\n? Adipokines ->\n↓M",
-            "score": 0.12177417567627631,
-            "start": 2577,
+            "text": "-> ↑awake\nventilation; but\no\n↓Chest wall compliance ->\n↓ventilation under GA\no\n↓Chest wall compliance ->\n↓↓FRC under GA and supine;\n↓lung volume -> ↓lung compliance\n3.MAC awake: (normal\n~0.33)\nPatient",
+            "score": 0.2159118422576255,
+            "start": 2548,
             "end": 2855
           }
         ]
@@ -372,26 +374,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.1573559898347826,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.41046490105989675,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓ventilation under GA\no\n↓Chest wall compliance ->\n↓↓FRC under GA and supine;\n↓lung volume -> ↓lung compliance\n3.MAC awake: (normal\n~0.33)\nPatient factors\n·\n? Adipokines ->\n↓MAC-awake\n·\n? Sleep-disorde",
-            "score": 0.1573559898347826,
-            "start": 2603,
-            "end": 2855
-          },
-          {
             "text": "2015B05 Describe how morbid\nobesity affects time to awakening (not wash-out)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nEliminati",
-            "score": 0.10651790355261252,
+            "score": 0.41046490105989675,
             "start": 0,
-            "end": 1449
+            "end": 1408
           },
           {
-            "text": "·\nRate of equilibration between effect site and\nVRG\n∝\no\nBlood flow to brain per unit mass (not %\ncardiac output to brain)\no\n1/(brain-blood partition\ncoefficient)\n1.Final end-tidal\npartial pressure: (f",
-            "score": 0.10450903806925663,
-            "start": 1450,
-            "end": 2602
+            "text": "1\n·\nMay not be included in kinetic model\n·\nRate of equilibration between effect site and\nVRG\n∝\no\nBlood flow to brain per unit mass (not %\ncardiac output to brain)\no\n1/(brain-blood partition\ncoefficien",
+            "score": 0.34323357990611997,
+            "start": 1409,
+            "end": 2547
+          },
+          {
+            "text": "-> ↑awake\nventilation; but\no\n↓Chest wall compliance ->\n↓ventilation under GA\no\n↓Chest wall compliance ->\n↓↓FRC under GA and supine;\n↓lung volume -> ↓lung compliance\n3.MAC awake: (normal\n~0.33)\nPatient",
+            "score": 0.22056881707219475,
+            "start": 2548,
+            "end": 2855
           }
         ]
       },
@@ -466,29 +468,77 @@
             "end": 2855
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.5181048174735529,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.32732975003005915,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Rate of equilibration between effect site and\nVRG\n∝\no\nBlood flow to brain per unit mass (not %\ncardiac output to brain)\no\n1/(brain-blood partition\ncoefficient)\n1.Final end-tidal\npartial pressure: (fac",
-            "score": 0.5181048174735529,
-            "start": 1452,
-            "end": 2626
-          },
-          {
             "text": "2015B05 Describe how morbid\nobesity affects time to awakening (not wash-out)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nEliminati",
-            "score": 0.41473024028900946,
+            "score": 0.32732975003005915,
             "start": 0,
             "end": 1451
           },
           {
-            "text": "↓Chest wall compliance ->\n↓↓FRC under GA and supine;\n↓lung volume -> ↓lung compliance\n3.MAC awake: (normal\n~0.33)\nPatient factors\n·\n? Adipokines ->\n↓MAC-awake\n·\n? Sleep-disordered breathing ->\n↑narcot",
-            "score": 0.250521980467662,
-            "start": 2627,
+            "text": "Rate of equilibration between effect site and\nVRG\n∝\no\nBlood flow to brain per unit mass (not %\ncardiac output to brain)\no\n1/(brain-blood partition\ncoefficient)\n1.Final end-tidal\npartial pressure: (fac",
+            "score": 0.31737550409555726,
+            "start": 1452,
+            "end": 2624
+          },
+          {
+            "text": "o\n↓Chest wall compliance ->\n↓↓FRC under GA and supine;\n↓lung volume -> ↓lung compliance\n3.MAC awake: (normal\n~0.33)\nPatient factors\n·\n? Adipokines ->\n↓MAC-awake\n·\n? Sleep-disordered breathing ->\n↑narc",
+            "score": 0.299254522952492,
+            "start": 2625,
+            "end": 2855
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.879317606529836,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "V\n1\n·\nMay not be included in kinetic model\n·\nRate of equilibration between effect site and\nVRG\n∝\no\nBlood flow to brain per unit mass (not %\ncardiac output to brain)\no\n1/(brain-blood partition\ncoeffici",
+            "score": 0.879317606529836,
+            "start": 1407,
+            "end": 2547
+          },
+          {
+            "text": "2015B05 Describe how morbid\nobesity affects time to awakening (not wash-out)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nEliminati",
+            "score": 0.5584202397459599,
+            "start": 0,
+            "end": 1406
+          },
+          {
+            "text": "-> ↑awake\nventilation; but\no\n↓Chest wall compliance ->\n↓ventilation under GA\no\n↓Chest wall compliance ->\n↓↓FRC under GA and supine;\n↓lung volume -> ↓lung compliance\n3.MAC awake: (normal\n~0.33)\nPatient",
+            "score": 0.466440245711099,
+            "start": 2548,
+            "end": 2855
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6736239901965329,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "·\nMay not be included in kinetic model\n·\nRate of equilibration between effect site and\nVRG\n∝\no\nBlood flow to brain per unit mass (not %\ncardiac output to brain)\no\n1/(brain-blood partition\ncoefficient)",
+            "score": 0.6736239901965329,
+            "start": 1411,
+            "end": 2557
+          },
+          {
+            "text": "2015B05 Describe how morbid\nobesity affects time to awakening (not wash-out)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nEliminati",
+            "score": 0.5590267437466291,
+            "start": 0,
+            "end": 1410
+          },
+          {
+            "text": "ventilation; but\no\n↓Chest wall compliance ->\n↓ventilation under GA\no\n↓Chest wall compliance ->\n↓↓FRC under GA and supine;\n↓lung volume -> ↓lung compliance\n3.MAC awake: (normal\n~0.33)\nPatient factors\n·",
+            "score": 0.19203673272679375,
+            "start": 2558,
             "end": 2855
           }
         ]

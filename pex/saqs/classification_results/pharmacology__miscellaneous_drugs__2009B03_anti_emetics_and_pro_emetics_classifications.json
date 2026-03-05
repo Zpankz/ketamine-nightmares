@@ -16,7 +16,9 @@
       "drug_receptor_disposition",
       "organ_system_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -169,18 +171,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.843919975397613,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7515678401857883,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2009B03 Discuss\nclasses of drugs that influence post-operative nausea and vomiting (PONV)\nincluding mechanisms where known.\nList:\n·\nDiagramme\n·\nAnti-emetic drugs\n·\nPro-emetic drugs\nDiagramme:\nAnti-eme",
-            "score": 0.843919975397613,
+            "score": 0.7515678401857883,
             "start": 0,
             "end": 1232
           },
           {
             "text": "Positive allosteric modulator at GABA-A\n·\n? ↓cortical afferent to CTZ\nCannabinoids\n·\nAgonist at cannabinoid receptor in GIT\n·\nEsp cancer-associated nausea and vomiting\nNK-1 antagonist\ne.g. aprepitant\n",
-            "score": 0.7947335570650536,
+            "score": 0.699828159076269,
             "start": 1233,
             "end": 1836
           }
@@ -277,20 +279,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09910133017588658,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2488493710543425,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\n? ↓cortical afferent to CTZ\nCannabinoids\n·\nAgonist at cannabinoid receptor in GIT\n·\nEsp cancer-associated nausea and vomiting\nNK-1 antagonist\ne.g. aprepitant\ne.g. aprepitant\n·\nSubstance P antagonist",
-            "score": 0.09910133017588658,
-            "start": 1273,
-            "end": 1836
+            "text": "2009B03 Discuss\nclasses of drugs that influence post-operative nausea and vomiting (PONV)\nincluding mechanisms where known.\nList:\n·\nDiagramme\n·\nAnti-emetic drugs\n·\nPro-emetic drugs\nDiagramme:\nAnti-eme",
+            "score": 0.2488493710543425,
+            "start": 0,
+            "end": 1232
           },
           {
-            "text": "2009B03 Discuss\nclasses of drugs that influence post-operative nausea and vomiting (PONV)\nincluding mechanisms where known.\nList:\n·\nDiagramme\n·\nAnti-emetic drugs\n·\nPro-emetic drugs\nDiagramme:\nAnti-eme",
-            "score": 0.0874334962984957,
-            "start": 0,
-            "end": 1272
+            "text": "Positive allosteric modulator at GABA-A\n·\n? ↓cortical afferent to CTZ\nCannabinoids\n·\nAgonist at cannabinoid receptor in GIT\n·\nEsp cancer-associated nausea and vomiting\nNK-1 antagonist\ne.g. aprepitant\n",
+            "score": 0.24139747765085562,
+            "start": 1233,
+            "end": 1836
           }
         ]
       },
@@ -347,24 +349,60 @@
             "end": 1836
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.19858710741881394,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2009B03 Discuss\nclasses of drugs that influence post-operative nausea and vomiting (PONV)\nincluding mechanisms where known.\nList:\n·\nDiagramme\n·\nAnti-emetic drugs\n·\nPro-emetic drugs\nDiagramme:\nAnti-eme",
+            "score": 0.19858710741881394,
+            "start": 0,
+            "end": 1274
+          },
+          {
+            "text": "? ↓cortical afferent to CTZ\nCannabinoids\n·\nAgonist at cannabinoid receptor in GIT\n·\nEsp cancer-associated nausea and vomiting\nNK-1 antagonist\ne.g. aprepitant\ne.g. aprepitant\n·\nSubstance P antagonist a",
+            "score": 0.19565989102814468,
+            "start": 1275,
+            "end": 1836
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.10202987799295415,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2009B03 Discuss\nclasses of drugs that influence post-operative nausea and vomiting (PONV)\nincluding mechanisms where known.\nList:\n·\nDiagramme\n·\nAnti-emetic drugs\n·\nPro-emetic drugs\nDiagramme:\nAnti-eme",
+            "score": 0.10202987799295415,
+            "start": 0,
+            "end": 1230
+          },
+          {
+            "text": "·\nPositive allosteric modulator at GABA-A\n·\n? ↓cortical afferent to CTZ\nCannabinoids\n·\nAgonist at cannabinoid receptor in GIT\n·\nEsp cancer-associated nausea and vomiting\nNK-1 antagonist\ne.g. aprepitan",
+            "score": 0.09861813254725033,
+            "start": 1231,
+            "end": 1836
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.4599515438777297,
+        "score": 0.7886884284979552,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "? ↓cortical afferent to CTZ\nCannabinoids\n·\nAgonist at cannabinoid receptor in GIT\n·\nEsp cancer-associated nausea and vomiting\nNK-1 antagonist\ne.g. aprepitant\ne.g. aprepitant\n·\nSubstance P antagonist a",
-            "score": 0.4599515438777297,
-            "start": 1275,
-            "end": 1836
+            "text": "2009B03 Discuss\nclasses of drugs that influence post-operative nausea and vomiting (PONV)\nincluding mechanisms where known.\nList:\n·\nDiagramme\n·\nAnti-emetic drugs\n·\nPro-emetic drugs\nDiagramme:\nAnti-eme",
+            "score": 0.7886884284979552,
+            "start": 0,
+            "end": 1232
           },
           {
-            "text": "2009B03 Discuss\nclasses of drugs that influence post-operative nausea and vomiting (PONV)\nincluding mechanisms where known.\nList:\n·\nDiagramme\n·\nAnti-emetic drugs\n·\nPro-emetic drugs\nDiagramme:\nAnti-eme",
-            "score": 0.26454846377751634,
-            "start": 0,
-            "end": 1274
+            "text": "Positive allosteric modulator at GABA-A\n·\n? ↓cortical afferent to CTZ\nCannabinoids\n·\nAgonist at cannabinoid receptor in GIT\n·\nEsp cancer-associated nausea and vomiting\nNK-1 antagonist\ne.g. aprepitant\n",
+            "score": 0.723238362564176,
+            "start": 1233,
+            "end": 1836
           }
         ]
       },

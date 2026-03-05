@@ -13,6 +13,7 @@
       "score": 0.41939563340545655
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "gas_exchange_process"
     ],
     "explanatory_schema": []
@@ -120,12 +121,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.3084865249962589,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.22449276740188667,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "1999B07 Describe\nhow the partial pressure of oxygen in a blood sample is measured using a Clark\nelectrode.\nDiagramme\nComponents\n·\nSilver\n  anode\n·\nPlatinum\n  cathode\n·\nKCl\n  salt bridge\n·\n0.6V\n  power",
-            "score": 0.3084865249962589,
+            "score": 0.22449276740188667,
             "start": 0,
             "end": 1180
           }
@@ -192,12 +193,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07618247936328786,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.10351313129730201,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "1999B07 Describe\nhow the partial pressure of oxygen in a blood sample is measured using a Clark\nelectrode.\nDiagramme\nComponents\n·\nSilver\n  anode\n·\nPlatinum\n  cathode\n·\nKCl\n  salt bridge\n·\n0.6V\n  power",
-            "score": 0.07618247936328786,
+            "score": 0.10351313129730201,
             "start": 0,
             "end": 1180
           }
@@ -238,16 +239,40 @@
             "end": 1180
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.09386232569631885,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "1999B07 Describe\nhow the partial pressure of oxygen in a blood sample is measured using a Clark\nelectrode.\nDiagramme\nComponents\n·\nSilver\n  anode\n·\nPlatinum\n  cathode\n·\nKCl\n  salt bridge\n·\n0.6V\n  power",
+            "score": 0.09386232569631885,
+            "start": 0,
+            "end": 1180
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.958610690059836,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "1999B07 Describe\nhow the partial pressure of oxygen in a blood sample is measured using a Clark\nelectrode.\nDiagramme\nComponents\n·\nSilver\n  anode\n·\nPlatinum\n  cathode\n·\nKCl\n  salt bridge\n·\n0.6V\n  power",
+            "score": 0.958610690059836,
+            "start": 0,
+            "end": 1180
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.2741208680411419,
+        "score": 0.16448660559557637,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "1999B07 Describe\nhow the partial pressure of oxygen in a blood sample is measured using a Clark\nelectrode.\nDiagramme\nComponents\n·\nSilver\n  anode\n·\nPlatinum\n  cathode\n·\nKCl\n  salt bridge\n·\n0.6V\n  power",
-            "score": 0.2741208680411419,
+            "score": 0.16448660559557637,
             "start": 0,
             "end": 1180
           }

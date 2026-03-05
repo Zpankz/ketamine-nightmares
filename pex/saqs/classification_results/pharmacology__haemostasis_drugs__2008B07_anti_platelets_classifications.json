@@ -14,6 +14,7 @@
       "drug_receptor_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -168,20 +169,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7025761410635025,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6783747494395066,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "MoA: GPIIbIIIa mAb antagonist\n·\nSE: bleeding, ↓plt\n·\nM&E: reticulo-endothelial system\n·\nD: 2 days (prolonged binding)\nTirofiban\n·\nMoA: GPIIbIIIa inhibitor\n·\nSE: bleeding, ↓plt\n·\nM: nil\n·\nE: 66% urine,",
-            "score": 0.7025761410635025,
-            "start": 1316,
+            "text": "Abciximab\n·\nMoA: GPIIbIIIa mAb antagonist\n·\nSE: bleeding, ↓plt\n·\nM&E: reticulo-endothelial system\n·\nD: 2 days (prolonged binding)\nTirofiban\n·\nMoA: GPIIbIIIa inhibitor\n·\nSE: bleeding, ↓plt\n·\nM: nil\n·\nE",
+            "score": 0.6783747494395066,
+            "start": 1304,
             "end": 1834
           },
           {
             "text": "2008B07 List the\nagents used therapeutically to reduce platelet function. Outline their\nmechanisms of action,\nadverse effects, mode of elimination and duration of action.\n*Note increased bleeding risk",
-            "score": 0.6487010445596815,
+            "score": 0.47652934087998844,
             "start": 0,
-            "end": 1315
+            "end": 1303
           }
         ]
       },
@@ -276,20 +277,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10301730154669217,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.165803645501483,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "MoA: GPIIbIIIa mAb antagonist\n·\nSE: bleeding, ↓plt\n·\nM&E: reticulo-endothelial system\n·\nD: 2 days (prolonged binding)\nTirofiban\n·\nMoA: GPIIbIIIa inhibitor\n·\nSE: bleeding, ↓plt\n·\nM: nil\n·\nE: 66% urine,",
-            "score": 0.10301730154669217,
-            "start": 1316,
+            "text": "Abciximab\n·\nMoA: GPIIbIIIa mAb antagonist\n·\nSE: bleeding, ↓plt\n·\nM&E: reticulo-endothelial system\n·\nD: 2 days (prolonged binding)\nTirofiban\n·\nMoA: GPIIbIIIa inhibitor\n·\nSE: bleeding, ↓plt\n·\nM: nil\n·\nE",
+            "score": 0.165803645501483,
+            "start": 1304,
             "end": 1834
           },
           {
             "text": "2008B07 List the\nagents used therapeutically to reduce platelet function. Outline their\nmechanisms of action,\nadverse effects, mode of elimination and duration of action.\n*Note increased bleeding risk",
-            "score": 0.06540458546295926,
+            "score": 0.15103900835879944,
             "start": 0,
-            "end": 1315
+            "end": 1303
           }
         ]
       },
@@ -346,24 +347,60 @@
             "end": 1315
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2732434585109745,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.29514301842447316,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "·\nSE: bleeding, ↓plt\n·\nM&E: reticulo-endothelial system\n·\nD: 2 days (prolonged binding)\nTirofiban\n·\nMoA: GPIIbIIIa inhibitor\n·\nSE: bleeding, ↓plt\n·\nM: nil\n·\nE: 66% urine, 33% bile\n·\nD: 8 hours\nProstac",
-            "score": 0.2732434585109745,
-            "start": 1346,
+            "text": "MoA: GPIIbIIIa mAb antagonist\n·\nSE: bleeding, ↓plt\n·\nM&E: reticulo-endothelial system\n·\nD: 2 days (prolonged binding)\nTirofiban\n·\nMoA: GPIIbIIIa inhibitor\n·\nSE: bleeding, ↓plt\n·\nM: nil\n·\nE: 66% urine,",
+            "score": 0.29514301842447316,
+            "start": 1316,
             "end": 1834
           },
           {
             "text": "2008B07 List the\nagents used therapeutically to reduce platelet function. Outline their\nmechanisms of action,\nadverse effects, mode of elimination and duration of action.\n*Note increased bleeding risk",
-            "score": 0.12122754149981366,
+            "score": 0.09765591089184561,
             "start": 0,
-            "end": 1345
+            "end": 1315
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.2680091172688212,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Abciximab\n·\nMoA: GPIIbIIIa mAb antagonist\n·\nSE: bleeding, ↓plt\n·\nM&E: reticulo-endothelial system\n·\nD: 2 days (prolonged binding)\nTirofiban\n·\nMoA: GPIIbIIIa inhibitor\n·\nSE: bleeding, ↓plt\n·\nM: nil\n·\nE",
+            "score": 0.2680091172688212,
+            "start": 1304,
+            "end": 1834
+          },
+          {
+            "text": "2008B07 List the\nagents used therapeutically to reduce platelet function. Outline their\nmechanisms of action,\nadverse effects, mode of elimination and duration of action.\n*Note increased bleeding risk",
+            "score": 0.08698437799387108,
+            "start": 0,
+            "end": 1303
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8532897173544827,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2008B07 List the\nagents used therapeutically to reduce platelet function. Outline their\nmechanisms of action,\nadverse effects, mode of elimination and duration of action.\n*Note increased bleeding risk",
+            "score": 0.8532897173544827,
+            "start": 0,
+            "end": 1313
+          },
+          {
+            "text": "·\nMoA: GPIIbIIIa mAb antagonist\n·\nSE: bleeding, ↓plt\n·\nM&E: reticulo-endothelial system\n·\nD: 2 days (prolonged binding)\nTirofiban\n·\nMoA: GPIIbIIIa inhibitor\n·\nSE: bleeding, ↓plt\n·\nM: nil\n·\nE: 66% urin",
+            "score": 0.6984497113177436,
+            "start": 1314,
+            "end": 1834
           }
         ]
       },

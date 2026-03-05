@@ -9,9 +9,7 @@
       "primary": "foundational_science",
       "score": 0.5366705064017491
     },
-    "content_dimensions": [
-      "drug_receptor_disposition"
-    ],
+    "content_dimensions": [],
     "explanatory_schema": []
   },
   "classifications": {
@@ -165,20 +163,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6238382375985251,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3631570185417808,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Endogenous fibrinolytics\n·\nDoes not prevent activation but limits\n  propagation\nHere it is for\nyou anyway:",
-            "score": 0.6238382375985251,
-            "start": 1533,
+            "text": "Interaction of the above:\nEndogenous fibrinolytics\n·\nDoes not prevent activation but limits\n  propagation\nHere it is for\nyou anyway:",
+            "score": 0.3631570185417808,
+            "start": 1507,
             "end": 1639
           },
           {
             "text": "2007A10 Explain\nthe mechanisms that prevent blood clotting in intact vessels.\n(Do not draw the clotting cascade)\nList:\n·\nIntro: why and how\n·\nFactors: laminar flow, endothelium, RES,\nanticoagulants, f",
-            "score": 0.39978803785049416,
+            "score": 0.32304731886392163,
             "start": 0,
-            "end": 1532
+            "end": 1506
           }
         ]
       },
@@ -273,20 +271,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10401037605283608,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.13244504050607428,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2007A10 Explain\nthe mechanisms that prevent blood clotting in intact vessels.\n(Do not draw the clotting cascade)\nList:\n·\nIntro: why and how\n·\nFactors: laminar flow, endothelium, RES,\nanticoagulants, f",
-            "score": 0.10401037605283608,
-            "start": 0,
-            "end": 1557
+            "text": "Interaction of the above:\nEndogenous fibrinolytics\n·\nDoes not prevent activation but limits\n  propagation\nHere it is for\nyou anyway:",
+            "score": 0.13244504050607428,
+            "start": 1507,
+            "end": 1639
           },
           {
-            "text": "·\nDoes not prevent activation but limits\n  propagation\nHere it is for\nyou anyway:",
-            "score": 0.08083535454544834,
-            "start": 1558,
-            "end": 1639
+            "text": "2007A10 Explain\nthe mechanisms that prevent blood clotting in intact vessels.\n(Do not draw the clotting cascade)\nList:\n·\nIntro: why and how\n·\nFactors: laminar flow, endothelium, RES,\nanticoagulants, f",
+            "score": 0.12958413928918883,
+            "start": 0,
+            "end": 1506
           }
         ]
       },
@@ -343,24 +341,60 @@
             "end": 1532
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.27897201595542515,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.23165414560489295,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2007A10 Explain\nthe mechanisms that prevent blood clotting in intact vessels.\n(Do not draw the clotting cascade)\nList:\n·\nIntro: why and how\n·\nFactors: laminar flow, endothelium, RES,\nanticoagulants, f",
-            "score": 0.27897201595542515,
+            "score": 0.23165414560489295,
             "start": 0,
             "end": 1559
           },
           {
             "text": "Does not prevent activation but limits\n  propagation\nHere it is for\nyou anyway:",
-            "score": 0.1835038816726888,
+            "score": 0.14793926113385975,
             "start": 1560,
             "end": 1639
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.13186982364320243,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2007A10 Explain\nthe mechanisms that prevent blood clotting in intact vessels.\n(Do not draw the clotting cascade)\nList:\n·\nIntro: why and how\n·\nFactors: laminar flow, endothelium, RES,\nanticoagulants, f",
+            "score": 0.13186982364320243,
+            "start": 0,
+            "end": 1506
+          },
+          {
+            "text": "Interaction of the above:\nEndogenous fibrinolytics\n·\nDoes not prevent activation but limits\n  propagation\nHere it is for\nyou anyway:",
+            "score": 0.1005592983048298,
+            "start": 1507,
+            "end": 1639
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.31408742677824225,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Interaction of the above:\nEndogenous fibrinolytics\n·\nDoes not prevent activation but limits\n  propagation\nHere it is for\nyou anyway:",
+            "score": 0.31408742677824225,
+            "start": 1507,
+            "end": 1639
+          },
+          {
+            "text": "2007A10 Explain\nthe mechanisms that prevent blood clotting in intact vessels.\n(Do not draw the clotting cascade)\nList:\n·\nIntro: why and how\n·\nFactors: laminar flow, endothelium, RES,\nanticoagulants, f",
+            "score": 0.25220059901524183,
+            "start": 0,
+            "end": 1506
           }
         ]
       },

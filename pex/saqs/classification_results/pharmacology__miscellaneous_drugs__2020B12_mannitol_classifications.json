@@ -15,13 +15,15 @@
     "content_dimensions": [
       "neuromuscular_process",
       "equipment_and_physics",
-      "drug_receptor_disposition",
       "autonomic_disposition",
       "organ_system_process",
+      "clinical_measurement_process",
+      "nociception_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
-      "homeostatic_regulation"
+      "homeostatic_regulation",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -175,20 +177,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.763501866737401,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4659012357829553,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity",
-            "score": 0.763501866737401,
-            "start": 1325,
+            "text": "↓Viscosity -> ↑regional microcirculatory\n  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO,",
+            "score": 0.4659012357829553,
+            "start": 1284,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.2530421557773242,
+            "score": 0.2946878539714319,
             "start": 0,
-            "end": 1324
+            "end": 1283
           }
         ]
       },
@@ -283,20 +285,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08653659094165504,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6477185047693906,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Thrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity -> ↓regional microci",
-            "score": 0.08653659094165504,
-            "start": 1346,
+            "text": "↓Viscosity -> ↑regional microcirculatory\n  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO,",
+            "score": 0.6477185047693906,
+            "start": 1284,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.08387768404930426,
+            "score": 0.299254522952492,
             "start": 0,
-            "end": 1345
+            "end": 1283
           }
         ]
       },
@@ -353,24 +355,60 @@
             "end": 2126
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3855081211630234,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.27368198487016115,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Thrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity -> ↓regional microci",
-            "score": 0.3855081211630234,
+            "score": 0.27368198487016115,
             "start": 1346,
             "end": 2126
           },
           {
             "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
-            "score": 0.2534634949725546,
+            "score": 0.16252292535834514,
             "start": 0,
             "end": 1345
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7214707651394254,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↓Viscosity -> ↑regional microcirculatory\n  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO,",
+            "score": 0.7214707651394254,
+            "start": 1284,
+            "end": 2126
+          },
+          {
+            "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
+            "score": 0.13828116177283872,
+            "start": 0,
+            "end": 1283
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7125487880701377,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  flow (incl. CNS)\n�\nThrombophlebitis (hence require CVC)\nCompensation:\n�\nANP: ↑RA stretch -> ↑release\n  -> diuresis, natriuresis\nVC\nDirect:\n�\n↓Preload -> ↓CO, ↓mAP,\n  ↓cerebral perfusion\n�\n↑Viscosity",
+            "score": 0.7125487880701377,
+            "start": 1325,
+            "end": 2126
+          },
+          {
+            "text": "2020B12 Outline\nthe effects of intravenously administering 500mL of 20% mannitol.\nOutline the potential problems associated with its use.\nList:\n�\nIntroduction: mannitol\n�\nCerebral\n�\nCirculatory\n�\nRena",
+            "score": 0.6741004145811254,
+            "start": 0,
+            "end": 1324
           }
         ]
       },

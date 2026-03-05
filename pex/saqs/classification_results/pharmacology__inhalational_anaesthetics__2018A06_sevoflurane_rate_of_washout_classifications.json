@@ -120,12 +120,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.18491006489830478,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.24016747383683887,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2018A06 Describe the washout\n(not offset) of sevoflurane from a patient following\ntwo hours of general anaesthesia. You may wish to use a graph\nto illustrate the description.\nList:\n·\nWashout modelling",
-            "score": 0.18491006489830478,
+            "score": 0.24016747383683887,
             "start": 0,
             "end": 1399
           }
@@ -198,12 +198,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.14793926113385975,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.36216332407375884,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2018A06 Describe the washout\n(not offset) of sevoflurane from a patient following\ntwo hours of general anaesthesia. You may wish to use a graph\nto illustrate the description.\nList:\n·\nWashout modelling",
-            "score": 0.14793926113385975,
+            "score": 0.36216332407375884,
             "start": 0,
             "end": 1399
           }
@@ -244,16 +244,40 @@
             "end": 1399
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.10551062286445975,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2018A06 Describe the washout\n(not offset) of sevoflurane from a patient following\ntwo hours of general anaesthesia. You may wish to use a graph\nto illustrate the description.\nList:\n·\nWashout modelling",
+            "score": 0.10551062286445975,
+            "start": 0,
+            "end": 1399
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.5550736681249262,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2018A06 Describe the washout\n(not offset) of sevoflurane from a patient following\ntwo hours of general anaesthesia. You may wish to use a graph\nto illustrate the description.\nList:\n·\nWashout modelling",
+            "score": 0.5550736681249262,
+            "start": 0,
+            "end": 1399
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.26931284321853594,
+        "score": 0.35894064412563764,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2018A06 Describe the washout\n(not offset) of sevoflurane from a patient following\ntwo hours of general anaesthesia. You may wish to use a graph\nto illustrate the description.\nList:\n·\nWashout modelling",
-            "score": 0.26931284321853594,
+            "score": 0.35894064412563764,
             "start": 0,
             "end": 1399
           }

@@ -149,14 +149,11 @@ ONTOLOGY = {
         # --- BFO Dispositions: mechanisms that may be realized ---
         "drug_receptor_disposition": {
             "query": (
-                "{The central topic of this text is how a specific drug "
-                "binds to and acts on a named receptor, ion channel, or "
-                "enzyme to produce its primary pharmacological effect} AND "
-                "{This names a specific receptor type such as GABA, NMDA, "
-                "opioid, adrenergic, muscarinic, nicotinic, or a specific "
-                "enzyme such as COX, MAO, or acetylcholinesterase} AND NOT "
-                "{Receptors are only mentioned briefly as part of a broader "
-                "topic such as pharmacokinetics, equipment, or physiology}"
+                "{The main purpose of this text is to explain how a "
+                "specific named drug interacts with a specific named "
+                "receptor, ion channel, or enzyme at the molecular level} "
+                "AND {This describes binding affinity, agonism, antagonism, "
+                "or allosteric modulation at a named molecular target}"
             ),
             "is_iql": True,
             "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
@@ -219,9 +216,9 @@ ONTOLOGY = {
             "query": (
                 "{This discusses pain pathways, nociception, analgesic "
                 "mechanisms, local anaesthetic nerve blockade, opioid "
-                "analgesia, or regional anaesthesia techniques} OR "
-                "{This discusses how a drug provides pain relief, blocks "
-                "nerve conduction, or modulates pain signal transmission}"
+                "analgesia, or regional anaesthesia techniques} AND "
+                "{Pain management, analgesia, or nerve blockade is a "
+                "major topic of this text, not just briefly mentioned}"
             ),
             "is_iql": True,
             "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
@@ -302,10 +299,9 @@ ONTOLOGY = {
     "explanatory_schema": {
         "mechanism_effect_relevance": {
             "query": (
-                "{This explains how a mechanism of action leads to a "
-                "physiological or clinical effect} OR "
-                "{This connects a molecular or cellular process to an "
-                "observable clinical outcome or side effect}"
+                "{This text traces how a drug mechanism of action at "
+                "the receptor or molecular level leads to the observed "
+                "clinical effects, side effects, or toxicity in patients}"
             ),
             "is_iql": True,
             "description": "Mechanism → effect → clinical relevance chain",

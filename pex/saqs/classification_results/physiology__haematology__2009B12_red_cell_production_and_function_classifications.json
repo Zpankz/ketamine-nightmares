@@ -12,8 +12,7 @@
     "content_dimensions": [
       "gas_exchange_process",
       "acid_base_quality",
-      "organ_system_process",
-      "drug_receptor_disposition"
+      "organ_system_process"
     ],
     "explanatory_schema": [
       "structure_function_link"
@@ -170,20 +169,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.60034013024833,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.43673197636150307,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "production\nOxyhaemoglobin dissociation curve\n(OHDC)\nCO\n2\ncarriage\n·\nCO\n2\nproduced in TCA cycle\n·\nDiffuses into RBC\n·\nConverted by carbonic anhydrase and\nbuffered\no\nCO\n2\n+ H\n2\nO <-> H\n+\n+\nHCO\n3\n-\no\nCO\n",
-            "score": 0.60034013024833,
-            "start": 1375,
+            "text": "Used for oxidative phosphorylation, ATP\nproduction\nOxyhaemoglobin dissociation curve\n(OHDC)\nCO\n2\ncarriage\n·\nCO\n2\nproduced in TCA cycle\n·\nDiffuses into RBC\n·\nConverted by carbonic anhydrase and\nbuffere",
+            "score": 0.43673197636150307,
+            "start": 1335,
             "end": 2169
           },
           {
             "text": "2009B12 Discuss the production\nand function of red blood cells.\nList:\n·\nStructure\n·\nProduction\n·\nFunction\nRBC structure:\nMacro\n·\nBiconcave disc shaped cell in blood\n·\n8 x 2\nμ\nm\nContents\n·\nLarge amount",
-            "score": 0.4888560119615301,
+            "score": 0.4067258903315847,
             "start": 0,
-            "end": 1374
+            "end": 1334
           }
         ]
       },
@@ -278,19 +277,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08213138471900344,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.10551062286445975,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2009B12 Discuss the production\nand function of red blood cells.\nList:\n·\nStructure\n·\nProduction\n·\nFunction\nRBC structure:\nMacro\n·\nBiconcave disc shaped cell in blood\n·\n8 x 2\nμ\nm\nContents\n·\nLarge amount",
-            "score": 0.08213138471900344,
+            "score": 0.10551062286445975,
             "start": 0,
-            "end": 1385
+            "end": 1334
           },
           {
-            "text": "Oxyhaemoglobin dissociation curve\n(OHDC)\nCO\n2\ncarriage\n·\nCO\n2\nproduced in TCA cycle\n·\nDiffuses into RBC\n·\nConverted by carbonic anhydrase and\nbuffered\no\nCO\n2\n+ H\n2\nO <-> H\n+\n+\nHCO\n3\n-\no\nCO\n2\n+ NH\n2\n<-",
-            "score": 0.07008404688069232,
-            "start": 1386,
+            "text": "Used for oxidative phosphorylation, ATP\nproduction\nOxyhaemoglobin dissociation curve\n(OHDC)\nCO\n2\ncarriage\n·\nCO\n2\nproduced in TCA cycle\n·\nDiffuses into RBC\n·\nConverted by carbonic anhydrase and\nbuffere",
+            "score": 0.08924333203133303,
+            "start": 1335,
             "end": 2169
           }
         ]
@@ -348,24 +347,60 @@
             "end": 2169
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3779242714477599,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.25178038205584335,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "2009B12 Discuss the production\nand function of red blood cells.\nList:\n·\nStructure\n·\nProduction\n·\nFunction\nRBC structure:\nMacro\n·\nBiconcave disc shaped cell in blood\n·\n8 x 2\nμ\nm\nContents\n·\nLarge amount",
+            "score": 0.25178038205584335,
+            "start": 0,
+            "end": 1385
+          },
+          {
             "text": "Oxyhaemoglobin dissociation curve\n(OHDC)\nCO\n2\ncarriage\n·\nCO\n2\nproduced in TCA cycle\n·\nDiffuses into RBC\n·\nConverted by carbonic anhydrase and\nbuffered\no\nCO\n2\n+ H\n2\nO <-> H\n+\n+\nHCO\n3\n-\no\nCO\n2\n+ NH\n2\n<-",
-            "score": 0.3779242714477599,
+            "score": 0.09433170997702066,
             "start": 1386,
+            "end": 2169
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.20006027090401593,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Used for oxidative phosphorylation, ATP\nproduction\nOxyhaemoglobin dissociation curve\n(OHDC)\nCO\n2\ncarriage\n·\nCO\n2\nproduced in TCA cycle\n·\nDiffuses into RBC\n·\nConverted by carbonic anhydrase and\nbuffere",
+            "score": 0.20006027090401593,
+            "start": 1335,
             "end": 2169
           },
           {
             "text": "2009B12 Discuss the production\nand function of red blood cells.\nList:\n·\nStructure\n·\nProduction\n·\nFunction\nRBC structure:\nMacro\n·\nBiconcave disc shaped cell in blood\n·\n8 x 2\nμ\nm\nContents\n·\nLarge amount",
-            "score": 0.19565989102814468,
+            "score": 0.12342301400327828,
             "start": 0,
-            "end": 1385
+            "end": 1334
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5359548319643413,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Used for oxidative phosphorylation, ATP\nproduction\nOxyhaemoglobin dissociation curve\n(OHDC)\nCO\n2\ncarriage\n·\nCO\n2\nproduced in TCA cycle\n·\nDiffuses into RBC\n·\nConverted by carbonic anhydrase and\nbuffere",
+            "score": 0.5359548319643413,
+            "start": 1335,
+            "end": 2169
+          },
+          {
+            "text": "2009B12 Discuss the production\nand function of red blood cells.\nList:\n·\nStructure\n·\nProduction\n·\nFunction\nRBC structure:\nMacro\n·\nBiconcave disc shaped cell in blood\n·\n8 x 2\nμ\nm\nContents\n·\nLarge amount",
+            "score": 0.4033813796001826,
+            "start": 0,
+            "end": 1334
           }
         ]
       },

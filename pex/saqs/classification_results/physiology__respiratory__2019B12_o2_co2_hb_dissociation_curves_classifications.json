@@ -16,7 +16,8 @@
       ]
     },
     "content_dimensions": [
-      "gas_exchange_process"
+      "gas_exchange_process",
+      "clinical_measurement_process"
     ],
     "explanatory_schema": []
   },
@@ -123,12 +124,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.12732266681585389,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.2838657351814178,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2019B12 Draw the oxygen-haemoglobin and carbon\ndioxide-haemoglobin dissociation curves\non the same axes (content vs. partial pressure). Compare and contrast these two\ncurves.\nList:\n·\nGraph\n·\nTable of ",
-            "score": 0.12732266681585389,
+            "score": 0.2838657351814178,
             "start": 0,
             "end": 1063
           }
@@ -195,12 +196,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07088101815552864,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.10401037605283608,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2019B12 Draw the oxygen-haemoglobin and carbon\ndioxide-haemoglobin dissociation curves\non the same axes (content vs. partial pressure). Compare and contrast these two\ncurves.\nList:\n·\nGraph\n·\nTable of ",
-            "score": 0.07088101815552864,
+            "score": 0.10401037605283608,
             "start": 0,
             "end": 1063
           }
@@ -241,16 +242,40 @@
             "end": 1063
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.09765591089184561,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2019B12 Draw the oxygen-haemoglobin and carbon\ndioxide-haemoglobin dissociation curves\non the same axes (content vs. partial pressure). Compare and contrast these two\ncurves.\nList:\n·\nGraph\n·\nTable of ",
+            "score": 0.09765591089184561,
+            "start": 0,
+            "end": 1063
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7236793780837079,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2019B12 Draw the oxygen-haemoglobin and carbon\ndioxide-haemoglobin dissociation curves\non the same axes (content vs. partial pressure). Compare and contrast these two\ncurves.\nList:\n·\nGraph\n·\nTable of ",
+            "score": 0.7236793780837079,
+            "start": 0,
+            "end": 1063
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.19932289324287283,
+        "score": 0.26541144562458285,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2019B12 Draw the oxygen-haemoglobin and carbon\ndioxide-haemoglobin dissociation curves\non the same axes (content vs. partial pressure). Compare and contrast these two\ncurves.\nList:\n·\nGraph\n·\nTable of ",
-            "score": 0.19932289324287283,
+            "score": 0.26541144562458285,
             "start": 0,
             "end": 1063
           }

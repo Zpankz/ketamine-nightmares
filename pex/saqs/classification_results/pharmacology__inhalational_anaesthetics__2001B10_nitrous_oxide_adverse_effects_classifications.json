@@ -13,13 +13,16 @@
       "score": 0.6821535298635499
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
+      "clinical_measurement_process",
       "equipment_and_physics",
       "neuromuscular_process",
+      "nociception_process",
+      "drug_receptor_disposition",
       "gas_exchange_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -174,20 +177,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7813784651714728,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6298600873558566,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Via ↑SNS output: ↑HR,\n↑contractility, ↑SVR\nRespiratory\n·\n↑RR, ↓TV\n·\n↑SNS output -> ↑PVR\n-> ↑RV strain\nCNS\n·\nMAC 105%, MAC-awake 67%; cannot be used alone as\nanaesthetic\n·\nPro-emetic\n·\n↑CBF, ↑ICP if\nsu",
-            "score": 0.7813784651714728,
-            "start": 1367,
+            "text": "↓contractility, ↓SVR\n·\nVia ↑SNS output: ↑HR,\n↑contractility, ↑SVR\nRespiratory\n·\n↑RR, ↓TV\n·\n↑SNS output -> ↑PVR\n-> ↑RV strain\nCNS\n·\nMAC 105%, MAC-awake 67%; cannot be used alone as\nanaesthetic\n·\nPro-em",
+            "score": 0.6298600873558566,
+            "start": 1344,
             "end": 1886
           },
           {
             "text": "2001B10 Briefly describe the\nadverse effects of nitrous oxide.\nList:\n·\nPharmaceutical\n·\nPharmacokinetic\n·\nPharmacodynamics\nPharmaceutical:\nImpurities\n·\nManufactured by superheating\nNH\n4\nNO\n3\nto 250\n°\n",
-            "score": 0.22213370116389697,
+            "score": 0.2776447299150455,
             "start": 0,
-            "end": 1366
+            "end": 1343
           }
         ]
       },
@@ -282,20 +285,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13302177898555526,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6721929353931337,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Via ↑SNS output: ↑HR,\n↑contractility, ↑SVR\nRespiratory\n·\n↑RR, ↓TV\n·\n↑SNS output -> ↑PVR\n-> ↑RV strain\nCNS\n·\nMAC 105%, MAC-awake 67%; cannot be used alone as\nanaesthetic\n·\nPro-emetic\n·\n↑CBF, ↑ICP if\nsu",
-            "score": 0.13302177898555526,
-            "start": 1367,
+            "text": "↓contractility, ↓SVR\n·\nVia ↑SNS output: ↑HR,\n↑contractility, ↑SVR\nRespiratory\n·\n↑RR, ↓TV\n·\n↑SNS output -> ↑PVR\n-> ↑RV strain\nCNS\n·\nMAC 105%, MAC-awake 67%; cannot be used alone as\nanaesthetic\n·\nPro-em",
+            "score": 0.6721929353931337,
+            "start": 1344,
             "end": 1886
           },
           {
             "text": "2001B10 Briefly describe the\nadverse effects of nitrous oxide.\nList:\n·\nPharmaceutical\n·\nPharmacokinetic\n·\nPharmacodynamics\nPharmaceutical:\nImpurities\n·\nManufactured by superheating\nNH\n4\nNO\n3\nto 250\n°\n",
-            "score": 0.10202987799295415,
+            "score": 0.17588393723954218,
             "start": 0,
-            "end": 1366
+            "end": 1343
           }
         ]
       },
@@ -352,24 +355,60 @@
             "end": 1366
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.3316361640846439,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Via ↑SNS output: ↑HR,\n↑contractility, ↑SVR\nRespiratory\n·\n↑RR, ↓TV\n·\n↑SNS output -> ↑PVR\n-> ↑RV strain\nCNS\n·\nMAC 105%, MAC-awake 67%; cannot be used alone as\nanaesthetic\n·\nPro-emetic\n·\n↑CBF, ↑ICP if\nsu",
+            "score": 0.3316361640846439,
+            "start": 1367,
+            "end": 1886
+          },
+          {
+            "text": "2001B10 Briefly describe the\nadverse effects of nitrous oxide.\nList:\n·\nPharmaceutical\n·\nPharmacokinetic\n·\nPharmacodynamics\nPharmaceutical:\nImpurities\n·\nManufactured by superheating\nNH\n4\nNO\n3\nto 250\n°\n",
+            "score": 0.09015630224155849,
+            "start": 0,
+            "end": 1366
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8164961183273113,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↓contractility, ↓SVR\n·\nVia ↑SNS output: ↑HR,\n↑contractility, ↑SVR\nRespiratory\n·\n↑RR, ↓TV\n·\n↑SNS output -> ↑PVR\n-> ↑RV strain\nCNS\n·\nMAC 105%, MAC-awake 67%; cannot be used alone as\nanaesthetic\n·\nPro-em",
+            "score": 0.8164961183273113,
+            "start": 1344,
+            "end": 1886
+          },
+          {
+            "text": "2001B10 Briefly describe the\nadverse effects of nitrous oxide.\nList:\n·\nPharmaceutical\n·\nPharmacokinetic\n·\nPharmacodynamics\nPharmaceutical:\nImpurities\n·\nManufactured by superheating\nNH\n4\nNO\n3\nto 250\n°\n",
+            "score": 0.13015328625585776,
+            "start": 0,
+            "end": 1343
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.24139747765085562,
+        "score": 0.7302518595070161,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2001B10 Briefly describe the\nadverse effects of nitrous oxide.\nList:\n·\nPharmaceutical\n·\nPharmacokinetic\n·\nPharmacodynamics\nPharmaceutical:\nImpurities\n·\nManufactured by superheating\nNH\n4\nNO\n3\nto 250\n°\n",
-            "score": 0.24139747765085562,
-            "start": 0,
-            "end": 1388
+            "text": "↓contractility, ↓SVR\n·\nVia ↑SNS output: ↑HR,\n↑contractility, ↑SVR\nRespiratory\n·\n↑RR, ↓TV\n·\n↑SNS output -> ↑PVR\n-> ↑RV strain\nCNS\n·\nMAC 105%, MAC-awake 67%; cannot be used alone as\nanaesthetic\n·\nPro-em",
+            "score": 0.7302518595070161,
+            "start": 1344,
+            "end": 1886
           },
           {
-            "text": "↑contractility, ↑SVR\nRespiratory\n·\n↑RR, ↓TV\n·\n↑SNS output -> ↑PVR\n-> ↑RV strain\nCNS\n·\nMAC 105%, MAC-awake 67%; cannot be used alone as\nanaesthetic\n·\nPro-emetic\n·\n↑CBF, ↑ICP if\nsusceptible\n·\nMinimal ef",
-            "score": 0.2045179371314406,
-            "start": 1389,
-            "end": 1886
+            "text": "2001B10 Briefly describe the\nadverse effects of nitrous oxide.\nList:\n·\nPharmaceutical\n·\nPharmacokinetic\n·\nPharmacodynamics\nPharmaceutical:\nImpurities\n·\nManufactured by superheating\nNH\n4\nNO\n3\nto 250\n°\n",
+            "score": 0.6353506082350193,
+            "start": 0,
+            "end": 1343
           }
         ]
       },

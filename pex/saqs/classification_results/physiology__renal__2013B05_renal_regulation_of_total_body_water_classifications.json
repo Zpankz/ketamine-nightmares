@@ -13,11 +13,12 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "equipment_and_physics",
       "organ_system_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -170,20 +171,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8086831144625273,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5950759221903399,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Synthesis: synthesized by hypothalamus,\n  released by posterior pituitary\n·\nStimulus:\no\n↑Osmolality (sensitive to\n∆\n2%)\no\n↓Blood volume (sensitive to\n∆\n10%)\no\n↓mAP\no\nAngiotensin 2\no\nStress\no\nDrugs\n·\nE",
-            "score": 0.8086831144625273,
-            "start": 1532,
+            "text": "*↑Total body water*\n·\nSynthesis: synthesized by hypothalamus,\n  released by posterior pituitary\n·\nStimulus:\no\n↑Osmolality (sensitive to\n∆\n2%)\no\n↓Blood volume (sensitive to\n∆\n10%)\no\n↓mAP\no\nAngiotensin ",
+            "score": 0.5950759221903399,
+            "start": 1510,
             "end": 2538
           },
           {
             "text": "2013B05 Outline\nthe role of the kidneys in the regulation of body water.\nList:\n·\nIntro\n·\nGlomerular filtration\n·\nTubular reabsorption: location and hormonal\ncontrol\nIntro: kidney’s\nregulation of body ",
-            "score": 0.12122754149981366,
+            "score": 0.21207433610868814,
             "start": 0,
-            "end": 1531
+            "end": 1509
           }
         ]
       },
@@ -278,20 +279,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10803954311448256,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.3839875049608557,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Synthesis: synthesized by hypothalamus,\n  released by posterior pituitary\n·\nStimulus:\no\n↑Osmolality (sensitive to\n∆\n2%)\no\n↓Blood volume (sensitive to\n∆\n10%)\no\n↓mAP\no\nAngiotensin 2\no\nStress\no\nDrugs\n·\nE",
-            "score": 0.10803954311448256,
-            "start": 1532,
+            "text": "*↑Total body water*\n·\nSynthesis: synthesized by hypothalamus,\n  released by posterior pituitary\n·\nStimulus:\no\n↑Osmolality (sensitive to\n∆\n2%)\no\n↓Blood volume (sensitive to\n∆\n10%)\no\n↓mAP\no\nAngiotensin ",
+            "score": 0.3839875049608557,
+            "start": 1510,
             "end": 2538
           },
           {
             "text": "2013B05 Outline\nthe role of the kidneys in the regulation of body water.\nList:\n·\nIntro\n·\nGlomerular filtration\n·\nTubular reabsorption: location and hormonal\ncontrol\nIntro: kidney’s\nregulation of body ",
-            "score": 0.07576714551953342,
+            "score": 0.08609013263273645,
             "start": 0,
-            "end": 1531
+            "end": 1509
           }
         ]
       },
@@ -348,24 +349,60 @@
             "end": 1531
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.26111115675759133,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.24510806609584046,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "2013B05 Outline\nthe role of the kidneys in the regulation of body water.\nList:\n·\nIntro\n·\nGlomerular filtration\n·\nTubular reabsorption: location and hormonal\ncontrol\nIntro: kidney’s\nregulation of body ",
+            "score": 0.24510806609584046,
+            "start": 0,
+            "end": 1531
+          },
+          {
             "text": "Synthesis: synthesized by hypothalamus,\n  released by posterior pituitary\n·\nStimulus:\no\n↑Osmolality (sensitive to\n∆\n2%)\no\n↓Blood volume (sensitive to\n∆\n10%)\no\n↓mAP\no\nAngiotensin 2\no\nStress\no\nDrugs\n·\nE",
-            "score": 0.26111115675759133,
+            "score": 0.21207433610868814,
             "start": 1532,
+            "end": 2538
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.5915991033048553,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "*↑Total body water*\n·\nSynthesis: synthesized by hypothalamus,\n  released by posterior pituitary\n·\nStimulus:\no\n↑Osmolality (sensitive to\n∆\n2%)\no\n↓Blood volume (sensitive to\n∆\n10%)\no\n↓mAP\no\nAngiotensin ",
+            "score": 0.5915991033048553,
+            "start": 1510,
             "end": 2538
           },
           {
             "text": "2013B05 Outline\nthe role of the kidneys in the regulation of body water.\nList:\n·\nIntro\n·\nGlomerular filtration\n·\nTubular reabsorption: location and hormonal\ncontrol\nIntro: kidney’s\nregulation of body ",
-            "score": 0.17725503064072845,
+            "score": 0.11584261865163957,
             "start": 0,
-            "end": 1531
+            "end": 1509
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6830951529486253,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "*↑Total body water*\n·\nSynthesis: synthesized by hypothalamus,\n  released by posterior pituitary\n·\nStimulus:\no\n↑Osmolality (sensitive to\n∆\n2%)\no\n↓Blood volume (sensitive to\n∆\n10%)\no\n↓mAP\no\nAngiotensin ",
+            "score": 0.6830951529486253,
+            "start": 1510,
+            "end": 2538
+          },
+          {
+            "text": "2013B05 Outline\nthe role of the kidneys in the regulation of body water.\nList:\n·\nIntro\n·\nGlomerular filtration\n·\nTubular reabsorption: location and hormonal\ncontrol\nIntro: kidney’s\nregulation of body ",
+            "score": 0.16912400446358591,
+            "start": 0,
+            "end": 1509
           }
         ]
       },

@@ -20,7 +20,7 @@
     "content_dimensions": [
       "neuromuscular_process",
       "organ_system_process",
-      "drug_receptor_disposition",
+      "nociception_process",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
@@ -226,26 +226,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7397445008530983,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5440664616780486,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  tingling, tinnitus, vertigo, slurred speech, inattention, twitching, seizures\n·\nThen\n  inhibitory effects\no\nInhibition\n  of excitatory interneurons and others\no\nComa,\n  apnoea\nLAST:\ncardiovascular e",
-            "score": 0.7397445008530983,
-            "start": 1286,
-            "end": 2689
-          },
-          {
-            "text": "  factors: dose >600mg, neonate (↓reductase activity)\n·\nRx:\n  methylene blue 1-2mg/kg IV over 5 mins\nCocaine toxicity\n·\nCVS:\n  noradrenaline reuptake inhibition -> ↑ICF Ca\n2+\n-> arrhythmias,\n  coronar",
-            "score": 0.4339850135656046,
-            "start": 2690,
-            "end": 3281
+            "text": "Peri-oral\n  tingling, tinnitus, vertigo, slurred speech, inattention, twitching, seizures\n·\nThen\n  inhibitory effects\no\nInhibition\n  of excitatory interneurons and others\no\nComa,\n  apnoea\nLAST:\ncardio",
+            "score": 0.5440664616780486,
+            "start": 1276,
+            "end": 2680
           },
           {
             "text": "2002A09 Outline\nthe toxicity of local anaesthetics.\nList:\n·\nDeterminants of LAST\n·\nAmide thresholds\n·\nCNS toxicity\n·\nCVS toxicity\n·\nLocalised toxicity\n·\nOther\nDeterminants of\nlocal anaesthetic toxicit",
-            "score": 0.3708908328871195,
+            "score": 0.315494735817561,
             "start": 0,
-            "end": 1285
+            "end": 1275
+          },
+          {
+            "text": "2\n·\nRisk\n  factors: dose >600mg, neonate (↓reductase activity)\n·\nRx:\n  methylene blue 1-2mg/kg IV over 5 mins\nCocaine toxicity\n·\nCVS:\n  noradrenaline reuptake inhibition -> ↑ICF Ca\n2+\n-> arrhythmias,\n",
+            "score": 0.27149292917090906,
+            "start": 2681,
+            "end": 3281
           }
         ]
       },
@@ -370,25 +370,25 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09958592212583708,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7695481570317122,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
+            "text": "Peri-oral\n  tingling, tinnitus, vertigo, slurred speech, inattention, twitching, seizures\n·\nThen\n  inhibitory effects\no\nInhibition\n  of excitatory interneurons and others\no\nComa,\n  apnoea\nLAST:\ncardio",
+            "score": 0.7695481570317122,
+            "start": 1276,
+            "end": 2682
+          },
+          {
             "text": "2002A09 Outline\nthe toxicity of local anaesthetics.\nList:\n·\nDeterminants of LAST\n·\nAmide thresholds\n·\nCNS toxicity\n·\nCVS toxicity\n·\nLocalised toxicity\n·\nOther\nDeterminants of\nlocal anaesthetic toxicit",
-            "score": 0.09958592212583708,
+            "score": 0.5737139022911779,
             "start": 0,
-            "end": 1285
+            "end": 1275
           },
           {
-            "text": "  tingling, tinnitus, vertigo, slurred speech, inattention, twitching, seizures\n·\nThen\n  inhibitory effects\no\nInhibition\n  of excitatory interneurons and others\no\nComa,\n  apnoea\nLAST:\ncardiovascular e",
-            "score": 0.0952745927410768,
-            "start": 1286,
-            "end": 2689
-          },
-          {
-            "text": "  factors: dose >600mg, neonate (↓reductase activity)\n·\nRx:\n  methylene blue 1-2mg/kg IV over 5 mins\nCocaine toxicity\n·\nCVS:\n  noradrenaline reuptake inhibition -> ↑ICF Ca\n2+\n-> arrhythmias,\n  coronar",
-            "score": 0.0924623723009821,
-            "start": 2690,
+            "text": "·\nRisk\n  factors: dose >600mg, neonate (↓reductase activity)\n·\nRx:\n  methylene blue 1-2mg/kg IV over 5 mins\nCocaine toxicity\n·\nCVS:\n  noradrenaline reuptake inhibition -> ↑ICF Ca\n2+\n-> arrhythmias,\n  ",
+            "score": 0.37339766110635014,
+            "start": 2683,
             "end": 3281
           }
         ]
@@ -464,30 +464,78 @@
             "end": 2689
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.6786114956434602,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.18561555034757704,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  tingling, tinnitus, vertigo, slurred speech, inattention, twitching, seizures\n·\nThen\n  inhibitory effects\no\nInhibition\n  of excitatory interneurons and others\no\nComa,\n  apnoea\nLAST:\ncardiovascular e",
-            "score": 0.6786114956434602,
+            "score": 0.18561555034757704,
             "start": 1286,
             "end": 2689
           },
           {
+            "text": "2002A09 Outline\nthe toxicity of local anaesthetics.\nList:\n·\nDeterminants of LAST\n·\nAmide thresholds\n·\nCNS toxicity\n·\nCVS toxicity\n·\nLocalised toxicity\n·\nOther\nDeterminants of\nlocal anaesthetic toxicit",
+            "score": 0.09480246485705024,
+            "start": 0,
+            "end": 1285
+          },
+          {
             "text": "  factors: dose >600mg, neonate (↓reductase activity)\n·\nRx:\n  methylene blue 1-2mg/kg IV over 5 mins\nCocaine toxicity\n·\nCVS:\n  noradrenaline reuptake inhibition -> ↑ICF Ca\n2+\n-> arrhythmias,\n  coronar",
-            "score": 0.28610407002975813,
+            "score": 0.09292765927996026,
             "start": 2690,
+            "end": 3281
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.41279008047296173,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Peri-oral\n  tingling, tinnitus, vertigo, slurred speech, inattention, twitching, seizures\n·\nThen\n  inhibitory effects\no\nInhibition\n  of excitatory interneurons and others\no\nComa,\n  apnoea\nLAST:\ncardio",
+            "score": 0.41279008047296173,
+            "start": 1276,
+            "end": 2680
+          },
+          {
+            "text": "2002A09 Outline\nthe toxicity of local anaesthetics.\nList:\n·\nDeterminants of LAST\n·\nAmide thresholds\n·\nCNS toxicity\n·\nCVS toxicity\n·\nLocalised toxicity\n·\nOther\nDeterminants of\nlocal anaesthetic toxicit",
+            "score": 0.0874334962984957,
+            "start": 0,
+            "end": 1275
+          },
+          {
+            "text": "2\n·\nRisk\n  factors: dose >600mg, neonate (↓reductase activity)\n·\nRx:\n  methylene blue 1-2mg/kg IV over 5 mins\nCocaine toxicity\n·\nCVS:\n  noradrenaline reuptake inhibition -> ↑ICF Ca\n2+\n-> arrhythmias,\n",
+            "score": 0.08343914521545998,
+            "start": 2681,
+            "end": 3281
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8470823759078229,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Peri-oral\n  tingling, tinnitus, vertigo, slurred speech, inattention, twitching, seizures\n·\nThen\n  inhibitory effects\no\nInhibition\n  of excitatory interneurons and others\no\nComa,\n  apnoea\nLAST:\ncardio",
+            "score": 0.8470823759078229,
+            "start": 1276,
+            "end": 2682
+          },
+          {
+            "text": "·\nRisk\n  factors: dose >600mg, neonate (↓reductase activity)\n·\nRx:\n  methylene blue 1-2mg/kg IV over 5 mins\nCocaine toxicity\n·\nCVS:\n  noradrenaline reuptake inhibition -> ↑ICF Ca\n2+\n-> arrhythmias,\n  ",
+            "score": 0.6979895719427084,
+            "start": 2683,
             "end": 3281
           },
           {
             "text": "2002A09 Outline\nthe toxicity of local anaesthetics.\nList:\n·\nDeterminants of LAST\n·\nAmide thresholds\n·\nCNS toxicity\n·\nCVS toxicity\n·\nLocalised toxicity\n·\nOther\nDeterminants of\nlocal anaesthetic toxicit",
-            "score": 0.11478329593515615,
+            "score": 0.60034013024833,
             "start": 0,
-            "end": 1285
+            "end": 1275
           }
         ]
       },

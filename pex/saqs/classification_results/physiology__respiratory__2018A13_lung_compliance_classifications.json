@@ -14,7 +14,8 @@
       ]
     },
     "content_dimensions": [
-      "gas_exchange_process"
+      "gas_exchange_process",
+      "clinical_measurement_process"
     ],
     "explanatory_schema": [
       "structure_function_link"
@@ -219,26 +220,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.18561555034757704,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.24345511195943695,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welc",
-            "score": 0.18561555034757704,
-            "start": 4402,
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.24345511195943695,
+            "start": 1488,
+            "end": 2747
+          },
+          {
+            "text": "Fast unit: low resistance, low compliance\n�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  in",
+            "score": 0.24016747383683887,
+            "start": 4314,
             "end": 4637
           },
           {
             "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.11216054585062639,
+            "score": 0.22845576096855297,
             "start": 0,
             "end": 1487
-          },
-          {
-            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.10351313129730201,
-            "start": 1488,
-            "end": 2788
           }
         ]
       },
@@ -363,26 +364,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.19638930530173287,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.17588393723954218,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.19638930530173287,
-            "start": 4468,
+            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
+            "score": 0.17588393723954218,
+            "start": 0,
+            "end": 1487
+          },
+          {
+            "text": "�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g.",
+            "score": 0.17588393723954218,
+            "start": 4356,
             "end": 4637
           },
           {
-            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.08343914521545998,
-            "start": 0,
-            "end": 1533
-          },
-          {
-            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
-            "score": 0.07743609402993808,
-            "start": 1534,
-            "end": 2847
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.14917447507309806,
+            "start": 1488,
+            "end": 2747
           }
         ]
       },
@@ -457,30 +458,78 @@
             "end": 4637
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.4493949562467629,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Recruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.4493949562467629,
+            "start": 4470,
+            "end": 4637
+          },
+          {
+            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
+            "score": 0.28565571167771503,
+            "start": 1534,
+            "end": 2860
+          },
+          {
+            "text": "Measurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n�\nThe lag in ",
+            "score": 0.13828116177283872,
+            "start": 2861,
+            "end": 4469
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7401717773902717,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "i.e. much less than static compliance\nMeasurement in spontaneous ventilation\n�\nCannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume co",
+            "score": 0.7401717773902717,
+            "start": 2710,
+            "end": 4311
+          },
+          {
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.672431629654093,
+            "start": 1488,
+            "end": 2709
+          },
+          {
+            "text": "�\nFast unit: low resistance, low compliance\n�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  ",
+            "score": 0.4714657896274679,
+            "start": 4312,
+            "end": 4637
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.5438028256504265,
+        "score": 0.25599936209764323,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "Volume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n�\nThe lag in a property of a system behind\n  changes ",
-            "score": 0.5438028256504265,
-            "start": 2901,
-            "end": 4509
-          },
-          {
-            "text": "Absolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > Female\no\nTall > Short\n",
-            "score": 0.4285014832397582,
-            "start": 1556,
-            "end": 2900
-          },
-          {
-            "text": "  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.2955985180950471,
-            "start": 4510,
+            "text": "�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g.",
+            "score": 0.25599936209764323,
+            "start": 4356,
             "end": 4637
+          },
+          {
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.2543072934579991,
+            "start": 1488,
+            "end": 2747
+          },
+          {
+            "text": "Measurement in spontaneous ventilation\n�\nCannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspir",
+            "score": 0.20153979982073553,
+            "start": 2748,
+            "end": 4355
           }
         ]
       },

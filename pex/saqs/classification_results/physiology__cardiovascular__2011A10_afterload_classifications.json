@@ -13,8 +13,10 @@
       "score": 0.5182373542683717
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "autonomic_disposition",
-      "special_population_role"
+      "special_population_role",
+      "nociception_process"
     ],
     "explanatory_schema": []
   },
@@ -169,20 +171,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5737139022911779,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3708908328871195,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Pregnancy (uterus/placenta)\n·\nSimple obesity\n·\nSepsis\nAutonomic\nMechanisms:\n·\nNeural NAd ->\nα\n1\n->\n↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r\nExamples:\n·\nPain\n·\nAnxiety\n·\nExercise (↓r in gut, skin, ↑r in muscle)\nL",
-            "score": 0.5737139022911779,
-            "start": 1325,
+            "text": "Exercise (muscle)\n·\nPregnancy (uterus/placenta)\n·\nSimple obesity\n·\nSepsis\nAutonomic\nMechanisms:\n·\nNeural NAd ->\nα\n1\n->\n↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r\nExamples:\n·\nPain\n·\nAnxiety\n·\nExercise (↓r in gut, s",
+            "score": 0.3708908328871195,
+            "start": 1305,
             "end": 1605
           },
           {
             "text": "2011A10 Describe\nthe factors that oppose left ventricular ejection.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ventricular wall tension during LV",
-            "score": 0.13476114033048603,
+            "score": 0.1671270277650237,
             "start": 0,
-            "end": 1324
+            "end": 1304
           }
         ]
       },
@@ -277,20 +279,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.19420584422163265,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6606502369044678,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Pregnancy (uterus/placenta)\n·\nSimple obesity\n·\nSepsis\nAutonomic\nMechanisms:\n·\nNeural NAd ->\nα\n1\n->\n↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r\nExamples:\n·\nPain\n·\nAnxiety\n·\nExercise (↓r in gut, skin, ↑r in muscle)\nL",
-            "score": 0.19420584422163265,
-            "start": 1325,
+            "text": "Exercise (muscle)\n·\nPregnancy (uterus/placenta)\n·\nSimple obesity\n·\nSepsis\nAutonomic\nMechanisms:\n·\nNeural NAd ->\nα\n1\n->\n↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r\nExamples:\n·\nPain\n·\nAnxiety\n·\nExercise (↓r in gut, s",
+            "score": 0.6606502369044678,
+            "start": 1305,
             "end": 1605
           },
           {
             "text": "2011A10 Describe\nthe factors that oppose left ventricular ejection.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ventricular wall tension during LV",
-            "score": 0.10803954311448256,
+            "score": 0.20676821579165858,
             "start": 0,
-            "end": 1324
+            "end": 1304
           }
         ]
       },
@@ -347,24 +349,60 @@
             "end": 1324
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3321161147162773,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.39467046082532836,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Simple obesity\n·\nSepsis\nAutonomic\nMechanisms:\n·\nNeural NAd ->\nα\n1\n->\n↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r\nExamples:\n·\nPain\n·\nAnxiety\n·\nExercise (↓r in gut, skin, ↑r in muscle)\nLocal\n·\nDilators: e.g. histamin",
-            "score": 0.3321161147162773,
-            "start": 1355,
+            "text": "Pregnancy (uterus/placenta)\n·\nSimple obesity\n·\nSepsis\nAutonomic\nMechanisms:\n·\nNeural NAd ->\nα\n1\n->\n↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r\nExamples:\n·\nPain\n·\nAnxiety\n·\nExercise (↓r in gut, skin, ↑r in muscle)\nL",
+            "score": 0.39467046082532836,
+            "start": 1325,
             "end": 1605
           },
           {
             "text": "2011A10 Describe\nthe factors that oppose left ventricular ejection.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ventricular wall tension during LV",
-            "score": 0.32924077855991984,
+            "score": 0.12620097548419282,
             "start": 0,
-            "end": 1354
+            "end": 1324
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8220570318492292,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2011A10 Describe\nthe factors that oppose left ventricular ejection.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ventricular wall tension during LV",
+            "score": 0.8220570318492292,
+            "start": 0,
+            "end": 1304
+          },
+          {
+            "text": "Exercise (muscle)\n·\nPregnancy (uterus/placenta)\n·\nSimple obesity\n·\nSepsis\nAutonomic\nMechanisms:\n·\nNeural NAd ->\nα\n1\n->\n↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r\nExamples:\n·\nPain\n·\nAnxiety\n·\nExercise (↓r in gut, s",
+            "score": 0.24263091556480276,
+            "start": 1305,
+            "end": 1605
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3804468310238008,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Exercise (muscle)\n·\nPregnancy (uterus/placenta)\n·\nSimple obesity\n·\nSepsis\nAutonomic\nMechanisms:\n·\nNeural NAd ->\nα\n1\n->\n↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r\nExamples:\n·\nPain\n·\nAnxiety\n·\nExercise (↓r in gut, s",
+            "score": 0.3804468310238008,
+            "start": 1305,
+            "end": 1605
+          },
+          {
+            "text": "2011A10 Describe\nthe factors that oppose left ventricular ejection.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ventricular wall tension during LV",
+            "score": 0.19420584422163265,
+            "start": 0,
+            "end": 1304
           }
         ]
       },

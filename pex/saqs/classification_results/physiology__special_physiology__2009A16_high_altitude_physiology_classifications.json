@@ -15,13 +15,15 @@
       "score": 0.6683638359153561
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "gas_exchange_process",
       "equipment_and_physics",
+      "clinical_measurement_process",
+      "drug_receptor_disposition",
       "organ_system_process",
       "neuromuscular_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "structure_function_link",
       "dose_response_relationship"
@@ -226,26 +228,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.897970122007046,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7511506289456575,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Sensor:\no\n↓PaO\n2\nsensed by peripheral chemoreceptors\no\nCarotid\n  > aortic bodies\no\nSensitive\n  to PaO\n2\n, especially if <60mmHg\n·\nController:\no\n↑Stimulation\n  of medullary resp centre\n·\nEffector:\no\n↑R",
-            "score": 0.897970122007046,
-            "start": 1490,
-            "end": 2626
+            "text": "↑VA (most important)\n·\nSensor:\no\n↓PaO\n2\nsensed by peripheral chemoreceptors\no\nCarotid\n  > aortic bodies\no\nSensitive\n  to PaO\n2\n, especially if <60mmHg\n·\nController:\no\n↑Stimulation\n  of medullary resp ",
+            "score": 0.7511506289456575,
+            "start": 1467,
+            "end": 2584
           },
           {
-            "text": "reabsorption in kidney (~3\n  days)\no\nR shift\n  OHDC -> ↑O\n2\ntissue uptake\no\n↓inhibition\n  of chemoreceptors -> further ↑VA\n·\nOf brain: ↑HCO\n3\n-\nefflux from CSF hence brain\n  ECF (~1 day)\no\n↓Inhibition",
-            "score": 0.7016614724149135,
-            "start": 2627,
-            "end": 3887
+            "text": "Plasma acidification\n·\nOf blood: ↓HCO\n3\n-\nreabsorption in kidney (~3\n  days)\no\nR shift\n  OHDC -> ↑O\n2\ntissue uptake\no\n↓inhibition\n  of chemoreceptors -> further ↑VA\n·\nOf brain: ↑HCO\n3\n-\nefflux from CS",
+            "score": 0.5068329237372005,
+            "start": 2585,
+            "end": 3785
           },
           {
-            "text": "2009A16 Outline\nthe effects of acute exposure to air at altitude where barometric pressure is\n347mmHg.\nWhat compensatory mechanisms occur with gradual exposure to increasing\naltitude?\nList:\n·\nAcute ex",
-            "score": 0.10753089785761477,
-            "start": 0,
-            "end": 1489
+            "text": "↑Expression of hypoxia-inducible transcription factors\n·\nHighest human habitation ~6000m\nOther: (from\nexaminer’s report)\nProblems not related to hypoxia\n·\nCold exposure\n·\nUV light -> skin cancer\n·\nCos",
+            "score": 0.25940131470313366,
+            "start": 3786,
+            "end": 4009
           }
         ]
       },
@@ -370,26 +372,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12068239347016409,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.37164227593645077,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓PaO\n2\nsensed by peripheral chemoreceptors\no\nCarotid\n  > aortic bodies\no\nSensitive\n  to PaO\n2\n, especially if <60mmHg\n·\nController:\no\n↑Stimulation\n  of medullary resp centre\n·\nEffector:\no\n↑Resp\n  rate",
-            "score": 0.12068239347016409,
-            "start": 1500,
-            "end": 2663
+            "text": "↑VA (most important)\n·\nSensor:\no\n↓PaO\n2\nsensed by peripheral chemoreceptors\no\nCarotid\n  > aortic bodies\no\nSensitive\n  to PaO\n2\n, especially if <60mmHg\n·\nController:\no\n↑Stimulation\n  of medullary resp ",
+            "score": 0.37164227593645077,
+            "start": 1467,
+            "end": 2605
           },
           {
-            "text": "R shift\n  OHDC -> ↑O\n2\ntissue uptake\no\n↓inhibition\n  of chemoreceptors -> further ↑VA\n·\nOf brain: ↑HCO\n3\n-\nefflux from CSF hence brain\n  ECF (~1 day)\no\n↓Inhibition\n  of central chemoreceptors\n·\nThis a",
-            "score": 0.0966992383588072,
-            "start": 2664,
-            "end": 3954
+            "text": "·\nOf blood: ↓HCO\n3\n-\nreabsorption in kidney (~3\n  days)\no\nR shift\n  OHDC -> ↑O\n2\ntissue uptake\no\n↓inhibition\n  of chemoreceptors -> further ↑VA\n·\nOf brain: ↑HCO\n3\n-\nefflux from CSF hence brain\n  ECF (",
+            "score": 0.34933703035082736,
+            "start": 2606,
+            "end": 3785
           },
           {
-            "text": "·\nUV light -> skin cancer\n·\nCosmic radiation -> cancer",
-            "score": 0.08431753646250958,
-            "start": 3955,
-            "end": 4009
+            "text": "2009A16 Outline\nthe effects of acute exposure to air at altitude where barometric pressure is\n347mmHg.\nWhat compensatory mechanisms occur with gradual exposure to increasing\naltitude?\nList:\n·\nAcute ex",
+            "score": 0.10651790355261252,
+            "start": 0,
+            "end": 1466
           }
         ]
       },
@@ -464,30 +466,78 @@
             "end": 4009
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.470175839440699,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.4652425374228779,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "2009A16 Outline\nthe effects of acute exposure to air at altitude where barometric pressure is\n347mmHg.\nWhat compensatory mechanisms occur with gradual exposure to increasing\naltitude?\nList:\n·\nAcute ex",
-            "score": 0.470175839440699,
-            "start": 0,
-            "end": 1499
-          },
-          {
-            "text": "  OHDC -> ↑O\n2\ntissue uptake\no\n↓inhibition\n  of chemoreceptors -> further ↑VA\n·\nOf brain: ↑HCO\n3\n-\nefflux from CSF hence brain\n  ECF (~1 day)\no\n↓Inhibition\n  of central chemoreceptors\n·\nThis allows fu",
-            "score": 0.4302624878703577,
-            "start": 2672,
+            "text": "R shift\n  OHDC -> ↑O\n2\ntissue uptake\no\n↓inhibition\n  of chemoreceptors -> further ↑VA\n·\nOf brain: ↑HCO\n3\n-\nefflux from CSF hence brain\n  ECF (~1 day)\no\n↓Inhibition\n  of central chemoreceptors\n·\nThis a",
+            "score": 0.4652425374228779,
+            "start": 2664,
             "end": 3956
           },
           {
             "text": "↓PaO\n2\nsensed by peripheral chemoreceptors\no\nCarotid\n  > aortic bodies\no\nSensitive\n  to PaO\n2\n, especially if <60mmHg\n·\nController:\no\n↑Stimulation\n  of medullary resp centre\n·\nEffector:\no\n↑Resp\n  rate",
-            "score": 0.3898266577123184,
+            "score": 0.45248764066938313,
             "start": 1500,
-            "end": 2671
+            "end": 2663
+          },
+          {
+            "text": "UV light -> skin cancer\n·\nCosmic radiation -> cancer",
+            "score": 0.25599936209764323,
+            "start": 3957,
+            "end": 4009
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8628983115034754,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↑VA (most important)\n·\nSensor:\no\n↓PaO\n2\nsensed by peripheral chemoreceptors\no\nCarotid\n  > aortic bodies\no\nSensitive\n  to PaO\n2\n, especially if <60mmHg\n·\nController:\no\n↑Stimulation\n  of medullary resp ",
+            "score": 0.8628983115034754,
+            "start": 1467,
+            "end": 2584
+          },
+          {
+            "text": "Plasma acidification\n·\nOf blood: ↓HCO\n3\n-\nreabsorption in kidney (~3\n  days)\no\nR shift\n  OHDC -> ↑O\n2\ntissue uptake\no\n↓inhibition\n  of chemoreceptors -> further ↑VA\n·\nOf brain: ↑HCO\n3\n-\nefflux from CS",
+            "score": 0.8477101477321045,
+            "start": 2585,
+            "end": 3785
+          },
+          {
+            "text": "2009A16 Outline\nthe effects of acute exposure to air at altitude where barometric pressure is\n347mmHg.\nWhat compensatory mechanisms occur with gradual exposure to increasing\naltitude?\nList:\n·\nAcute ex",
+            "score": 0.632109684549788,
+            "start": 0,
+            "end": 1466
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8057941557783673,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "↑VA (most important)\n·\nSensor:\no\n↓PaO\n2\nsensed by peripheral chemoreceptors\no\nCarotid\n  > aortic bodies\no\nSensitive\n  to PaO\n2\n, especially if <60mmHg\n·\nController:\no\n↑Stimulation\n  of medullary resp ",
+            "score": 0.8057941557783673,
+            "start": 1467,
+            "end": 2605
+          },
+          {
+            "text": "·\nOf blood: ↓HCO\n3\n-\nreabsorption in kidney (~3\n  days)\no\nR shift\n  OHDC -> ↑O\n2\ntissue uptake\no\n↓inhibition\n  of chemoreceptors -> further ↑VA\n·\nOf brain: ↑HCO\n3\n-\nefflux from CSF hence brain\n  ECF (",
+            "score": 0.7440006379023568,
+            "start": 2606,
+            "end": 3840
+          },
+          {
+            "text": "2009A16 Outline\nthe effects of acute exposure to air at altitude where barometric pressure is\n347mmHg.\nWhat compensatory mechanisms occur with gradual exposure to increasing\naltitude?\nList:\n·\nAcute ex",
+            "score": 0.582484985886973,
+            "start": 0,
+            "end": 1466
           }
         ]
       },

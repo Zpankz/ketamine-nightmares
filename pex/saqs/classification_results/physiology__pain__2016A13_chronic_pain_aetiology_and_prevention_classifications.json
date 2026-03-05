@@ -17,11 +17,13 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
+      "nociception_process",
       "organ_system_process",
+      "drug_receptor_disposition",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -176,20 +178,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8254807828860911,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6826244959044427,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  ↑c-Fos, COX-2\no\nLate:\n  ↑NK1, TrkB\nGain of function of excitatory neurons\n·\nInhibition of VDKC -> ↑excitability\nLoss of function of inhibitory neurons\n·\n(Don’t know the cause)\nAbnormal new connectio",
-            "score": 0.8254807828860911,
-            "start": 1677,
+            "text": "messenger and altered gene expression\no\nEarly:\n  ↑c-Fos, COX-2\no\nLate:\n  ↑NK1, TrkB\nGain of function of excitatory neurons\n·\nInhibition of VDKC -> ↑excitability\nLoss of function of inhibitory neurons\n",
+            "score": 0.6826244959044427,
+            "start": 1630,
             "end": 2772
           },
           {
             "text": "2016A13 Outline\nthe physiological mechanisms of progression from acute to chronic pain\nand how drugs may alter this progression.\nList:\n·\nIntro: chronic pain\n·\nPeripheral sensitization\n·\nDorsal horn se",
-            "score": 0.6445180724683895,
+            "score": 0.40055728830355014,
             "start": 0,
-            "end": 1676
+            "end": 1629
           }
         ]
       },
@@ -284,20 +286,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.36863965126426407,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.858743228103057,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2016A13 Outline\nthe physiological mechanisms of progression from acute to chronic pain\nand how drugs may alter this progression.\nList:\n·\nIntro: chronic pain\n·\nPeripheral sensitization\n·\nDorsal horn se",
-            "score": 0.36863965126426407,
-            "start": 0,
-            "end": 1676
+            "text": "o\nEarly:\n  ↑c-Fos, COX-2\no\nLate:\n  ↑NK1, TrkB\nGain of function of excitatory neurons\n·\nInhibition of VDKC -> ↑excitability\nLoss of function of inhibitory neurons\n·\n(Don’t know the cause)\nAbnormal new ",
+            "score": 0.858743228103057,
+            "start": 1668,
+            "end": 2772
           },
           {
-            "text": "  ↑c-Fos, COX-2\no\nLate:\n  ↑NK1, TrkB\nGain of function of excitatory neurons\n·\nInhibition of VDKC -> ↑excitability\nLoss of function of inhibitory neurons\n·\n(Don’t know the cause)\nAbnormal new connectio",
-            "score": 0.12177417567627631,
-            "start": 1677,
-            "end": 2772
+            "text": "2016A13 Outline\nthe physiological mechanisms of progression from acute to chronic pain\nand how drugs may alter this progression.\nList:\n·\nIntro: chronic pain\n·\nPeripheral sensitization\n·\nDorsal horn se",
+            "score": 0.7759013874121433,
+            "start": 0,
+            "end": 1667
           }
         ]
       },
@@ -354,24 +356,60 @@
             "end": 2772
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.3369314435607793,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  ↑c-Fos, COX-2\no\nLate:\n  ↑NK1, TrkB\nGain of function of excitatory neurons\n·\nInhibition of VDKC -> ↑excitability\nLoss of function of inhibitory neurons\n·\n(Don’t know the cause)\nAbnormal new connectio",
+            "score": 0.3369314435607793,
+            "start": 1677,
+            "end": 2772
+          },
+          {
+            "text": "2016A13 Outline\nthe physiological mechanisms of progression from acute to chronic pain\nand how drugs may alter this progression.\nList:\n·\nIntro: chronic pain\n·\nPeripheral sensitization\n·\nDorsal horn se",
+            "score": 0.23894091082715616,
+            "start": 0,
+            "end": 1676
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.15417787288657336,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "messenger and altered gene expression\no\nEarly:\n  ↑c-Fos, COX-2\no\nLate:\n  ↑NK1, TrkB\nGain of function of excitatory neurons\n·\nInhibition of VDKC -> ↑excitability\nLoss of function of inhibitory neurons\n",
+            "score": 0.15417787288657336,
+            "start": 1630,
+            "end": 2772
+          },
+          {
+            "text": "2016A13 Outline\nthe physiological mechanisms of progression from acute to chronic pain\nand how drugs may alter this progression.\nList:\n·\nIntro: chronic pain\n·\nPeripheral sensitization\n·\nDorsal horn se",
+            "score": 0.08969914404147739,
+            "start": 0,
+            "end": 1629
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.34299032368214316,
+        "score": 0.8464530360558368,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2016A13 Outline\nthe physiological mechanisms of progression from acute to chronic pain\nand how drugs may alter this progression.\nList:\n·\nIntro: chronic pain\n·\nPeripheral sensitization\n·\nDorsal horn se",
-            "score": 0.34299032368214316,
-            "start": 0,
-            "end": 1692
+            "text": "o\nEarly:\n  ↑c-Fos, COX-2\no\nLate:\n  ↑NK1, TrkB\nGain of function of excitatory neurons\n·\nInhibition of VDKC -> ↑excitability\nLoss of function of inhibitory neurons\n·\n(Don’t know the cause)\nAbnormal new ",
+            "score": 0.8464530360558368,
+            "start": 1668,
+            "end": 2772
           },
           {
-            "text": "o\nLate:\n  ↑NK1, TrkB\nGain of function of excitatory neurons\n·\nInhibition of VDKC -> ↑excitability\nLoss of function of inhibitory neurons\n·\n(Don’t know the cause)\nAbnormal new connections\n·\ne.g. Aβ 1° ",
-            "score": 0.25812280612051225,
-            "start": 1693,
-            "end": 2772
+            "text": "2016A13 Outline\nthe physiological mechanisms of progression from acute to chronic pain\nand how drugs may alter this progression.\nList:\n·\nIntro: chronic pain\n·\nPeripheral sensitization\n·\nDorsal horn se",
+            "score": 0.7302518595070161,
+            "start": 0,
+            "end": 1667
           }
         ]
       },

@@ -18,12 +18,13 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
+      "clinical_measurement_process",
       "neuromuscular_process",
-      "drug_receptor_disposition",
       "autonomic_disposition",
       "organ_system_process",
       "equipment_and_physics",
-      "acid_base_quality"
+      "acid_base_quality",
+      "drug_receptor_disposition"
     ],
     "explanatory_schema": [
       "structure_function_link",
@@ -230,26 +231,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8387782837936923,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6821535298635499,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Oxygen:\n�\n↓PaO\n2\n<50mmHg ->\n  vasodilate -> ↑radius -> ↑CBF\n�\nNon-linear response. Doubles at 30mmHg\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓CMR -> ↓",
-            "score": 0.8387782837936923,
-            "start": 1368,
-            "end": 2577
+            "text": "Physiological variables\nOxygen:\n�\n↓PaO\n2\n<50mmHg ->\n  vasodilate -> ↑radius -> ↑CBF\n�\nNon-linear response. Doubles at 30mmHg\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTempera",
+            "score": 0.6821535298635499,
+            "start": 1344,
+            "end": 2558
           },
           {
-            "text": "No valves: allows equilibration of venous\n  pressure\n�\nElastic and distensible: minimizes resistance\n  to flow\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.10450903806925663,
-            "start": 2578,
+            "text": "Drainage design:\n�\nNo valves: allows equilibration of venous\n  pressure\n�\nElastic and distensible: minimizes resistance\n  to flow\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.13534398140930778,
+            "start": 2559,
             "end": 2737
           },
           {
             "text": "2021B07 Describe the normal regulation of cerebral blood flow and outline\nphysiological factors which may alter it. DO NOT discuss the effect of\nmedications or pathology.\nList:\n�\nIntro\n�\nFlow dynamics",
-            "score": 0.1010480871715535,
+            "score": 0.12122754149981366,
             "start": 0,
-            "end": 1367
+            "end": 1343
           }
         ]
       },
@@ -374,26 +375,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09910133017588658,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.4836846338387401,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓PaO\n2\n<50mmHg ->\n  vasodilate -> ↑radius -> ↑CBF\n�\nNon-linear response. Doubles at 30mmHg\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓CMR -> ↓CBF via me",
-            "score": 0.09910133017588658,
-            "start": 1378,
-            "end": 2632
+            "text": "Physiological variables\nOxygen:\n�\n↓PaO\n2\n<50mmHg ->\n  vasodilate -> ↑radius -> ↑CBF\n�\nNon-linear response. Doubles at 30mmHg\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTempera",
+            "score": 0.4836846338387401,
+            "start": 1344,
+            "end": 2558
           },
           {
-            "text": "Elastic and distensible: minimizes resistance\n  to flow\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.0952745927410768,
-            "start": 2633,
+            "text": "Drainage design:\n�\nNo valves: allows equilibration of venous\n  pressure\n�\nElastic and distensible: minimizes resistance\n  to flow\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.12620097548419282,
+            "start": 2559,
             "end": 2737
           },
           {
             "text": "2021B07 Describe the normal regulation of cerebral blood flow and outline\nphysiological factors which may alter it. DO NOT discuss the effect of\nmedications or pathology.\nList:\n�\nIntro\n�\nFlow dynamics",
-            "score": 0.0812660655061236,
+            "score": 0.10753089785761477,
             "start": 0,
-            "end": 1377
+            "end": 1343
           }
         ]
       },
@@ -468,30 +469,78 @@
             "end": 1367
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.5888895497134445,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↓PaO\n2\n<50mmHg ->\n  vasodilate -> ↑radius -> ↑CBF\n�\nNon-linear response. Doubles at 30mmHg\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓CMR -> ↓CBF via me",
+            "score": 0.5888895497134445,
+            "start": 1378,
+            "end": 2632
+          },
+          {
+            "text": "2021B07 Describe the normal regulation of cerebral blood flow and outline\nphysiological factors which may alter it. DO NOT discuss the effect of\nmedications or pathology.\nList:\n�\nIntro\n�\nFlow dynamics",
+            "score": 0.2684433312271226,
+            "start": 0,
+            "end": 1377
+          },
+          {
+            "text": "Elastic and distensible: minimizes resistance\n  to flow\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.2381251169525195,
+            "start": 2633,
+            "end": 2737
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.9212988168066547,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  -> ↓flow\nPhysiological variables\nOxygen:\n�\n↓PaO\n2\n<50mmHg ->\n  vasodilate -> ↑radius -> ↑CBF\n�\nNon-linear response. Doubles at 30mmHg\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80m",
+            "score": 0.9212988168066547,
+            "start": 1333,
+            "end": 2536
+          },
+          {
+            "text": "2021B07 Describe the normal regulation of cerebral blood flow and outline\nphysiological factors which may alter it. DO NOT discuss the effect of\nmedications or pathology.\nList:\n�\nIntro\n�\nFlow dynamics",
+            "score": 0.8545124702668796,
+            "start": 0,
+            "end": 1332
+          },
+          {
+            "text": "Dural venous sinuses:\nDrainage design:\n�\nNo valves: allows equilibration of venous\n  pressure\n�\nElastic and distensible: minimizes resistance\n  to flow\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.41770946802210934,
+            "start": 2537,
+            "end": 2737
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.3542497001837563,
+        "score": 0.5666685263888773,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2\n<50mmHg ->\n  vasodilate -> ↑radius -> ↑CBF\n�\nNon-linear response. Doubles at 30mmHg\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTemperature:\n�\n↓Temp: ↓CMR -> ↓CBF via metabol",
-            "score": 0.3542497001837563,
-            "start": 1383,
-            "end": 2678
+            "text": "Physiological variables\nOxygen:\n�\n↓PaO\n2\n<50mmHg ->\n  vasodilate -> ↑radius -> ↑CBF\n�\nNon-linear response. Doubles at 30mmHg\nCarbon dioxide:\n�\n↑PaCO\n2\n-> vasodilate\n�\nLinear response 20-80mmHg\nTempera",
+            "score": 0.5666685263888773,
+            "start": 1344,
+            "end": 2558
+          },
+          {
+            "text": "Drainage design:\n�\nNo valves: allows equilibration of venous\n  pressure\n�\nElastic and distensible: minimizes resistance\n  to flow\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.14427099224346063,
+            "start": 2559,
+            "end": 2737
           },
           {
             "text": "2021B07 Describe the normal regulation of cerebral blood flow and outline\nphysiological factors which may alter it. DO NOT discuss the effect of\nmedications or pathology.\nList:\n�\nIntro\n�\nFlow dynamics",
-            "score": 0.1949320705626118,
+            "score": 0.1179788782423308,
             "start": 0,
-            "end": 1382
-          },
-          {
-            "text": "  to flow\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.14185652155095707,
-            "start": 2679,
-            "end": 2737
+            "end": 1343
           }
         ]
       },

@@ -165,19 +165,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.38906349029705456,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3796894888668699,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.38906349029705456,
+            "score": 0.3796894888668699,
             "start": 0,
-            "end": 1314
+            "end": 1299
           },
           {
-            "text": "↓albumin\n·\n↓AAG",
-            "score": 0.24718278933502774,
-            "start": 1315,
+            "text": "Malnourished\n·\n↓albumin\n·\n↓AAG",
+            "score": 0.3388655371870019,
+            "start": 1300,
             "end": 1330
           }
         ]
@@ -273,20 +273,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.29788102716500814,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.25220059901524183,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓AAG",
-            "score": 0.29788102716500814,
-            "start": 1326,
+            "text": "Malnourished\n·\n↓albumin\n·\n↓AAG",
+            "score": 0.25220059901524183,
+            "start": 1300,
             "end": 1330
           },
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.08387768404930426,
+            "score": 0.10202987799295415,
             "start": 0,
-            "end": 1325
+            "end": 1299
           }
         ]
       },
@@ -343,24 +343,60 @@
             "end": 1330
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.23165414560489295,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.41628397662998934,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↓AAG",
-            "score": 0.23165414560489295,
+            "score": 0.41628397662998934,
             "start": 1326,
             "end": 1330
           },
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.15291762409217716,
+            "score": 0.09015630224155849,
             "start": 0,
             "end": 1325
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.3586931821398125,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Malnourished\n·\n↓albumin\n·\n↓AAG",
+            "score": 0.3586931821398125,
+            "start": 1300,
+            "end": 1330
+          },
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.11216054585062639,
+            "start": 0,
+            "end": 1299
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.36838981355048184,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Malnourished\n·\n↓albumin\n·\n↓AAG",
+            "score": 0.36838981355048184,
+            "start": 1300,
+            "end": 1330
+          },
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.22056881707219475,
+            "start": 0,
+            "end": 1299
           }
         ]
       },

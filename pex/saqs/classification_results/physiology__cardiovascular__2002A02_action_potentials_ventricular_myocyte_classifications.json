@@ -115,12 +115,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.14548752973312049,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.22056881707219475,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.14548752973312049,
+            "score": 0.22056881707219475,
             "start": 0,
             "end": 903
           }
@@ -187,12 +187,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08343914521545998,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.11164036043761141,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.08343914521545998,
+            "score": 0.11164036043761141,
             "start": 0,
             "end": 903
           }
@@ -233,16 +233,40 @@
             "end": 903
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.1256423848664057,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.1256423848664057,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.4368628670492074,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.4368628670492074,
+            "start": 0,
+            "end": 903
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.20153979982073553,
+        "score": 0.25599936209764323,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.20153979982073553,
+            "score": 0.25599936209764323,
             "start": 0,
             "end": 903
           }

@@ -18,6 +18,7 @@
       "autonomic_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link",
       "dose_response_relationship"
     ]
@@ -221,26 +222,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7138959299702419,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.699828159076269,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  release or mAChR effect)\n↑Diffusion coefficient\n·\nLess relevant due to fenestrated muscle\n  capillaries\nDynamics:\nFactors ↑ED\n95\n(less important)\nPhysiology\n·\n↑K\n+\n: membrane potential less\n  negati",
-            "score": 0.7138959299702419,
-            "start": 1297,
-            "end": 2628
-          },
-          {
-            "text": ", aminoglycosides,\n  volatiles)\nPost-synaptic drugs\n↓Ion flux through nAChR\n·\nBlock post-synaptic nAChR: other non-depolarisers, volatiles,\n  aminoglycoside, quinidine\n·\nDesensitisation blockade (vola",
-            "score": 0.6717153253539773,
-            "start": 2629,
+            "text": "Block pre-synaptic nAChR (volatiles)\n·\nBlock L-Ca\n2+\n(CCB, Mg\n2+\n, aminoglycosides,\n  volatiles)\nPost-synaptic drugs\n↓Ion flux through nAChR\n·\nBlock post-synaptic nAChR: other non-depolarisers, volati",
+            "score": 0.699828159076269,
+            "start": 2564,
             "end": 3087
           },
           {
+            "text": "↓Toxicity -> ↑max safe dose (e.g. rocuronium no histamine\n  release or mAChR effect)\n↑Diffusion coefficient\n·\nLess relevant due to fenestrated muscle\n  capillaries\nDynamics:\nFactors ↑ED\n95\n(less impor",
+            "score": 0.6430372873970508,
+            "start": 1239,
+            "end": 2563
+          },
+          {
             "text": "2004A02 Outline\nfactors determining speed of onset of neuromuscular blocking agents.\nList:\n·\nIntro\n·\nKinetics: dose -> Cp\n·\nBiophasics: Cp -> Ce (Fick’s law)\n·\nDynamics: Ce -> effect (factors affectin",
-            "score": 0.5261850218079062,
+            "score": 0.3646493917649807,
             "start": 0,
-            "end": 1296
+            "end": 1238
           }
         ]
       },
@@ -365,26 +366,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.1100884956529356,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.517442101476418,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Post-synaptic drugs\n↓Ion flux through nAChR\n·\nBlock post-synaptic nAChR: other non-depolarisers, volatiles,\n  aminoglycoside, quinidine\n·\nDesensitisation blockade (volatiles, barbiturates)\n·\nInhibit p",
-            "score": 0.1100884956529356,
-            "start": 2661,
+            "text": "Block pre-synaptic nAChR (volatiles)\n·\nBlock L-Ca\n2+\n(CCB, Mg\n2+\n, aminoglycosides,\n  volatiles)\nPost-synaptic drugs\n↓Ion flux through nAChR\n·\nBlock post-synaptic nAChR: other non-depolarisers, volati",
+            "score": 0.517442101476418,
+            "start": 2564,
             "end": 3087
           },
           {
-            "text": "  release or mAChR effect)\n↑Diffusion coefficient\n·\nLess relevant due to fenestrated muscle\n  capillaries\nDynamics:\nFactors ↑ED\n95\n(less important)\nPhysiology\n·\n↑K\n+\n: membrane potential less\n  negati",
-            "score": 0.1010480871715535,
-            "start": 1297,
-            "end": 2660
+            "text": "↓Toxicity -> ↑max safe dose (e.g. rocuronium no histamine\n  release or mAChR effect)\n↑Diffusion coefficient\n·\nLess relevant due to fenestrated muscle\n  capillaries\nDynamics:\nFactors ↑ED\n95\n(less impor",
+            "score": 0.3666426091800214,
+            "start": 1239,
+            "end": 2563
           },
           {
             "text": "2004A02 Outline\nfactors determining speed of onset of neuromuscular blocking agents.\nList:\n·\nIntro\n·\nKinetics: dose -> Cp\n·\nBiophasics: Cp -> Ce (Fick’s law)\n·\nDynamics: Ce -> effect (factors affectin",
-            "score": 0.09107466708246154,
+            "score": 0.33741454411207356,
             "start": 0,
-            "end": 1296
+            "end": 1238
           }
         ]
       },
@@ -459,30 +460,78 @@
             "end": 3087
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3311565037628375,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.25642330901735677,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "↓Ion flux through nAChR\n·\nBlock post-synaptic nAChR: other non-depolarisers, volatiles,\n  aminoglycoside, quinidine\n·\nDesensitisation blockade (volatiles, barbiturates)\n·\nInhibit peri-junctional actio",
-            "score": 0.3311565037628375,
-            "start": 2681,
-            "end": 3087
+            "text": "↑Diffusion coefficient\n·\nLess relevant due to fenestrated muscle\n  capillaries\nDynamics:\nFactors ↑ED\n95\n(less important)\nPhysiology\n·\n↑K\n+\n: membrane potential less\n  negative -> ↑ACh release -> ↓drug",
+            "score": 0.25642330901735677,
+            "start": 1324,
+            "end": 2680
           },
           {
             "text": "2004A02 Outline\nfactors determining speed of onset of neuromuscular blocking agents.\nList:\n·\nIntro\n·\nKinetics: dose -> Cp\n·\nBiophasics: Cp -> Ce (Fick’s law)\n·\nDynamics: Ce -> effect (factors affectin",
-            "score": 0.17932362625190623,
+            "score": 0.16779109893341812,
             "start": 0,
             "end": 1323
           },
           {
-            "text": "↑Diffusion coefficient\n·\nLess relevant due to fenestrated muscle\n  capillaries\nDynamics:\nFactors ↑ED\n95\n(less important)\nPhysiology\n·\n↑K\n+\n: membrane potential less\n  negative -> ↑ACh release -> ↓drug",
-            "score": 0.1671270277650237,
-            "start": 1324,
-            "end": 2680
+            "text": "↓Ion flux through nAChR\n·\nBlock post-synaptic nAChR: other non-depolarisers, volatiles,\n  aminoglycoside, quinidine\n·\nDesensitisation blockade (volatiles, barbiturates)\n·\nInhibit peri-junctional actio",
+            "score": 0.13534398140930778,
+            "start": 2681,
+            "end": 3087
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.2772030069075993,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↓Toxicity -> ↑max safe dose (e.g. rocuronium no histamine\n  release or mAChR effect)\n↑Diffusion coefficient\n·\nLess relevant due to fenestrated muscle\n  capillaries\nDynamics:\nFactors ↑ED\n95\n(less impor",
+            "score": 0.2772030069075993,
+            "start": 1239,
+            "end": 2563
+          },
+          {
+            "text": "2004A02 Outline\nfactors determining speed of onset of neuromuscular blocking agents.\nList:\n·\nIntro\n·\nKinetics: dose -> Cp\n·\nBiophasics: Cp -> Ce (Fick’s law)\n·\nDynamics: Ce -> effect (factors affectin",
+            "score": 0.2409870944785764,
+            "start": 0,
+            "end": 1238
+          },
+          {
+            "text": "Block pre-synaptic nAChR (volatiles)\n·\nBlock L-Ca\n2+\n(CCB, Mg\n2+\n, aminoglycosides,\n  volatiles)\nPost-synaptic drugs\n↓Ion flux through nAChR\n·\nBlock post-synaptic nAChR: other non-depolarisers, volati",
+            "score": 0.08878886373592071,
+            "start": 2564,
+            "end": 3087
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8006771067571272,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "↓Toxicity -> ↑max safe dose (e.g. rocuronium no histamine\n  release or mAChR effect)\n↑Diffusion coefficient\n·\nLess relevant due to fenestrated muscle\n  capillaries\nDynamics:\nFactors ↑ED\n95\n(less impor",
+            "score": 0.8006771067571272,
+            "start": 1239,
+            "end": 2563
+          },
+          {
+            "text": "2004A02 Outline\nfactors determining speed of onset of neuromuscular blocking agents.\nList:\n·\nIntro\n·\nKinetics: dose -> Cp\n·\nBiophasics: Cp -> Ce (Fick’s law)\n·\nDynamics: Ce -> effect (factors affectin",
+            "score": 0.6533536768458332,
+            "start": 0,
+            "end": 1238
+          },
+          {
+            "text": "Block pre-synaptic nAChR (volatiles)\n·\nBlock L-Ca\n2+\n(CCB, Mg\n2+\n, aminoglycosides,\n  volatiles)\nPost-synaptic drugs\n↓Ion flux through nAChR\n·\nBlock post-synaptic nAChR: other non-depolarisers, volati",
+            "score": 0.5719548257998841,
+            "start": 2564,
+            "end": 3087
           }
         ]
       },

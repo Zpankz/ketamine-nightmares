@@ -174,20 +174,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.3244721027307196,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.43483490501434385,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2010B15 Explain\nthe role of haemoglobin as a buffer.\nList:\n·\nIntro: Hb, buffer\n·\nHb buffering mechanism\n·\nHb buffering efficiency\nIntro:\nHaemoglobin\n·\nSpecialised O\n2\ncarrying protein in\n  RBCs\n·\n4 x ",
-            "score": 0.3244721027307196,
-            "start": 0,
-            "end": 1275
-          },
-          {
             "text": "30% of effect: imidazole pKa 6.6 -> 8.2\n  hence ↑buffering\n·\nFor every mmol O\n2\nunloaded, 0.7mmol\n  H\n+\nis loaded without ↓pH (= isohydric buffering)\n(note: reverse changes occur at the lungs, facilit",
-            "score": 0.3075574940524789,
+            "score": 0.43483490501434385,
             "start": 1276,
             "end": 1940
+          },
+          {
+            "text": "2010B15 Explain\nthe role of haemoglobin as a buffer.\nList:\n·\nIntro: Hb, buffer\n·\nHb buffering mechanism\n·\nHb buffering efficiency\nIntro:\nHaemoglobin\n·\nSpecialised O\n2\ncarrying protein in\n  RBCs\n·\n4 x ",
+            "score": 0.26714177530863603,
+            "start": 0,
+            "end": 1275
           }
         ]
       },
@@ -282,20 +282,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09107466708246154,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.18774158236383576,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2010B15 Explain\nthe role of haemoglobin as a buffer.\nList:\n·\nIntro: Hb, buffer\n·\nHb buffering mechanism\n·\nHb buffering efficiency\nIntro:\nHaemoglobin\n·\nSpecialised O\n2\ncarrying protein in\n  RBCs\n·\n4 x ",
-            "score": 0.09107466708246154,
-            "start": 0,
-            "end": 1275
-          },
-          {
             "text": "30% of effect: imidazole pKa 6.6 -> 8.2\n  hence ↑buffering\n·\nFor every mmol O\n2\nunloaded, 0.7mmol\n  H\n+\nis loaded without ↓pH (= isohydric buffering)\n(note: reverse changes occur at the lungs, facilit",
-            "score": 0.08431753646250958,
+            "score": 0.18774158236383576,
             "start": 1276,
             "end": 1940
+          },
+          {
+            "text": "2010B15 Explain\nthe role of haemoglobin as a buffer.\nList:\n·\nIntro: Hb, buffer\n·\nHb buffering mechanism\n·\nHb buffering efficiency\nIntro:\nHaemoglobin\n·\nSpecialised O\n2\ncarrying protein in\n  RBCs\n·\n4 x ",
+            "score": 0.14732399306894495,
+            "start": 0,
+            "end": 1275
           }
         ]
       },
@@ -352,22 +352,58 @@
             "end": 1940
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2697481404929839,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.12452970475004799,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "30% of effect: imidazole pKa 6.6 -> 8.2\n  hence ↑buffering\n·\nFor every mmol O\n2\nunloaded, 0.7mmol\n  H\n+\nis loaded without ↓pH (= isohydric buffering)\n(note: reverse changes occur at the lungs, facilit",
-            "score": 0.2697481404929839,
+            "score": 0.12452970475004799,
             "start": 1276,
             "end": 1940
           },
           {
             "text": "2010B15 Explain\nthe role of haemoglobin as a buffer.\nList:\n·\nIntro: Hb, buffer\n·\nHb buffering mechanism\n·\nHb buffering efficiency\nIntro:\nHaemoglobin\n·\nSpecialised O\n2\ncarrying protein in\n  RBCs\n·\n4 x ",
-            "score": 0.15354696394416326,
+            "score": 0.11851662443329414,
+            "start": 0,
+            "end": 1275
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.31784647013645007,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "30% of effect: imidazole pKa 6.6 -> 8.2\n  hence ↑buffering\n·\nFor every mmol O\n2\nunloaded, 0.7mmol\n  H\n+\nis loaded without ↓pH (= isohydric buffering)\n(note: reverse changes occur at the lungs, facilit",
+            "score": 0.31784647013645007,
+            "start": 1276,
+            "end": 1940
+          },
+          {
+            "text": "2010B15 Explain\nthe role of haemoglobin as a buffer.\nList:\n·\nIntro: Hb, buffer\n·\nHb buffering mechanism\n·\nHb buffering efficiency\nIntro:\nHaemoglobin\n·\nSpecialised O\n2\ncarrying protein in\n  RBCs\n·\n4 x ",
+            "score": 0.14732399306894495,
+            "start": 0,
+            "end": 1275
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.4471597424626218,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "30% of effect: imidazole pKa 6.6 -> 8.2\n  hence ↑buffering\n·\nFor every mmol O\n2\nunloaded, 0.7mmol\n  H\n+\nis loaded without ↓pH (= isohydric buffering)\n(note: reverse changes occur at the lungs, facilit",
+            "score": 0.4471597424626218,
+            "start": 1276,
+            "end": 1940
+          },
+          {
+            "text": "2010B15 Explain\nthe role of haemoglobin as a buffer.\nList:\n·\nIntro: Hb, buffer\n·\nHb buffering mechanism\n·\nHb buffering efficiency\nIntro:\nHaemoglobin\n·\nSpecialised O\n2\ncarrying protein in\n  RBCs\n·\n4 x ",
+            "score": 0.3537572601037678,
             "start": 0,
             "end": 1275
           }

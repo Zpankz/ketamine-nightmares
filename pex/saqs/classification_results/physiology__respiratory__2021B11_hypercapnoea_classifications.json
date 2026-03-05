@@ -13,10 +13,10 @@
       "score": 0.5451084422990162
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "equipment_and_physics",
       "acid_base_quality",
       "gas_exchange_process",
+      "clinical_measurement_process",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
@@ -127,13 +127,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7852435503014131,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3554819275316105,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021B11 Explain the physiological effects of acute hypercapnia,\ncaused by hypoventilation.\nHypercapnoea: PaCO\n2\n>40mmHg\nCVS\nHeart:\n·\n↑Catecholamines\no\nHypertension, tachycardia\no\n±Arrhythmias, ischaem",
-            "score": 0.7852435503014131,
+            "score": 0.3554819275316105,
             "start": 0,
+            "end": 1132
+          },
+          {
+            "text": "-",
+            "score": 0.28565571167771503,
+            "start": 1133,
             "end": 1134
           }
         ]
@@ -217,12 +223,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12232229789744709,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.4353580761861139,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2021B11 Explain the physiological effects of acute hypercapnia,\ncaused by hypoventilation.\nHypercapnoea: PaCO\n2\n>40mmHg\nCVS\nHeart:\n·\n↑Catecholamines\no\nHypertension, tachycardia\no\n±Arrhythmias, ischaem",
-            "score": 0.12232229789744709,
+            "score": 0.4353580761861139,
             "start": 0,
             "end": 1134
           }
@@ -269,16 +275,46 @@
             "end": 1134
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.23326263346460346,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2021B11 Explain the physiological effects of acute hypercapnia,\ncaused by hypoventilation.\nHypercapnoea: PaCO\n2\n>40mmHg\nCVS\nHeart:\n·\n↑Catecholamines\no\nHypertension, tachycardia\no\n±Arrhythmias, ischaem",
+            "score": 0.23326263346460346,
+            "start": 0,
+            "end": 1134
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.6654798003861663,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "-",
+            "score": 0.6654798003861663,
+            "start": 1133,
+            "end": 1134
+          },
+          {
+            "text": "2021B11 Explain the physiological effects of acute hypercapnia,\ncaused by hypoventilation.\nHypercapnoea: PaCO\n2\n>40mmHg\nCVS\nHeart:\n·\n↑Catecholamines\no\nHypertension, tachycardia\no\n±Arrhythmias, ischaem",
+            "score": 0.6144918788369766,
+            "start": 0,
+            "end": 1132
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6970683111707597,
+        "score": 0.7590129055214236,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2021B11 Explain the physiological effects of acute hypercapnia,\ncaused by hypoventilation.\nHypercapnoea: PaCO\n2\n>40mmHg\nCVS\nHeart:\n·\n↑Catecholamines\no\nHypertension, tachycardia\no\n±Arrhythmias, ischaem",
-            "score": 0.6970683111707597,
+            "score": 0.7590129055214236,
             "start": 0,
             "end": 1134
           }

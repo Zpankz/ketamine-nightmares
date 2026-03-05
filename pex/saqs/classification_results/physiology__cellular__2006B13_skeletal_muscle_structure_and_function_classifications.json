@@ -14,8 +14,9 @@
     },
     "content_dimensions": [
       "neuromuscular_process",
-      "gas_exchange_process",
-      "drug_receptor_disposition"
+      "drug_receptor_disposition",
+      "clinical_measurement_process",
+      "gas_exchange_process"
     ],
     "explanatory_schema": [
       "structure_function_link"
@@ -172,20 +173,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6688434962371625,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7833159268231396,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  channels = ryanodine channel\n·\nAllows\n  rapid change in ICF [Ca\n2+\n] to start and end contraction\nGlycolytic enzymes\n·\nFor anaerobic metabolism and start of aerobic\n  ATP production\nMyoglobin\n·\nBind",
-            "score": 0.6688434962371625,
-            "start": 1722,
+            "text": "·\nIon\n  channels = ryanodine channel\n·\nAllows\n  rapid change in ICF [Ca\n2+\n] to start and end contraction\nGlycolytic enzymes\n·\nFor anaerobic metabolism and start of aerobic\n  ATP production\nMyoglobin\n",
+            "score": 0.7833159268231396,
+            "start": 1716,
             "end": 2064
           },
           {
             "text": "2006B13 Briefly\ndescribe the structure of a mammalian skeletal muscle fibre and explain how\nits structure is related to its contractile function. DO NOT describe\nexcitation-contraction coupling.\nList:",
-            "score": 0.2509410724842214,
+            "score": 0.18774158236383576,
             "start": 0,
-            "end": 1721
+            "end": 1715
           }
         ]
       },
@@ -280,19 +281,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10551062286445975,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.15481035196343076,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2006B13 Briefly\ndescribe the structure of a mammalian skeletal muscle fibre and explain how\nits structure is related to its contractile function. DO NOT describe\nexcitation-contraction coupling.\nList:",
-            "score": 0.10551062286445975,
+            "score": 0.15481035196343076,
             "start": 0,
-            "end": 1752
+            "end": 1717
           },
           {
-            "text": "·\nAllows\n  rapid change in ICF [Ca\n2+\n] to start and end contraction\nGlycolytic enzymes\n·\nFor anaerobic metabolism and start of aerobic\n  ATP production\nMyoglobin\n·\nBinds\n  oxygen with very high affin",
-            "score": 0.07827820752174312,
-            "start": 1753,
+            "text": "Ion\n  channels = ryanodine channel\n·\nAllows\n  rapid change in ICF [Ca\n2+\n] to start and end contraction\nGlycolytic enzymes\n·\nFor anaerobic metabolism and start of aerobic\n  ATP production\nMyoglobin\n·\n",
+            "score": 0.11216054585062639,
+            "start": 1718,
             "end": 2064
           }
         ]
@@ -350,24 +351,60 @@
             "end": 1721
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3029316888292404,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2022819500518595,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  rapid change in ICF [Ca\n2+\n] to start and end contraction\nGlycolytic enzymes\n·\nFor anaerobic metabolism and start of aerobic\n  ATP production\nMyoglobin\n·\nBinds\n  oxygen with very high affinity (p50 ",
-            "score": 0.3029316888292404,
-            "start": 1762,
+            "text": "2006B13 Briefly\ndescribe the structure of a mammalian skeletal muscle fibre and explain how\nits structure is related to its contractile function. DO NOT describe\nexcitation-contraction coupling.\nList:",
+            "score": 0.2022819500518595,
+            "start": 0,
+            "end": 1754
+          },
+          {
+            "text": "Allows\n  rapid change in ICF [Ca\n2+\n] to start and end contraction\nGlycolytic enzymes\n·\nFor anaerobic metabolism and start of aerobic\n  ATP production\nMyoglobin\n·\nBinds\n  oxygen with very high affinit",
+            "score": 0.13534398140930778,
+            "start": 1755,
+            "end": 2064
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7515678401857883,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\nIon\n  channels = ryanodine channel\n·\nAllows\n  rapid change in ICF [Ca\n2+\n] to start and end contraction\nGlycolytic enzymes\n·\nFor anaerobic metabolism and start of aerobic\n  ATP production\nMyoglobin\n",
+            "score": 0.7515678401857883,
+            "start": 1716,
             "end": 2064
           },
           {
             "text": "2006B13 Briefly\ndescribe the structure of a mammalian skeletal muscle fibre and explain how\nits structure is related to its contractile function. DO NOT describe\nexcitation-contraction coupling.\nList:",
-            "score": 0.14245781704193952,
+            "score": 0.11164036043761141,
             "start": 0,
-            "end": 1761
+            "end": 1715
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.4407929728691008,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Ion\n  channels = ryanodine channel\n·\nAllows\n  rapid change in ICF [Ca\n2+\n] to start and end contraction\nGlycolytic enzymes\n·\nFor anaerobic metabolism and start of aerobic\n  ATP production\nMyoglobin\n·\n",
+            "score": 0.4407929728691008,
+            "start": 1718,
+            "end": 2064
+          },
+          {
+            "text": "2006B13 Briefly\ndescribe the structure of a mammalian skeletal muscle fibre and explain how\nits structure is related to its contractile function. DO NOT describe\nexcitation-contraction coupling.\nList:",
+            "score": 0.21360460483229088,
+            "start": 0,
+            "end": 1717
           }
         ]
       },

@@ -14,14 +14,16 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "equipment_and_physics",
       "special_population_role",
-      "drug_receptor_disposition",
       "acid_base_quality",
+      "nociception_process",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "structure_function_link"
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -175,18 +177,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.774717751800841,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.581253081422533,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "SNS: cervical and thoracic SNS trunk via\n  oesophageal plexus\n�\nComplex modulation of intrinsic circuits\nPhysical\nfactors:\nGravity\n�\nTrendelenburg positioning -> ↑regurgitation\nPressure\n�\n↑Abdo pressu",
-            "score": 0.774717751800841,
+            "score": 0.581253081422533,
             "start": 1445,
             "end": 2018
           },
           {
             "text": "2015B12 Describe\nthe physiological factors that contribute to the competence and\ntone of the lower oesophageal sphincter.\nList:\n�\nIntro\n�\nAnatomy\n�\nNeural control\n�\nPhysical factors\n�\nHormonal factors",
-            "score": 0.20006027090401593,
+            "score": 0.21901020621216397,
             "start": 0,
             "end": 1444
           }
@@ -283,20 +285,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.1554444021999438,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6351016669217304,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2015B12 Describe\nthe physiological factors that contribute to the competence and\ntone of the lower oesophageal sphincter.\nList:\n�\nIntro\n�\nAnatomy\n�\nNeural control\n�\nPhysical factors\n�\nHormonal factors",
-            "score": 0.1554444021999438,
-            "start": 0,
-            "end": 1485
+            "text": "SNS: cervical and thoracic SNS trunk via\n  oesophageal plexus\n�\nComplex modulation of intrinsic circuits\nPhysical\nfactors:\nGravity\n�\nTrendelenburg positioning -> ↑regurgitation\nPressure\n�\n↑Abdo pressu",
+            "score": 0.6351016669217304,
+            "start": 1445,
+            "end": 2018
           },
           {
-            "text": "  oesophageal plexus\n�\nComplex modulation of intrinsic circuits\nPhysical\nfactors:\nGravity\n�\nTrendelenburg positioning -> ↑regurgitation\nPressure\n�\n↑Abdo pressure -> ↓barrier\n  pressure\no\nObesity\no\nPre",
-            "score": 0.13476114033048603,
-            "start": 1486,
-            "end": 2018
+            "text": "2015B12 Describe\nthe physiological factors that contribute to the competence and\ntone of the lower oesophageal sphincter.\nList:\n�\nIntro\n�\nAnatomy\n�\nNeural control\n�\nPhysical factors\n�\nHormonal factors",
+            "score": 0.5676158112196907,
+            "start": 0,
+            "end": 1444
           }
         ]
       },
@@ -353,24 +355,60 @@
             "end": 1444
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.29105866542991604,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.3381397241417247,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "2015B12 Describe\nthe physiological factors that contribute to the competence and\ntone of the lower oesophageal sphincter.\nList:\n�\nIntro\n�\nAnatomy\n�\nNeural control\n�\nPhysical factors\n�\nHormonal factors",
+            "score": 0.3381397241417247,
+            "start": 0,
+            "end": 1485
+          },
+          {
             "text": "  oesophageal plexus\n�\nComplex modulation of intrinsic circuits\nPhysical\nfactors:\nGravity\n�\nTrendelenburg positioning -> ↑regurgitation\nPressure\n�\n↑Abdo pressure -> ↓barrier\n  pressure\no\nObesity\no\nPre",
-            "score": 0.29105866542991604,
+            "score": 0.2955985180950471,
             "start": 1486,
+            "end": 2018
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8315432423679796,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "SNS: cervical and thoracic SNS trunk via\n  oesophageal plexus\n�\nComplex modulation of intrinsic circuits\nPhysical\nfactors:\nGravity\n�\nTrendelenburg positioning -> ↑regurgitation\nPressure\n�\n↑Abdo pressu",
+            "score": 0.8315432423679796,
+            "start": 1445,
             "end": 2018
           },
           {
             "text": "2015B12 Describe\nthe physiological factors that contribute to the competence and\ntone of the lower oesophageal sphincter.\nList:\n�\nIntro\n�\nAnatomy\n�\nNeural control\n�\nPhysical factors\n�\nHormonal factors",
-            "score": 0.2794151488994812,
+            "score": 0.42843628993753285,
             "start": 0,
-            "end": 1485
+            "end": 1444
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6273549913802284,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "SNS: cervical and thoracic SNS trunk via\n  oesophageal plexus\n�\nComplex modulation of intrinsic circuits\nPhysical\nfactors:\nGravity\n�\nTrendelenburg positioning -> ↑regurgitation\nPressure\n�\n↑Abdo pressu",
+            "score": 0.6273549913802284,
+            "start": 1445,
+            "end": 2018
+          },
+          {
+            "text": "2015B12 Describe\nthe physiological factors that contribute to the competence and\ntone of the lower oesophageal sphincter.\nList:\n�\nIntro\n�\nAnatomy\n�\nNeural control\n�\nPhysical factors\n�\nHormonal factors",
+            "score": 0.1752007806948695,
+            "start": 0,
+            "end": 1444
           }
         ]
       },

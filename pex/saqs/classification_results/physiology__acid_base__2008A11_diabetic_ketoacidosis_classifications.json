@@ -19,10 +19,10 @@
     "content_dimensions": [
       "organ_system_process",
       "pharmacokinetic_process",
-      "drug_receptor_disposition",
       "acid_base_quality"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -177,18 +177,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6835655004032701,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5245300696966637,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  for each +1mmol/L ↑[glucose]\n·\n↑[K\n+\n]\no\n↓\n  insulin-mediated cell uptake, ↑K\n+\n/H\n+\nexchange)\no\nNote\n  global K+ depletion due to urinary loss (osmotic diuresis -> ↑ROMK activity)\n·\n↑[Ca\n2+\n]\no\n↑ H",
-            "score": 0.6835655004032701,
+            "score": 0.5245300696966637,
             "start": 1323,
             "end": 2477
           },
           {
             "text": "2008A11 Outline\nthe physiological consequences of diabetic ketoacidosis.\nList:\n·\nIntro\n·\nEndocrine and metabolic effects\n·\nOrgan system effects\nIntro:\nDefinition\n·\nLife-threatening acute metabolic com",
-            "score": 0.4934987391386371,
+            "score": 0.39978803785049416,
             "start": 0,
             "end": 1322
           }
@@ -285,20 +285,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07955098536974196,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.1934812122960498,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2008A11 Outline\nthe physiological consequences of diabetic ketoacidosis.\nList:\n·\nIntro\n·\nEndocrine and metabolic effects\n·\nOrgan system effects\nIntro:\nDefinition\n·\nLife-threatening acute metabolic com",
-            "score": 0.07955098536974196,
-            "start": 0,
-            "end": 1353
+            "text": "  for each +1mmol/L ↑[glucose]\n·\n↑[K\n+\n]\no\n↓\n  insulin-mediated cell uptake, ↑K\n+\n/H\n+\nexchange)\no\nNote\n  global K+ depletion due to urinary loss (osmotic diuresis -> ↑ROMK activity)\n·\n↑[Ca\n2+\n]\no\n↑ H",
+            "score": 0.1934812122960498,
+            "start": 1323,
+            "end": 2477
           },
           {
-            "text": "·\n↑[K\n+\n]\no\n↓\n  insulin-mediated cell uptake, ↑K\n+\n/H\n+\nexchange)\no\nNote\n  global K+ depletion due to urinary loss (osmotic diuresis -> ↑ROMK activity)\n·\n↑[Ca\n2+\n]\no\n↑ H\n+\n/Ca\n2+\nexchange with bone\nAc",
-            "score": 0.0741184288718156,
-            "start": 1354,
-            "end": 2477
+            "text": "2008A11 Outline\nthe physiological consequences of diabetic ketoacidosis.\nList:\n·\nIntro\n·\nEndocrine and metabolic effects\n·\nOrgan system effects\nIntro:\nDefinition\n·\nLife-threatening acute metabolic com",
+            "score": 0.09015630224155849,
+            "start": 0,
+            "end": 1322
           }
         ]
       },
@@ -355,24 +355,60 @@
             "end": 2477
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.40556733705978343,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2636869411249029,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↑[K\n+\n]\no\n↓\n  insulin-mediated cell uptake, ↑K\n+\n/H\n+\nexchange)\no\nNote\n  global K+ depletion due to urinary loss (osmotic diuresis -> ↑ROMK activity)\n·\n↑[Ca\n2+\n]\no\n↑ H\n+\n/Ca\n2+\nexchange with bone\nAcid",
-            "score": 0.40556733705978343,
+            "score": 0.2636869411249029,
             "start": 1356,
             "end": 2477
           },
           {
             "text": "2008A11 Outline\nthe physiological consequences of diabetic ketoacidosis.\nList:\n·\nIntro\n·\nEndocrine and metabolic effects\n·\nOrgan system effects\nIntro:\nDefinition\n·\nLife-threatening acute metabolic com",
-            "score": 0.25220059901524183,
+            "score": 0.14306065974886034,
             "start": 0,
             "end": 1355
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.5210863440819743,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  for each +1mmol/L ↑[glucose]\n·\n↑[K\n+\n]\no\n↓\n  insulin-mediated cell uptake, ↑K\n+\n/H\n+\nexchange)\no\nNote\n  global K+ depletion due to urinary loss (osmotic diuresis -> ↑ROMK activity)\n·\n↑[Ca\n2+\n]\no\n↑ H",
+            "score": 0.5210863440819743,
+            "start": 1323,
+            "end": 2477
+          },
+          {
+            "text": "2008A11 Outline\nthe physiological consequences of diabetic ketoacidosis.\nList:\n·\nIntro\n·\nEndocrine and metabolic effects\n·\nOrgan system effects\nIntro:\nDefinition\n·\nLife-threatening acute metabolic com",
+            "score": 0.18774158236383576,
+            "start": 0,
+            "end": 1322
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7875436889746668,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  for each +1mmol/L ↑[glucose]\n·\n↑[K\n+\n]\no\n↓\n  insulin-mediated cell uptake, ↑K\n+\n/H\n+\nexchange)\no\nNote\n  global K+ depletion due to urinary loss (osmotic diuresis -> ↑ROMK activity)\n·\n↑[Ca\n2+\n]\no\n↑ H",
+            "score": 0.7875436889746668,
+            "start": 1323,
+            "end": 2477
+          },
+          {
+            "text": "2008A11 Outline\nthe physiological consequences of diabetic ketoacidosis.\nList:\n·\nIntro\n·\nEndocrine and metabolic effects\n·\nOrgan system effects\nIntro:\nDefinition\n·\nLife-threatening acute metabolic com",
+            "score": 0.6683638359153561,
+            "start": 0,
+            "end": 1322
           }
         ]
       },

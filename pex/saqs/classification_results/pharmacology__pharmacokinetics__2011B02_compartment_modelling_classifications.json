@@ -17,6 +17,7 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": []
@@ -172,19 +173,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4514673600547699,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.37440199658521534,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2011B02 What is\nmeant by the term “two compartment model” in pharmacokinetics?\nUse propofol as an example in explanation.\nList:\n·\nIntro\n·\nTwo compartments: features\n·\nTwo compartments: sources of erro",
-            "score": 0.4514673600547699,
+            "score": 0.37440199658521534,
             "start": 0,
-            "end": 1720
+            "end": 1649
           },
           {
-            "text": "Elimination always from V\n1\n(e.g.\n  remifentanil metabolized in periphery)\n·\nElimination not always first order (e.g.\n  thiopentone zero order in physiological range)\nConsequences of error\n·\nOverdose ",
-            "score": 0.1485560880659056,
-            "start": 1721,
+            "text": "  with effect (e.g. effect site may be in periphery e.g. rocuronium)\n·\nElimination always from V\n1\n(e.g.\n  remifentanil metabolized in periphery)\n·\nElimination not always first order (e.g.\n  thiopento",
+            "score": 0.23894091082715616,
+            "start": 1650,
             "end": 2286
           }
         ]
@@ -280,20 +281,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13072394818234856,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.25642330901735677,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "1\n(e.g.\n  remifentanil metabolized in periphery)\n·\nElimination not always first order (e.g.\n  thiopentone zero order in physiological range)\nConsequences of error\n·\nOverdose -> CVS toxicity\n·\nUnderdos",
-            "score": 0.13072394818234856,
-            "start": 1747,
-            "end": 2286
+            "text": "2011B02 What is\nmeant by the term “two compartment model” in pharmacokinetics?\nUse propofol as an example in explanation.\nList:\n·\nIntro\n·\nTwo compartments: features\n·\nTwo compartments: sources of erro",
+            "score": 0.25642330901735677,
+            "start": 0,
+            "end": 1649
           },
           {
-            "text": "2011B02 What is\nmeant by the term “two compartment model” in pharmacokinetics?\nUse propofol as an example in explanation.\nList:\n·\nIntro\n·\nTwo compartments: features\n·\nTwo compartments: sources of erro",
-            "score": 0.07912544161184044,
-            "start": 0,
-            "end": 1746
+            "text": "  with effect (e.g. effect site may be in periphery e.g. rocuronium)\n·\nElimination always from V\n1\n(e.g.\n  remifentanil metabolized in periphery)\n·\nElimination not always first order (e.g.\n  thiopento",
+            "score": 0.17932362625190623,
+            "start": 1650,
+            "end": 2286
           }
         ]
       },
@@ -350,24 +351,60 @@
             "end": 1720
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.15228985226789557,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "(e.g.\n  remifentanil metabolized in periphery)\n·\nElimination not always first order (e.g.\n  thiopentone zero order in physiological range)\nConsequences of error\n·\nOverdose -> CVS toxicity\n·\nUnderdose ",
+            "score": 0.15228985226789557,
+            "start": 1749,
+            "end": 2286
+          },
+          {
+            "text": "2011B02 What is\nmeant by the term “two compartment model” in pharmacokinetics?\nUse propofol as an example in explanation.\nList:\n·\nIntro\n·\nTwo compartments: features\n·\nTwo compartments: sources of erro",
+            "score": 0.1278857710804513,
+            "start": 0,
+            "end": 1748
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.9307080142756743,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  with effect (e.g. effect site may be in periphery e.g. rocuronium)\n·\nElimination always from V\n1\n(e.g.\n  remifentanil metabolized in periphery)\n·\nElimination not always first order (e.g.\n  thiopento",
+            "score": 0.9307080142756743,
+            "start": 1650,
+            "end": 2286
+          },
+          {
+            "text": "2011B02 What is\nmeant by the term “two compartment model” in pharmacokinetics?\nUse propofol as an example in explanation.\nList:\n·\nIntro\n·\nTwo compartments: features\n·\nTwo compartments: sources of erro",
+            "score": 0.4411207706206739,
+            "start": 0,
+            "end": 1649
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.40132695123000844,
+        "score": 0.3631570185417808,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2011B02 What is\nmeant by the term “two compartment model” in pharmacokinetics?\nUse propofol as an example in explanation.\nList:\n·\nIntro\n·\nTwo compartments: features\n·\nTwo compartments: sources of erro",
-            "score": 0.40132695123000844,
-            "start": 0,
-            "end": 1748
+            "text": "  with effect (e.g. effect site may be in periphery e.g. rocuronium)\n·\nElimination always from V\n1\n(e.g.\n  remifentanil metabolized in periphery)\n·\nElimination not always first order (e.g.\n  thiopento",
+            "score": 0.3631570185417808,
+            "start": 1650,
+            "end": 2286
           },
           {
-            "text": "(e.g.\n  remifentanil metabolized in periphery)\n·\nElimination not always first order (e.g.\n  thiopentone zero order in physiological range)\nConsequences of error\n·\nOverdose -> CVS toxicity\n·\nUnderdose ",
-            "score": 0.3321161147162773,
-            "start": 1749,
-            "end": 2286
+            "text": "2011B02 What is\nmeant by the term “two compartment model” in pharmacokinetics?\nUse propofol as an example in explanation.\nList:\n·\nIntro\n·\nTwo compartments: features\n·\nTwo compartments: sources of erro",
+            "score": 0.3554819275316105,
+            "start": 0,
+            "end": 1649
           }
         ]
       },

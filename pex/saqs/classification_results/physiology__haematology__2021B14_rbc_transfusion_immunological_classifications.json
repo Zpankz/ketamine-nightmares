@@ -15,7 +15,9 @@
     "content_dimensions": [
       "organ_system_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -168,19 +170,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.2509410724842214,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4466340690936651,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020B14 Briefly outline the potential immunological effects of\ntransfusing packed red cells.\nImmediate:\nFebrile non-haemolytic\n·\nDonor blood storage -> cytokine accumulation\n(IL-1, IL-6, TNF-\nα\n)\n·\nFe",
-            "score": 0.2509410724842214,
+            "score": 0.4466340690936651,
             "start": 0,
-            "end": 1591
+            "end": 1589
           },
           {
-            "text": "Prevented by anti-D at 28/40 and 34/40 in RhD-\nwomen\nPost-transfusion purpura:\n·\nDonor platelet vs recipient\nalloantibodies\n·\nConsumption of both donor platelets and\nbystanders\nImmunomodulation\n·\nMech",
-            "score": 0.2159118422576255,
-            "start": 1592,
+            "text": "·\nPrevented by anti-D at 28/40 and 34/40 in RhD-\nwomen\nPost-transfusion purpura:\n·\nDonor platelet vs recipient\nalloantibodies\n·\nConsumption of both donor platelets and\nbystanders\nImmunomodulation\n·\nMe",
+            "score": 0.340804115941232,
+            "start": 1590,
             "end": 2162
           }
         ]
@@ -276,18 +278,18 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08698437799387108,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.0957480960268055,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "Prevented by anti-D at 28/40 and 34/40 in RhD-\nwomen\nPost-transfusion purpura:\n·\nDonor platelet vs recipient\nalloantibodies\n·\nConsumption of both donor platelets and\nbystanders\nImmunomodulation\n·\nMech",
-            "score": 0.08698437799387108,
+            "score": 0.0957480960268055,
             "start": 1592,
             "end": 2162
           },
           {
             "text": "2020B14 Briefly outline the potential immunological effects of\ntransfusing packed red cells.\nImmediate:\nFebrile non-haemolytic\n·\nDonor blood storage -> cytokine accumulation\n(IL-1, IL-6, TNF-\nα\n)\n·\nFe",
-            "score": 0.07168292080041282,
+            "score": 0.07955098536974196,
             "start": 0,
             "end": 1591
           }
@@ -346,24 +348,60 @@
             "end": 2162
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3865229101133825,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.23568694716034655,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Prevented by anti-D at 28/40 and 34/40 in RhD-\nwomen\nPost-transfusion purpura:\n·\nDonor platelet vs recipient\nalloantibodies\n·\nConsumption of both donor platelets and\nbystanders\nImmunomodulation\n·\nMech",
-            "score": 0.3865229101133825,
+            "score": 0.23568694716034655,
             "start": 1592,
             "end": 2162
           },
           {
             "text": "2020B14 Briefly outline the potential immunological effects of\ntransfusing packed red cells.\nImmediate:\nFebrile non-haemolytic\n·\nDonor blood storage -> cytokine accumulation\n(IL-1, IL-6, TNF-\nα\n)\n·\nFe",
-            "score": 0.23165414560489295,
+            "score": 0.1010480871715535,
             "start": 0,
             "end": 1591
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.09480246485705024,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2020B14 Briefly outline the potential immunological effects of\ntransfusing packed red cells.\nImmediate:\nFebrile non-haemolytic\n·\nDonor blood storage -> cytokine accumulation\n(IL-1, IL-6, TNF-\nα\n)\n·\nFe",
+            "score": 0.09480246485705024,
+            "start": 0,
+            "end": 1589
+          },
+          {
+            "text": "·\nPrevented by anti-D at 28/40 and 34/40 in RhD-\nwomen\nPost-transfusion purpura:\n·\nDonor platelet vs recipient\nalloantibodies\n·\nConsumption of both donor platelets and\nbystanders\nImmunomodulation\n·\nMe",
+            "score": 0.09386232569631885,
+            "start": 1590,
+            "end": 2162
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7075829226961883,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2020B14 Briefly outline the potential immunological effects of\ntransfusing packed red cells.\nImmediate:\nFebrile non-haemolytic\n·\nDonor blood storage -> cytokine accumulation\n(IL-1, IL-6, TNF-\nα\n)\n·\nFe",
+            "score": 0.7075829226961883,
+            "start": 0,
+            "end": 1591
+          },
+          {
+            "text": "Prevented by anti-D at 28/40 and 34/40 in RhD-\nwomen\nPost-transfusion purpura:\n·\nDonor platelet vs recipient\nalloantibodies\n·\nConsumption of both donor platelets and\nbystanders\nImmunomodulation\n·\nMech",
+            "score": 0.5248610975773536,
+            "start": 1592,
+            "end": 2162
           }
         ]
       },

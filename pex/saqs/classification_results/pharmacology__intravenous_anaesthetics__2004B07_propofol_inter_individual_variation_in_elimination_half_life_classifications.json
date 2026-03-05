@@ -17,9 +17,10 @@
     },
     "content_dimensions": [
       "pharmacokinetic_process",
-      "drug_receptor_disposition"
+      "clinical_measurement_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link",
       "dose_response_relationship"
     ]
@@ -175,18 +176,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6606502369044678,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5948186513539755,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  1 (3A4, 2B6, 2C19) and 2 (glucuronidation, sulfation)\n·\nInactive\n  metabolites\n·\nHigh\n  hepatic extraction ratio 0.9\n↓Cl\n·\n↓Hepatic\n  blood flow (high hepatic extraction ratio hence flow-limited cle",
-            "score": 0.6606502369044678,
+            "score": 0.5948186513539755,
             "start": 1287,
             "end": 1791
           },
           {
             "text": "2004B07 Outline\nthe factors that influence the elimination half-life of propofol.\nList:\n·\nIntro\n·\nModelling\n·\nVDSS\n·\nClearance\nIntro:\nDefinition: t\n1/2\nβ\n·\nTime taken for plasma propofol concentration",
-            "score": 0.23326263346460346,
+            "score": 0.30155028868225636,
             "start": 0,
             "end": 1286
           }
@@ -283,18 +284,18 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13072394818234856,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.3636542328486649,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2004B07 Outline\nthe factors that influence the elimination half-life of propofol.\nList:\n·\nIntro\n·\nModelling\n·\nVDSS\n·\nClearance\nIntro:\nDefinition: t\n1/2\nβ\n·\nTime taken for plasma propofol concentration",
-            "score": 0.13072394818234856,
+            "score": 0.3636542328486649,
             "start": 0,
             "end": 1286
           },
           {
             "text": "  1 (3A4, 2B6, 2C19) and 2 (glucuronidation, sulfation)\n·\nInactive\n  metabolites\n·\nHigh\n  hepatic extraction ratio 0.9\n↓Cl\n·\n↓Hepatic\n  blood flow (high hepatic extraction ratio hence flow-limited cle",
-            "score": 0.0915358786435363,
+            "score": 0.13828116177283872,
             "start": 1287,
             "end": 1791
           }
@@ -353,24 +354,60 @@
             "end": 1286
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.301090477351718,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.17656868710877405,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2004B07 Outline\nthe factors that influence the elimination half-life of propofol.\nList:\n·\nIntro\n·\nModelling\n·\nVDSS\n·\nClearance\nIntro:\nDefinition: t\n1/2\nβ\n·\nTime taken for plasma propofol concentration",
-            "score": 0.301090477351718,
+            "score": 0.17656868710877405,
             "start": 0,
             "end": 1286
           },
           {
             "text": "  1 (3A4, 2B6, 2C19) and 2 (glucuronidation, sulfation)\n·\nInactive\n  metabolites\n·\nHigh\n  hepatic extraction ratio 0.9\n↓Cl\n·\n↓Hepatic\n  blood flow (high hepatic extraction ratio hence flow-limited cle",
-            "score": 0.18491006489830478,
+            "score": 0.14979442334570606,
             "start": 1287,
             "end": 1791
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7473788096433502,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2004B07 Outline\nthe factors that influence the elimination half-life of propofol.\nList:\n·\nIntro\n·\nModelling\n·\nVDSS\n·\nClearance\nIntro:\nDefinition: t\n1/2\nβ\n·\nTime taken for plasma propofol concentration",
+            "score": 0.7473788096433502,
+            "start": 0,
+            "end": 1286
+          },
+          {
+            "text": "  1 (3A4, 2B6, 2C19) and 2 (glucuronidation, sulfation)\n·\nInactive\n  metabolites\n·\nHigh\n  hepatic extraction ratio 0.9\n↓Cl\n·\n↓Hepatic\n  blood flow (high hepatic extraction ratio hence flow-limited cle",
+            "score": 0.1898819772959151,
+            "start": 1287,
+            "end": 1791
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7590129055214236,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  1 (3A4, 2B6, 2C19) and 2 (glucuronidation, sulfation)\n·\nInactive\n  metabolites\n·\nHigh\n  hepatic extraction ratio 0.9\n↓Cl\n·\n↓Hepatic\n  blood flow (high hepatic extraction ratio hence flow-limited cle",
+            "score": 0.7590129055214236,
+            "start": 1287,
+            "end": 1791
+          },
+          {
+            "text": "2004B07 Outline\nthe factors that influence the elimination half-life of propofol.\nList:\n·\nIntro\n·\nModelling\n·\nVDSS\n·\nClearance\nIntro:\nDefinition: t\n1/2\nβ\n·\nTime taken for plasma propofol concentration",
+            "score": 0.36092259040593133,
+            "start": 0,
+            "end": 1286
           }
         ]
       },

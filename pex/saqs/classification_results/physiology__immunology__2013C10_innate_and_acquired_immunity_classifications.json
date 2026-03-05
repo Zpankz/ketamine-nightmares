@@ -168,20 +168,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8381284697982909,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7786495244158627,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "o\nMast cell (tissue): defence against parasites,\n  role in allergy\nAdaptive:\nHumoral\n·\nAntibodies\no\nDraw structure.\no\nIgA in secretions\no\nIgD on WBC, function unknown\no\nIgM in plasma, for early respon",
-            "score": 0.8381284697982909,
-            "start": 1474,
+            "text": "Basophil (blood): defence against parasites,\n  role in allergy\no\nMast cell (tissue): defence against parasites,\n  role in allergy\nAdaptive:\nHumoral\n·\nAntibodies\no\nDraw structure.\no\nIgA in secretions\no",
+            "score": 0.7786495244158627,
+            "start": 1411,
             "end": 2483
           },
           {
             "text": "2013C10 Write\nbrief notes on innate and acquired immunity.\nList:\n·\nTable of differences\n·\nInnate system: physicochemical, humoral,\ncellular components\n·\nAcquired system: humoral and cellular component",
-            "score": 0.36415169084650634,
+            "score": 0.35993111843774905,
             "start": 0,
-            "end": 1473
+            "end": 1410
           }
         ]
       },
@@ -276,20 +276,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08833573667416476,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.13417982729181727,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Mast cell (tissue): defence against parasites,\n  role in allergy\nAdaptive:\nHumoral\n·\nAntibodies\no\nDraw structure.\no\nIgA in secretions\no\nIgD on WBC, function unknown\no\nIgM in plasma, for early response",
-            "score": 0.08833573667416476,
-            "start": 1476,
-            "end": 2483
+            "text": "2013C10 Write\nbrief notes on innate and acquired immunity.\nList:\n·\nTable of differences\n·\nInnate system: physicochemical, humoral,\ncellular components\n·\nAcquired system: humoral and cellular component",
+            "score": 0.13417982729181727,
+            "start": 0,
+            "end": 1410
           },
           {
-            "text": "2013C10 Write\nbrief notes on innate and acquired immunity.\nList:\n·\nTable of differences\n·\nInnate system: physicochemical, humoral,\ncellular components\n·\nAcquired system: humoral and cellular component",
-            "score": 0.08520119218170379,
-            "start": 0,
-            "end": 1475
+            "text": "Basophil (blood): defence against parasites,\n  role in allergy\no\nMast cell (tissue): defence against parasites,\n  role in allergy\nAdaptive:\nHumoral\n·\nAntibodies\no\nDraw structure.\no\nIgA in secretions\no",
+            "score": 0.12620097548419282,
+            "start": 1411,
+            "end": 2483
           }
         ]
       },
@@ -346,24 +346,60 @@
             "end": 2483
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2509410724842214,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.27632062191629214,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Mast cell (tissue): defence against parasites,\n  role in allergy\nAdaptive:\nHumoral\n·\nAntibodies\no\nDraw structure.\no\nIgA in secretions\no\nIgD on WBC, function unknown\no\nIgM in plasma, for early response",
-            "score": 0.2509410724842214,
+            "score": 0.27632062191629214,
             "start": 1476,
             "end": 2483
           },
           {
             "text": "2013C10 Write\nbrief notes on innate and acquired immunity.\nList:\n·\nTable of differences\n·\nInnate system: physicochemical, humoral,\ncellular components\n·\nAcquired system: humoral and cellular component",
-            "score": 0.14006190450182948,
+            "score": 0.11851662443329414,
             "start": 0,
             "end": 1475
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.17588393723954218,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Basophil (blood): defence against parasites,\n  role in allergy\no\nMast cell (tissue): defence against parasites,\n  role in allergy\nAdaptive:\nHumoral\n·\nAntibodies\no\nDraw structure.\no\nIgA in secretions\no",
+            "score": 0.17588393723954218,
+            "start": 1411,
+            "end": 2483
+          },
+          {
+            "text": "2013C10 Write\nbrief notes on innate and acquired immunity.\nList:\n·\nTable of differences\n·\nInnate system: physicochemical, humoral,\ncellular components\n·\nAcquired system: humoral and cellular component",
+            "score": 0.11216054585062639,
+            "start": 0,
+            "end": 1410
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.4928354184770808,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Basophil (blood): defence against parasites,\n  role in allergy\no\nMast cell (tissue): defence against parasites,\n  role in allergy\nAdaptive:\nHumoral\n·\nAntibodies\no\nDraw structure.\no\nIgA in secretions\no",
+            "score": 0.4928354184770808,
+            "start": 1411,
+            "end": 2483
+          },
+          {
+            "text": "2013C10 Write\nbrief notes on innate and acquired immunity.\nList:\n·\nTable of differences\n·\nInnate system: physicochemical, humoral,\ncellular components\n·\nAcquired system: humoral and cellular component",
+            "score": 0.38171015155235594,
+            "start": 0,
+            "end": 1410
           }
         ]
       },

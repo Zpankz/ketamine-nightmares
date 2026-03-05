@@ -9,23 +9,23 @@
 ## Step 1: Mechanism
 **Document:** physiology/respiratory/2006A10_factors_increasing_respiratory_rate.htm
 **Clinical relevance:** foundational_science
-**Tags:** structure_function_link, homeostatic_regulation
-**Richness score:** 32
+**Tags:** mechanism_effect_relevance, structure_function_link, homeostatic_regulation
+**Richness score:** 35
 
 ## Step 2: Comparison
 **Document:** pharmacology/cardiovascular_drugs/2016A08_treatment_of_hypertension_in_pregnancy.htm
 **Clinical relevance:** immediately_applicable
-**Tags:** dose_response_relationship, structure_function_link, homeostatic_regulation
-**Richness score:** 45
+**Tags:** mechanism_effect_relevance, dose_response_relationship, structure_function_link, homeostatic_regulation
+**Richness score:** 52
 
 ## Step 3: Quantitative
 **Document:** pharmacology/intravenous_anaesthetics/2006B03_intravenous_induction_inter_individual_variation.htm
 **Clinical relevance:** integrative
-**Tags:** structure_function_link, dose_response_relationship, homeostatic_regulation
-**Richness score:** 39
+**Tags:** structure_function_link, dose_response_relationship, mechanism_effect_relevance, homeostatic_regulation
+**Richness score:** 46
 
 ## Step 4: Application
 **Document:** pharmacology/intravenous_anaesthetics/2020A13_intravenous_induction_rate_of_onset.htm
 **Clinical relevance:** integrative
-**Tags:** structure_function_link, homeostatic_regulation, dose_response_relationship
-**Richness score:** 43
+**Tags:** structure_function_link, homeostatic_regulation, mechanism_effect_relevance, dose_response_relationship
+**Richness score:** 48

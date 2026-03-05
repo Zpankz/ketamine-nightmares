@@ -17,7 +17,9 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "equipment_and_physics",
+      "anatomy_structure",
       "gas_exchange_process"
     ],
     "explanatory_schema": []
@@ -173,20 +175,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.17794296815077074,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.2623973993795041,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Secondary to thromboembolic disease\n·\nSecondary to chronic hypoxia\no\nV/Q mismatch: e.g. severe COPD / emphysema\no\nLow V\nA\n: e.g OSA, OHS\no\nLow PiO\n2\n: high altitude\n·\nInflammatory or connective tissue",
-            "score": 0.17794296815077074,
-            "start": 1549,
+            "text": "Secondary to LV failure\n·\nSecondary to thromboembolic disease\n·\nSecondary to chronic hypoxia\no\nV/Q mismatch: e.g. severe COPD / emphysema\no\nLow V\nA\n: e.g OSA, OHS\no\nLow PiO\n2\n: high altitude\n·\nInflamm",
+            "score": 0.2623973993795041,
+            "start": 1523,
             "end": 1859
           },
           {
             "text": "2021B05 Draw, label and describe the waveforms and pressures\nthat are seen in each anatomical location during insertion of a\npulmonary artery catheter.\nList:\n·\nPressure trace\n·\nNormal pressures\n·\nWave",
-            "score": 0.12397561162117983,
+            "score": 0.21207433610868814,
             "start": 0,
-            "end": 1548
+            "end": 1522
           }
         ]
       },
@@ -281,20 +283,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12397561162117983,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.29742385893649737,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nSecondary to chronic hypoxia\no\nV/Q mismatch: e.g. severe COPD / emphysema\no\nLow V\nA\n: e.g OSA, OHS\no\nLow PiO\n2\n: high altitude\n·\nInflammatory or connective tissue\ndisease\n·\nIdiopathic\nPCWP\n·\n↑Venous",
-            "score": 0.12397561162117983,
-            "start": 1585,
+            "text": "Secondary to LV failure\n·\nSecondary to thromboembolic disease\n·\nSecondary to chronic hypoxia\no\nV/Q mismatch: e.g. severe COPD / emphysema\no\nLow V\nA\n: e.g OSA, OHS\no\nLow PiO\n2\n: high altitude\n·\nInflamm",
+            "score": 0.29742385893649737,
+            "start": 1523,
             "end": 1859
           },
           {
             "text": "2021B05 Draw, label and describe the waveforms and pressures\nthat are seen in each anatomical location during insertion of a\npulmonary artery catheter.\nList:\n·\nPressure trace\n·\nNormal pressures\n·\nWave",
-            "score": 0.11690780739311239,
+            "score": 0.21514118653388012,
             "start": 0,
-            "end": 1584
+            "end": 1522
           }
         ]
       },
@@ -351,24 +353,60 @@
             "end": 1859
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.715687290137115,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2021B05 Draw, label and describe the waveforms and pressures\nthat are seen in each anatomical location during insertion of a\npulmonary artery catheter.\nList:\n·\nPressure trace\n·\nNormal pressures\n·\nWave",
+            "score": 0.715687290137115,
+            "start": 0,
+            "end": 1584
+          },
+          {
+            "text": "·\nSecondary to chronic hypoxia\no\nV/Q mismatch: e.g. severe COPD / emphysema\no\nLow V\nA\n: e.g OSA, OHS\no\nLow PiO\n2\n: high altitude\n·\nInflammatory or connective tissue\ndisease\n·\nIdiopathic\nPCWP\n·\n↑Venous",
+            "score": 0.2658434828440508,
+            "start": 1585,
+            "end": 1859
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7790405496339468,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2021B05 Draw, label and describe the waveforms and pressures\nthat are seen in each anatomical location during insertion of a\npulmonary artery catheter.\nList:\n·\nPressure trace\n·\nNormal pressures\n·\nWave",
+            "score": 0.7790405496339468,
+            "start": 0,
+            "end": 1522
+          },
+          {
+            "text": "Secondary to LV failure\n·\nSecondary to thromboembolic disease\n·\nSecondary to chronic hypoxia\no\nV/Q mismatch: e.g. severe COPD / emphysema\no\nLow V\nA\n: e.g OSA, OHS\no\nLow PiO\n2\n: high altitude\n·\nInflamm",
+            "score": 0.6840355376775101,
+            "start": 1523,
+            "end": 1859
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.3926287952747533,
+        "score": 0.4981424155217879,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "Secondary to chronic hypoxia\no\nV/Q mismatch: e.g. severe COPD / emphysema\no\nLow V\nA\n: e.g OSA, OHS\no\nLow PiO\n2\n: high altitude\n·\nInflammatory or connective tissue\ndisease\n·\nIdiopathic\nPCWP\n·\n↑Venous r",
-            "score": 0.3926287952747533,
-            "start": 1587,
+            "text": "Secondary to LV failure\n·\nSecondary to thromboembolic disease\n·\nSecondary to chronic hypoxia\no\nV/Q mismatch: e.g. severe COPD / emphysema\no\nLow V\nA\n: e.g OSA, OHS\no\nLow PiO\n2\n: high altitude\n·\nInflamm",
+            "score": 0.4981424155217879,
+            "start": 1523,
             "end": 1859
           },
           {
             "text": "2021B05 Draw, label and describe the waveforms and pressures\nthat are seen in each anatomical location during insertion of a\npulmonary artery catheter.\nList:\n·\nPressure trace\n·\nNormal pressures\n·\nWave",
-            "score": 0.16317590246639627,
+            "score": 0.2159118422576255,
             "start": 0,
-            "end": 1586
+            "end": 1522
           }
         ]
       },

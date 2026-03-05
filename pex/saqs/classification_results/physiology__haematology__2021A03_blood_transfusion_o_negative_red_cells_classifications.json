@@ -165,18 +165,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.2628268805251028,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.424984089591656,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021A03 Outline\nthe physiology of blood groupings that allows O negative packed red cells\nto be safely transfused to most patients.\nList:\n·\nIntroduction\n·\nABO system: Ag, Ab\n·\nRhesus system: Ag, Ab\n·\n",
-            "score": 0.2628268805251028,
+            "score": 0.424984089591656,
             "start": 0,
             "end": 1572
           },
           {
             "text": "Plasma has anti-A, anti-B, +/- anti-RhD but\n  these are washed from RBC unit\nUniversality\n·\nSafe for A,B,O whether D+ or D-\n·\nUseful in emergency when no time for\n  crossmatch\nExceptions\n·\nBombay grou",
-            "score": 0.14979442334570606,
+            "score": 0.28745121192986234,
             "start": 1573,
             "end": 1931
           }
@@ -273,18 +273,18 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08653659094165504,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.10854962335430002,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "Plasma has anti-A, anti-B, +/- anti-RhD but\n  these are washed from RBC unit\nUniversality\n·\nSafe for A,B,O whether D+ or D-\n·\nUseful in emergency when no time for\n  crossmatch\nExceptions\n·\nBombay grou",
-            "score": 0.08653659094165504,
+            "score": 0.10854962335430002,
             "start": 1573,
             "end": 1931
           },
           {
             "text": "2021A03 Outline\nthe physiology of blood groupings that allows O negative packed red cells\nto be safely transfused to most patients.\nList:\n·\nIntroduction\n·\nABO system: Ag, Ab\n·\nRhesus system: Ag, Ab\n·\n",
-            "score": 0.0733016050091523,
+            "score": 0.08833573667416476,
             "start": 0,
             "end": 1572
           }
@@ -343,24 +343,60 @@
             "end": 1931
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2113115715020448,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.12397561162117983,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2021A03 Outline\nthe physiology of blood groupings that allows O negative packed red cells\nto be safely transfused to most patients.\nList:\n·\nIntroduction\n·\nABO system: Ag, Ab\n·\nRhesus system: Ag, Ab\n·\n",
-            "score": 0.2113115715020448,
+            "score": 0.12397561162117983,
             "start": 0,
             "end": 1616
           },
           {
             "text": "  these are washed from RBC unit\nUniversality\n·\nSafe for A,B,O whether D+ or D-\n·\nUseful in emergency when no time for\n  crossmatch\nExceptions\n·\nBombay group: anti-O antibody\n·\nOther groups: Kell, Kid",
-            "score": 0.16646454350278764,
+            "score": 0.10702368540104822,
             "start": 1617,
             "end": 1931
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.12676106887331628,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Plasma has anti-A, anti-B, +/- anti-RhD but\n  these are washed from RBC unit\nUniversality\n·\nSafe for A,B,O whether D+ or D-\n·\nUseful in emergency when no time for\n  crossmatch\nExceptions\n·\nBombay grou",
+            "score": 0.12676106887331628,
+            "start": 1573,
+            "end": 1931
+          },
+          {
+            "text": "2021A03 Outline\nthe physiology of blood groupings that allows O negative packed red cells\nto be safely transfused to most patients.\nList:\n·\nIntroduction\n·\nABO system: Ag, Ab\n·\nRhesus system: Ag, Ab\n·\n",
+            "score": 0.10153827963475912,
+            "start": 0,
+            "end": 1572
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3235219459138018,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Plasma has anti-A, anti-B, +/- anti-RhD but\n  these are washed from RBC unit\nUniversality\n·\nSafe for A,B,O whether D+ or D-\n·\nUseful in emergency when no time for\n  crossmatch\nExceptions\n·\nBombay grou",
+            "score": 0.3235219459138018,
+            "start": 1573,
+            "end": 1931
+          },
+          {
+            "text": "2021A03 Outline\nthe physiology of blood groupings that allows O negative packed red cells\nto be safely transfused to most patients.\nList:\n·\nIntroduction\n·\nABO system: Ag, Ab\n·\nRhesus system: Ag, Ab\n·\n",
+            "score": 0.26931284321853594,
+            "start": 0,
+            "end": 1572
           }
         ]
       },

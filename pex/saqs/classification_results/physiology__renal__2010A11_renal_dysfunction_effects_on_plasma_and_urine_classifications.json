@@ -15,9 +15,7 @@
     "content_dimensions": [
       "acid_base_quality"
     ],
-    "explanatory_schema": [
-      "mechanism_effect_relevance"
-    ]
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
@@ -170,20 +168,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.18140657479987835,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.24304282348823103,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "+\n) excreted / n(Na\n+\n) passing\nthrough tubule\n·\n<1%: pre-renal e.g. hypotension\n·\n>2-3%: intra-renal e.g. ATN\nAbnormal contents\n·\nProtein (glomerular dysfunction)\n·\nGranular casts (ATN)\n·\nRBC casts (",
-            "score": 0.18140657479987835,
-            "start": 1348,
+            "text": "Fractional sodium excretion\n·\nn(Na\n+\n) excreted / n(Na\n+\n) passing\nthrough tubule\n·\n<1%: pre-renal e.g. hypotension\n·\n>2-3%: intra-renal e.g. ATN\nAbnormal contents\n·\nProtein (glomerular dysfunction)\n·",
+            "score": 0.24304282348823103,
+            "start": 1313,
             "end": 1551
           },
           {
             "text": "2010A11 Describe the changes\nthat occur in the urine and the plasma with renal\ndysfunction.\nList:\n·\nIntro: definitions and causes\n·\nPlasma: water, electrolytes, waste,\nother\n·\nUrine: volume, concentra",
-            "score": 0.1612217162063077,
+            "score": 0.19420584422163265,
             "start": 0,
-            "end": 1347
+            "end": 1312
           }
         ]
       },
@@ -278,20 +276,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.1336000407096868,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.1554444021999438,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": ") excreted / n(Na\n+\n) passing\nthrough tubule\n·\n<1%: pre-renal e.g. hypotension\n·\n>2-3%: intra-renal e.g. ATN\nAbnormal contents\n·\nProtein (glomerular dysfunction)\n·\nGranular casts (ATN)\n·\nRBC casts (GN",
-            "score": 0.1336000407096868,
-            "start": 1350,
+            "text": "Fractional sodium excretion\n·\nn(Na\n+\n) excreted / n(Na\n+\n) passing\nthrough tubule\n·\n<1%: pre-renal e.g. hypotension\n·\n>2-3%: intra-renal e.g. ATN\nAbnormal contents\n·\nProtein (glomerular dysfunction)\n·",
+            "score": 0.1554444021999438,
+            "start": 1313,
             "end": 1551
           },
           {
             "text": "2010A11 Describe the changes\nthat occur in the urine and the plasma with renal\ndysfunction.\nList:\n·\nIntro: definitions and causes\n·\nPlasma: water, electrolytes, waste,\nother\n·\nUrine: volume, concentra",
-            "score": 0.0741184288718156,
+            "score": 0.0816980747080833,
             "start": 0,
-            "end": 1349
+            "end": 1312
           }
         ]
       },
@@ -348,24 +346,60 @@
             "end": 1347
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.3708908328871195,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": ") excreted / n(Na\n+\n) passing\nthrough tubule\n·\n<1%: pre-renal e.g. hypotension\n·\n>2-3%: intra-renal e.g. ATN\nAbnormal contents\n·\nProtein (glomerular dysfunction)\n·\nGranular casts (ATN)\n·\nRBC casts (GN",
+            "score": 0.3708908328871195,
+            "start": 1350,
+            "end": 1551
+          },
+          {
+            "text": "2010A11 Describe the changes\nthat occur in the urine and the plasma with renal\ndysfunction.\nList:\n·\nIntro: definitions and causes\n·\nPlasma: water, electrolytes, waste,\nother\n·\nUrine: volume, concentra",
+            "score": 0.12732266681585389,
+            "start": 0,
+            "end": 1349
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.3619150539625578,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Fractional sodium excretion\n·\nn(Na\n+\n) excreted / n(Na\n+\n) passing\nthrough tubule\n·\n<1%: pre-renal e.g. hypotension\n·\n>2-3%: intra-renal e.g. ATN\nAbnormal contents\n·\nProtein (glomerular dysfunction)\n·",
+            "score": 0.3619150539625578,
+            "start": 1313,
+            "end": 1551
+          },
+          {
+            "text": "2010A11 Describe the changes\nthat occur in the urine and the plasma with renal\ndysfunction.\nList:\n·\nIntro: definitions and causes\n·\nPlasma: water, electrolytes, waste,\nother\n·\nUrine: volume, concentra",
+            "score": 0.13534398140930778,
+            "start": 0,
+            "end": 1312
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6063507621097606,
+        "score": 0.43385429000817305,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2010A11 Describe the changes\nthat occur in the urine and the plasma with renal\ndysfunction.\nList:\n·\nIntro: definitions and causes\n·\nPlasma: water, electrolytes, waste,\nother\n·\nUrine: volume, concentra",
-            "score": 0.6063507621097606,
-            "start": 0,
-            "end": 1367
+            "text": "·\nn(Na\n+\n) excreted / n(Na\n+\n) passing\nthrough tubule\n·\n<1%: pre-renal e.g. hypotension\n·\n>2-3%: intra-renal e.g. ATN\nAbnormal contents\n·\nProtein (glomerular dysfunction)\n·\nGranular casts (ATN)\n·\nRBC ",
+            "score": 0.43385429000817305,
+            "start": 1341,
+            "end": 1551
           },
           {
-            "text": "+\n) passing\nthrough tubule\n·\n<1%: pre-renal e.g. hypotension\n·\n>2-3%: intra-renal e.g. ATN\nAbnormal contents\n·\nProtein (glomerular dysfunction)\n·\nGranular casts (ATN)\n·\nRBC casts (GN)",
-            "score": 0.22845576096855297,
-            "start": 1368,
-            "end": 1551
+            "text": "2010A11 Describe the changes\nthat occur in the urine and the plasma with renal\ndysfunction.\nList:\n·\nIntro: definitions and causes\n·\nPlasma: water, electrolytes, waste,\nother\n·\nUrine: volume, concentra",
+            "score": 0.29514301842447316,
+            "start": 0,
+            "end": 1340
           }
         ]
       },

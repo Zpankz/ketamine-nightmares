@@ -16,6 +16,7 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "organ_system_process",
       "acid_base_quality",
       "equipment_and_physics",
@@ -176,18 +177,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.40981961142625917,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.33452019961383367,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Early expiration: venous pooling -> ↓preload\n4.\nLate expiration: venous filling -> ↑preload (major)\nOutflow\n�\nPulmonary: ↑PA and alveolar pressure\n  -> ↑PVR -> ↑RV afterload\n�\nSystemic: ↑aortic pressu",
-            "score": 0.40981961142625917,
+            "score": 0.33452019961383367,
             "start": 1261,
             "end": 2285
           },
           {
             "text": "2021A01 Explain the effects of intermittent positive pressure ventilation\non cardiac output.\nList:\n�\nSummary\n�\nDirect effects\n�\nIndirect effects\nSummary:\nDeterminants of cardiac output\n�\n↑Preload\n�\n↓A",
-            "score": 0.13592835209685608,
+            "score": 0.17383924611324467,
             "start": 0,
             "end": 1260
           }
@@ -284,20 +285,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11164036043761141,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.34323357990611997,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Late expiration: venous filling -> ↑preload (major)\nOutflow\n�\nPulmonary: ↑PA and alveolar pressure\n  -> ↑PVR -> ↑RV afterload\n�\nSystemic: ↑aortic pressure ->\n  ↑thoracic outflow -> ↓LV afterload\nVentr",
-            "score": 0.11164036043761141,
-            "start": 1309,
+            "text": "Early expiration: venous pooling -> ↓preload\n4.\nLate expiration: venous filling -> ↑preload (major)\nOutflow\n�\nPulmonary: ↑PA and alveolar pressure\n  -> ↑PVR -> ↑RV afterload\n�\nSystemic: ↑aortic pressu",
+            "score": 0.34323357990611997,
+            "start": 1261,
             "end": 2285
           },
           {
             "text": "2021A01 Explain the effects of intermittent positive pressure ventilation\non cardiac output.\nList:\n�\nSummary\n�\nDirect effects\n�\nIndirect effects\nSummary:\nDeterminants of cardiac output\n�\n↑Preload\n�\n↓A",
-            "score": 0.09958592212583708,
+            "score": 0.15799633458154788,
             "start": 0,
-            "end": 1308
+            "end": 1260
           }
         ]
       },
@@ -354,24 +355,60 @@
             "end": 2285
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.25684762720296567,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Late expiration: venous filling -> ↑preload (major)\nOutflow\n�\nPulmonary: ↑PA and alveolar pressure\n  -> ↑PVR -> ↑RV afterload\n�\nSystemic: ↑aortic pressure ->\n  ↑thoracic outflow -> ↓LV afterload\nVentr",
+            "score": 0.25684762720296567,
+            "start": 1309,
+            "end": 2285
+          },
+          {
+            "text": "2021A01 Explain the effects of intermittent positive pressure ventilation\non cardiac output.\nList:\n�\nSummary\n�\nDirect effects\n�\nIndirect effects\nSummary:\nDeterminants of cardiac output\n�\n↑Preload\n�\n↓A",
+            "score": 0.1752007806948695,
+            "start": 0,
+            "end": 1308
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8721142289195487,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Early expiration: venous pooling -> ↓preload\n4.\nLate expiration: venous filling -> ↑preload (major)\nOutflow\n�\nPulmonary: ↑PA and alveolar pressure\n  -> ↑PVR -> ↑RV afterload\n�\nSystemic: ↑aortic pressu",
+            "score": 0.8721142289195487,
+            "start": 1261,
+            "end": 2285
+          },
+          {
+            "text": "2021A01 Explain the effects of intermittent positive pressure ventilation\non cardiac output.\nList:\n�\nSummary\n�\nDirect effects\n�\nIndirect effects\nSummary:\nDeterminants of cardiac output\n�\n↑Preload\n�\n↓A",
+            "score": 0.7482196179441566,
+            "start": 0,
+            "end": 1260
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.5463435592379604,
+        "score": 0.596875581262427,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2021A01 Explain the effects of intermittent positive pressure ventilation\non cardiac output.\nList:\n�\nSummary\n�\nDirect effects\n�\nIndirect effects\nSummary:\nDeterminants of cardiac output\n�\n↑Preload\n�\n↓A",
-            "score": 0.5463435592379604,
-            "start": 0,
-            "end": 1308
+            "text": "Early expiration: venous pooling -> ↓preload\n4.\nLate expiration: venous filling -> ↑preload (major)\nOutflow\n�\nPulmonary: ↑PA and alveolar pressure\n  -> ↑PVR -> ↑RV afterload\n�\nSystemic: ↑aortic pressu",
+            "score": 0.596875581262427,
+            "start": 1261,
+            "end": 2285
           },
           {
-            "text": "Late expiration: venous filling -> ↑preload (major)\nOutflow\n�\nPulmonary: ↑PA and alveolar pressure\n  -> ↑PVR -> ↑RV afterload\n�\nSystemic: ↑aortic pressure ->\n  ↑thoracic outflow -> ↓LV afterload\nVentr",
-            "score": 0.3235219459138018,
-            "start": 1309,
-            "end": 2285
+            "text": "2021A01 Explain the effects of intermittent positive pressure ventilation\non cardiac output.\nList:\n�\nSummary\n�\nDirect effects\n�\nIndirect effects\nSummary:\nDeterminants of cardiac output\n�\n↑Preload\n�\n↓A",
+            "score": 0.4069834656810027,
+            "start": 0,
+            "end": 1260
           }
         ]
       },

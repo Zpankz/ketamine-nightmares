@@ -17,10 +17,13 @@
     },
     "content_dimensions": [
       "neuromuscular_process",
+      "autonomic_disposition",
       "drug_receptor_disposition",
-      "autonomic_disposition"
+      "nociception_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -221,25 +224,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7840881577423744,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.766334278517655,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  gradient between effect site and plasma but does not alter the dose-response\n  curve)\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio\nFactors ↓ED\n95\n= L ",
-            "score": 0.7840881577423744,
-            "start": 1571,
-            "end": 2926
-          },
-          {
             "text": "2014A02 Draw and\nexplain the characteristics of a log dose response curve\nthat describes the major clinical effect of rocuronium.\nDescribe how factors encountered in clinical practice may alter this c",
-            "score": 0.7066756231196865,
+            "score": 0.766334278517655,
             "start": 0,
-            "end": 1570
+            "end": 1509
           },
           {
-            "text": "Tetrodotoxin: VDNaC inhibition\nAddit: factors\nincreasing duration\n*All those causing ↑potency plus…*\nPathology\n·\n↓Temp: ↓rate of Hoffman degradation and ester hydrolysis\n·\n↑pH: ↓rate of ester hydrolys",
-            "score": 0.20377101929932123,
-            "start": 2927,
+            "text": "(g-cyclodextrin chelates rocuronium in plasma, increases the\n  gradient between effect site and plasma but does not alter the dose-response\n  curve)\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neur",
+            "score": 0.679794085594363,
+            "start": 1510,
+            "end": 2862
+          },
+          {
+            "text": "  receptor\nToxins\n·\nBotox: cleave SNARE protein, ↓ACh release\n·\nTetrodotoxin: VDNaC inhibition\nAddit: factors\nincreasing duration\n*All those causing ↑potency plus…*\nPathology\n·\n↓Temp: ↓rate of Hoffman",
+            "score": 0.5807341284127729,
+            "start": 2863,
             "end": 3537
           }
         ]
@@ -365,26 +368,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12508529522455822,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7227969930924008,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
+            "text": "  gradient between effect site and plasma but does not alter the dose-response\n  curve)\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio\nFactors ↓ED\n95\n= L ",
+            "score": 0.7227969930924008,
+            "start": 1571,
+            "end": 2882
+          },
+          {
             "text": "2014A02 Draw and\nexplain the characteristics of a log dose response curve\nthat describes the major clinical effect of rocuronium.\nDescribe how factors encountered in clinical practice may alter this c",
-            "score": 0.12508529522455822,
+            "score": 0.3829748153990309,
             "start": 0,
             "end": 1570
           },
           {
-            "text": "Tetrodotoxin: VDNaC inhibition\nAddit: factors\nincreasing duration\n*All those causing ↑potency plus…*\nPathology\n·\n↓Temp: ↓rate of Hoffman degradation and ester hydrolysis\n·\n↑pH: ↓rate of ester hydrolys",
-            "score": 0.10301730154669217,
-            "start": 2927,
+            "text": "Botox: cleave SNARE protein, ↓ACh release\n·\nTetrodotoxin: VDNaC inhibition\nAddit: factors\nincreasing duration\n*All those causing ↑potency plus…*\nPathology\n·\n↓Temp: ↓rate of Hoffman degradation and est",
+            "score": 0.11268218335253008,
+            "start": 2883,
             "end": 3537
-          },
-          {
-            "text": "  gradient between effect site and plasma but does not alter the dose-response\n  curve)\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio\nFactors ↓ED\n95\n= L ",
-            "score": 0.08431753646250958,
-            "start": 1571,
-            "end": 2926
           }
         ]
       },
@@ -459,30 +462,78 @@
             "end": 3537
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.2007992399296327,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Tetrodotoxin: VDNaC inhibition\nAddit: factors\nincreasing duration\n*All those causing ↑potency plus…*\nPathology\n·\n↓Temp: ↓rate of Hoffman degradation and ester hydrolysis\n·\n↑pH: ↓rate of ester hydrolys",
+            "score": 0.2007992399296327,
+            "start": 2927,
+            "end": 3537
+          },
+          {
+            "text": "  gradient between effect site and plasma but does not alter the dose-response\n  curve)\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio\nFactors ↓ED\n95\n= L ",
+            "score": 0.17046326482945487,
+            "start": 1571,
+            "end": 2926
+          },
+          {
+            "text": "2014A02 Draw and\nexplain the characteristics of a log dose response curve\nthat describes the major clinical effect of rocuronium.\nDescribe how factors encountered in clinical practice may alter this c",
+            "score": 0.14427099224346063,
+            "start": 0,
+            "end": 1570
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.1898819772959151,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "(g-cyclodextrin chelates rocuronium in plasma, increases the\n  gradient between effect site and plasma but does not alter the dose-response\n  curve)\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neur",
+            "score": 0.1898819772959151,
+            "start": 1510,
+            "end": 2862
+          },
+          {
+            "text": "2014A02 Draw and\nexplain the characteristics of a log dose response curve\nthat describes the major clinical effect of rocuronium.\nDescribe how factors encountered in clinical practice may alter this c",
+            "score": 0.16779109893341812,
+            "start": 0,
+            "end": 1509
+          },
+          {
+            "text": "  receptor\nToxins\n·\nBotox: cleave SNARE protein, ↓ACh release\n·\nTetrodotoxin: VDNaC inhibition\nAddit: factors\nincreasing duration\n*All those causing ↑potency plus…*\nPathology\n·\n↓Temp: ↓rate of Hoffman",
+            "score": 0.11478329593515615,
+            "start": 2863,
+            "end": 3537
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.3718928726687599,
+        "score": 0.799939729095984,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "*All those causing ↑potency plus…*\nPathology\n·\n↓Temp: ↓rate of Hoffman degradation and ester hydrolysis\n·\n↑pH: ↓rate of ester hydrolysis\n·\n↓pH: ↓rate of Hofmann degradation\n·\nAtracurium: 60% ester hyd",
-            "score": 0.3718928726687599,
-            "start": 2993,
-            "end": 3537
-          },
-          {
-            "text": "  curve)\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio\nFactors ↓ED\n95\n= L shift = ↑potency\nPhysiology\n↓ACh release -> ↑drug:ACh ratio\n·\nNeonate: immature",
-            "score": 0.29015475481172504,
-            "start": 1650,
-            "end": 2992
-          },
-          {
             "text": "2014A02 Draw and\nexplain the characteristics of a log dose response curve\nthat describes the major clinical effect of rocuronium.\nDescribe how factors encountered in clinical practice may alter this c",
-            "score": 0.21901020621216397,
+            "score": 0.799939729095984,
             "start": 0,
-            "end": 1649
+            "end": 1570
+          },
+          {
+            "text": "  gradient between effect site and plasma but does not alter the dose-response\n  curve)\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio\nFactors ↓ED\n95\n= L ",
+            "score": 0.7569571765117691,
+            "start": 1571,
+            "end": 2882
+          },
+          {
+            "text": "Botox: cleave SNARE protein, ↓ACh release\n·\nTetrodotoxin: VDNaC inhibition\nAddit: factors\nincreasing duration\n*All those causing ↑potency plus…*\nPathology\n·\n↓Temp: ↓rate of Hoffman degradation and est",
+            "score": 0.7298162018891967,
+            "start": 2883,
+            "end": 3537
           }
         ]
       },

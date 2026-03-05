@@ -13,7 +13,9 @@
       "score": 0.4720281773761867
     },
     "content_dimensions": [],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -118,12 +120,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.32162525056049346,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3990192028379539,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2016B11 a)\nBriefly describe the bactericidal activity of gentamicin. Explain why it is\nusually administered as a single daily dose.\nb) Describe the potential toxic effects of gentamicin.\nMechanism\n·\nB",
-            "score": 0.32162525056049346,
+            "score": 0.3990192028379539,
             "start": 0,
             "end": 901
           }
@@ -190,12 +192,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09339430960340468,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2767616374358241,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2016B11 a)\nBriefly describe the bactericidal activity of gentamicin. Explain why it is\nusually administered as a single daily dose.\nb) Describe the potential toxic effects of gentamicin.\nMechanism\n·\nB",
-            "score": 0.09339430960340468,
+            "score": 0.2767616374358241,
             "start": 0,
             "end": 901
           }
@@ -236,16 +238,40 @@
             "end": 901
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.09199844623487359,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2016B11 a)\nBriefly describe the bactericidal activity of gentamicin. Explain why it is\nusually administered as a single daily dose.\nb) Describe the potential toxic effects of gentamicin.\nMechanism\n·\nB",
+            "score": 0.09199844623487359,
+            "start": 0,
+            "end": 901
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.10551062286445975,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2016B11 a)\nBriefly describe the bactericidal activity of gentamicin. Explain why it is\nusually administered as a single daily dose.\nb) Describe the potential toxic effects of gentamicin.\nMechanism\n·\nB",
+            "score": 0.10551062286445975,
+            "start": 0,
+            "end": 901
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.24139747765085562,
+        "score": 0.8335354564972123,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2016B11 a)\nBriefly describe the bactericidal activity of gentamicin. Explain why it is\nusually administered as a single daily dose.\nb) Describe the potential toxic effects of gentamicin.\nMechanism\n·\nB",
-            "score": 0.24139747765085562,
+            "score": 0.8335354564972123,
             "start": 0,
             "end": 901
           }

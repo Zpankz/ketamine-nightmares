@@ -16,17 +16,19 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
+      "clinical_measurement_process",
       "equipment_and_physics",
       "organ_system_process",
       "neuromuscular_process",
+      "drug_receptor_disposition",
       "acid_base_quality",
-      "drug_receptor_disposition"
+      "anatomy_structure"
     ],
     "explanatory_schema": [
       "dose_response_relationship",
+      "mechanism_effect_relevance",
       "structure_function_link",
-      "homeostatic_regulation",
-      "mechanism_effect_relevance"
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
@@ -228,26 +230,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6063507621097606,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6467349212375613,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "o\nIAP\n  >~20mmHg -> ↓mAP (↓venous return/cardiac output outweighs ↑SVR)\n·\nEffect on myocardial oxygen supply and demand\no\n↑Demand:\n  ↑HR, ↑contractility, ↑stroke work\no\n↑Supply:\n  metabolic autoregula",
-            "score": 0.6063507621097606,
-            "start": 1458,
-            "end": 2850
+            "text": "  <~20mmHg -> ↑mAP (↑SVR outweighs ↓venous return/cardiac output)\no\nIAP\n  >~20mmHg -> ↓mAP (↓venous return/cardiac output outweighs ↑SVR)\n·\nEffect on myocardial oxygen supply and demand\no\n↑Demand:\n  ↑",
+            "score": 0.6467349212375613,
+            "start": 1392,
+            "end": 2784
+          },
+          {
+            "text": "  Endobronchial intubation -> massive shunt -> ↓PaO2\no\n↑Diaphragm\n  compression\n·\nCardiovascular\no\n↑Venous\n  return: offsets venous compression\nReverse Trend.\n·\nRespiratory\no\n↓Diaphragm\n  compression\n",
+            "score": 0.2776447299150455,
+            "start": 2785,
+            "end": 3701
           },
           {
             "text": "2019B11 Describe the respiratory and cardiovascular\nchanges associated with a\ncarbon dioxide pneumoperitoneum for laparoscopic surgery.\nList:\n·\nIntro\n·\nEffects of intra-abdominal hypertension\n·\nEffect",
-            "score": 0.33452019961383367,
+            "score": 0.24016747383683887,
             "start": 0,
-            "end": 1457
-          },
-          {
-            "text": "  compression\n·\nCardiovascular\no\n↑Venous\n  return: offsets venous compression\nReverse Trend.\n·\nRespiratory\no\n↓Diaphragm\n  compression\n·\nCardiovascular\no\n↓Venous\n  return: compounds venous compression\n",
-            "score": 0.20006027090401593,
-            "start": 2851,
-            "end": 3701
+            "end": 1391
           }
         ]
       },
@@ -372,26 +374,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.0952745927410768,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.3287625795101406,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Venous\n  return: offsets venous compression\nReverse Trend.\n·\nRespiratory\no\n↓Diaphragm\n  compression\n·\nCardiovascular\no\n↓Venous\n  return: compounds venous compression\nMiscellaneous complications:\nGas ",
-            "score": 0.0952745927410768,
-            "start": 2884,
+            "text": "  Endobronchial intubation -> massive shunt -> ↓PaO2\no\n↑Diaphragm\n  compression\n·\nCardiovascular\no\n↑Venous\n  return: offsets venous compression\nReverse Trend.\n·\nRespiratory\no\n↓Diaphragm\n  compression\n",
+            "score": 0.3287625795101406,
+            "start": 2785,
             "end": 3701
           },
           {
             "text": "2019B11 Describe the respiratory and cardiovascular\nchanges associated with a\ncarbon dioxide pneumoperitoneum for laparoscopic surgery.\nList:\n·\nIntro\n·\nEffects of intra-abdominal hypertension\n·\nEffect",
-            "score": 0.08609013263273645,
+            "score": 0.3043160270707983,
             "start": 0,
-            "end": 1463
+            "end": 1391
           },
           {
-            "text": "  >~20mmHg -> ↓mAP (↓venous return/cardiac output outweighs ↑SVR)\n·\nEffect on myocardial oxygen supply and demand\no\n↑Demand:\n  ↑HR, ↑contractility, ↑stroke work\no\n↑Supply:\n  metabolic autoregulation (",
-            "score": 0.07659908032051355,
-            "start": 1464,
-            "end": 2883
+            "text": "  <~20mmHg -> ↑mAP (↑SVR outweighs ↓venous return/cardiac output)\no\nIAP\n  >~20mmHg -> ↓mAP (↓venous return/cardiac output outweighs ↑SVR)\n·\nEffect on myocardial oxygen supply and demand\no\n↑Demand:\n  ↑",
+            "score": 0.2264693946925382,
+            "start": 1392,
+            "end": 2784
           }
         ]
       },
@@ -466,29 +468,77 @@
             "end": 3701
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.6341052982314621,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↑Venous\n  return: offsets venous compression\nReverse Trend.\n·\nRespiratory\no\n↓Diaphragm\n  compression\n·\nCardiovascular\no\n↓Venous\n  return: compounds venous compression\nMiscellaneous complications:\nGas ",
+            "score": 0.6341052982314621,
+            "start": 2884,
+            "end": 3701
+          },
+          {
+            "text": "  >~20mmHg -> ↓mAP (↓venous return/cardiac output outweighs ↑SVR)\n·\nEffect on myocardial oxygen supply and demand\no\n↑Demand:\n  ↑HR, ↑contractility, ↑stroke work\no\n↑Supply:\n  metabolic autoregulation (",
+            "score": 0.387538527079057,
+            "start": 1464,
+            "end": 2883
+          },
+          {
+            "text": "2019B11 Describe the respiratory and cardiovascular\nchanges associated with a\ncarbon dioxide pneumoperitoneum for laparoscopic surgery.\nList:\n·\nIntro\n·\nEffects of intra-abdominal hypertension\n·\nEffect",
+            "score": 0.19131688553747267,
+            "start": 0,
+            "end": 1463
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8959896239471639,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  <~20mmHg -> ↑mAP (↑SVR outweighs ↓venous return/cardiac output)\no\nIAP\n  >~20mmHg -> ↓mAP (↓venous return/cardiac output outweighs ↑SVR)\n·\nEffect on myocardial oxygen supply and demand\no\n↑Demand:\n  ↑",
+            "score": 0.8959896239471639,
+            "start": 1392,
+            "end": 2782
+          },
+          {
+            "text": "±\n  Endobronchial intubation -> massive shunt -> ↓PaO2\no\n↑Diaphragm\n  compression\n·\nCardiovascular\no\n↑Venous\n  return: offsets venous compression\nReverse Trend.\n·\nRespiratory\no\n↓Diaphragm\n  compressio",
+            "score": 0.8094013663275356,
+            "start": 2783,
+            "end": 3701
+          },
+          {
+            "text": "2019B11 Describe the respiratory and cardiovascular\nchanges associated with a\ncarbon dioxide pneumoperitoneum for laparoscopic surgery.\nList:\n·\nIntro\n·\nEffects of intra-abdominal hypertension\n·\nEffect",
+            "score": 0.4526193145221056,
+            "start": 0,
+            "end": 1391
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.6422960366113832,
+        "score": 0.8171968162419349,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
+            "text": "  <~20mmHg -> ↑mAP (↑SVR outweighs ↓venous return/cardiac output)\no\nIAP\n  >~20mmHg -> ↓mAP (↓venous return/cardiac output outweighs ↑SVR)\n·\nEffect on myocardial oxygen supply and demand\no\n↑Demand:\n  ↑",
+            "score": 0.8171968162419349,
+            "start": 1392,
+            "end": 2784
+          },
+          {
             "text": "2019B11 Describe the respiratory and cardiovascular\nchanges associated with a\ncarbon dioxide pneumoperitoneum for laparoscopic surgery.\nList:\n·\nIntro\n·\nEffects of intra-abdominal hypertension\n·\nEffect",
-            "score": 0.6422960366113832,
+            "score": 0.7515678401857883,
             "start": 0,
-            "end": 1463
+            "end": 1391
           },
           {
-            "text": "  >~20mmHg -> ↓mAP (↓venous return/cardiac output outweighs ↑SVR)\n·\nEffect on myocardial oxygen supply and demand\no\n↑Demand:\n  ↑HR, ↑contractility, ↑stroke work\no\n↑Supply:\n  metabolic autoregulation (",
-            "score": 0.5634070868418923,
-            "start": 1464,
-            "end": 2891
-          },
-          {
-            "text": "  return: offsets venous compression\nReverse Trend.\n·\nRespiratory\no\n↓Diaphragm\n  compression\n·\nCardiovascular\no\n↓Venous\n  return: compounds venous compression\nMiscellaneous complications:\nGas in wrong",
-            "score": 0.38348105416657996,
-            "start": 2892,
+            "text": "  Endobronchial intubation -> massive shunt -> ↓PaO2\no\n↑Diaphragm\n  compression\n·\nCardiovascular\no\n↑Venous\n  return: offsets venous compression\nReverse Trend.\n·\nRespiratory\no\n↓Diaphragm\n  compression\n",
+            "score": 0.6422960366113832,
+            "start": 2785,
             "end": 3701
           }
         ]

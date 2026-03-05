@@ -13,13 +13,16 @@
       "score": 0.7107477935008863
     },
     "content_dimensions": [
+      "nociception_process",
       "equipment_and_physics",
       "organ_system_process",
       "pharmacokinetic_process",
       "gas_exchange_process",
       "autonomic_disposition"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -220,26 +223,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5776172803786849,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5374562078851337,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Principal: non-competitive NMDA antagonist at PCP site\n·\nOther ↑: 2PK/5HT\n3\n/mu opioid\n·\nOther ↓: VDNaC, VdCC, monoamine reuptake, nnAChR\nAnaesthesia\n·\nThalamocortical dissocation (amnesia, sedation, ",
-            "score": 0.5776172803786849,
+            "score": 0.5374562078851337,
             "start": 1650,
-            "end": 2985
-          },
-          {
-            "text": "·\nNegative inotropy may be unmasked if maximal SNS activity or high\n  dose vasoactives\n·\nBaroreceptor reflex relatively preserved\nRespiratory:\n·\nThalamocortical dissociation with relative preservation",
-            "score": 0.5331301509742074,
-            "start": 2986,
-            "end": 3684
+            "end": 2935
           },
           {
             "text": "2012A07 Discuss\nthe suitability of ketamine as an intravenous anaesthetic agent.\nList:\n·\nIntro\n·\nPC\n·\nPK\n·\nPD\nIntro:\n·\nUsed as a sole agent in 3\nrd\nworld and\nfield anaesthesia\n·\nAnaesthetic: for induc",
-            "score": 0.24428082950380803,
+            "score": 0.3542497001837563,
             "start": 0,
             "end": 1649
+          },
+          {
+            "text": "Direct effects balance indirect effects in health\n·\nNegative inotropy may be unmasked if maximal SNS activity or high\n  dose vasoactives\n·\nBaroreceptor reflex relatively preserved\nRespiratory:\n·\nThala",
+            "score": 0.2589747757634805,
+            "start": 2936,
+            "end": 3684
           }
         ]
       },
@@ -364,25 +367,25 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12958413928918883,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.8551215152942102,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Other ↑: 2PK/5HT\n3\n/mu opioid\n·\nOther ↓: VDNaC, VdCC, monoamine reuptake, nnAChR\nAnaesthesia\n·\nThalamocortical dissocation (amnesia, sedation, hypnosis,\n  immobility; not anxiolytic)\n·\nAtypical effect",
-            "score": 0.12958413928918883,
-            "start": 1707,
-            "end": 3053
+            "text": "Principal: non-competitive NMDA antagonist at PCP site\n·\nOther ↑: 2PK/5HT\n3\n/mu opioid\n·\nOther ↓: VDNaC, VdCC, monoamine reuptake, nnAChR\nAnaesthesia\n·\nThalamocortical dissocation (amnesia, sedation, ",
+            "score": 0.8551215152942102,
+            "start": 1650,
+            "end": 2935
           },
           {
             "text": "2012A07 Discuss\nthe suitability of ketamine as an intravenous anaesthetic agent.\nList:\n·\nIntro\n·\nPC\n·\nPK\n·\nPD\nIntro:\n·\nUsed as a sole agent in 3\nrd\nworld and\nfield anaesthesia\n·\nAnaesthetic: for induc",
-            "score": 0.10202987799295415,
+            "score": 0.7332913519466231,
             "start": 0,
-            "end": 1706
+            "end": 1649
           },
           {
-            "text": "  dose vasoactives\n·\nBaroreceptor reflex relatively preserved\nRespiratory:\n·\nThalamocortical dissociation with relative preservation of vital\n  medullary activity\n·\n↑SNS output and ↓L-Ca\n2+\n-> smooth ",
-            "score": 0.08969914404147739,
-            "start": 3054,
+            "text": "Direct effects balance indirect effects in health\n·\nNegative inotropy may be unmasked if maximal SNS activity or high\n  dose vasoactives\n·\nBaroreceptor reflex relatively preserved\nRespiratory:\n·\nThala",
+            "score": 0.44946072435961015,
+            "start": 2936,
             "end": 3684
           }
         ]
@@ -458,30 +461,78 @@
             "end": 3684
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.30570328895109333,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.15863825532763226,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Other ↑: 2PK/5HT\n3\n/mu opioid\n·\nOther ↓: VDNaC, VdCC, monoamine reuptake, nnAChR\nAnaesthesia\n·\nThalamocortical dissocation (amnesia, sedation, hypnosis,\n  immobility; not anxiolytic)\n·\nAtypical effect",
-            "score": 0.30570328895109333,
+            "score": 0.15863825532763226,
             "start": 1707,
             "end": 3053
           },
           {
             "text": "  dose vasoactives\n·\nBaroreceptor reflex relatively preserved\nRespiratory:\n·\nThalamocortical dissociation with relative preservation of vital\n  medullary activity\n·\n↑SNS output and ↓L-Ca\n2+\n-> smooth ",
-            "score": 0.18140657479987835,
+            "score": 0.11690780739311239,
             "start": 3054,
             "end": 3684
           },
           {
             "text": "2012A07 Discuss\nthe suitability of ketamine as an intravenous anaesthetic agent.\nList:\n·\nIntro\n·\nPC\n·\nPK\n·\nPD\nIntro:\n·\nUsed as a sole agent in 3\nrd\nworld and\nfield anaesthesia\n·\nAnaesthetic: for induc",
-            "score": 0.1554444021999438,
+            "score": 0.09958592212583708,
             "start": 0,
             "end": 1706
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.2598282226097282,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\nPrincipal: non-competitive NMDA antagonist at PCP site\n·\nOther ↑: 2PK/5HT\n3\n/mu opioid\n·\nOther ↓: VDNaC, VdCC, monoamine reuptake, nnAChR\nAnaesthesia\n·\nThalamocortical dissocation (amnesia, sedation",
+            "score": 0.2598282226097282,
+            "start": 1648,
+            "end": 2933
+          },
+          {
+            "text": "·\nDirect effects balance indirect effects in health\n·\nNegative inotropy may be unmasked if maximal SNS activity or high\n  dose vasoactives\n·\nBaroreceptor reflex relatively preserved\nRespiratory:\n·\nTha",
+            "score": 0.19059863367246443,
+            "start": 2934,
+            "end": 3684
+          },
+          {
+            "text": "2012A07 Discuss\nthe suitability of ketamine as an intravenous anaesthetic agent.\nList:\n·\nIntro\n·\nPC\n·\nPK\n·\nPD\nIntro:\n·\nUsed as a sole agent in 3\nrd\nworld and\nfield anaesthesia\n·\nAnaesthetic: for induc",
+            "score": 0.14065856668448176,
+            "start": 0,
+            "end": 1647
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7902092136687209,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Principal: non-competitive NMDA antagonist at PCP site\n·\nOther ↑: 2PK/5HT\n3\n/mu opioid\n·\nOther ↓: VDNaC, VdCC, monoamine reuptake, nnAChR\nAnaesthesia\n·\nThalamocortical dissocation (amnesia, sedation, ",
+            "score": 0.7902092136687209,
+            "start": 1650,
+            "end": 2935
+          },
+          {
+            "text": "Direct effects balance indirect effects in health\n·\nNegative inotropy may be unmasked if maximal SNS activity or high\n  dose vasoactives\n·\nBaroreceptor reflex relatively preserved\nRespiratory:\n·\nThala",
+            "score": 0.5837160233700106,
+            "start": 2936,
+            "end": 3684
+          },
+          {
+            "text": "2012A07 Discuss\nthe suitability of ketamine as an intravenous anaesthetic agent.\nList:\n·\nIntro\n·\nPC\n·\nPK\n·\nPD\nIntro:\n·\nUsed as a sole agent in 3\nrd\nworld and\nfield anaesthesia\n·\nAnaesthetic: for induc",
+            "score": 0.4038954350601955,
+            "start": 0,
+            "end": 1649
           }
         ]
       },

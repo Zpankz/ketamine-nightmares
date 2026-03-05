@@ -14,7 +14,8 @@
       "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "structure_function_link"
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -168,19 +169,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.9169980825837643,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.8451896480365693,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2003B15 Briefly\ndescribe the N-methyl d-aspartate (NMDA) receptor\nand its physiological role in the central nervous system.\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological role\nGenera",
-            "score": 0.9169980825837643,
+            "score": 0.8451896480365693,
             "start": 0,
-            "end": 1507
+            "end": 1505
           },
           {
-            "text": "e.g. learning, memory\n�\nRepetition -> high frequency NMDA\n  activation\n�\nActivity-dependent facilitation ->\n  long-term potentiation\n�\nActivity\n-dependent\n  inhibition -> long-term depression\nExcitoto",
-            "score": 0.6654798003861663,
-            "start": 1508,
+            "text": "�\ne.g. learning, memory\n�\nRepetition -> high frequency NMDA\n  activation\n�\nActivity-dependent facilitation ->\n  long-term potentiation\n�\nActivity\n-dependent\n  inhibition -> long-term depression\nExcito",
+            "score": 0.5703246810419441,
+            "start": 1506,
             "end": 1924
           }
         ]
@@ -276,20 +277,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11905584709916793,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.24221938844708332,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Repetition -> high frequency NMDA\n  activation\n�\nActivity-dependent facilitation ->\n  long-term potentiation\n�\nActivity\n-dependent\n  inhibition -> long-term depression\nExcitotoxicity\n�\nIschaemia -> fa",
-            "score": 0.11905584709916793,
-            "start": 1532,
-            "end": 1924
+            "text": "2003B15 Briefly\ndescribe the N-methyl d-aspartate (NMDA) receptor\nand its physiological role in the central nervous system.\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological role\nGenera",
+            "score": 0.24221938844708332,
+            "start": 0,
+            "end": 1505
           },
           {
-            "text": "2003B15 Briefly\ndescribe the N-methyl d-aspartate (NMDA) receptor\nand its physiological role in the central nervous system.\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological role\nGenera",
-            "score": 0.10957409746514832,
-            "start": 0,
-            "end": 1531
+            "text": "�\ne.g. learning, memory\n�\nRepetition -> high frequency NMDA\n  activation\n�\nActivity-dependent facilitation ->\n  long-term potentiation\n�\nActivity\n-dependent\n  inhibition -> long-term depression\nExcito",
+            "score": 0.10551062286445975,
+            "start": 1506,
+            "end": 1924
           }
         ]
       },
@@ -346,24 +347,60 @@
             "end": 1507
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3987630173324155,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.3604267300934169,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
+            "text": "2003B15 Briefly\ndescribe the N-methyl d-aspartate (NMDA) receptor\nand its physiological role in the central nervous system.\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological role\nGenera",
+            "score": 0.3604267300934169,
+            "start": 0,
+            "end": 1531
+          },
+          {
             "text": "Repetition -> high frequency NMDA\n  activation\n�\nActivity-dependent facilitation ->\n  long-term potentiation\n�\nActivity\n-dependent\n  inhibition -> long-term depression\nExcitotoxicity\n�\nIschaemia -> fa",
-            "score": 0.3987630173324155,
+            "score": 0.24016747383683887,
             "start": 1532,
+            "end": 1924
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.2052664429349464,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Neuroplasticity\n�\ne.g. learning, memory\n�\nRepetition -> high frequency NMDA\n  activation\n�\nActivity-dependent facilitation ->\n  long-term potentiation\n�\nActivity\n-dependent\n  inhibition -> long-term d",
+            "score": 0.2052664429349464,
+            "start": 1490,
             "end": 1924
           },
           {
             "text": "2003B15 Briefly\ndescribe the N-methyl d-aspartate (NMDA) receptor\nand its physiological role in the central nervous system.\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological role\nGenera",
-            "score": 0.19059863367246443,
+            "score": 0.09861813254725033,
             "start": 0,
-            "end": 1531
+            "end": 1489
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6323593447401579,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "e.g. learning, memory\n�\nRepetition -> high frequency NMDA\n  activation\n�\nActivity-dependent facilitation ->\n  long-term potentiation\n�\nActivity\n-dependent\n  inhibition -> long-term depression\nExcitoto",
+            "score": 0.6323593447401579,
+            "start": 1508,
+            "end": 1924
+          },
+          {
+            "text": "2003B15 Briefly\ndescribe the N-methyl d-aspartate (NMDA) receptor\nand its physiological role in the central nervous system.\nList:\n�\nGeneral description\n�\nActivation process\n�\nPhysiological role\nGenera",
+            "score": 0.5130006613657936,
+            "start": 0,
+            "end": 1507
           }
         ]
       },

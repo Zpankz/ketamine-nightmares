@@ -16,7 +16,9 @@
       ]
     },
     "content_dimensions": [],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -169,19 +171,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5005307403204127,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4262860977088221,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2000B15 Write\nbrief notes on latex allergy.\nList:\n·\nIntro\n·\nType 1 reaction\n·\nType 4 reaction\nIntro:\nDefinition\n·\nHypersensitivity to latex a natural derivative\n  of the rubber tree\nRisk factors\n·\nAto",
-            "score": 0.5005307403204127,
+            "score": 0.4262860977088221,
             "start": 0,
-            "end": 1510
+            "end": 1488
           },
           {
-            "text": "·\nPrick skin ->apply latex solution -> observe for weal and\n  flare\n·\nRadioallergosorbent assay\n·\nSerial tryptase (+1h, +6h)\nType 4: delayed\ntype hypersensitivity, contact dermatitis\nKey features\n·\nSl",
-            "score": 0.19932289324287283,
-            "start": 1511,
+            "text": "  capillary leak\nTest\n·\nPrick skin ->apply latex solution -> observe for weal and\n  flare\n·\nRadioallergosorbent assay\n·\nSerial tryptase (+1h, +6h)\nType 4: delayed\ntype hypersensitivity, contact dermat",
+            "score": 0.2803024686265447,
+            "start": 1489,
             "end": 1979
           }
         ]
@@ -277,20 +279,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.14366505103412583,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.15671722015798292,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Prick skin ->apply latex solution -> observe for weal and\n  flare\n·\nRadioallergosorbent assay\n·\nSerial tryptase (+1h, +6h)\nType 4: delayed\ntype hypersensitivity, contact dermatitis\nKey features\n·\nSlow",
-            "score": 0.14366505103412583,
-            "start": 1513,
-            "end": 1979
+            "text": "2000B15 Write\nbrief notes on latex allergy.\nList:\n·\nIntro\n·\nType 1 reaction\n·\nType 4 reaction\nIntro:\nDefinition\n·\nHypersensitivity to latex a natural derivative\n  of the rubber tree\nRisk factors\n·\nAto",
+            "score": 0.15671722015798292,
+            "start": 0,
+            "end": 1488
           },
           {
-            "text": "2000B15 Write\nbrief notes on latex allergy.\nList:\n·\nIntro\n·\nType 1 reaction\n·\nType 4 reaction\nIntro:\nDefinition\n·\nHypersensitivity to latex a natural derivative\n  of the rubber tree\nRisk factors\n·\nAto",
-            "score": 0.0924623723009821,
-            "start": 0,
-            "end": 1512
+            "text": "  capillary leak\nTest\n·\nPrick skin ->apply latex solution -> observe for weal and\n  flare\n·\nRadioallergosorbent assay\n·\nSerial tryptase (+1h, +6h)\nType 4: delayed\ntype hypersensitivity, contact dermat",
+            "score": 0.14979442334570606,
+            "start": 1489,
+            "end": 1979
           }
         ]
       },
@@ -347,24 +349,60 @@
             "end": 1979
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.21207433610868814,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2667086480533769,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Prick skin ->apply latex solution -> observe for weal and\n  flare\n·\nRadioallergosorbent assay\n·\nSerial tryptase (+1h, +6h)\nType 4: delayed\ntype hypersensitivity, contact dermatitis\nKey features\n·\nSlow",
-            "score": 0.21207433610868814,
+            "score": 0.2667086480533769,
             "start": 1513,
             "end": 1979
           },
           {
             "text": "2000B15 Write\nbrief notes on latex allergy.\nList:\n·\nIntro\n·\nType 1 reaction\n·\nType 4 reaction\nIntro:\nDefinition\n·\nHypersensitivity to latex a natural derivative\n  of the rubber tree\nRisk factors\n·\nAto",
-            "score": 0.18140657479987835,
+            "score": 0.11531222505249526,
             "start": 0,
             "end": 1512
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.17656868710877405,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↓Vasodilation,\n  capillary leak\nTest\n·\nPrick skin ->apply latex solution -> observe for weal and\n  flare\n·\nRadioallergosorbent assay\n·\nSerial tryptase (+1h, +6h)\nType 4: delayed\ntype hypersensitivity,",
+            "score": 0.17656868710877405,
+            "start": 1474,
+            "end": 1979
+          },
+          {
+            "text": "2000B15 Write\nbrief notes on latex allergy.\nList:\n·\nIntro\n·\nType 1 reaction\n·\nType 4 reaction\nIntro:\nDefinition\n·\nHypersensitivity to latex a natural derivative\n  of the rubber tree\nRisk factors\n·\nAto",
+            "score": 0.11905584709916793,
+            "start": 0,
+            "end": 1473
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.644764646385698,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2000B15 Write\nbrief notes on latex allergy.\nList:\n·\nIntro\n·\nType 1 reaction\n·\nType 4 reaction\nIntro:\nDefinition\n·\nHypersensitivity to latex a natural derivative\n  of the rubber tree\nRisk factors\n·\nAto",
+            "score": 0.644764646385698,
+            "start": 0,
+            "end": 1488
+          },
+          {
+            "text": "  capillary leak\nTest\n·\nPrick skin ->apply latex solution -> observe for weal and\n  flare\n·\nRadioallergosorbent assay\n·\nSerial tryptase (+1h, +6h)\nType 4: delayed\ntype hypersensitivity, contact dermat",
+            "score": 0.39671522001279147,
+            "start": 1489,
+            "end": 1979
           }
         ]
       },

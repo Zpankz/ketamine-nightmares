@@ -10,6 +10,7 @@
       "score": 0.3974827909689934
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "equipment_and_physics"
     ],
     "explanatory_schema": []
@@ -213,25 +214,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.12958413928918883,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.27897201595542515,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "detection by probe\n�\nTransmission\n�\nDiffraction\n�\nScattering\n�\nAbsorption as heat\nAcoustic attenuation\n�\nDecay in amplitude with passage through a\n  tissue\n�\nOccurs due to absorption, scattering etc.\n",
-            "score": 0.12958413928918883,
-            "start": 1615,
-            "end": 2964
+            "text": "Reflection ->\ndetection by probe\n�\nTransmission\n�\nDiffraction\n�\nScattering\n�\nAbsorption as heat\nAcoustic attenuation\n�\nDecay in amplitude with passage through a\n  tissue\n�\nOccurs due to absorption, sc",
+            "score": 0.27897201595542515,
+            "start": 1601,
+            "end": 2950
           },
           {
             "text": "2010B11 Explain\nthe physical principles of ultrasound imaging.\nList:\n�\nUltrasound waves\n�\nUltrasound machine\n�\nTissue interactions\n�\nImaging properties\n�\nDoppler effect\nUltrasound\nwaves:\nDefinition\n�\n",
-            "score": 0.09480246485705024,
+            "score": 0.16779109893341812,
             "start": 0,
-            "end": 1614
+            "end": 1600
           },
           {
-            "text": "↑Freq: ↑resolution but\n  ↓depth\n�\n↓Freq: ↓resolution but\n  ↑depth\n(*phased array transducer only)\nDoppler effect:\nDefinition\n�\nApparent frequency ↑/↓if source is\n  moving towards/away from probe\nUse\n�",
-            "score": 0.07576714551953342,
-            "start": 2965,
+            "text": "attenuation\n�\n↑Freq: ↑resolution but\n  ↓depth\n�\n↓Freq: ↓resolution but\n  ↑depth\n(*phased array transducer only)\nDoppler effect:\nDefinition\n�\nApparent frequency ↑/↓if source is\n  moving towards/away fr",
+            "score": 0.16514433309482263,
+            "start": 2951,
             "end": 3867
           }
         ]
@@ -357,25 +358,25 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07370939126160315,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.10906114075009045,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
+            "text": "Reflection ->\ndetection by probe\n�\nTransmission\n�\nDiffraction\n�\nScattering\n�\nAbsorption as heat\nAcoustic attenuation\n�\nDecay in amplitude with passage through a\n  tissue\n�\nOccurs due to absorption, sc",
+            "score": 0.10906114075009045,
+            "start": 1601,
+            "end": 2950
+          },
+          {
             "text": "2010B11 Explain\nthe physical principles of ultrasound imaging.\nList:\n�\nUltrasound waves\n�\nUltrasound machine\n�\nTissue interactions\n�\nImaging properties\n�\nDoppler effect\nUltrasound\nwaves:\nDefinition\n�\n",
-            "score": 0.07370939126160315,
+            "score": 0.0915358786435363,
             "start": 0,
-            "end": 1648
+            "end": 1600
           },
           {
-            "text": "�\nDiffraction\n�\nScattering\n�\nAbsorption as heat\nAcoustic attenuation\n�\nDecay in amplitude with passage through a\n  tissue\n�\nOccurs due to absorption, scattering etc.\n�\nCan be overcome by �time gain co",
-            "score": 0.06388324864388517,
-            "start": 1649,
-            "end": 2998
-          },
-          {
-            "text": "↓Freq: ↓resolution but\n  ↑depth\n(*phased array transducer only)\nDoppler effect:\nDefinition\n�\nApparent frequency ↑/↓if source is\n  moving towards/away from probe\nUse\n�\nDemonstrate flow and direction of",
-            "score": 0.06016246184685815,
-            "start": 2999,
+            "text": "attenuation\n�\n↑Freq: ↑resolution but\n  ↓depth\n�\n↓Freq: ↓resolution but\n  ↑depth\n(*phased array transducer only)\nDoppler effect:\nDefinition\n�\nApparent frequency ↑/↓if source is\n  moving towards/away fr",
+            "score": 0.08653659094165504,
+            "start": 2951,
             "end": 3867
           }
         ]
@@ -451,29 +452,77 @@
             "end": 3867
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.1554444021999438,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2010B11 Explain\nthe physical principles of ultrasound imaging.\nList:\n�\nUltrasound waves\n�\nUltrasound machine\n�\nTissue interactions\n�\nImaging properties\n�\nDoppler effect\nUltrasound\nwaves:\nDefinition\n�\n",
+            "score": 0.1554444021999438,
+            "start": 0,
+            "end": 1648
+          },
+          {
+            "text": "�\nDiffraction\n�\nScattering\n�\nAbsorption as heat\nAcoustic attenuation\n�\nDecay in amplitude with passage through a\n  tissue\n�\nOccurs due to absorption, scattering etc.\n�\nCan be overcome by �time gain co",
+            "score": 0.1278857710804513,
+            "start": 1649,
+            "end": 2998
+          },
+          {
+            "text": "↓Freq: ↓resolution but\n  ↑depth\n(*phased array transducer only)\nDoppler effect:\nDefinition\n�\nApparent frequency ↑/↓if source is\n  moving towards/away from probe\nUse\n�\nDemonstrate flow and direction of",
+            "score": 0.06694504991175636,
+            "start": 2999,
+            "end": 3867
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8798612703228768,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "∝\nattenuation\n�\n↑Freq: ↑resolution but\n  ↓depth\n�\n↓Freq: ↓resolution but\n  ↑depth\n(*phased array transducer only)\nDoppler effect:\nDefinition\n�\nApparent frequency ↑/↓if source is\n  moving towards/away ",
+            "score": 0.8798612703228768,
+            "start": 2949,
+            "end": 3867
+          },
+          {
+            "text": "�\nReflection ->\ndetection by probe\n�\nTransmission\n�\nDiffraction\n�\nScattering\n�\nAbsorption as heat\nAcoustic attenuation\n�\nDecay in amplitude with passage through a\n  tissue\n�\nOccurs due to absorption, ",
+            "score": 0.430523505058558,
+            "start": 1599,
+            "end": 2948
+          },
+          {
+            "text": "2010B11 Explain\nthe physical principles of ultrasound imaging.\nList:\n�\nUltrasound waves\n�\nUltrasound machine\n�\nTissue interactions\n�\nImaging properties\n�\nDoppler effect\nUltrasound\nwaves:\nDefinition\n�\n",
+            "score": 0.11531222505249526,
+            "start": 0,
+            "end": 1598
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.20827633226924755,
+        "score": 0.19275817505115483,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "Diffraction\n�\nScattering\n�\nAbsorption as heat\nAcoustic attenuation\n�\nDecay in amplitude with passage through a\n  tissue\n�\nOccurs due to absorption, scattering etc.\n�\nCan be overcome by �time gain comp",
-            "score": 0.20827633226924755,
-            "start": 1651,
-            "end": 2998
+            "text": "Reflection ->\ndetection by probe\n�\nTransmission\n�\nDiffraction\n�\nScattering\n�\nAbsorption as heat\nAcoustic attenuation\n�\nDecay in amplitude with passage through a\n  tissue\n�\nOccurs due to absorption, sc",
+            "score": 0.19275817505115483,
+            "start": 1601,
+            "end": 2962
           },
           {
             "text": "2010B11 Explain\nthe physical principles of ultrasound imaging.\nList:\n�\nUltrasound waves\n�\nUltrasound machine\n�\nTissue interactions\n�\nImaging properties\n�\nDoppler effect\nUltrasound\nwaves:\nDefinition\n�\n",
-            "score": 0.1718088844227446,
+            "score": 0.11584261865163957,
             "start": 0,
-            "end": 1650
+            "end": 1600
           },
           {
-            "text": "↓Freq: ↓resolution but\n  ↑depth\n(*phased array transducer only)\nDoppler effect:\nDefinition\n�\nApparent frequency ↑/↓if source is\n  moving towards/away from probe\nUse\n�\nDemonstrate flow and direction of",
-            "score": 0.08609013263273645,
-            "start": 2999,
+            "text": "�\n↑Freq: ↑resolution but\n  ↓depth\n�\n↓Freq: ↓resolution but\n  ↑depth\n(*phased array transducer only)\nDoppler effect:\nDefinition\n�\nApparent frequency ↑/↓if source is\n  moving towards/away from probe\nUse",
+            "score": 0.07494026869750434,
+            "start": 2963,
             "end": 3867
           }
         ]

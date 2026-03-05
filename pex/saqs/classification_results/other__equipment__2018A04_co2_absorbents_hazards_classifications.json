@@ -11,6 +11,7 @@
     },
     "content_dimensions": [
       "equipment_and_physics",
+      "nociception_process",
       "acid_base_quality"
     ],
     "explanatory_schema": []
@@ -166,18 +167,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.40081379692870983,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.48484465497847296,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "to “fresh” if left\nunused\n·\nUnused OH\n-\nions in the core migrate\nto the surface.\n·\nFix: check before each case\n·\nFix: use capnography in every\nGA\nAirway resistance\n·\n4-8 mesh optimal for balance betwe",
-            "score": 0.40081379692870983,
+            "score": 0.48484465497847296,
             "start": 1494,
             "end": 2325
           },
           {
             "text": "2018A04 Outline the hazards\nassociated with the use of CO\n2\nabsorbents within a\ncircle\nbreathing system and how the risks can be minimized.\nList:\n·\nPhysical hazards\n·\nDegradation products\n·\nOther\n·\nIn",
-            "score": 0.1100884956529356,
+            "score": 0.2052664429349464,
             "start": 0,
             "end": 1493
           }
@@ -274,20 +275,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.23771779517095493,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7324247348287793,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Unused OH\n-\nions in the core migrate\nto the surface.\n·\nFix: check before each case\n·\nFix: use capnography in every\nGA\nAirway resistance\n·\n4-8 mesh optimal for balance between ↓\nairway resistance and ↑",
-            "score": 0.23771779517095493,
-            "start": 1522,
+            "text": "to “fresh” if left\nunused\n·\nUnused OH\n-\nions in the core migrate\nto the surface.\n·\nFix: check before each case\n·\nFix: use capnography in every\nGA\nAirway resistance\n·\n4-8 mesh optimal for balance betwe",
+            "score": 0.7324247348287793,
+            "start": 1494,
             "end": 2325
           },
           {
             "text": "2018A04 Outline the hazards\nassociated with the use of CO\n2\nabsorbents within a\ncircle\nbreathing system and how the risks can be minimized.\nList:\n·\nPhysical hazards\n·\nDegradation products\n·\nOther\n·\nIn",
-            "score": 0.0741184288718156,
+            "score": 0.09199844623487359,
             "start": 0,
-            "end": 1521
+            "end": 1493
           }
         ]
       },
@@ -344,24 +345,60 @@
             "end": 1493
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.22766004724276212,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.18561555034757704,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "-\nions in the core migrate\nto the surface.\n·\nFix: check before each case\n·\nFix: use capnography in every\nGA\nAirway resistance\n·\n4-8 mesh optimal for balance between ↓\nairway resistance and ↑ surface a",
-            "score": 0.22766004724276212,
-            "start": 1532,
+            "text": "Unused OH\n-\nions in the core migrate\nto the surface.\n·\nFix: check before each case\n·\nFix: use capnography in every\nGA\nAirway resistance\n·\n4-8 mesh optimal for balance between ↓\nairway resistance and ↑",
+            "score": 0.18561555034757704,
+            "start": 1522,
             "end": 2325
           },
           {
             "text": "2018A04 Outline the hazards\nassociated with the use of CO\n2\nabsorbents within a\ncircle\nbreathing system and how the risks can be minimized.\nList:\n·\nPhysical hazards\n·\nDegradation products\n·\nOther\n·\nIn",
-            "score": 0.14671028264551744,
+            "score": 0.07827820752174312,
             "start": 0,
-            "end": 1531
+            "end": 1521
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.5899223039845004,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "to “fresh” if left\nunused\n·\nUnused OH\n-\nions in the core migrate\nto the surface.\n·\nFix: check before each case\n·\nFix: use capnography in every\nGA\nAirway resistance\n·\n4-8 mesh optimal for balance betwe",
+            "score": 0.5899223039845004,
+            "start": 1494,
+            "end": 2325
+          },
+          {
+            "text": "2018A04 Outline the hazards\nassociated with the use of CO\n2\nabsorbents within a\ncircle\nbreathing system and how the risks can be minimized.\nList:\n·\nPhysical hazards\n·\nDegradation products\n·\nOther\n·\nIn",
+            "score": 0.10906114075009045,
+            "start": 0,
+            "end": 1493
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3738997150614138,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "to “fresh” if left\nunused\n·\nUnused OH\n-\nions in the core migrate\nto the surface.\n·\nFix: check before each case\n·\nFix: use capnography in every\nGA\nAirway resistance\n·\n4-8 mesh optimal for balance betwe",
+            "score": 0.3738997150614138,
+            "start": 1494,
+            "end": 2325
+          },
+          {
+            "text": "2018A04 Outline the hazards\nassociated with the use of CO\n2\nabsorbents within a\ncircle\nbreathing system and how the risks can be minimized.\nList:\n·\nPhysical hazards\n·\nDegradation products\n·\nOther\n·\nIn",
+            "score": 0.23568694716034655,
+            "start": 0,
+            "end": 1493
           }
         ]
       },

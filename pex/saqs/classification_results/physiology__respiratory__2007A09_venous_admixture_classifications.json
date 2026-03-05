@@ -18,11 +18,13 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
+      "clinical_measurement_process",
       "organ_system_process",
       "equipment_and_physics"
     ],
     "explanatory_schema": [
-      "homeostatic_regulation"
+      "homeostatic_regulation",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -176,18 +178,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.25472975212894494,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.35795117350981126,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Average 0.8, apex 3.3, base 0.6\nPathological\n·\nLung disease: e.g. COPD\n·\nVasodilators impairing HPV hence V/Q matching:\n  e.g. sevoflurane > propofol\nEffect of 100% FiO2\n·\n↑FiO\n2\ncompensates effective",
-            "score": 0.25472975212894494,
+            "score": 0.35795117350981126,
             "start": 1320,
             "end": 2202
           },
           {
             "text": "2007A09 Define\n‘venous admixture’. Briefly explain how venous admixture influences arterial\noxygen tension and how an increase in inspired oxygen concentration may affect\nthis.\nList:\n·\nVenous admixtur",
-            "score": 0.10551062286445975,
+            "score": 0.21437210705255258,
             "start": 0,
             "end": 1319
           }
@@ -284,20 +286,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07494026869750434,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.19638930530173287,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2007A09 Define\n‘venous admixture’. Briefly explain how venous admixture influences arterial\noxygen tension and how an increase in inspired oxygen concentration may affect\nthis.\nList:\n·\nVenous admixtur",
-            "score": 0.07494026869750434,
-            "start": 0,
-            "end": 1351
+            "text": "Average 0.8, apex 3.3, base 0.6\nPathological\n·\nLung disease: e.g. COPD\n·\nVasodilators impairing HPV hence V/Q matching:\n  e.g. sevoflurane > propofol\nEffect of 100% FiO2\n·\n↑FiO\n2\ncompensates effective",
+            "score": 0.19638930530173287,
+            "start": 1320,
+            "end": 2202
           },
           {
-            "text": "Pathological\n·\nLung disease: e.g. COPD\n·\nVasodilators impairing HPV hence V/Q matching:\n  e.g. sevoflurane > propofol\nEffect of 100% FiO2\n·\n↑FiO\n2\ncompensates effectively for\n  both local and global h",
-            "score": 0.0741184288718156,
-            "start": 1352,
-            "end": 2202
+            "text": "2007A09 Define\n‘venous admixture’. Briefly explain how venous admixture influences arterial\noxygen tension and how an increase in inspired oxygen concentration may affect\nthis.\nList:\n·\nVenous admixtur",
+            "score": 0.11112162501075684,
+            "start": 0,
+            "end": 1319
           }
         ]
       },
@@ -354,24 +356,60 @@
             "end": 1319
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.15481035196343076,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2007A09 Define\n‘venous admixture’. Briefly explain how venous admixture influences arterial\noxygen tension and how an increase in inspired oxygen concentration may affect\nthis.\nList:\n·\nVenous admixtur",
+            "score": 0.15481035196343076,
+            "start": 0,
+            "end": 1351
+          },
+          {
+            "text": "Pathological\n·\nLung disease: e.g. COPD\n·\nVasodilators impairing HPV hence V/Q matching:\n  e.g. sevoflurane > propofol\nEffect of 100% FiO2\n·\n↑FiO\n2\ncompensates effectively for\n  both local and global h",
+            "score": 0.13946678392103212,
+            "start": 1352,
+            "end": 2202
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8150899351016954,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Average 0.8, apex 3.3, base 0.6\nPathological\n·\nLung disease: e.g. COPD\n·\nVasodilators impairing HPV hence V/Q matching:\n  e.g. sevoflurane > propofol\nEffect of 100% FiO2\n·\n↑FiO\n2\ncompensates effective",
+            "score": 0.8150899351016954,
+            "start": 1320,
+            "end": 2202
+          },
+          {
+            "text": "2007A09 Define\n‘venous admixture’. Briefly explain how venous admixture influences arterial\noxygen tension and how an increase in inspired oxygen concentration may affect\nthis.\nList:\n·\nVenous admixtur",
+            "score": 0.315494735817561,
+            "start": 0,
+            "end": 1319
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.32971927115415006,
+        "score": 0.698909522648282,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2007A09 Define\n‘venous admixture’. Briefly explain how venous admixture influences arterial\noxygen tension and how an increase in inspired oxygen concentration may affect\nthis.\nList:\n·\nVenous admixtur",
-            "score": 0.32971927115415006,
-            "start": 0,
-            "end": 1364
+            "text": "Average 0.8, apex 3.3, base 0.6\nPathological\n·\nLung disease: e.g. COPD\n·\nVasodilators impairing HPV hence V/Q matching:\n  e.g. sevoflurane > propofol\nEffect of 100% FiO2\n·\n↑FiO\n2\ncompensates effective",
+            "score": 0.698909522648282,
+            "start": 1320,
+            "end": 2202
           },
           {
-            "text": "·\nLung disease: e.g. COPD\n·\nVasodilators impairing HPV hence V/Q matching:\n  e.g. sevoflurane > propofol\nEffect of 100% FiO2\n·\n↑FiO\n2\ncompensates effectively for\n  both local and global hypoventilatio",
-            "score": 0.2879009466412548,
-            "start": 1365,
-            "end": 2202
+            "text": "2007A09 Define\n‘venous admixture’. Briefly explain how venous admixture influences arterial\noxygen tension and how an increase in inspired oxygen concentration may affect\nthis.\nList:\n·\nVenous admixtur",
+            "score": 0.24386778071856008,
+            "start": 0,
+            "end": 1319
           }
         ]
       },

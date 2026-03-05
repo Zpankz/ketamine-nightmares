@@ -15,10 +15,12 @@
     },
     "content_dimensions": [
       "organ_system_process",
+      "nociception_process",
       "drug_receptor_disposition",
       "equipment_and_physics"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link",
       "homeostatic_regulation"
     ]
@@ -222,25 +224,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7813784651714728,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6594384501928167,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021A10 Describe\nthe clinical effects of non-steroidal anti-inflammatory drugs\nincluding mechanisms through which they exert these effects.\nList:\n·\nClassification and examples\n·\nArachidonic acid pathw",
-            "score": 0.7813784651714728,
+            "score": 0.6594384501928167,
             "start": 0,
             "end": 1238
           },
           {
             "text": "↓Vasodilatation, ↓capillary leak, ↓oedema,\n  ↓WBC chemotaxis\n·\n↓Healing: bone (post fracture), pleura (post\n  pleurodesis)\nOrgan systems:\nCardiovascular\n·\n↓PGI\n2\n-> vasoconstriction,\n  ↑platelet aggre",
-            "score": 0.774717751800841,
+            "score": 0.575015910408344,
             "start": 1239,
-            "end": 2473
+            "end": 2442
           },
           {
-            "text": "COX-2\ninhibitors:\nPros\n·\nSelective for inflamed tissue (enzyme is\n  inducible cf. constitutive)\n·\n↓Peptic ulceration\n·\n↓Bronchoconstriction\n·\n↓Renal impairment (examiner 2013)\n·\n↓Bleeding risk\nCons\n·\n",
-            "score": 0.5628098737801128,
-            "start": 2474,
+            "text": "Metabolic acidosis in overdose\nCOX-2\ninhibitors:\nPros\n·\nSelective for inflamed tissue (enzyme is\n  inducible cf. constitutive)\n·\n↓Peptic ulceration\n·\n↓Bronchoconstriction\n·\n↓Renal impairment (examiner",
+            "score": 0.33644862603673276,
+            "start": 2443,
             "end": 2862
           }
         ]
@@ -366,26 +368,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.1256423848664057,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6726702499699408,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\n↓Peptic ulceration\n·\n↓Bronchoconstriction\n·\n↓Renal impairment (examiner 2013)\n·\n↓Bleeding risk\nCons\n·\n↑Thrombosis risk, AMI (rofecoxib)\n·\n↑Fluid retention\n·\nExpensive\n·\nSulfur allergy\n·\nParecoxib is",
-            "score": 0.1256423848664057,
-            "start": 2570,
-            "end": 2862
+            "text": "↓Vasodilatation, ↓capillary leak, ↓oedema,\n  ↓WBC chemotaxis\n·\n↓Healing: bone (post fracture), pleura (post\n  pleurodesis)\nOrgan systems:\nCardiovascular\n·\n↓PGI\n2\n-> vasoconstriction,\n  ↑platelet aggre",
+            "score": 0.6726702499699408,
+            "start": 1239,
+            "end": 2442
           },
           {
             "text": "2021A10 Describe\nthe clinical effects of non-steroidal anti-inflammatory drugs\nincluding mechanisms through which they exert these effects.\nList:\n·\nClassification and examples\n·\nArachidonic acid pathw",
-            "score": 0.0957480960268055,
+            "score": 0.5034497668459529,
             "start": 0,
-            "end": 1281
+            "end": 1238
           },
           {
-            "text": "  ↓WBC chemotaxis\n·\n↓Healing: bone (post fracture), pleura (post\n  pleurodesis)\nOrgan systems:\nCardiovascular\n·\n↓PGI\n2\n-> vasoconstriction,\n  ↑platelet aggregation -> thrombosis e.g. AMI\n(especially C",
-            "score": 0.07659908032051355,
-            "start": 1282,
-            "end": 2569
+            "text": "Metabolic acidosis in overdose\nCOX-2\ninhibitors:\nPros\n·\nSelective for inflamed tissue (enzyme is\n  inducible cf. constitutive)\n·\n↓Peptic ulceration\n·\n↓Bronchoconstriction\n·\n↓Renal impairment (examiner",
+            "score": 0.1485560880659056,
+            "start": 2443,
+            "end": 2862
           }
         ]
       },
@@ -460,29 +462,77 @@
             "end": 1238
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.3325963550051149,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  ↓WBC chemotaxis\n·\n↓Healing: bone (post fracture), pleura (post\n  pleurodesis)\nOrgan systems:\nCardiovascular\n·\n↓PGI\n2\n-> vasoconstriction,\n  ↑platelet aggregation -> thrombosis e.g. AMI\n(especially C",
+            "score": 0.3325963550051149,
+            "start": 1282,
+            "end": 2571
+          },
+          {
+            "text": "↓Peptic ulceration\n·\n↓Bronchoconstriction\n·\n↓Renal impairment (examiner 2013)\n·\n↓Bleeding risk\nCons\n·\n↑Thrombosis risk, AMI (rofecoxib)\n·\n↑Fluid retention\n·\nExpensive\n·\nSulfur allergy\n·\nParecoxib is a",
+            "score": 0.12620097548419282,
+            "start": 2572,
+            "end": 2862
+          },
+          {
+            "text": "2021A10 Describe\nthe clinical effects of non-steroidal anti-inflammatory drugs\nincluding mechanisms through which they exert these effects.\nList:\n·\nClassification and examples\n·\nArachidonic acid pathw",
+            "score": 0.09717688216482506,
+            "start": 0,
+            "end": 1281
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.31596446232249,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↓Vasodilatation, ↓capillary leak, ↓oedema,\n  ↓WBC chemotaxis\n·\n↓Healing: bone (post fracture), pleura (post\n  pleurodesis)\nOrgan systems:\nCardiovascular\n·\n↓PGI\n2\n-> vasoconstriction,\n  ↑platelet aggre",
+            "score": 0.31596446232249,
+            "start": 1239,
+            "end": 2442
+          },
+          {
+            "text": "Metabolic acidosis in overdose\nCOX-2\ninhibitors:\nPros\n·\nSelective for inflamed tissue (enzyme is\n  inducible cf. constitutive)\n·\n↓Peptic ulceration\n·\n↓Bronchoconstriction\n·\n↓Renal impairment (examiner",
+            "score": 0.10401037605283608,
+            "start": 2443,
+            "end": 2862
+          },
+          {
+            "text": "2021A10 Describe\nthe clinical effects of non-steroidal anti-inflammatory drugs\nincluding mechanisms through which they exert these effects.\nList:\n·\nClassification and examples\n·\nArachidonic acid pathw",
+            "score": 0.08878886373592071,
+            "start": 0,
+            "end": 1238
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.4085298179966439,
+        "score": 0.8206763737480939,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "·\n↓Healing: bone (post fracture), pleura (post\n  pleurodesis)\nOrgan systems:\nCardiovascular\n·\n↓PGI\n2\n-> vasoconstriction,\n  ↑platelet aggregation -> thrombosis e.g. AMI\n(especially COX-2 inhibitors; r",
-            "score": 0.4085298179966439,
-            "start": 1300,
-            "end": 2592
-          },
-          {
             "text": "2021A10 Describe\nthe clinical effects of non-steroidal anti-inflammatory drugs\nincluding mechanisms through which they exert these effects.\nList:\n·\nClassification and examples\n·\nArachidonic acid pathw",
-            "score": 0.22135047558413734,
+            "score": 0.8206763737480939,
             "start": 0,
-            "end": 1299
+            "end": 1238
           },
           {
-            "text": "↓Bronchoconstriction\n·\n↓Renal impairment (examiner 2013)\n·\n↓Bleeding risk\nCons\n·\n↑Thrombosis risk, AMI (rofecoxib)\n·\n↑Fluid retention\n·\nExpensive\n·\nSulfur allergy\n·\nParecoxib is a prodrug with very sl",
-            "score": 0.17248408020698391,
-            "start": 2593,
+            "text": "↓Vasodilatation, ↓capillary leak, ↓oedema,\n  ↓WBC chemotaxis\n·\n↓Healing: bone (post fracture), pleura (post\n  pleurodesis)\nOrgan systems:\nCardiovascular\n·\n↓PGI\n2\n-> vasoconstriction,\n  ↑platelet aggre",
+            "score": 0.7735306053074618,
+            "start": 1239,
+            "end": 2442
+          },
+          {
+            "text": "Metabolic acidosis in overdose\nCOX-2\ninhibitors:\nPros\n·\nSelective for inflamed tissue (enzyme is\n  inducible cf. constitutive)\n·\n↓Peptic ulceration\n·\n↓Bronchoconstriction\n·\n↓Renal impairment (examiner",
+            "score": 0.5513283938999191,
+            "start": 2443,
             "end": 2862
           }
         ]

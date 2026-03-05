@@ -174,19 +174,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.11905584709916793,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.19203673272679375,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2017B02 Using a\nlabelled diagramme, describe how a mechanical (non-cassette) variable-bypass\nvapouriser\nachieves the concentration set on the dial. Describe the mechanisms that\ncompensate for temperat",
-            "score": 0.11905584709916793,
+            "score": 0.19203673272679375,
             "start": 0,
-            "end": 1658
+            "end": 1640
           },
           {
-            "text": "Has high thermal conductivity ->\n  ↓minimal lag\nPressure\ncompensation:\nWhy\nPumping effect:\n�\n↑downstream pressure -> gas forced\n  back into vapouriser\n�\nfresh\n  gas supply -> resaturation\n�\n↑↑Volatile",
-            "score": 0.09480246485705024,
-            "start": 1659,
+            "text": "  minimal ↓temp\n�\nHas high thermal conductivity ->\n  ↓minimal lag\nPressure\ncompensation:\nWhy\nPumping effect:\n�\n↑downstream pressure -> gas forced\n  back into vapouriser\n�\nfresh\n  gas supply -> resatur",
+            "score": 0.16979284000945866,
+            "start": 1641,
             "end": 2187
           }
         ]
@@ -282,20 +282,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07912544161184044,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.16057348256172324,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "  ↓minimal lag\nPressure\ncompensation:\nWhy\nPumping effect:\n�\n↑downstream pressure -> gas forced\n  back into vapouriser\n�\nfresh\n  gas supply -> resaturation\n�\n↑↑Volatile concentration -> CVS\n  depressio",
-            "score": 0.07912544161184044,
-            "start": 1692,
-            "end": 2187
+            "text": "2017B02 Using a\nlabelled diagramme, describe how a mechanical (non-cassette) variable-bypass\nvapouriser\nachieves the concentration set on the dial. Describe the mechanisms that\ncompensate for temperat",
+            "score": 0.16057348256172324,
+            "start": 0,
+            "end": 1656
           },
           {
-            "text": "2017B02 Using a\nlabelled diagramme, describe how a mechanical (non-cassette) variable-bypass\nvapouriser\nachieves the concentration set on the dial. Describe the mechanisms that\ncompensate for temperat",
-            "score": 0.07168292080041282,
-            "start": 0,
-            "end": 1691
+            "text": "�\nHas high thermal conductivity ->\n  ↓minimal lag\nPressure\ncompensation:\nWhy\nPumping effect:\n�\n↑downstream pressure -> gas forced\n  back into vapouriser\n�\nfresh\n  gas supply -> resaturation\n�\n↑↑Volati",
+            "score": 0.07088101815552864,
+            "start": 1657,
+            "end": 2187
           }
         ]
       },
@@ -352,24 +352,60 @@
             "end": 1658
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.4902486901277285,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.10551062286445975,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Pressure\ncompensation:\nWhy\nPumping effect:\n�\n↑downstream pressure -> gas forced\n  back into vapouriser\n�\nfresh\n  gas supply -> resaturation\n�\n↑↑Volatile concentration -> CVS\n  depression, death\nPreven",
-            "score": 0.4902486901277285,
-            "start": 1707,
+            "text": "  ↓minimal lag\nPressure\ncompensation:\nWhy\nPumping effect:\n�\n↑downstream pressure -> gas forced\n  back into vapouriser\n�\nfresh\n  gas supply -> resaturation\n�\n↑↑Volatile concentration -> CVS\n  depressio",
+            "score": 0.10551062286445975,
+            "start": 1692,
             "end": 2187
           },
           {
             "text": "2017B02 Using a\nlabelled diagramme, describe how a mechanical (non-cassette) variable-bypass\nvapouriser\nachieves the concentration set on the dial. Describe the mechanisms that\ncompensate for temperat",
-            "score": 0.2942330252332108,
+            "score": 0.08040593925404063,
             "start": 0,
-            "end": 1706
+            "end": 1691
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.47345095296132345,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  minimal ↓temp\n�\nHas high thermal conductivity ->\n  ↓minimal lag\nPressure\ncompensation:\nWhy\nPumping effect:\n�\n↑downstream pressure -> gas forced\n  back into vapouriser\n�\nfresh\n  gas supply -> resatur",
+            "score": 0.47345095296132345,
+            "start": 1641,
+            "end": 2187
+          },
+          {
+            "text": "2017B02 Using a\nlabelled diagramme, describe how a mechanical (non-cassette) variable-bypass\nvapouriser\nachieves the concentration set on the dial. Describe the mechanisms that\ncompensate for temperat",
+            "score": 0.27852923486057457,
+            "start": 0,
+            "end": 1640
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.17588393723954218,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "�\nHas high thermal conductivity ->\n  ↓minimal lag\nPressure\ncompensation:\nWhy\nPumping effect:\n�\n↑downstream pressure -> gas forced\n  back into vapouriser\n�\nfresh\n  gas supply -> resaturation\n�\n↑↑Volati",
+            "score": 0.17588393723954218,
+            "start": 1657,
+            "end": 2187
+          },
+          {
+            "text": "2017B02 Using a\nlabelled diagramme, describe how a mechanical (non-cassette) variable-bypass\nvapouriser\nachieves the concentration set on the dial. Describe the mechanisms that\ncompensate for temperat",
+            "score": 0.15863825532763226,
+            "start": 0,
+            "end": 1656
           }
         ]
       },

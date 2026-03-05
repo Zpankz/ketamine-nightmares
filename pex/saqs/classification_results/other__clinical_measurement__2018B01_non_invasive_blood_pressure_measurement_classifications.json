@@ -16,7 +16,10 @@
         "immediately_applicable"
       ]
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "clinical_measurement_process",
+      "nociception_process"
+    ],
     "explanatory_schema": []
   },
   "classifications": {
@@ -170,18 +173,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.14006190450182948,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.2007992399296327,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Cuff not at the level of RA (e.g. upper arm in\n  lateral decubitus position -> ↓hydrostatic pressure)\n�\nCuff inflation pain (↑SNS output ->\n  ↑ BP)\nPros\n�\nNon-invasive\n�\nCheap\n�\nEasy to use\n�\nCan use ",
-            "score": 0.14006190450182948,
+            "score": 0.2007992399296327,
             "start": 1568,
             "end": 1956
           },
           {
             "text": "2018B01 Briefly\ndescribe the principles (50%) and sources of error (50%) in the measurement of\nsystemic arterial blood pressure using an automated oscillometric non-invasive\nmonitor.\nList:\n�\nDevice\n�\n",
-            "score": 0.08924333203133303,
+            "score": 0.12013872967712319,
             "start": 0,
             "end": 1567
           }
@@ -278,18 +281,18 @@
         ]
       },
       "nociception_process": {
-        "score": 0.16057348256172324,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7790405496339468,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "Cuff not at the level of RA (e.g. upper arm in\n  lateral decubitus position -> ↓hydrostatic pressure)\n�\nCuff inflation pain (↑SNS output ->\n  ↑ BP)\nPros\n�\nNon-invasive\n�\nCheap\n�\nEasy to use\n�\nCan use ",
-            "score": 0.16057348256172324,
+            "score": 0.7790405496339468,
             "start": 1568,
             "end": 1956
           },
           {
             "text": "2018B01 Briefly\ndescribe the principles (50%) and sources of error (50%) in the measurement of\nsystemic arterial blood pressure using an automated oscillometric non-invasive\nmonitor.\nList:\n�\nDevice\n�\n",
-            "score": 0.07827820752174312,
+            "score": 0.13129612675432087,
             "start": 0,
             "end": 1567
           }
@@ -348,24 +351,60 @@
             "end": 1567
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2589747757634805,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2803024686265447,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "  lateral decubitus position -> ↓hydrostatic pressure)\n�\nCuff inflation pain (↑SNS output ->\n  ↑ BP)\nPros\n�\nNon-invasive\n�\nCheap\n�\nEasy to use\n�\nCan use for venepuncture\nCons\n�\nIntermittent; may miss ",
-            "score": 0.2589747757634805,
-            "start": 1615,
+            "text": "Cuff not at the level of RA (e.g. upper arm in\n  lateral decubitus position -> ↓hydrostatic pressure)\n�\nCuff inflation pain (↑SNS output ->\n  ↑ BP)\nPros\n�\nNon-invasive\n�\nCheap\n�\nEasy to use\n�\nCan use ",
+            "score": 0.2803024686265447,
+            "start": 1568,
             "end": 1956
           },
           {
             "text": "2018B01 Briefly\ndescribe the principles (50%) and sources of error (50%) in the measurement of\nsystemic arterial blood pressure using an automated oscillometric non-invasive\nmonitor.\nList:\n�\nDevice\n�\n",
-            "score": 0.2022819500518595,
+            "score": 0.12397561162117983,
             "start": 0,
-            "end": 1614
+            "end": 1567
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.9673380860030687,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2018B01 Briefly\ndescribe the principles (50%) and sources of error (50%) in the measurement of\nsystemic arterial blood pressure using an automated oscillometric non-invasive\nmonitor.\nList:\n�\nDevice\n�\n",
+            "score": 0.9673380860030687,
+            "start": 0,
+            "end": 1567
+          },
+          {
+            "text": "Cuff not at the level of RA (e.g. upper arm in\n  lateral decubitus position -> ↓hydrostatic pressure)\n�\nCuff inflation pain (↑SNS output ->\n  ↑ BP)\nPros\n�\nNon-invasive\n�\nCheap\n�\nEasy to use\n�\nCan use ",
+            "score": 0.8934820964473875,
+            "start": 1568,
+            "end": 1956
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.4116270753866159,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Cuff not at the level of RA (e.g. upper arm in\n  lateral decubitus position -> ↓hydrostatic pressure)\n�\nCuff inflation pain (↑SNS output ->\n  ↑ BP)\nPros\n�\nNon-invasive\n�\nCheap\n�\nEasy to use\n�\nCan use ",
+            "score": 0.4116270753866159,
+            "start": 1568,
+            "end": 1956
+          },
+          {
+            "text": "2018B01 Briefly\ndescribe the principles (50%) and sources of error (50%) in the measurement of\nsystemic arterial blood pressure using an automated oscillometric non-invasive\nmonitor.\nList:\n�\nDevice\n�\n",
+            "score": 0.12958413928918883,
+            "start": 0,
+            "end": 1567
           }
         ]
       },

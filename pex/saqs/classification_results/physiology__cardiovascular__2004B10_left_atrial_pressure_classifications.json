@@ -16,7 +16,9 @@
         "foundational_science"
       ]
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "clinical_measurement_process"
+    ],
     "explanatory_schema": []
   },
   "classifications": {
@@ -170,20 +172,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.11959654819828813,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.19785291387817477,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2004B10 List the\nphysiological factors which affect left atrial pressure and explain their\neffects.\nList:\n·\nIntro: LAP\n·\nLAP trace\n·\nLAP determinants\nIntro:\nDefinitions\n·\nMean LA pressure throughout t",
-            "score": 0.11959654819828813,
-            "start": 0,
-            "end": 1423
+            "text": "·\nLV volume: e.g. AR -> ↑LVESV -> ↓compliance -> ↑LAP\nLV emptying\n·\nContractility: LV failure -> ↓emptying -> ↑LAP\n·\nAfterload: ↑afterload (e.g. ↑SVR) -> ↓emptying -> ↑LAP",
+            "score": 0.19785291387817477,
+            "start": 1422,
+            "end": 1593
           },
           {
-            "text": "LV volume: e.g. AR -> ↑LVESV -> ↓compliance -> ↑LAP\nLV emptying\n·\nContractility: LV failure -> ↓emptying -> ↑LAP\n·\nAfterload: ↑afterload (e.g. ↑SVR) -> ↓emptying -> ↑LAP",
-            "score": 0.09107466708246154,
-            "start": 1424,
-            "end": 1593
+            "text": "2004B10 List the\nphysiological factors which affect left atrial pressure and explain their\neffects.\nList:\n·\nIntro: LAP\n·\nLAP trace\n·\nLAP determinants\nIntro:\nDefinitions\n·\nMean LA pressure throughout t",
+            "score": 0.1718088844227446,
+            "start": 0,
+            "end": 1421
           }
         ]
       },
@@ -278,19 +280,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09107466708246154,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.17046326482945487,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2004B10 List the\nphysiological factors which affect left atrial pressure and explain their\neffects.\nList:\n·\nIntro: LAP\n·\nLAP trace\n·\nLAP determinants\nIntro:\nDefinitions\n·\nMean LA pressure throughout t",
-            "score": 0.09107466708246154,
+            "score": 0.17046326482945487,
             "start": 0,
-            "end": 1423
+            "end": 1421
           },
           {
-            "text": "LV volume: e.g. AR -> ↑LVESV -> ↓compliance -> ↑LAP\nLV emptying\n·\nContractility: LV failure -> ↓emptying -> ↑LAP\n·\nAfterload: ↑afterload (e.g. ↑SVR) -> ↓emptying -> ↑LAP",
-            "score": 0.06772250857897068,
-            "start": 1424,
+            "text": "·\nLV volume: e.g. AR -> ↑LVESV -> ↓compliance -> ↑LAP\nLV emptying\n·\nContractility: LV failure -> ↓emptying -> ↑LAP\n·\nAfterload: ↑afterload (e.g. ↑SVR) -> ↓emptying -> ↑LAP",
+            "score": 0.10551062286445975,
+            "start": 1422,
             "end": 1593
           }
         ]
@@ -348,22 +350,58 @@
             "end": 1423
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.18774158236383576,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "LV volume: e.g. AR -> ↑LVESV -> ↓compliance -> ↑LAP\nLV emptying\n·\nContractility: LV failure -> ↓emptying -> ↑LAP\n·\nAfterload: ↑afterload (e.g. ↑SVR) -> ↓emptying -> ↑LAP",
+            "score": 0.18774158236383576,
+            "start": 1424,
+            "end": 1593
+          },
+          {
+            "text": "2004B10 List the\nphysiological factors which affect left atrial pressure and explain their\neffects.\nList:\n·\nIntro: LAP\n·\nLAP trace\n·\nLAP determinants\nIntro:\nDefinitions\n·\nMean LA pressure throughout t",
+            "score": 0.14487848470578973,
+            "start": 0,
+            "end": 1423
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8704158607108111,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2004B10 List the\nphysiological factors which affect left atrial pressure and explain their\neffects.\nList:\n·\nIntro: LAP\n·\nLAP trace\n·\nLAP determinants\nIntro:\nDefinitions\n·\nMean LA pressure throughout t",
+            "score": 0.8704158607108111,
+            "start": 0,
+            "end": 1400
+          },
+          {
+            "text": "  ↓compliance ->↑LAP\n·\nLV volume: e.g. AR -> ↑LVESV -> ↓compliance -> ↑LAP\nLV emptying\n·\nContractility: LV failure -> ↓emptying -> ↑LAP\n·\nAfterload: ↑afterload (e.g. ↑SVR) -> ↓emptying -> ↑LAP",
+            "score": 0.313618949200329,
+            "start": 1401,
+            "end": 1593
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.22291849253518664,
+        "score": 0.29332437688031354,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2004B10 List the\nphysiological factors which affect left atrial pressure and explain their\neffects.\nList:\n·\nIntro: LAP\n·\nLAP trace\n·\nLAP determinants\nIntro:\nDefinitions\n·\nMean LA pressure throughout t",
-            "score": 0.22291849253518664,
+            "score": 0.29332437688031354,
             "start": 0,
             "end": 1423
           },
           {
             "text": "LV volume: e.g. AR -> ↑LVESV -> ↓compliance -> ↑LAP\nLV emptying\n·\nContractility: LV failure -> ↓emptying -> ↑LAP\n·\nAfterload: ↑afterload (e.g. ↑SVR) -> ↓emptying -> ↑LAP",
-            "score": 0.17383924611324467,
+            "score": 0.14125677189694305,
             "start": 1424,
             "end": 1593
           }

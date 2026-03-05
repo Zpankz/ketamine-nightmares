@@ -18,9 +18,10 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "equipment_and_physics",
       "organ_system_process",
+      "drug_receptor_disposition",
+      "nociception_process",
       "autonomic_disposition",
       "neuromuscular_process"
     ],
@@ -180,18 +181,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8400731715625799,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7577806115529168,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "10% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nEffects: ↑reabsorption\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInsertion of urea transporter",
-            "score": 0.8400731715625799,
+            "score": 0.7577806115529168,
             "start": 1345,
             "end": 2467
           },
           {
             "text": "2009B13 Explain the physiological processes that cause oliguria in\nresponse to hypovolaemic shock.\nList:\n·\nDefinitions\n·\nDirect effect: pre-renal failure\n·\nCompensation\n·\nKidney injury\nDefinitions:\nOl",
-            "score": 0.3900811477441324,
+            "score": 0.24180824239107535,
             "start": 0,
             "end": 1344
           }
@@ -288,20 +289,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.20676821579165858,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7524011313276249,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓mAP\n·\nAngiotensin 2\nEffects: ↑reabsorption\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInsertion of urea transporters -> ↑ medullary interstitial\n  ",
-            "score": 0.20676821579165858,
-            "start": 1377,
+            "text": "10% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nEffects: ↑reabsorption\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInsertion of urea transporter",
+            "score": 0.7524011313276249,
+            "start": 1345,
             "end": 2467
           },
           {
             "text": "2009B13 Explain the physiological processes that cause oliguria in\nresponse to hypovolaemic shock.\nList:\n·\nDefinitions\n·\nDirect effect: pre-renal failure\n·\nCompensation\n·\nKidney injury\nDefinitions:\nOl",
-            "score": 0.09765591089184561,
+            "score": 0.20601653605049183,
             "start": 0,
-            "end": 1376
+            "end": 1344
           }
         ]
       },
@@ -358,24 +359,60 @@
             "end": 1344
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.4516648070400934,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↓mAP\n·\nAngiotensin 2\nEffects: ↑reabsorption\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInsertion of urea transporters -> ↑ medullary interstitial\n  ",
+            "score": 0.4516648070400934,
+            "start": 1377,
+            "end": 2467
+          },
+          {
+            "text": "2009B13 Explain the physiological processes that cause oliguria in\nresponse to hypovolaemic shock.\nList:\n·\nDefinitions\n·\nDirect effect: pre-renal failure\n·\nCompensation\n·\nKidney injury\nDefinitions:\nOl",
+            "score": 0.15608002460238707,
+            "start": 0,
+            "end": 1376
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.5327996585770076,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2009B13 Explain the physiological processes that cause oliguria in\nresponse to hypovolaemic shock.\nList:\n·\nDefinitions\n·\nDirect effect: pre-renal failure\n·\nCompensation\n·\nKidney injury\nDefinitions:\nOl",
+            "score": 0.5327996585770076,
+            "start": 0,
+            "end": 1342
+          },
+          {
+            "text": "∆\n10% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nEffects: ↑reabsorption\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInsertion of urea transport",
+            "score": 0.3883007791322234,
+            "start": 1343,
+            "end": 2467
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.7759013874121433,
+        "score": 0.8295367351705452,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2009B13 Explain the physiological processes that cause oliguria in\nresponse to hypovolaemic shock.\nList:\n·\nDefinitions\n·\nDirect effect: pre-renal failure\n·\nCompensation\n·\nKidney injury\nDefinitions:\nOl",
-            "score": 0.7759013874121433,
-            "start": 0,
-            "end": 1381
+            "text": "10% but overrides osmolality)\n·\n↓mAP\n·\nAngiotensin 2\nEffects: ↑reabsorption\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInsertion of urea transporter",
+            "score": 0.8295367351705452,
+            "start": 1345,
+            "end": 2467
           },
           {
-            "text": "·\nAngiotensin 2\nEffects: ↑reabsorption\n·\nInsertion of aquaporin 2 into apical membrane of collecting ducts\n  -> ↑H\n2\nO reabsorption\n·\nInsertion of urea transporters -> ↑ medullary interstitial\n  osmol",
-            "score": 0.4182281170815092,
-            "start": 1382,
-            "end": 2467
+            "text": "2009B13 Explain the physiological processes that cause oliguria in\nresponse to hypovolaemic shock.\nList:\n·\nDefinitions\n·\nDirect effect: pre-renal failure\n·\nCompensation\n·\nKidney injury\nDefinitions:\nOl",
+            "score": 0.669801943350287,
+            "start": 0,
+            "end": 1344
           }
         ]
       },

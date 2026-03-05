@@ -18,6 +18,7 @@
       "neuromuscular_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -172,19 +173,19 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.3544960170208435,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4242033048503425,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A06Describe how the effects of warfarin can be reversed\nwhen URGENT surgery is indicated (40%).\nFor each option discuss the advantages and disadvantages\n(60%).\nIntro:\nMechanism\n·\nVitamin K epoxide",
-            "score": 0.3544960170208435,
+            "score": 0.4242033048503425,
             "start": 0,
-            "end": 1514
+            "end": 1466
           },
           {
-            "text": "bleeding, difficult to restart warfarin after a big dose of Vitamin\nK\n2.FFP\n·\nContains all clotting factors\n·\nIV 15-30mL/kg (or 2-4mL/kg if with\nprothrombinex)\n·\nAlso give Vit K to avoid rebound\nantic",
-            "score": 0.2551525833359077,
-            "start": 1515,
+            "text": "Con: insufficient if very high INR or if active\nbleeding, difficult to restart warfarin after a big dose of Vitamin\nK\n2.FFP\n·\nContains all clotting factors\n·\nIV 15-30mL/kg (or 2-4mL/kg if with\nprothro",
+            "score": 0.2598282226097282,
+            "start": 1467,
             "end": 2530
           }
         ]
@@ -280,20 +281,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11690780739311239,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.28119119060424663,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "bleeding, difficult to restart warfarin after a big dose of Vitamin\nK\n2.FFP\n·\nContains all clotting factors\n·\nIV 15-30mL/kg (or 2-4mL/kg if with\nprothrombinex)\n·\nAlso give Vit K to avoid rebound\nantic",
-            "score": 0.11690780739311239,
-            "start": 1515,
-            "end": 2530
+            "text": "2020A06Describe how the effects of warfarin can be reversed\nwhen URGENT surgery is indicated (40%).\nFor each option discuss the advantages and disadvantages\n(60%).\nIntro:\nMechanism\n·\nVitamin K epoxide",
+            "score": 0.28119119060424663,
+            "start": 0,
+            "end": 1466
           },
           {
-            "text": "2020A06Describe how the effects of warfarin can be reversed\nwhen URGENT surgery is indicated (40%).\nFor each option discuss the advantages and disadvantages\n(60%).\nIntro:\nMechanism\n·\nVitamin K epoxide",
-            "score": 0.11060433745697731,
-            "start": 0,
-            "end": 1514
+            "text": "Con: insufficient if very high INR or if active\nbleeding, difficult to restart warfarin after a big dose of Vitamin\nK\n2.FFP\n·\nContains all clotting factors\n·\nIV 15-30mL/kg (or 2-4mL/kg if with\nprothro",
+            "score": 0.2052664429349464,
+            "start": 1467,
+            "end": 2530
           }
         ]
       },
@@ -350,23 +351,59 @@
             "end": 1514
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.29241707730381167,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.11584261865163957,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "2020A06Describe how the effects of warfarin can be reversed\nwhen URGENT surgery is indicated (40%).\nFor each option discuss the advantages and disadvantages\n(60%).\nIntro:\nMechanism\n·\nVitamin K epoxide",
-            "score": 0.29241707730381167,
+            "score": 0.11584261865163957,
             "start": 0,
             "end": 1514
           },
           {
             "text": "bleeding, difficult to restart warfarin after a big dose of Vitamin\nK\n2.FFP\n·\nContains all clotting factors\n·\nIV 15-30mL/kg (or 2-4mL/kg if with\nprothrombinex)\n·\nAlso give Vit K to avoid rebound\nantic",
-            "score": 0.25940131470313366,
+            "score": 0.11268218335253008,
             "start": 1515,
+            "end": 2530
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.19059863367246443,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Con: insufficient if very high INR or if active\nbleeding, difficult to restart warfarin after a big dose of Vitamin\nK\n2.FFP\n·\nContains all clotting factors\n·\nIV 15-30mL/kg (or 2-4mL/kg if with\nprothro",
+            "score": 0.19059863367246443,
+            "start": 1467,
+            "end": 2530
+          },
+          {
+            "text": "2020A06Describe how the effects of warfarin can be reversed\nwhen URGENT surgery is indicated (40%).\nFor each option discuss the advantages and disadvantages\n(60%).\nIntro:\nMechanism\n·\nVitamin K epoxide",
+            "score": 0.13887320349804264,
+            "start": 0,
+            "end": 1466
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.665238996780765,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2020A06Describe how the effects of warfarin can be reversed\nwhen URGENT surgery is indicated (40%).\nFor each option discuss the advantages and disadvantages\n(60%).\nIntro:\nMechanism\n·\nVitamin K epoxide",
+            "score": 0.665238996780765,
+            "start": 0,
+            "end": 1466
+          },
+          {
+            "text": "Con: insufficient if very high INR or if active\nbleeding, difficult to restart warfarin after a big dose of Vitamin\nK\n2.FFP\n·\nContains all clotting factors\n·\nIV 15-30mL/kg (or 2-4mL/kg if with\nprothro",
+            "score": 0.3586931821398125,
+            "start": 1467,
             "end": 2530
           }
         ]

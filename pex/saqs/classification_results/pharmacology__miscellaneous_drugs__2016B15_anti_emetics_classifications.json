@@ -10,11 +10,13 @@
       "score": 0.6358483091534938
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "organ_system_process",
-      "autonomic_disposition"
+      "autonomic_disposition",
+      "drug_receptor_disposition",
+      "nociception_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -175,25 +177,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8355133944044236,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7469578442226757,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Neuroleptic malignant syndrome\n·\n↑QT\nC\n, TdP\n·\nMild hypotension (\nα\n1\nantagonist)\nDA\n2\nantagonist:\n-Phenothiazine e.g. prochlorperazine\n·\n↓Afferent CTZ -> VC\n·\nSedation\n·\nEPSE\nDA\n2\nantagonist:\n-Benzam",
-            "score": 0.8355133944044236,
-            "start": 1472,
-            "end": 2675
+            "text": "·\nNeuroleptic malignant syndrome\n·\n↑QT\nC\n, TdP\n·\nMild hypotension (\nα\n1\nantagonist)\nDA\n2\nantagonist:\n-Phenothiazine e.g. prochlorperazine\n·\n↓Afferent CTZ -> VC\n·\nSedation\n·\nEPSE\nDA\n2\nantagonist:\n-Benz",
+            "score": 0.7469578442226757,
+            "start": 1470,
+            "end": 2647
           },
           {
             "text": "2016B15 Briefly\ndescribe the pharmacodynamics of agents used in the treatment of post-operative\nnausea and vomiting (PONV) with particular reference to their site of action\nand side effects.\nList:\n·\nD",
-            "score": 0.8247992193051306,
+            "score": 0.7276325221722416,
             "start": 0,
-            "end": 1471
+            "end": 1469
           },
           {
-            "text": "Inhibit CYP3A4",
-            "score": 0.3094168356331381,
-            "start": 2676,
+            "text": "Esp cancer-associated N&V\n·\nInhibit CYP3A4",
+            "score": 0.4956878240199068,
+            "start": 2648,
             "end": 2690
           }
         ]
@@ -307,20 +309,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.0952745927410768,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6223276821931376,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑QT\nC\n, TdP\n·\nMild hypotension (\nα\n1\nantagonist)\nDA\n2\nantagonist:\n-Phenothiazine e.g. prochlorperazine\n·\n↓Afferent CTZ -> VC\n·\nSedation\n·\nEPSE\nDA\n2\nantagonist:\n-Benzamide\ne.g. metoclop\n·\nCentral: DA\n2",
-            "score": 0.0952745927410768,
-            "start": 1505,
-            "end": 2690
+            "text": "·\nNeuroleptic malignant syndrome\n·\n↑QT\nC\n, TdP\n·\nMild hypotension (\nα\n1\nantagonist)\nDA\n2\nantagonist:\n-Phenothiazine e.g. prochlorperazine\n·\n↓Afferent CTZ -> VC\n·\nSedation\n·\nEPSE\nDA\n2\nantagonist:\n-Benz",
+            "score": 0.6223276821931376,
+            "start": 1470,
+            "end": 2647
           },
           {
             "text": "2016B15 Briefly\ndescribe the pharmacodynamics of agents used in the treatment of post-operative\nnausea and vomiting (PONV) with particular reference to their site of action\nand side effects.\nList:\n·\nD",
-            "score": 0.06540458546295926,
+            "score": 0.41654306975656447,
             "start": 0,
-            "end": 1504
+            "end": 1469
+          },
+          {
+            "text": "Esp cancer-associated N&V\n·\nInhibit CYP3A4",
+            "score": 0.18140657479987835,
+            "start": 2648,
+            "end": 2690
           }
         ]
       },
@@ -395,24 +403,72 @@
             "end": 1471
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.32257299354459545,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.33452019961383367,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": ", TdP\n·\nMild hypotension (\nα\n1\nantagonist)\nDA\n2\nantagonist:\n-Phenothiazine e.g. prochlorperazine\n·\n↓Afferent CTZ -> VC\n·\nSedation\n·\nEPSE\nDA\n2\nantagonist:\n-Benzamide\ne.g. metoclop\n·\nCentral: DA\n2\ni, 5H",
-            "score": 0.32257299354459545,
-            "start": 1511,
+            "text": "C\n, TdP\n·\nMild hypotension (\nα\n1\nantagonist)\nDA\n2\nantagonist:\n-Phenothiazine e.g. prochlorperazine\n·\n↓Afferent CTZ -> VC\n·\nSedation\n·\nEPSE\nDA\n2\nantagonist:\n-Benzamide\ne.g. metoclop\n·\nCentral: DA\n2\ni, ",
+            "score": 0.33452019961383367,
+            "start": 1509,
             "end": 2690
           },
           {
             "text": "2016B15 Briefly\ndescribe the pharmacodynamics of agents used in the treatment of post-operative\nnausea and vomiting (PONV) with particular reference to their site of action\nand side effects.\nList:\n·\nD",
-            "score": 0.12122754149981366,
+            "score": 0.10854962335430002,
             "start": 0,
-            "end": 1510
+            "end": 1508
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.2662758837757481,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Avoid in Parkinson’s disease\n·\nNeuroleptic malignant syndrome\n·\n↑QT\nC\n, TdP\n·\nMild hypotension (\nα\n1\nantagonist)\nDA\n2\nantagonist:\n-Phenothiazine e.g. prochlorperazine\n·\n↓Afferent CTZ -> VC\n·\nSedation\n",
+            "score": 0.2662758837757481,
+            "start": 1441,
+            "end": 2604
+          },
+          {
+            "text": "Peripheral: ↓CNX afferent to CTZ via NTS\n·\nEsp cancer-associated N&V\n·\nInhibit CYP3A4",
+            "score": 0.20302569007096166,
+            "start": 2605,
+            "end": 2690
+          },
+          {
+            "text": "2016B15 Briefly\ndescribe the pharmacodynamics of agents used in the treatment of post-operative\nnausea and vomiting (PONV) with particular reference to their site of action\nand side effects.\nList:\n·\nD",
+            "score": 0.08343914521545998,
+            "start": 0,
+            "end": 1440
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8072418249488453,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2016B15 Briefly\ndescribe the pharmacodynamics of agents used in the treatment of post-operative\nnausea and vomiting (PONV) with particular reference to their site of action\nand side effects.\nList:\n·\nD",
+            "score": 0.8072418249488453,
+            "start": 0,
+            "end": 1471
+          },
+          {
+            "text": "Neuroleptic malignant syndrome\n·\n↑QT\nC\n, TdP\n·\nMild hypotension (\nα\n1\nantagonist)\nDA\n2\nantagonist:\n-Phenothiazine e.g. prochlorperazine\n·\n↓Afferent CTZ -> VC\n·\nSedation\n·\nEPSE\nDA\n2\nantagonist:\n-Benzam",
+            "score": 0.7548919339041595,
+            "start": 1472,
+            "end": 2673
+          },
+          {
+            "text": "·\nInhibit CYP3A4",
+            "score": 0.3738997150614138,
+            "start": 2674,
+            "end": 2690
           }
         ]
       },

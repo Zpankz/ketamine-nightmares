@@ -13,6 +13,7 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "acid_base_quality",
       "gas_exchange_process"
     ],
@@ -220,26 +221,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.14366505103412583,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.23005185046589166,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2008B13 Explain\nthe concept of time constants and relate these to �fast� and �slow� alveoli.\nList:\n�\nIntro\n�\nHeterogeneity\n�\nResistance\n�\nCompliance\nIntro:\nTime constant\n�\nTime taken for completion of",
-            "score": 0.14366505103412583,
-            "start": 0,
-            "end": 1359
-          },
-          {
-            "text": "Resistance:\nDefinition\n�\nResistance = pressure drop / flow rate\nNormal\n�\nAdult: 2cmH\n2\nO/L/s\n�\nNeonate at 48 hours: 25cmH\n2\nO/L/s\nEquations\n�\nLaminar: R = (8 x length x viscosity)/(\nπ\nx radius\n4\n)\n�\nT",
-            "score": 0.13302177898555526,
-            "start": 1360,
-            "end": 2536
-          },
-          {
-            "text": "O > Neonate\n  LC: 1.5-6mL/cmH\n2\nO\no\nN.B. compliance constant when indexed to size\n  (i.e. compliance/FRC)\n�\nRelative lung volume\no\nHigh: surfactant spread out -> ↑ST\n  -> ↓ LC\no\nLow: ↓ radius -> ↑ST, ",
-            "score": 0.12452970475004799,
-            "start": 2537,
+            "text": "  (↑radius -> ↓pressure � LaPlace)\no\nAdult LC: 100mL/cmH\n2\nO > Neonate\n  LC: 1.5-6mL/cmH\n2\nO\no\nN.B. compliance constant when indexed to size\n  (i.e. compliance/FRC)\n�\nRelative lung volume\no\nHigh: surf",
+            "score": 0.23005185046589166,
+            "start": 2478,
             "end": 3126
+          },
+          {
+            "text": "  tension -> drop in airway pressure)\nRepresentation\nResistance:\nDefinition\n�\nResistance = pressure drop / flow rate\nNormal\n�\nAdult: 2cmH\n2\nO/L/s\n�\nNeonate at 48 hours: 25cmH\n2\nO/L/s\nEquations\n�\nLamin",
+            "score": 0.2166840731768605,
+            "start": 1307,
+            "end": 2477
+          },
+          {
+            "text": "2008B13 Explain\nthe concept of time constants and relate these to �fast� and �slow� alveoli.\nList:\n�\nIntro\n�\nHeterogeneity\n�\nResistance\n�\nCompliance\nIntro:\nTime constant\n�\nTime taken for completion of",
+            "score": 0.1718088844227446,
+            "start": 0,
+            "end": 1306
           }
         ]
       },
@@ -364,26 +365,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13534398140930778,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.1835038816726888,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Resistance = pressure drop / flow rate\nNormal\n�\nAdult: 2cmH\n2\nO/L/s\n�\nNeonate at 48 hours: 25cmH\n2\nO/L/s\nEquations\n�\nLaminar: R = (8 x length x viscosity)/(\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\nl",
-            "score": 0.13534398140930778,
-            "start": 1385,
-            "end": 2548
+            "text": "  tension -> drop in airway pressure)\nRepresentation\nResistance:\nDefinition\n�\nResistance = pressure drop / flow rate\nNormal\n�\nAdult: 2cmH\n2\nO/L/s\n�\nNeonate at 48 hours: 25cmH\n2\nO/L/s\nEquations\n�\nLamin",
+            "score": 0.1835038816726888,
+            "start": 1307,
+            "end": 2477
           },
           {
-            "text": "  LC: 1.5-6mL/cmH\n2\nO\no\nN.B. compliance constant when indexed to size\n  (i.e. compliance/FRC)\n�\nRelative lung volume\no\nHigh: surfactant spread out -> ↑ST\n  -> ↓ LC\no\nLow: ↓ radius -> ↑ST, alveolar\n  c",
-            "score": 0.09061480910082127,
-            "start": 2549,
+            "text": "  (↑radius -> ↓pressure � LaPlace)\no\nAdult LC: 100mL/cmH\n2\nO > Neonate\n  LC: 1.5-6mL/cmH\n2\nO\no\nN.B. compliance constant when indexed to size\n  (i.e. compliance/FRC)\n�\nRelative lung volume\no\nHigh: surf",
+            "score": 0.14125677189694305,
+            "start": 2478,
             "end": 3126
           },
           {
             "text": "2008B13 Explain\nthe concept of time constants and relate these to �fast� and �slow� alveoli.\nList:\n�\nIntro\n�\nHeterogeneity\n�\nResistance\n�\nCompliance\nIntro:\nTime constant\n�\nTime taken for completion of",
-            "score": 0.07008404688069232,
+            "score": 0.1228719100488003,
             "start": 0,
-            "end": 1384
+            "end": 1306
           }
         ]
       },
@@ -458,29 +459,77 @@
             "end": 1359
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.24180824239107535,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2606831439763029,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "2008B13 Explain\nthe concept of time constants and relate these to �fast� and �slow� alveoli.\nList:\n�\nIntro\n�\nHeterogeneity\n�\nResistance\n�\nCompliance\nIntro:\nTime constant\n�\nTime taken for completion of",
-            "score": 0.24180824239107535,
-            "start": 0,
-            "end": 1384
-          },
-          {
             "text": "Resistance = pressure drop / flow rate\nNormal\n�\nAdult: 2cmH\n2\nO/L/s\n�\nNeonate at 48 hours: 25cmH\n2\nO/L/s\nEquations\n�\nLaminar: R = (8 x length x viscosity)/(\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\nl",
-            "score": 0.22213370116389697,
+            "score": 0.2606831439763029,
             "start": 1385,
             "end": 2548
           },
           {
             "text": "  LC: 1.5-6mL/cmH\n2\nO\no\nN.B. compliance constant when indexed to size\n  (i.e. compliance/FRC)\n�\nRelative lung volume\no\nHigh: surfactant spread out -> ↑ST\n  -> ↓ LC\no\nLow: ↓ radius -> ↑ST, alveolar\n  c",
-            "score": 0.16646454350278764,
+            "score": 0.20601653605049183,
             "start": 2549,
+            "end": 3126
+          },
+          {
+            "text": "2008B13 Explain\nthe concept of time constants and relate these to �fast� and �slow� alveoli.\nList:\n�\nIntro\n�\nHeterogeneity\n�\nResistance\n�\nCompliance\nIntro:\nTime constant\n�\nTime taken for completion of",
+            "score": 0.2007992399296327,
+            "start": 0,
+            "end": 1384
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.9116642633258352,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  (↑radius -> ↓pressure � LaPlace)\no\nAdult LC: 100mL/cmH\n2\nO > Neonate\n  LC: 1.5-6mL/cmH\n2\nO\no\nN.B. compliance constant when indexed to size\n  (i.e. compliance/FRC)\n�\nRelative lung volume\no\nHigh: surf",
+            "score": 0.9116642633258352,
+            "start": 2478,
+            "end": 3126
+          },
+          {
+            "text": "  tension -> drop in airway pressure)\nRepresentation\nResistance:\nDefinition\n�\nResistance = pressure drop / flow rate\nNormal\n�\nAdult: 2cmH\n2\nO/L/s\n�\nNeonate at 48 hours: 25cmH\n2\nO/L/s\nEquations\n�\nLamin",
+            "score": 0.7075829226961883,
+            "start": 1307,
+            "end": 2477
+          },
+          {
+            "text": "2008B13 Explain\nthe concept of time constants and relate these to �fast� and �slow� alveoli.\nList:\n�\nIntro\n�\nHeterogeneity\n�\nResistance\n�\nCompliance\nIntro:\nTime constant\n�\nTime taken for completion of",
+            "score": 0.37440199658521534,
+            "start": 0,
+            "end": 1306
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.2728052893640291,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  tension -> drop in airway pressure)\nRepresentation\nResistance:\nDefinition\n�\nResistance = pressure drop / flow rate\nNormal\n�\nAdult: 2cmH\n2\nO/L/s\n�\nNeonate at 48 hours: 25cmH\n2\nO/L/s\nEquations\n�\nLamin",
+            "score": 0.2728052893640291,
+            "start": 1307,
+            "end": 2512
+          },
+          {
+            "text": "2008B13 Explain\nthe concept of time constants and relate these to �fast� and �slow� alveoli.\nList:\n�\nIntro\n�\nHeterogeneity\n�\nResistance\n�\nCompliance\nIntro:\nTime constant\n�\nTime taken for completion of",
+            "score": 0.22370484839267127,
+            "start": 0,
+            "end": 1306
+          },
+          {
+            "text": "o\nAdult LC: 100mL/cmH\n2\nO > Neonate\n  LC: 1.5-6mL/cmH\n2\nO\no\nN.B. compliance constant when indexed to size\n  (i.e. compliance/FRC)\n�\nRelative lung volume\no\nHigh: surfactant spread out -> ↑ST\n  -> ↓ LC\n",
+            "score": 0.2045179371314406,
+            "start": 2513,
             "end": 3126
           }
         ]

@@ -17,16 +17,18 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "equipment_and_physics",
       "autonomic_disposition",
       "gas_exchange_process",
-      "drug_receptor_disposition",
+      "anatomy_structure",
       "neuromuscular_process",
       "acid_base_quality"
     ],
     "explanatory_schema": [
       "structure_function_link",
-      "homeostatic_regulation"
+      "homeostatic_regulation",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -228,24 +230,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7643130528396533,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5475452769161736,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\nPVR lowest at FRC\nMetabolic:\n-O\n2\n·\ni.e. hypoxic pulmonary vasoconstriction (HPV)\n·\nVasoconstriction\n∝\n1 / (PAO\n2\n)\n·\nServes to improve local V/Q matching\n-CO\n2\n·\n↑CO\n2\n-> ↓r\n-pH\n·\n↓pH ->↓r\n-Temp\n·\n",
-            "score": 0.7643130528396533,
-            "start": 2609,
+            "text": "↑Volume -> alveolar distension ->\n  compress alveolar vessels\n·\nPVR lowest at FRC\nMetabolic:\n-O\n2\n·\ni.e. hypoxic pulmonary vasoconstriction (HPV)\n·\nVasoconstriction\n∝\n1 / (PAO\n2\n)\n·\nServes to improve ",
+            "score": 0.5475452769161736,
+            "start": 2547,
             "end": 3073
           },
           {
             "text": "↑Viscosity (↑Hct, ↑temp, ↓flow rate)\n§\n↑Length (rarely important)\n·\nCompliance: e.g. atherosclerosis ->\n  ↓Windkessel effect -> ↑AL\nThoracic\n·\nIntrathoracic pressure: e.g. IPPV ->\no\n↓LV afterload (↓tr",
-            "score": 0.6111907975938285,
+            "score": 0.3829748153990309,
             "start": 1415,
-            "end": 2608
+            "end": 2546
           },
           {
             "text": "2021A04 Describe the factors that affect afterload for\neach of the right and left ventricles.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\n·\nPVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ve",
-            "score": 0.11216054585062639,
+            "score": 0.16845675763202042,
             "start": 0,
             "end": 1414
           }
@@ -372,26 +374,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.16252292535834514,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.4024822125002246,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Length (rarely important)\n·\nCompliance: e.g. atherosclerosis ->\n  ↓Windkessel effect -> ↑AL\nThoracic\n·\nIntrathoracic pressure: e.g. IPPV ->\no\n↓LV afterload (↓transmural pressure)\no\n↑RV afterload (↑SV",
-            "score": 0.16252292535834514,
-            "start": 1454,
-            "end": 2646
+            "text": "↑Viscosity (↑Hct, ↑temp, ↓flow rate)\n§\n↑Length (rarely important)\n·\nCompliance: e.g. atherosclerosis ->\n  ↓Windkessel effect -> ↑AL\nThoracic\n·\nIntrathoracic pressure: e.g. IPPV ->\no\n↓LV afterload (↓tr",
+            "score": 0.4024822125002246,
+            "start": 1415,
+            "end": 2580
           },
           {
-            "text": "i.e. hypoxic pulmonary vasoconstriction (HPV)\n·\nVasoconstriction\n∝\n1 / (PAO\n2\n)\n·\nServes to improve local V/Q matching\n-CO\n2\n·\n↑CO\n2\n-> ↓r\n-pH\n·\n↓pH ->↓r\n-Temp\n·\n↓T -> ↓r\nAutonomic:\n-SNS\n·\nNeural NAd ",
-            "score": 0.1290165055825653,
-            "start": 2647,
+            "text": "  compress alveolar vessels\n·\nPVR lowest at FRC\nMetabolic:\n-O\n2\n·\ni.e. hypoxic pulmonary vasoconstriction (HPV)\n·\nVasoconstriction\n∝\n1 / (PAO\n2\n)\n·\nServes to improve local V/Q matching\n-CO\n2\n·\n↑CO\n2\n-",
+            "score": 0.25940131470313366,
+            "start": 2581,
             "end": 3073
           },
           {
             "text": "2021A04 Describe the factors that affect afterload for\neach of the right and left ventricles.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\n·\nPVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ve",
-            "score": 0.09386232569631885,
+            "score": 0.19858710741881394,
             "start": 0,
-            "end": 1453
+            "end": 1414
           }
         ]
       },
@@ -466,30 +468,78 @@
             "end": 1414
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.7723399527572379,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↑Length (rarely important)\n·\nCompliance: e.g. atherosclerosis ->\n  ↓Windkessel effect -> ↑AL\nThoracic\n·\nIntrathoracic pressure: e.g. IPPV ->\no\n↓LV afterload (↓transmural pressure)\no\n↑RV afterload (↑SV",
+            "score": 0.7723399527572379,
+            "start": 1454,
+            "end": 2646
+          },
+          {
+            "text": "i.e. hypoxic pulmonary vasoconstriction (HPV)\n·\nVasoconstriction\n∝\n1 / (PAO\n2\n)\n·\nServes to improve local V/Q matching\n-CO\n2\n·\n↑CO\n2\n-> ↓r\n-pH\n·\n↓pH ->↓r\n-Temp\n·\n↓T -> ↓r\nAutonomic:\n-SNS\n·\nNeural NAd ",
+            "score": 0.7354515362224836,
+            "start": 2647,
+            "end": 3073
+          },
+          {
+            "text": "2021A04 Describe the factors that affect afterload for\neach of the right and left ventricles.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\n·\nPVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ve",
+            "score": 0.21207433610868814,
+            "start": 0,
+            "end": 1453
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.9013818674527496,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↑Viscosity (↑Hct, ↑temp, ↓flow rate)\n§\n↑Length (rarely important)\n·\nCompliance: e.g. atherosclerosis ->\n  ↓Windkessel effect -> ↑AL\nThoracic\n·\nIntrathoracic pressure: e.g. IPPV ->\no\n↓LV afterload (↓tr",
+            "score": 0.9013818674527496,
+            "start": 1415,
+            "end": 2546
+          },
+          {
+            "text": "↑Volume -> alveolar distension ->\n  compress alveolar vessels\n·\nPVR lowest at FRC\nMetabolic:\n-O\n2\n·\ni.e. hypoxic pulmonary vasoconstriction (HPV)\n·\nVasoconstriction\n∝\n1 / (PAO\n2\n)\n·\nServes to improve ",
+            "score": 0.8108330834530486,
+            "start": 2547,
+            "end": 3073
+          },
+          {
+            "text": "2021A04 Describe the factors that affect afterload for\neach of the right and left ventricles.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\n·\nPVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ve",
+            "score": 0.5875330592323555,
+            "start": 0,
+            "end": 1414
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.30339280916534545,
+        "score": 0.7183639236459705,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "·\nVasoconstriction\n∝\n1 / (PAO\n2\n)\n·\nServes to improve local V/Q matching\n-CO\n2\n·\n↑CO\n2\n-> ↓r\n-pH\n·\n↓pH ->↓r\n-Temp\n·\n↓T -> ↓r\nAutonomic:\n-SNS\n·\nNeural NAd ->\nα\n1\n-> ↓r\n·\nHormonal Ad ->\nβ\n2\n-> ↑r ACh ->",
-            "score": 0.30339280916534545,
-            "start": 2693,
+            "text": "↑Viscosity (↑Hct, ↑temp, ↓flow rate)\n§\n↑Length (rarely important)\n·\nCompliance: e.g. atherosclerosis ->\n  ↓Windkessel effect -> ↑AL\nThoracic\n·\nIntrathoracic pressure: e.g. IPPV ->\no\n↓LV afterload (↓tr",
+            "score": 0.7183639236459705,
+            "start": 1415,
+            "end": 2580
+          },
+          {
+            "text": "  compress alveolar vessels\n·\nPVR lowest at FRC\nMetabolic:\n-O\n2\n·\ni.e. hypoxic pulmonary vasoconstriction (HPV)\n·\nVasoconstriction\n∝\n1 / (PAO\n2\n)\n·\nServes to improve local V/Q matching\n-CO\n2\n·\n↑CO\n2\n-",
+            "score": 0.36789031545021217,
+            "start": 2581,
             "end": 3073
           },
           {
-            "text": "↑Length (rarely important)\n·\nCompliance: e.g. atherosclerosis ->\n  ↓Windkessel effect -> ↑AL\nThoracic\n·\nIntrathoracic pressure: e.g. IPPV ->\no\n↓LV afterload (↓transmural pressure)\no\n↑RV afterload (↑SV",
-            "score": 0.2928705582501452,
-            "start": 1454,
-            "end": 2692
-          },
-          {
             "text": "2021A04 Describe the factors that affect afterload for\neach of the right and left ventricles.\nList:\n·\nIntro\n·\nDeterminants\n·\nSVR\n·\nPVR\nIntro:\nDefinition\n·\nSum of the factors contributing to total\n  ve",
-            "score": 0.22488731266338857,
+            "score": 0.17656868710877405,
             "start": 0,
-            "end": 1453
+            "end": 1414
           }
         ]
       },

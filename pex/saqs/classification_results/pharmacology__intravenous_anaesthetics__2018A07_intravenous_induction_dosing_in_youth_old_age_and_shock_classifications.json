@@ -16,14 +16,16 @@
     "content_dimensions": [
       "neuromuscular_process",
       "autonomic_disposition",
+      "nociception_process",
       "gas_exchange_process",
       "acid_base_quality",
       "equipment_and_physics",
-      "drug_receptor_disposition",
+      "clinical_measurement_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
       "dose_response_relationship",
+      "mechanism_effect_relevance",
       "homeostatic_regulation"
     ]
   },
@@ -226,24 +228,24 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.660892384856582,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4143420283195424,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  midazolam 0.025mg/kg -> ↓30%; 1mcg/kg fentanyl -> ↓20%\n(synergism -> ↓propofol -> ↓toxicity)\n4yo 15kg:\nDose\n�\n3-5mg/kg IV induction (\nsay 75mg!\n)\nPK\n�\n↑CO/kg ~100-140mL/kg/min cf.\n  70mL/kg/min, ↑↑ ",
-            "score": 0.660892384856582,
+            "score": 0.4143420283195424,
             "start": 1294,
             "end": 2334
           },
           {
             "text": "2018A07 Justify the dose of propofol you would expect to use to induce\nanaesthesia in the following scenarios,\nusing pharmacokinetic and pharmacodynamic principles:\na) 4 year old child weighing 15kg (",
-            "score": 0.28119119060424663,
+            "score": 0.3084865249962589,
             "start": 0,
             "end": 1293
           },
           {
             "text": "Shock: 10% i.e. 0.2-0.25mg/kg (say 20mg)\n�\nResuscitated: 50% i.e. 1-1.25mg/kg (\nsay 75mg!\n)\n(see Pharmacology and\n  Physiology for Anaesthetists, Hemmings and Egan, 2nd Edition)\nPK\n�\nChanges\n∝\nblood l",
-            "score": 0.23005185046589166,
+            "score": 0.2816360763540295,
             "start": 2335,
             "end": 2847
           }
@@ -370,26 +372,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12452970475004799,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7798214241424282,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Shock: 10% i.e. 0.2-0.25mg/kg (say 20mg)\n�\nResuscitated: 50% i.e. 1-1.25mg/kg (\nsay 75mg!\n)\n(see Pharmacology and\n  Physiology for Anaesthetists, Hemmings and Egan, 2nd Edition)\nPK\n�\nChanges\n∝\nblood l",
-            "score": 0.12452970475004799,
-            "start": 2335,
-            "end": 2847
-          },
-          {
             "text": "  midazolam 0.025mg/kg -> ↓30%; 1mcg/kg fentanyl -> ↓20%\n(synergism -> ↓propofol -> ↓toxicity)\n4yo 15kg:\nDose\n�\n3-5mg/kg IV induction (\nsay 75mg!\n)\nPK\n�\n↑CO/kg ~100-140mL/kg/min cf.\n  70mL/kg/min, ↑↑ ",
-            "score": 0.12068239347016409,
+            "score": 0.7798214241424282,
             "start": 1294,
             "end": 2334
           },
           {
             "text": "2018A07 Justify the dose of propofol you would expect to use to induce\nanaesthesia in the following scenarios,\nusing pharmacokinetic and pharmacodynamic principles:\na) 4 year old child weighing 15kg (",
-            "score": 0.09386232569631885,
+            "score": 0.6442714345122317,
             "start": 0,
             "end": 1293
+          },
+          {
+            "text": "Shock: 10% i.e. 0.2-0.25mg/kg (say 20mg)\n�\nResuscitated: 50% i.e. 1-1.25mg/kg (\nsay 75mg!\n)\n(see Pharmacology and\n  Physiology for Anaesthetists, Hemmings and Egan, 2nd Edition)\nPK\n�\nChanges\n∝\nblood l",
+            "score": 0.3388655371870019,
+            "start": 2335,
+            "end": 2847
           }
         ]
       },
@@ -464,30 +466,78 @@
             "end": 2847
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2776447299150455,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.21901020621216397,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  midazolam 0.025mg/kg -> ↓30%; 1mcg/kg fentanyl -> ↓20%\n(synergism -> ↓propofol -> ↓toxicity)\n4yo 15kg:\nDose\n�\n3-5mg/kg IV induction (\nsay 75mg!\n)\nPK\n�\n↑CO/kg ~100-140mL/kg/min cf.\n  70mL/kg/min, ↑↑ ",
-            "score": 0.2776447299150455,
+            "score": 0.21901020621216397,
             "start": 1294,
-            "end": 2375
+            "end": 2334
           },
           {
-            "text": "�\nResuscitated: 50% i.e. 1-1.25mg/kg (\nsay 75mg!\n)\n(see Pharmacology and\n  Physiology for Anaesthetists, Hemmings and Egan, 2nd Edition)\nPK\n�\nChanges\n∝\nblood loss\no\n↓ CO (due to ↓preload, attenuated\n ",
-            "score": 0.22056881707219475,
-            "start": 2376,
+            "text": "Shock: 10% i.e. 0.2-0.25mg/kg (say 20mg)\n�\nResuscitated: 50% i.e. 1-1.25mg/kg (\nsay 75mg!\n)\n(see Pharmacology and\n  Physiology for Anaesthetists, Hemmings and Egan, 2nd Edition)\nPK\n�\nChanges\n∝\nblood l",
+            "score": 0.13769065726953986,
+            "start": 2335,
             "end": 2847
           },
           {
             "text": "2018A07 Justify the dose of propofol you would expect to use to induce\nanaesthesia in the following scenarios,\nusing pharmacokinetic and pharmacodynamic principles:\na) 4 year old child weighing 15kg (",
-            "score": 0.21055038795004374,
+            "score": 0.13244504050607428,
             "start": 0,
             "end": 1293
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.6594384501928167,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Shock: 10% i.e. 0.2-0.25mg/kg (say 20mg)\n�\nResuscitated: 50% i.e. 1-1.25mg/kg (\nsay 75mg!\n)\n(see Pharmacology and\n  Physiology for Anaesthetists, Hemmings and Egan, 2nd Edition)\nPK\n�\nChanges\n∝\nblood l",
+            "score": 0.6594384501928167,
+            "start": 2335,
+            "end": 2847
+          },
+          {
+            "text": "  midazolam 0.025mg/kg -> ↓30%; 1mcg/kg fentanyl -> ↓20%\n(synergism -> ↓propofol -> ↓toxicity)\n4yo 15kg:\nDose\n�\n3-5mg/kg IV induction (\nsay 75mg!\n)\nPK\n�\n↑CO/kg ~100-140mL/kg/min cf.\n  70mL/kg/min, ↑↑ ",
+            "score": 0.4319596789204645,
+            "start": 1294,
+            "end": 2334
+          },
+          {
+            "text": "2018A07 Justify the dose of propofol you would expect to use to induce\nanaesthesia in the following scenarios,\nusing pharmacokinetic and pharmacodynamic principles:\na) 4 year old child weighing 15kg (",
+            "score": 0.2260732893915247,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7075829226961883,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  midazolam 0.025mg/kg -> ↓30%; 1mcg/kg fentanyl -> ↓20%\n(synergism -> ↓propofol -> ↓toxicity)\n4yo 15kg:\nDose\n�\n3-5mg/kg IV induction (\nsay 75mg!\n)\nPK\n�\n↑CO/kg ~100-140mL/kg/min cf.\n  70mL/kg/min, ↑↑ ",
+            "score": 0.7075829226961883,
+            "start": 1294,
+            "end": 2334
+          },
+          {
+            "text": "2018A07 Justify the dose of propofol you would expect to use to induce\nanaesthesia in the following scenarios,\nusing pharmacokinetic and pharmacodynamic principles:\na) 4 year old child weighing 15kg (",
+            "score": 0.6854437825385576,
+            "start": 0,
+            "end": 1293
+          },
+          {
+            "text": "Shock: 10% i.e. 0.2-0.25mg/kg (say 20mg)\n�\nResuscitated: 50% i.e. 1-1.25mg/kg (\nsay 75mg!\n)\n(see Pharmacology and\n  Physiology for Anaesthetists, Hemmings and Egan, 2nd Edition)\nPK\n�\nChanges\n∝\nblood l",
+            "score": 0.6283577240635493,
+            "start": 2335,
+            "end": 2847
           }
         ]
       },

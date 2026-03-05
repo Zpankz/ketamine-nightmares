@@ -18,6 +18,7 @@
     },
     "content_dimensions": [
       "gas_exchange_process",
+      "clinical_measurement_process",
       "acid_base_quality",
       "equipment_and_physics"
     ],
@@ -178,18 +179,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.40196864994062925,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.35993111843774905,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↓Pacemaker cells in SA and AV nodes (50%\n  age 20, 10% age 75)\no\nFatty, fibrous infiltration of conduction\n  system\n↓Contractility (CY)\n�\n↓Myocyte number\no\n2� to apoptosis, necrosis\n�\nPartly offset by",
-            "score": 0.40196864994062925,
+            "score": 0.35993111843774905,
             "start": 1279,
             "end": 2432
           },
           {
             "text": "2008B15 Describe\nthe changes that occur with ageing that can affect\noxygen delivery to the tissues during moderate exercise.\nList:\n�\nIntro\n�\nAgeing and cardiac output\n�\nAgeing and oxygen content\nIntro",
-            "score": 0.19275817505115483,
+            "score": 0.16057348256172324,
             "start": 0,
             "end": 1278
           }
@@ -286,20 +287,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10803954311448256,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.4896518113023428,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "  age 20, 10% age 75)\no\nFatty, fibrous infiltration of conduction\n  system\n↓Contractility (CY)\n�\n↓Myocyte number\no\n2� to apoptosis, necrosis\n�\nPartly offset by concentric hypertrophy\no\n2� to ↑afterloa",
-            "score": 0.10803954311448256,
-            "start": 1320,
+            "text": "↓Pacemaker cells in SA and AV nodes (50%\n  age 20, 10% age 75)\no\nFatty, fibrous infiltration of conduction\n  system\n↓Contractility (CY)\n�\n↓Myocyte number\no\n2� to apoptosis, necrosis\n�\nPartly offset by",
+            "score": 0.4896518113023428,
+            "start": 1279,
             "end": 2432
           },
           {
             "text": "2008B15 Describe\nthe changes that occur with ageing that can affect\noxygen delivery to the tissues during moderate exercise.\nList:\n�\nIntro\n�\nAgeing and cardiac output\n�\nAgeing and oxygen content\nIntro",
-            "score": 0.08213138471900344,
+            "score": 0.10906114075009045,
             "start": 0,
-            "end": 1319
+            "end": 1278
           }
         ]
       },
@@ -356,24 +357,60 @@
             "end": 1278
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.37767231780686245,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.5589447924054649,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  age 20, 10% age 75)\no\nFatty, fibrous infiltration of conduction\n  system\n↓Contractility (CY)\n�\n↓Myocyte number\no\n2� to apoptosis, necrosis\n�\nPartly offset by concentric hypertrophy\no\n2� to ↑afterloa",
-            "score": 0.37767231780686245,
+            "score": 0.5589447924054649,
             "start": 1320,
             "end": 2432
           },
           {
             "text": "2008B15 Describe\nthe changes that occur with ageing that can affect\noxygen delivery to the tissues during moderate exercise.\nList:\n�\nIntro\n�\nAgeing and cardiac output\n�\nAgeing and oxygen content\nIntro",
-            "score": 0.2772030069075993,
+            "score": 0.14671028264551744,
             "start": 0,
             "end": 1319
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8185934252001217,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2008B15 Describe\nthe changes that occur with ageing that can affect\noxygen delivery to the tissues during moderate exercise.\nList:\n�\nIntro\n�\nAgeing and cardiac output\n�\nAgeing and oxygen content\nIntro",
+            "score": 0.8185934252001217,
+            "start": 0,
+            "end": 1278
+          },
+          {
+            "text": "↓Pacemaker cells in SA and AV nodes (50%\n  age 20, 10% age 75)\no\nFatty, fibrous infiltration of conduction\n  system\n↓Contractility (CY)\n�\n↓Myocyte number\no\n2� to apoptosis, necrosis\n�\nPartly offset by",
+            "score": 0.8094013663275356,
+            "start": 1279,
+            "end": 2432
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5681056228165808,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "↓Pacemaker cells in SA and AV nodes (50%\n  age 20, 10% age 75)\no\nFatty, fibrous infiltration of conduction\n  system\n↓Contractility (CY)\n�\n↓Myocyte number\no\n2� to apoptosis, necrosis\n�\nPartly offset by",
+            "score": 0.5681056228165808,
+            "start": 1279,
+            "end": 2432
+          },
+          {
+            "text": "2008B15 Describe\nthe changes that occur with ageing that can affect\noxygen delivery to the tissues during moderate exercise.\nList:\n�\nIntro\n�\nAgeing and cardiac output\n�\nAgeing and oxygen content\nIntro",
+            "score": 0.32304731886392163,
+            "start": 0,
+            "end": 1278
           }
         ]
       },

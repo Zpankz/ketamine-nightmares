@@ -9,7 +9,9 @@
       "primary": "integrative",
       "score": 0.3495820398110333
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "nociception_process"
+    ],
     "explanatory_schema": []
   },
   "classifications": {
@@ -115,12 +117,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.21514118653388012,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.14671028264551744,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2003A04 Outline the potential\nproblems associated with additives used to make medicines suitable\nfor intravenous injection.\nList:\n·\nTable: problem, drug, culprit,\npurpose\n·\nLogistical problems\nIngredi",
-            "score": 0.21514118653388012,
+            "score": 0.14671028264551744,
             "start": 0,
             "end": 1001
           }
@@ -187,12 +189,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.1100884956529356,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6779010294279701,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2003A04 Outline the potential\nproblems associated with additives used to make medicines suitable\nfor intravenous injection.\nList:\n·\nTable: problem, drug, culprit,\npurpose\n·\nLogistical problems\nIngredi",
-            "score": 0.1100884956529356,
+            "score": 0.6779010294279701,
             "start": 0,
             "end": 1001
           }
@@ -233,16 +235,40 @@
             "end": 1001
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.06929198572432578,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2003A04 Outline the potential\nproblems associated with additives used to make medicines suitable\nfor intravenous injection.\nList:\n·\nTable: problem, drug, culprit,\npurpose\n·\nLogistical problems\nIngredi",
+            "score": 0.06929198572432578,
+            "start": 0,
+            "end": 1001
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.08924333203133303,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2003A04 Outline the potential\nproblems associated with additives used to make medicines suitable\nfor intravenous injection.\nList:\n·\nTable: problem, drug, culprit,\npurpose\n·\nLogistical problems\nIngredi",
+            "score": 0.08924333203133303,
+            "start": 0,
+            "end": 1001
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.10252288453633593,
+        "score": 0.21360460483229088,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2003A04 Outline the potential\nproblems associated with additives used to make medicines suitable\nfor intravenous injection.\nList:\n·\nTable: problem, drug, culprit,\npurpose\n·\nLogistical problems\nIngredi",
-            "score": 0.10252288453633593,
+            "score": 0.21360460483229088,
             "start": 0,
             "end": 1001
           }

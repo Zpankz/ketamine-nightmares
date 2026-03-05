@@ -13,14 +13,17 @@
       "score": 0.6263513404123925
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
+      "anatomy_structure",
+      "clinical_measurement_process",
       "autonomic_disposition",
+      "nociception_process",
       "equipment_and_physics",
       "organ_system_process",
       "neuromuscular_process"
     ],
     "explanatory_schema": [
       "structure_function_link",
+      "mechanism_effect_relevance",
       "dose_response_relationship"
     ]
   },
@@ -175,20 +178,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7659308045041232,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.37264500861977157,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  for it)\nRespiratory:\nThoracic level\n·\nIntercostal paralysis\nUpper cervical level\n·\nC3-5:\n  diaphragm paralysis\n·\n(Note\n  phrenic nerve is large and resistant to blockade)\nBrainstem level\n·\nCNIX,\n  X",
-            "score": 0.7659308045041232,
-            "start": 1480,
+            "text": "(this is from first principles – I have no evidence\n  for it)\nRespiratory:\nThoracic level\n·\nIntercostal paralysis\nUpper cervical level\n·\nC3-5:\n  diaphragm paralysis\n·\n(Note\n  phrenic nerve is large an",
+            "score": 0.37264500861977157,
+            "start": 1428,
             "end": 2104
           },
           {
             "text": "2017A12 Discuss\nthe physiological consequences of total spinal anaesthesia\ncaused by intrathecal administration of 20mL 2% lignocaine at L3/4 level.\n(Do not include management)\nList:\n·\nIntro\n·\nNervous",
-            "score": 0.330198056649713,
+            "score": 0.2942330252332108,
             "start": 0,
-            "end": 1479
+            "end": 1427
           }
         ]
       },
@@ -283,20 +286,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11905584709916793,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7271947106359709,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Respiratory:\nThoracic level\n·\nIntercostal paralysis\nUpper cervical level\n·\nC3-5:\n  diaphragm paralysis\n·\n(Note\n  phrenic nerve is large and resistant to blockade)\nBrainstem level\n·\nCNIX,\n  X: ↓↓airway",
-            "score": 0.11905584709916793,
-            "start": 1490,
+            "text": "(this is from first principles – I have no evidence\n  for it)\nRespiratory:\nThoracic level\n·\nIntercostal paralysis\nUpper cervical level\n·\nC3-5:\n  diaphragm paralysis\n·\n(Note\n  phrenic nerve is large an",
+            "score": 0.7271947106359709,
+            "start": 1428,
             "end": 2104
           },
           {
             "text": "2017A12 Discuss\nthe physiological consequences of total spinal anaesthesia\ncaused by intrathecal administration of 20mL 2% lignocaine at L3/4 level.\n(Do not include management)\nList:\n·\nIntro\n·\nNervous",
-            "score": 0.0915358786435363,
+            "score": 0.6833303654116152,
             "start": 0,
-            "end": 1489
+            "end": 1427
           }
         ]
       },
@@ -353,24 +356,60 @@
             "end": 1479
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.8122584176361644,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Thoracic level\n·\nIntercostal paralysis\nUpper cervical level\n·\nC3-5:\n  diaphragm paralysis\n·\n(Note\n  phrenic nerve is large and resistant to blockade)\nBrainstem level\n·\nCNIX,\n  X: ↓↓airway reflexes, gl",
+            "score": 0.8122584176361644,
+            "start": 1503,
+            "end": 2104
+          },
+          {
+            "text": "2017A12 Discuss\nthe physiological consequences of total spinal anaesthesia\ncaused by intrathecal administration of 20mL 2% lignocaine at L3/4 level.\n(Do not include management)\nList:\n·\nIntro\n·\nNervous",
+            "score": 0.16779109893341812,
+            "start": 0,
+            "end": 1502
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7947335570650536,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "(this is from first principles – I have no evidence\n  for it)\nRespiratory:\nThoracic level\n·\nIntercostal paralysis\nUpper cervical level\n·\nC3-5:\n  diaphragm paralysis\n·\n(Note\n  phrenic nerve is large an",
+            "score": 0.7947335570650536,
+            "start": 1428,
+            "end": 2104
+          },
+          {
+            "text": "2017A12 Discuss\nthe physiological consequences of total spinal anaesthesia\ncaused by intrathecal administration of 20mL 2% lignocaine at L3/4 level.\n(Do not include management)\nList:\n·\nIntro\n·\nNervous",
+            "score": 0.15608002460238707,
+            "start": 0,
+            "end": 1427
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.35301908534826315,
+        "score": 0.7561322192814399,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2017A12 Discuss\nthe physiological consequences of total spinal anaesthesia\ncaused by intrathecal administration of 20mL 2% lignocaine at L3/4 level.\n(Do not include management)\nList:\n·\nIntro\n·\nNervous",
-            "score": 0.35301908534826315,
-            "start": 0,
-            "end": 1502
+            "text": "(this is from first principles – I have no evidence\n  for it)\nRespiratory:\nThoracic level\n·\nIntercostal paralysis\nUpper cervical level\n·\nC3-5:\n  diaphragm paralysis\n·\n(Note\n  phrenic nerve is large an",
+            "score": 0.7561322192814399,
+            "start": 1428,
+            "end": 2104
           },
           {
-            "text": "Thoracic level\n·\nIntercostal paralysis\nUpper cervical level\n·\nC3-5:\n  diaphragm paralysis\n·\n(Note\n  phrenic nerve is large and resistant to blockade)\nBrainstem level\n·\nCNIX,\n  X: ↓↓airway reflexes, gl",
-            "score": 0.27193002429858243,
-            "start": 1503,
-            "end": 2104
+            "text": "2017A12 Discuss\nthe physiological consequences of total spinal anaesthesia\ncaused by intrathecal administration of 20mL 2% lignocaine at L3/4 level.\n(Do not include management)\nList:\n·\nIntro\n·\nNervous",
+            "score": 0.7048569815755269,
+            "start": 0,
+            "end": 1427
           }
         ]
       },

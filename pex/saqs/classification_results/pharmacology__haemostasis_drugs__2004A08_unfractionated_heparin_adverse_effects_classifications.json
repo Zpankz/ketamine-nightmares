@@ -13,7 +13,9 @@
       "score": 0.5512585328149024
     },
     "content_dimensions": [],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -166,18 +168,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4309150919055512,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.41913611918087346,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2004A08 Describe\nbriefly the side effects and complications of heparin therapy.\nList:\n·\nIntro\n·\nProblems\n·\nBleeding\n·\nHITT\n·\nOther (short term and long term)\nProblems that\naren’t side effects:\nNarrow ",
-            "score": 0.4309150919055512,
+            "score": 0.41913611918087346,
             "start": 0,
             "end": 1327
           },
           {
             "text": "  risk major thrombotic event: ATE, VTE\n·\nRisk\n  major bleeding: haemorrhagic stroke, classic bilateral adrenal haemorrhage\n·\nDeath\n  10-30%\n·\nDiagnosis:\n  “4Ts”, heparin/PF4 assay\n·\nRx:\n  stop offend",
-            "score": 0.19420584422163265,
+            "score": 0.16845675763202042,
             "start": 1328,
             "end": 1904
           }
@@ -274,20 +276,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.07743609402993808,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.4184874988325645,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Risk\n  major bleeding: haemorrhagic stroke, classic bilateral adrenal haemorrhage\n·\nDeath\n  10-30%\n·\nDiagnosis:\n  “4Ts”, heparin/PF4 assay\n·\nRx:\n  stop offender; start alternative e.g. lepirudin, arga",
-            "score": 0.07743609402993808,
-            "start": 1370,
+            "text": "  risk major thrombotic event: ATE, VTE\n·\nRisk\n  major bleeding: haemorrhagic stroke, classic bilateral adrenal haemorrhage\n·\nDeath\n  10-30%\n·\nDiagnosis:\n  “4Ts”, heparin/PF4 assay\n·\nRx:\n  stop offend",
+            "score": 0.4184874988325645,
+            "start": 1328,
             "end": 1904
           },
           {
             "text": "2004A08 Describe\nbriefly the side effects and complications of heparin therapy.\nList:\n·\nIntro\n·\nProblems\n·\nBleeding\n·\nHITT\n·\nOther (short term and long term)\nProblems that\naren’t side effects:\nNarrow ",
-            "score": 0.06540458546295926,
+            "score": 0.12177417567627631,
             "start": 0,
-            "end": 1369
+            "end": 1327
           }
         ]
       },
@@ -344,24 +346,60 @@
             "end": 1327
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2758799607635588,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.1718088844227446,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  major bleeding: haemorrhagic stroke, classic bilateral adrenal haemorrhage\n·\nDeath\n  10-30%\n·\nDiagnosis:\n  “4Ts”, heparin/PF4 assay\n·\nRx:\n  stop offender; start alternative e.g. lepirudin, argatroba",
-            "score": 0.2758799607635588,
+            "score": 0.1718088844227446,
             "start": 1375,
             "end": 1904
           },
           {
             "text": "2004A08 Describe\nbriefly the side effects and complications of heparin therapy.\nList:\n·\nIntro\n·\nProblems\n·\nBleeding\n·\nHITT\n·\nOther (short term and long term)\nProblems that\naren’t side effects:\nNarrow ",
-            "score": 0.14671028264551744,
+            "score": 0.08924333203133303,
             "start": 0,
             "end": 1374
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.12845038342220835,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2004A08 Describe\nbriefly the side effects and complications of heparin therapy.\nList:\n·\nIntro\n·\nProblems\n·\nBleeding\n·\nHITT\n·\nOther (short term and long term)\nProblems that\naren’t side effects:\nNarrow ",
+            "score": 0.12845038342220835,
+            "start": 0,
+            "end": 1327
+          },
+          {
+            "text": "  risk major thrombotic event: ATE, VTE\n·\nRisk\n  major bleeding: haemorrhagic stroke, classic bilateral adrenal haemorrhage\n·\nDeath\n  10-30%\n·\nDiagnosis:\n  “4Ts”, heparin/PF4 assay\n·\nRx:\n  stop offend",
+            "score": 0.0924623723009821,
+            "start": 1328,
+            "end": 1904
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7939834639495083,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2004A08 Describe\nbriefly the side effects and complications of heparin therapy.\nList:\n·\nIntro\n·\nProblems\n·\nBleeding\n·\nHITT\n·\nOther (short term and long term)\nProblems that\naren’t side effects:\nNarrow ",
+            "score": 0.7939834639495083,
+            "start": 0,
+            "end": 1327
+          },
+          {
+            "text": "  risk major thrombotic event: ATE, VTE\n·\nRisk\n  major bleeding: haemorrhagic stroke, classic bilateral adrenal haemorrhage\n·\nDeath\n  10-30%\n·\nDiagnosis:\n  “4Ts”, heparin/PF4 assay\n·\nRx:\n  stop offend",
+            "score": 0.6961457445756679,
+            "start": 1328,
+            "end": 1904
           }
         ]
       },

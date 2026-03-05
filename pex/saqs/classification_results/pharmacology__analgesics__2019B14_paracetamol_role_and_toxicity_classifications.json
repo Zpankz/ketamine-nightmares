@@ -9,8 +9,13 @@
       "primary": "foundational_science",
       "score": 0.6004682867934061
     },
-    "content_dimensions": [],
-    "explanatory_schema": []
+    "content_dimensions": [
+      "drug_receptor_disposition",
+      "nociception_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -115,12 +120,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4200445831689686,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7066756231196865,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2019B14 Discuss the role of paracetamol in multi-modal\nanalgesia (33%).\nExplain paracetamol metabolism and the mechanism of toxicity (67%).\nDO NOT discuss management of toxicity.\nList:\n·\nMechanism\n·\nR",
-            "score": 0.4200445831689686,
+            "score": 0.7066756231196865,
             "start": 0,
             "end": 1114
           }
@@ -187,12 +192,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.11531222505249526,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.6745765409729876,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2019B14 Discuss the role of paracetamol in multi-modal\nanalgesia (33%).\nExplain paracetamol metabolism and the mechanism of toxicity (67%).\nDO NOT discuss management of toxicity.\nList:\n·\nMechanism\n·\nR",
-            "score": 0.11531222505249526,
+            "score": 0.6745765409729876,
             "start": 0,
             "end": 1114
           }
@@ -233,16 +238,40 @@
             "end": 1114
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.0816980747080833,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2019B14 Discuss the role of paracetamol in multi-modal\nanalgesia (33%).\nExplain paracetamol metabolism and the mechanism of toxicity (67%).\nDO NOT discuss management of toxicity.\nList:\n·\nMechanism\n·\nR",
+            "score": 0.0816980747080833,
+            "start": 0,
+            "end": 1114
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.1005592983048298,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2019B14 Discuss the role of paracetamol in multi-modal\nanalgesia (33%).\nExplain paracetamol metabolism and the mechanism of toxicity (67%).\nDO NOT discuss management of toxicity.\nList:\n·\nMechanism\n·\nR",
+            "score": 0.1005592983048298,
+            "start": 0,
+            "end": 1114
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.23366572148234507,
+        "score": 0.8355133944044236,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2019B14 Discuss the role of paracetamol in multi-modal\nanalgesia (33%).\nExplain paracetamol metabolism and the mechanism of toxicity (67%).\nDO NOT discuss management of toxicity.\nList:\n·\nMechanism\n·\nR",
-            "score": 0.23366572148234507,
+            "score": 0.8355133944044236,
             "start": 0,
             "end": 1114
           }

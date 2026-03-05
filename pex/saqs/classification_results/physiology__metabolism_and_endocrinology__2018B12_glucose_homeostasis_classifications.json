@@ -13,13 +13,15 @@
       "score": 0.6975291050505792
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "organ_system_process",
+      "drug_receptor_disposition",
+      "clinical_measurement_process",
       "equipment_and_physics",
       "autonomic_disposition",
       "neuromuscular_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "dose_response_relationship",
       "structure_function_link"
@@ -224,26 +226,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8445555978000561,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.7894496120499562,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  ↑BGL -> ↑ATP -> ↑inhibition of K channel -> depolarisation -> ↑Ca\n2+\n> exocytosis\n·\nConstitutive:\n  15 milli-Units per minute\n·\n1\nst\nphase inducible: preformed insulin, onset 2 mins, duration 15 min",
-            "score": 0.8445555978000561,
-            "start": 1462,
-            "end": 2675
+            "text": "Mechanism:\n  ↑BGL -> ↑ATP -> ↑inhibition of K channel -> depolarisation -> ↑Ca\n2+\n> exocytosis\n·\nConstitutive:\n  15 milli-Units per minute\n·\n1\nst\nphase inducible: preformed insulin, onset 2 mins, dura",
+            "score": 0.7894496120499562,
+            "start": 1451,
+            "end": 2664
           },
           {
-            "text": "Visceral adipose effect\n·\n↓glucose\n  uptake -> glycerol\n·\n↑LL,\n  ↓DNL\nSubcut adipose effect\n·\n↑glucose\n  uptake -> glycerol\n·\n↑DNL,\n  ↓LL\nCatecholamines\n-> ↑BGL:\nSource\n·\nAdrenal medulla\nStimuli for r",
-            "score": 0.8295367351705452,
-            "start": 2676,
+            "text": "↓GG,\n  ↓GL\nVisceral adipose effect\n·\n↓glucose\n  uptake -> glycerol\n·\n↑LL,\n  ↓DNL\nSubcut adipose effect\n·\n↑glucose\n  uptake -> glycerol\n·\n↑DNL,\n  ↓LL\nCatecholamines\n-> ↑BGL:\nSource\n·\nAdrenal medulla\nSt",
+            "score": 0.6531094018341115,
+            "start": 2665,
             "end": 3581
           },
           {
             "text": "2018B12 Outline\nthe normal physiological control of blood glucose in a non-diabetic adult.\nList:\n·\nIntro: glucose and its control\n·\nMetabolic pathways and key enzymes\n·\nEach hormone\nIntroduction:\nGluc",
-            "score": 0.4993365747181138,
+            "score": 0.38449416694850636,
             "start": 0,
-            "end": 1461
+            "end": 1450
           }
         ]
       },
@@ -368,26 +370,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10153827963475912,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.312682935674689,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "  ↑BGL -> ↑ATP -> ↑inhibition of K channel -> depolarisation -> ↑Ca\n2+\n> exocytosis\n·\nConstitutive:\n  15 milli-Units per minute\n·\n1\nst\nphase inducible: preformed insulin, onset 2 mins, duration 15 min",
-            "score": 0.10153827963475912,
-            "start": 1462,
-            "end": 2701
+            "text": "Mechanism:\n  ↑BGL -> ↑ATP -> ↑inhibition of K channel -> depolarisation -> ↑Ca\n2+\n> exocytosis\n·\nConstitutive:\n  15 milli-Units per minute\n·\n1\nst\nphase inducible: preformed insulin, onset 2 mins, dura",
+            "score": 0.312682935674689,
+            "start": 1451,
+            "end": 2664
           },
           {
-            "text": "↓glucose\n  uptake -> glycerol\n·\n↑LL,\n  ↓DNL\nSubcut adipose effect\n·\n↑glucose\n  uptake -> glycerol\n·\n↑DNL,\n  ↓LL\nCatecholamines\n-> ↑BGL:\nSource\n·\nAdrenal medulla\nStimuli for release\n·\n↓BGL\n  sensed by ",
-            "score": 0.1005592983048298,
-            "start": 2702,
+            "text": "↓GG,\n  ↓GL\nVisceral adipose effect\n·\n↓glucose\n  uptake -> glycerol\n·\n↑LL,\n  ↓DNL\nSubcut adipose effect\n·\n↑glucose\n  uptake -> glycerol\n·\n↑DNL,\n  ↓LL\nCatecholamines\n-> ↑BGL:\nSource\n·\nAdrenal medulla\nSt",
+            "score": 0.23894091082715616,
+            "start": 2665,
             "end": 3581
           },
           {
             "text": "2018B12 Outline\nthe normal physiological control of blood glucose in a non-diabetic adult.\nList:\n·\nIntro: glucose and its control\n·\nMetabolic pathways and key enzymes\n·\nEach hormone\nIntroduction:\nGluc",
-            "score": 0.07088101815552864,
+            "score": 0.07827820752174312,
             "start": 0,
-            "end": 1461
+            "end": 1450
           }
         ]
       },
@@ -462,28 +464,76 @@
             "end": 1461
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.47765516027191973,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.3043160270707983,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  ↑BGL -> ↑ATP -> ↑inhibition of K channel -> depolarisation -> ↑Ca\n2+\n> exocytosis\n·\nConstitutive:\n  15 milli-Units per minute\n·\n1\nst\nphase inducible: preformed insulin, onset 2 mins, duration 15 min",
-            "score": 0.47765516027191973,
+            "score": 0.3043160270707983,
             "start": 1462,
             "end": 2701
           },
           {
             "text": "↓glucose\n  uptake -> glycerol\n·\n↑LL,\n  ↓DNL\nSubcut adipose effect\n·\n↑glucose\n  uptake -> glycerol\n·\n↑DNL,\n  ↓LL\nCatecholamines\n-> ↑BGL:\nSource\n·\nAdrenal medulla\nStimuli for release\n·\n↓BGL\n  sensed by ",
-            "score": 0.32399687407609323,
+            "score": 0.27897201595542515,
             "start": 2702,
             "end": 3581
           },
           {
             "text": "2018B12 Outline\nthe normal physiological control of blood glucose in a non-diabetic adult.\nList:\n·\nIntro: glucose and its control\n·\nMetabolic pathways and key enzymes\n·\nEach hormone\nIntroduction:\nGluc",
-            "score": 0.12013872967712319,
+            "score": 0.12676106887331628,
+            "start": 0,
+            "end": 1461
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7794311829278053,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↓GG,\n  ↓GL\nVisceral adipose effect\n·\n↓glucose\n  uptake -> glycerol\n·\n↑LL,\n  ↓DNL\nSubcut adipose effect\n·\n↑glucose\n  uptake -> glycerol\n·\n↑DNL,\n  ↓LL\nCatecholamines\n-> ↑BGL:\nSource\n·\nAdrenal medulla\nSt",
+            "score": 0.7794311829278053,
+            "start": 2665,
+            "end": 3581
+          },
+          {
+            "text": "Mechanism:\n  ↑BGL -> ↑ATP -> ↑inhibition of K channel -> depolarisation -> ↑Ca\n2+\n> exocytosis\n·\nConstitutive:\n  15 milli-Units per minute\n·\n1\nst\nphase inducible: preformed insulin, onset 2 mins, dura",
+            "score": 0.26541144562458285,
+            "start": 1451,
+            "end": 2664
+          },
+          {
+            "text": "2018B12 Outline\nthe normal physiological control of blood glucose in a non-diabetic adult.\nList:\n·\nIntro: glucose and its control\n·\nMetabolic pathways and key enzymes\n·\nEach hormone\nIntroduction:\nGluc",
+            "score": 0.1671270277650237,
+            "start": 0,
+            "end": 1450
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8192893365251843,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  ↑BGL -> ↑ATP -> ↑inhibition of K channel -> depolarisation -> ↑Ca\n2+\n> exocytosis\n·\nConstitutive:\n  15 milli-Units per minute\n·\n1\nst\nphase inducible: preformed insulin, onset 2 mins, duration 15 min",
+            "score": 0.8192893365251843,
+            "start": 1462,
+            "end": 2675
+          },
+          {
+            "text": "Visceral adipose effect\n·\n↓glucose\n  uptake -> glycerol\n·\n↑LL,\n  ↓DNL\nSubcut adipose effect\n·\n↑glucose\n  uptake -> glycerol\n·\n↑DNL,\n  ↓LL\nCatecholamines\n-> ↑BGL:\nSource\n·\nAdrenal medulla\nStimuli for r",
+            "score": 0.8157938246409508,
+            "start": 2676,
+            "end": 3581
+          },
+          {
+            "text": "2018B12 Outline\nthe normal physiological control of blood glucose in a non-diabetic adult.\nList:\n·\nIntro: glucose and its control\n·\nMetabolic pathways and key enzymes\n·\nEach hormone\nIntroduction:\nGluc",
+            "score": 0.27852923486057457,
             "start": 0,
             "end": 1461
           }

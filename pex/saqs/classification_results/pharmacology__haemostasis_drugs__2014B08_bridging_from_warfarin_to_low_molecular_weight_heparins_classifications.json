@@ -11,10 +11,10 @@
     },
     "content_dimensions": [
       "pharmacokinetic_process",
-      "organ_system_process",
-      "drug_receptor_disposition"
+      "organ_system_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "dose_response_relationship"
     ]
   },
@@ -199,25 +199,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6353506082350193,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5561240396418115,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Peak 4 hours\n·\nOffset 24 hours therapeutic dose 1.5mg/kg\n  daily, 12 hours prophylactic (40mg in adult)\nAbsorption\n·\nOral bioav 90%\n·\nOral bioav minimal\nDistribution\n·\nV\nD\n0.1L/kg\n·\nPlasma protein bin",
-            "score": 0.6353506082350193,
-            "start": 1425,
-            "end": 2660
+            "text": "Offset 3-5 days\n·\nPeak 4 hours\n·\nOffset 24 hours therapeutic dose 1.5mg/kg\n  daily, 12 hours prophylactic (40mg in adult)\nAbsorption\n·\nOral bioav 90%\n·\nOral bioav minimal\nDistribution\n·\nV\nD\n0.1L/kg\n·\n",
+            "score": 0.5561240396418115,
+            "start": 1407,
+            "end": 2623
           },
           {
             "text": "2014B08 Outline\nthe important pharmacological considerations when stopping warfarin and\ncommencing\nprophylactic (low dose) low molecular weight heparin in the peri-op period.\nList:\n·\nIntro: aim, probl",
-            "score": 0.2623973993795041,
+            "score": 0.4196551852197537,
             "start": 0,
-            "end": 1424
+            "end": 1406
           },
           {
-            "text": "ketaminenightmares@gmail.com",
-            "score": 0.14065856668448176,
-            "start": 2661,
+            "text": "protein C)\n·\nNil\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.38221585661706947,
+            "start": 2624,
             "end": 2689
           }
         ]
@@ -337,20 +337,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.0957480960268055,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.23005185046589166,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2014B08 Outline\nthe important pharmacological considerations when stopping warfarin and\ncommencing\nprophylactic (low dose) low molecular weight heparin in the peri-op period.\nList:\n·\nIntro: aim, probl",
-            "score": 0.0957480960268055,
+            "score": 0.23005185046589166,
             "start": 0,
-            "end": 1439
+            "end": 1406
           },
           {
-            "text": "Offset 24 hours therapeutic dose 1.5mg/kg\n  daily, 12 hours prophylactic (40mg in adult)\nAbsorption\n·\nOral bioav 90%\n·\nOral bioav minimal\nDistribution\n·\nV\nD\n0.1L/kg\n·\nPlasma protein binding >95% (albu",
-            "score": 0.08788394835920724,
-            "start": 1440,
+            "text": "·\nNil\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.19059863367246443,
+            "start": 2635,
             "end": 2689
+          },
+          {
+            "text": "Offset 3-5 days\n·\nPeak 4 hours\n·\nOffset 24 hours therapeutic dose 1.5mg/kg\n  daily, 12 hours prophylactic (40mg in adult)\nAbsorption\n·\nOral bioav 90%\n·\nOral bioav minimal\nDistribution\n·\nV\nD\n0.1L/kg\n·\n",
+            "score": 0.174519217113909,
+            "start": 1407,
+            "end": 2634
           }
         ]
       },
@@ -425,24 +431,72 @@
             "end": 2689
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.28610407002975813,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.1228719100488003,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "Offset 24 hours therapeutic dose 1.5mg/kg\n  daily, 12 hours prophylactic (40mg in adult)\nAbsorption\n·\nOral bioav 90%\n·\nOral bioav minimal\nDistribution\n·\nV\nD\n0.1L/kg\n·\nPlasma protein binding >95% (albu",
-            "score": 0.28610407002975813,
+            "score": 0.1228719100488003,
             "start": 1440,
             "end": 2689
           },
           {
             "text": "2014B08 Outline\nthe important pharmacological considerations when stopping warfarin and\ncommencing\nprophylactic (low dose) low molecular weight heparin in the peri-op period.\nList:\n·\nIntro: aim, probl",
-            "score": 0.14793926113385975,
+            "score": 0.08609013263273645,
             "start": 0,
             "end": 1439
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.2662758837757481,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "protein C)\n·\nNil\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.2662758837757481,
+            "start": 2624,
+            "end": 2689
+          },
+          {
+            "text": "Offset 3-5 days\n·\nPeak 4 hours\n·\nOffset 24 hours therapeutic dose 1.5mg/kg\n  daily, 12 hours prophylactic (40mg in adult)\nAbsorption\n·\nOral bioav 90%\n·\nOral bioav minimal\nDistribution\n·\nV\nD\n0.1L/kg\n·\n",
+            "score": 0.17113527946174648,
+            "start": 1407,
+            "end": 2623
+          },
+          {
+            "text": "2014B08 Outline\nthe important pharmacological considerations when stopping warfarin and\ncommencing\nprophylactic (low dose) low molecular weight heparin in the peri-op period.\nList:\n·\nIntro: aim, probl",
+            "score": 0.10651790355261252,
+            "start": 0,
+            "end": 1406
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.739316856023697,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Offset 3-5 days\n·\nPeak 4 hours\n·\nOffset 24 hours therapeutic dose 1.5mg/kg\n  daily, 12 hours prophylactic (40mg in adult)\nAbsorption\n·\nOral bioav 90%\n·\nOral bioav minimal\nDistribution\n·\nV\nD\n0.1L/kg\n·\n",
+            "score": 0.739316856023697,
+            "start": 1407,
+            "end": 2636
+          },
+          {
+            "text": "2014B08 Outline\nthe important pharmacological considerations when stopping warfarin and\ncommencing\nprophylactic (low dose) low molecular weight heparin in the peri-op period.\nList:\n·\nIntro: aim, probl",
+            "score": 0.5153873606446352,
+            "start": 0,
+            "end": 1406
+          },
+          {
+            "text": "Nil\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.1891669165469514,
+            "start": 2637,
+            "end": 2689
           }
         ]
       },

@@ -15,7 +15,9 @@
         "foundational_science"
       ]
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "drug_receptor_disposition"
+    ],
     "explanatory_schema": []
   },
   "classifications": {
@@ -121,12 +123,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4908455924850634,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.6104277819436735,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020B11 Using\nopioids as examples describe and illustrate with graphs what you understand by\nthe terms\npotency, efficacy, partial agonist, competitive antagonist, therapeutic index.\nList:\n·\nDefinition",
-            "score": 0.4908455924850634,
+            "score": 0.6104277819436735,
             "start": 0,
             "end": 1621
           }
@@ -193,12 +195,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.09765591089184561,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.20979078633127912,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2020B11 Using\nopioids as examples describe and illustrate with graphs what you understand by\nthe terms\npotency, efficacy, partial agonist, competitive antagonist, therapeutic index.\nList:\n·\nDefinition",
-            "score": 0.09765591089184561,
+            "score": 0.20979078633127912,
             "start": 0,
             "end": 1621
           }
@@ -239,16 +241,40 @@
             "end": 1621
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.07008404688069232,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2020B11 Using\nopioids as examples describe and illustrate with graphs what you understand by\nthe terms\npotency, efficacy, partial agonist, competitive antagonist, therapeutic index.\nList:\n·\nDefinition",
+            "score": 0.07008404688069232,
+            "start": 0,
+            "end": 1621
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.09480246485705024,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2020B11 Using\nopioids as examples describe and illustrate with graphs what you understand by\nthe terms\npotency, efficacy, partial agonist, competitive antagonist, therapeutic index.\nList:\n·\nDefinition",
+            "score": 0.09480246485705024,
+            "start": 0,
+            "end": 1621
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.08653659094165504,
+        "score": 0.3898266577123184,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2020B11 Using\nopioids as examples describe and illustrate with graphs what you understand by\nthe terms\npotency, efficacy, partial agonist, competitive antagonist, therapeutic index.\nList:\n·\nDefinition",
-            "score": 0.08653659094165504,
+            "score": 0.3898266577123184,
             "start": 0,
             "end": 1621
           }

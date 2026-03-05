@@ -17,6 +17,7 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "special_population_role",
       "equipment_and_physics",
       "pharmacokinetic_process",
@@ -184,20 +185,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.5080268661717396,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.558485814871497,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2018B05 Describe\nthe maternal cardiovascular changes that occur during pregnancy.\nList:\n�\nSummary\n�\nHaemodynamics\n�\nBlood\n�\nRegional circulation\n�\nLabour\n�\nOther\nSummary:\nObjectives\n�\nSupport foetal g",
-            "score": 0.5080268661717396,
-            "start": 0,
-            "end": 1331
+            "text": "Progesterone -> vasodilatation\n�\nImplication:\no\n? Fluid reserve in case of blood loss (no\n  evidence for this)\nPlasma proteins\n�\n↓[Albumin], ↔AAG\n�\n↓Oncotic pressure 14%\n�\nCause: progesterone -> volum",
+            "score": 0.558485814871497,
+            "start": 1299,
+            "end": 2671
           },
           {
-            "text": "Implication:\no\n? Fluid reserve in case of blood loss (no\n  evidence for this)\nPlasma proteins\n�\n↓[Albumin], ↔AAG\n�\n↓Oncotic pressure 14%\n�\nCause: progesterone -> volume expansion\n  -> dilution\n�\nImpli",
-            "score": 0.504909215996539,
-            "start": 1332,
+            "text": "�\nRisk of hypertensive emergency and seizure",
+            "score": 0.301090477351718,
+            "start": 2672,
             "end": 2716
+          },
+          {
+            "text": "2018B05 Describe\nthe maternal cardiovascular changes that occur during pregnancy.\nList:\n�\nSummary\n�\nHaemodynamics\n�\nBlood\n�\nRegional circulation\n�\nLabour\n�\nOther\nSummary:\nObjectives\n�\nSupport foetal g",
+            "score": 0.2803024686265447,
+            "start": 0,
+            "end": 1298
           }
         ]
       },
@@ -310,20 +317,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13651425394654748,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.5125365198034149,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "? Fluid reserve in case of blood loss (no\n  evidence for this)\nPlasma proteins\n�\n↓[Albumin], ↔AAG\n�\n↓Oncotic pressure 14%\n�\nCause: progesterone -> volume expansion\n  -> dilution\n�\nImplication: ↑free %",
-            "score": 0.13651425394654748,
-            "start": 1347,
-            "end": 2716
+            "text": "Progesterone -> vasodilatation\n�\nImplication:\no\n? Fluid reserve in case of blood loss (no\n  evidence for this)\nPlasma proteins\n�\n↓[Albumin], ↔AAG\n�\n↓Oncotic pressure 14%\n�\nCause: progesterone -> volum",
+            "score": 0.5125365198034149,
+            "start": 1299,
+            "end": 2673
           },
           {
             "text": "2018B05 Describe\nthe maternal cardiovascular changes that occur during pregnancy.\nList:\n�\nSummary\n�\nHaemodynamics\n�\nBlood\n�\nRegional circulation\n�\nLabour\n�\nOther\nSummary:\nObjectives\n�\nSupport foetal g",
-            "score": 0.10500911959371668,
+            "score": 0.3169048470513748,
             "start": 0,
-            "end": 1346
+            "end": 1298
+          },
+          {
+            "text": "Risk of hypertensive emergency and seizure",
+            "score": 0.2022819500518595,
+            "start": 2674,
+            "end": 2716
           }
         ]
       },
@@ -386,24 +399,72 @@
             "end": 2716
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.678137927342183,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.27897201595542515,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "? Fluid reserve in case of blood loss (no\n  evidence for this)\nPlasma proteins\n�\n↓[Albumin], ↔AAG\n�\n↓Oncotic pressure 14%\n�\nCause: progesterone -> volume expansion\n  -> dilution\n�\nImplication: ↑free %",
-            "score": 0.678137927342183,
+            "score": 0.27897201595542515,
             "start": 1347,
             "end": 2716
           },
           {
             "text": "2018B05 Describe\nthe maternal cardiovascular changes that occur during pregnancy.\nList:\n�\nSummary\n�\nHaemodynamics\n�\nBlood\n�\nRegional circulation\n�\nLabour\n�\nOther\nSummary:\nObjectives\n�\nSupport foetal g",
-            "score": 0.6570096763178568,
+            "score": 0.2260732893915247,
             "start": 0,
             "end": 1346
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8157938246409508,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Progesterone -> vasodilatation\n�\nImplication:\no\n? Fluid reserve in case of blood loss (no\n  evidence for this)\nPlasma proteins\n�\n↓[Albumin], ↔AAG\n�\n↓Oncotic pressure 14%\n�\nCause: progesterone -> volum",
+            "score": 0.8157938246409508,
+            "start": 1299,
+            "end": 2671
+          },
+          {
+            "text": "2018B05 Describe\nthe maternal cardiovascular changes that occur during pregnancy.\nList:\n�\nSummary\n�\nHaemodynamics\n�\nBlood\n�\nRegional circulation\n�\nLabour\n�\nOther\nSummary:\nObjectives\n�\nSupport foetal g",
+            "score": 0.5339893155080379,
+            "start": 0,
+            "end": 1298
+          },
+          {
+            "text": "�\nRisk of hypertensive emergency and seizure",
+            "score": 0.299713016871073,
+            "start": 2672,
+            "end": 2716
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8185934252001217,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Progesterone -> vasodilatation\n�\nImplication:\no\n? Fluid reserve in case of blood loss (no\n  evidence for this)\nPlasma proteins\n�\n↓[Albumin], ↔AAG\n�\n↓Oncotic pressure 14%\n�\nCause: progesterone -> volum",
+            "score": 0.8185934252001217,
+            "start": 1299,
+            "end": 2673
+          },
+          {
+            "text": "2018B05 Describe\nthe maternal cardiovascular changes that occur during pregnancy.\nList:\n�\nSummary\n�\nHaemodynamics\n�\nBlood\n�\nRegional circulation\n�\nLabour\n�\nOther\nSummary:\nObjectives\n�\nSupport foetal g",
+            "score": 0.591470182003356,
+            "start": 0,
+            "end": 1298
+          },
+          {
+            "text": "Risk of hypertensive emergency and seizure",
+            "score": 0.3235219459138018,
+            "start": 2674,
+            "end": 2716
           }
         ]
       },

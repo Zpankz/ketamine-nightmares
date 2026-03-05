@@ -14,12 +14,13 @@
       ]
     },
     "content_dimensions": [
+      "clinical_measurement_process",
       "neuromuscular_process",
-      "autonomic_disposition",
-      "drug_receptor_disposition"
+      "autonomic_disposition"
     ],
     "explanatory_schema": [
-      "homeostatic_regulation"
+      "homeostatic_regulation",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -221,25 +222,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6425431835319538,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.41240232044252817,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Regulates inter-threshold range (range of core temp over which no\n  thermoregulatory response occurs; normally 36.8-37\n°\nC)\n·\nControls behavioural and autonomic effectors\nGeneral anaesthesia\n·\n↑Inter-",
-            "score": 0.6425431835319538,
+            "score": 0.41240232044252817,
             "start": 1593,
-            "end": 3112
+            "end": 3091
           },
           {
             "text": "2015A15 Compare\nand contrast the effects of general and neuraxial anaesthesia on\nthermoregulation.\nList:\n·\nIntro\n·\nOverall effect of anaesthesia\n·\nSensor\n·\nController\n·\nBehavioural effectors\n·\nAutonom",
-            "score": 0.2166840731768605,
+            "score": 0.2732434585109745,
             "start": 0,
             "end": 1592
           },
           {
-            "text": "Vasodilation\n·\n↑Skin blood flow and volume -> ↑skin temp\n  -> ↑gradient -> ↑radiation, conduction, convection\nSweating\n·\nEvaporation -> loss of latent heat\nGeneral anaesthesia\n·\nBoth impaired\nNeuraxia",
-            "score": 0.12452970475004799,
-            "start": 3113,
+            "text": "Effectors: heat\nloss\nVasodilation\n·\n↑Skin blood flow and volume -> ↑skin temp\n  -> ↑gradient -> ↑radiation, conduction, convection\nSweating\n·\nEvaporation -> loss of latent heat\nGeneral anaesthesia\n·\nB",
+            "score": 0.165803645501483,
+            "start": 3092,
             "end": 3360
           }
         ]
@@ -365,26 +366,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13072394818234856,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.5245300696966637,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "  -> ↑gradient -> ↑radiation, conduction, convection\nSweating\n·\nEvaporation -> loss of latent heat\nGeneral anaesthesia\n·\nBoth impaired\nNeuraxial anaesthesia\n·\nBoth impaired below block level",
-            "score": 0.13072394818234856,
-            "start": 3170,
-            "end": 3360
-          },
-          {
             "text": "2015A15 Compare\nand contrast the effects of general and neuraxial anaesthesia on\nthermoregulation.\nList:\n·\nIntro\n·\nOverall effect of anaesthesia\n·\nSensor\n·\nController\n·\nBehavioural effectors\n·\nAutonom",
-            "score": 0.07494026869750434,
+            "score": 0.5245300696966637,
             "start": 0,
-            "end": 1658
+            "end": 1592
           },
           {
-            "text": "  thermoregulatory response occurs; normally 36.8-37\n°\nC)\n·\nControls behavioural and autonomic effectors\nGeneral anaesthesia\n·\n↑Inter-threshold range from 36.8-37.0 (0.2\n°\nC) to 34.3 – 38.3 (4\n°\nC)\nNe",
-            "score": 0.07088101815552864,
-            "start": 1659,
-            "end": 3169
+            "text": "Regulates inter-threshold range (range of core temp over which no\n  thermoregulatory response occurs; normally 36.8-37\n°\nC)\n·\nControls behavioural and autonomic effectors\nGeneral anaesthesia\n·\n↑Inter-",
+            "score": 0.4184874988325645,
+            "start": 1593,
+            "end": 3091
+          },
+          {
+            "text": "Effectors: heat\nloss\nVasodilation\n·\n↑Skin blood flow and volume -> ↑skin temp\n  -> ↑gradient -> ↑radiation, conduction, convection\nSweating\n·\nEvaporation -> loss of latent heat\nGeneral anaesthesia\n·\nB",
+            "score": 0.23731085714042086,
+            "start": 3092,
+            "end": 3360
           }
         ]
       },
@@ -459,30 +460,78 @@
             "end": 1592
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.29241707730381167,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2632567278910027,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "  thermoregulatory response occurs; normally 36.8-37\n°\nC)\n·\nControls behavioural and autonomic effectors\nGeneral anaesthesia\n·\n↑Inter-threshold range from 36.8-37.0 (0.2\n°\nC) to 34.3 – 38.3 (4\n°\nC)\nNe",
-            "score": 0.29241707730381167,
+            "score": 0.2632567278910027,
             "start": 1659,
             "end": 3169
           },
           {
             "text": "  -> ↑gradient -> ↑radiation, conduction, convection\nSweating\n·\nEvaporation -> loss of latent heat\nGeneral anaesthesia\n·\nBoth impaired\nNeuraxial anaesthesia\n·\nBoth impaired below block level",
-            "score": 0.290606540070939,
+            "score": 0.225282248199159,
             "start": 3170,
             "end": 3360
           },
           {
             "text": "2015A15 Compare\nand contrast the effects of general and neuraxial anaesthesia on\nthermoregulation.\nList:\n·\nIntro\n·\nOverall effect of anaesthesia\n·\nSensor\n·\nController\n·\nBehavioural effectors\n·\nAutonom",
-            "score": 0.27149292917090906,
+            "score": 0.19203673272679375,
             "start": 0,
             "end": 1658
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.782154629312735,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Effectors: heat\nloss\nVasodilation\n·\n↑Skin blood flow and volume -> ↑skin temp\n  -> ↑gradient -> ↑radiation, conduction, convection\nSweating\n·\nEvaporation -> loss of latent heat\nGeneral anaesthesia\n·\nB",
+            "score": 0.782154629312735,
+            "start": 3092,
+            "end": 3360
+          },
+          {
+            "text": "Regulates inter-threshold range (range of core temp over which no\n  thermoregulatory response occurs; normally 36.8-37\n°\nC)\n·\nControls behavioural and autonomic effectors\nGeneral anaesthesia\n·\n↑Inter-",
+            "score": 0.7271947106359709,
+            "start": 1593,
+            "end": 3091
+          },
+          {
+            "text": "2015A15 Compare\nand contrast the effects of general and neuraxial anaesthesia on\nthermoregulation.\nList:\n·\nIntro\n·\nOverall effect of anaesthesia\n·\nSensor\n·\nController\n·\nBehavioural effectors\n·\nAutonom",
+            "score": 0.7236793780837079,
+            "start": 0,
+            "end": 1592
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6469809146517369,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Regulates inter-threshold range (range of core temp over which no\n  thermoregulatory response occurs; normally 36.8-37\n°\nC)\n·\nControls behavioural and autonomic effectors\nGeneral anaesthesia\n·\n↑Inter-",
+            "score": 0.6469809146517369,
+            "start": 1593,
+            "end": 3091
+          },
+          {
+            "text": "Effectors: heat\nloss\nVasodilation\n·\n↑Skin blood flow and volume -> ↑skin temp\n  -> ↑gradient -> ↑radiation, conduction, convection\nSweating\n·\nEvaporation -> loss of latent heat\nGeneral anaesthesia\n·\nB",
+            "score": 0.4905139772447111,
+            "start": 3092,
+            "end": 3360
+          },
+          {
+            "text": "2015A15 Compare\nand contrast the effects of general and neuraxial anaesthesia on\nthermoregulation.\nList:\n·\nIntro\n·\nOverall effect of anaesthesia\n·\nSensor\n·\nController\n·\nBehavioural effectors\n·\nAutonom",
+            "score": 0.4638635285336011,
+            "start": 0,
+            "end": 1592
           }
         ]
       },

@@ -16,6 +16,7 @@
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -170,20 +171,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.41136874226725056,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.37691678954269536,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↓Excretion of large and/or lipophilic drugs and metabolites ->\n  ↑toxicity\n·\ne.g. vecuronium -> prolonged paralysis\nUrine\nHepatorenal syndrome\n·\n↓Excretion of small and/or hydrophilic drugs and metabo",
-            "score": 0.41136874226725056,
-            "start": 1450,
+            "text": "↓Production\n·\n↓Excretion of large and/or lipophilic drugs and metabolites ->\n  ↑toxicity\n·\ne.g. vecuronium -> prolonged paralysis\nUrine\nHepatorenal syndrome\n·\n↓Excretion of small and/or hydrophilic dr",
+            "score": 0.37691678954269536,
+            "start": 1436,
             "end": 2146
           },
           {
             "text": "2011A03 Outline\nthe effects of liver failure on drug kinetics and dynamics.\nList:\n·\nLiver failure\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\nDynamics\nLiver failure:\nDefinition\nFailure of t",
-            "score": 0.23771779517095493,
+            "score": 0.3442072892544602,
             "start": 0,
-            "end": 1449
+            "end": 1435
           }
         ]
       },
@@ -278,20 +279,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08833573667416476,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.3885549653159038,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "2011A03 Outline\nthe effects of liver failure on drug kinetics and dynamics.\nList:\n·\nLiver failure\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\nDynamics\nLiver failure:\nDefinition\nFailure of t",
-            "score": 0.08833573667416476,
-            "start": 0,
-            "end": 1449
+            "text": "↓Production\n·\n↓Excretion of large and/or lipophilic drugs and metabolites ->\n  ↑toxicity\n·\ne.g. vecuronium -> prolonged paralysis\nUrine\nHepatorenal syndrome\n·\n↓Excretion of small and/or hydrophilic dr",
+            "score": 0.3885549653159038,
+            "start": 1436,
+            "end": 2146
           },
           {
-            "text": "↓Excretion of large and/or lipophilic drugs and metabolites ->\n  ↑toxicity\n·\ne.g. vecuronium -> prolonged paralysis\nUrine\nHepatorenal syndrome\n·\n↓Excretion of small and/or hydrophilic drugs and metabo",
-            "score": 0.0874334962984957,
-            "start": 1450,
-            "end": 2146
+            "text": "2011A03 Outline\nthe effects of liver failure on drug kinetics and dynamics.\nList:\n·\nLiver failure\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\nDynamics\nLiver failure:\nDefinition\nFailure of t",
+            "score": 0.15166364739002158,
+            "start": 0,
+            "end": 1435
           }
         ]
       },
@@ -348,24 +349,60 @@
             "end": 1449
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.1934812122960498,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↓Excretion of large and/or lipophilic drugs and metabolites ->\n  ↑toxicity\n·\ne.g. vecuronium -> prolonged paralysis\nUrine\nHepatorenal syndrome\n·\n↓Excretion of small and/or hydrophilic drugs and metabo",
+            "score": 0.1934812122960498,
+            "start": 1450,
+            "end": 2146
+          },
+          {
+            "text": "2011A03 Outline\nthe effects of liver failure on drug kinetics and dynamics.\nList:\n·\nLiver failure\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\nDynamics\nLiver failure:\nDefinition\nFailure of t",
+            "score": 0.19131688553747267,
+            "start": 0,
+            "end": 1449
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.23005185046589166,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↓Production\n·\n↓Excretion of large and/or lipophilic drugs and metabolites ->\n  ↑toxicity\n·\ne.g. vecuronium -> prolonged paralysis\nUrine\nHepatorenal syndrome\n·\n↓Excretion of small and/or hydrophilic dr",
+            "score": 0.23005185046589166,
+            "start": 1436,
+            "end": 2146
+          },
+          {
+            "text": "2011A03 Outline\nthe effects of liver failure on drug kinetics and dynamics.\nList:\n·\nLiver failure\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\nDynamics\nLiver failure:\nDefinition\nFailure of t",
+            "score": 0.10301730154669217,
+            "start": 0,
+            "end": 1435
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.27149292917090906,
+        "score": 0.7671400683432694,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2011A03 Outline\nthe effects of liver failure on drug kinetics and dynamics.\nList:\n·\nLiver failure\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\nDynamics\nLiver failure:\nDefinition\nFailure of t",
-            "score": 0.27149292917090906,
-            "start": 0,
-            "end": 1449
+            "text": "↓Production\n·\n↓Excretion of large and/or lipophilic drugs and metabolites ->\n  ↑toxicity\n·\ne.g. vecuronium -> prolonged paralysis\nUrine\nHepatorenal syndrome\n·\n↓Excretion of small and/or hydrophilic dr",
+            "score": 0.7671400683432694,
+            "start": 1436,
+            "end": 2146
           },
           {
-            "text": "↓Excretion of large and/or lipophilic drugs and metabolites ->\n  ↑toxicity\n·\ne.g. vecuronium -> prolonged paralysis\nUrine\nHepatorenal syndrome\n·\n↓Excretion of small and/or hydrophilic drugs and metabo",
-            "score": 0.19203673272679375,
-            "start": 1450,
-            "end": 2146
+            "text": "2011A03 Outline\nthe effects of liver failure on drug kinetics and dynamics.\nList:\n·\nLiver failure\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\nDynamics\nLiver failure:\nDefinition\nFailure of t",
+            "score": 0.6258491725725703,
+            "start": 0,
+            "end": 1435
           }
         ]
       },

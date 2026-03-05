@@ -13,9 +13,11 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition"
+      "clinical_measurement_process"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -120,12 +122,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7152399688596441,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.53872805932351,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A04 Compare and contrast the effects of sevoflurane and nitrous oxide\non the cardiovascular system.\nComparison:\nSevoflurane\nNitrous\n  oxide\nSummary:\nDose-dependent\n  depression\nMinimal overall\n  e",
-            "score": 0.7152399688596441,
+            "score": 0.53872805932351,
             "start": 0,
             "end": 1166
           }
@@ -192,12 +194,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08833573667416476,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.44151418512850304,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A04 Compare and contrast the effects of sevoflurane and nitrous oxide\non the cardiovascular system.\nComparison:\nSevoflurane\nNitrous\n  oxide\nSummary:\nDose-dependent\n  depression\nMinimal overall\n  e",
-            "score": 0.08833573667416476,
+            "score": 0.44151418512850304,
             "start": 0,
             "end": 1166
           }
@@ -238,16 +240,40 @@
             "end": 1166
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.13015328625585776,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2020A04 Compare and contrast the effects of sevoflurane and nitrous oxide\non the cardiovascular system.\nComparison:\nSevoflurane\nNitrous\n  oxide\nSummary:\nDose-dependent\n  depression\nMinimal overall\n  e",
+            "score": 0.13015328625585776,
+            "start": 0,
+            "end": 1166
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.6611344628129981,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2020A04 Compare and contrast the effects of sevoflurane and nitrous oxide\non the cardiovascular system.\nComparison:\nSevoflurane\nNitrous\n  oxide\nSummary:\nDose-dependent\n  depression\nMinimal overall\n  e",
+            "score": 0.6611344628129981,
+            "start": 0,
+            "end": 1166
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.22370484839267127,
+        "score": 0.7958557203211967,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2020A04 Compare and contrast the effects of sevoflurane and nitrous oxide\non the cardiovascular system.\nComparison:\nSevoflurane\nNitrous\n  oxide\nSummary:\nDose-dependent\n  depression\nMinimal overall\n  e",
-            "score": 0.22370484839267127,
+            "score": 0.7958557203211967,
             "start": 0,
             "end": 1166
           }

@@ -9,7 +9,9 @@
       "primary": "foundational_science",
       "score": 0.38120466141920795
     },
-    "content_dimensions": [],
+    "content_dimensions": [
+      "anatomy_structure"
+    ],
     "explanatory_schema": [
       "structure_function_link"
     ]
@@ -117,12 +119,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.1485560880659056,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.21360460483229088,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2013A08 Draw a diagramme of the larynx, as\nit would be seen at direct laryngoscopy. Label the important\nanatomical structures.\nList:\n1.\nTrachea and rings\n2.\nTrue vocal folds (glottis)\n3.\nFalse vocal f",
-            "score": 0.1485560880659056,
+            "score": 0.21360460483229088,
             "start": 0,
             "end": 508
           }
@@ -189,12 +191,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.15481035196343076,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.1752007806948695,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2013A08 Draw a diagramme of the larynx, as\nit would be seen at direct laryngoscopy. Label the important\nanatomical structures.\nList:\n1.\nTrachea and rings\n2.\nTrue vocal folds (glottis)\n3.\nFalse vocal f",
-            "score": 0.15481035196343076,
+            "score": 0.1752007806948695,
             "start": 0,
             "end": 508
           }
@@ -235,16 +237,40 @@
             "end": 508
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.8185934252001217,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2013A08 Draw a diagramme of the larynx, as\nit would be seen at direct laryngoscopy. Label the important\nanatomical structures.\nList:\n1.\nTrachea and rings\n2.\nTrue vocal folds (glottis)\n3.\nFalse vocal f",
+            "score": 0.8185934252001217,
+            "start": 0,
+            "end": 508
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.12232229789744709,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2013A08 Draw a diagramme of the larynx, as\nit would be seen at direct laryngoscopy. Label the important\nanatomical structures.\nList:\n1.\nTrachea and rings\n2.\nTrue vocal folds (glottis)\n3.\nFalse vocal f",
+            "score": 0.12232229789744709,
+            "start": 0,
+            "end": 508
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.10906114075009045,
+        "score": 0.15481035196343076,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2013A08 Draw a diagramme of the larynx, as\nit would be seen at direct laryngoscopy. Label the important\nanatomical structures.\nList:\n1.\nTrachea and rings\n2.\nTrue vocal folds (glottis)\n3.\nFalse vocal f",
-            "score": 0.10906114075009045,
+            "score": 0.15481035196343076,
             "start": 0,
             "end": 508
           }

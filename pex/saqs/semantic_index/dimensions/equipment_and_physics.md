@@ -2,7 +2,7 @@
 
 **BFO Category:** bfo:material_entity
 **Documents:** 142
-**Avg Difficulty:** 3.2/4 (Very Hard)
+**Avg Difficulty:** 3.4/4 (Very Hard)
 **Avg Yield:** 0.8/4 (Low)
 
 ## Cognitive Domain Distribution
@@ -16,7 +16,7 @@
 ## Documents (by exam yield)
 
 - **physiology/cardiovascular/2020B05_myocardial_oxygen_supply_and_demand_left_ventricle.htm**
-  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 1.3 (Medium)
+  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 1.3 (Medium)
   - Q: What equations or mathematical relationships are described?
     A: Oxygen delivery
 = LMCA flow rate x CaO
@@ -30,34 +30,34 @@ consumption: MVO
 9.8mL/min/100g
   - Fact: Aortic stenosis
 - **physiology/cardiovascular/2021A04_afterload_lv_vs_rv.htm**
-  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 1.2 (Medium)
+  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 1.2 (Medium)
   - Q: What equations or mathematical relationships are described?
     A: Global tension = (pressure x radius)/2
   - Fact: SVR is high
 - **other/equipment/2020B13_arterial_line.htm**
-  applied_clinical | schemas: structure_function_link | difficulty: 2.8 (Hard) | yield: 1.2 (Medium)
+  applied_clinical | schemas: structure_function_link | difficulty: 3.0 (Hard) | yield: 1.2 (Medium)
   - Q: What are the sources of error or inaccuracy?
     A: Static
   - Fact: Tubing
 - **pharmacology/inhalational_anaesthetics/2019A10_sevoflurane_regional_circulation_effects.htm**
-  comparative_analysis | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.2 (Medium)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, dose_response_relationship, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.2 (Medium)
   - Q: What graphs or curves are discussed and what do they show?
     A: CBF vs mAP curve
   - Q: What are the cardiovascular effects?
     A: (dose-dependent)
 - **pharmacology/analgesics/2021A10_nsaids.htm**
-  applied_clinical | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.5 (Very Hard) | yield: 1.2 (Medium)
+  applied_clinical | schemas: mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.2 (Medium)
   - Q: What are the clinical indications and contraindications?
     A: Bronchoconstriction
   - Fact: Nociceptive receptor activation and
   expression
 - **pharmacology/intravenous_anaesthetics/2021B04_dexmedetomidine.htm**
-  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 1.2 (Medium)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 1.2 (Medium)
   - Q: What are the respiratory effects?
     A: Airway
 and breathing unaffected
 - **physiology/cardiovascular/2020B01_haemorrhagic_shock_and_anaesthesia.htm**
-  mechanistic_explanation | schemas: homeostatic_regulation, structure_function_link, dose_response_relationship | difficulty: 3.4 (Very Hard) | yield: 1.2 (Medium)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, homeostatic_regulation, structure_function_link, dose_response_relationship | difficulty: 3.4 (Very Hard) | yield: 1.2 (Medium)
   - Q: What graphs or curves are discussed and what do they show?
     A: VR = (MSFP – RAP) / RVR
   - Fact: Stretch-activated mechanoreceptors on C fibre
@@ -78,26 +78,26 @@ T
   - Fact: Pressure gradient
   - Fact: Vapouriser chamber producing
 - **pharmacology/analgesics/2018A05_opioids_therapeutic_and_adverse_effects.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 3.2 (Very Hard) | yield: 1.2 (Medium)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.6 (Very Hard) | yield: 1.2 (Medium)
   - Q: What are the cardiovascular effects?
     A: Urinary retention
   - Q: What are the central nervous system effects?
     A: Supraspinal analgesia
 - **physiology/obstetrics/2019A03_pregnancy_respiratory_effects.htm**
-  quantitative_reasoning | schemas: homeostatic_regulation, dose_response_relationship, mechanism_effect_relevance, structure_function_link | difficulty: 3.8 (Very Hard) | yield: 1.1 (Medium)
+  quantitative_reasoning | schemas: homeostatic_regulation, dose_response_relationship, structure_function_link | difficulty: 4.0 (Very Hard) | yield: 1.1 (Medium)
   - Q: What graphs or curves are discussed and what do they show?
     A: Oxyhaemoglobin dissociation curve
   - Fact: Increased metabolic rate
   - Fact: Mass effect (ME) of gravid uterus
 - **pharmacology/inhalational_anaesthetics/2017B05_inhalational_anaesthetics_rate_of_onset.htm**
-  comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: dose_response_relationship, mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
   - Q: What are the cardiovascular effects?
     A: Cardiac output
   - Q: What are the important drug interactions?
     A: Acute depressants: propofol, barbiturates,
 benzodiazepines, opioids, local anaesthetics
 - **pharmacology/intravenous_anaesthetics/2017B14_propofol_non_cns_effects.htm**
-  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 1.1 (Medium)
   - Q: What are the cardiovascular effects?
     A: Mechanisms
   - Q: What are the respiratory effects?
@@ -109,7 +109,7 @@ benzodiazepines, opioids, local anaesthetics
     A: Multi-exponential decay curve
   - Fact: Continuous infusion with q10 second rate
 - **pharmacology/local_anaesthetics/2017A12_total_spinal_anaesthesia.htm**
-  comparative_analysis | schemas: structure_function_link, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
   - Q: What are the cardiovascular effects?
     A: Lumbar and low thoracic level
   - Q: What are the respiratory effects?
@@ -117,12 +117,12 @@ benzodiazepines, opioids, local anaesthetics
   - Fact: 20mg/mL x 20mL = 400mg
   - Fact: Blockade
 - **pharmacology/miscellaneous_drugs/2019B10_effects_of_csl_infusion.htm**
-  comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: dose_response_relationship, mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
   - Q: What are the cardiovascular effects?
     A: Direct effects
   - Fact: Significant initial plasma expansion
 - **other/clinical_measurement/2021B05_pa_catheter_insertion.htm**
-  comparative_analysis | schemas: none | difficulty: 2.4 (Medium) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 1.1 (Medium)
   - Fact: descent
 - **other/equipment/2021B13_oxygen_safety.htm**
   factual_recall | schemas: none | difficulty: 1.8 (Medium) | yield: 1.1 (Medium)
@@ -132,35 +132,35 @@ and N
 2
 O flowmeters
 - **pharmacology/analgesics/2021B09_morphine_vs_fentanyl_pca.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 3.0 (Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
 - **physiology/acid_base/2021A14_metabolic_acidosis_physiological_response.htm**
-  comparative_analysis | schemas: homeostatic_regulation, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: homeostatic_regulation, structure_function_link, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
 - **physiology/cardiovascular/2021B01_ippv_cardiac_output.htm**
   comparative_analysis | schemas: homeostatic_regulation | difficulty: 3.3 (Very Hard) | yield: 1.1 (Medium)
 - **physiology/neurophysiology/2021B07_cerebral_blood_flow_regulation.htm**
   comparative_analysis | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
   - Fact: Interruption to flow
 - **physiology/respiratory/2021A15_response_to_hypoxaemia_awake_and_anaesthetised.htm**
-  comparative_analysis | schemas: structure_function_link, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
   - Fact: Hypoxic pulmonary vasoconstriction
 - **physiology/respiratory/2021B10_etco2_vs_paco2.htm**
-  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, dose_response_relationship, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance, dose_response_relationship, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
 - **physiology/respiratory/2021B11_hypercapnoea.htm**
   mechanistic_explanation | schemas: mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.3 (Very Hard) | yield: 1.1 (Medium)
   - Fact: Catecholamines
   - Fact: Acidosis -> negative inotropy
 - **physiology/thermoregulation/2021B12_hypothermia.htm**
-  mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 1.1 (Medium)
+  mechanistic_explanation | schemas: structure_function_link, mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 1.1 (Medium)
   - Fact: Drug metabolism
 - **other/clinical_measurement/2020B06_capnograph.htm**
-  applied_clinical | schemas: homeostatic_regulation, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  applied_clinical | schemas: homeostatic_regulation, structure_function_link, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
   - Fact: Transition from anatomical dead space to alveolar gas
 - **other/equipment/2020A12_bag_valve_mask.htm**
   applied_clinical | schemas: none | difficulty: 2.2 (Medium) | yield: 1.1 (Medium)
 - **pharmacology/miscellaneous_drugs/2020B12_mannitol.htm**
-  quantitative_reasoning | schemas: homeostatic_regulation | difficulty: 3.6 (Very Hard) | yield: 1.1 (Medium)
+  quantitative_reasoning | schemas: homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 1.1 (Medium)
 - **pharmacology/muscle_relaxants/2016A04_non_depolarising_relaxants_adverse_effects.htm**
-  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
   - Q: What are the cardiovascular effects?
     A: Cardiac mAChR effects
   - Q: What are the adverse effects and toxicity concerns?
@@ -169,82 +169,82 @@ O flowmeters
   - Fact: Risk: distress, type 2 resp failure,
   aspiration
 - **pharmacology/muscle_relaxants/2018B04_suxamethonium_vs_rocuronium.htm**
-  comparative_analysis | schemas: dose_response_relationship | difficulty: 2.6 (Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: mechanism_effect_relevance, dose_response_relationship | difficulty: 3.0 (Hard) | yield: 1.1 (Medium)
   - Q: What is the mechanism of action of this drug?
     A: -Action at junctional nAChR
 - **physiology/ageing/2020A15_ageing_respiratory_effects.htm**
-  comparative_analysis | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
+  comparative_analysis | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
   - Fact: Poor tolerance of stress
 - **physiology/cardiovascular/2020A08_cardiac_output_coupling.htm**
   applied_clinical | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.1 (Medium)
 - **physiology/renal/2020B04_urine_concentration_and_dilution.htm**
-  mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 3.4 (Very Hard) | yield: 1.1 (Medium)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 1.1 (Medium)
   - Fact: Iso-osmolar absorption of the majority
   - Fact: Variable concentration of the remainder
 - **pharmacology/inhalational_anaesthetics/2015A07_sevoflurane_effects_on_muscle.htm**
-  mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 1.0 (Medium)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 1.0 (Medium)
   - Q: What is the mechanism of action of this drug?
     A: Risk torsades de pointes
   - Q: What are the cardiovascular effects?
     A: Contractility
   - Fact: activity at GABA-A and glycine receptors
 - **other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm**
-  factual_recall | schemas: structure_function_link | difficulty: 1.9 (Medium) | yield: 1.0 (Medium)
+  factual_recall | schemas: structure_function_link | difficulty: 2.2 (Medium) | yield: 1.0 (Medium)
   - Fact: Confluence of R sigmoid sinus + R inferior petrosal
 - **pharmacology/local_anaesthetics/2019B09_local_anaesthetics_rate_of_onset_and_offset.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 3.3 (Very Hard) | yield: 1.0 (Medium)
+  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 1.0 (Medium)
   - Fact: Connective
 - **physiology/acid_base/2019A07_metabolic_acidosis_in_hypovolaemic_shock.htm**
-  quantitative_reasoning | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 1.0 (Medium)
+  quantitative_reasoning | schemas: mechanism_effect_relevance, dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 1.0 (Medium)
 - **physiology/ageing/2019A02_ageing_cardiovascular_effects.htm**
-  mechanistic_explanation | schemas: structure_function_link | difficulty: 2.8 (Hard) | yield: 1.0 (Medium)
+  mechanistic_explanation | schemas: structure_function_link | difficulty: 3.0 (Hard) | yield: 1.0 (Medium)
   - Fact: Ageing
 - **physiology/cardiovascular/2019B08_neuraxial_blockade_cardiovascular_effects.htm**
-  mechanistic_explanation | schemas: homeostatic_regulation, mechanism_effect_relevance | difficulty: 3.4 (Very Hard) | yield: 1.0 (Medium)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 1.0 (Medium)
   - Fact: depth of block
 - **physiology/cardiovascular/2019B11_pneumoperitoneum_cardiovascular_effects.htm**
-  quantitative_reasoning | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 1.0 (Medium)
+  quantitative_reasoning | schemas: dose_response_relationship, mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 1.0 (Medium)
   - Fact: Respiratory
 - **other/equipment/2012A10_pneumotachographs.htm**
-  quantitative_reasoning | schemas: none | difficulty: 2.5 (Medium) | yield: 1.0 (Low)
+  quantitative_reasoning | schemas: none | difficulty: 2.7 (Hard) | yield: 1.0 (Low)
   - Q: What equations or mathematical relationships are described?
     A: Ohm’s law
   - Q: What are the sources of error or inaccuracy?
     A: Extremes of flow rate
   - Fact: Flow
 - **other/equipment/2018A04_co2_absorbents_hazards.htm**
-  applied_clinical | schemas: none | difficulty: 2.4 (Medium) | yield: 1.0 (Low)
+  applied_clinical | schemas: none | difficulty: 2.6 (Hard) | yield: 1.0 (Low)
 - **pharmacology/cardiovascular_drugs/2016A08_treatment_of_hypertension_in_pregnancy.htm**
-  comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
   - Q: What is the mechanism of action of this drug?
     A: -Mechanism of action (MoA)
 - **pharmacology/intravenous_anaesthetics/2018A07_intravenous_induction_dosing_in_youth_old_age_and_shock.htm**
-  applied_clinical | schemas: dose_response_relationship, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
+  applied_clinical | schemas: dose_response_relationship, mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
 - **physiology/cardiovascular/2018B09_autonomic_innervation_of_the_heart.htm**
-  comparative_analysis | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
 - **physiology/cellular/2018B15_prostaglandins_effects_on_smooth_muscle.htm**
-  mechanistic_explanation | schemas: none | difficulty: 2.4 (Medium) | yield: 1.0 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance | difficulty: 2.8 (Hard) | yield: 1.0 (Low)
   - Fact: muscle constriction
 - **physiology/metabolism_and_endocrinology/2018B12_glucose_homeostasis.htm**
-  comparative_analysis | schemas: homeostatic_regulation, dose_response_relationship, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, homeostatic_regulation, dose_response_relationship, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
   - Fact: control of blood glucose level necessary
 - **physiology/obesity/2018A02_obesity_cardiovascular_effects.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 3.3 (Very Hard) | yield: 1.0 (Low)
+  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
   - Fact: Decreased reserve
   - Fact: increase in heart rate
 - **physiology/obstetrics/2018B05_pregnancy_cardiovascular_effects.htm**
   applied_clinical | schemas: mechanism_effect_relevance, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 1.0 (Low)
 - **physiology/renal/2018A09_determinants_of_renal_blood_flow.htm**
-  mechanistic_explanation | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 1.0 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 1.0 (Low)
 - **physiology/renal/2018B08_functions_of_the_kidney.htm**
-  quantitative_reasoning | schemas: homeostatic_regulation | difficulty: 3.6 (Very Hard) | yield: 1.0 (Low)
+  quantitative_reasoning | schemas: homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 1.0 (Low)
   - Fact: glomerular filtration water (180L/day) and electrolytes
 - **physiology/thermoregulation/2018A14_mechanisms_of_heat_transfer.htm**
-  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.8 (Very Hard) | yield: 1.0 (Low)
+  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 1.0 (Low)
   - Fact: Vasoconstriction -> ↓skin temp
   - Fact: Increase gain
 - **physiology/renal/2013B05_renal_regulation_of_total_body_water.htm**
-  mechanistic_explanation | schemas: none | difficulty: 2.4 (Medium) | yield: 0.9 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance | difficulty: 2.5 (Hard) | yield: 0.9 (Low)
   - Q: What is the normal physiological mechanism described here?
     A: Normal 125mL/min (25% of renal plasma flow)
   - Q: What are the normal values and how are they measured?
@@ -258,18 +258,18 @@ O flowmeters
     A: Right shift oxyhaemoglobin dissociation curve
   - Fact: Often monitored during and after cardiac surgery
 - **physiology/respiratory/2015B03_thoracic_anaesthesia.htm**
-  quantitative_reasoning | schemas: homeostatic_regulation | difficulty: 3.1 (Hard) | yield: 0.9 (Low)
+  quantitative_reasoning | schemas: homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 0.9 (Low)
   - Q: What graphs or curves are discussed and what do they show?
     A: Awake and spont vent
 - **other/equipment/2017A02_oxygen_delivery_devices.htm**
-  comparative_analysis | schemas: none | difficulty: 2.4 (Medium) | yield: 0.9 (Low)
+  comparative_analysis | schemas: none | difficulty: 2.6 (Hard) | yield: 0.9 (Low)
   - Fact: Drying and epistaxis at high flow rate or
   prolonged use
   - Fact: Peak inspiratory flow rate
 - **other/equipment/2017B02_variable_bypass_vapouriser_function_and_accuracy.htm**
   quantitative_reasoning | schemas: homeostatic_regulation | difficulty: 2.9 (Hard) | yield: 0.9 (Low)
 - **physiology/obesity/2017B06_obesity_respiratory_effects.htm**
-  quantitative_reasoning | schemas: dose_response_relationship, structure_function_link | difficulty: 4.0 (Very Hard) | yield: 0.9 (Low)
+  quantitative_reasoning | schemas: dose_response_relationship, structure_function_link, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 0.9 (Low)
   - Fact: Mass effect (ME)
 - **physiology/respiratory/2012B12_causes_of_post_op_hypoxaemia.htm**
   applied_clinical | schemas: mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.9 (Low)
@@ -279,13 +279,13 @@ O flowmeters
     A: VQ scatter with gravity
   - Fact: Diffusion hypoxia
 - **physiology/respiratory/2014A04_rapid_sequence_induction_prevention_of_hypoxaemia.htm**
-  applied_clinical | schemas: dose_response_relationship, homeostatic_regulation | difficulty: 3.5 (Very Hard) | yield: 0.9 (Low)
+  applied_clinical | schemas: dose_response_relationship, mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.9 (Low)
   - Q: What equations or mathematical relationships are described?
     A: Alveolar gas equation
   - Fact: Apnoea between loss of consciousness and
 intubation
 - **pharmacology/inhalational_anaesthetics/2014B03_malignant_hyperthermia.htm**
-  applied_clinical | schemas: none | difficulty: 2.9 (Hard) | yield: 0.9 (Low)
+  applied_clinical | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 0.9 (Low)
   - Q: What are the clinical indications and contraindications?
     A: Rhabdomyolysis
   - Fact: Rare, life-threatening hypermetabolic reaction
@@ -296,46 +296,46 @@ intubation
 - **other/equipment/2016B08_vacuum_insulated_evaporator.htm**
   quantitative_reasoning | schemas: none | difficulty: 2.6 (Hard) | yield: 0.9 (Low)
 - **pharmacology/muscle_relaxants/2016B10_reversal_neostigmine.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 3.3 (Very Hard) | yield: 0.9 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.9 (Low)
 - **physiology/neurophysiology/2016B06_determinants_of_spinal_cord_blood_flow.htm**
-  comparative_analysis | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.9 (Low)
+  comparative_analysis | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 0.9 (Low)
 - **pharmacology/intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm**
-  mechanistic_explanation | schemas: structure_function_link | difficulty: 3.0 (Hard) | yield: 0.8 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.4 (Very Hard) | yield: 0.8 (Low)
   - Q: What are the cardiovascular effects?
     A: Mechanisms
   - Q: What are the respiratory effects?
     A: Respiratory depression: mechanism
   - Fact: placental transfer
 - **other/equipment/2015B13_fuel_cell_and_paramagnetic_oxygen_analyser.htm**
-  applied_clinical | schemas: none | difficulty: 2.1 (Medium) | yield: 0.8 (Low)
+  applied_clinical | schemas: none | difficulty: 2.3 (Medium) | yield: 0.8 (Low)
   - Fact: Paramagnetic
 - **pharmacology/analgesics/2013B12_alfentanil_vs_fentanyl.htm**
   comparative_analysis | schemas: dose_response_relationship | difficulty: 2.4 (Medium) | yield: 0.8 (Low)
   - Q: What graphs or curves are discussed and what do they show?
     A: Difference
 - **physiology/cardiovascular/2015A06_baroreceptors.htm**
-  applied_clinical | schemas: homeostatic_regulation, structure_function_link, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
+  applied_clinical | schemas: homeostatic_regulation, structure_function_link, mechanism_effect_relevance, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
   - Fact: Mechanoreceptor on C fibre general visceral
 - **physiology/cardiovascular/2015A14_venous_return_and_effect_of_general_anaesthesia.htm**
-  quantitative_reasoning | schemas: structure_function_link | difficulty: 2.9 (Hard) | yield: 0.8 (Low)
+  quantitative_reasoning | schemas: structure_function_link | difficulty: 3.1 (Hard) | yield: 0.8 (Low)
 - **physiology/cardiovascular/2015B09_systemic_circulation_vs_pulmonary_circulation.htm**
   quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship | difficulty: 4.0 (Very Hard) | yield: 0.8 (Low)
 - **physiology/gastrointestinal/2015B12_lower_oesophageal_sphincter.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 3.3 (Very Hard) | yield: 0.8 (Low)
+  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
   - Fact: Normal pressures
 - **physiology/neurophysiology/2015B10_cns_effects_of_hypocapnoea.htm**
   quantitative_reasoning | schemas: none | difficulty: 3.0 (Hard) | yield: 0.8 (Low)
   - Fact: Alveolar ventilation equation
   - Fact: Voluntary hyperventilation
 - **physiology/obesity/2015B05_obesity_effect_on_rate_of_offset_of_inhalational_anaesthetics.htm**
-  comparative_analysis | schemas: structure_function_link, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
+  comparative_analysis | schemas: structure_function_link, dose_response_relationship, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
   - Fact: Fat mass
 - **physiology/respiratory/2015A02_carbon_dioxide_homeostasis.htm**
-  quantitative_reasoning | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 0.8 (Low)
+  quantitative_reasoning | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 0.8 (Low)
 - **physiology/respiratory/2015A09_functional_residual_capacity.htm**
-  applied_clinical | schemas: homeostatic_regulation, structure_function_link | difficulty: 3.5 (Very Hard) | yield: 0.8 (Low)
+  applied_clinical | schemas: homeostatic_regulation, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
 - **pharmacology/inhalational_anaesthetics/2010A03_desflurane_adverse_effects.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 3.3 (Very Hard) | yield: 0.8 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
   - Q: What are the cardiovascular effects?
     A: Venodilation
   - Q: What are the respiratory effects?
@@ -348,24 +348,24 @@ intubation
   applied_clinical | schemas: none | difficulty: 2.4 (Medium) | yield: 0.8 (Low)
   - Fact: anaesthetic circuit
 - **pharmacology/intravenous_anaesthetics/2012A07_ketamine_tiva.htm**
-  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 0.8 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 0.8 (Low)
   - Q: What are the cardiovascular effects?
     A: Direct effects
   - Fact: Anaesthetic
 - **pharmacology/intravenous_anaesthetics/2012B02_propofol_vs_sevoflurane_kinetics_cvs_and_cns_effects.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 2.7 (Hard) | yield: 0.8 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.1 (Hard) | yield: 0.8 (Low)
   - Q: What are the cardiovascular effects?
     A: Cardiac output
 - **pharmacology/miscellaneous_drugs/2014A06_bronchodilators.htm**
-  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 0.8 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 0.8 (Low)
   - Fact: Obstruction in expiration
 - **pharmacology/miscellaneous_drugs/2014A13_normal_saline_vs_4pc_albumin.htm**
   comparative_analysis | schemas: none | difficulty: 1.7 (Medium) | yield: 0.8 (Low)
 - **physiology/special_physiology/2014B15_sleep_physiology.htm**
-  comparative_analysis | schemas: homeostatic_regulation | difficulty: 3.3 (Very Hard) | yield: 0.8 (Low)
+  comparative_analysis | schemas: homeostatic_regulation, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
   - Fact: cognitive impairment
 - **physiology/neurophysiology/2009A09_determinants_of_intracranial_pressure.htm**
-  comparative_analysis | schemas: homeostatic_regulation, dose_response_relationship, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
+  comparative_analysis | schemas: homeostatic_regulation, dose_response_relationship, structure_function_link, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 0.8 (Low)
   - Q: What is the normal physiological mechanism described here?
     A: 5-10mmg in the supine position
   - Q: What are the normal values and how are they measured?
@@ -373,67 +373,67 @@ intubation
   the external auditory meatus
   - Fact: Venous blood -> circulation
 - **other/clinical_measurement/2010A15_cardiac_output_monitoring_thermodilution.htm**
-  quantitative_reasoning | schemas: none | difficulty: 2.5 (Medium) | yield: 0.7 (Low)
+  quantitative_reasoning | schemas: none | difficulty: 2.7 (Hard) | yield: 0.7 (Low)
   - Q: What are the sources of error or inaccuracy?
     A: Operator error
 - **other/physics/2010B11_ultrasonography_physical_principles.htm**
-  quantitative_reasoning | schemas: none | difficulty: 2.5 (Medium) | yield: 0.7 (Low)
+  quantitative_reasoning | schemas: none | difficulty: 2.7 (Hard) | yield: 0.7 (Low)
   - Q: What equations or mathematical relationships are described?
     A: Speed = distance/time
   - Fact: Matching layer
   - Fact: Damping block
 - **pharmacology/analgesics/2011A06_remifentanil.htm**
-  applied_clinical | schemas: none | difficulty: 2.9 (Hard) | yield: 0.7 (Low)
+  applied_clinical | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 0.7 (Low)
   - Q: What are the respiratory effects?
     A: Respiratory centre depression
   - Fact: Rapid effect site equilibration
 - **physiology/neonatology/2013A11_neonate_respiratory_physiology.htm**
-  comparative_analysis | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.7 (Low)
+  comparative_analysis | schemas: dose_response_relationship, structure_function_link, mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.7 (Low)
 - **physiology/neurophysiology/2013B04_blood_brain_barrier.htm**
   comparative_analysis | schemas: structure_function_link | difficulty: 3.3 (Very Hard) | yield: 0.7 (Low)
   - Fact: Barrier between blood and brain ECF for homeostasis
   and protection
   - Fact: Meningeal disease
 - **physiology/neonatology/2010B13_neonate_cardiovascular_changes_at_birth.htm**
-  quantitative_reasoning | schemas: homeostatic_regulation, structure_function_link | difficulty: 3.8 (Very Hard) | yield: 0.7 (Low)
+  quantitative_reasoning | schemas: homeostatic_regulation, structure_function_link | difficulty: 4.0 (Very Hard) | yield: 0.7 (Low)
   - Q: What is the normal physiological mechanism described here?
     A: Physiological shunt
 - **pharmacology/muscle_relaxants/2010B05_reversal_anticholinesterases.htm**
-  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 0.7 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 0.7 (Low)
   - Q: What are the adverse effects and toxicity concerns?
     A: cholinergic toxicity
 - **physiology/neurophysiology/2009B14_cns_effects_of_hypercapnoea.htm**
-  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship | difficulty: 4.0 (Very Hard) | yield: 0.6 (Low)
+  quantitative_reasoning | schemas: structure_function_link, mechanism_effect_relevance, homeostatic_regulation, dose_response_relationship | difficulty: 4.0 (Very Hard) | yield: 0.6 (Low)
   - Q: What is the normal physiological mechanism described here?
     A: respiration
   - Fact: Product of Krebs cycle in mitochondrial matrix, aerobic
   respiration
 - **physiology/special_physiology/2009A16_high_altitude_physiology.htm**
-  applied_clinical | schemas: homeostatic_regulation, structure_function_link, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
+  applied_clinical | schemas: mechanism_effect_relevance, homeostatic_regulation, structure_function_link, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
   - Q: What equations or mathematical relationships are described?
     A: Alveolar gas equation
   - Fact: Rapid equilibration of atmosphere and alveolar air
   - Fact: Loss of consciousness
 - **other/physics/2011A16_flow_physics.htm**
-  quantitative_reasoning | schemas: structure_function_link | difficulty: 2.9 (Hard) | yield: 0.6 (Low)
+  quantitative_reasoning | schemas: structure_function_link | difficulty: 3.1 (Hard) | yield: 0.6 (Low)
   - Fact: Infrequent branching
   - Fact: Frequent branching
 - **physiology/cellular/2011B09_prostaglandins.htm**
-  mechanistic_explanation | schemas: structure_function_link | difficulty: 2.8 (Hard) | yield: 0.6 (Low)
+  mechanistic_explanation | schemas: structure_function_link, mechanism_effect_relevance | difficulty: 3.4 (Very Hard) | yield: 0.6 (Low)
 - **physiology/renal/2011B15_causes_of_oliguria_intra_operatively.htm**
-  applied_clinical | schemas: structure_function_link | difficulty: 3.3 (Very Hard) | yield: 0.6 (Low)
+  applied_clinical | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
   - Fact: arteriolar tone
 - **other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm**
-  comparative_analysis | schemas: homeostatic_regulation, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, homeostatic_regulation, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
   - Fact: Negative electrode over nerve
 - **pharmacology/analgesics/2008B04_ketamine_use_in_post_op_analgesia.htm**
-  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 0.6 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 0.6 (Low)
   - Q: What are the respiratory effects?
     A: nightmares, hallucinations
   - Fact: No toxic additives
   - Fact: Low risk of bacterial growth
 - **pharmacology/cardiovascular_drugs/2006B07_treatment_of_ventricular_fibrillation.htm**
-  comparative_analysis | schemas: homeostatic_regulation | difficulty: 3.3 (Very Hard) | yield: 0.6 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
   - Q: What is the mechanism of action of this drug?
     A: mechanical energy
   - Q: What are the adverse effects and toxicity concerns?
@@ -442,26 +442,26 @@ intubation
   repolarization
   - Fact: Hypotension
 - **pharmacology/intravenous_anaesthetics/2008B03_clonidine.htm**
-  mechanistic_explanation | schemas: none | difficulty: 2.6 (Hard) | yield: 0.6 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance | difficulty: 3.0 (Hard) | yield: 0.6 (Low)
   - Q: What are the respiratory effects?
     A: Airway and breathing unaffected
 - **pharmacology/miscellaneous_drugs/2008B06_colloids.htm**
-  comparative_analysis | schemas: structure_function_link, dose_response_relationship | difficulty: 3.5 (Very Hard) | yield: 0.6 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, dose_response_relationship | difficulty: 3.2 (Very Hard) | yield: 0.6 (Low)
   - Q: What is the mechanism of action of this drug?
     A: amylase!
   - Fact: Contains large particles (>30kDa) dispersed
 through solution, not dissolved
 - **physiology/cardiovascular/2010B10_myocardial_oxygen_supply_and_demand_determinants_of_coronary_blood_flow.htm**
-  comparative_analysis | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
+  comparative_analysis | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
   - Fact: Aortic stenosis
 - **physiology/respiratory/2010B12_muscles_involved_in_ventilation.htm**
-  applied_clinical | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.5 (Very Hard) | yield: 0.6 (Low)
+  applied_clinical | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.6 (Low)
 - **physiology/respiratory/2007A09_venous_admixture.htm**
-  quantitative_reasoning | schemas: homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 0.6 (Low)
+  quantitative_reasoning | schemas: homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 0.6 (Low)
   - Q: What is the normal physiological mechanism described here?
     A: Normal V/Q scatter due to gravity
 - **pharmacology/cardiovascular_drugs/2001A15_esmolol_vs_propranolol.htm**
-  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 0.5 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 0.5 (Low)
   - Q: What is the mechanism of action of this drug?
     A: Hepatic oxidative deamination then dealkylation or
 glucuronidation
@@ -471,7 +471,7 @@ glucuronidation
   quantitative_reasoning | schemas: mechanism_effect_relevance | difficulty: 3.6 (Very Hard) | yield: 0.5 (Low)
   - Fact: Heart rate
 - **physiology/renal/2009A11_extracellular_fluid_volume_homeostasis.htm**
-  comparative_analysis | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.5 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.5 (Low)
 - **physiology/renal/2009B13_causes_of_oliguria_in_hypovolaemic_shock.htm**
   comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.5 (Low)
   - Fact: dehydration from pre-op fasting
@@ -480,37 +480,37 @@ glucuronidation
   - Q: What graphs or curves are discussed and what do they show?
     A: Oxyhaemoglobin dissociation curve
 - **other/clinical_measurement/2005A16_cardiac_output_monitoring_doppler_ultrasonography.htm**
-  quantitative_reasoning | schemas: none | difficulty: 2.5 (Medium) | yield: 0.5 (Low)
+  quantitative_reasoning | schemas: none | difficulty: 2.7 (Hard) | yield: 0.5 (Low)
   - Q: What equations or mathematical relationships are described?
     A: Doppler equation
   - Fact: change in frequency from emission to detection
 - **pharmacology/intravenous_anaesthetics/2008A03_ideal_sedative.htm**
-  comparative_analysis | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship | difficulty: 2.6 (Hard) | yield: 0.5 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, homeostatic_regulation, dose_response_relationship | difficulty: 2.6 (Hard) | yield: 0.5 (Low)
 - **physiology/ageing/2008B15_ageing_oxygen_delivery_during_exercise.htm**
-  comparative_analysis | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation | difficulty: 3.5 (Very Hard) | yield: 0.5 (Low)
+  comparative_analysis | schemas: structure_function_link, dose_response_relationship, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.5 (Low)
   - Fact: Gradual time-dependent loss of cellular function
   and physiological reserve, resulting in death
 - **physiology/cardiovascular/2008B14_myocardial_oxygen_supply_and_demand_effect_of_aortic_stenosis.htm**
-  quantitative_reasoning | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation, mechanism_effect_relevance | difficulty: 4.0 (Very Hard) | yield: 0.5 (Low)
+  quantitative_reasoning | schemas: dose_response_relationship, structure_function_link, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 0.5 (Low)
   - Fact: Risk of ischaemia
 - **physiology/metabolism_and_endocrinology/2008B10_sepsis.htm**
-  comparative_analysis | schemas: homeostatic_regulation, structure_function_link, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.5 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, homeostatic_regulation, structure_function_link, dose_response_relationship | difficulty: 3.7 (Very Hard) | yield: 0.5 (Low)
   - Fact: Endothelial dysfunction
   - Fact: Vasomotor dysfunction
 - **physiology/thermoregulation/2008A10_thermoneutral_zone.htm**
-  applied_clinical | schemas: homeostatic_regulation, structure_function_link | difficulty: 3.2 (Very Hard) | yield: 0.5 (Low)
+  applied_clinical | schemas: homeostatic_regulation, structure_function_link | difficulty: 3.5 (Very Hard) | yield: 0.5 (Low)
   - Fact: Range of environmental temperatures
 - **other/clinical_measurement/2004B11_oximetry.htm**
-  quantitative_reasoning | schemas: none | difficulty: 3.0 (Hard) | yield: 0.4 (Low)
+  quantitative_reasoning | schemas: none | difficulty: 3.2 (Very Hard) | yield: 0.4 (Low)
   - Q: What are the sources of error or inaccuracy?
     A: pulse oximetry
 - **pharmacology/intravenous_anaesthetics/2007A04_propofol_tiva_vs_ketamine_tiva.htm**
-  comparative_analysis | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.2 (Hard) | yield: 0.4 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link, homeostatic_regulation | difficulty: 3.2 (Hard) | yield: 0.4 (Low)
 - **pharmacology/local_anaesthetics/2007A02_local_anaesthetics_neuraxial_pharmacokinetics.htm**
   comparative_analysis | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.4 (Low)
   - Fact: concentration of unionised, unbound drug
 - **pharmacology/intravenous_anaesthetics/2002A11_thiopentone_and_ketamine_non_cns_effects.htm**
-  mechanistic_explanation | schemas: none | difficulty: 2.1 (Medium) | yield: 0.4 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance | difficulty: 2.2 (Medium) | yield: 0.4 (Low)
   - Q: What are the cardiovascular effects?
     A: Mechanisms
   - Q: What are the respiratory effects?
@@ -518,88 +518,91 @@ glucuronidation
   respiratory centre
   - Fact: Nitric oxide release
 - **pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm**
-  mechanistic_explanation | schemas: homeostatic_regulation | difficulty: 2.7 (Hard) | yield: 0.4 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.1 (Hard) | yield: 0.4 (Low)
 - **pharmacology/muscle_relaxants/2006B04_suxamethonium_vs_rocuronium_in_rapid_sequence_induction.htm**
-  quantitative_reasoning | schemas: dose_response_relationship, homeostatic_regulation, structure_function_link | difficulty: 3.9 (Very Hard) | yield: 0.4 (Low)
+  quantitative_reasoning | schemas: dose_response_relationship, homeostatic_regulation, mechanism_effect_relevance, structure_function_link | difficulty: 3.9 (Very Hard) | yield: 0.4 (Low)
   - Fact: minimise time between hypnosis and intubation
 - **physiology/renal/2001A07_total_body_water_homeostasis.htm**
-  mechanistic_explanation | schemas: homeostatic_regulation | difficulty: 2.5 (Hard) | yield: 0.4 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, homeostatic_regulation | difficulty: 2.9 (Hard) | yield: 0.4 (Low)
   - Q: What is the normal physiological mechanism described here?
     A: 285-295mOsmol/L
   - Q: What are the normal values and how are they measured?
     A: 285-295mOsmol/L
 - **physiology/renal/2006B11_hormonal_regulation_of_tubular_reabsorption.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 2.6 (Hard) | yield: 0.4 (Low)
+  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance | difficulty: 3.0 (Hard) | yield: 0.4 (Low)
 - **physiology/gastrointestinal/2003A10_determinants_of_hepatic_blood_flow_rate.htm**
-  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.5 (Very Hard) | yield: 0.4 (Low)
+  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 0.4 (Low)
   - Q: What equations or mathematical relationships are described?
     A: Hepatic arterial flow = (mHAP – HVP) / hepatic
   - Fact: Entrance to lobule via hepatic arteriole or
   portal vein
 - **physiology/neurophysiology/2003A12_cerebral_blood_flow_regulation_during_posture_change.htm**
-  applied_clinical | schemas: homeostatic_regulation, dose_response_relationship, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.4 (Low)
+  applied_clinical | schemas: homeostatic_regulation, dose_response_relationship, mechanism_effect_relevance, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.4 (Low)
   - Q: What is the normal physiological mechanism described here?
     A: Normal CBF 750mL/min, 58mL/min/100g
 - **physiology/immunology/2005A08_anaphylaxis.htm**
-  mechanistic_explanation | schemas: structure_function_link | difficulty: 3.0 (Hard) | yield: 0.3 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.4 (Very Hard) | yield: 0.3 (Low)
   - Fact: Antigen-presenting
 - **physiology/respiratory/2005A12_determinants_of_paco2.htm**
-  comparative_analysis | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.3 (Low)
+  comparative_analysis | schemas: structure_function_link, mechanism_effect_relevance, homeostatic_regulation | difficulty: 3.7 (Very Hard) | yield: 0.3 (Low)
   - Fact: 40 +/-
   1-2mmHg
 - **physiology/respiratory/2005A13_non_respiratory_functions_of_the_lungs.htm**
-  mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 0.3 (Low)
+  mechanistic_explanation | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.1 (Hard) | yield: 0.3 (Low)
   - Fact: gas exchange during expiration
   - Fact: infection
 - **physiology/respiratory/2005B09_wests_zones_of_the_lungs.htm**
-  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation | difficulty: 3.5 (Very Hard) | yield: 0.3 (Low)
+  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation | difficulty: 4.0 (Very Hard) | yield: 0.3 (Low)
   - Fact: Effect of increased pulmonary vascular pressures
 - **physiology/cardiovascular/2013C16_isovolumic_haemodilution.htm**
-  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, dose_response_relationship | difficulty: 4.0 (Very Hard) | yield: 0.3 (Low)
+  quantitative_reasoning | schemas: structure_function_link, homeostatic_regulation, mechanism_effect_relevance, dose_response_relationship | difficulty: 4.0 (Very Hard) | yield: 0.3 (Low)
   - Q: What equations or mathematical relationships are described?
     A: Ohm’s law
   - Q: What graphs or curves are discussed and what do they show?
     A: Oxyhaemoglobin dissociation curve (OHDC) shift
   - Fact: Local metabolic autoregulation
 - **physiology/cardiovascular/2002A04_pulmonary_vascular_resistance.htm**
-  quantitative_reasoning | schemas: none | difficulty: 3.2 (Very Hard) | yield: 0.3 (Low)
+  quantitative_reasoning | schemas: mechanism_effect_relevance | difficulty: 3.6 (Very Hard) | yield: 0.3 (Low)
   - Q: What equations or mathematical relationships are described?
     A: RV output = (mPAP – LVEDP) / PVR
 - **physiology/renal/2004B12_renin_angiotensin_system.htm**
-  quantitative_reasoning | schemas: structure_function_link | difficulty: 3.6 (Very Hard) | yield: 0.3 (Low)
+  quantitative_reasoning | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 4.0 (Very Hard) | yield: 0.3 (Low)
 - **physiology/metabolism_and_endocrinology/2003A15_thyroid_hormones.htm**
-  mechanistic_explanation | schemas: structure_function_link | difficulty: 3.0 (Hard) | yield: 0.2 (Low)
+  mechanistic_explanation | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.4 (Very Hard) | yield: 0.2 (Low)
   - Fact: Receptors are nuclear transcription factor
 - **pharmacology/analgesics/2000A15_opioids_respiratory_effects.htm**
-  comparative_analysis | schemas: none | difficulty: 2.6 (Hard) | yield: 0.2 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.0 (Hard) | yield: 0.2 (Low)
   - Q: What is the mechanism of action of this drug?
     A: Antisialogogue
 - **pharmacology/inhalational_anaesthetics/2001B10_nitrous_oxide_adverse_effects.htm**
-  comparative_analysis | schemas: structure_function_link | difficulty: 3.3 (Very Hard) | yield: 0.1 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance, structure_function_link | difficulty: 3.7 (Very Hard) | yield: 0.1 (Low)
   - Fact: Manufactured by superheating
 - **pharmacology/inhalational_anaesthetics/2000A09_volatile_anaesthetics_cardiovascular_effects.htm**
-  comparative_analysis | schemas: none | difficulty: 2.8 (Hard) | yield: 0.1 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.2 (Hard) | yield: 0.1 (Low)
 - **pharmacology/inhalational_anaesthetics/2013C02_xenon_advantages_and_disadvantages.htm**
   comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 0.1 (Low)
   - Fact: Stable, non-reactive with circuit,
   non-combustible
   - Fact: rapid onset, rapid offset
 - **physiology/acid_base/2013C13_acid_base_homeostasis_effects_of_hypothermia.htm**
-  quantitative_reasoning | schemas: homeostatic_regulation | difficulty: 3.4 (Very Hard) | yield: 0.1 (Low)
+  quantitative_reasoning | schemas: homeostatic_regulation | difficulty: 3.6 (Very Hard) | yield: 0.1 (Low)
 - **physiology/respiratory/2013C09_cough_reflex.htm**
-  applied_clinical | schemas: structure_function_link | difficulty: 3.0 (Hard) | yield: 0.1 (Low)
+  applied_clinical | schemas: structure_function_link, mechanism_effect_relevance | difficulty: 3.7 (Very Hard) | yield: 0.1 (Low)
   - Fact: Mechanical or chemical stimuli.
 - **pharmacology/intravenous_anaesthetics/1999A16_alpha_2_adrenoceptor_agonists.htm**
-  comparative_analysis | schemas: none | difficulty: 2.9 (Hard) | yield: 0.1 (Low)
+  comparative_analysis | schemas: mechanism_effect_relevance | difficulty: 3.3 (Very Hard) | yield: 0.1 (Low)
   - Fact: Dorsal horn
 
 ## Co-occurring Dimensions
 
-- [drug_receptor_disposition](./drug_receptor_disposition.md): 89 shared (63%)
+- [clinical_measurement_process](./clinical_measurement_process.md): 106 shared (75%)
 - [organ_system_process](./organ_system_process.md): 80 shared (56%)
 - [neuromuscular_process](./neuromuscular_process.md): 73 shared (51%)
 - [gas_exchange_process](./gas_exchange_process.md): 64 shared (45%)
 - [autonomic_disposition](./autonomic_disposition.md): 64 shared (45%)
 - [acid_base_quality](./acid_base_quality.md): 57 shared (40%)
+- [nociception_process](./nociception_process.md): 55 shared (39%)
+- [drug_receptor_disposition](./drug_receptor_disposition.md): 55 shared (39%)
 - [pharmacokinetic_process](./pharmacokinetic_process.md): 44 shared (31%)
+- [anatomy_structure](./anatomy_structure.md): 29 shared (20%)
 - [special_population_role](./special_population_role.md): 14 shared (10%)

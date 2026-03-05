@@ -15,7 +15,9 @@
     "content_dimensions": [
       "drug_receptor_disposition"
     ],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -120,12 +122,12 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.6160124950391442,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.612461472920943,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2008A08 Define\nthe mechanisms of action and adverse effects of metoprolol, glyceryl trinitrate\nand diltiazem when used to manage myocardial ischaemia.\nMechanism of action\nAdverse effects\nMetoprolol\nβ\n",
-            "score": 0.6160124950391442,
+            "score": 0.612461472920943,
             "start": 0,
             "end": 1012
           }
@@ -192,12 +194,12 @@
         ]
       },
       "nociception_process": {
-        "score": 0.08833573667416476,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.41279008047296173,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2008A08 Define\nthe mechanisms of action and adverse effects of metoprolol, glyceryl trinitrate\nand diltiazem when used to manage myocardial ischaemia.\nMechanism of action\nAdverse effects\nMetoprolol\nβ\n",
-            "score": 0.08833573667416476,
+            "score": 0.41279008047296173,
             "start": 0,
             "end": 1012
           }
@@ -238,16 +240,40 @@
             "end": 1012
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.17794296815077074,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2008A08 Define\nthe mechanisms of action and adverse effects of metoprolol, glyceryl trinitrate\nand diltiazem when used to manage myocardial ischaemia.\nMechanism of action\nAdverse effects\nMetoprolol\nβ\n",
+            "score": 0.17794296815077074,
+            "start": 0,
+            "end": 1012
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.23894091082715616,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2008A08 Define\nthe mechanisms of action and adverse effects of metoprolol, glyceryl trinitrate\nand diltiazem when used to manage myocardial ischaemia.\nMechanism of action\nAdverse effects\nMetoprolol\nβ\n",
+            "score": 0.23894091082715616,
+            "start": 0,
+            "end": 1012
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.4253746005846302,
+        "score": 0.8765769859967216,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2008A08 Define\nthe mechanisms of action and adverse effects of metoprolol, glyceryl trinitrate\nand diltiazem when used to manage myocardial ischaemia.\nMechanism of action\nAdverse effects\nMetoprolol\nβ\n",
-            "score": 0.4253746005846302,
+            "score": 0.8765769859967216,
             "start": 0,
             "end": 1012
           }

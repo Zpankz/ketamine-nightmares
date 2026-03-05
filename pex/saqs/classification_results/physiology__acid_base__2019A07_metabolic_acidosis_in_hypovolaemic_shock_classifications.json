@@ -17,13 +17,14 @@
       ]
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
+      "clinical_measurement_process",
       "organ_system_process",
       "gas_exchange_process",
       "equipment_and_physics",
       "autonomic_disposition"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "dose_response_relationship",
       "structure_function_link",
       "homeostatic_regulation"
@@ -228,26 +229,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8687038732456791,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5382742432544103,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  and pulmonary vasoconstriction\no\nAutotransfusion\n  from capacitance vessels (skin, gut, liver, spleen, lung)\n·\n↑Myocardial\n  O\n2\ndemand, ↓O\n2\nsupply -> ischaemia (Type 2)\nRespiratory\n·\n↓BV:\no\n↑Z1 of",
-            "score": 0.8687038732456791,
-            "start": 1249,
-            "end": 2278
-          },
-          {
-            "text": "+0.6mmol/L\n  K\n+\nfor each -0.1 in pH\n·\n↑[Ca\n2+\n]:\n  due to ↑ H\n+\n/Ca\n2+\nexchange with bone",
-            "score": 0.44775124428462515,
-            "start": 2279,
+            "text": "+\nexchange across cells\no\n+0.6mmol/L\n  K\n+\nfor each -0.1 in pH\n·\n↑[Ca\n2+\n]:\n  due to ↑ H\n+\n/Ca\n2+\nexchange with bone",
+            "score": 0.5382742432544103,
+            "start": 2253,
             "end": 2369
           },
           {
+            "text": "Systemic\n  and pulmonary vasoconstriction\no\nAutotransfusion\n  from capacitance vessels (skin, gut, liver, spleen, lung)\n·\n↑Myocardial\n  O\n2\ndemand, ↓O\n2\nsupply -> ischaemia (Type 2)\nRespiratory\n·\n↓BV:",
+            "score": 0.38322790822743885,
+            "start": 1240,
+            "end": 2252
+          },
+          {
             "text": "2019A07 Explain\nhow a metabolic acidosis develops in hypovolaemic shock.\nDescribe the consequences of this metabolic acidosis for the body.\nList:\n·\nHypovolaemic shock\n·\nOrgan effects\nHypovolaemic\nshoc",
-            "score": 0.20676821579165858,
+            "score": 0.32637600980346704,
             "start": 0,
-            "end": 1248
+            "end": 1239
           }
         ]
       },
@@ -372,26 +373,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.14793926113385975,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2364981332625992,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "for each -0.1 in pH\n·\n↑[Ca\n2+\n]:\n  due to ↑ H\n+\n/Ca\n2+\nexchange with bone",
-            "score": 0.14793926113385975,
-            "start": 2296,
+            "text": "  and pulmonary vasoconstriction\no\nAutotransfusion\n  from capacitance vessels (skin, gut, liver, spleen, lung)\n·\n↑Myocardial\n  O\n2\ndemand, ↓O\n2\nsupply -> ischaemia (Type 2)\nRespiratory\n·\n↓BV:\no\n↑Z1 of",
+            "score": 0.2364981332625992,
+            "start": 1249,
+            "end": 2276
+          },
+          {
+            "text": "o\n+0.6mmol/L\n  K\n+\nfor each -0.1 in pH\n·\n↑[Ca\n2+\n]:\n  due to ↑ H\n+\n/Ca\n2+\nexchange with bone",
+            "score": 0.23245761627092265,
+            "start": 2277,
             "end": 2369
           },
           {
             "text": "2019A07 Explain\nhow a metabolic acidosis develops in hypovolaemic shock.\nDescribe the consequences of this metabolic acidosis for the body.\nList:\n·\nHypovolaemic shock\n·\nOrgan effects\nHypovolaemic\nshoc",
-            "score": 0.1005592983048298,
+            "score": 0.13244504050607428,
             "start": 0,
-            "end": 1283
-          },
-          {
-            "text": "Autotransfusion\n  from capacitance vessels (skin, gut, liver, spleen, lung)\n·\n↑Myocardial\n  O\n2\ndemand, ↓O\n2\nsupply -> ischaemia (Type 2)\nRespiratory\n·\n↓BV:\no\n↑Z1 of\n  lung -> ↑dead space -> ↓etCO\n2\n·",
-            "score": 0.09480246485705024,
-            "start": 1284,
-            "end": 2295
+            "end": 1248
           }
         ]
       },
@@ -466,29 +467,77 @@
             "end": 2278
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.5346831318081398,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "·\n↑[Ca\n2+\n]:\n  due to ↑ H\n+\n/Ca\n2+\nexchange with bone",
+            "score": 0.5346831318081398,
+            "start": 2316,
+            "end": 2369
+          },
+          {
+            "text": "Autotransfusion\n  from capacitance vessels (skin, gut, liver, spleen, lung)\n·\n↑Myocardial\n  O\n2\ndemand, ↓O\n2\nsupply -> ischaemia (Type 2)\nRespiratory\n·\n↓BV:\no\n↑Z1 of\n  lung -> ↑dead space -> ↓etCO\n2\n·",
+            "score": 0.40325289358503946,
+            "start": 1284,
+            "end": 2315
+          },
+          {
+            "text": "2019A07 Explain\nhow a metabolic acidosis develops in hypovolaemic shock.\nDescribe the consequences of this metabolic acidosis for the body.\nList:\n·\nHypovolaemic shock\n·\nOrgan effects\nHypovolaemic\nshoc",
+            "score": 0.19420584422163265,
+            "start": 0,
+            "end": 1283
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8605332160789678,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "+\nexchange across cells\no\n+0.6mmol/L\n  K\n+\nfor each -0.1 in pH\n·\n↑[Ca\n2+\n]:\n  due to ↑ H\n+\n/Ca\n2+\nexchange with bone",
+            "score": 0.8605332160789678,
+            "start": 2253,
+            "end": 2369
+          },
+          {
+            "text": "Systemic\n  and pulmonary vasoconstriction\no\nAutotransfusion\n  from capacitance vessels (skin, gut, liver, spleen, lung)\n·\n↑Myocardial\n  O\n2\ndemand, ↓O\n2\nsupply -> ischaemia (Type 2)\nRespiratory\n·\n↓BV:",
+            "score": 0.8295367351705452,
+            "start": 1240,
+            "end": 2252
+          },
+          {
+            "text": "2019A07 Explain\nhow a metabolic acidosis develops in hypovolaemic shock.\nDescribe the consequences of this metabolic acidosis for the body.\nList:\n·\nHypovolaemic shock\n·\nOrgan effects\nHypovolaemic\nshoc",
+            "score": 0.2825268951916765,
+            "start": 0,
+            "end": 1239
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.5798905090027888,
+        "score": 0.7062214672949156,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
+            "text": "  and pulmonary vasoconstriction\no\nAutotransfusion\n  from capacitance vessels (skin, gut, liver, spleen, lung)\n·\n↑Myocardial\n  O\n2\ndemand, ↓O\n2\nsupply -> ischaemia (Type 2)\nRespiratory\n·\n↓BV:\no\n↑Z1 of",
+            "score": 0.7062214672949156,
+            "start": 1249,
+            "end": 2276
+          },
+          {
             "text": "2019A07 Explain\nhow a metabolic acidosis develops in hypovolaemic shock.\nDescribe the consequences of this metabolic acidosis for the body.\nList:\n·\nHypovolaemic shock\n·\nOrgan effects\nHypovolaemic\nshoc",
-            "score": 0.5798905090027888,
+            "score": 0.5441200101994689,
             "start": 0,
-            "end": 1283
+            "end": 1248
           },
           {
-            "text": "Autotransfusion\n  from capacitance vessels (skin, gut, liver, spleen, lung)\n·\n↑Myocardial\n  O\n2\ndemand, ↓O\n2\nsupply -> ischaemia (Type 2)\nRespiratory\n·\n↓BV:\no\n↑Z1 of\n  lung -> ↑dead space -> ↓etCO\n2\n·",
-            "score": 0.3417750735892439,
-            "start": 1284,
-            "end": 2317
-          },
-          {
-            "text": "↑[Ca\n2+\n]:\n  due to ↑ H\n+\n/Ca\n2+\nexchange with bone",
-            "score": 0.3369314435607793,
-            "start": 2318,
+            "text": "o\n+0.6mmol/L\n  K\n+\nfor each -0.1 in pH\n·\n↑[Ca\n2+\n]:\n  due to ↑ H\n+\n/Ca\n2+\nexchange with bone",
+            "score": 0.3663932468187113,
+            "start": 2277,
             "end": 2369
           }
         ]

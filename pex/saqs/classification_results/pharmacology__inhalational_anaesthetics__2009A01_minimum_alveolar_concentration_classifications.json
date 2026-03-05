@@ -14,6 +14,7 @@
     },
     "content_dimensions": [
       "special_population_role",
+      "nociception_process",
       "organ_system_process"
     ],
     "explanatory_schema": [
@@ -171,18 +172,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.49290174961515965,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.3771685767525581,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Age highest age 6 months; ↓6% per decade after age 20\n·\nPregnancy: ↓30% (progesterone)\n·\nObesity: inflammatory cytokines\nPathological\n·\n↓mAP (<40mmHg)\n·\n↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation, >80",
-            "score": 0.49290174961515965,
+            "score": 0.3771685767525581,
             "start": 1480,
             "end": 2247
           },
           {
             "text": "2009A01 Explain\nthe concept of MAC and its clinical utility.\nList the patient factors which a) increase MAC b) decrease MAC c) are known to\nhave no effect on MAC.\nList:\n·\nDefinition and utility\n·\nVari",
-            "score": 0.18071066347481568,
+            "score": 0.299254522952492,
             "start": 0,
             "end": 1479
           }
@@ -279,19 +280,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.21823325627215462,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7285070708290908,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2009A01 Explain\nthe concept of MAC and its clinical utility.\nList the patient factors which a) increase MAC b) decrease MAC c) are known to\nhave no effect on MAC.\nList:\n·\nDefinition and utility\n·\nVari",
-            "score": 0.21823325627215462,
+            "score": 0.7285070708290908,
             "start": 0,
-            "end": 1535
+            "end": 1479
           },
           {
-            "text": "Pregnancy: ↓30% (progesterone)\n·\nObesity: inflammatory cytokines\nPathological\n·\n↓mAP (<40mmHg)\n·\n↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation, >80mmHg anaesthesia if\n  acute)\n·\n↓Temp\n·\n↓pH\n·\n↓[Na\n+\n]\nDr",
-            "score": 0.12013872967712319,
-            "start": 1536,
+            "text": "Age highest age 6 months; ↓6% per decade after age 20\n·\nPregnancy: ↓30% (progesterone)\n·\nObesity: inflammatory cytokines\nPathological\n·\n↓mAP (<40mmHg)\n·\n↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation, >80",
+            "score": 0.649191921230726,
+            "start": 1480,
             "end": 2247
           }
         ]
@@ -349,24 +350,60 @@
             "end": 1479
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.1573559898347826,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Pregnancy: ↓30% (progesterone)\n·\nObesity: inflammatory cytokines\nPathological\n·\n↓mAP (<40mmHg)\n·\n↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation, >80mmHg anaesthesia if\n  acute)\n·\n↓Temp\n·\n↓pH\n·\n↓[Na\n+\n]\nDr",
+            "score": 0.1573559898347826,
+            "start": 1536,
+            "end": 2247
+          },
+          {
+            "text": "2009A01 Explain\nthe concept of MAC and its clinical utility.\nList the patient factors which a) increase MAC b) decrease MAC c) are known to\nhave no effect on MAC.\nList:\n·\nDefinition and utility\n·\nVari",
+            "score": 0.11216054585062639,
+            "start": 0,
+            "end": 1535
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.22135047558413734,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Age highest age 6 months; ↓6% per decade after age 20\n·\nPregnancy: ↓30% (progesterone)\n·\nObesity: inflammatory cytokines\nPathological\n·\n↓mAP (<40mmHg)\n·\n↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation, >80",
+            "score": 0.22135047558413734,
+            "start": 1480,
+            "end": 2247
+          },
+          {
+            "text": "2009A01 Explain\nthe concept of MAC and its clinical utility.\nList the patient factors which a) increase MAC b) decrease MAC c) are known to\nhave no effect on MAC.\nList:\n·\nDefinition and utility\n·\nVari",
+            "score": 0.20601653605049183,
+            "start": 0,
+            "end": 1479
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.25557578676432086,
+        "score": 0.45756099538277967,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2009A01 Explain\nthe concept of MAC and its clinical utility.\nList the patient factors which a) increase MAC b) decrease MAC c) are known to\nhave no effect on MAC.\nList:\n·\nDefinition and utility\n·\nVari",
-            "score": 0.25557578676432086,
-            "start": 0,
-            "end": 1535
+            "text": "Age highest age 6 months; ↓6% per decade after age 20\n·\nPregnancy: ↓30% (progesterone)\n·\nObesity: inflammatory cytokines\nPathological\n·\n↓mAP (<40mmHg)\n·\n↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation, >80",
+            "score": 0.45756099538277967,
+            "start": 1480,
+            "end": 2247
           },
           {
-            "text": "Pregnancy: ↓30% (progesterone)\n·\nObesity: inflammatory cytokines\nPathological\n·\n↓mAP (<40mmHg)\n·\n↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation, >80mmHg anaesthesia if\n  acute)\n·\n↓Temp\n·\n↓pH\n·\n↓[Na\n+\n]\nDr",
-            "score": 0.16252292535834514,
-            "start": 1536,
-            "end": 2247
+            "text": "2009A01 Explain\nthe concept of MAC and its clinical utility.\nList the patient factors which a) increase MAC b) decrease MAC c) are known to\nhave no effect on MAC.\nList:\n·\nDefinition and utility\n·\nVari",
+            "score": 0.3596834060930492,
+            "start": 0,
+            "end": 1479
           }
         ]
       },

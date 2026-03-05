@@ -18,11 +18,13 @@
     },
     "content_dimensions": [
       "pharmacokinetic_process",
-      "drug_receptor_disposition",
-      "organ_system_process"
+      "nociception_process",
+      "organ_system_process",
+      "drug_receptor_disposition"
     ],
     "explanatory_schema": [
       "structure_function_link",
+      "mechanism_effect_relevance",
       "dose_response_relationship"
     ]
   },
@@ -225,25 +227,25 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7586025223491444,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.613223263008594,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Rapid onset:\no\nSmall\no\nHigh lipid solubility\no\n>99% unionized\no\nt\n1/2ke0\n2.6 minutes\n�\nRapid offset by distribution:\no\n? due to similar factors\no\nt\n1/2\nα\nfast 2 mins\n�\nRapid metabolism:\no\nCl 30-60mL/k",
-            "score": 0.7586025223491444,
-            "start": 1270,
-            "end": 2587
+            "text": "PPF ideal features\n�\nRapid onset:\no\nSmall\no\nHigh lipid solubility\no\n>99% unionized\no\nt\n1/2ke0\n2.6 minutes\n�\nRapid offset by distribution:\no\n? due to similar factors\no\nt\n1/2\nα\nfast 2 mins\n�\nRapid metab",
+            "score": 0.613223263008594,
+            "start": 1249,
+            "end": 2565
           },
           {
             "text": "2019B06 Propofol and remifentanil TCI are often given together as a TIVA\ntechnique.\nDiscuss pharmacological reasons why this is a useful combination.\nList:\n�\nSummary\n�\nDrug effects\n�\nPD\n�\nPK\n�\nPC\n�\nAp",
-            "score": 0.3774204195411882,
+            "score": 0.4498224756193596,
             "start": 0,
-            "end": 1269
+            "end": 1248
           },
           {
-            "text": "Sinus surgery (PPF ↓mAP ->\n  ↓bleeding)\nLogistical\n�\nAirway surgery precluding volatile use\n  (absolute indication)\n�\nField anaesthesia\n�\nTransport\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.12013872967712319,
-            "start": 2588,
+            "text": "  -> ETT tolerance)\n�\nSinus surgery (PPF ↓mAP ->\n  ↓bleeding)\nLogistical\n�\nAirway surgery precluding volatile use\n  (absolute indication)\n�\nField anaesthesia\n�\nTransport\nFeedback welcome\nat\nketamineni",
+            "score": 0.20153979982073553,
+            "start": 2566,
             "end": 2784
           }
         ]
@@ -369,26 +371,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13534398140930778,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7431523727970344,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Airway surgery precluding volatile use\n  (absolute indication)\n�\nField anaesthesia\n�\nTransport\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.13534398140930778,
-            "start": 2641,
+            "text": "2019B06 Propofol and remifentanil TCI are often given together as a TIVA\ntechnique.\nDiscuss pharmacological reasons why this is a useful combination.\nList:\n�\nSummary\n�\nDrug effects\n�\nPD\n�\nPK\n�\nPC\n�\nAp",
+            "score": 0.7431523727970344,
+            "start": 0,
+            "end": 1267
+          },
+          {
+            "text": "Sinus surgery (PPF ↓mAP ->\n  ↓bleeding)\nLogistical\n�\nAirway surgery precluding volatile use\n  (absolute indication)\n�\nField anaesthesia\n�\nTransport\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.4247237927663714,
+            "start": 2588,
             "end": 2784
           },
           {
-            "text": "High lipid solubility\no\n>99% unionized\no\nt\n1/2ke0\n2.6 minutes\n�\nRapid offset by distribution:\no\n? due to similar factors\no\nt\n1/2\nα\nfast 2 mins\n�\nRapid metabolism:\no\nCl 30-60mL/kg/min\no\nPhase 1 (CYP) a",
-            "score": 0.11164036043761141,
-            "start": 1293,
-            "end": 2640
-          },
-          {
-            "text": "2019B06 Propofol and remifentanil TCI are often given together as a TIVA\ntechnique.\nDiscuss pharmacological reasons why this is a useful combination.\nList:\n�\nSummary\n�\nDrug effects\n�\nPD\n�\nPK\n�\nPC\n�\nAp",
-            "score": 0.08924333203133303,
-            "start": 0,
-            "end": 1292
+            "text": "�\nRapid onset:\no\nSmall\no\nHigh lipid solubility\no\n>99% unionized\no\nt\n1/2ke0\n2.6 minutes\n�\nRapid offset by distribution:\no\n? due to similar factors\no\nt\n1/2\nα\nfast 2 mins\n�\nRapid metabolism:\no\nCl 30-60mL",
+            "score": 0.3427471360775722,
+            "start": 1268,
+            "end": 2587
           }
         ]
       },
@@ -463,30 +465,78 @@
             "end": 1269
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2754396543901626,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.2260732893915247,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "High lipid solubility\no\n>99% unionized\no\nt\n1/2ke0\n2.6 minutes\n�\nRapid offset by distribution:\no\n? due to similar factors\no\nt\n1/2\nα\nfast 2 mins\n�\nRapid metabolism:\no\nCl 30-60mL/kg/min\no\nPhase 1 (CYP) a",
-            "score": 0.2754396543901626,
-            "start": 1293,
-            "end": 2640
-          },
-          {
             "text": "Airway surgery precluding volatile use\n  (absolute indication)\n�\nField anaesthesia\n�\nTransport\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.25010326402444366,
+            "score": 0.2260732893915247,
             "start": 2641,
             "end": 2784
           },
           {
+            "text": "High lipid solubility\no\n>99% unionized\no\nt\n1/2ke0\n2.6 minutes\n�\nRapid offset by distribution:\no\n? due to similar factors\no\nt\n1/2\nα\nfast 2 mins\n�\nRapid metabolism:\no\nCl 30-60mL/kg/min\no\nPhase 1 (CYP) a",
+            "score": 0.14671028264551744,
+            "start": 1293,
+            "end": 2640
+          },
+          {
             "text": "2019B06 Propofol and remifentanil TCI are often given together as a TIVA\ntechnique.\nDiscuss pharmacological reasons why this is a useful combination.\nList:\n�\nSummary\n�\nDrug effects\n�\nPD\n�\nPK\n�\nPC\n�\nAp",
-            "score": 0.14006190450182948,
+            "score": 0.09910133017588658,
             "start": 0,
             "end": 1292
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.21437210705255258,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "PPF ideal features\n�\nRapid onset:\no\nSmall\no\nHigh lipid solubility\no\n>99% unionized\no\nt\n1/2ke0\n2.6 minutes\n�\nRapid offset by distribution:\no\n? due to similar factors\no\nt\n1/2\nα\nfast 2 mins\n�\nRapid metab",
+            "score": 0.21437210705255258,
+            "start": 1249,
+            "end": 2565
+          },
+          {
+            "text": "  -> ETT tolerance)\n�\nSinus surgery (PPF ↓mAP ->\n  ↓bleeding)\nLogistical\n�\nAirway surgery precluding volatile use\n  (absolute indication)\n�\nField anaesthesia\n�\nTransport\nFeedback welcome\nat\nketamineni",
+            "score": 0.19420584422163265,
+            "start": 2566,
+            "end": 2784
+          },
+          {
+            "text": "2019B06 Propofol and remifentanil TCI are often given together as a TIVA\ntechnique.\nDiscuss pharmacological reasons why this is a useful combination.\nList:\n�\nSummary\n�\nDrug effects\n�\nPD\n�\nPK\n�\nPC\n�\nAp",
+            "score": 0.10702368540104822,
+            "start": 0,
+            "end": 1248
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.786778554494324,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "�\nRapid onset:\no\nSmall\no\nHigh lipid solubility\no\n>99% unionized\no\nt\n1/2ke0\n2.6 minutes\n�\nRapid offset by distribution:\no\n? due to similar factors\no\nt\n1/2\nα\nfast 2 mins\n�\nRapid metabolism:\no\nCl 30-60mL",
+            "score": 0.786778554494324,
+            "start": 1268,
+            "end": 2587
+          },
+          {
+            "text": "2019B06 Propofol and remifentanil TCI are often given together as a TIVA\ntechnique.\nDiscuss pharmacological reasons why this is a useful combination.\nList:\n�\nSummary\n�\nDrug effects\n�\nPD\n�\nPK\n�\nPC\n�\nAp",
+            "score": 0.3865229101133825,
+            "start": 0,
+            "end": 1267
+          },
+          {
+            "text": "Sinus surgery (PPF ↓mAP ->\n  ↓bleeding)\nLogistical\n�\nAirway surgery precluding volatile use\n  (absolute indication)\n�\nField anaesthesia\n�\nTransport\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.21283868086355118,
+            "start": 2588,
+            "end": 2784
           }
         ]
       },

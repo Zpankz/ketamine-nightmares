@@ -16,7 +16,9 @@
       ]
     },
     "content_dimensions": [],
-    "explanatory_schema": []
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
+    ]
   },
   "classifications": {
     "cognitive_domain": {
@@ -169,18 +171,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.35154449221815187,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.49044765503659954,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002B06 Write\nbrief notes on tolerance and dependence in relation to opioid analgesics.\nList:\nTolerance: definition, mechanism, time course, implications,\ntreatment\nDependence: definition and types, a",
-            "score": 0.35154449221815187,
+            "score": 0.49044765503659954,
             "start": 0,
             "end": 1908
           },
           {
             "text": "  onset (high lipid solubility, high % unionised (e.g. alfentanil)\no\nHighly\n  euphoric (e.g. diacetylmorphine)\n·\nAdministration: prolonged use (e.g. chronic pain)\n·\nPatient: psychiatric history, unemp",
-            "score": 0.15103900835879944,
+            "score": 0.19059863367246443,
             "start": 1909,
             "end": 2382
           }
@@ -277,20 +279,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.24718278933502774,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.4686217331298504,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Highly\n  euphoric (e.g. diacetylmorphine)\n·\nAdministration: prolonged use (e.g. chronic pain)\n·\nPatient: psychiatric history, unemployment etc.\nWithdrawal features\n·\nPhysical: nausea, sweating, cholin",
-            "score": 0.24718278933502774,
-            "start": 1978,
-            "end": 2382
+            "text": "2002B06 Write\nbrief notes on tolerance and dependence in relation to opioid analgesics.\nList:\nTolerance: definition, mechanism, time course, implications,\ntreatment\nDependence: definition and types, a",
+            "score": 0.4686217331298504,
+            "start": 0,
+            "end": 1908
           },
           {
-            "text": "2002B06 Write\nbrief notes on tolerance and dependence in relation to opioid analgesics.\nList:\nTolerance: definition, mechanism, time course, implications,\ntreatment\nDependence: definition and types, a",
-            "score": 0.11531222505249526,
-            "start": 0,
-            "end": 1977
+            "text": "  onset (high lipid solubility, high % unionised (e.g. alfentanil)\no\nHighly\n  euphoric (e.g. diacetylmorphine)\n·\nAdministration: prolonged use (e.g. chronic pain)\n·\nPatient: psychiatric history, unemp",
+            "score": 0.4548915577009839,
+            "start": 1909,
+            "end": 2382
           }
         ]
       },
@@ -347,23 +349,59 @@
             "end": 1908
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.09622297710488378,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Highly\n  euphoric (e.g. diacetylmorphine)\n·\nAdministration: prolonged use (e.g. chronic pain)\n·\nPatient: psychiatric history, unemployment etc.\nWithdrawal features\n·\nPhysical: nausea, sweating, cholin",
+            "score": 0.09622297710488378,
+            "start": 1978,
+            "end": 2382
+          },
+          {
+            "text": "2002B06 Write\nbrief notes on tolerance and dependence in relation to opioid analgesics.\nList:\nTolerance: definition, mechanism, time course, implications,\ntreatment\nDependence: definition and types, a",
+            "score": 0.07576714551953342,
+            "start": 0,
+            "end": 1977
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.0952745927410768,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  onset (high lipid solubility, high % unionised (e.g. alfentanil)\no\nHighly\n  euphoric (e.g. diacetylmorphine)\n·\nAdministration: prolonged use (e.g. chronic pain)\n·\nPatient: psychiatric history, unemp",
+            "score": 0.0952745927410768,
+            "start": 1909,
+            "end": 2382
+          },
+          {
+            "text": "2002B06 Write\nbrief notes on tolerance and dependence in relation to opioid analgesics.\nList:\nTolerance: definition, mechanism, time course, implications,\ntreatment\nDependence: definition and types, a",
+            "score": 0.08698437799387108,
+            "start": 0,
+            "end": 1908
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.22766004724276212,
+        "score": 0.8043401089718551,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
             "text": "2002B06 Write\nbrief notes on tolerance and dependence in relation to opioid analgesics.\nList:\nTolerance: definition, mechanism, time course, implications,\ntreatment\nDependence: definition and types, a",
-            "score": 0.22766004724276212,
+            "score": 0.8043401089718551,
             "start": 0,
-            "end": 1984
+            "end": 1908
           },
           {
-            "text": "  euphoric (e.g. diacetylmorphine)\n·\nAdministration: prolonged use (e.g. chronic pain)\n·\nPatient: psychiatric history, unemployment etc.\nWithdrawal features\n·\nPhysical: nausea, sweating, cholinergic (",
-            "score": 0.20601653605049183,
-            "start": 1985,
+            "text": "  onset (high lipid solubility, high % unionised (e.g. alfentanil)\no\nHighly\n  euphoric (e.g. diacetylmorphine)\n·\nAdministration: prolonged use (e.g. chronic pain)\n·\nPatient: psychiatric history, unemp",
+            "score": 0.36838981355048184,
+            "start": 1909,
             "end": 2382
           }
         ]

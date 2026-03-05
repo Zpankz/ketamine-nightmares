@@ -16,7 +16,9 @@
       ]
     },
     "content_dimensions": [
-      "gas_exchange_process"
+      "clinical_measurement_process",
+      "gas_exchange_process",
+      "anatomy_structure"
     ],
     "explanatory_schema": [
       "structure_function_link"
@@ -173,20 +175,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.313618949200329,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4105939901943318,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2\n·\nAllows PaO\n2\nresponsiveness\n·\nNote unaffected by Hb-bound O\n2\nhence anaemia, CO\n  poisoning\n·\nSmall size, short diffusion distance\n·\nLocation in large vessels (aortic and carotid)",
-            "score": 0.313618949200329,
-            "start": 1533,
+            "text": "2\nsupply only by dissolved O\n2\n·\nAllows PaO\n2\nresponsiveness\n·\nNote unaffected by Hb-bound O\n2\nhence anaemia, CO\n  poisoning\n·\nSmall size, short diffusion distance\n·\nLocation in large vessels (aortic ",
+            "score": 0.4105939901943318,
+            "start": 1504,
             "end": 1716
           },
           {
             "text": "2008A09 The\nskin, the kidneys and the carotid bodies are examples of where\nspecific organ blood flow is far in excess of that organ’s metabolic\nrequirement.\nFor each example, explain what the physiolo",
-            "score": 0.188453451539788,
+            "score": 0.15608002460238707,
             "start": 0,
-            "end": 1532
+            "end": 1503
           }
         ]
       },
@@ -281,20 +283,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.12397561162117983,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.2551525833359077,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "Allows PaO\n2\nresponsiveness\n·\nNote unaffected by Hb-bound O\n2\nhence anaemia, CO\n  poisoning\n·\nSmall size, short diffusion distance\n·\nLocation in large vessels (aortic and carotid)",
-            "score": 0.12397561162117983,
-            "start": 1537,
+            "text": "supply only by dissolved O\n2\n·\nAllows PaO\n2\nresponsiveness\n·\nNote unaffected by Hb-bound O\n2\nhence anaemia, CO\n  poisoning\n·\nSmall size, short diffusion distance\n·\nLocation in large vessels (aortic an",
+            "score": 0.2551525833359077,
+            "start": 1506,
             "end": 1716
           },
           {
             "text": "2008A09 The\nskin, the kidneys and the carotid bodies are examples of where\nspecific organ blood flow is far in excess of that organ’s metabolic\nrequirement.\nFor each example, explain what the physiolo",
-            "score": 0.09061480910082127,
+            "score": 0.1256423848664057,
             "start": 0,
-            "end": 1536
+            "end": 1505
           }
         ]
       },
@@ -351,24 +353,60 @@
             "end": 1532
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.6540860977117229,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2008A09 The\nskin, the kidneys and the carotid bodies are examples of where\nspecific organ blood flow is far in excess of that organ’s metabolic\nrequirement.\nFor each example, explain what the physiolo",
+            "score": 0.6540860977117229,
+            "start": 0,
+            "end": 1536
+          },
+          {
+            "text": "Allows PaO\n2\nresponsiveness\n·\nNote unaffected by Hb-bound O\n2\nhence anaemia, CO\n  poisoning\n·\nSmall size, short diffusion distance\n·\nLocation in large vessels (aortic and carotid)",
+            "score": 0.29015475481172504,
+            "start": 1537,
+            "end": 1716
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.8086831144625273,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2008A09 The\nskin, the kidneys and the carotid bodies are examples of where\nspecific organ blood flow is far in excess of that organ’s metabolic\nrequirement.\nFor each example, explain what the physiolo",
+            "score": 0.8086831144625273,
+            "start": 0,
+            "end": 1503
+          },
+          {
+            "text": "2\nsupply only by dissolved O\n2\n·\nAllows PaO\n2\nresponsiveness\n·\nNote unaffected by Hb-bound O\n2\nhence anaemia, CO\n  poisoning\n·\nSmall size, short diffusion distance\n·\nLocation in large vessels (aortic ",
+            "score": 0.2684433312271226,
+            "start": 1504,
+            "end": 1716
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.36440051098887527,
+        "score": 0.5270454065369206,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2008A09 The\nskin, the kidneys and the carotid bodies are examples of where\nspecific organ blood flow is far in excess of that organ’s metabolic\nrequirement.\nFor each example, explain what the physiolo",
-            "score": 0.36440051098887527,
-            "start": 0,
-            "end": 1547
+            "text": "supply only by dissolved O\n2\n·\nAllows PaO\n2\nresponsiveness\n·\nNote unaffected by Hb-bound O\n2\nhence anaemia, CO\n  poisoning\n·\nSmall size, short diffusion distance\n·\nLocation in large vessels (aortic an",
+            "score": 0.5270454065369206,
+            "start": 1506,
+            "end": 1716
           },
           {
-            "text": "2\nresponsiveness\n·\nNote unaffected by Hb-bound O\n2\nhence anaemia, CO\n  poisoning\n·\nSmall size, short diffusion distance\n·\nLocation in large vessels (aortic and carotid)",
-            "score": 0.3306771344015845,
-            "start": 1548,
-            "end": 1716
+            "text": "2008A09 The\nskin, the kidneys and the carotid bodies are examples of where\nspecific organ blood flow is far in excess of that organ’s metabolic\nrequirement.\nFor each example, explain what the physiolo",
+            "score": 0.23085222312653272,
+            "start": 0,
+            "end": 1505
           }
         ]
       },

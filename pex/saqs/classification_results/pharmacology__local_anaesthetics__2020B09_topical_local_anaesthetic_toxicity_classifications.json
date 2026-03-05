@@ -14,9 +14,11 @@
     },
     "content_dimensions": [
       "pharmacokinetic_process",
+      "nociception_process",
       "neuromuscular_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "structure_function_link"
     ]
   },
@@ -219,26 +221,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.4244635311469551,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.4330701123205554,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Tissue blood flow -> ↓C\n2\nbut also offset of local effect\n�\nRegional variation: e.g. lower flow to\n  foot cf. scalp\n�\nDrug effect: e.g. prolonged EMLA\n  application -> vasodilation\n�\nDrug additive: a",
-            "score": 0.4244635311469551,
-            "start": 1322,
+            "text": "2\n�\n↑Tissue blood flow -> ↓C\n2\nbut also offset of local effect\n�\nRegional variation: e.g. lower flow to\n  foot cf. scalp\n�\nDrug effect: e.g. prolonged EMLA\n  application -> vasodilation\n�\nDrug additiv",
+            "score": 0.4330701123205554,
+            "start": 1318,
             "end": 2635
           },
           {
             "text": "Toxicity threshold: bupiv 1.5mcg/mL,\n  ropiv 4mcg/mL, lignocaine 5mcg/mL\n�\nCC:CNS ratio � bupivacaine 3:1,\n  ropivacaine 5:1, lignocaine 7:1\nPatient\nPK:\n�\nAbsorption: see above\n�\nDistribution: Cachexi",
-            "score": 0.41770946802210934,
+            "score": 0.37893263772374886,
             "start": 2636,
             "end": 3324
           },
           {
             "text": "2020B09\nDiscuss factors that influence the toxicity of local anaesthetics\nwhen used for topical anaesthesia of skin and mucosa.\nList:\n�\nMeans of toxicity\n�\nDeterminants of drug\nuptake\n�\nDeterminants o",
-            "score": 0.2543072934579991,
+            "score": 0.3282846746460227,
             "start": 0,
-            "end": 1321
+            "end": 1317
           }
         ]
       },
@@ -363,26 +365,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13072394818234856,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.7444242132356791,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2020B09\nDiscuss factors that influence the toxicity of local anaesthetics\nwhen used for topical anaesthesia of skin and mucosa.\nList:\n�\nMeans of toxicity\n�\nDeterminants of drug\nuptake\n�\nDeterminants o",
-            "score": 0.13072394818234856,
+            "score": 0.7444242132356791,
             "start": 0,
-            "end": 1321
+            "end": 1317
           },
           {
-            "text": "↑Tissue blood flow -> ↓C\n2\nbut also offset of local effect\n�\nRegional variation: e.g. lower flow to\n  foot cf. scalp\n�\nDrug effect: e.g. prolonged EMLA\n  application -> vasodilation\n�\nDrug additive: a",
-            "score": 0.1010480871715535,
-            "start": 1322,
-            "end": 2672
-          },
-          {
-            "text": "  ropiv 4mcg/mL, lignocaine 5mcg/mL\n�\nCC:CNS ratio � bupivacaine 3:1,\n  ropivacaine 5:1, lignocaine 7:1\nPatient\nPK:\n�\nAbsorption: see above\n�\nDistribution: Cachexia ->\n  ↑plasma concentration -> ↑risk",
-            "score": 0.1010480871715535,
-            "start": 2673,
+            "text": "Toxicity threshold: bupiv 1.5mcg/mL,\n  ropiv 4mcg/mL, lignocaine 5mcg/mL\n�\nCC:CNS ratio � bupivacaine 3:1,\n  ropivacaine 5:1, lignocaine 7:1\nPatient\nPK:\n�\nAbsorption: see above\n�\nDistribution: Cachexi",
+            "score": 0.6621020729826963,
+            "start": 2636,
             "end": 3324
+          },
+          {
+            "text": "2\n�\n↑Tissue blood flow -> ↓C\n2\nbut also offset of local effect\n�\nRegional variation: e.g. lower flow to\n  foot cf. scalp\n�\nDrug effect: e.g. prolonged EMLA\n  application -> vasodilation\n�\nDrug additiv",
+            "score": 0.5297745532286052,
+            "start": 1318,
+            "end": 2635
           }
         ]
       },
@@ -457,30 +459,78 @@
             "end": 2635
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.3066297472364717,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.43555429676406227,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
             "text": "↑Tissue blood flow -> ↓C\n2\nbut also offset of local effect\n�\nRegional variation: e.g. lower flow to\n  foot cf. scalp\n�\nDrug effect: e.g. prolonged EMLA\n  application -> vasodilation\n�\nDrug additive: a",
-            "score": 0.3066297472364717,
+            "score": 0.43555429676406227,
             "start": 1322,
             "end": 2672
           },
           {
             "text": "  ropiv 4mcg/mL, lignocaine 5mcg/mL\n�\nCC:CNS ratio � bupivacaine 3:1,\n  ropivacaine 5:1, lignocaine 7:1\nPatient\nPK:\n�\nAbsorption: see above\n�\nDistribution: Cachexia ->\n  ↑plasma concentration -> ↑risk",
-            "score": 0.19059863367246443,
+            "score": 0.11959654819828813,
             "start": 2673,
             "end": 3324
           },
           {
             "text": "2020B09\nDiscuss factors that influence the toxicity of local anaesthetics\nwhen used for topical anaesthesia of skin and mucosa.\nList:\n�\nMeans of toxicity\n�\nDeterminants of drug\nuptake\n�\nDeterminants o",
-            "score": 0.1898819772959151,
+            "score": 0.11478329593515615,
             "start": 0,
             "end": 1321
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.4504299484683989,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "��� - ↓C\n2\n�\n↑Tissue blood flow -> ↓C\n2\nbut also offset of local effect\n�\nRegional variation: e.g. lower flow to\n  foot cf. scalp\n�\nDrug effect: e.g. prolonged EMLA\n  application -> vasodilation\n�\nDru",
+            "score": 0.4504299484683989,
+            "start": 1309,
+            "end": 2610
+          },
+          {
+            "text": "Pharmacodynamics (PD):\n�\nToxicity threshold: bupiv 1.5mcg/mL,\n  ropiv 4mcg/mL, lignocaine 5mcg/mL\n�\nCC:CNS ratio � bupivacaine 3:1,\n  ropivacaine 5:1, lignocaine 7:1\nPatient\nPK:\n�\nAbsorption: see abov",
+            "score": 0.27456010762145544,
+            "start": 2611,
+            "end": 3324
+          },
+          {
+            "text": "2020B09\nDiscuss factors that influence the toxicity of local anaesthetics\nwhen used for topical anaesthesia of skin and mucosa.\nList:\n�\nMeans of toxicity\n�\nDeterminants of drug\nuptake\n�\nDeterminants o",
+            "score": 0.10450903806925663,
+            "start": 0,
+            "end": 1308
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7770815074648134,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "�\n↑Tissue blood flow -> ↓C\n2\nbut also offset of local effect\n�\nRegional variation: e.g. lower flow to\n  foot cf. scalp\n�\nDrug effect: e.g. prolonged EMLA\n  application -> vasodilation\n�\nDrug additive:",
+            "score": 0.7770815074648134,
+            "start": 1320,
+            "end": 2635
+          },
+          {
+            "text": "Toxicity threshold: bupiv 1.5mcg/mL,\n  ropiv 4mcg/mL, lignocaine 5mcg/mL\n�\nCC:CNS ratio � bupivacaine 3:1,\n  ropivacaine 5:1, lignocaine 7:1\nPatient\nPK:\n�\nAbsorption: see above\n�\nDistribution: Cachexi",
+            "score": 0.7350202275183602,
+            "start": 2636,
+            "end": 3324
+          },
+          {
+            "text": "2020B09\nDiscuss factors that influence the toxicity of local anaesthetics\nwhen used for topical anaesthesia of skin and mucosa.\nList:\n�\nMeans of toxicity\n�\nDeterminants of drug\nuptake\n�\nDeterminants o",
+            "score": 0.6929065401474209,
+            "start": 0,
+            "end": 1319
           }
         ]
       },

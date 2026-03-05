@@ -13,13 +13,14 @@
       "score": 0.6645161572457111
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "autonomic_disposition",
       "neuromuscular_process",
+      "drug_receptor_disposition",
       "organ_system_process"
     ],
     "explanatory_schema": [
-      "structure_function_link"
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
@@ -173,20 +174,20 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.8628983115034754,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.8413617446723678,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Mechanism\n·\nACh binds α-subunit of nAChR\n·\n↑Central ionophore permeability\n·\nNa\n+\ninflux = K\n+\nefflux > Ca\n2+\ninflux\n·\nDepolarisation = mini-end plate potential\n·\nSpatial + temporal summation -> actio",
-            "score": 0.8628983115034754,
-            "start": 1478,
+            "text": "Short-lived: ceases upon dissociation of ligand from receptor\nMechanism\n·\nACh binds α-subunit of nAChR\n·\n↑Central ionophore permeability\n·\nNa\n+\ninflux = K\n+\nefflux > Ca\n2+\ninflux\n·\nDepolarisation = mi",
+            "score": 0.8413617446723678,
+            "start": 1416,
             "end": 2541
           },
           {
             "text": "2012A12 Describe\nthe main mechanisms by which chemical neurotransmitters exert their effects,\nusing examples from the autonomic nervous system.\n(Previous version: classify the mechanisms of neurotrans",
-            "score": 0.4369283151783533,
+            "score": 0.7044014819049529,
             "start": 0,
-            "end": 1477
+            "end": 1415
           }
         ]
       },
@@ -281,20 +282,20 @@
         ]
       },
       "nociception_process": {
-        "score": 0.1278857710804513,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.18561555034757704,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "ACh binds α-subunit of nAChR\n·\n↑Central ionophore permeability\n·\nNa\n+\ninflux = K\n+\nefflux > Ca\n2+\ninflux\n·\nDepolarisation = mini-end plate potential\n·\nSpatial + temporal summation -> action potential\n",
-            "score": 0.1278857710804513,
-            "start": 1490,
+            "text": "Short-lived: ceases upon dissociation of ligand from receptor\nMechanism\n·\nACh binds α-subunit of nAChR\n·\n↑Central ionophore permeability\n·\nNa\n+\ninflux = K\n+\nefflux > Ca\n2+\ninflux\n·\nDepolarisation = mi",
+            "score": 0.18561555034757704,
+            "start": 1416,
             "end": 2541
           },
           {
             "text": "2012A12 Describe\nthe main mechanisms by which chemical neurotransmitters exert their effects,\nusing examples from the autonomic nervous system.\n(Previous version: classify the mechanisms of neurotrans",
-            "score": 0.10007191072786864,
+            "score": 0.15166364739002158,
             "start": 0,
-            "end": 1489
+            "end": 1415
           }
         ]
       },
@@ -351,24 +352,60 @@
             "end": 1477
           }
         ]
+      },
+      "anatomy_structure": {
+        "score": 0.15417787288657336,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "ACh binds α-subunit of nAChR\n·\n↑Central ionophore permeability\n·\nNa\n+\ninflux = K\n+\nefflux > Ca\n2+\ninflux\n·\nDepolarisation = mini-end plate potential\n·\nSpatial + temporal summation -> action potential\n",
+            "score": 0.15417787288657336,
+            "start": 1490,
+            "end": 2541
+          },
+          {
+            "text": "2012A12 Describe\nthe main mechanisms by which chemical neurotransmitters exert their effects,\nusing examples from the autonomic nervous system.\n(Previous version: classify the mechanisms of neurotrans",
+            "score": 0.1256423848664057,
+            "start": 0,
+            "end": 1489
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.1612217162063077,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Short-lived: ceases upon dissociation of ligand from receptor\nMechanism\n·\nACh binds α-subunit of nAChR\n·\n↑Central ionophore permeability\n·\nNa\n+\ninflux = K\n+\nefflux > Ca\n2+\ninflux\n·\nDepolarisation = mi",
+            "score": 0.1612217162063077,
+            "start": 1416,
+            "end": 2541
+          },
+          {
+            "text": "2012A12 Describe\nthe main mechanisms by which chemical neurotransmitters exert their effects,\nusing examples from the autonomic nervous system.\n(Previous version: classify the mechanisms of neurotrans",
+            "score": 0.08431753646250958,
+            "start": 0,
+            "end": 1415
+          }
+        ]
       }
     },
     "explanatory_schema": {
       "mechanism_effect_relevance": {
-        "score": 0.3362073236198268,
+        "score": 0.7315566687728775,
         "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "2012A12 Describe\nthe main mechanisms by which chemical neurotransmitters exert their effects,\nusing examples from the autonomic nervous system.\n(Previous version: classify the mechanisms of neurotrans",
-            "score": 0.3362073236198268,
-            "start": 0,
-            "end": 1489
+            "text": "Short-lived: ceases upon dissociation of ligand from receptor\nMechanism\n·\nACh binds α-subunit of nAChR\n·\n↑Central ionophore permeability\n·\nNa\n+\ninflux = K\n+\nefflux > Ca\n2+\ninflux\n·\nDepolarisation = mi",
+            "score": 0.7315566687728775,
+            "start": 1416,
+            "end": 2541
           },
           {
-            "text": "ACh binds α-subunit of nAChR\n·\n↑Central ionophore permeability\n·\nNa\n+\ninflux = K\n+\nefflux > Ca\n2+\ninflux\n·\nDepolarisation = mini-end plate potential\n·\nSpatial + temporal summation -> action potential\n",
-            "score": 0.3112812780886453,
-            "start": 1490,
-            "end": 2541
+            "text": "2012A12 Describe\nthe main mechanisms by which chemical neurotransmitters exert their effects,\nusing examples from the autonomic nervous system.\n(Previous version: classify the mechanisms of neurotrans",
+            "score": 0.45275922413200537,
+            "start": 0,
+            "end": 1415
           }
         ]
       },

@@ -15,6 +15,7 @@
     "content_dimensions": [
       "gas_exchange_process",
       "neuromuscular_process",
+      "clinical_measurement_process",
       "acid_base_quality"
     ],
     "explanatory_schema": [
@@ -173,18 +174,18 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.48003987074618165,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5175415122345106,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
             "text": "BBB and B-CSF-B are impermeable to H\n+\nand OH\n-\n·\nStable pH important for brain activity\n  e.g. during intense exercise with lactic acidosis\nControl of breathing\n·\nCO\n2\ncan cross BBB, H+ cannot\n·\nCO\n2",
-            "score": 0.48003987074618165,
+            "score": 0.5175415122345106,
             "start": 1561,
             "end": 2188
           },
           {
             "text": "2011B13 Outline the physiological role of cerebrospinal fluid, including\na description of its production and fate.\nList:\n·\nCSF\ncycle\n·\nCSF functions\n·\nCSF vs\nplasma\nCSF cycle:\nLocation\n·\n150mL total\n·",
-            "score": 0.2045179371314406,
+            "score": 0.19203673272679375,
             "start": 0,
             "end": 1560
           }
@@ -281,19 +282,19 @@
         ]
       },
       "nociception_process": {
-        "score": 0.10007191072786864,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.18280318375806526,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
             "text": "2011B13 Outline the physiological role of cerebrospinal fluid, including\na description of its production and fate.\nList:\n·\nCSF\ncycle\n·\nCSF functions\n·\nCSF vs\nplasma\nCSF cycle:\nLocation\n·\n150mL total\n·",
-            "score": 0.10007191072786864,
+            "score": 0.18280318375806526,
             "start": 0,
-            "end": 1606
+            "end": 1560
           },
           {
-            "text": "-\n·\nStable pH important for brain activity\n  e.g. during intense exercise with lactic acidosis\nControl of breathing\n·\nCO\n2\ncan cross BBB, H+ cannot\n·\nCO\n2\nplasma -> CSF ->\n  brain ECF\n·\nCO\n2\n+ H\n2\nO <",
-            "score": 0.07008404688069232,
-            "start": 1607,
+            "text": "BBB and B-CSF-B are impermeable to H\n+\nand OH\n-\n·\nStable pH important for brain activity\n  e.g. during intense exercise with lactic acidosis\nControl of breathing\n·\nCO\n2\ncan cross BBB, H+ cannot\n·\nCO\n2",
+            "score": 0.14793926113385975,
+            "start": 1561,
             "end": 2188
           }
         ]
@@ -351,24 +352,60 @@
             "end": 1560
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.2534634949725546,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.32304731886392163,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Stable pH important for brain activity\n  e.g. during intense exercise with lactic acidosis\nControl of breathing\n·\nCO\n2\ncan cross BBB, H+ cannot\n·\nCO\n2\nplasma -> CSF ->\n  brain ECF\n·\nCO\n2\n+ H\n2\nO <->\n ",
-            "score": 0.2534634949725546,
-            "start": 1611,
+            "text": "-\n·\nStable pH important for brain activity\n  e.g. during intense exercise with lactic acidosis\nControl of breathing\n·\nCO\n2\ncan cross BBB, H+ cannot\n·\nCO\n2\nplasma -> CSF ->\n  brain ECF\n·\nCO\n2\n+ H\n2\nO <",
+            "score": 0.32304731886392163,
+            "start": 1607,
             "end": 2188
           },
           {
             "text": "2011B13 Outline the physiological role of cerebrospinal fluid, including\na description of its production and fate.\nList:\n·\nCSF\ncycle\n·\nCSF functions\n·\nCSF vs\nplasma\nCSF cycle:\nLocation\n·\n150mL total\n·",
-            "score": 0.13769065726953986,
+            "score": 0.2667086480533769,
             "start": 0,
-            "end": 1610
+            "end": 1606
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.7461147923643375,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "BBB and B-CSF-B are impermeable to H\n+\nand OH\n-\n·\nStable pH important for brain activity\n  e.g. during intense exercise with lactic acidosis\nControl of breathing\n·\nCO\n2\ncan cross BBB, H+ cannot\n·\nCO\n2",
+            "score": 0.7461147923643375,
+            "start": 1561,
+            "end": 2188
+          },
+          {
+            "text": "2011B13 Outline the physiological role of cerebrospinal fluid, including\na description of its production and fate.\nList:\n·\nCSF\ncycle\n·\nCSF functions\n·\nCSF vs\nplasma\nCSF cycle:\nLocation\n·\n150mL total\n·",
+            "score": 0.5747881218983822,
+            "start": 0,
+            "end": 1560
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.466291546652012,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "BBB and B-CSF-B are impermeable to H\n+\nand OH\n-\n·\nStable pH important for brain activity\n  e.g. during intense exercise with lactic acidosis\nControl of breathing\n·\nCO\n2\ncan cross BBB, H+ cannot\n·\nCO\n2",
+            "score": 0.466291546652012,
+            "start": 1561,
+            "end": 2188
+          },
+          {
+            "text": "2011B13 Outline the physiological role of cerebrospinal fluid, including\na description of its production and fate.\nList:\n·\nCSF\ncycle\n·\nCSF functions\n·\nCSF vs\nplasma\nCSF cycle:\nLocation\n·\n150mL total\n·",
+            "score": 0.1592817529828625,
+            "start": 0,
+            "end": 1560
           }
         ]
       },

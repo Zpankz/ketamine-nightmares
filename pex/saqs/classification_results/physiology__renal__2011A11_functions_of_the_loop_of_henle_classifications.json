@@ -10,11 +10,11 @@
       "score": 0.6142382595937566
     },
     "content_dimensions": [
-      "drug_receptor_disposition",
       "organ_system_process",
       "pharmacokinetic_process"
     ],
     "explanatory_schema": [
+      "mechanism_effect_relevance",
       "homeostatic_regulation",
       "structure_function_link"
     ]
@@ -218,26 +218,26 @@
     },
     "content_dimensions": {
       "drug_receptor_disposition": {
-        "score": 0.7643130528396533,
-        "description": "Drug-receptor/target interactions (BFO: disposition)",
+        "score": 0.5088227854559562,
+        "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Renin release from juxtaglomerular cell -> ↑Angiotensin 2\n·\nGeneralised vasoconstriction -> ↑mAP -> ↑RBF and GFR\n·\nEfferent > afferent arteriolar vasoconstriction -> GFP\n±\nGFR\n·\n↑Na\n+\n/H\n2\nO reabsorp",
-            "score": 0.7643130528396533,
-            "start": 3134,
+            "text": "release b) ↓adenosine (as\n  above)\n·\n↑Renin release from juxtaglomerular cell -> ↑Angiotensin 2\n·\nGeneralised vasoconstriction -> ↑mAP -> ↑RBF and GFR\n·\nEfferent > afferent arteriolar vasoconstriction",
+            "score": 0.5088227854559562,
+            "start": 3097,
             "end": 3400
           },
           {
-            "text": "2011A11 Describe\nthe functions of the loop of Henle, including the physiological mechanisms\ninvolved.\nList:\n·\nSummary of functions\n·\nDiagramme of juxtamedullary nephron\n·\nReabsorption\n·\nCountercurrent",
-            "score": 0.4953561337445912,
-            "start": 0,
-            "end": 1559
+            "text": "  that filtered)\n·\nEffects: ↑urine osmolality, ↓interstial osmolality\nbut not back\n  to starting level\nSteps 3+\n·\nProcess is repeated hence amplified\nUrea recycling:\nUrea handling\n·\nFreely filtered\n·\n",
+            "score": 0.28476003114035586,
+            "start": 1541,
+            "end": 3096
           },
           {
-            "text": "Effects: ↑urine osmolality, ↓interstial osmolality\nbut not back\n  to starting level\nSteps 3+\n·\nProcess is repeated hence amplified\nUrea recycling:\nUrea handling\n·\nFreely filtered\n·\n50% reabsorbed by p",
-            "score": 0.3369314435607793,
-            "start": 1560,
-            "end": 3133
+            "text": "2011A11 Describe\nthe functions of the loop of Henle, including the physiological mechanisms\ninvolved.\nList:\n·\nSummary of functions\n·\nDiagramme of juxtamedullary nephron\n·\nReabsorption\n·\nCountercurrent",
+            "score": 0.2767616374358241,
+            "start": 0,
+            "end": 1540
           }
         ]
       },
@@ -362,26 +362,26 @@
         ]
       },
       "nociception_process": {
-        "score": 0.13417982729181727,
-        "description": "Pain pathways and analgesia (BFO: process)",
+        "score": 0.17794296815077074,
+        "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Renin release from juxtaglomerular cell -> ↑Angiotensin 2\n·\nGeneralised vasoconstriction -> ↑mAP -> ↑RBF and GFR\n·\nEfferent > afferent arteriolar vasoconstriction -> GFP\n±\nGFR\n·\n↑Na\n+\n/H\n2\nO reabsorp",
-            "score": 0.13417982729181727,
-            "start": 3134,
+            "text": "2011A11 Describe\nthe functions of the loop of Henle, including the physiological mechanisms\ninvolved.\nList:\n·\nSummary of functions\n·\nDiagramme of juxtamedullary nephron\n·\nReabsorption\n·\nCountercurrent",
+            "score": 0.17794296815077074,
+            "start": 0,
+            "end": 1557
+          },
+          {
+            "text": "  above)\n·\n↑Renin release from juxtaglomerular cell -> ↑Angiotensin 2\n·\nGeneralised vasoconstriction -> ↑mAP -> ↑RBF and GFR\n·\nEfferent > afferent arteriolar vasoconstriction -> GFP\n±\nGFR\n·\n↑Na\n+\n/H\n2",
+            "score": 0.1592817529828625,
+            "start": 3123,
             "end": 3400
           },
           {
-            "text": "2011A11 Describe\nthe functions of the loop of Henle, including the physiological mechanisms\ninvolved.\nList:\n·\nSummary of functions\n·\nDiagramme of juxtamedullary nephron\n·\nReabsorption\n·\nCountercurrent",
-            "score": 0.08300191741623564,
-            "start": 0,
-            "end": 1559
-          },
-          {
-            "text": "Effects: ↑urine osmolality, ↓interstial osmolality\nbut not back\n  to starting level\nSteps 3+\n·\nProcess is repeated hence amplified\nUrea recycling:\nUrea handling\n·\nFreely filtered\n·\n50% reabsorbed by p",
-            "score": 0.07168292080041282,
-            "start": 1560,
-            "end": 3133
+            "text": "·\nEffects: ↑urine osmolality, ↓interstial osmolality\nbut not back\n  to starting level\nSteps 3+\n·\nProcess is repeated hence amplified\nUrea recycling:\nUrea handling\n·\nFreely filtered\n·\n50% reabsorbed by",
+            "score": 0.12068239347016409,
+            "start": 1558,
+            "end": 3122
           }
         ]
       },
@@ -456,28 +456,76 @@
             "end": 3133
           }
         ]
-      }
-    },
-    "explanatory_schema": {
-      "mechanism_effect_relevance": {
-        "score": 0.43555429676406227,
-        "description": "Mechanism → effect → clinical relevance chain",
+      },
+      "anatomy_structure": {
+        "score": 0.4702750545997272,
+        "description": "Named anatomical structures and regions (BFO: material entity)",
         "top_chunks": [
           {
-            "text": "Effects: ↑urine osmolality, ↓interstial osmolality\nbut not back\n  to starting level\nSteps 3+\n·\nProcess is repeated hence amplified\nUrea recycling:\nUrea handling\n·\nFreely filtered\n·\n50% reabsorbed by p",
-            "score": 0.43555429676406227,
-            "start": 1560,
-            "end": 3133
-          },
-          {
             "text": "↑Renin release from juxtaglomerular cell -> ↑Angiotensin 2\n·\nGeneralised vasoconstriction -> ↑mAP -> ↑RBF and GFR\n·\nEfferent > afferent arteriolar vasoconstriction -> GFP\n±\nGFR\n·\n↑Na\n+\n/H\n2\nO reabsorp",
-            "score": 0.25642330901735677,
+            "score": 0.4702750545997272,
             "start": 3134,
             "end": 3400
           },
           {
             "text": "2011A11 Describe\nthe functions of the loop of Henle, including the physiological mechanisms\ninvolved.\nList:\n·\nSummary of functions\n·\nDiagramme of juxtamedullary nephron\n·\nReabsorption\n·\nCountercurrent",
-            "score": 0.19565989102814468,
+            "score": 0.1898819772959151,
+            "start": 0,
+            "end": 1559
+          },
+          {
+            "text": "Effects: ↑urine osmolality, ↓interstial osmolality\nbut not back\n  to starting level\nSteps 3+\n·\nProcess is repeated hence amplified\nUrea recycling:\nUrea handling\n·\nFreely filtered\n·\n50% reabsorbed by p",
+            "score": 0.1835038816726888,
+            "start": 1560,
+            "end": 3133
+          }
+        ]
+      },
+      "clinical_measurement_process": {
+        "score": 0.3287625795101406,
+        "description": "Clinical monitoring and measurement principles (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "release b) ↓adenosine (as\n  above)\n·\n↑Renin release from juxtaglomerular cell -> ↑Angiotensin 2\n·\nGeneralised vasoconstriction -> ↑mAP -> ↑RBF and GFR\n·\nEfferent > afferent arteriolar vasoconstriction",
+            "score": 0.3287625795101406,
+            "start": 3097,
+            "end": 3400
+          },
+          {
+            "text": "2011A11 Describe\nthe functions of the loop of Henle, including the physiological mechanisms\ninvolved.\nList:\n·\nSummary of functions\n·\nDiagramme of juxtamedullary nephron\n·\nReabsorption\n·\nCountercurrent",
+            "score": 0.18140657479987835,
+            "start": 0,
+            "end": 1540
+          },
+          {
+            "text": "  that filtered)\n·\nEffects: ↑urine osmolality, ↓interstial osmolality\nbut not back\n  to starting level\nSteps 3+\n·\nProcess is repeated hence amplified\nUrea recycling:\nUrea handling\n·\nFreely filtered\n·\n",
+            "score": 0.13592835209685608,
+            "start": 1541,
+            "end": 3096
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7691477768734674,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Effects: ↑urine osmolality, ↓interstial osmolality\nbut not back\n  to starting level\nSteps 3+\n·\nProcess is repeated hence amplified\nUrea recycling:\nUrea handling\n·\nFreely filtered\n·\n50% reabsorbed by p",
+            "score": 0.7691477768734674,
+            "start": 1560,
+            "end": 3122
+          },
+          {
+            "text": "  above)\n·\n↑Renin release from juxtaglomerular cell -> ↑Angiotensin 2\n·\nGeneralised vasoconstriction -> ↑mAP -> ↑RBF and GFR\n·\nEfferent > afferent arteriolar vasoconstriction -> GFP\n±\nGFR\n·\n↑Na\n+\n/H\n2",
+            "score": 0.45700056778667447,
+            "start": 3123,
+            "end": 3400
+          },
+          {
+            "text": "2011A11 Describe\nthe functions of the loop of Henle, including the physiological mechanisms\ninvolved.\nList:\n·\nSummary of functions\n·\nDiagramme of juxtamedullary nephron\n·\nReabsorption\n·\nCountercurrent",
+            "score": 0.2619682848045116,
             "start": 0,
             "end": 1559
           }
