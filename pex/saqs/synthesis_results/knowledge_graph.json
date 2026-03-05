@@ -1,0 +1,713 @@
+{
+  "statistics": {
+    "total_nodes": 395,
+    "total_edges": 100,
+    "node_types": {
+      "document": 382,
+      "dimension": 9,
+      "schema": 4
+    },
+    "edge_types": {
+      "has_dimension": 72,
+      "exhibits_schema": 24,
+      "co_occurs": 4
+    },
+    "bfo_categories": {
+      "bfo:generically_dependent_continuant": 382,
+      "bfo:process": 9,
+      "bfo:material_entity": 1,
+      "bfo:disposition": 1,
+      "bfo:role": 1,
+      "bfo:quality": 1
+    },
+    "doc_degree_mean": 2.823529411764706,
+    "doc_degree_max": 8,
+    "doc_degree_min": 1
+  },
+  "nodes": {
+    "dim:nociception_process": {
+      "type": "dimension",
+      "bfo_category": "bfo:process",
+      "name": "nociception_process",
+      "doc_count": 6
+    },
+    "dim:equipment_and_physics": {
+      "type": "dimension",
+      "bfo_category": "bfo:material_entity",
+      "name": "equipment_and_physics",
+      "doc_count": 25
+    },
+    "dim:neuromuscular_process": {
+      "type": "dimension",
+      "bfo_category": "bfo:process",
+      "name": "neuromuscular_process",
+      "doc_count": 6
+    },
+    "dim:pharmacokinetic_process": {
+      "type": "dimension",
+      "bfo_category": "bfo:process",
+      "name": "pharmacokinetic_process",
+      "doc_count": 2
+    },
+    "dim:organ_system_process": {
+      "type": "dimension",
+      "bfo_category": "bfo:process",
+      "name": "organ_system_process",
+      "doc_count": 12
+    },
+    "dim:drug_receptor_disposition": {
+      "type": "dimension",
+      "bfo_category": "bfo:disposition",
+      "name": "drug_receptor_disposition",
+      "doc_count": 2
+    },
+    "dim:gas_exchange_process": {
+      "type": "dimension",
+      "bfo_category": "bfo:process",
+      "name": "gas_exchange_process",
+      "doc_count": 10
+    },
+    "dim:special_population_role": {
+      "type": "dimension",
+      "bfo_category": "bfo:role",
+      "name": "special_population_role",
+      "doc_count": 3
+    },
+    "dim:acid_base_quality": {
+      "type": "dimension",
+      "bfo_category": "bfo:quality",
+      "name": "acid_base_quality",
+      "doc_count": 6
+    },
+    "schema:dose_response_relationship": {
+      "type": "schema",
+      "bfo_category": "bfo:process",
+      "name": "dose_response_relationship",
+      "doc_count": 1
+    },
+    "schema:homeostatic_regulation": {
+      "type": "schema",
+      "bfo_category": "bfo:process",
+      "name": "homeostatic_regulation",
+      "doc_count": 5
+    },
+    "schema:mechanism_effect_relevance": {
+      "type": "schema",
+      "bfo_category": "bfo:process",
+      "name": "mechanism_effect_relevance",
+      "doc_count": 9
+    },
+    "schema:structure_function_link": {
+      "type": "schema",
+      "bfo_category": "bfo:process",
+      "name": "structure_function_link",
+      "doc_count": 9
+    }
+  },
+  "edges": [
+    {
+      "source": "doc:other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
+      "target": "dim:nociception_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
+      "target": "dim:neuromuscular_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
+      "target": "dim:neuromuscular_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
+      "target": "dim:neuromuscular_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
+      "target": "dim:nociception_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
+      "target": "dim:drug_receptor_disposition",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004A13_renal_clearance.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004A13_renal_clearance.htm",
+      "target": "dim:special_population_role",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004A13_renal_clearance.htm",
+      "target": "dim:pharmacokinetic_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004A13_renal_clearance.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004B11_oximetry.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004B11_oximetry.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004B11_oximetry.htm",
+      "target": "dim:acid_base_quality",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004B11_oximetry.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2005A16_cardiac_output_monitoring_doppler_ultrasonography.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+      "target": "dim:neuromuscular_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+      "target": "dim:nociception_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+      "target": "dim:acid_base_quality",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+      "target": "dim:drug_receptor_disposition",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A15_cardiac_output_monitoring_thermodilution.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A15_cardiac_output_monitoring_thermodilution.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2011B14_respiratory_function_tests_small_airway_obstruction.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2011B14_respiratory_function_tests_small_airway_obstruction.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2011B14_respiratory_function_tests_small_airway_obstruction.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A10_arterial_pressure_waveforms.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A11_respiratory_flow_volume_curves.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A11_respiratory_flow_volume_curves.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A11_respiratory_flow_volume_curves.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A15_liver_function_tests.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A15_liver_function_tests.htm",
+      "target": "dim:acid_base_quality",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A15_liver_function_tests.htm",
+      "target": "dim:special_population_role",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017B04_electroencephalography_in_anaesthesia.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017B04_electroencephalography_in_anaesthesia.htm",
+      "target": "dim:neuromuscular_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm",
+      "target": "dim:nociception_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2019A06_renal_function_tests.htm",
+      "target": "dim:pharmacokinetic_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2019A15_pulse_oximetry_sources_of_inaccuracy.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2019A15_pulse_oximetry_sources_of_inaccuracy.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2020B06_capnograph.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2020B06_capnograph.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2020B06_capnograph.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2020B06_capnograph.htm",
+      "target": "dim:special_population_role",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2020B06_capnograph.htm",
+      "target": "dim:acid_base_quality",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+      "target": "dim:neuromuscular_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+      "target": "dim:nociception_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2021B05_pa_catheter_insertion.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2021B05_pa_catheter_insertion.htm",
+      "target": "dim:organ_system_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2021B05_pa_catheter_insertion.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/1999B07_clark_electrode.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/1999B07_clark_electrode.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2008B09_hygrometers_and_humidity.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2012A10_pneumotachographs.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2014A08_surgical_diathermy.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2014B04_anaesthetic_gas_scavenging.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2014B04_anaesthetic_gas_scavenging.htm",
+      "target": "dim:acid_base_quality",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2015B13_fuel_cell_and_paramagnetic_oxygen_analyser.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2015B15_electrical_safety.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2016A01_sidestream_capnography.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2016A01_sidestream_capnography.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2016A02_circle_breathing_system.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2016A02_circle_breathing_system.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2016B08_vacuum_insulated_evaporator.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2016B08_vacuum_insulated_evaporator.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2017A02_oxygen_delivery_devices.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2017A02_oxygen_delivery_devices.htm",
+      "target": "dim:gas_exchange_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2017B02_variable_bypass_vapouriser_function_and_accuracy.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2018A04_co2_absorbents_hazards.htm",
+      "target": "dim:equipment_and_physics",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2018A04_co2_absorbents_hazards.htm",
+      "target": "dim:nociception_process",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/equipment/2018A04_co2_absorbents_hazards.htm",
+      "target": "dim:acid_base_quality",
+      "type": "has_dimension",
+      "bfo_relation": "bfo:is_about"
+    },
+    {
+      "source": "doc:other/anatomy/2013A08_laryngeal_anatomy.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/anatomy/2014B01_cubital_fossa_anatomy.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004A13_renal_clearance.htm",
+      "target": "schema:homeostatic_regulation",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2004A13_renal_clearance.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+      "target": "schema:homeostatic_regulation",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+      "target": "schema:dose_response_relationship",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A10_arterial_pressure_waveforms.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A11_respiratory_flow_volume_curves.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A11_respiratory_flow_volume_curves.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A15_liver_function_tests.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017A15_liver_function_tests.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2017B04_electroencephalography_in_anaesthesia.htm",
+      "target": "schema:homeostatic_regulation",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2020B06_capnograph.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2020B06_capnograph.htm",
+      "target": "schema:homeostatic_regulation",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2020B06_capnograph.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+      "target": "schema:structure_function_link",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/equipment/2017B02_variable_bypass_vapouriser_function_and_accuracy.htm",
+      "target": "schema:mechanism_effect_relevance",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "doc:other/equipment/2017B02_variable_bypass_vapouriser_function_and_accuracy.htm",
+      "target": "schema:homeostatic_regulation",
+      "type": "exhibits_schema",
+      "bfo_relation": "bfo:realized_in"
+    },
+    {
+      "source": "dim:equipment_and_physics",
+      "target": "dim:organ_system_process",
+      "type": "co_occurs",
+      "bfo_relation": "bfo:correlated_with",
+      "weight": 8
+    },
+    {
+      "source": "dim:equipment_and_physics",
+      "target": "dim:gas_exchange_process",
+      "type": "co_occurs",
+      "bfo_relation": "bfo:correlated_with",
+      "weight": 10
+    },
+    {
+      "source": "dim:acid_base_quality",
+      "target": "dim:equipment_and_physics",
+      "type": "co_occurs",
+      "bfo_relation": "bfo:correlated_with",
+      "weight": 5
+    },
+    {
+      "source": "dim:gas_exchange_process",
+      "target": "dim:organ_system_process",
+      "type": "co_occurs",
+      "bfo_relation": "bfo:correlated_with",
+      "weight": 5
+    }
+  ]
+}

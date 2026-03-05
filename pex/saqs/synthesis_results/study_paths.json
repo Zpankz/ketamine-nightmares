@@ -1,0 +1,460 @@
+[
+  {
+    "dimension": "nociception_process",
+    "bfo_category": "bfo:process",
+    "num_steps": 6,
+    "progression": [
+      "factual_recall",
+      "factual_recall",
+      "mechanistic_explanation",
+      "comparative_analysis",
+      "comparative_analysis",
+      "applied_clinical"
+    ],
+    "steps": [
+      {
+        "document": "other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "mechanism_effect_relevance"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "mechanism_effect_relevance"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "mechanism_effect_relevance"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "homeostatic_regulation",
+          "mechanism_effect_relevance",
+          "dose_response_relationship"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/equipment/2018A04_co2_absorbents_hazards.htm",
+        "cognitive_domain": "applied_clinical",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": []
+      }
+    ]
+  },
+  {
+    "dimension": "neuromuscular_process",
+    "bfo_category": "bfo:process",
+    "num_steps": 6,
+    "progression": [
+      "factual_recall",
+      "factual_recall",
+      "mechanistic_explanation",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis"
+    ],
+    "steps": [
+      {
+        "document": "other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "mechanism_effect_relevance"
+        ]
+      },
+      {
+        "document": "other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
+        "cognitive_domain": "mechanistic_explanation",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "mechanism_effect_relevance"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "homeostatic_regulation",
+          "mechanism_effect_relevance",
+          "dose_response_relationship"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2017B04_electroencephalography_in_anaesthesia.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "structure_function_link"
+        ]
+      }
+    ]
+  },
+  {
+    "dimension": "organ_system_process",
+    "bfo_category": "bfo:process",
+    "num_steps": 8,
+    "progression": [
+      "factual_recall",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis",
+      "quantitative_reasoning",
+      "quantitative_reasoning",
+      "quantitative_reasoning"
+    ],
+    "steps": [
+      {
+        "document": "other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2004A13_renal_clearance.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "homeostatic_regulation",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2017A10_arterial_pressure_waveforms.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2017A15_liver_function_tests.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2021B05_pa_catheter_insertion.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "integrative",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2004B11_oximetry.htm",
+        "cognitive_domain": "quantitative_reasoning",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2005A16_cardiac_output_monitoring_doppler_ultrasonography.htm",
+        "cognitive_domain": "quantitative_reasoning",
+        "clinical_relevance": "integrative",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2010A15_cardiac_output_monitoring_thermodilution.htm",
+        "cognitive_domain": "quantitative_reasoning",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": []
+      }
+    ]
+  },
+  {
+    "dimension": "equipment_and_physics",
+    "bfo_category": "bfo:material_entity",
+    "num_steps": 8,
+    "progression": [
+      "factual_recall",
+      "factual_recall",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis",
+      "comparative_analysis"
+    ],
+    "steps": [
+      {
+        "document": "other/clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "mechanism_effect_relevance"
+        ]
+      },
+      {
+        "document": "other/equipment/2008B09_hygrometers_and_humidity.htm",
+        "cognitive_domain": "factual_recall",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2004A13_renal_clearance.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "homeostatic_regulation",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "homeostatic_regulation",
+          "mechanism_effect_relevance",
+          "dose_response_relationship"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2017B04_electroencephalography_in_anaesthesia.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "homeostatic_regulation"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2021B05_pa_catheter_insertion.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "integrative",
+        "schemas": []
+      },
+      {
+        "document": "other/equipment/2017A02_oxygen_delivery_devices.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "integrative",
+        "schemas": []
+      }
+    ]
+  },
+  {
+    "dimension": "special_population_role",
+    "bfo_category": "bfo:role",
+    "num_steps": 3,
+    "progression": [
+      "comparative_analysis",
+      "comparative_analysis",
+      "applied_clinical"
+    ],
+    "steps": [
+      {
+        "document": "other/clinical_measurement/2004A13_renal_clearance.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "homeostatic_regulation",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2017A15_liver_function_tests.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2020B06_capnograph.htm",
+        "cognitive_domain": "applied_clinical",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "homeostatic_regulation",
+          "structure_function_link"
+        ]
+      }
+    ]
+  },
+  {
+    "dimension": "gas_exchange_process",
+    "bfo_category": "bfo:process",
+    "num_steps": 8,
+    "progression": [
+      "comparative_analysis",
+      "comparative_analysis",
+      "quantitative_reasoning",
+      "quantitative_reasoning",
+      "quantitative_reasoning",
+      "quantitative_reasoning",
+      "applied_clinical",
+      "applied_clinical"
+    ],
+    "steps": [
+      {
+        "document": "other/clinical_measurement/2021B05_pa_catheter_insertion.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "integrative",
+        "schemas": []
+      },
+      {
+        "document": "other/equipment/2017A02_oxygen_delivery_devices.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "integrative",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2004B11_oximetry.htm",
+        "cognitive_domain": "quantitative_reasoning",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2011B14_respiratory_function_tests_small_airway_obstruction.htm",
+        "cognitive_domain": "quantitative_reasoning",
+        "clinical_relevance": "integrative",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2017A11_respiratory_flow_volume_curves.htm",
+        "cognitive_domain": "quantitative_reasoning",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "structure_function_link",
+          "mechanism_effect_relevance"
+        ]
+      },
+      {
+        "document": "other/equipment/2016B08_vacuum_insulated_evaporator.htm",
+        "cognitive_domain": "quantitative_reasoning",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2020B06_capnograph.htm",
+        "cognitive_domain": "applied_clinical",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "homeostatic_regulation",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/equipment/1999B07_clark_electrode.htm",
+        "cognitive_domain": "applied_clinical",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      }
+    ]
+  },
+  {
+    "dimension": "acid_base_quality",
+    "bfo_category": "bfo:quality",
+    "num_steps": 6,
+    "progression": [
+      "comparative_analysis",
+      "comparative_analysis",
+      "quantitative_reasoning",
+      "applied_clinical",
+      "applied_clinical",
+      "applied_clinical"
+    ],
+    "steps": [
+      {
+        "document": "other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "homeostatic_regulation",
+          "mechanism_effect_relevance",
+          "dose_response_relationship"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2017A15_liver_function_tests.htm",
+        "cognitive_domain": "comparative_analysis",
+        "clinical_relevance": "foundational_science",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/clinical_measurement/2004B11_oximetry.htm",
+        "cognitive_domain": "quantitative_reasoning",
+        "clinical_relevance": "foundational_science",
+        "schemas": []
+      },
+      {
+        "document": "other/clinical_measurement/2020B06_capnograph.htm",
+        "cognitive_domain": "applied_clinical",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": [
+          "mechanism_effect_relevance",
+          "homeostatic_regulation",
+          "structure_function_link"
+        ]
+      },
+      {
+        "document": "other/equipment/2014B04_anaesthetic_gas_scavenging.htm",
+        "cognitive_domain": "applied_clinical",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": []
+      },
+      {
+        "document": "other/equipment/2018A04_co2_absorbents_hazards.htm",
+        "cognitive_domain": "applied_clinical",
+        "clinical_relevance": "immediately_applicable",
+        "schemas": []
+      }
+    ]
+  }
+]
