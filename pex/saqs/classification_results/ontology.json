@@ -1,0 +1,108 @@
+{
+  "cognitive_domain": {
+    "factual_recall": {
+      "query": "{This requires listing, naming, or defining specific facts, values, or classifications}",
+      "is_iql": true,
+      "description": "Pure recall of facts, values, definitions, or lists"
+    },
+    "mechanistic_explanation": {
+      "query": "{This requires explaining a physiological mechanism or pharmacological mechanism of action} AND {This describes how or why something occurs at a molecular, cellular, or systems level}",
+      "is_iql": true,
+      "description": "Explain how/why at mechanistic level"
+    },
+    "comparative_analysis": {
+      "query": "{This requires comparing or contrasting two or more drugs, agents, techniques, or physiological processes}",
+      "is_iql": true,
+      "description": "Compare/contrast multiple entities"
+    },
+    "quantitative_reasoning": {
+      "query": "{This requires calculating, deriving equations, interpreting graphs, or applying mathematical relationships}",
+      "is_iql": true,
+      "description": "Mathematical or graphical reasoning required"
+    },
+    "applied_clinical": {
+      "query": "{This requires applying pharmacological or physiological knowledge to a clinical scenario, patient management decision, or practical technique}",
+      "is_iql": true,
+      "description": "Apply knowledge to clinical scenarios"
+    }
+  },
+  "clinical_relevance": {
+    "immediately_applicable": {
+      "query": "{This content directly describes drug dosing, monitoring techniques, equipment operation, or patient management decisions used during anaesthesia}",
+      "is_iql": true,
+      "description": "Directly used at the bedside"
+    },
+    "foundational_science": {
+      "query": "{This content describes basic science mechanisms, cellular physiology, or molecular pharmacology that underpins clinical practice but is not directly applied at the bedside}",
+      "is_iql": true,
+      "description": "Underlying science that informs practice"
+    },
+    "integrative": {
+      "query": "{This content bridges basic science and clinical practice by explaining how physiological or pharmacological principles translate into clinical effects or treatment decisions}",
+      "is_iql": true,
+      "description": "Bridges basic science to clinical application"
+    }
+  },
+  "content_dimensions": {
+    "dose_response_kinetics": {
+      "query": "{This discusses dose-response relationships, pharmacokinetic parameters, half-life, clearance, volume of distribution, bioavailability, or drug concentration curves}",
+      "is_iql": true,
+      "description": "PK/PD parameters and dose-response"
+    },
+    "receptor_pharmacology": {
+      "query": "{This discusses specific receptors, receptor subtypes, agonists, antagonists, receptor binding, signal transduction pathways, or second messenger systems}",
+      "is_iql": true,
+      "description": "Receptor mechanisms and ligand interactions"
+    },
+    "organ_system_effects": {
+      "query": "{This discusses effects on the cardiovascular system, respiratory system, central nervous system, renal system, hepatic system, or other organ systems}",
+      "is_iql": true,
+      "description": "Multi-organ or systems-level effects"
+    },
+    "special_populations": {
+      "query": "{This discusses altered physiology or pharmacology in pregnancy, neonates, the elderly, obese patients, or patients with renal or hepatic impairment}",
+      "is_iql": true,
+      "description": "Pregnancy, neonatal, elderly, obesity, organ failure"
+    },
+    "monitoring_and_measurement": {
+      "query": "{This discusses clinical measurement techniques, monitoring devices, transducers, waveform interpretation, or laboratory investigations}",
+      "is_iql": true,
+      "description": "Clinical measurement and monitoring"
+    },
+    "physics_and_engineering": {
+      "query": "{This discusses physical principles, gas laws, fluid dynamics, electrical safety, laser physics, or the engineering principles of anaesthetic equipment}",
+      "is_iql": true,
+      "description": "Physics and equipment engineering principles"
+    },
+    "acid_base_and_electrolytes": {
+      "query": "{This discusses acid-base balance, pH regulation, buffer systems, electrolyte homeostasis, or disorders of sodium, potassium, calcium, or magnesium}",
+      "is_iql": true,
+      "description": "Acid-base and electrolyte physiology"
+    },
+    "autonomic_nervous_system": {
+      "query": "{This discusses the sympathetic nervous system, parasympathetic nervous system, autonomic reflexes, catecholamines, cholinergic transmission, or autonomic pharmacology}",
+      "is_iql": true,
+      "description": "ANS physiology and pharmacology"
+    },
+    "haemostasis_and_transfusion": {
+      "query": "{This discusses coagulation pathways, platelet function, anticoagulant drugs, thrombolysis, blood products, transfusion reactions, or point-of-care coagulation testing}",
+      "is_iql": true,
+      "description": "Coagulation, bleeding, and transfusion"
+    },
+    "pain_and_analgesia": {
+      "query": "{This discusses nociception, pain pathways, analgesic mechanisms, opioid pharmacology, local anaesthetic mechanisms, or regional anaesthesia techniques}",
+      "is_iql": true,
+      "description": "Pain physiology and analgesic pharmacology"
+    },
+    "respiratory_gas_exchange": {
+      "query": "{This discusses oxygen transport, carbon dioxide transport, ventilation-perfusion matching, the oxygen-haemoglobin dissociation curve, dead space, or shunt}",
+      "is_iql": true,
+      "description": "Gas exchange and oxygen delivery"
+    },
+    "neuromuscular_and_cns": {
+      "query": "{This discusses neuromuscular transmission, muscle relaxants, neuromuscular monitoring, the blood-brain barrier, cerebral blood flow, intracranial pressure, or mechanisms of general anaesthesia}",
+      "is_iql": true,
+      "description": "Neuromuscular and central nervous system"
+    }
+  }
+}

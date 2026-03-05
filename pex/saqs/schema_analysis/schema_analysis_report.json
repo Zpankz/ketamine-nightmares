@@ -1,0 +1,3006 @@
+{
+  "metadata": {
+    "documents_analyzed": 381,
+    "preview_mode": true
+  },
+  "stage_1_activation": {
+    "total_documents": 381,
+    "dimensions_per_doc": {
+      "mean": 5.874015748031496,
+      "median": 6.0,
+      "std": 2.8533503611047433,
+      "min": 0,
+      "max": 12,
+      "p25": 4.0,
+      "p75": 8.0
+    },
+    "activation_rates": {
+      "acid_base_and_electrolytes": 0.1968503937007874,
+      "autonomic_nervous_system": 0.29133858267716534,
+      "dose_response_kinetics": 0.7322834645669292,
+      "haemostasis_and_transfusion": 0.7401574803149606,
+      "monitoring_and_measurement": 0.3700787401574803,
+      "neuromuscular_and_cns": 0.48556430446194226,
+      "organ_system_effects": 0.48293963254593175,
+      "pain_and_analgesia": 0.5695538057742782,
+      "physics_and_engineering": 0.5748031496062992,
+      "receptor_pharmacology": 0.7637795275590551,
+      "respiratory_gas_exchange": 0.2572178477690289,
+      "special_populations": 0.4094488188976378
+    },
+    "high_activation": {
+      "dose_response_kinetics": 0.7322834645669292,
+      "haemostasis_and_transfusion": 0.7401574803149606,
+      "receptor_pharmacology": 0.7637795275590551
+    },
+    "low_activation": {}
+  },
+  "stage_2_score_distributions": {
+    "acid_base_and_electrolytes": {
+      "count": 381,
+      "mean": 0.36058772034184805,
+      "std": 0.22933985432178736,
+      "median": 0.2825268951916765,
+      "p10": 0.1290165055825653,
+      "p90": 0.7553057419485449,
+      "skewness": 0.914,
+      "bimodality_coefficient": 0.703,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 203,
+        "mid_0.3_to_0.5": 87,
+        "marginal_0.5_to_0.6": 16,
+        "moderate_0.6_to_0.8": 52,
+        "high_0.8_to_1.0": 23
+      }
+    },
+    "autonomic_nervous_system": {
+      "count": 381,
+      "mean": 0.43514239967069124,
+      "std": 0.22203115273165208,
+      "median": 0.387538527079057,
+      "p10": 0.16317590246639627,
+      "p90": 0.7618748830474804,
+      "skewness": 0.277,
+      "bimodality_coefficient": 0.598,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 130,
+        "mid_0.3_to_0.5": 106,
+        "marginal_0.5_to_0.6": 34,
+        "moderate_0.6_to_0.8": 92,
+        "high_0.8_to_1.0": 19
+      }
+    },
+    "dose_response_kinetics": {
+      "count": 381,
+      "mean": 0.6996027539999385,
+      "std": 0.23590381648377878,
+      "median": 0.7962289807006788,
+      "p10": 0.29015475481172504,
+      "p90": 0.9178686152809965,
+      "skewness": -1.07,
+      "bimodality_coefficient": 0.731,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 41,
+        "mid_0.3_to_0.5": 38,
+        "marginal_0.5_to_0.6": 23,
+        "moderate_0.6_to_0.8": 89,
+        "high_0.8_to_1.0": 190
+      }
+    },
+    "haemostasis_and_transfusion": {
+      "count": 381,
+      "mean": 0.6878656051666645,
+      "std": 0.196582546165482,
+      "median": 0.7540631803975041,
+      "p10": 0.35622203314571915,
+      "p90": 0.8814833755667059,
+      "skewness": -0.979,
+      "bimodality_coefficient": 0.674,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 22,
+        "mid_0.3_to_0.5": 56,
+        "marginal_0.5_to_0.6": 21,
+        "moderate_0.6_to_0.8": 147,
+        "high_0.8_to_1.0": 135
+      }
+    },
+    "monitoring_and_measurement": {
+      "count": 381,
+      "mean": 0.4958626566314943,
+      "std": 0.2507888782362591,
+      "median": 0.46050779615574544,
+      "p10": 0.18420617535904918,
+      "p90": 0.8407182470171375,
+      "skewness": 0.156,
+      "bimodality_coefficient": 0.63,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 116,
+        "mid_0.3_to_0.5": 87,
+        "marginal_0.5_to_0.6": 37,
+        "moderate_0.6_to_0.8": 75,
+        "high_0.8_to_1.0": 66
+      }
+    },
+    "neuromuscular_and_cns": {
+      "count": 381,
+      "mean": 0.5459827688888359,
+      "std": 0.259397003069401,
+      "median": 0.5854638768738921,
+      "p10": 0.18774158236383576,
+      "p90": 0.8545124702668796,
+      "skewness": -0.194,
+      "bimodality_coefficient": 0.665,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 96,
+        "mid_0.3_to_0.5": 74,
+        "marginal_0.5_to_0.6": 26,
+        "moderate_0.6_to_0.8": 93,
+        "high_0.8_to_1.0": 92
+      }
+    },
+    "organ_system_effects": {
+      "count": 381,
+      "mean": 0.5230918355456095,
+      "std": 0.2876687262927564,
+      "median": 0.5724110316048316,
+      "p10": 0.12068239347016409,
+      "p90": 0.8520607388661402,
+      "skewness": -0.198,
+      "bimodality_coefficient": 0.723,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 125,
+        "mid_0.3_to_0.5": 47,
+        "marginal_0.5_to_0.6": 25,
+        "moderate_0.6_to_0.8": 97,
+        "high_0.8_to_1.0": 87
+      }
+    },
+    "pain_and_analgesia": {
+      "count": 381,
+      "mean": 0.5895942511594497,
+      "std": 0.28999498447021166,
+      "median": 0.7002869831289269,
+      "p10": 0.1573559898347826,
+      "p90": 0.9089253329175384,
+      "skewness": -0.393,
+      "bimodality_coefficient": 0.721,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 99,
+        "mid_0.3_to_0.5": 48,
+        "marginal_0.5_to_0.6": 17,
+        "moderate_0.6_to_0.8": 85,
+        "high_0.8_to_1.0": 132
+      }
+    },
+    "physics_and_engineering": {
+      "count": 381,
+      "mean": 0.5711232138124186,
+      "std": 0.2404462513819052,
+      "median": 0.657252863922428,
+      "p10": 0.18210408151009452,
+      "p90": 0.8261607538867555,
+      "skewness": -0.608,
+      "bimodality_coefficient": 0.686,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 76,
+        "mid_0.3_to_0.5": 53,
+        "marginal_0.5_to_0.6": 33,
+        "moderate_0.6_to_0.8": 157,
+        "high_0.8_to_1.0": 62
+      }
+    },
+    "receptor_pharmacology": {
+      "count": 381,
+      "mean": 0.7364107713419813,
+      "std": 0.2218604602244604,
+      "median": 0.8335354564972123,
+      "p10": 0.3552353536143021,
+      "p90": 0.9266983949908478,
+      "skewness": -1.107,
+      "bimodality_coefficient": 0.759,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 25,
+        "mid_0.3_to_0.5": 48,
+        "marginal_0.5_to_0.6": 17,
+        "moderate_0.6_to_0.8": 72,
+        "high_0.8_to_1.0": 219
+      }
+    },
+    "respiratory_gas_exchange": {
+      "count": 381,
+      "mean": 0.37222283933941086,
+      "std": 0.28939631192702703,
+      "median": 0.24718278933502774,
+      "p10": 0.10252288453633593,
+      "p90": 0.8804034518017119,
+      "skewness": 0.835,
+      "bimodality_coefficient": 0.785,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 220,
+        "mid_0.3_to_0.5": 48,
+        "marginal_0.5_to_0.6": 15,
+        "moderate_0.6_to_0.8": 34,
+        "high_0.8_to_1.0": 64
+      }
+    },
+    "special_populations": {
+      "count": 381,
+      "mean": 0.504263411965796,
+      "std": 0.2514022785034333,
+      "median": 0.4720281773761867,
+      "p10": 0.19638930530173287,
+      "p90": 0.8445555978000561,
+      "skewness": 0.097,
+      "bimodality_coefficient": 0.641,
+      "is_bimodal": true,
+      "score_buckets": {
+        "low_0_to_0.3": 113,
+        "mid_0.3_to_0.5": 85,
+        "marginal_0.5_to_0.6": 27,
+        "moderate_0.6_to_0.8": 87,
+        "high_0.8_to_1.0": 69
+      }
+    }
+  },
+  "stage_3_coactivation": {
+    "dimensions": [
+      "acid_base_and_electrolytes",
+      "autonomic_nervous_system",
+      "dose_response_kinetics",
+      "haemostasis_and_transfusion",
+      "monitoring_and_measurement",
+      "neuromuscular_and_cns",
+      "organ_system_effects",
+      "pain_and_analgesia",
+      "physics_and_engineering",
+      "receptor_pharmacology",
+      "respiratory_gas_exchange",
+      "special_populations"
+    ],
+    "jaccard_matrix": {
+      "acid_base_and_electrolytes": {
+        "acid_base_and_electrolytes": 1.0,
+        "autonomic_nervous_system": 0.163,
+        "dose_response_kinetics": 0.229,
+        "haemostasis_and_transfusion": 0.231,
+        "monitoring_and_measurement": 0.213,
+        "neuromuscular_and_cns": 0.198,
+        "organ_system_effects": 0.205,
+        "pain_and_analgesia": 0.159,
+        "physics_and_engineering": 0.19,
+        "receptor_pharmacology": 0.204,
+        "respiratory_gas_exchange": 0.201,
+        "special_populations": 0.222
+      },
+      "autonomic_nervous_system": {
+        "acid_base_and_electrolytes": 0.163,
+        "autonomic_nervous_system": 1.0,
+        "dose_response_kinetics": 0.345,
+        "haemostasis_and_transfusion": 0.319,
+        "monitoring_and_measurement": 0.26,
+        "neuromuscular_and_cns": 0.465,
+        "organ_system_effects": 0.353,
+        "pain_and_analgesia": 0.439,
+        "physics_and_engineering": 0.264,
+        "receptor_pharmacology": 0.377,
+        "respiratory_gas_exchange": 0.161,
+        "special_populations": 0.278
+      },
+      "dose_response_kinetics": {
+        "acid_base_and_electrolytes": 0.229,
+        "autonomic_nervous_system": 0.345,
+        "dose_response_kinetics": 1.0,
+        "haemostasis_and_transfusion": 0.71,
+        "monitoring_and_measurement": 0.359,
+        "neuromuscular_and_cns": 0.506,
+        "organ_system_effects": 0.528,
+        "pain_and_analgesia": 0.585,
+        "physics_and_engineering": 0.427,
+        "receptor_pharmacology": 0.717,
+        "respiratory_gas_exchange": 0.278,
+        "special_populations": 0.47
+      },
+      "haemostasis_and_transfusion": {
+        "acid_base_and_electrolytes": 0.231,
+        "autonomic_nervous_system": 0.319,
+        "dose_response_kinetics": 0.71,
+        "haemostasis_and_transfusion": 1.0,
+        "monitoring_and_measurement": 0.434,
+        "neuromuscular_and_cns": 0.492,
+        "organ_system_effects": 0.533,
+        "pain_and_analgesia": 0.498,
+        "physics_and_engineering": 0.514,
+        "receptor_pharmacology": 0.705,
+        "respiratory_gas_exchange": 0.288,
+        "special_populations": 0.47
+      },
+      "monitoring_and_measurement": {
+        "acid_base_and_electrolytes": 0.213,
+        "autonomic_nervous_system": 0.26,
+        "dose_response_kinetics": 0.359,
+        "haemostasis_and_transfusion": 0.434,
+        "monitoring_and_measurement": 1.0,
+        "neuromuscular_and_cns": 0.381,
+        "organ_system_effects": 0.419,
+        "pain_and_analgesia": 0.302,
+        "physics_and_engineering": 0.481,
+        "receptor_pharmacology": 0.346,
+        "respiratory_gas_exchange": 0.306,
+        "special_populations": 0.35
+      },
+      "neuromuscular_and_cns": {
+        "acid_base_and_electrolytes": 0.198,
+        "autonomic_nervous_system": 0.465,
+        "dose_response_kinetics": 0.506,
+        "haemostasis_and_transfusion": 0.492,
+        "monitoring_and_measurement": 0.381,
+        "neuromuscular_and_cns": 1.0,
+        "organ_system_effects": 0.506,
+        "pain_and_analgesia": 0.595,
+        "physics_and_engineering": 0.474,
+        "receptor_pharmacology": 0.526,
+        "respiratory_gas_exchange": 0.247,
+        "special_populations": 0.427
+      },
+      "organ_system_effects": {
+        "acid_base_and_electrolytes": 0.205,
+        "autonomic_nervous_system": 0.353,
+        "dose_response_kinetics": 0.528,
+        "haemostasis_and_transfusion": 0.533,
+        "monitoring_and_measurement": 0.419,
+        "neuromuscular_and_cns": 0.506,
+        "organ_system_effects": 1.0,
+        "pain_and_analgesia": 0.437,
+        "physics_and_engineering": 0.482,
+        "receptor_pharmacology": 0.489,
+        "respiratory_gas_exchange": 0.324,
+        "special_populations": 0.491
+      },
+      "pain_and_analgesia": {
+        "acid_base_and_electrolytes": 0.159,
+        "autonomic_nervous_system": 0.439,
+        "dose_response_kinetics": 0.585,
+        "haemostasis_and_transfusion": 0.498,
+        "monitoring_and_measurement": 0.302,
+        "neuromuscular_and_cns": 0.595,
+        "organ_system_effects": 0.437,
+        "pain_and_analgesia": 1.0,
+        "physics_and_engineering": 0.411,
+        "receptor_pharmacology": 0.644,
+        "respiratory_gas_exchange": 0.175,
+        "special_populations": 0.435
+      },
+      "physics_and_engineering": {
+        "acid_base_and_electrolytes": 0.19,
+        "autonomic_nervous_system": 0.264,
+        "dose_response_kinetics": 0.427,
+        "haemostasis_and_transfusion": 0.514,
+        "monitoring_and_measurement": 0.481,
+        "neuromuscular_and_cns": 0.474,
+        "organ_system_effects": 0.482,
+        "pain_and_analgesia": 0.411,
+        "physics_and_engineering": 1.0,
+        "receptor_pharmacology": 0.47,
+        "respiratory_gas_exchange": 0.338,
+        "special_populations": 0.349
+      },
+      "receptor_pharmacology": {
+        "acid_base_and_electrolytes": 0.204,
+        "autonomic_nervous_system": 0.377,
+        "dose_response_kinetics": 0.717,
+        "haemostasis_and_transfusion": 0.705,
+        "monitoring_and_measurement": 0.346,
+        "neuromuscular_and_cns": 0.526,
+        "organ_system_effects": 0.489,
+        "pain_and_analgesia": 0.644,
+        "physics_and_engineering": 0.47,
+        "receptor_pharmacology": 1.0,
+        "respiratory_gas_exchange": 0.227,
+        "special_populations": 0.419
+      },
+      "respiratory_gas_exchange": {
+        "acid_base_and_electrolytes": 0.201,
+        "autonomic_nervous_system": 0.161,
+        "dose_response_kinetics": 0.278,
+        "haemostasis_and_transfusion": 0.288,
+        "monitoring_and_measurement": 0.306,
+        "neuromuscular_and_cns": 0.247,
+        "organ_system_effects": 0.324,
+        "pain_and_analgesia": 0.175,
+        "physics_and_engineering": 0.338,
+        "receptor_pharmacology": 0.227,
+        "respiratory_gas_exchange": 1.0,
+        "special_populations": 0.233
+      },
+      "special_populations": {
+        "acid_base_and_electrolytes": 0.222,
+        "autonomic_nervous_system": 0.278,
+        "dose_response_kinetics": 0.47,
+        "haemostasis_and_transfusion": 0.47,
+        "monitoring_and_measurement": 0.35,
+        "neuromuscular_and_cns": 0.427,
+        "organ_system_effects": 0.491,
+        "pain_and_analgesia": 0.435,
+        "physics_and_engineering": 0.349,
+        "receptor_pharmacology": 0.419,
+        "respiratory_gas_exchange": 0.233,
+        "special_populations": 1.0
+      }
+    },
+    "redundant_pairs": [
+      {
+        "dim_a": "dose_response_kinetics",
+        "dim_b": "receptor_pharmacology",
+        "jaccard": 0.717,
+        "co_occurrences": 238,
+        "a_total": 279,
+        "b_total": 291
+      },
+      {
+        "dim_a": "dose_response_kinetics",
+        "dim_b": "haemostasis_and_transfusion",
+        "jaccard": 0.71,
+        "co_occurrences": 233,
+        "a_total": 279,
+        "b_total": 282
+      },
+      {
+        "dim_a": "haemostasis_and_transfusion",
+        "dim_b": "receptor_pharmacology",
+        "jaccard": 0.705,
+        "co_occurrences": 237,
+        "a_total": 282,
+        "b_total": 291
+      },
+      {
+        "dim_a": "pain_and_analgesia",
+        "dim_b": "receptor_pharmacology",
+        "jaccard": 0.644,
+        "co_occurrences": 199,
+        "a_total": 217,
+        "b_total": 291
+      }
+    ]
+  },
+  "stage_4_threshold_sensitivity": {
+    "acid_base_and_electrolytes": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 123,
+          "rate": 0.323
+        },
+        "0.45": {
+          "active_count": 105,
+          "rate": 0.276
+        },
+        "0.5": {
+          "active_count": 91,
+          "rate": 0.239
+        },
+        "0.55": {
+          "active_count": 86,
+          "rate": 0.226
+        },
+        "0.6": {
+          "active_count": 75,
+          "rate": 0.197
+        },
+        "0.65": {
+          "active_count": 69,
+          "rate": 0.181
+        },
+        "0.7": {
+          "active_count": 49,
+          "rate": 0.129
+        },
+        "0.75": {
+          "active_count": 39,
+          "rate": 0.102
+        }
+      },
+      "optimal_threshold": 0.675,
+      "max_drop_between": [
+        0.65,
+        0.7
+      ]
+    },
+    "autonomic_nervous_system": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 184,
+          "rate": 0.483
+        },
+        "0.45": {
+          "active_count": 164,
+          "rate": 0.43
+        },
+        "0.5": {
+          "active_count": 145,
+          "rate": 0.381
+        },
+        "0.55": {
+          "active_count": 128,
+          "rate": 0.336
+        },
+        "0.6": {
+          "active_count": 111,
+          "rate": 0.291
+        },
+        "0.65": {
+          "active_count": 89,
+          "rate": 0.234
+        },
+        "0.7": {
+          "active_count": 66,
+          "rate": 0.173
+        },
+        "0.75": {
+          "active_count": 44,
+          "rate": 0.115
+        }
+      },
+      "optimal_threshold": 0.675,
+      "max_drop_between": [
+        0.65,
+        0.7
+      ]
+    },
+    "dose_response_kinetics": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 320,
+          "rate": 0.84
+        },
+        "0.45": {
+          "active_count": 310,
+          "rate": 0.814
+        },
+        "0.5": {
+          "active_count": 302,
+          "rate": 0.793
+        },
+        "0.55": {
+          "active_count": 289,
+          "rate": 0.759
+        },
+        "0.6": {
+          "active_count": 279,
+          "rate": 0.732
+        },
+        "0.65": {
+          "active_count": 263,
+          "rate": 0.69
+        },
+        "0.7": {
+          "active_count": 250,
+          "rate": 0.656
+        },
+        "0.75": {
+          "active_count": 217,
+          "rate": 0.57
+        }
+      },
+      "optimal_threshold": 0.725,
+      "max_drop_between": [
+        0.7,
+        0.75
+      ]
+    },
+    "haemostasis_and_transfusion": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 331,
+          "rate": 0.869
+        },
+        "0.45": {
+          "active_count": 317,
+          "rate": 0.832
+        },
+        "0.5": {
+          "active_count": 303,
+          "rate": 0.795
+        },
+        "0.55": {
+          "active_count": 291,
+          "rate": 0.764
+        },
+        "0.6": {
+          "active_count": 282,
+          "rate": 0.74
+        },
+        "0.65": {
+          "active_count": 260,
+          "rate": 0.682
+        },
+        "0.7": {
+          "active_count": 240,
+          "rate": 0.63
+        },
+        "0.75": {
+          "active_count": 196,
+          "rate": 0.514
+        }
+      },
+      "optimal_threshold": 0.725,
+      "max_drop_between": [
+        0.7,
+        0.75
+      ]
+    },
+    "monitoring_and_measurement": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 216,
+          "rate": 0.567
+        },
+        "0.45": {
+          "active_count": 194,
+          "rate": 0.509
+        },
+        "0.5": {
+          "active_count": 178,
+          "rate": 0.467
+        },
+        "0.55": {
+          "active_count": 157,
+          "rate": 0.412
+        },
+        "0.6": {
+          "active_count": 141,
+          "rate": 0.37
+        },
+        "0.65": {
+          "active_count": 129,
+          "rate": 0.339
+        },
+        "0.7": {
+          "active_count": 114,
+          "rate": 0.299
+        },
+        "0.75": {
+          "active_count": 95,
+          "rate": 0.249
+        }
+      },
+      "optimal_threshold": 0.425,
+      "max_drop_between": [
+        0.4,
+        0.45
+      ]
+    },
+    "neuromuscular_and_cns": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 240,
+          "rate": 0.63
+        },
+        "0.45": {
+          "active_count": 227,
+          "rate": 0.596
+        },
+        "0.5": {
+          "active_count": 211,
+          "rate": 0.554
+        },
+        "0.55": {
+          "active_count": 197,
+          "rate": 0.517
+        },
+        "0.6": {
+          "active_count": 185,
+          "rate": 0.486
+        },
+        "0.65": {
+          "active_count": 167,
+          "rate": 0.438
+        },
+        "0.7": {
+          "active_count": 155,
+          "rate": 0.407
+        },
+        "0.75": {
+          "active_count": 132,
+          "rate": 0.346
+        }
+      },
+      "optimal_threshold": 0.725,
+      "max_drop_between": [
+        0.7,
+        0.75
+      ]
+    },
+    "organ_system_effects": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 229,
+          "rate": 0.601
+        },
+        "0.45": {
+          "active_count": 220,
+          "rate": 0.577
+        },
+        "0.5": {
+          "active_count": 209,
+          "rate": 0.549
+        },
+        "0.55": {
+          "active_count": 196,
+          "rate": 0.514
+        },
+        "0.6": {
+          "active_count": 184,
+          "rate": 0.483
+        },
+        "0.65": {
+          "active_count": 176,
+          "rate": 0.462
+        },
+        "0.7": {
+          "active_count": 161,
+          "rate": 0.423
+        },
+        "0.75": {
+          "active_count": 131,
+          "rate": 0.344
+        }
+      },
+      "optimal_threshold": 0.725,
+      "max_drop_between": [
+        0.7,
+        0.75
+      ]
+    },
+    "pain_and_analgesia": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 252,
+          "rate": 0.661
+        },
+        "0.45": {
+          "active_count": 246,
+          "rate": 0.646
+        },
+        "0.5": {
+          "active_count": 234,
+          "rate": 0.614
+        },
+        "0.55": {
+          "active_count": 224,
+          "rate": 0.588
+        },
+        "0.6": {
+          "active_count": 217,
+          "rate": 0.57
+        },
+        "0.65": {
+          "active_count": 207,
+          "rate": 0.543
+        },
+        "0.7": {
+          "active_count": 191,
+          "rate": 0.501
+        },
+        "0.75": {
+          "active_count": 169,
+          "rate": 0.444
+        }
+      },
+      "optimal_threshold": 0.725,
+      "max_drop_between": [
+        0.7,
+        0.75
+      ]
+    },
+    "physics_and_engineering": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 272,
+          "rate": 0.714
+        },
+        "0.45": {
+          "active_count": 259,
+          "rate": 0.68
+        },
+        "0.5": {
+          "active_count": 251,
+          "rate": 0.659
+        },
+        "0.55": {
+          "active_count": 235,
+          "rate": 0.617
+        },
+        "0.6": {
+          "active_count": 219,
+          "rate": 0.575
+        },
+        "0.65": {
+          "active_count": 197,
+          "rate": 0.517
+        },
+        "0.7": {
+          "active_count": 159,
+          "rate": 0.417
+        },
+        "0.75": {
+          "active_count": 123,
+          "rate": 0.323
+        }
+      },
+      "optimal_threshold": 0.675,
+      "max_drop_between": [
+        0.65,
+        0.7
+      ]
+    },
+    "receptor_pharmacology": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 329,
+          "rate": 0.864
+        },
+        "0.45": {
+          "active_count": 319,
+          "rate": 0.837
+        },
+        "0.5": {
+          "active_count": 308,
+          "rate": 0.808
+        },
+        "0.55": {
+          "active_count": 297,
+          "rate": 0.78
+        },
+        "0.6": {
+          "active_count": 291,
+          "rate": 0.764
+        },
+        "0.65": {
+          "active_count": 280,
+          "rate": 0.735
+        },
+        "0.7": {
+          "active_count": 264,
+          "rate": 0.693
+        },
+        "0.75": {
+          "active_count": 247,
+          "rate": 0.648
+        }
+      },
+      "optimal_threshold": 0.725,
+      "max_drop_between": [
+        0.7,
+        0.75
+      ]
+    },
+    "respiratory_gas_exchange": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 129,
+          "rate": 0.339
+        },
+        "0.45": {
+          "active_count": 119,
+          "rate": 0.312
+        },
+        "0.5": {
+          "active_count": 113,
+          "rate": 0.297
+        },
+        "0.55": {
+          "active_count": 105,
+          "rate": 0.276
+        },
+        "0.6": {
+          "active_count": 98,
+          "rate": 0.257
+        },
+        "0.65": {
+          "active_count": 87,
+          "rate": 0.228
+        },
+        "0.7": {
+          "active_count": 81,
+          "rate": 0.213
+        },
+        "0.75": {
+          "active_count": 69,
+          "rate": 0.181
+        }
+      },
+      "optimal_threshold": 0.725,
+      "max_drop_between": [
+        0.7,
+        0.75
+      ]
+    },
+    "special_populations": {
+      "thresholds": {
+        "0.4": {
+          "active_count": 214,
+          "rate": 0.562
+        },
+        "0.45": {
+          "active_count": 200,
+          "rate": 0.525
+        },
+        "0.5": {
+          "active_count": 183,
+          "rate": 0.48
+        },
+        "0.55": {
+          "active_count": 170,
+          "rate": 0.446
+        },
+        "0.6": {
+          "active_count": 156,
+          "rate": 0.409
+        },
+        "0.65": {
+          "active_count": 140,
+          "rate": 0.367
+        },
+        "0.7": {
+          "active_count": 123,
+          "rate": 0.323
+        },
+        "0.75": {
+          "active_count": 91,
+          "rate": 0.239
+        }
+      },
+      "optimal_threshold": 0.725,
+      "max_drop_between": [
+        0.7,
+        0.75
+      ]
+    }
+  },
+  "stage_5_cognitive_confusion": {
+    "domain_distribution": {
+      "factual_recall": 353,
+      "comparative_analysis": 27,
+      "quantitative_reasoning": 1
+    },
+    "ambiguous_documents": [
+      {
+        "source": "pharmacology/intravenous_anaesthetics/2007A04_propofol_tiva_vs_ketamine_tiva.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.907,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.907,
+        "gap": 0.0
+      },
+      {
+        "source": "physiology/haematology/2011B12_myoglobin_vs_haemoglobin.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.885,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.885,
+        "gap": 0.0
+      },
+      {
+        "source": "pharmacology/analgesics/2014A10_morphine_vs_tramadol.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.899,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.896,
+        "gap": 0.003
+      },
+      {
+        "source": "other/equipment/2017A02_oxygen_delivery_devices.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.924,
+        "secondary": "factual_recall",
+        "secondary_score": 0.918,
+        "gap": 0.006
+      },
+      {
+        "source": "physiology/cardiovascular/2020A10_sino_atrial_node.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.898,
+        "secondary": "factual_recall",
+        "secondary_score": 0.89,
+        "gap": 0.008
+      },
+      {
+        "source": "physiology/neurophysiology/2011B13_cerebrospinal_fluid.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.913,
+        "secondary": "factual_recall",
+        "secondary_score": 0.905,
+        "gap": 0.008
+      },
+      {
+        "source": "pharmacology/inhalational_anaesthetics/2019A10_sevoflurane_regional_circulation_effects.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.888,
+        "secondary": "factual_recall",
+        "secondary_score": 0.879,
+        "gap": 0.009
+      },
+      {
+        "source": "pharmacology/intravenous_anaesthetics/2018B11_midazolam.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.906,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.896,
+        "gap": 0.01
+      },
+      {
+        "source": "pharmacology/inhalational_anaesthetics/2004A01_isoflurane_cns_effects.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.874,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.863,
+        "gap": 0.011
+      },
+      {
+        "source": "other/clinical_measurement/2019A06_renal_function_tests.htm",
+        "primary": "quantitative_reasoning",
+        "primary_score": 0.925,
+        "secondary": "factual_recall",
+        "secondary_score": 0.912,
+        "gap": 0.013
+      },
+      {
+        "source": "pharmacology/inhalational_anaesthetics/2019A09_inhalational_anaesthetics_wash_in_curves.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.871,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.854,
+        "gap": 0.017
+      },
+      {
+        "source": "physiology/cardiovascular/2016B02_action_potentials_pacemaker_cell_vs_ventricular_myocyte.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.899,
+        "secondary": "factual_recall",
+        "secondary_score": 0.881,
+        "gap": 0.018
+      },
+      {
+        "source": "pharmacology/analgesics/2016B12_opioids_mechanism_of_analgesia.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.896,
+        "secondary": "mechanistic_explanation",
+        "secondary_score": 0.878,
+        "gap": 0.019
+      },
+      {
+        "source": "pharmacology/pharmacokinetics/2001B09_clearance.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.943,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.924,
+        "gap": 0.02
+      },
+      {
+        "source": "physiology/respiratory/2019B12_o2_co2_hb_dissociation_curves.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.912,
+        "secondary": "factual_recall",
+        "secondary_score": 0.889,
+        "gap": 0.023
+      },
+      {
+        "source": "pharmacology/analgesics/2013B12_alfentanil_vs_fentanyl.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.901,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.875,
+        "gap": 0.025
+      },
+      {
+        "source": "pharmacology/intravenous_anaesthetics/1999A16_alpha_2_adrenoceptor_agonists.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.908,
+        "secondary": "factual_recall",
+        "secondary_score": 0.883,
+        "gap": 0.025
+      },
+      {
+        "source": "pharmacology/miscellaneous_drugs/2014A13_normal_saline_vs_4pc_albumin.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.954,
+        "secondary": "factual_recall",
+        "secondary_score": 0.924,
+        "gap": 0.03
+      },
+      {
+        "source": "pharmacology/inhalational_anaesthetics/2017B05_inhalational_anaesthetics_rate_of_onset.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.922,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.889,
+        "gap": 0.033
+      },
+      {
+        "source": "physiology/renal/2011A11_functions_of_the_loop_of_henle.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.888,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.853,
+        "gap": 0.035
+      },
+      {
+        "source": "other/physics/2010B11_ultrasonography_physical_principles.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.926,
+        "secondary": "quantitative_reasoning",
+        "secondary_score": 0.89,
+        "gap": 0.036
+      },
+      {
+        "source": "pharmacology/local_anaesthetics/2010A01_local_anaesthetics_structure_activity_relationships.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.921,
+        "secondary": "factual_recall",
+        "secondary_score": 0.886,
+        "gap": 0.036
+      },
+      {
+        "source": "pharmacology/muscle_relaxants/2006B04_suxamethonium_vs_rocuronium_in_rapid_sequence_induction.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.895,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.858,
+        "gap": 0.037
+      },
+      {
+        "source": "pharmacology/haemostasis_drugs/2017A08_unfractionated_heparin_vs_low_molecular_weight_heparins.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.956,
+        "secondary": "factual_recall",
+        "secondary_score": 0.918,
+        "gap": 0.038
+      },
+      {
+        "source": "physiology/obesity/2015B05_obesity_effect_on_rate_of_offset_of_inhalational_anaesthetics.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.913,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.875,
+        "gap": 0.038
+      },
+      {
+        "source": "pharmacology/inhalational_anaesthetics/2000A09_volatile_anaesthetics_cardiovascular_effects.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.928,
+        "secondary": "factual_recall",
+        "secondary_score": 0.889,
+        "gap": 0.039
+      },
+      {
+        "source": "pharmacology/pharmacodynamics/2015A05_synergy_sevoflurane_fentanyl.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.88,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.841,
+        "gap": 0.039
+      },
+      {
+        "source": "pharmacology/miscellaneous_drugs/2016B15_anti_emetics.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.901,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.861,
+        "gap": 0.04
+      },
+      {
+        "source": "pharmacology/cardiovascular_drugs/2021A06_metaraminol_vs_adrenaline.htm",
+        "primary": "comparative_analysis",
+        "primary_score": 0.972,
+        "secondary": "factual_recall",
+        "secondary_score": 0.931,
+        "gap": 0.041
+      },
+      {
+        "source": "pharmacology/local_anaesthetics/2021B06_local_anaesthetic_moa.htm",
+        "primary": "factual_recall",
+        "primary_score": 0.906,
+        "secondary": "comparative_analysis",
+        "secondary_score": 0.865,
+        "gap": 0.041
+      }
+    ],
+    "total_ambiguous": 108,
+    "ambiguity_rate": 0.283
+  },
+  "stage_6_category_affinity": {
+    "category_affinity": {
+      "other": {
+        "count": 45,
+        "dimension_rates": {
+          "physics_and_engineering": 0.778,
+          "monitoring_and_measurement": 0.556,
+          "haemostasis_and_transfusion": 0.489,
+          "receptor_pharmacology": 0.333,
+          "dose_response_kinetics": 0.289,
+          "respiratory_gas_exchange": 0.267,
+          "organ_system_effects": 0.222,
+          "pain_and_analgesia": 0.2,
+          "neuromuscular_and_cns": 0.2,
+          "special_populations": 0.067,
+          "acid_base_and_electrolytes": 0.067
+        }
+      },
+      "pharmacology": {
+        "count": 157,
+        "dimension_rates": {
+          "dose_response_kinetics": 0.936,
+          "receptor_pharmacology": 0.866,
+          "pain_and_analgesia": 0.771,
+          "haemostasis_and_transfusion": 0.688,
+          "neuromuscular_and_cns": 0.529,
+          "organ_system_effects": 0.433,
+          "special_populations": 0.427,
+          "autonomic_nervous_system": 0.389,
+          "physics_and_engineering": 0.35,
+          "monitoring_and_measurement": 0.197,
+          "acid_base_and_electrolytes": 0.127,
+          "respiratory_gas_exchange": 0.096
+        }
+      },
+      "physiology": {
+        "count": 179,
+        "dimension_rates": {
+          "haemostasis_and_transfusion": 0.849,
+          "receptor_pharmacology": 0.782,
+          "physics_and_engineering": 0.721,
+          "dose_response_kinetics": 0.665,
+          "organ_system_effects": 0.592,
+          "neuromuscular_and_cns": 0.52,
+          "pain_and_analgesia": 0.486,
+          "special_populations": 0.48,
+          "monitoring_and_measurement": 0.475,
+          "respiratory_gas_exchange": 0.397,
+          "acid_base_and_electrolytes": 0.291,
+          "autonomic_nervous_system": 0.279
+        }
+      }
+    },
+    "subcategory_affinity": {
+      "other/anatomy": {
+        "count": 4,
+        "top_dimensions": {
+          "physics_and_engineering": 0.75,
+          "receptor_pharmacology": 0.5,
+          "neuromuscular_and_cns": 0.5,
+          "pain_and_analgesia": 0.25,
+          "haemostasis_and_transfusion": 0.25
+        }
+      },
+      "other/clinical_measurement": {
+        "count": 17,
+        "top_dimensions": {
+          "monitoring_and_measurement": 0.941,
+          "haemostasis_and_transfusion": 0.824,
+          "dose_response_kinetics": 0.706,
+          "physics_and_engineering": 0.706,
+          "receptor_pharmacology": 0.529
+        }
+      },
+      "other/equipment": {
+        "count": 20,
+        "top_dimensions": {
+          "physics_and_engineering": 0.85,
+          "respiratory_gas_exchange": 0.35,
+          "monitoring_and_measurement": 0.3,
+          "haemostasis_and_transfusion": 0.3,
+          "pain_and_analgesia": 0.2
+        }
+      },
+      "other/physics": {
+        "count": 3,
+        "top_dimensions": {
+          "physics_and_engineering": 1.0,
+          "monitoring_and_measurement": 1.0,
+          "receptor_pharmacology": 0.333,
+          "haemostasis_and_transfusion": 0.333
+        }
+      },
+      "pharmacology/analgesics": {
+        "count": 21,
+        "top_dimensions": {
+          "pain_and_analgesia": 1.0,
+          "receptor_pharmacology": 0.952,
+          "dose_response_kinetics": 0.952,
+          "haemostasis_and_transfusion": 0.667,
+          "neuromuscular_and_cns": 0.381
+        }
+      },
+      "pharmacology/cardiovascular_drugs": {
+        "count": 16,
+        "top_dimensions": {
+          "dose_response_kinetics": 0.938,
+          "receptor_pharmacology": 0.938,
+          "haemostasis_and_transfusion": 0.812,
+          "pain_and_analgesia": 0.75,
+          "organ_system_effects": 0.75
+        }
+      },
+      "pharmacology/haemostasis_drugs": {
+        "count": 7,
+        "top_dimensions": {
+          "dose_response_kinetics": 1.0,
+          "haemostasis_and_transfusion": 1.0,
+          "receptor_pharmacology": 1.0,
+          "pain_and_analgesia": 0.429,
+          "special_populations": 0.429
+        }
+      },
+      "pharmacology/inhalational_anaesthetics": {
+        "count": 21,
+        "top_dimensions": {
+          "dose_response_kinetics": 0.952,
+          "receptor_pharmacology": 0.81,
+          "pain_and_analgesia": 0.762,
+          "neuromuscular_and_cns": 0.714,
+          "physics_and_engineering": 0.714
+        }
+      },
+      "pharmacology/intravenous_anaesthetics": {
+        "count": 22,
+        "top_dimensions": {
+          "dose_response_kinetics": 1.0,
+          "pain_and_analgesia": 0.955,
+          "receptor_pharmacology": 0.864,
+          "neuromuscular_and_cns": 0.773,
+          "haemostasis_and_transfusion": 0.773
+        }
+      },
+      "pharmacology/local_anaesthetics": {
+        "count": 15,
+        "top_dimensions": {
+          "receptor_pharmacology": 0.933,
+          "dose_response_kinetics": 0.933,
+          "pain_and_analgesia": 0.867,
+          "neuromuscular_and_cns": 0.6,
+          "haemostasis_and_transfusion": 0.6
+        }
+      },
+      "pharmacology/miscellaneous_drugs": {
+        "count": 22,
+        "top_dimensions": {
+          "receptor_pharmacology": 0.818,
+          "dose_response_kinetics": 0.818,
+          "pain_and_analgesia": 0.636,
+          "haemostasis_and_transfusion": 0.545,
+          "neuromuscular_and_cns": 0.409
+        }
+      },
+      "pharmacology/muscle_relaxants": {
+        "count": 15,
+        "top_dimensions": {
+          "dose_response_kinetics": 1.0,
+          "receptor_pharmacology": 0.933,
+          "neuromuscular_and_cns": 0.933,
+          "pain_and_analgesia": 0.867,
+          "haemostasis_and_transfusion": 0.867
+        }
+      },
+      "pharmacology/pharmaceutics": {
+        "count": 3,
+        "top_dimensions": {
+          "pain_and_analgesia": 1.0,
+          "receptor_pharmacology": 0.667,
+          "dose_response_kinetics": 0.667,
+          "haemostasis_and_transfusion": 0.333,
+          "autonomic_nervous_system": 0.333
+        }
+      },
+      "pharmacology/pharmacodynamics": {
+        "count": 6,
+        "top_dimensions": {
+          "receptor_pharmacology": 1.0,
+          "dose_response_kinetics": 0.833,
+          "pain_and_analgesia": 0.5,
+          "haemostasis_and_transfusion": 0.333,
+          "autonomic_nervous_system": 0.333
+        }
+      },
+      "pharmacology/pharmacokinetics": {
+        "count": 9,
+        "top_dimensions": {
+          "dose_response_kinetics": 1.0,
+          "haemostasis_and_transfusion": 0.556,
+          "receptor_pharmacology": 0.444,
+          "special_populations": 0.333,
+          "pain_and_analgesia": 0.222
+        }
+      },
+      "physiology/acid_base": {
+        "count": 6,
+        "top_dimensions": {
+          "acid_base_and_electrolytes": 1.0,
+          "haemostasis_and_transfusion": 1.0,
+          "dose_response_kinetics": 0.833,
+          "receptor_pharmacology": 0.833,
+          "organ_system_effects": 0.5
+        }
+      },
+      "physiology/ageing": {
+        "count": 5,
+        "top_dimensions": {
+          "dose_response_kinetics": 0.8,
+          "physics_and_engineering": 0.8,
+          "haemostasis_and_transfusion": 0.8,
+          "special_populations": 0.8,
+          "monitoring_and_measurement": 0.8
+        }
+      },
+      "physiology/cardiovascular": {
+        "count": 28,
+        "top_dimensions": {
+          "physics_and_engineering": 0.964,
+          "organ_system_effects": 0.893,
+          "haemostasis_and_transfusion": 0.821,
+          "receptor_pharmacology": 0.786,
+          "dose_response_kinetics": 0.75
+        }
+      },
+      "physiology/cellular": {
+        "count": 16,
+        "top_dimensions": {
+          "receptor_pharmacology": 0.875,
+          "physics_and_engineering": 0.562,
+          "haemostasis_and_transfusion": 0.5,
+          "pain_and_analgesia": 0.375,
+          "neuromuscular_and_cns": 0.375
+        }
+      },
+      "physiology/gastrointestinal": {
+        "count": 7,
+        "top_dimensions": {
+          "receptor_pharmacology": 1.0,
+          "haemostasis_and_transfusion": 1.0,
+          "special_populations": 0.714,
+          "pain_and_analgesia": 0.571,
+          "dose_response_kinetics": 0.429
+        }
+      },
+      "physiology/haematology": {
+        "count": 13,
+        "top_dimensions": {
+          "haemostasis_and_transfusion": 1.0,
+          "receptor_pharmacology": 0.615,
+          "dose_response_kinetics": 0.462,
+          "respiratory_gas_exchange": 0.308,
+          "acid_base_and_electrolytes": 0.308
+        }
+      },
+      "physiology/immunology": {
+        "count": 4,
+        "top_dimensions": {
+          "receptor_pharmacology": 1.0,
+          "haemostasis_and_transfusion": 1.0,
+          "dose_response_kinetics": 0.25,
+          "pain_and_analgesia": 0.25,
+          "autonomic_nervous_system": 0.25
+        }
+      },
+      "physiology/metabolism_and_endocrinology": {
+        "count": 12,
+        "top_dimensions": {
+          "haemostasis_and_transfusion": 0.917,
+          "dose_response_kinetics": 0.75,
+          "special_populations": 0.75,
+          "receptor_pharmacology": 0.667,
+          "organ_system_effects": 0.583
+        }
+      },
+      "physiology/neonatology": {
+        "count": 4,
+        "top_dimensions": {
+          "special_populations": 1.0,
+          "physics_and_engineering": 1.0,
+          "dose_response_kinetics": 0.75,
+          "neuromuscular_and_cns": 0.75,
+          "haemostasis_and_transfusion": 0.75
+        }
+      },
+      "physiology/neurophysiology": {
+        "count": 11,
+        "top_dimensions": {
+          "physics_and_engineering": 1.0,
+          "neuromuscular_and_cns": 0.909,
+          "haemostasis_and_transfusion": 0.818,
+          "receptor_pharmacology": 0.818,
+          "dose_response_kinetics": 0.818
+        }
+      },
+      "physiology/obesity": {
+        "count": 5,
+        "top_dimensions": {
+          "dose_response_kinetics": 1.0,
+          "haemostasis_and_transfusion": 1.0,
+          "organ_system_effects": 1.0,
+          "receptor_pharmacology": 1.0,
+          "physics_and_engineering": 1.0
+        }
+      },
+      "physiology/obstetrics": {
+        "count": 6,
+        "top_dimensions": {
+          "special_populations": 1.0,
+          "dose_response_kinetics": 1.0,
+          "organ_system_effects": 1.0,
+          "haemostasis_and_transfusion": 1.0,
+          "pain_and_analgesia": 0.833
+        }
+      },
+      "physiology/pain": {
+        "count": 5,
+        "top_dimensions": {
+          "pain_and_analgesia": 1.0,
+          "receptor_pharmacology": 1.0,
+          "neuromuscular_and_cns": 0.8,
+          "haemostasis_and_transfusion": 0.8,
+          "physics_and_engineering": 0.6
+        }
+      },
+      "physiology/renal": {
+        "count": 19,
+        "top_dimensions": {
+          "haemostasis_and_transfusion": 0.947,
+          "dose_response_kinetics": 0.842,
+          "special_populations": 0.842,
+          "receptor_pharmacology": 0.789,
+          "physics_and_engineering": 0.789
+        }
+      },
+      "physiology/respiratory": {
+        "count": 30,
+        "top_dimensions": {
+          "respiratory_gas_exchange": 0.833,
+          "physics_and_engineering": 0.833,
+          "haemostasis_and_transfusion": 0.8,
+          "organ_system_effects": 0.767,
+          "receptor_pharmacology": 0.633
+        }
+      },
+      "physiology/special_physiology": {
+        "count": 3,
+        "top_dimensions": {
+          "respiratory_gas_exchange": 1.0,
+          "receptor_pharmacology": 1.0,
+          "dose_response_kinetics": 1.0,
+          "haemostasis_and_transfusion": 1.0,
+          "monitoring_and_measurement": 1.0
+        }
+      },
+      "physiology/thermoregulation": {
+        "count": 5,
+        "top_dimensions": {
+          "receptor_pharmacology": 1.0,
+          "monitoring_and_measurement": 1.0,
+          "physics_and_engineering": 1.0,
+          "haemostasis_and_transfusion": 0.8,
+          "pain_and_analgesia": 0.8
+        }
+      }
+    },
+    "surprising_affinities": [
+      {
+        "category": "physiology",
+        "dimension": "haemostasis_and_transfusion",
+        "rate": 0.849,
+        "note": "haemostasis_and_transfusion activates in 85% of physiology docs but is not expected"
+      },
+      {
+        "category": "physiology",
+        "dimension": "receptor_pharmacology",
+        "rate": 0.782,
+        "note": "receptor_pharmacology activates in 78% of physiology docs but is not expected"
+      },
+      {
+        "category": "physiology",
+        "dimension": "physics_and_engineering",
+        "rate": 0.721,
+        "note": "physics_and_engineering activates in 72% of physiology docs but is not expected"
+      },
+      {
+        "category": "pharmacology",
+        "dimension": "haemostasis_and_transfusion",
+        "rate": 0.688,
+        "note": "haemostasis_and_transfusion activates in 69% of pharmacology docs but is not expected"
+      },
+      {
+        "category": "physiology",
+        "dimension": "dose_response_kinetics",
+        "rate": 0.665,
+        "note": "dose_response_kinetics activates in 66% of physiology docs but is not expected"
+      },
+      {
+        "category": "physiology",
+        "dimension": "neuromuscular_and_cns",
+        "rate": 0.52,
+        "note": "neuromuscular_and_cns activates in 52% of physiology docs but is not expected"
+      },
+      {
+        "category": "other",
+        "dimension": "haemostasis_and_transfusion",
+        "rate": 0.489,
+        "note": "haemostasis_and_transfusion activates in 49% of other docs but is not expected"
+      },
+      {
+        "category": "physiology",
+        "dimension": "pain_and_analgesia",
+        "rate": 0.486,
+        "note": "pain_and_analgesia activates in 49% of physiology docs but is not expected"
+      },
+      {
+        "category": "physiology",
+        "dimension": "special_populations",
+        "rate": 0.48,
+        "note": "special_populations activates in 48% of physiology docs but is not expected"
+      },
+      {
+        "category": "physiology",
+        "dimension": "monitoring_and_measurement",
+        "rate": 0.475,
+        "note": "monitoring_and_measurement activates in 47% of physiology docs but is not expected"
+      },
+      {
+        "category": "pharmacology",
+        "dimension": "special_populations",
+        "rate": 0.427,
+        "note": "special_populations activates in 43% of pharmacology docs but is not expected"
+      }
+    ]
+  },
+  "stage_7_information_theory": {
+    "dimension_entropy": {
+      "acid_base_and_electrolytes": 0.7156,
+      "autonomic_nervous_system": 0.8704,
+      "dose_response_kinetics": 0.8382,
+      "haemostasis_and_transfusion": 0.8265,
+      "monitoring_and_measurement": 0.9507,
+      "neuromuscular_and_cns": 0.9994,
+      "organ_system_effects": 0.9992,
+      "pain_and_analgesia": 0.986,
+      "physics_and_engineering": 0.9838,
+      "receptor_pharmacology": 0.7887,
+      "respiratory_gas_exchange": 0.8225,
+      "special_populations": 0.9762
+    },
+    "discriminability_ranking": [
+      {
+        "dimension": "neuromuscular_and_cns",
+        "entropy": 0.9994,
+        "activation_rate": 0.486
+      },
+      {
+        "dimension": "organ_system_effects",
+        "entropy": 0.9992,
+        "activation_rate": 0.483
+      },
+      {
+        "dimension": "pain_and_analgesia",
+        "entropy": 0.986,
+        "activation_rate": 0.57
+      },
+      {
+        "dimension": "physics_and_engineering",
+        "entropy": 0.9838,
+        "activation_rate": 0.575
+      },
+      {
+        "dimension": "special_populations",
+        "entropy": 0.9762,
+        "activation_rate": 0.409
+      },
+      {
+        "dimension": "monitoring_and_measurement",
+        "entropy": 0.9507,
+        "activation_rate": 0.37
+      },
+      {
+        "dimension": "autonomic_nervous_system",
+        "entropy": 0.8704,
+        "activation_rate": 0.291
+      },
+      {
+        "dimension": "dose_response_kinetics",
+        "entropy": 0.8382,
+        "activation_rate": 0.732
+      },
+      {
+        "dimension": "haemostasis_and_transfusion",
+        "entropy": 0.8265,
+        "activation_rate": 0.74
+      },
+      {
+        "dimension": "respiratory_gas_exchange",
+        "entropy": 0.8225,
+        "activation_rate": 0.257
+      },
+      {
+        "dimension": "receptor_pharmacology",
+        "entropy": 0.7887,
+        "activation_rate": 0.764
+      },
+      {
+        "dimension": "acid_base_and_electrolytes",
+        "entropy": 0.7156,
+        "activation_rate": 0.197
+      }
+    ],
+    "high_mutual_information_pairs": [
+      {
+        "dim_a": "autonomic_nervous_system",
+        "dim_b": "neuromuscular_and_cns",
+        "mutual_information": 0.166,
+        "normalized_mi": 0.1908
+      },
+      {
+        "dim_a": "autonomic_nervous_system",
+        "dim_b": "pain_and_analgesia",
+        "mutual_information": 0.1506,
+        "normalized_mi": 0.173
+      },
+      {
+        "dim_a": "neuromuscular_and_cns",
+        "dim_b": "pain_and_analgesia",
+        "mutual_information": 0.1696,
+        "normalized_mi": 0.172
+      },
+      {
+        "dim_a": "pain_and_analgesia",
+        "dim_b": "receptor_pharmacology",
+        "mutual_information": 0.128,
+        "normalized_mi": 0.1622
+      },
+      {
+        "dim_a": "autonomic_nervous_system",
+        "dim_b": "receptor_pharmacology",
+        "mutual_information": 0.1189,
+        "normalized_mi": 0.1508
+      }
+    ]
+  },
+  "stage_8_clusters": {
+    "num_clusters": 5,
+    "clusters": {
+      "cluster_0": {
+        "size": 71,
+        "top_dimensions": [
+          {
+            "dimension": "haemostasis_and_transfusion",
+            "rate": 0.958
+          },
+          {
+            "dimension": "dose_response_kinetics",
+            "rate": 0.944
+          },
+          {
+            "dimension": "receptor_pharmacology",
+            "rate": 0.718
+          },
+          {
+            "dimension": "organ_system_effects",
+            "rate": 0.479
+          },
+          {
+            "dimension": "physics_and_engineering",
+            "rate": 0.479
+          }
+        ],
+        "top_categories": [
+          {
+            "category": "physiology/respiratory",
+            "count": 9
+          },
+          {
+            "category": "other/clinical_measurement",
+            "count": 8
+          },
+          {
+            "category": "physiology/haematology",
+            "count": 6
+          },
+          {
+            "category": "physiology/cardiovascular",
+            "count": 5
+          },
+          {
+            "category": "pharmacology/cardiovascular_drugs",
+            "count": 4
+          }
+        ],
+        "sample_docs": [
+          "other/clinical_measurement/2004A13_renal_clearance.htm",
+          "other/clinical_measurement/2004B11_oximetry.htm",
+          "other/clinical_measurement/2011B14_respiratory_function_tests_small_airway_obstruction.htm",
+          "other/clinical_measurement/2017A11_respiratory_flow_volume_curves.htm",
+          "other/clinical_measurement/2017A15_liver_function_tests.htm"
+        ]
+      },
+      "cluster_1": {
+        "size": 71,
+        "top_dimensions": [
+          {
+            "dimension": "physics_and_engineering",
+            "rate": 0.62
+          },
+          {
+            "dimension": "haemostasis_and_transfusion",
+            "rate": 0.338
+          },
+          {
+            "dimension": "receptor_pharmacology",
+            "rate": 0.268
+          },
+          {
+            "dimension": "monitoring_and_measurement",
+            "rate": 0.239
+          }
+        ],
+        "top_categories": [
+          {
+            "category": "other/equipment",
+            "count": 19
+          },
+          {
+            "category": "physiology/cellular",
+            "count": 7
+          },
+          {
+            "category": "physiology/haematology",
+            "count": 6
+          },
+          {
+            "category": "physiology/respiratory",
+            "count": 6
+          },
+          {
+            "category": "pharmacology/miscellaneous_drugs",
+            "count": 4
+          }
+        ],
+        "sample_docs": [
+          "other/anatomy/2013A08_laryngeal_anatomy.htm",
+          "other/anatomy/2014B01_cubital_fossa_anatomy.htm",
+          "other/anatomy/2019B15_right_internal_jugular_venous_cannulation.htm",
+          "other/clinical_measurement/2005A16_cardiac_output_monitoring_doppler_ultrasonography.htm",
+          "other/clinical_measurement/2017A10_arterial_pressure_waveforms.htm"
+        ]
+      },
+      "cluster_2": {
+        "size": 90,
+        "top_dimensions": [
+          {
+            "dimension": "receptor_pharmacology",
+            "rate": 0.933
+          },
+          {
+            "dimension": "dose_response_kinetics",
+            "rate": 0.9
+          },
+          {
+            "dimension": "pain_and_analgesia",
+            "rate": 0.9
+          },
+          {
+            "dimension": "haemostasis_and_transfusion",
+            "rate": 0.567
+          },
+          {
+            "dimension": "neuromuscular_and_cns",
+            "rate": 0.478
+          }
+        ],
+        "top_categories": [
+          {
+            "category": "pharmacology/analgesics",
+            "count": 18
+          },
+          {
+            "category": "pharmacology/miscellaneous_drugs",
+            "count": 10
+          },
+          {
+            "category": "pharmacology/intravenous_anaesthetics",
+            "count": 9
+          },
+          {
+            "category": "pharmacology/local_anaesthetics",
+            "count": 8
+          },
+          {
+            "category": "pharmacology/cardiovascular_drugs",
+            "count": 7
+          }
+        ],
+        "sample_docs": [
+          "other/clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm",
+          "other/equipment/2018A04_co2_absorbents_hazards.htm",
+          "pharmacology/analgesics/2006A07_naloxone.htm",
+          "pharmacology/analgesics/2007A03_opioids_inter_individual_variation.htm",
+          "pharmacology/analgesics/2007B03_opioids_transition_from_iv_to_oral.htm"
+        ]
+      },
+      "cluster_3": {
+        "size": 109,
+        "top_dimensions": [
+          {
+            "dimension": "dose_response_kinetics",
+            "rate": 1.0
+          },
+          {
+            "dimension": "haemostasis_and_transfusion",
+            "rate": 0.991
+          },
+          {
+            "dimension": "receptor_pharmacology",
+            "rate": 0.954
+          },
+          {
+            "dimension": "organ_system_effects",
+            "rate": 0.927
+          },
+          {
+            "dimension": "neuromuscular_and_cns",
+            "rate": 0.908
+          }
+        ],
+        "top_categories": [
+          {
+            "category": "physiology/cardiovascular",
+            "count": 16
+          },
+          {
+            "category": "pharmacology/intravenous_anaesthetics",
+            "count": 11
+          },
+          {
+            "category": "physiology/renal",
+            "count": 10
+          },
+          {
+            "category": "physiology/respiratory",
+            "count": 10
+          },
+          {
+            "category": "pharmacology/inhalational_anaesthetics",
+            "count": 8
+          }
+        ],
+        "sample_docs": [
+          "pharmacology/analgesics/2000A15_opioids_respiratory_effects.htm",
+          "pharmacology/analgesics/2018A05_opioids_therapeutic_and_adverse_effects.htm",
+          "pharmacology/analgesics/2021B09_morphine_vs_fentanyl_pca.htm",
+          "pharmacology/cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm",
+          "pharmacology/cardiovascular_drugs/2006B07_treatment_of_ventricular_fibrillation.htm"
+        ]
+      },
+      "cluster_4": {
+        "size": 40,
+        "top_dimensions": [
+          {
+            "dimension": "physics_and_engineering",
+            "rate": 1.0
+          },
+          {
+            "dimension": "neuromuscular_and_cns",
+            "rate": 0.85
+          },
+          {
+            "dimension": "pain_and_analgesia",
+            "rate": 0.825
+          },
+          {
+            "dimension": "receptor_pharmacology",
+            "rate": 0.825
+          },
+          {
+            "dimension": "haemostasis_and_transfusion",
+            "rate": 0.775
+          }
+        ],
+        "top_categories": [
+          {
+            "category": "other/clinical_measurement",
+            "count": 5
+          },
+          {
+            "category": "physiology/respiratory",
+            "count": 5
+          },
+          {
+            "category": "physiology/cardiovascular",
+            "count": 3
+          },
+          {
+            "category": "physiology/gastrointestinal",
+            "count": 3
+          },
+          {
+            "category": "physiology/pain",
+            "count": 3
+          }
+        ],
+        "sample_docs": [
+          "other/anatomy/2014A07_lumbar_epidural_anatomy.htm",
+          "other/clinical_measurement/2010A02_neuromuscular_monitoring_methods.htm",
+          "other/clinical_measurement/2010A15_cardiac_output_monitoring_thermodilution.htm",
+          "other/clinical_measurement/2017B04_electroencephalography_in_anaesthesia.htm",
+          "other/clinical_measurement/2019A15_pulse_oximetry_sources_of_inaccuracy.htm"
+        ]
+      }
+    }
+  },
+  "stage_9_graph_topology": {
+    "corpus_totals": {
+      "total_segments": 19998,
+      "total_crossrefs": 552,
+      "total_terms": 166,
+      "docs_with_crossrefs": 195,
+      "docs_with_terms": 83
+    },
+    "dimension_complexity_correlation": {
+      "pain_and_analgesia": {
+        "mean_tree_depth": 1.31,
+        "doc_count": 217
+      },
+      "receptor_pharmacology": {
+        "mean_tree_depth": 1.34,
+        "doc_count": 291
+      },
+      "physics_and_engineering": {
+        "mean_tree_depth": 1.37,
+        "doc_count": 219
+      },
+      "neuromuscular_and_cns": {
+        "mean_tree_depth": 1.37,
+        "doc_count": 185
+      },
+      "haemostasis_and_transfusion": {
+        "mean_tree_depth": 1.36,
+        "doc_count": 282
+      },
+      "organ_system_effects": {
+        "mean_tree_depth": 1.37,
+        "doc_count": 184
+      },
+      "dose_response_kinetics": {
+        "mean_tree_depth": 1.33,
+        "doc_count": 279
+      },
+      "special_populations": {
+        "mean_tree_depth": 1.36,
+        "doc_count": 156
+      },
+      "monitoring_and_measurement": {
+        "mean_tree_depth": 1.4,
+        "doc_count": 141
+      },
+      "respiratory_gas_exchange": {
+        "mean_tree_depth": 1.42,
+        "doc_count": 98
+      },
+      "acid_base_and_electrolytes": {
+        "mean_tree_depth": 1.35,
+        "doc_count": 75
+      },
+      "autonomic_nervous_system": {
+        "mean_tree_depth": 1.37,
+        "doc_count": 111
+      }
+    },
+    "under_tagged_complex_documents": [
+      {
+        "source": "other/equipment/2014A08_surgical_diathermy.htm",
+        "complexity_score": 88,
+        "num_dimensions": 2,
+        "num_segments": 88,
+        "num_crossrefs": 0,
+        "num_terms": 0
+      },
+      {
+        "source": "other/physics/2013B08_resonance_and_damping.htm",
+        "complexity_score": 85,
+        "num_dimensions": 2,
+        "num_segments": 72,
+        "num_crossrefs": 1,
+        "num_terms": 5
+      },
+      {
+        "source": "other/equipment/2015B15_electrical_safety.htm",
+        "complexity_score": 84,
+        "num_dimensions": 1,
+        "num_segments": 84,
+        "num_crossrefs": 0,
+        "num_terms": 0
+      },
+      {
+        "source": "physiology/immunology/2000B15_latex_allergy.htm",
+        "complexity_score": 73,
+        "num_dimensions": 2,
+        "num_segments": 64,
+        "num_crossrefs": 3,
+        "num_terms": 0
+      },
+      {
+        "source": "other/equipment/2012A10_pneumotachographs.htm",
+        "complexity_score": 63,
+        "num_dimensions": 1,
+        "num_segments": 50,
+        "num_crossrefs": 3,
+        "num_terms": 2
+      },
+      {
+        "source": "pharmacology/pharmacokinetics/2011B02_compartment_modelling.htm",
+        "complexity_score": 62,
+        "num_dimensions": 1,
+        "num_segments": 50,
+        "num_crossrefs": 4,
+        "num_terms": 0
+      },
+      {
+        "source": "other/equipment/1999A05_mercury_thermometer_and_thermistor_heat_and_temperature.htm",
+        "complexity_score": 60,
+        "num_dimensions": 1,
+        "num_segments": 60,
+        "num_crossrefs": 0,
+        "num_terms": 0
+      },
+      {
+        "source": "physiology/haematology/2021A03_blood_transfusion_o_negative_red_cells.htm",
+        "complexity_score": 60,
+        "num_dimensions": 2,
+        "num_segments": 52,
+        "num_crossrefs": 2,
+        "num_terms": 1
+      },
+      {
+        "source": "physiology/immunology/2013C10_innate_and_acquired_immunity.htm",
+        "complexity_score": 60,
+        "num_dimensions": 2,
+        "num_segments": 57,
+        "num_crossrefs": 1,
+        "num_terms": 0
+      },
+      {
+        "source": "pharmacology/cardiovascular_drugs/2004A06_glyceryl_trinitrate.htm",
+        "complexity_score": 57,
+        "num_dimensions": 2,
+        "num_segments": 57,
+        "num_crossrefs": 0,
+        "num_terms": 0
+      },
+      {
+        "source": "physiology/haematology/2021B14_rbc_transfusion_immunological.htm",
+        "complexity_score": 56,
+        "num_dimensions": 2,
+        "num_segments": 56,
+        "num_crossrefs": 0,
+        "num_terms": 0
+      },
+      {
+        "source": "other/equipment/2008B09_hygrometers_and_humidity.htm",
+        "complexity_score": 55,
+        "num_dimensions": 1,
+        "num_segments": 46,
+        "num_crossrefs": 1,
+        "num_terms": 3
+      },
+      {
+        "source": "pharmacology/pharmacodynamics/2004B01_mechanisms_of_drug_action.htm",
+        "complexity_score": 54,
+        "num_dimensions": 2,
+        "num_segments": 54,
+        "num_crossrefs": 0,
+        "num_terms": 0
+      },
+      {
+        "source": "physiology/cellular/2003B03_cell_signalling_gaba_ergic_transmission.htm",
+        "complexity_score": 53,
+        "num_dimensions": 2,
+        "num_segments": 53,
+        "num_crossrefs": 0,
+        "num_terms": 0
+      },
+      {
+        "source": "physiology/cardiovascular/2012B11_lymphatic_circulation.htm",
+        "complexity_score": 52,
+        "num_dimensions": 2,
+        "num_segments": 43,
+        "num_crossrefs": 3,
+        "num_terms": 0
+      }
+    ]
+  },
+  "stage_10_embedding_coherence": {
+    "global_mean_similarity": 0.3996,
+    "dimension_coherence": {
+      "respiratory_gas_exchange": {
+        "num_docs": 60,
+        "intra_similarity": 0.4534,
+        "inter_similarity": 0.3883,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.135,
+        "separation": 0.0651
+      },
+      "autonomic_nervous_system": {
+        "num_docs": 61,
+        "intra_similarity": 0.4526,
+        "inter_similarity": 0.4028,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.133,
+        "separation": 0.0499
+      },
+      "pain_and_analgesia": {
+        "num_docs": 108,
+        "intra_similarity": 0.442,
+        "inter_similarity": 0.382,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.106,
+        "separation": 0.06
+      },
+      "neuromuscular_and_cns": {
+        "num_docs": 97,
+        "intra_similarity": 0.4348,
+        "inter_similarity": 0.3929,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.088,
+        "separation": 0.0419
+      },
+      "organ_system_effects": {
+        "num_docs": 102,
+        "intra_similarity": 0.428,
+        "inter_similarity": 0.3932,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.071,
+        "separation": 0.0348
+      },
+      "special_populations": {
+        "num_docs": 78,
+        "intra_similarity": 0.4228,
+        "inter_similarity": 0.4011,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.058,
+        "separation": 0.0217
+      },
+      "dose_response_kinetics": {
+        "num_docs": 150,
+        "intra_similarity": 0.4199,
+        "inter_similarity": 0.3733,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.051,
+        "separation": 0.0467
+      },
+      "acid_base_and_electrolytes": {
+        "num_docs": 38,
+        "intra_similarity": 0.4186,
+        "inter_similarity": 0.3978,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.048,
+        "separation": 0.0207
+      },
+      "physics_and_engineering": {
+        "num_docs": 110,
+        "intra_similarity": 0.4164,
+        "inter_similarity": 0.3874,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.042,
+        "separation": 0.0291
+      },
+      "receptor_pharmacology": {
+        "num_docs": 151,
+        "intra_similarity": 0.4159,
+        "inter_similarity": 0.377,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.041,
+        "separation": 0.0389
+      },
+      "monitoring_and_measurement": {
+        "num_docs": 77,
+        "intra_similarity": 0.4129,
+        "inter_similarity": 0.3943,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.033,
+        "separation": 0.0186
+      },
+      "haemostasis_and_transfusion": {
+        "num_docs": 152,
+        "intra_similarity": 0.4077,
+        "inter_similarity": 0.3897,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.02,
+        "separation": 0.018
+      }
+    },
+    "low_coherence_dimensions": [
+      {
+        "dimension": "acid_base_and_electrolytes",
+        "num_docs": 38,
+        "intra_similarity": 0.4186,
+        "inter_similarity": 0.3978,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.048,
+        "separation": 0.0207
+      },
+      {
+        "dimension": "physics_and_engineering",
+        "num_docs": 110,
+        "intra_similarity": 0.4164,
+        "inter_similarity": 0.3874,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.042,
+        "separation": 0.0291
+      },
+      {
+        "dimension": "receptor_pharmacology",
+        "num_docs": 151,
+        "intra_similarity": 0.4159,
+        "inter_similarity": 0.377,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.041,
+        "separation": 0.0389
+      },
+      {
+        "dimension": "monitoring_and_measurement",
+        "num_docs": 77,
+        "intra_similarity": 0.4129,
+        "inter_similarity": 0.3943,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.033,
+        "separation": 0.0186
+      },
+      {
+        "dimension": "haemostasis_and_transfusion",
+        "num_docs": 152,
+        "intra_similarity": 0.4077,
+        "inter_similarity": 0.3897,
+        "global_similarity": 0.3996,
+        "coherence_ratio": 1.02,
+        "separation": 0.018
+      }
+    ],
+    "coherence_ranking": [
+      {
+        "dimension": "respiratory_gas_exchange",
+        "coherence_ratio": 1.135,
+        "separation": 0.0651
+      },
+      {
+        "dimension": "autonomic_nervous_system",
+        "coherence_ratio": 1.133,
+        "separation": 0.0499
+      },
+      {
+        "dimension": "pain_and_analgesia",
+        "coherence_ratio": 1.106,
+        "separation": 0.06
+      },
+      {
+        "dimension": "neuromuscular_and_cns",
+        "coherence_ratio": 1.088,
+        "separation": 0.0419
+      },
+      {
+        "dimension": "organ_system_effects",
+        "coherence_ratio": 1.071,
+        "separation": 0.0348
+      },
+      {
+        "dimension": "special_populations",
+        "coherence_ratio": 1.058,
+        "separation": 0.0217
+      },
+      {
+        "dimension": "dose_response_kinetics",
+        "coherence_ratio": 1.051,
+        "separation": 0.0467
+      },
+      {
+        "dimension": "acid_base_and_electrolytes",
+        "coherence_ratio": 1.048,
+        "separation": 0.0207
+      },
+      {
+        "dimension": "physics_and_engineering",
+        "coherence_ratio": 1.042,
+        "separation": 0.0291
+      },
+      {
+        "dimension": "receptor_pharmacology",
+        "coherence_ratio": 1.041,
+        "separation": 0.0389
+      },
+      {
+        "dimension": "monitoring_and_measurement",
+        "coherence_ratio": 1.033,
+        "separation": 0.0186
+      },
+      {
+        "dimension": "haemostasis_and_transfusion",
+        "coherence_ratio": 1.02,
+        "separation": 0.018
+      }
+    ]
+  },
+  "stage_11_term_alignment": {
+    "total_docs_with_terms": 83,
+    "term_rich_dim_poor": [
+      {
+        "source": "other/equipment/2008B09_hygrometers_and_humidity.htm",
+        "num_terms": 3,
+        "num_dimensions": 1,
+        "dimensions": [
+          "physics_and_engineering"
+        ],
+        "terms": [
+          "humidity",
+          "absolute humidity",
+          "relative humidity"
+        ],
+        "term_mention_count": 9
+      }
+    ],
+    "term_poor_dim_rich": [
+      {
+        "source": "physiology/acid_base/2019A07_metabolic_acidosis_in_hypovolaemic_shock.htm",
+        "num_terms": 0,
+        "num_dimensions": 12,
+        "dimensions": [
+          "haemostasis_and_transfusion",
+          "organ_system_effects",
+          "receptor_pharmacology",
+          "acid_base_and_electrolytes",
+          "respiratory_gas_exchange",
+          "dose_response_kinetics",
+          "monitoring_and_measurement",
+          "neuromuscular_and_cns",
+          "physics_and_engineering",
+          "pain_and_analgesia",
+          "special_populations",
+          "autonomic_nervous_system"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/cardiovascular/2020B05_myocardial_oxygen_supply_and_demand_left_ventricle.htm",
+        "num_terms": 0,
+        "num_dimensions": 12,
+        "dimensions": [
+          "haemostasis_and_transfusion",
+          "respiratory_gas_exchange",
+          "pain_and_analgesia",
+          "neuromuscular_and_cns",
+          "dose_response_kinetics",
+          "receptor_pharmacology",
+          "monitoring_and_measurement",
+          "organ_system_effects",
+          "acid_base_and_electrolytes",
+          "autonomic_nervous_system",
+          "physics_and_engineering",
+          "special_populations"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/cardiovascular/2021A04_afterload_lv_vs_rv.htm",
+        "num_terms": 0,
+        "num_dimensions": 12,
+        "dimensions": [
+          "physics_and_engineering",
+          "receptor_pharmacology",
+          "pain_and_analgesia",
+          "acid_base_and_electrolytes",
+          "neuromuscular_and_cns",
+          "organ_system_effects",
+          "special_populations",
+          "haemostasis_and_transfusion",
+          "dose_response_kinetics",
+          "respiratory_gas_exchange",
+          "monitoring_and_measurement",
+          "autonomic_nervous_system"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/renal/2020B04_urine_concentration_and_dilution.htm",
+        "num_terms": 0,
+        "num_dimensions": 12,
+        "dimensions": [
+          "receptor_pharmacology",
+          "dose_response_kinetics",
+          "pain_and_analgesia",
+          "haemostasis_and_transfusion",
+          "special_populations",
+          "neuromuscular_and_cns",
+          "physics_and_engineering",
+          "acid_base_and_electrolytes",
+          "monitoring_and_measurement",
+          "autonomic_nervous_system",
+          "organ_system_effects",
+          "respiratory_gas_exchange"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/respiratory/2005A12_determinants_of_paco2.htm",
+        "num_terms": 0,
+        "num_dimensions": 12,
+        "dimensions": [
+          "pain_and_analgesia",
+          "receptor_pharmacology",
+          "respiratory_gas_exchange",
+          "neuromuscular_and_cns",
+          "haemostasis_and_transfusion",
+          "dose_response_kinetics",
+          "monitoring_and_measurement",
+          "special_populations",
+          "acid_base_and_electrolytes",
+          "organ_system_effects",
+          "physics_and_engineering",
+          "autonomic_nervous_system"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/special_physiology/2006A09_cardiovascular_response_to_exercise.htm",
+        "num_terms": 0,
+        "num_dimensions": 12,
+        "dimensions": [
+          "respiratory_gas_exchange",
+          "receptor_pharmacology",
+          "dose_response_kinetics",
+          "haemostasis_and_transfusion",
+          "monitoring_and_measurement",
+          "organ_system_effects",
+          "special_populations",
+          "physics_and_engineering",
+          "neuromuscular_and_cns",
+          "pain_and_analgesia",
+          "autonomic_nervous_system",
+          "acid_base_and_electrolytes"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "pharmacology/intravenous_anaesthetics/2007A04_propofol_tiva_vs_ketamine_tiva.htm",
+        "num_terms": 0,
+        "num_dimensions": 11,
+        "dimensions": [
+          "receptor_pharmacology",
+          "dose_response_kinetics",
+          "pain_and_analgesia",
+          "haemostasis_and_transfusion",
+          "neuromuscular_and_cns",
+          "special_populations",
+          "monitoring_and_measurement",
+          "organ_system_effects",
+          "autonomic_nervous_system",
+          "physics_and_engineering",
+          "acid_base_and_electrolytes"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/cardiovascular/2015A06_baroreceptors.htm",
+        "num_terms": 0,
+        "num_dimensions": 11,
+        "dimensions": [
+          "receptor_pharmacology",
+          "haemostasis_and_transfusion",
+          "monitoring_and_measurement",
+          "neuromuscular_and_cns",
+          "organ_system_effects",
+          "autonomic_nervous_system",
+          "pain_and_analgesia",
+          "dose_response_kinetics",
+          "respiratory_gas_exchange",
+          "special_populations",
+          "physics_and_engineering"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/cardiovascular/2015B09_systemic_circulation_vs_pulmonary_circulation.htm",
+        "num_terms": 0,
+        "num_dimensions": 11,
+        "dimensions": [
+          "respiratory_gas_exchange",
+          "haemostasis_and_transfusion",
+          "dose_response_kinetics",
+          "pain_and_analgesia",
+          "receptor_pharmacology",
+          "organ_system_effects",
+          "monitoring_and_measurement",
+          "physics_and_engineering",
+          "neuromuscular_and_cns",
+          "autonomic_nervous_system",
+          "acid_base_and_electrolytes"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      },
+      {
+        "source": "physiology/cardiovascular/2018B09_autonomic_innervation_of_the_heart.htm",
+        "num_terms": 0,
+        "num_dimensions": 11,
+        "dimensions": [
+          "pain_and_analgesia",
+          "receptor_pharmacology",
+          "haemostasis_and_transfusion",
+          "dose_response_kinetics",
+          "autonomic_nervous_system",
+          "monitoring_and_measurement",
+          "neuromuscular_and_cns",
+          "organ_system_effects",
+          "physics_and_engineering",
+          "acid_base_and_electrolytes",
+          "special_populations"
+        ],
+        "terms": [],
+        "term_mention_count": 0
+      }
+    ],
+    "dimension_term_density": {
+      "acid_base_and_electrolytes": {
+        "mean_terms": 0.4,
+        "median_terms": 0.0,
+        "docs_with_terms": 13,
+        "total_docs": 75
+      },
+      "autonomic_nervous_system": {
+        "mean_terms": 0.5,
+        "median_terms": 0.0,
+        "docs_with_terms": 26,
+        "total_docs": 111
+      },
+      "dose_response_kinetics": {
+        "mean_terms": 0.4,
+        "median_terms": 0.0,
+        "docs_with_terms": 60,
+        "total_docs": 279
+      },
+      "haemostasis_and_transfusion": {
+        "mean_terms": 0.4,
+        "median_terms": 0.0,
+        "docs_with_terms": 64,
+        "total_docs": 282
+      },
+      "monitoring_and_measurement": {
+        "mean_terms": 0.7,
+        "median_terms": 0.0,
+        "docs_with_terms": 41,
+        "total_docs": 141
+      },
+      "neuromuscular_and_cns": {
+        "mean_terms": 0.5,
+        "median_terms": 0.0,
+        "docs_with_terms": 43,
+        "total_docs": 185
+      },
+      "organ_system_effects": {
+        "mean_terms": 0.5,
+        "median_terms": 0.0,
+        "docs_with_terms": 42,
+        "total_docs": 184
+      },
+      "pain_and_analgesia": {
+        "mean_terms": 0.4,
+        "median_terms": 0.0,
+        "docs_with_terms": 47,
+        "total_docs": 217
+      },
+      "physics_and_engineering": {
+        "mean_terms": 0.5,
+        "median_terms": 0.0,
+        "docs_with_terms": 53,
+        "total_docs": 219
+      },
+      "receptor_pharmacology": {
+        "mean_terms": 0.4,
+        "median_terms": 0.0,
+        "docs_with_terms": 57,
+        "total_docs": 291
+      },
+      "respiratory_gas_exchange": {
+        "mean_terms": 0.6,
+        "median_terms": 0.0,
+        "docs_with_terms": 29,
+        "total_docs": 98
+      },
+      "special_populations": {
+        "mean_terms": 0.5,
+        "median_terms": 0.0,
+        "docs_with_terms": 37,
+        "total_docs": 156
+      }
+    }
+  },
+  "recommendations": [
+    {
+      "type": "MERGE_DIMENSIONS",
+      "priority": "high",
+      "dimensions": [
+        "dose_response_kinetics",
+        "receptor_pharmacology"
+      ],
+      "reason": "Jaccard similarity 0.72 — these dimensions co-activate in most documents and are measuring the same signal",
+      "action": "Merge 'dose_response_kinetics' and 'receptor_pharmacology' into a single dimension"
+    },
+    {
+      "type": "MERGE_DIMENSIONS",
+      "priority": "high",
+      "dimensions": [
+        "dose_response_kinetics",
+        "haemostasis_and_transfusion"
+      ],
+      "reason": "Jaccard similarity 0.71 — these dimensions co-activate in most documents and are measuring the same signal",
+      "action": "Merge 'dose_response_kinetics' and 'haemostasis_and_transfusion' into a single dimension"
+    },
+    {
+      "type": "MERGE_DIMENSIONS",
+      "priority": "high",
+      "dimensions": [
+        "haemostasis_and_transfusion",
+        "receptor_pharmacology"
+      ],
+      "reason": "Jaccard similarity 0.70 — these dimensions co-activate in most documents and are measuring the same signal",
+      "action": "Merge 'haemostasis_and_transfusion' and 'receptor_pharmacology' into a single dimension"
+    },
+    {
+      "type": "REBALANCE_COGNITIVE",
+      "priority": "high",
+      "domain": "factual_recall",
+      "reason": "factual_recall accounts for 93% of documents — classifier may be poorly calibrated or query too broad",
+      "action": "Sharpen 'factual_recall' query or add discriminative features to competing domains"
+    },
+    {
+      "type": "LOW_EMBEDDING_COHERENCE",
+      "priority": "high",
+      "dimension": "acid_base_and_electrolytes",
+      "reason": "Coherence ratio 1.05, separation 0.021 — documents tagged with this dimension are not semantically closer to each other than to the general corpus in embedding space",
+      "action": "'acid_base_and_electrolytes' is not capturing a real semantic concept. Rewrite the query to be more specific or consider dropping it."
+    },
+    {
+      "type": "LOW_EMBEDDING_COHERENCE",
+      "priority": "high",
+      "dimension": "physics_and_engineering",
+      "reason": "Coherence ratio 1.04, separation 0.029 — documents tagged with this dimension are not semantically closer to each other than to the general corpus in embedding space",
+      "action": "'physics_and_engineering' is not capturing a real semantic concept. Rewrite the query to be more specific or consider dropping it."
+    },
+    {
+      "type": "LOW_EMBEDDING_COHERENCE",
+      "priority": "high",
+      "dimension": "receptor_pharmacology",
+      "reason": "Coherence ratio 1.04, separation 0.039 — documents tagged with this dimension are not semantically closer to each other than to the general corpus in embedding space",
+      "action": "'receptor_pharmacology' is not capturing a real semantic concept. Rewrite the query to be more specific or consider dropping it."
+    },
+    {
+      "type": "LOW_EMBEDDING_COHERENCE",
+      "priority": "high",
+      "dimension": "monitoring_and_measurement",
+      "reason": "Coherence ratio 1.03, separation 0.019 — documents tagged with this dimension are not semantically closer to each other than to the general corpus in embedding space",
+      "action": "'monitoring_and_measurement' is not capturing a real semantic concept. Rewrite the query to be more specific or consider dropping it."
+    },
+    {
+      "type": "LOW_EMBEDDING_COHERENCE",
+      "priority": "high",
+      "dimension": "haemostasis_and_transfusion",
+      "reason": "Coherence ratio 1.02, separation 0.018 — documents tagged with this dimension are not semantically closer to each other than to the general corpus in embedding space",
+      "action": "'haemostasis_and_transfusion' is not capturing a real semantic concept. Rewrite the query to be more specific or consider dropping it."
+    },
+    {
+      "type": "INVESTIGATE_OVERLAP",
+      "priority": "medium",
+      "dimensions": [
+        "pain_and_analgesia",
+        "receptor_pharmacology"
+      ],
+      "reason": "Jaccard similarity 0.64 — significant overlap",
+      "action": "Review queries for semantic overlap; consider merging or sharpening"
+    },
+    {
+      "type": "SHARPEN_QUERY",
+      "priority": "medium",
+      "dimension": "dose_response_kinetics",
+      "reason": "Activation rate 73.2% — too broad, nearly every document matches",
+      "action": "Make 'dose_response_kinetics' query more specific to reduce false positives"
+    },
+    {
+      "type": "SHARPEN_QUERY",
+      "priority": "medium",
+      "dimension": "haemostasis_and_transfusion",
+      "reason": "Activation rate 74.0% — too broad, nearly every document matches",
+      "action": "Make 'haemostasis_and_transfusion' query more specific to reduce false positives"
+    },
+    {
+      "type": "SHARPEN_QUERY",
+      "priority": "medium",
+      "dimension": "receptor_pharmacology",
+      "reason": "Activation rate 76.4% — too broad, nearly every document matches",
+      "action": "Make 'receptor_pharmacology' query more specific to reduce false positives"
+    },
+    {
+      "type": "UNDER_TAGGED_DOCUMENTS",
+      "priority": "medium",
+      "reason": "15 documents have rich structural complexity (many segments, crossrefs, terms) but ≤2 active dimensions — the ontology may be missing content types present in these docs",
+      "action": "Review these documents to identify missing ontology dimensions",
+      "examples": [
+        "other/equipment/2014A08_surgical_diathermy.htm",
+        "other/physics/2013B08_resonance_and_damping.htm",
+        "other/equipment/2015B15_electrical_safety.htm",
+        "physiology/immunology/2000B15_latex_allergy.htm",
+        "other/equipment/2012A10_pneumotachographs.htm"
+      ]
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "dose_response_kinetics",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'dose_response_kinetics'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "haemostasis_and_transfusion",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'haemostasis_and_transfusion'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "monitoring_and_measurement",
+      "reason": "Optimal threshold 0.42 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.42 for 'monitoring_and_measurement'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "neuromuscular_and_cns",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'neuromuscular_and_cns'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "organ_system_effects",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'organ_system_effects'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "pain_and_analgesia",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'pain_and_analgesia'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "receptor_pharmacology",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'receptor_pharmacology'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "respiratory_gas_exchange",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'respiratory_gas_exchange'"
+    },
+    {
+      "type": "ADJUST_THRESHOLD",
+      "priority": "low",
+      "dimension": "special_populations",
+      "reason": "Optimal threshold 0.72 differs from global 0.6",
+      "action": "Consider per-dimension threshold of 0.72 for 'special_populations'"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "haemostasis_and_transfusion",
+      "category": "physiology",
+      "reason": "haemostasis_and_transfusion activates in 85% of physiology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "receptor_pharmacology",
+      "category": "physiology",
+      "reason": "receptor_pharmacology activates in 78% of physiology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "physics_and_engineering",
+      "category": "physiology",
+      "reason": "physics_and_engineering activates in 72% of physiology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "haemostasis_and_transfusion",
+      "category": "pharmacology",
+      "reason": "haemostasis_and_transfusion activates in 69% of pharmacology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "dose_response_kinetics",
+      "category": "physiology",
+      "reason": "dose_response_kinetics activates in 66% of physiology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "neuromuscular_and_cns",
+      "category": "physiology",
+      "reason": "neuromuscular_and_cns activates in 52% of physiology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "haemostasis_and_transfusion",
+      "category": "other",
+      "reason": "haemostasis_and_transfusion activates in 49% of other docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "pain_and_analgesia",
+      "category": "physiology",
+      "reason": "pain_and_analgesia activates in 49% of physiology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "special_populations",
+      "category": "physiology",
+      "reason": "special_populations activates in 48% of physiology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "monitoring_and_measurement",
+      "category": "physiology",
+      "reason": "monitoring_and_measurement activates in 47% of physiology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    },
+    {
+      "type": "INVESTIGATE_AFFINITY",
+      "priority": "low",
+      "dimension": "special_populations",
+      "category": "pharmacology",
+      "reason": "special_populations activates in 43% of pharmacology docs but is not expected",
+      "action": "Check if this is genuine signal or classifier noise"
+    }
+  ]
+}
