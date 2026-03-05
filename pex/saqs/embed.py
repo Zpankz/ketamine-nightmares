@@ -19,6 +19,8 @@ from pathlib import Path
 
 from isaacus import Isaacus
 
+from text_utils import SKIP_PATHS, strip_footer
+
 API_KEY = os.environ.get(
     "ISAACUS_API_KEY",
     "iuak_v1_alcvXayhjV_8O92bz8S8kphmSOBpiNNoDDAQoexh6q1_feeb2b85",
@@ -120,7 +122,7 @@ def main():
     remaining = [
         (path, info)
         for path, info in manifest.items()
-        if path not in embed_manifest
+        if path not in embed_manifest and path not in SKIP_PATHS
     ]
     print(f"Embedding pipeline: {len(remaining)} documents remaining of {len(manifest)} total")
 
@@ -129,7 +131,7 @@ def main():
 
     for path, info in remaining:
         doc = load_enrichment(info["output_file"])
-        doc_text = doc["text"].strip()
+        doc_text = strip_footer(doc["text"])
         if not doc_text:
             continue
 

@@ -20,6 +20,8 @@ from pathlib import Path
 
 from isaacus import Isaacus
 
+from text_utils import SKIP_PATHS, strip_footer
+
 API_KEY = os.environ.get(
     "ISAACUS_API_KEY",
     "iuak_v1_alcvXayhjV_8O92bz8S8kphmSOBpiNNoDDAQoexh6q1_feeb2b85",
@@ -136,7 +138,7 @@ def main():
     remaining = [
         (path, info)
         for path, info in manifest.items()
-        if path not in qa_manifest
+        if path not in qa_manifest and path not in SKIP_PATHS
     ]
     print(f"QA extraction pipeline: {len(remaining)} documents remaining")
 
@@ -147,7 +149,7 @@ def main():
         with open(ENRICHMENT_DIR / info["output_file"]) as f:
             doc = json.load(f)
 
-        text = doc["text"].strip()
+        text = strip_footer(doc["text"])
         if not text:
             continue
 
@@ -242,7 +244,7 @@ def query_corpus(question: str, top_k: int = 5) -> list[dict]:
         with open(ENRICHMENT_DIR / info["output_file"]) as f:
             doc = json.load(f)
 
-        text = doc["text"].strip()
+        text = strip_footer(doc["text"])
         if not text:
             continue
 

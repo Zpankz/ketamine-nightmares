@@ -26,6 +26,8 @@ from pathlib import Path
 
 from isaacus import Isaacus
 
+from text_utils import DIMENSION_THRESHOLD, SKIP_PATHS
+
 API_KEY = os.environ.get(
     "ISAACUS_API_KEY",
     "iuak_v1_alcvXayhjV_8O92bz8S8kphmSOBpiNNoDDAQoexh6q1_feeb2b85",
@@ -215,7 +217,7 @@ def main():
     remaining = [
         (path, info)
         for path, info in manifest.items()
-        if path not in seg_manifest
+        if path not in seg_manifest and path not in SKIP_PATHS
     ]
     print(f"Segment processing pipeline: {len(remaining)} documents remaining")
 
@@ -256,7 +258,7 @@ def main():
 
             # Update concept index for concepts scoring > 0.5
             for concept, score in concept_scores.items():
-                if score and score > 0.5:
+                if score and score > DIMENSION_THRESHOLD:
                     concept_index[concept].append({
                         "source": path,
                         "segment_id": seg["id"],
@@ -275,7 +277,8 @@ def main():
                     for k, v in concept_scores.items()
                 },
                 "active_concepts": [
-                    k for k, v in concept_scores.items() if v and v > 0.5
+                    k for k, v in concept_scores.items()
+                    if v and v > DIMENSION_THRESHOLD
                 ],
                 "key_facts": facts,
             })

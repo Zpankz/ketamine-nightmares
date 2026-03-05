@@ -23,6 +23,8 @@ from pathlib import Path
 import numpy as np
 from isaacus import Isaacus
 
+from text_utils import SKIP_PATHS
+
 API_KEY = os.environ.get(
     "ISAACUS_API_KEY",
     "iuak_v1_alcvXayhjV_8O92bz8S8kphmSOBpiNNoDDAQoexh6q1_feeb2b85",
@@ -51,6 +53,8 @@ def load_all_document_embeddings() -> tuple[list[str], list[list[float]]]:
     paths = []
     vectors = []
     for path, info in sorted(embed_manifest.items()):
+        if path in SKIP_PATHS:
+            continue
         with open(EMBEDDING_DIR / info["output_file"]) as f:
             data = json.load(f)
         if data["document_embedding"]:

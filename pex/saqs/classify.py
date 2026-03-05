@@ -25,6 +25,8 @@ from pathlib import Path
 
 from isaacus import Isaacus
 
+from text_utils import DIMENSION_THRESHOLD, SKIP_PATHS, strip_footer
+
 API_KEY = os.environ.get(
     "ISAACUS_API_KEY",
     "iuak_v1_alcvXayhjV_8O92bz8S8kphmSOBpiNNoDDAQoexh6q1_feeb2b85",
@@ -38,7 +40,7 @@ MANIFEST_PATH = ENRICHMENT_DIR / "manifest.json"
 #
 # Each axis contains queries written as plain-English statements that the
 # Isaacus Universal Classifier scores against document text (0–1 scale).
-# Scores > 0.5 indicate positive classification.
+# Scores > DIMENSION_THRESHOLD indicate positive classification.
 #
 # IQL operators (AND, OR, NOT, +, >, <) compose compound queries.
 # ============================================================================
@@ -306,7 +308,7 @@ def main():
     remaining = [
         (path, info)
         for path, info in manifest.items()
-        if path not in class_manifest
+        if path not in class_manifest and path not in SKIP_PATHS
     ]
     print(f"Classification pipeline: {len(remaining)} documents, {len(ontology_items)} queries each")
     print(f"Total classifications to run: {len(remaining) * len(ontology_items)}")
@@ -318,7 +320,7 @@ def main():
         with open(ENRICHMENT_DIR / info["output_file"]) as f:
             doc = json.load(f)
 
-        text = doc["text"].strip()
+        text = strip_footer(doc["text"])
         if not text:
             continue
 
@@ -374,7 +376,7 @@ def main():
         active_dims = [
             (k, v["score"])
             for k, v in dim_scores.items()
-            if v["score"] and v["score"] > 0.5
+            if v["score"] and v["score"] > DIMENSION_THRESHOLD
         ]
         active_dims.sort(key=lambda x: x[1], reverse=True)
         summary["content_dimensions"] = [d[0] for d in active_dims]
