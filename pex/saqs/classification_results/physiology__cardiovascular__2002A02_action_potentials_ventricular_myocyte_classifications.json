@@ -2,27 +2,28 @@
   "source": "physiology/cardiovascular/2002A02_action_potentials_ventricular_myocyte.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9376191323348395
+      "primary": "mechanistic_explanation",
+      "score": 0.5763820745627931
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5083585035881414
     },
     "content_dimensions": [
-      "physics_and_engineering",
-      "organ_system_effects"
-    ]
+      "drug_receptor_disposition",
+      "organ_system_process"
+    ],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9376191323348395,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.10202987799295415,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.9376191323348395,
+            "score": 0.10202987799295415,
             "start": 0,
             "end": 903
           }
@@ -42,7 +43,7 @@
       },
       "comparative_analysis": {
         "score": 0.20979078633127912,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
@@ -53,12 +54,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.57735730461036,
+        "score": 0.4240732049846119,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.57735730461036,
+            "score": 0.4240732049846119,
             "start": 0,
             "end": 903
           }
@@ -116,129 +117,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.1731608672870061,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8394265174382769,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.1731608672870061,
+            "score": 0.8394265174382769,
             "start": 0,
             "end": 903
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.46649807448637665,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.1752007806948695,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.46649807448637665,
+            "score": 0.1752007806948695,
             "start": 0,
             "end": 903
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.6616184083987072,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.08878886373592071,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.6616184083987072,
+            "score": 0.08878886373592071,
             "start": 0,
             "end": 903
           }
         ]
       },
-      "special_populations": {
-        "score": 0.16252292535834514,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.7183639236459705,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.16252292535834514,
+            "score": 0.7183639236459705,
             "start": 0,
             "end": 903
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.36814003491309455,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.36814003491309455,
-            "start": 0,
-            "end": 903
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.687784599120804,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.687784599120804,
-            "start": 0,
-            "end": 903
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.3400766260739586,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.3400766260739586,
-            "start": 0,
-            "end": 903
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.23285993165673047,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.23285993165673047,
-            "start": 0,
-            "end": 903
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.34933703035082736,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.34933703035082736,
-            "start": 0,
-            "end": 903
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.12732266681585389,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.12732266681585389,
-            "start": 0,
-            "end": 903
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.09480246485705024,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
@@ -248,13 +177,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.25262119035664987,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.1671270277650237,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
-            "score": 0.25262119035664987,
+            "score": 0.1671270277650237,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.17932362625190623,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.17932362625190623,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.31926121628175463,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.31926121628175463,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.38221585661706947,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.38221585661706947,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.16252292535834514,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.16252292535834514,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5742673619872962,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.5742673619872962,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.16317590246639627,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.16317590246639627,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.21823325627215462,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.21823325627215462,
+            "start": 0,
+            "end": 903
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.39607590378929025,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2002A02 Draw a\nlabelled diagramme of cardiac muscle action potential\nhighlighting the sequence of changes in ionic conductances.\nExplain the terms “threshold”, “excitability”, “irritability” with the ",
+            "score": 0.39607590378929025,
             "start": 0,
             "end": 903
           }

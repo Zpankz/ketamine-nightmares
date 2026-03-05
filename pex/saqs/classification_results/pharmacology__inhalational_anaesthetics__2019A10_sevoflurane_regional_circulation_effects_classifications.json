@@ -3,51 +3,52 @@
   "summary": {
     "cognitive_domain": {
       "primary": "comparative_analysis",
-      "score": 0.8878394541493737,
-      "secondary": [
-        "factual_recall"
-      ]
+      "score": 0.8122584176361644
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.6187953385807919
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "neuromuscular_and_cns",
-      "monitoring_and_measurement",
-      "receptor_pharmacology",
-      "physics_and_engineering",
-      "pain_and_analgesia",
-      "respiratory_gas_exchange",
-      "organ_system_effects",
-      "special_populations"
+      "organ_system_process",
+      "equipment_and_physics",
+      "neuromuscular_process",
+      "acid_base_quality",
+      "nociception_process",
+      "gas_exchange_process",
+      "drug_receptor_disposition",
+      "special_population_role"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link",
+      "dose_response_relationship",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.879317606529836,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.2233114749858749,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
-            "score": 0.879317606529836,
-            "start": 1199,
-            "end": 2651
-          },
-          {
-            "text": "↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculation:\nFactors increasing f",
-            "score": 0.8658201727081827,
-            "start": 2652,
-            "end": 4220
-          },
-          {
             "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
-            "score": 0.7643130528396533,
+            "score": 0.2233114749858749,
             "start": 0,
-            "end": 1198
+            "end": 1196
+          },
+          {
+            "text": "2\n) and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that occurs with any concentration of volatile\nanaesthetic\no\nS",
+            "score": 0.20377101929932123,
+            "start": 4157,
+            "end": 4442
+          },
+          {
+            "text": "�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncircula",
+            "score": 0.13828116177283856,
+            "start": 2626,
+            "end": 4156
           }
         ]
       },
@@ -76,12 +77,12 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.8878394541493737,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.8122584176361644,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
-            "score": 0.8878394541493737,
+            "score": 0.8122584176361644,
             "start": 1199,
             "end": 2649
           },
@@ -93,33 +94,33 @@
           },
           {
             "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
-            "score": 0.6748144922253848,
+            "score": 0.6403165939069506,
             "start": 0,
             "end": 1198
           }
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.6628270414999413,
+        "score": 0.5986730487699915,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculation:\nFactors increasing f",
-            "score": 0.6628270414999413,
-            "start": 2652,
-            "end": 4220
+            "text": "∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect ",
+            "score": 0.5986730487699915,
+            "start": 1197,
+            "end": 2627
           },
           {
-            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
-            "score": 0.5114092440305866,
-            "start": 1199,
-            "end": 2651
+            "text": "Direct vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculati",
+            "score": 0.5699332535640114,
+            "start": 2628,
+            "end": 4158
           },
           {
             "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
-            "score": 0.4093035678127705,
+            "score": 0.4187469185774672,
             "start": 0,
-            "end": 1198
+            "end": 1196
           }
         ]
       },
@@ -223,249 +224,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.9567586810172901,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "Slope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo e",
-            "score": 0.9567586810172901,
-            "start": 1191,
-            "end": 2594
-          },
-          {
-            "text": "In this range, the indirect vasoconstriction\n(via ↓CMRO\n2\n) and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that o",
-            "score": 0.9028231178351751,
-            "start": 4101,
-            "end": 4442
-          },
-          {
-            "text": "Pulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,",
-            "score": 0.8302071599905412,
-            "start": 2595,
-            "end": 4100
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.8381284697982909,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Slope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo e",
-            "score": 0.8381284697982909,
-            "start": 1191,
-            "end": 2594
-          },
-          {
-            "text": "Pulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,",
-            "score": 0.5014595328363146,
-            "start": 2595,
-            "end": 4100
-          },
-          {
-            "text": "In this range, the indirect vasoconstriction\n(via ↓CMRO\n2\n) and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that o",
-            "score": 0.3596834060930492,
-            "start": 4101,
-            "end": 4442
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.7902092136687209,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "circulation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West z",
-            "score": 0.7902092136687209,
-            "start": 2605,
-            "end": 4100
-          },
-          {
-            "text": "Slope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo e",
-            "score": 0.7498967359755564,
-            "start": 1191,
-            "end": 2604
-          },
-          {
-            "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
-            "score": 0.7401717773902717,
-            "start": 0,
-            "end": 1190
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.6123344629160405,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Onset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatc",
-            "score": 0.6123344629160405,
-            "start": 2561,
-            "end": 4070
-          },
-          {
-            "text": "�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo",
-            "score": 0.5612056408299423,
-            "start": 1189,
-            "end": 2560
-          },
-          {
-            "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
-            "score": 0.324947631255672,
-            "start": 0,
-            "end": 1188
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.8407182470171375,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "Direct vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculati",
-            "score": 0.8407182470171375,
-            "start": 2628,
-            "end": 4158
-          },
-          {
-            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
-            "score": 0.7699481495341085,
-            "start": 1199,
-            "end": 2627
-          },
-          {
-            "text": ") and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that occurs with any concentration of volatile\nanaesthetic\no\nSee",
-            "score": 0.3611706135712885,
-            "start": 4159,
-            "end": 4442
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.8227449693592715,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "Effects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic",
-            "score": 0.8227449693592715,
-            "start": 2618,
-            "end": 4145
-          },
-          {
-            "text": "(via ↓CMRO\n2\n) and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that occurs with any concentration of volatile\nanae",
-            "score": 0.7759013874121433,
-            "start": 4146,
-            "end": 4442
-          },
-          {
-            "text": "∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect ",
-            "score": 0.7293801843123591,
-            "start": 1197,
-            "end": 2617
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.5910188741030777,
-        "description": "Acid-base and electrolyte physiology",
+      "drug_receptor_disposition": {
+        "score": 0.7936078223631662,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  (not ablated)\n�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricit",
-            "score": 0.5910188741030777,
+            "score": 0.7936078223631662,
             "start": 1173,
             "end": 2560
+          },
+          {
+            "text": "Onset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatc",
+            "score": 0.2166840731768605,
+            "start": 2561,
+            "end": 4070
           },
           {
             "text": "CBF between 0 MAC and 1 MAC\no\nIn this range, the indirect vasoconstriction\n(via ↓CMRO\n2\n) and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift ",
-            "score": 0.25769737607998944,
+            "score": 0.19420584422163265,
             "start": 4071,
             "end": 4442
-          },
-          {
-            "text": "Onset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatc",
-            "score": 0.2045179371314406,
-            "start": 2561,
-            "end": 4070
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.5919858034974564,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.4877950211260116,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  (not ablated)\n�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricit",
-            "score": 0.5919858034974564,
-            "start": 1173,
-            "end": 2558
-          },
-          {
-            "text": "There is no evidence for significant change in\nCBF between 0 MAC and 1 MAC\no\nIn this range, the indirect vasoconstriction\n(via ↓CMRO\n2\n) and the direct vasodilation roughly cancel each\nother out\no\nThi",
-            "score": 0.2551525833359077,
-            "start": 4024,
-            "end": 4442
+            "text": "impaired\n  (not ablated)\n�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoe",
+            "score": 0.4877950211260116,
+            "start": 1164,
+            "end": 2520
           },
           {
             "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
             "score": 0.19858710741881394,
             "start": 0,
-            "end": 1172
+            "end": 1163
+          },
+          {
+            "text": "  (vascular/mitochondrial/sarcolemma)\n�\nOnset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSig",
+            "score": 0.14609812862042407,
+            "start": 2521,
+            "end": 3984
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.9318869461159072,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.3928838323968975,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "  (not ablated)\n�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricit",
-            "score": 0.9318869461159072,
-            "start": 1173,
-            "end": 2558
-          },
-          {
-            "text": "�\nOnset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q misma",
-            "score": 0.8551215152942102,
-            "start": 2559,
-            "end": 4023
+            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
+            "score": 0.3928838323968975,
+            "start": 1199,
+            "end": 2649
           },
           {
             "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
-            "score": 0.4857396234160982,
+            "score": 0.25178038205584335,
             "start": 0,
-            "end": 1172
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.8043401089718551,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "Slope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo e",
-            "score": 0.8043401089718551,
-            "start": 1191,
-            "end": 2594
+            "end": 1198
           },
           {
-            "text": "In this range, the indirect vasoconstriction\n(via ↓CMRO\n2\n) and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that o",
-            "score": 0.651642343386327,
-            "start": 4101,
+            "text": "other out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that occurs with any concentration of volatile\nanaesthetic\no\nSee the Eger-Stoelting version below:\nSpecial thanks ",
+            "score": 0.12068239347016409,
+            "start": 4209,
             "end": 4442
-          },
-          {
-            "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
-            "score": 0.6233349419867746,
-            "start": 0,
-            "end": 1190
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "organ_system_process": {
+        "score": 0.9291189818444713,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncircula",
+            "score": 0.9291189818444713,
+            "start": 2626,
+            "end": 4145
+          },
+          {
+            "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
+            "score": 0.8575421829580605,
+            "start": 0,
+            "end": 1196
+          },
+          {
+            "text": "∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect ",
+            "score": 0.8458221271134265,
+            "start": 1197,
+            "end": 2625
+          }
+        ]
+      },
+      "gas_exchange_process": {
         "score": 0.7947335570650536,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Onset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatc",
@@ -487,27 +344,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8634857460534524,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8974771154636643,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Coupling of CBF and CMRO\n2\nimpaired\n  (not ablated)\n�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst sup",
-            "score": 0.8634857460534524,
-            "start": 1137,
-            "end": 2483
+            "text": "  (not ablated)\n�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricit",
+            "score": 0.8974771154636643,
+            "start": 1173,
+            "end": 2558
           },
           {
-            "text": "Due to activation of K\n+\nATP channel\n  (vascular/mitochondrial/sarcolemma)\n�\nOnset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n",
-            "score": 0.7456927065420009,
-            "start": 2484,
-            "end": 3955
+            "text": "�\nOnset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q misma",
+            "score": 0.7794311829278053,
+            "start": 2559,
+            "end": 4023
           },
           {
-            "text": "for CBF vs CMRO\n2\nand CMRO\n2\nvs MAC\n�\nThe alternative opinion is:\no\nThere is no evidence for significant change in\nCBF between 0 MAC and 1 MAC\no\nIn this range, the indirect vasoconstriction\n(via ↓CMRO",
-            "score": 0.6040519237025428,
-            "start": 3956,
+            "text": "There is no evidence for significant change in\nCBF between 0 MAC and 1 MAC\no\nIn this range, the indirect vasoconstriction\n(via ↓CMRO\n2\n) and the direct vasodilation roughly cancel each\nother out\no\nThi",
+            "score": 0.4230327267673067,
+            "start": 4024,
             "end": 4442
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8206763737480939,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  (not ablated)\n�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricit",
+            "score": 0.8206763737480939,
+            "start": 1173,
+            "end": 2560
+          },
+          {
+            "text": "Onset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatc",
+            "score": 0.6560362405760417,
+            "start": 2561,
+            "end": 4070
+          },
+          {
+            "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
+            "score": 0.6076261926471572,
+            "start": 0,
+            "end": 1172
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.8545124702668796,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncircula",
+            "score": 0.8545124702668796,
+            "start": 2626,
+            "end": 4145
+          },
+          {
+            "text": "∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect ",
+            "score": 0.7894496120499562,
+            "start": 1197,
+            "end": 2625
+          },
+          {
+            "text": "(via ↓CMRO\n2\n) and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that occurs with any concentration of volatile\nanae",
+            "score": 0.3145562174614424,
+            "start": 4146,
+            "end": 4442
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9250597313024956,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculation:\nFactors increasing",
+            "score": 0.9250597313024956,
+            "start": 2650,
+            "end": 4208
+          },
+          {
+            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
+            "score": 0.8825573934438159,
+            "start": 1199,
+            "end": 2649
+          },
+          {
+            "text": "other out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that occurs with any concentration of volatile\nanaesthetic\no\nSee the Eger-Stoelting version below:\nSpecial thanks ",
+            "score": 0.679321278132118,
+            "start": 4209,
+            "end": 4442
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.6123344629160405,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Onset in minutes, offset 3-4 days\nPulmonary\ncirculation:\nEffects\n�\nDirect vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatc",
+            "score": 0.6123344629160405,
+            "start": 2561,
+            "end": 4070
+          },
+          {
+            "text": "�\nSlope\n∝\ndose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo",
+            "score": 0.5612056408299423,
+            "start": 1189,
+            "end": 2560
+          },
+          {
+            "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
+            "score": 0.324947631255672,
+            "start": 0,
+            "end": 1188
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8108330834530486,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
+            "score": 0.8108330834530486,
+            "start": 1199,
+            "end": 2651
+          },
+          {
+            "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
+            "score": 0.7683458543951072,
+            "start": 0,
+            "end": 1198
+          },
+          {
+            "text": "↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculation:\nFactors increasing f",
+            "score": 0.732858224691364,
+            "start": 2652,
+            "end": 4220
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.7723399527572379,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
+            "score": 0.7723399527572379,
+            "start": 1199,
+            "end": 2651
+          },
+          {
+            "text": "↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculation:\nFactors increasing f",
+            "score": 0.7723399527572379,
+            "start": 2652,
+            "end": 4220
+          },
+          {
+            "text": "2019A10 Describe\nthe effects of sevoflurane on the following regional circulations:\ncerebral, coronary, pulmonary, hepatic and uteroplacental. Do not discuss\nspecific organ effects.\nIntro:\n�\nFlow phys",
+            "score": 0.31926121628175463,
+            "start": 0,
+            "end": 1198
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7315566687728775,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Direct vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculati",
+            "score": 0.7315566687728775,
+            "start": 2628,
+            "end": 4158
+          },
+          {
+            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
+            "score": 0.684505264182439,
+            "start": 1199,
+            "end": 2627
+          },
+          {
+            "text": ") and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that occurs with any concentration of volatile\nanaesthetic\no\nSee",
+            "score": 0.3865229101133825,
+            "start": 4159,
+            "end": 4442
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8050679294373881,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "dose -> greater effect at high dose\nCMRO\n2\nvs MAC\n�\nDose-dependent reduction in\n  electrophysiological function (60% of total)\no\nBurst suppression at ~1.5 MAC\no\nIsoelectricity at ~2 MAC\n�\nNo effect on",
+            "score": 0.8050679294373881,
+            "start": 1199,
+            "end": 2627
+          },
+          {
+            "text": ") and the direct vasodilation roughly cancel each\nother out\no\nThis is consistent with the leftward/upward\nshift in the CBF vs mAP curve that occurs with any concentration of volatile\nanaesthetic\no\nSee",
+            "score": 0.4719620109705897,
+            "start": 4159,
+            "end": 4442
+          },
+          {
+            "text": "Direct vasodilatation\n�\n↓SNS output -> vasodilatation\n�\n↓PVR\n�\n↓Pulmonary artery pressure\nSignificance\n�\nImpaired HPV -> ↑V/Q mismatch\n�\n↓PASP -> ↑alveolar dead space,\n  ↑West zone 1\nHepatic\ncirculati",
+            "score": 0.46597764308019396,
+            "start": 2628,
+            "end": 4158
           }
         ]
       }

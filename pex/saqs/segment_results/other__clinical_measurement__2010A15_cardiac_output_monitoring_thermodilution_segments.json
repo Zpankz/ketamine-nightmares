@@ -1,0 +1,259 @@
+{
+  "source": "other/clinical_measurement/2010A15_cardiac_output_monitoring_thermodilution.htm",
+  "num_segments_processed": 13,
+  "document_classification": {
+    "content_dimensions": [
+      "pharmacology_mechanisms",
+      "organ_system_effects",
+      "physics_and_engineering",
+      "monitoring_and_measurement",
+      "neuromuscular_and_cns"
+    ],
+    "cognitive_domain": "quantitative_reasoning",
+    "clinical_relevance": "immediately_applicable"
+  },
+  "segments": [
+    {
+      "id": "seg:11",
+      "start": 424,
+      "end": 502,
+      "level": 2,
+      "text_preview": "·\nQ = Volume injected x (T\nBlood\n–\nT\nInjectate\n).k1.k2 / AUC (∆ temp vs.\ntime)",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": []
+    },
+    {
+      "id": "seg:12",
+      "start": 503,
+      "end": 565,
+      "level": 2,
+      "text_preview": "·\nAnalogous to: Clearance = dose / AUC(concentration vs.\ntime)",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": []
+    },
+    {
+      "id": "seg:13",
+      "start": 566,
+      "end": 617,
+      "level": 2,
+      "text_preview": "·\nk1: (SHC\nInj\nx SG\nInj\n) /\n(SHC\nBlood\nx SG\nBlood\n)",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": [
+        {
+          "question": "What numerical value or normal range is given?",
+          "answer": "(SHC\nInj\nx SG\nInj\n) /\n(SHC\nBlood\nx SG\nBlood\n)",
+          "score": 0.0013483622767302304
+        }
+      ]
+    },
+    {
+      "id": "seg:14",
+      "start": 618,
+      "end": 700,
+      "level": 2,
+      "text_preview": "·\nk2: computational constant for heat gain in transit\n(injection time, dead space)",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": [
+        {
+          "question": "What is the key fact or definition stated here?",
+          "answer": "computational constant for heat gain in transit",
+          "score": 0.07035933542351343
+        }
+      ]
+    },
+    {
+      "id": "seg:24",
+      "start": 984,
+      "end": 1065,
+      "level": 2,
+      "text_preview": "·\n↓ temp -> ↑ resistance\n(non-linear overall, near linear in physiological range)",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": []
+    },
+    {
+      "id": "seg:28",
+      "start": 1141,
+      "end": 1202,
+      "level": 2,
+      "text_preview": "·\nTemperature known (e.g. 3\n°\nC) and volume known (e.g.\n10mL)",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": [
+        {
+          "question": "What is the key fact or definition stated here?",
+          "answer": "Temperature known",
+          "score": 0.17150877994597585
+        },
+        {
+          "question": "What numerical value or normal range is given?",
+          "answer": "Temperature known",
+          "score": 0.00927621562520787
+        }
+      ]
+    },
+    {
+      "id": "seg:30",
+      "start": 1233,
+      "end": 1293,
+      "level": 2,
+      "text_preview": "·\nStewart-Hamilton equation used to calculate cardiac\noutput",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": []
+    },
+    {
+      "id": "seg:31",
+      "start": 1294,
+      "end": 1349,
+      "level": 2,
+      "text_preview": "·\nSome extrapolation required for the tail of the\ncurve",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": []
+    },
+    {
+      "id": "seg:40",
+      "start": 1566,
+      "end": 1646,
+      "level": 2,
+      "text_preview": "·\nThat thermal equilibrium is established by the\ntime mixture reaches thermistor",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": [
+        {
+          "question": "What is the key fact or definition stated here?",
+          "answer": "thermal equilibrium is established by the\ntime mixture reaches thermistor",
+          "score": 0.012092920427660496
+        }
+      ]
+    },
+    {
+      "id": "seg:41",
+      "start": 1647,
+      "end": 1717,
+      "level": 2,
+      "text_preview": "·\nThat injectate is warmed by blood only (not true\nin low flow states)",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": [
+        {
+          "question": "What is the key fact or definition stated here?",
+          "answer": "That injectate is warmed by blood only",
+          "score": 0.09379569120929322
+        }
+      ]
+    },
+    {
+      "id": "seg:42",
+      "start": 1718,
+      "end": 1785,
+      "level": 2,
+      "text_preview": "·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": [
+        {
+          "question": "What is the key fact or definition stated here?",
+          "answer": "That flow is unidirectional",
+          "score": 0.014909744460344557
+        }
+      ]
+    },
+    {
+      "id": "seg:43",
+      "start": 1786,
+      "end": 1839,
+      "level": 2,
+      "text_preview": "·\nThat cold injectate does not depress cardiac\noutput",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": [
+        {
+          "question": "What is the key fact or definition stated here?",
+          "answer": "That cold injectate does not depress cardiac\noutput",
+          "score": 0.010709860265009847
+        }
+      ]
+    },
+    {
+      "id": "seg:50",
+      "start": 1952,
+      "end": 2037,
+      "level": 2,
+      "text_preview": "·\nRequires invasive device: many risks of PAC\ninsertion e.g. pulmonary artery rupture",
+      "inherited_dimensions": [
+        "pharmacology_mechanisms",
+        "organ_system_effects",
+        "physics_and_engineering",
+        "monitoring_and_measurement",
+        "neuromuscular_and_cns"
+      ],
+      "key_facts": []
+    }
+  ]
+}

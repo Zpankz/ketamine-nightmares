@@ -2,8 +2,12 @@
   "source": "physiology/cardiovascular/2013C16_isovolumic_haemodilution.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9208745583881597
+      "primary": "quantitative_reasoning",
+      "score": 0.7236793780837079,
+      "secondary": [
+        "mechanistic_explanation",
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,36 +17,47 @@
       ]
     },
     "content_dimensions": [
-      "autonomic_nervous_system",
-      "pain_and_analgesia",
-      "receptor_pharmacology",
-      "respiratory_gas_exchange",
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "neuromuscular_and_cns",
-      "physics_and_engineering",
-      "monitoring_and_measurement",
-      "special_populations",
-      "organ_system_effects"
+      "autonomic_disposition",
+      "nociception_process",
+      "gas_exchange_process",
+      "equipment_and_physics",
+      "organ_system_process",
+      "drug_receptor_disposition",
+      "neuromuscular_process",
+      "pharmacokinetic_process",
+      "special_population_role",
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance",
+      "homeostatic_regulation",
+      "dose_response_relationship"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9208745583881597,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.23326263346460352,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.9208745583881597,
-            "start": 0,
-            "end": 1150
+            "text": "Anaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal ",
+            "score": 0.23326263346460352,
+            "start": 1130,
+            "end": 2290
           },
           {
-            "text": "+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B) Sym",
-            "score": 0.8809441529008322,
-            "start": 1151,
+            "text": "ketaminenightmares@gmail.com",
+            "score": 0.21283868086355118,
+            "start": 2291,
             "end": 2319
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.10401037605283608,
+            "start": 0,
+            "end": 1129
           }
         ]
       },
@@ -66,7 +81,7 @@
       },
       "comparative_analysis": {
         "score": 0.5434114526961923,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B) ",
@@ -83,19 +98,25 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.755719170496192,
+        "score": 0.7236793780837079,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.755719170496192,
-            "start": 0,
-            "end": 1150
+            "text": "Anaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal ",
+            "score": 0.7236793780837079,
+            "start": 1130,
+            "end": 2290
           },
           {
-            "text": "+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B) Sym",
-            "score": 0.5041794989565971,
-            "start": 1151,
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.7120990533587452,
+            "start": 0,
+            "end": 1129
+          },
+          {
+            "text": "ketaminenightmares@gmail.com",
+            "score": 0.3029316888292404,
+            "start": 2291,
             "end": 2319
           }
         ]
@@ -194,243 +215,99 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8669782210144448,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8122584176361644,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.8122584176361644,
+            "start": 2216,
+            "end": 2319
+          },
+          {
+            "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
+            "score": 0.5133984819144412,
+            "start": 1092,
+            "end": 2215
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.15166364739002158,
+            "start": 0,
+            "end": 1091
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.9376191323348395,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "↑CO\n(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ",
+            "score": 0.9376191323348395,
+            "start": 1088,
+            "end": 2213
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.19858710741881394,
+            "start": 0,
+            "end": 1087
+          },
+          {
+            "text": "·\n↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.15863825532763226,
+            "start": 2214,
+            "end": 2319
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.77114579912467,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B) ",
+            "score": 0.77114579912467,
+            "start": 1148,
+            "end": 2319
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.13476114033048603,
+            "start": 0,
+            "end": 1147
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.8335354564972123,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Anaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal ",
-            "score": 0.8669782210144448,
+            "score": 0.8335354564972123,
             "start": 1130,
             "end": 2290
           },
           {
             "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.3024708949494209,
+            "score": 0.34933703035082736,
             "start": 0,
             "end": 1129
           },
           {
             "text": "ketaminenightmares@gmail.com",
-            "score": 0.1554444021999438,
+            "score": 0.09107466708246154,
             "start": 2291,
             "end": 2319
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.8939864498892817,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "o\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeleta",
-            "score": 0.8939864498892817,
-            "start": 1128,
-            "end": 2287
-          },
-          {
-            "text": "at\nketaminenightmares@gmail.com",
-            "score": 0.6261002849385863,
-            "start": 2288,
-            "end": 2319
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.24304282348823103,
-            "start": 0,
-            "end": 1127
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.7210279840445749,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "Anaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal ",
-            "score": 0.7210279840445749,
-            "start": 1130,
-            "end": 2290
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.3913543498125418,
-            "start": 0,
-            "end": 1129
-          },
-          {
-            "text": "ketaminenightmares@gmail.com",
-            "score": 0.0981363269013407,
-            "start": 2291,
-            "end": 2319
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.7289438071628661,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
-            "score": 0.7289438071628661,
-            "start": 1092,
-            "end": 2215
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.290606540070939,
-            "start": 0,
-            "end": 1091
-          },
-          {
-            "text": "↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.26714177530863603,
-            "start": 2216,
-            "end": 2319
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.7699481495341085,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B",
-            "score": 0.7699481495341085,
-            "start": 1146,
-            "end": 2319
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.31596446232249,
-            "start": 0,
-            "end": 1145
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7871613191364488,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "Anaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal ",
-            "score": 0.7871613191364488,
-            "start": 1130,
-            "end": 2290
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.7324247348287793,
-            "start": 0,
-            "end": 1129
-          },
-          {
-            "text": "ketaminenightmares@gmail.com",
-            "score": 0.18280318375806526,
-            "start": 2291,
-            "end": 2319
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.557223193317232,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
-            "score": 0.557223193317232,
-            "start": 1092,
-            "end": 2215
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.2969670234089074,
-            "start": 0,
-            "end": 1091
-          },
-          {
-            "text": "↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.14732399306894495,
-            "start": 2216,
-            "end": 2319
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.9169980825837643,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
-            "score": 0.9169980825837643,
-            "start": 1092,
-            "end": 2215
-          },
-          {
-            "text": "↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.23406919549587674,
-            "start": 2216,
-            "end": 2319
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.10351313129730201,
-            "start": 0,
-            "end": 1091
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8646560185906924,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
-            "score": 0.8646560185906924,
-            "start": 1092,
-            "end": 2215
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.6255980034147848,
-            "start": 0,
-            "end": 1091
-          },
-          {
-            "text": "↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.340804115941232,
-            "start": 2216,
-            "end": 2319
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.898461720365241,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "o\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeleta",
-            "score": 0.898461720365241,
-            "start": 1128,
-            "end": 2287
-          },
-          {
-            "text": "at\nketaminenightmares@gmail.com",
-            "score": 0.3029316888292404,
-            "start": 2288,
-            "end": 2319
-          },
-          {
-            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.16057348256172324,
-            "start": 0,
-            "end": 1127
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.888878374989243,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
@@ -452,27 +329,197 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8065187877039502,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8043401089718551,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "compensation (seconds-minutes):\n↑CO\n(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> D",
-            "score": 0.8065187877039502,
-            "start": 1056,
-            "end": 2188
+            "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
+            "score": 0.8043401089718551,
+            "start": 1092,
+            "end": 2215
           },
           {
             "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
-            "score": 0.30570328895109333,
+            "score": 0.30385425542433225,
             "start": 0,
-            "end": 1055
+            "end": 1091
           },
           {
-            "text": "·\n↑Mitochondrial density\n·\n↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.1934812122960498,
-            "start": 2189,
+            "text": "↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.10702368540104822,
+            "start": 2216,
             "end": 2319
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.9287186482700105,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
+            "score": 0.9287186482700105,
+            "start": 1092,
+            "end": 2215
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.16317590246639627,
+            "start": 0,
+            "end": 1091
+          },
+          {
+            "text": "↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.1290165055825653,
+            "start": 2216,
+            "end": 2319
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.6479642377957068,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Anaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal ",
+            "score": 0.6479642377957068,
+            "start": 1130,
+            "end": 2290
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.18561555034757704,
+            "start": 0,
+            "end": 1129
+          },
+          {
+            "text": "ketaminenightmares@gmail.com",
+            "score": 0.14306065974886034,
+            "start": 2291,
+            "end": 2319
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8732389311266837,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B",
+            "score": 0.8732389311266837,
+            "start": 1146,
+            "end": 2319
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.6589532485275184,
+            "start": 0,
+            "end": 1145
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.7289438071628661,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "(A) Local metabolic autoregulation:\no\nAnaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n",
+            "score": 0.7289438071628661,
+            "start": 1092,
+            "end": 2215
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.290606540070939,
+            "start": 0,
+            "end": 1091
+          },
+          {
+            "text": "↑Oxidative enzymes (TCA cycle, fatty acid\n  oxidation)\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.26714177530863603,
+            "start": 2216,
+            "end": 2319
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7598325261631611,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B) Sym",
+            "score": 0.7598325261631611,
+            "start": 1151,
+            "end": 2319
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.7053121460285681,
+            "start": 0,
+            "end": 1150
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.6293595320823437,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B) ",
+            "score": 0.6293595320823437,
+            "start": 1148,
+            "end": 2319
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.22925302922312224,
+            "start": 0,
+            "end": 1147
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7519846744074956,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.7519846744074956,
+            "start": 0,
+            "end": 1129
+          },
+          {
+            "text": "Anaerobic -> ↑H\n+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal ",
+            "score": 0.6975291050505792,
+            "start": 1130,
+            "end": 2290
+          },
+          {
+            "text": "ketaminenightmares@gmail.com",
+            "score": 0.13244504050607428,
+            "start": 2291,
+            "end": 2319
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7770815074648134,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "+\n/K\n+\n/lactate\n  -> vasodilatation -> capillary recruitment and distension\no\n↑preload, ↓afterload -> ↑CO -> DO\n2\no\n↑area for gas exchange -> ↑EO\n2\nalso\no\nImportant in heart, skeletal muscle, brain\n(B",
+            "score": 0.7770815074648134,
+            "start": 1146,
+            "end": 2319
+          },
+          {
+            "text": "2013C16 Explain how oxygen supply to organs is maintained during\nisovolumic haemodilution.\nList:\n·\nIsovolumic haemodilution\n·\nEquations and normal values\n·\nDirect effect\n·\nShort term compensation\n·\nMe",
+            "score": 0.1554444021999438,
+            "start": 0,
+            "end": 1145
           }
         ]
       }

@@ -3,7 +3,7 @@
   "summary": {
     "cognitive_domain": {
       "primary": "factual_recall",
-      "score": 0.9529435624383218
+      "score": 0.6450111561715653
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,28 +13,30 @@
       ]
     },
     "content_dimensions": [
-      "physics_and_engineering",
-      "organ_system_effects",
-      "neuromuscular_and_cns"
+      "organ_system_process",
+      "neuromuscular_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9529435624383218,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.6450111561715653,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surrounds\n",
-            "score": 0.9529435624383218,
-            "start": 1624,
-            "end": 2159
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.6450111561715653,
+            "start": 0,
+            "end": 1615
           },
           {
-            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.9042519039731944,
-            "start": 0,
-            "end": 1623
+            "text": "·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to su",
+            "score": 0.3761617624014749,
+            "start": 1616,
+            "end": 2159
           }
         ]
       },
@@ -58,7 +60,7 @@
       },
       "comparative_analysis": {
         "score": 0.20006027090401593,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surrounds\n",
@@ -75,20 +77,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.2697481404929839,
+        "score": 0.26541144562458285,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.2697481404929839,
-            "start": 0,
-            "end": 1623
+            "text": "Probe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surr",
+            "score": 0.26541144562458285,
+            "start": 1618,
+            "end": 2159
           },
           {
-            "text": "  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surrounds\n",
-            "score": 0.22925302922312224,
-            "start": 1624,
-            "end": 2159
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.19712031304111735,
+            "start": 0,
+            "end": 1617
           }
         ]
       },
@@ -149,12 +151,12 @@
         ]
       },
       "integrative": {
-        "score": 0.2776447299150455,
+        "score": 0.27852923486057457,
         "description": "Bridges basic science to clinical application",
         "top_chunks": [
           {
             "text": "Probe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surr",
-            "score": 0.2776447299150455,
+            "score": 0.27852923486057457,
             "start": 1618,
             "end": 2159
           },
@@ -168,189 +170,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.09910133017588658,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.1800163473587149,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.09910133017588658,
+            "score": 0.1800163473587149,
             "start": 0,
-            "end": 1597
+            "end": 1590
           },
           {
-            "text": "  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplicat",
-            "score": 0.09015630224155849,
-            "start": 1598,
+            "text": "·\nSame\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nCo",
+            "score": 0.10301730154669217,
+            "start": 1591,
             "end": 2159
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.4958868397429664,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.20377101929932123,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.4958868397429664,
-            "start": 0,
-            "end": 1597
-          },
-          {
-            "text": "  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplicat",
-            "score": 0.2492669590277905,
-            "start": 1598,
-            "end": 2159
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.6863810507996709,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplicat",
-            "score": 0.6863810507996709,
-            "start": 1598,
+            "text": "·\nGold\n  standard\n·\nSame\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, directio",
+            "score": 0.20377101929932123,
+            "start": 1573,
             "end": 2159
           },
           {
             "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.15799633458154788,
+            "score": 0.13946678392103212,
             "start": 0,
-            "end": 1597
+            "end": 1572
           }
         ]
       },
-      "special_populations": {
-        "score": 0.1731608672870061,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplicat",
-            "score": 0.1731608672870061,
-            "start": 1598,
-            "end": 2159
-          },
-          {
-            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.15671722015798292,
-            "start": 0,
-            "end": 1597
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.25262119035664987,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.07997781705562379,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.25262119035664987,
+            "score": 0.07997781705562379,
             "start": 0,
             "end": 1623
           },
           {
             "text": "  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surrounds\n",
-            "score": 0.2166840731768605,
+            "score": 0.07128135172998958,
             "start": 1624,
             "end": 2159
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.7675423837290772,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.7939834639495083,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplicat",
-            "score": 0.7675423837290772,
-            "start": 1598,
+            "text": "·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to su",
+            "score": 0.7939834639495083,
+            "start": 1616,
             "end": 2159
           },
           {
             "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.3604267300934169,
+            "score": 0.1592817529828625,
             "start": 0,
-            "end": 1597
+            "end": 1615
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.12452970475004799,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Same\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComp",
-            "score": 0.12452970475004799,
-            "start": 1593,
-            "end": 2159
-          },
-          {
-            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.08833573667416476,
-            "start": 0,
-            "end": 1592
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.20676821579165858,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "  standard\n·\nSame\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of bl",
-            "score": 0.20676821579165858,
-            "start": 1580,
-            "end": 2159
-          },
-          {
-            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.10601355011071832,
-            "start": 0,
-            "end": 1579
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.553234521976622,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.553234521976622,
-            "start": 0,
-            "end": 1579
-          },
-          {
-            "text": "  standard\n·\nSame\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of bl",
-            "score": 0.3471349403914152,
-            "start": 1580,
-            "end": 2159
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.23085222312653272,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplicat",
-            "score": 0.23085222312653272,
-            "start": 1598,
-            "end": 2159
-          },
-          {
-            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.17656868710877405,
-            "start": 0,
-            "end": 1597
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.19932289324287283,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "·\nSame\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nCo",
@@ -366,21 +260,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.6405642438034729,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.6323593447401579,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Ultrasound\n·\nGold\n  standard\n·\nSame\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibilit",
-            "score": 0.6405642438034729,
-            "start": 1562,
+            "text": "  standard\n·\nSame\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of bl",
+            "score": 0.6323593447401579,
+            "start": 1580,
             "end": 2159
           },
           {
             "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
-            "score": 0.19785291387817477,
+            "score": 0.30895152063147,
             "start": 0,
-            "end": 1561
+            "end": 1579
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.299254522952492,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\nSame\n  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nCo",
+            "score": 0.299254522952492,
+            "start": 1591,
+            "end": 2159
+          },
+          {
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.23568694716034655,
+            "start": 0,
+            "end": 1590
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.2113115715020448,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to su",
+            "score": 0.2113115715020448,
+            "start": 1616,
+            "end": 2159
+          },
+          {
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.1731608672870061,
+            "start": 0,
+            "end": 1615
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.35795117350981126,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surrounds\n",
+            "score": 0.35795117350981126,
+            "start": 1624,
+            "end": 2159
+          },
+          {
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.15228985226789557,
+            "start": 0,
+            "end": 1623
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.1731608672870061,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  prep + position\n·\nProbe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplicat",
+            "score": 0.1731608672870061,
+            "start": 1598,
+            "end": 2159
+          },
+          {
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.15671722015798292,
+            "start": 0,
+            "end": 1597
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3759101985219545,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surrounds\n",
+            "score": 0.3759101985219545,
+            "start": 1624,
+            "end": 2159
+          },
+          {
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.22845576096855297,
+            "start": 0,
+            "end": 1623
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.11216054585062639,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surrounds\n",
+            "score": 0.11216054585062639,
+            "start": 1624,
+            "end": 2159
+          },
+          {
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.0924623723009821,
+            "start": 0,
+            "end": 1623
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.14006190450182948,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Probe\n  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surr",
+            "score": 0.14006190450182948,
+            "start": 1618,
+            "end": 2159
+          },
+          {
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.12676106887331628,
+            "start": 0,
+            "end": 1617
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6301102774619474,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "  best positioned for AP view rather than radial view to avoid carotid puncture\n·\nIdentify\n  vessels by shape, pulsatility, compressibility, direction of blood flow\nComplications:\nDamage to surrounds\n",
+            "score": 0.6301102774619474,
+            "start": 1624,
+            "end": 2159
+          },
+          {
+            "text": "2019B15 Describe the anatomy and relations of the right\ninternal jugular vein relevant to performing\ncentral venous cannulation.\nList:\n·\nDiagramme\n·\nAnatomy description: location, passage, borders\n·\nA",
+            "score": 0.5788516681732695,
+            "start": 0,
+            "end": 1623
           }
         ]
       }

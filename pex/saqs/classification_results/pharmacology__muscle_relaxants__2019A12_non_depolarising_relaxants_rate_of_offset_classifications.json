@@ -2,46 +2,53 @@
   "source": "pharmacology/muscle_relaxants/2019A12_non_depolarising_relaxants_rate_of_offset.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9345954145370408
+      "primary": "comparative_analysis",
+      "score": 0.7319908827311787,
+      "secondary": [
+        "mechanistic_explanation",
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
       "score": 0.7002869831289269
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "special_populations",
-      "dose_response_kinetics",
-      "pain_and_analgesia",
-      "neuromuscular_and_cns",
-      "organ_system_effects",
-      "haemostasis_and_transfusion",
-      "physics_and_engineering",
-      "autonomic_nervous_system"
+      "special_population_role",
+      "nociception_process",
+      "organ_system_process",
+      "neuromuscular_process",
+      "pharmacokinetic_process",
+      "drug_receptor_disposition",
+      "autonomic_disposition"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "dose_response_relationship",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9345954145370408,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.5220799127685765,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution\no\n↑Musc",
-            "score": 0.9345954145370408,
-            "start": 1583,
-            "end": 2892
+            "text": "Tetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio",
+            "score": 0.5220799127685765,
+            "start": 4356,
+            "end": 4439
           },
           {
             "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.9143549994473417,
+            "score": 0.307093459852579,
             "start": 0,
-            "end": 1582
+            "end": 1574
           },
           {
             "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
-            "score": 0.8798612703228768,
+            "score": 0.226865889556652,
             "start": 2893,
             "end": 4355
           }
@@ -73,7 +80,7 @@
       },
       "comparative_analysis": {
         "score": 0.7319908827311787,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
@@ -96,25 +103,25 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.6034126670218934,
+        "score": 0.6245927608782155,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.6034126670218934,
+            "score": 0.6245927608782155,
             "start": 0,
-            "end": 1582
+            "end": 1574
           },
           {
-            "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
-            "score": 0.3549888438284347,
-            "start": 2893,
-            "end": 4355
+            "text": "Tetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio",
+            "score": 0.4359467889974124,
+            "start": 4356,
+            "end": 4439
           },
           {
-            "text": "  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution\no\n↑Musc",
-            "score": 0.3330768842966407,
-            "start": 1583,
+            "text": "↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution",
+            "score": 0.39799474084436937,
+            "start": 1575,
             "end": 2892
           }
         ]
@@ -219,249 +226,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.9125665037015043,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8663999592903133,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.9125665037015043,
-            "start": 0,
-            "end": 1574
+            "text": "·\nHypothermia\n·\nResp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-",
+            "score": 0.8663999592903133,
+            "start": 2840,
+            "end": 4256
           },
           {
-            "text": "↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution",
-            "score": 0.9070723407200398,
-            "start": 1575,
-            "end": 2869
+            "text": "↓Volume of distribution\no\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)",
+            "score": 0.8302071599905412,
+            "start": 1549,
+            "end": 2839
           },
           {
-            "text": "Should not be given until three TOF twitches\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio",
-            "score": 0.6821535298635499,
-            "start": 4302,
+            "text": "Obtain train-of-four ratio of >0.9 earlier\n·\nShould not be given until three TOF twitches\nToxins\n·\nTetanus toxin: ↓inhibition of a-motor neurons\n  -> ↑NMJ activity -> ↓drug:ACh ratio",
+            "score": 0.6933702527635284,
+            "start": 4257,
             "end": 4439
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.9489764600783787,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.7143442883222849,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "o\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distributi",
-            "score": 0.9489764600783787,
-            "start": 1573,
-            "end": 2855
+            "text": "at pre-synaptic L-Ca\n2+\nchannel\n·\n↓K\n+\n: hyperpolarization\n·\nHypothermia\n·\nResp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ",
+            "score": 0.7143442883222849,
+            "start": 2781,
+            "end": 4168
           },
           {
-            "text": "Resp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  rec",
-            "score": 0.9311022102106701,
-            "start": 2856,
-            "end": 4301
+            "text": "↓Cardiac output (e.g. shock)\n·\n↓Volume of distribution\no\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac ",
+            "score": 0.3936492378902395,
+            "start": 1518,
+            "end": 2780
           },
           {
             "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.6859125732217579,
+            "score": 0.22370484839267127,
             "start": 0,
-            "end": 1572
+            "end": 1517
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.8464530360558368,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.8862701770185053,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
-          {
-            "text": "↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution",
-            "score": 0.8464530360558368,
-            "start": 1575,
-            "end": 2869
-          },
-          {
-            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.3024708949494209,
-            "start": 0,
-            "end": 1574
-          },
-          {
-            "text": "Pathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce ",
-            "score": 0.16646454350278764,
-            "start": 2870,
-            "end": 4301
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.9307080142756743,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "o\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distributi",
-            "score": 0.9307080142756743,
-            "start": 1573,
-            "end": 2855
-          },
-          {
-            "text": "Resp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  rec",
-            "score": 0.3330768842966407,
-            "start": 2856,
-            "end": 4299
-          },
-          {
-            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.2632567278910027,
-            "start": 0,
-            "end": 1572
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.48945285717199133,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.48945285717199133,
-            "start": 0,
-            "end": 1582
-          },
           {
             "text": "  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution\no\n↑Musc",
-            "score": 0.3905902785094401,
+            "score": 0.8862701770185053,
             "start": 1583,
             "end": 2892
           },
           {
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.8704158607108111,
+            "start": 0,
+            "end": 1582
+          },
+          {
             "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
-            "score": 0.26714177530863603,
+            "score": 0.5667992109555549,
             "start": 2893,
             "end": 4355
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.7786495244158627,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.8934820964473875,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution",
-            "score": 0.7786495244158627,
+            "score": 0.8934820964473875,
             "start": 1575,
             "end": 2890
           },
           {
-            "text": "·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synap",
-            "score": 0.6543301029823438,
-            "start": 2891,
-            "end": 4346
-          },
-          {
             "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.4484086150313921,
+            "score": 0.5374242257128721,
             "start": 0,
             "end": 1574
+          },
+          {
+            "text": "·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synap",
+            "score": 0.2045179371314406,
+            "start": 2891,
+            "end": 4353
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.5255892935054705,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "↓Volume of distribution\no\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)",
-            "score": 0.5255892935054705,
-            "start": 1549,
-            "end": 2841
-          },
-          {
-            "text": "Hypothermia\n·\nResp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-ju",
-            "score": 0.3169048470513748,
-            "start": 2842,
-            "end": 4256
-          },
-          {
-            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.1898819772959151,
-            "start": 0,
-            "end": 1548
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.6440247326099255,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": ": hyperpolarization\n·\nHypothermia\n·\nResp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> up",
-            "score": 0.6440247326099255,
-            "start": 2820,
-            "end": 4230
-          },
-          {
-            "text": "↓Volume of distribution\no\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)",
-            "score": 0.41537745834191,
-            "start": 1549,
-            "end": 2819
-          },
-          {
-            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.3495820398110333,
-            "start": 0,
-            "end": 1548
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7894496120499562,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "↓Volume of distribution\no\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)",
-            "score": 0.7894496120499562,
-            "start": 1549,
-            "end": 2819
-          },
-          {
-            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.7675423837290772,
-            "start": 0,
-            "end": 1548
-          },
-          {
-            "text": ": hyperpolarization\n·\nHypothermia\n·\nResp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> up",
-            "score": 0.7258791319588582,
-            "start": 2820,
-            "end": 4230
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.8836255212401656,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "Resp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  rec",
-            "score": 0.8836255212401656,
-            "start": 2856,
-            "end": 4301
-          },
-          {
-            "text": "o\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distributi",
-            "score": 0.7928553495750819,
-            "start": 1573,
-            "end": 2855
-          },
-          {
-            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.5207551228184819,
-            "start": 0,
-            "end": 1572
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.11478329593515615,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
@@ -483,27 +346,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8825573934438159,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8899115043470642,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓Cardiac output (e.g. shock)\n·\n↓Volume of distribution\no\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac ",
-            "score": 0.8825573934438159,
-            "start": 1518,
-            "end": 2780
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.8899115043470642,
+            "start": 0,
+            "end": 1548
+          },
+          {
+            "text": ": hyperpolarization\n·\nHypothermia\n·\nResp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> up",
+            "score": 0.7569571765117691,
+            "start": 2820,
+            "end": 4230
+          },
+          {
+            "text": "↓Volume of distribution\no\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)",
+            "score": 0.2113115715020448,
+            "start": 1549,
+            "end": 2819
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.9195940607459594,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\nHypothermia\n·\nResp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-",
+            "score": 0.9195940607459594,
+            "start": 2840,
+            "end": 4256
+          },
+          {
+            "text": "↓Volume of distribution\no\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)",
+            "score": 0.6956839729292017,
+            "start": 1549,
+            "end": 2839
           },
           {
             "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
-            "score": 0.8086831144625273,
+            "score": 0.44085852893982197,
             "start": 0,
-            "end": 1517
+            "end": 1548
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.30339280916534545,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution",
+            "score": 0.30339280916534545,
+            "start": 1575,
+            "end": 2890
           },
           {
-            "text": "at pre-synaptic L-Ca\n2+\nchannel\n·\n↓K\n+\n: hyperpolarization\n·\nHypothermia\n·\nResp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ",
-            "score": 0.6562797021358054,
-            "start": 2781,
-            "end": 4166
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.2754396543901626,
+            "start": 0,
+            "end": 1574
+          },
+          {
+            "text": "·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synap",
+            "score": 0.23609234787563346,
+            "start": 2891,
+            "end": 4353
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.24552225336936614,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
+            "score": 0.24552225336936614,
+            "start": 2893,
+            "end": 4355
+          },
+          {
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.23165414560489295,
+            "start": 0,
+            "end": 1582
+          },
+          {
+            "text": "  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution\no\n↑Musc",
+            "score": 0.1179788782423308,
+            "start": 1583,
+            "end": 2892
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.9307080142756743,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "o\n↓Muscle\n  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distributi",
+            "score": 0.9307080142756743,
+            "start": 1573,
+            "end": 2855
+          },
+          {
+            "text": "Resp acidosis\nPathological factors\n·\nMyasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  rec",
+            "score": 0.3330768842966407,
+            "start": 2856,
+            "end": 4299
+          },
+          {
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.2632567278910027,
+            "start": 0,
+            "end": 1572
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7577806115529168,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution\no\n↑Musc",
+            "score": 0.7577806115529168,
+            "start": 1583,
+            "end": 2892
+          },
+          {
+            "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
+            "score": 0.7350202275183602,
+            "start": 2893,
+            "end": 4355
+          },
+          {
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.5385135348166803,
+            "start": 0,
+            "end": 1582
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.6942967110489067,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.6942967110489067,
+            "start": 0,
+            "end": 1582
+          },
+          {
+            "text": "  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution\no\n↑Musc",
+            "score": 0.46151947002591825,
+            "start": 1583,
+            "end": 2892
+          },
+          {
+            "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
+            "score": 0.18140657479987835,
+            "start": 2893,
+            "end": 4355
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.43849962228001726,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.43849962228001726,
+            "start": 0,
+            "end": 1582
+          },
+          {
+            "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
+            "score": 0.4288926869614287,
+            "start": 2893,
+            "end": 4355
+          },
+          {
+            "text": "  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution\no\n↑Musc",
+            "score": 0.4282407226129332,
+            "start": 1583,
+            "end": 2892
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6769526811360784,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "  mass (e.g. elderly, cachectic)\no\n↑Water\n  mass (e.g. hypovolaemia)\nLong infusion\nOffset during terminal elimination phase\n·\n↑Cardiac output (e.g. pregnant, neonate)\n·\n↑Volume of distribution\no\n↑Musc",
+            "score": 0.6769526811360784,
+            "start": 1583,
+            "end": 2892
+          },
+          {
+            "text": "Myasthaenia gravis (↓↓spare receptors)\n·\nLambert-Eaton syndrome (antibody against VDCC, ↓ACh released)\n(note: denervation -> upregulation of extra-junctional\n  receptors -> ↑Ce for offset)\nPre-synapti",
+            "score": 0.5746904900467347,
+            "start": 2893,
+            "end": 4355
+          },
+          {
+            "text": "2019A12 Outline\nthe factors that determine the rate of recovery from non-depolarising\nneuromuscular block.\nList:\n·\nIntro\n·\nDose = starting [drug]\n·\nBiophasics = rate of transfer from effect site\nto ce",
+            "score": 0.3202059144056369,
+            "start": 0,
+            "end": 1582
           }
         ]
       }

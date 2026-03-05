@@ -2,8 +2,8 @@
   "source": "physiology/obesity/2019B07_obesity_effect_on_rate_of_washout_of_inhalational_anaesthetics.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9412932830254649
+      "primary": "comparative_analysis",
+      "score": 0.8072418249488453
     },
     "clinical_relevance": {
       "primary": "integrative",
@@ -13,30 +13,33 @@
       ]
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "organ_system_effects",
-      "physics_and_engineering"
+      "pharmacokinetic_process",
+      "equipment_and_physics",
+      "organ_system_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9412932830254649,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.19932289324287278,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
-            "score": 0.9412932830254649,
-            "start": 1487,
-            "end": 2350
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.19932289324287278,
+            "start": 0,
+            "end": 1472
           },
           {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.9061376743036813,
-            "start": 0,
-            "end": 1486
+            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
+            "score": 0.12397561162117976,
+            "start": 1473,
+            "end": 2350
           }
         ]
       },
@@ -60,7 +63,7 @@
       },
       "comparative_analysis": {
         "score": 0.8072418249488453,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
@@ -77,20 +80,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.6353506082350193,
+        "score": 0.6021332642559942,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
-            "score": 0.6353506082350193,
-            "start": 1487,
-            "end": 2350
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.6021332642559942,
+            "start": 0,
+            "end": 1472
           },
           {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.5550408372736859,
-            "start": 0,
-            "end": 1486
+            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
+            "score": 0.5989296487257566,
+            "start": 1473,
+            "end": 2350
           }
         ]
       },
@@ -170,189 +173,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8782258243237235,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.42043406504435227,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
-            "score": 0.8782258243237235,
-            "start": 1473,
+            "text": "↑Tissue:blood partition coefficients (MO ↑ as above)\no\n↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:",
+            "score": 0.42043406504435227,
+            "start": 1418,
             "end": 2350
           },
           {
             "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.748639460220768,
+            "score": 0.299713016871073,
             "start": 0,
-            "end": 1472
+            "end": 1417
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.9174340018978622,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.23894091082715616,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
-            "score": 0.9174340018978622,
-            "start": 1473,
-            "end": 2350
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.23894091082715616,
+            "start": 0,
+            "end": 1417
           },
           {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.2852076985629369,
-            "start": 0,
-            "end": 1472
+            "text": "↑Tissue:blood partition coefficients (MO ↑ as above)\no\n↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:",
+            "score": 0.14065856668448176,
+            "start": 1418,
+            "end": 2350
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.7962289807006788,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
-            "score": 0.7962289807006788,
-            "start": 1473,
-            "end": 2350
-          },
-          {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.5472160852813518,
-            "start": 0,
-            "end": 1472
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.3666426091800214,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
-            "score": 0.3666426091800214,
-            "start": 1473,
-            "end": 2350
-          },
-          {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.35031746521529306,
-            "start": 0,
-            "end": 1472
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.44653551653017,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.8732389311266837,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
-            "score": 0.44653551653017,
+            "score": 0.8732389311266837,
             "start": 1487,
             "end": 2350
           },
           {
             "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.30201042805729156,
+            "score": 0.6565230953374931,
             "start": 0,
             "end": 1486
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.6741004145811254,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.7319908827311787,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
-          {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.6741004145811254,
-            "start": 0,
-            "end": 1472
-          },
           {
             "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
-            "score": 0.6543301029823438,
+            "score": 0.7319908827311787,
             "start": 1473,
             "end": 2350
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.2052664429349464,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.2052664429349464,
-            "start": 0,
-            "end": 1470
-          },
-          {
-            "text": "o\n↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +",
-            "score": 0.14917447507309806,
-            "start": 1471,
-            "end": 2350
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.18632263173984007,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.18632263173984007,
-            "start": 0,
-            "end": 1417
-          },
-          {
-            "text": "↑Tissue:blood partition coefficients (MO ↑ as above)\no\n↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:",
-            "score": 0.1573559898347826,
-            "start": 1418,
-            "end": 2350
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8381284697982909,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "↑Tissue:blood partition coefficients (MO ↑ as above)\no\n↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:",
-            "score": 0.8381284697982909,
-            "start": 1418,
-            "end": 2350
           },
           {
             "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.3883007791322234,
-            "start": 0,
-            "end": 1417
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.48971812996500225,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.48971812996500225,
+            "score": 0.6067335199044213,
             "start": 0,
             "end": 1472
-          },
-          {
-            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
-            "score": 0.1870313090838101,
-            "start": 1473,
-            "end": 2350
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.44269479915203985,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↑Tissue:blood partition coefficients (MO ↑ as above)\no\n↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:",
@@ -368,21 +263,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.4405635403645185,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.4288926869614287,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
-            "score": 0.4405635403645185,
+            "score": 0.4288926869614287,
             "start": 0,
             "end": 1417
           },
           {
             "text": "↑Tissue:blood partition coefficients (MO ↑ as above)\no\n↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:",
-            "score": 0.21901020621216397,
+            "score": 0.13651425394654748,
             "start": 1418,
             "end": 2350
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.3908449190298156,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.3908449190298156,
+            "start": 0,
+            "end": 1417
+          },
+          {
+            "text": "↑Tissue:blood partition coefficients (MO ↑ as above)\no\n↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:",
+            "score": 0.15291762409217716,
+            "start": 1418,
+            "end": 2350
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.3951813627558419,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.3951813627558419,
+            "start": 0,
+            "end": 1472
+          },
+          {
+            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
+            "score": 0.3495820398110333,
+            "start": 1473,
+            "end": 2350
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7532329121402825,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
+            "score": 0.7532329121402825,
+            "start": 1487,
+            "end": 2350
+          },
+          {
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.5855285776291648,
+            "start": 0,
+            "end": 1486
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.3666426091800214,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "↑Muscle:blood\n  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/-",
+            "score": 0.3666426091800214,
+            "start": 1473,
+            "end": 2350
+          },
+          {
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.35031746521529306,
+            "start": 0,
+            "end": 1472
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7590129055214236,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.7590129055214236,
+            "start": 0,
+            "end": 1486
+          },
+          {
+            "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
+            "score": 0.4889223267944365,
+            "start": 1487,
+            "end": 2350
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.5635952177753484,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.5635952177753484,
+            "start": 0,
+            "end": 1486
+          },
+          {
+            "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
+            "score": 0.2965105210895817,
+            "start": 1487,
+            "end": 2350
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.6326089455601115,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
+            "score": 0.6326089455601115,
+            "start": 1487,
+            "end": 2350
+          },
+          {
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.2381251169525195,
+            "start": 0,
+            "end": 1486
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7431523727970344,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "  PC (sevo 3.1, des 2.0, iso 2.9)\no\n↑Fat:blood\n  PC (sevo 48, des 27, iso 45)\n·\n↓MAC (MO: cytokines -> ↓)\no\nCorrelates\n  with ↓oil:gas PC (sevo 80, des 29, iso 98)\n·\n↑Metabolism (MO: +/- liver disease",
+            "score": 0.7431523727970344,
+            "start": 1487,
+            "end": 2350
+          },
+          {
+            "text": "2019B07 Describe\nhow morbid obesity might affect washout (not time to awakening)\nafter inhalational anaesthesia.\nList:\n·\nMorbid obesity\n·\nEmergence modelling\n·\nFinal end-tidal partial pressure\n·\nElimi",
+            "score": 0.5449684325314527,
+            "start": 0,
+            "end": 1486
           }
         ]
       }

@@ -2,57 +2,63 @@
   "source": "pharmacology/intravenous_anaesthetics/2019A11_propofol_tci.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8989519128284464
+      "primary": "comparative_analysis",
+      "score": 0.763501866737401,
+      "secondary": [
+        "quantitative_reasoning",
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.6338560556842108
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "special_populations",
-      "organ_system_effects",
-      "physics_and_engineering",
-      "neuromuscular_and_cns",
-      "receptor_pharmacology",
-      "respiratory_gas_exchange"
+      "pharmacokinetic_process",
+      "special_population_role",
+      "organ_system_process",
+      "gas_exchange_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "dose_response_relationship",
+      "mechanism_effect_relevance",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8989519128284464,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.32566148493457026,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nElimin",
-            "score": 0.8989519128284464,
-            "start": 1734,
-            "end": 3102
+            "text": "Inaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardi",
+            "score": 0.32566148493457026,
+            "start": 1703,
+            "end": 3076
           },
           {
             "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.8646560185906924,
+            "score": 0.271056192837134,
             "start": 0,
-            "end": 1733
+            "end": 1702
           },
           {
-            "text": "Multi-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 only as a qualifier)\nWeight ",
-            "score": 0.8593414333155183,
-            "start": 3103,
+            "text": "  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 on",
+            "score": 0.16514433309482257,
+            "start": 3077,
             "end": 3880
           }
         ]
       },
       "mechanistic_explanation": {
-        "score": 0.40286750260109494,
+        "score": 0.4041525294355958,
         "description": "Explain how/why at mechanistic level",
         "top_chunks": [
           {
             "text": "∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nElimin",
-            "score": 0.40286750260109494,
+            "score": 0.4041525294355958,
             "start": 1734,
             "end": 3102
           },
@@ -71,50 +77,50 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.7683458543951072,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.763501866737401,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Multi-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 only as a qualifier)\nWeight ",
-            "score": 0.7683458543951072,
+            "score": 0.763501866737401,
             "start": 3103,
             "end": 3880
-          },
-          {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.5830682177326817,
-            "start": 0,
-            "end": 1729
           },
           {
             "text": "V1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nEl",
             "score": 0.5202251367813882,
             "start": 1730,
             "end": 3102
+          },
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.4513028307627412,
+            "start": 0,
+            "end": 1729
           }
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.7782581074303719,
+        "score": 0.735882480127494,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Multi-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 only as a qualifier)\nWeight ",
-            "score": 0.7782581074303719,
-            "start": 3103,
+            "text": "  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 on",
+            "score": 0.735882480127494,
+            "start": 3077,
             "end": 3880
           },
           {
-            "text": "∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nElimin",
-            "score": 0.6143650757302026,
-            "start": 1734,
-            "end": 3102
+            "text": "Inaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardi",
+            "score": 0.6142382595937566,
+            "start": 1703,
+            "end": 3076
           },
           {
             "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.5499308500602507,
+            "score": 0.40749874543127046,
             "start": 0,
-            "end": 1733
+            "end": 1702
           }
         ]
       },
@@ -218,249 +224,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.9303125961326126,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.5656881436518912,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Kinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants",
-            "score": 0.9303125961326126,
-            "start": 1694,
-            "end": 3049
+            "text": "Terminal elimination phase\n·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighl",
+            "score": 0.5656881436518912,
+            "start": 3015,
+            "end": 3880
           },
           {
-            "text": "redistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\n",
-            "score": 0.9191646454545518,
-            "start": 3050,
+            "text": "Inability to identify line disconnection\nKinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in ob",
+            "score": 0.36216332407375884,
+            "start": 1653,
+            "end": 3014
+          },
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.2684433312271226,
+            "start": 0,
+            "end": 1652
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.5275748067989482,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "Processor maximum rate 1200mL/h\n·\nInability to identify line disconnection\nKinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in a",
+            "score": 0.5275748067989482,
+            "start": 1619,
+            "end": 2970
+          },
+          {
+            "text": "1/(distribution x\n  metabolism); rapid ↓Cpt\nTerminal elimination phase\n·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmerge",
+            "score": 0.48580592051307103,
+            "start": 2971,
             "end": 3880
           },
           {
             "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.8715496165777917,
+            "score": 0.20979078633127912,
             "start": 0,
-            "end": 1693
+            "end": 1618
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.6288587440537546,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Kinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants",
-            "score": 0.6288587440537546,
-            "start": 1694,
-            "end": 3049
-          },
-          {
-            "text": "redistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\n",
-            "score": 0.3639029314343218,
-            "start": 3050,
-            "end": 3880
-          },
-          {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.35007225733337183,
-            "start": 0,
-            "end": 1693
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.7921012912419733,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "Kinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants",
-            "score": 0.7921012912419733,
-            "start": 1694,
-            "end": 3049
-          },
-          {
-            "text": "redistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\n",
-            "score": 0.15291762409217716,
-            "start": 3050,
-            "end": 3880
-          },
-          {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.13946678392103212,
-            "start": 0,
-            "end": 1693
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.8308759955364141,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Kinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants",
-            "score": 0.8308759955364141,
-            "start": 1694,
-            "end": 3049
-          },
-          {
-            "text": "redistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\n",
-            "score": 0.4886570694625687,
-            "start": 3050,
-            "end": 3880
-          },
-          {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.22925302922312224,
-            "start": 0,
-            "end": 1693
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.4759333999230574,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.8413617446723678,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "V1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nEl",
-            "score": 0.4759333999230574,
+            "score": 0.8413617446723678,
             "start": 1730,
             "end": 3102
           },
           {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.358198446737951,
-            "start": 0,
-            "end": 1729
-          },
-          {
             "text": "Multi-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 only as a qualifier)\nWeight ",
-            "score": 0.25812280612051225,
+            "score": 0.4129193540924649,
             "start": 3103,
             "end": 3880
+          },
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.3169048470513748,
+            "start": 0,
+            "end": 1729
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.6504179601889668,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.8072418249488453,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Inaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardi",
-            "score": 0.6504179601889668,
+            "score": 0.8072418249488453,
             "start": 1703,
             "end": 3076
           },
           {
             "text": "  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 on",
-            "score": 0.5622206910769157,
+            "score": 0.174519217113909,
             "start": 3077,
             "end": 3880
           },
           {
             "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.18774158236383576,
+            "score": 0.1612217162063077,
             "start": 0,
             "end": 1702
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.2732434585109745,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison",
-            "score": 0.2732434585109745,
-            "start": 3042,
-            "end": 3880
-          },
-          {
-            "text": "Inability to identify line disconnection\nKinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in ob",
-            "score": 0.1731608672870061,
-            "start": 1653,
-            "end": 3041
-          },
-          {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.12452970475004799,
-            "start": 0,
-            "end": 1652
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.27808680603957303,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.27808680603957303,
-            "start": 0,
-            "end": 1652
-          },
-          {
-            "text": "Terminal elimination phase\n·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighl",
-            "score": 0.27018379811080334,
-            "start": 3015,
-            "end": 3880
-          },
-          {
-            "text": "Inability to identify line disconnection\nKinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in ob",
-            "score": 0.21514118653388012,
-            "start": 1653,
-            "end": 3014
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8483363526099783,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Inability to identify line disconnection\nKinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in ob",
-            "score": 0.8483363526099783,
-            "start": 1653,
-            "end": 3014
-          },
-          {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.7337241162242518,
-            "start": 0,
-            "end": 1652
-          },
-          {
-            "text": "Terminal elimination phase\n·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighl",
-            "score": 0.5687585300003983,
-            "start": 3015,
-            "end": 3880
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.4388271099676946,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
-            "score": 0.4388271099676946,
-            "start": 0,
-            "end": 1693
-          },
-          {
-            "text": "Kinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants",
-            "score": 0.3325963550051149,
-            "start": 1694,
-            "end": 3049
-          },
-          {
-            "text": "redistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\n",
-            "score": 0.20302569007096166,
-            "start": 3050,
-            "end": 3880
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.6225795804588119,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Terminal elimination phase\n·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighl",
@@ -482,27 +344,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.6346036030703377,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.5079605379630564,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Processor maximum rate 1200mL/h\n·\nInability to identify line disconnection\nKinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in a",
-            "score": 0.6346036030703377,
-            "start": 1619,
-            "end": 2968
+            "text": "Inability to identify line disconnection\nKinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in ob",
+            "score": 0.5079605379630564,
+            "start": 1653,
+            "end": 3014
+          },
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.26111115675759133,
+            "start": 0,
+            "end": 1652
+          },
+          {
+            "text": "Terminal elimination phase\n·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighl",
+            "score": 0.225282248199159,
+            "start": 3015,
+            "end": 3880
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.37465322243423194,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.37465322243423194,
+            "start": 0,
+            "end": 1652
+          },
+          {
+            "text": "Inability to identify line disconnection\nKinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in ob",
+            "score": 0.37264500861977157,
+            "start": 1653,
+            "end": 3041
+          },
+          {
+            "text": "·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison",
+            "score": 0.23568694716034655,
+            "start": 3042,
+            "end": 3880
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.31081469123397315,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 on",
+            "score": 0.31081469123397315,
+            "start": 3077,
+            "end": 3880
+          },
+          {
+            "text": "Inaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardi",
+            "score": 0.23085222312653272,
+            "start": 1703,
+            "end": 3076
+          },
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.16779109893341812,
+            "start": 0,
+            "end": 1702
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.5731277163475761,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Multi-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 only as a qualifier)\nWeight ",
+            "score": 0.5731277163475761,
+            "start": 3103,
+            "end": 3880
+          },
+          {
+            "text": "V1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nEl",
+            "score": 0.48713194860262155,
+            "start": 1730,
+            "end": 3102
+          },
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.2589747757634805,
+            "start": 0,
+            "end": 1729
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8308759955364141,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Kinetic:\nInaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants",
+            "score": 0.8308759955364141,
+            "start": 1694,
+            "end": 3049
+          },
+          {
+            "text": "redistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\n",
+            "score": 0.4886570694625687,
+            "start": 3050,
+            "end": 3880
           },
           {
             "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
             "score": 0.22925302922312224,
             "start": 0,
-            "end": 1618
+            "end": 1693
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7363130588750971,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nElimin",
+            "score": 0.7363130588750971,
+            "start": 1734,
+            "end": 3102
           },
           {
-            "text": "∝\n1/(distribution x\n  metabolism); rapid ↓Cpt\nTerminal elimination phase\n·\nCpt\n∝\nredistribution/metabolism;\n  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmer",
-            "score": 0.13476114033048603,
-            "start": 2969,
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.4789798989236337,
+            "start": 0,
+            "end": 1733
+          },
+          {
+            "text": "Multi-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 only as a qualifier)\nWeight ",
+            "score": 0.3867767369914061,
+            "start": 3103,
             "end": 3880
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.7727372261985272,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nElimin",
+            "score": 0.7727372261985272,
+            "start": 1734,
+            "end": 3102
+          },
+          {
+            "text": "Multi-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 only as a qualifier)\nWeight ",
+            "score": 0.622831423247442,
+            "start": 3103,
+            "end": 3880
+          },
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.23894091082715616,
+            "start": 0,
+            "end": 1733
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.6029010477306415,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.6029010477306415,
+            "start": 0,
+            "end": 1702
+          },
+          {
+            "text": "  slower ↓Cpt\nModelling\n·\nMulti-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 on",
+            "score": 0.39467046082532836,
+            "start": 3077,
+            "end": 3880
+          },
+          {
+            "text": "Inaccurate estimates of:\n·\nV1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardi",
+            "score": 0.28476003114035586,
+            "start": 1703,
+            "end": 3076
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8072418249488453,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "V1:\n∝\nblood volume (↑ in pregnancy,\n  ↓in haemorrhagic shock)\n·\nV2:\n∝\nmusculature (↑ in athletes)\n·\nV3:\n∝\nadiposity (↑in obese)\n·\nInter-compartmental rate constants:\n∝\ncardiac output (↓ in shock)\n·\nEl",
+            "score": 0.8072418249488453,
+            "start": 1730,
+            "end": 3102
+          },
+          {
+            "text": "Multi-exponential decay curve (C = Ae\n-at\n+ Be\n-bt\n+ Ge\n-gt\n)\nEmergence\n·\nEstimated to occur at ~1mcg/mL\n·\nHighly variable\nModel\ncomparison:\nMarsh\nSchnider\nInputs\nAge (>16 only as a qualifier)\nWeight ",
+            "score": 0.335724931895025,
+            "start": 3103,
+            "end": 3880
+          },
+          {
+            "text": "2019A11 Describe\nthe principles of how a computer-controlled infusion device\ntargets and maintains a constant effect site concentration of propofol.\nList:\n·\nTCI basics\n·\nCompartment modelling\n·\nInduct",
+            "score": 0.2007992399296327,
+            "start": 0,
+            "end": 1729
           }
         ]
       }

@@ -2,35 +2,44 @@
   "source": "pharmacology/intravenous_anaesthetics/2008B02_propofol_tiva.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8737990245158072
+      "primary": "applied_clinical",
+      "score": 0.7254398923785444,
+      "secondary": [
+        "quantitative_reasoning"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
       "score": 0.8335354564972123
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "neuromuscular_and_cns",
-      "pain_and_analgesia"
+      "equipment_and_physics",
+      "pharmacokinetic_process",
+      "nociception_process",
+      "autonomic_disposition",
+      "neuromuscular_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "dose_response_relationship"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8737990245158072,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.44883598784375156,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.8737990245158072,
+            "score": 0.44883598784375156,
             "start": 0,
-            "end": 1677
+            "end": 1669
           },
           {
-            "text": "Early: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) / ",
-            "score": 0.8094013663275356,
-            "start": 1678,
+            "text": "Early\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg",
+            "score": 0.3211518341223151,
+            "start": 1670,
             "end": 2186
           }
         ]
@@ -55,7 +64,7 @@
       },
       "comparative_analysis": {
         "score": 0.26931284321853594,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Early: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) / ",
@@ -72,20 +81,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.5807341284127729,
+        "score": 0.6579820141514708,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Early: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) / ",
-            "score": 0.5807341284127729,
-            "start": 1678,
+            "text": "·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) ",
+            "score": 0.6579820141514708,
+            "start": 1676,
             "end": 2186
           },
           {
             "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.4240732049846119,
+            "score": 0.41149790369168415,
             "start": 0,
-            "end": 1677
+            "end": 1675
           }
         ]
       },
@@ -165,189 +174,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.88731781664747,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "distribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg",
-            "score": 0.88731781664747,
-            "start": 1644,
-            "end": 2186
-          },
-          {
-            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.8261607538867555,
-            "start": 0,
-            "end": 1643
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.3415322303826219,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.3415322303826219,
-            "start": 0,
-            "end": 1643
-          },
-          {
-            "text": "distribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg",
-            "score": 0.3061663567535194,
-            "start": 1644,
-            "end": 2186
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.4231627552283361,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.4231627552283361,
-            "start": 0,
-            "end": 1643
-          },
-          {
-            "text": "distribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg",
-            "score": 0.2381251169525195,
-            "start": 1644,
-            "end": 2186
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.33644862603673276,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "drug_receptor_disposition": {
+        "score": 0.35007225733337183,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(",
-            "score": 0.33644862603673276,
+            "score": 0.35007225733337183,
             "start": 1642,
             "end": 2186
           },
           {
             "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.21901020621216397,
+            "score": 0.2838657351814178,
             "start": 0,
             "end": 1641
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.5310145850628015,
-        "description": "Clinical measurement and monitoring",
+      "autonomic_disposition": {
+        "score": 0.679321278132118,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.5310145850628015,
-            "start": 0,
-            "end": 1677
+            "text": "1/Distance from injection site to heart\nMaintenance:\n·\nQ\n∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism",
+            "score": 0.679321278132118,
+            "start": 1585,
+            "end": 2186
           },
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.1949320705626118,
+            "start": 0,
+            "end": 1584
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.8302071599905412,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
           {
             "text": "Early: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) / ",
-            "score": 0.14917447507309806,
+            "score": 0.8302071599905412,
             "start": 1678,
             "end": 2186
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.3804468310238008,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "distribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg",
-            "score": 0.3804468310238008,
-            "start": 1644,
-            "end": 2186
           },
           {
             "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.31221540087919597,
+            "score": 0.6755278972692806,
             "start": 0,
-            "end": 1643
+            "end": 1677
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.4468640388461323,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(",
-            "score": 0.4468640388461323,
-            "start": 1642,
-            "end": 2186
-          },
-          {
-            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.09015630224155849,
-            "start": 0,
-            "end": 1641
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.33452019961383367,
-        "description": "ANS physiology and pharmacology",
+      "organ_system_process": {
+        "score": 0.4370592169978741,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.33452019961383367,
+            "score": 0.4370592169978741,
             "start": 0,
-            "end": 1624
+            "end": 1669
           },
           {
-            "text": "Maintenance:\n·\nQ\n∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSte",
-            "score": 0.26887790666980355,
-            "start": 1625,
+            "text": "Early\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg",
+            "score": 0.1671270277650237,
+            "start": 1670,
             "end": 2186
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.5931453273825209,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Maintenance:\n·\nQ\n∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSte",
-            "score": 0.5931453273825209,
-            "start": 1625,
-            "end": 2186
-          },
-          {
-            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.5522487557153748,
-            "start": 0,
-            "end": 1624
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.7540631803975041,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.7540631803975041,
-            "start": 0,
-            "end": 1643
-          },
-          {
-            "text": "distribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg",
-            "score": 0.22845576096855297,
-            "start": 1644,
-            "end": 2186
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.42043406504435227,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(",
@@ -363,21 +264,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.7683458543951072,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.6790847600659429,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
-            "score": 0.7683458543951072,
+            "score": 0.6790847600659429,
             "start": 0,
-            "end": 1584
+            "end": 1624
           },
           {
-            "text": "1/Distance from injection site to heart\nMaintenance:\n·\nQ\n∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism",
-            "score": 0.3330768842966407,
-            "start": 1585,
+            "text": "Maintenance:\n·\nQ\n∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSte",
+            "score": 0.23406919549587674,
+            "start": 1625,
             "end": 2186
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.7165808924551722,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.7165808924551722,
+            "start": 0,
+            "end": 1641
+          },
+          {
+            "text": "∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(",
+            "score": 0.2798586332660812,
+            "start": 1642,
+            "end": 2186
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.23568694716034655,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Early\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg",
+            "score": 0.23568694716034655,
+            "start": 1670,
+            "end": 2186
+          },
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.11372982298149485,
+            "start": 0,
+            "end": 1669
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.898461720365241,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.898461720365241,
+            "start": 0,
+            "end": 1677
+          },
+          {
+            "text": "Early: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) / ",
+            "score": 0.26111115675759133,
+            "start": 1678,
+            "end": 2186
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.33644862603673276,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "∝\ndistribution x metabolism\nEarly\n·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(",
+            "score": 0.33644862603673276,
+            "start": 1642,
+            "end": 2186
+          },
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.21901020621216397,
+            "start": 0,
+            "end": 1641
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7188088093957535,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.7188088093957535,
+            "start": 0,
+            "end": 1677
+          },
+          {
+            "text": "Early: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) / ",
+            "score": 0.36814003491309455,
+            "start": 1678,
+            "end": 2186
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.6013650579527494,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.6013650579527494,
+            "start": 0,
+            "end": 1677
+          },
+          {
+            "text": "Early: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) / ",
+            "score": 0.34493828749529926,
+            "start": 1678,
+            "end": 2186
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.546277698390866,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "·\nEarly: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) ",
+            "score": 0.546277698390866,
+            "start": 1676,
+            "end": 2186
+          },
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.4468640388461323,
+            "start": 0,
+            "end": 1675
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.24718278933502774,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Early: high Q e.g. 100mL/h (distribution +++\n  metabolism ++)\nLater\n·\nLater: slow Q e.g. 50mL/h (metabolism ++\n  distribution +)\nSteady state\n·\nSteady state: C\nSS\n(mg/mL) =\n  infusion rate (mg/min) / ",
+            "score": 0.24718278933502774,
+            "start": 1678,
+            "end": 2186
+          },
+          {
+            "text": "2008B02 Describe\nthe pharmacokinetic principles of total intravenous anaesthesia using propofol.\nList:\n·\nPrinciples: aim, delivery, monitoring\n·\nCompartment modelling\n·\nInduction\n·\nMaintenance\n·\nOffse",
+            "score": 0.2022819500518595,
+            "start": 0,
+            "end": 1677
           }
         ]
       }

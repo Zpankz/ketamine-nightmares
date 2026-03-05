@@ -2,8 +2,11 @@
   "source": "physiology/respiratory/2005B09_wests_zones_of_the_lungs.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9013818674527496
+      "primary": "quantitative_reasoning",
+      "score": 0.6712374204898592,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,39 +16,44 @@
       ]
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "physics_and_engineering",
-      "organ_system_effects",
-      "neuromuscular_and_cns"
+      "equipment_and_physics",
+      "gas_exchange_process",
+      "organ_system_process",
+      "neuromuscular_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9013818674527496,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.188453451539788,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.9013818674527496,
+            "score": 0.188453451539788,
             "start": 0,
-            "end": 1567
+            "end": 1529
           },
           {
-            "text": "Z3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincreas",
-            "score": 0.8563349489658743,
-            "start": 1568,
+            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
+            "score": 0.12732266681585402,
+            "start": 1530,
             "end": 3136
           }
         ]
       },
       "mechanistic_explanation": {
-        "score": 0.2598282226097282,
+        "score": 0.2632567278910027,
         "description": "Explain how/why at mechanistic level",
         "top_chunks": [
           {
             "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.2598282226097282,
+            "score": 0.2632567278910027,
             "start": 0,
             "end": 1567
           },
@@ -59,7 +67,7 @@
       },
       "comparative_analysis": {
         "score": 0.41485966412732267,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Z3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincreas",
@@ -76,20 +84,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.7188088093957535,
+        "score": 0.6712374204898592,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Z3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincreas",
-            "score": 0.7188088093957535,
-            "start": 1568,
+            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
+            "score": 0.6712374204898592,
+            "start": 1530,
             "end": 3136
           },
           {
             "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.4947591001334885,
+            "score": 0.6037962567831557,
             "start": 0,
-            "end": 1567
+            "end": 1529
           }
         ]
       },
@@ -175,213 +183,93 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.25010326402444366,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
-            "score": 0.25010326402444366,
-            "start": 1530,
-            "end": 3136
-          },
-          {
-            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.1005592983048298,
-            "start": 0,
-            "end": 1529
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.4361430605519537,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
-            "score": 0.4361430605519537,
-            "start": 1530,
-            "end": 3136
-          },
-          {
-            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.18632263173984007,
-            "start": 0,
-            "end": 1529
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.7798214241424282,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
-            "score": 0.7798214241424282,
-            "start": 1530,
-            "end": 3136
-          },
-          {
-            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.5895350989401033,
-            "start": 0,
-            "end": 1529
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.20827633226924755,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "drug_receptor_disposition": {
+        "score": 0.25178038205584335,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "(see Tobin, 1999 Anaesthesia and Intensive Care)",
-            "score": 0.20827633226924755,
+            "score": 0.25178038205584335,
             "start": 3088,
             "end": 3136
           },
           {
-            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
-            "score": 0.2022819500518595,
-            "start": 1530,
+            "text": "·\nZ2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours f",
+            "score": 0.10702368540104822,
+            "start": 1528,
             "end": 3087
           },
           {
             "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.15228985226789557,
+            "score": 0.10153827963475912,
             "start": 0,
-            "end": 1529
+            "end": 1527
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.3517900945031236,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.3517900945031236,
-            "start": 0,
-            "end": 1565
-          },
-          {
-            "text": "·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincre",
-            "score": 0.3029316888292404,
-            "start": 1566,
-            "end": 3136
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.799939729095984,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
-            "score": 0.799939729095984,
-            "start": 1530,
-            "end": 3136
-          },
-          {
-            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.7469578442226757,
-            "start": 0,
-            "end": 1529
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.12177417567627631,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
-            "score": 0.12177417567627631,
-            "start": 1530,
-            "end": 3087
-          },
-          {
-            "text": "(see Tobin, 1999 Anaesthesia and Intensive Care)",
-            "score": 0.10803954311448256,
-            "start": 3088,
-            "end": 3136
-          },
-          {
-            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.10753089785761477,
-            "start": 0,
-            "end": 1529
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.27632062191629214,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.31408742677824225,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Gravity -> ventral flow\n(see Tobin, 1999 Anaesthesia and Intensive Care)",
-            "score": 0.27632062191629214,
+            "score": 0.31408742677824225,
             "start": 3064,
             "end": 3136
           },
           {
             "text": "Z1: minimal anterior both lungs\n·\nZ2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas",
-            "score": 0.08788394835920724,
+            "score": 0.11060433745697731,
             "start": 1496,
             "end": 3063
           },
           {
             "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.08213138471900344,
+            "score": 0.09480246485705024,
             "start": 0,
             "end": 1495
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.43476951721196444,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.09717688216482506,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "Z1: minimal anterior both lungs\n·\nZ2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas",
-            "score": 0.43476951721196444,
-            "start": 1496,
-            "end": 3063
+            "text": "Z3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincreas",
+            "score": 0.09717688216482506,
+            "start": 1568,
+            "end": 3136
           },
           {
             "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.32780706460686626,
+            "score": 0.07997781705562379,
             "start": 0,
-            "end": 1495
-          },
-          {
-            "text": "Gravity -> ventral flow\n(see Tobin, 1999 Anaesthesia and Intensive Care)",
-            "score": 0.20676821579165858,
-            "start": 3064,
-            "end": 3136
+            "end": 1567
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.2955985180950471,
-        "description": "Pain physiology and analgesic pharmacology",
+      "organ_system_process": {
+        "score": 0.8381284697982909,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
-            "score": 0.2955985180950471,
+            "score": 0.8381284697982909,
             "start": 1530,
             "end": 3136
           },
           {
             "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.13592835209685608,
+            "score": 0.7482196179441566,
             "start": 0,
             "end": 1529
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8470823759078229,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "·\nZ2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours f",
@@ -403,27 +291,185 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.7034894789104185,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.7477994009847582,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Lung architecture -> dorsal flow\n·\nGravity -> ventral flow\n(see Tobin, 1999 Anaesthesia and Intensive Care)",
-            "score": 0.7034894789104185,
-            "start": 3029,
+            "text": "Gravity -> ventral flow\n(see Tobin, 1999 Anaesthesia and Intensive Care)",
+            "score": 0.7477994009847582,
+            "start": 3064,
             "end": 3136
           },
           {
-            "text": "Supine\n·\nZ1: minimal anterior both lungs\n·\nZ2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-depend",
-            "score": 0.26454846377751634,
-            "start": 1487,
-            "end": 3028
+            "text": "Z1: minimal anterior both lungs\n·\nZ2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas",
+            "score": 0.2816360763540295,
+            "start": 1496,
+            "end": 3063
           },
           {
             "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
-            "score": 0.13946678392103212,
+            "score": 0.13769065726953986,
             "start": 0,
-            "end": 1486
+            "end": 1495
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.34933703035082736,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "(see Tobin, 1999 Anaesthesia and Intensive Care)",
+            "score": 0.34933703035082736,
+            "start": 3088,
+            "end": 3136
+          },
+          {
+            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
+            "score": 0.15417787288657336,
+            "start": 0,
+            "end": 1527
+          },
+          {
+            "text": "·\nZ2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours f",
+            "score": 0.15354696394416326,
+            "start": 1528,
+            "end": 3087
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.4848778005207727,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
+            "score": 0.4848778005207727,
+            "start": 1530,
+            "end": 3136
+          },
+          {
+            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
+            "score": 0.31408742677824225,
+            "start": 0,
+            "end": 1529
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8765769859967216,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Z3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincreas",
+            "score": 0.8765769859967216,
+            "start": 1568,
+            "end": 3136
+          },
+          {
+            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
+            "score": 0.34518208953308893,
+            "start": 0,
+            "end": 1567
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.20827633226924755,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "(see Tobin, 1999 Anaesthesia and Intensive Care)",
+            "score": 0.20827633226924755,
+            "start": 3088,
+            "end": 3136
+          },
+          {
+            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
+            "score": 0.2022819500518595,
+            "start": 1530,
+            "end": 3087
+          },
+          {
+            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
+            "score": 0.15228985226789557,
+            "start": 0,
+            "end": 1529
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8268391327129939,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Z3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincreas",
+            "score": 0.8268391327129939,
+            "start": 1568,
+            "end": 3136
+          },
+          {
+            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
+            "score": 0.8050679294373881,
+            "start": 0,
+            "end": 1567
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.3860154117157002,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Z3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincreas",
+            "score": 0.3860154117157002,
+            "start": 1568,
+            "end": 3136
+          },
+          {
+            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
+            "score": 0.26714177530863603,
+            "start": 0,
+            "end": 1567
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7034894789104185,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Z2: minimal mid-anterior both lungs\n·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flo",
+            "score": 0.7034894789104185,
+            "start": 1530,
+            "end": 3136
+          },
+          {
+            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
+            "score": 0.32589958541887476,
+            "start": 0,
+            "end": 1529
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8458221271134265,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "·\nZ3: most of both lungs\n·\nNo right-left inequality\nProne\n·\nMore even distribution\no\nGravity\n  favours flow in non-dependent areas\no\nLung\n  architecture favours flow in dependent areas\nEffect of\nincre",
+            "score": 0.8458221271134265,
+            "start": 1566,
+            "end": 3136
+          },
+          {
+            "text": "2005B09 Describe\nthe gravity-dependent processes which affect pulmonary blood flow.\nWhat changes take place when the pressure increases in the pulmonary vessels?\nList:\n·\nWest zones: erect\n·\nWest zones",
+            "score": 0.3483576566136731,
+            "start": 0,
+            "end": 1565
           }
         ]
       }

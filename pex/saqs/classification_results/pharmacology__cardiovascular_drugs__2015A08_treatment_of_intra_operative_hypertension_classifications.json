@@ -2,38 +2,39 @@
   "source": "pharmacology/cardiovascular_drugs/2015A08_treatment_of_intra_operative_hypertension.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8999280892721313
+      "primary": "comparative_analysis",
+      "score": 0.6891853087660269
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5020566095784958
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "acid_base_and_electrolytes",
-      "pain_and_analgesia",
-      "dose_response_kinetics",
-      "neuromuscular_and_cns",
-      "physics_and_engineering"
+      "nociception_process",
+      "drug_receptor_disposition",
+      "acid_base_quality",
+      "neuromuscular_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8999280892721313,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.37540723912178453,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.8999280892721313,
+            "score": 0.37540723912178453,
             "start": 0,
-            "end": 1067
+            "end": 1045
           },
           {
-            "text": "Vasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback welcome\nat\nketaminenigh",
-            "score": 0.8489609916412006,
-            "start": 1068,
+            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
+            "score": 0.18071066347481568,
+            "start": 1046,
             "end": 1284
           }
         ]
@@ -58,7 +59,7 @@
       },
       "comparative_analysis": {
         "score": 0.6891853087660269,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback welcome\nat\nketamineni",
@@ -75,20 +76,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.2680091172688212,
+        "score": 0.3754072391217847,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Vasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback welcome\nat\nketaminenigh",
-            "score": 0.2680091172688212,
-            "start": 1068,
+            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
+            "score": 0.3754072391217847,
+            "start": 1046,
             "end": 1284
           },
           {
             "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.21207433610868814,
+            "score": 0.25178038205584335,
             "start": 0,
-            "end": 1067
+            "end": 1045
           }
         ]
       },
@@ -168,189 +169,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.6929065401474209,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback",
-            "score": 0.6929065401474209,
-            "start": 1044,
-            "end": 1284
-          },
-          {
-            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.36814003491309455,
-            "start": 0,
-            "end": 1043
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.8698467137441421,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "efflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nF",
-            "score": 0.8698467137441421,
-            "start": 1037,
-            "end": 1284
-          },
-          {
-            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.7174731048083236,
-            "start": 0,
-            "end": 1036
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.20153979982073553,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.20153979982073553,
-            "start": 0,
-            "end": 1043
-          },
-          {
-            "text": "·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback",
-            "score": 0.08788394835920724,
-            "start": 1044,
-            "end": 1284
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.35056273905738866,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "efflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nF",
-            "score": 0.35056273905738866,
-            "start": 1037,
-            "end": 1284
-          },
-          {
-            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.19858710741881394,
-            "start": 0,
-            "end": 1036
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.30155028868225636,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
-            "score": 0.30155028868225636,
-            "start": 1046,
-            "end": 1284
-          },
-          {
-            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.11851662443329414,
-            "start": 0,
-            "end": 1045
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.6518870203464082,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
-            "score": 0.6518870203464082,
-            "start": 1046,
-            "end": 1284
-          },
-          {
-            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.17383924611324467,
-            "start": 0,
-            "end": 1045
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.8634857460534524,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "+\nefflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR",
-            "score": 0.8634857460534524,
-            "start": 1035,
-            "end": 1284
-          },
-          {
-            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.20676821579165858,
-            "start": 0,
-            "end": 1034
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.3791848667100366,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.3791848667100366,
-            "start": 0,
-            "end": 1021
-          },
-          {
-            "text": "reuptake, ↑K\n+\nefflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L",
-            "score": 0.36789031545021217,
-            "start": 1022,
-            "end": 1284
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.5828090276790999,
-        "description": "Coagulation, bleeding, and transfusion",
+      "drug_receptor_disposition": {
+        "score": 0.8563349489658743,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "reuptake, ↑K\n+\nefflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L",
-            "score": 0.5828090276790999,
+            "score": 0.8563349489658743,
             "start": 1022,
             "end": 1284
           },
           {
             "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.32924077855991984,
+            "score": 0.5984164033142201,
             "start": 0,
             "end": 1021
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.8628983115034754,
-        "description": "Pain physiology and analgesic pharmacology",
+      "autonomic_disposition": {
+        "score": 0.5172432764617403,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.8628983115034754,
+            "score": 0.5172432764617403,
             "start": 0,
-            "end": 1036
+            "end": 1021
           },
           {
-            "text": "efflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nF",
-            "score": 0.7267565414890255,
-            "start": 1037,
+            "text": "reuptake, ↑K\n+\nefflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L",
+            "score": 0.21360460483229088,
+            "start": 1022,
             "end": 1284
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "pharmacokinetic_process": {
+        "score": 0.3220989705720298,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback welcome\nat\nketamineni",
+            "score": 0.3220989705720298,
+            "start": 1066,
+            "end": 1284
+          },
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.23771779517095493,
+            "start": 0,
+            "end": 1065
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.22925302922312224,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.22925302922312224,
+            "start": 0,
+            "end": 1045
+          },
+          {
+            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
+            "score": 0.1573559898347826,
+            "start": 1046,
+            "end": 1284
+          }
+        ]
+      },
+      "gas_exchange_process": {
         "score": 0.2488493710543425,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "reuptake, ↑K\n+\nefflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L",
@@ -366,21 +259,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.6924425059475212,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.6250954951261593,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
-            "score": 0.6924425059475212,
+            "score": 0.6250954951261593,
             "start": 0,
-            "end": 969
+            "end": 1021
           },
           {
-            "text": "  -> activate GC -> ↑cGMP -> ↑MLCP activity, ↑Ca\n2+\nreuptake, ↑K\n+\nefflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+",
-            "score": 0.21514118653388012,
-            "start": 970,
+            "text": "reuptake, ↑K\n+\nefflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L",
+            "score": 0.22370484839267127,
+            "start": 1022,
             "end": 1284
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8846877749475047,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.8846877749475047,
+            "start": 0,
+            "end": 1034
+          },
+          {
+            "text": "+\nefflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR",
+            "score": 0.6952218764326561,
+            "start": 1035,
+            "end": 1284
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.7602417631379194,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
+            "score": 0.7602417631379194,
+            "start": 1046,
+            "end": 1284
+          },
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.1179788782423308,
+            "start": 0,
+            "end": 1045
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.35696271260294926,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
+            "score": 0.35696271260294926,
+            "start": 1046,
+            "end": 1284
+          },
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.2649797724816399,
+            "start": 0,
+            "end": 1045
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.35056273905738866,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "efflux\n·\nVenodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nF",
+            "score": 0.35056273905738866,
+            "start": 1037,
+            "end": 1284
+          },
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.19858710741881394,
+            "start": 0,
+            "end": 1036
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8394265174382769,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.8394265174382769,
+            "start": 0,
+            "end": 1067
+          },
+          {
+            "text": "Vasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback welcome\nat\nketaminenigh",
+            "score": 0.4343772306992416,
+            "start": 1068,
+            "end": 1284
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.2364981332625992,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback welcome\nat\nketamineni",
+            "score": 0.2364981332625992,
+            "start": 1066,
+            "end": 1284
+          },
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.20676821579165858,
+            "start": 0,
+            "end": 1065
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.4239431139934031,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
+            "score": 0.4239431139934031,
+            "start": 1046,
+            "end": 1284
+          },
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.2758799607635588,
+            "start": 0,
+            "end": 1045
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.2897033101294102,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Venodilation -> ↓CO\n·\nVasodilation -> ↓TPR\n“”\nNTP\n·\nRelease NO -> same\nCalcium antagonist\nNifedipine\n·\nAntagonist at L-Ca\n2+\n·\n↓TPR\n“”\nMagnesium\n·\nPhysiological antagonist at L-Ca\n2+\n·\n↓TPR\nFeedback w",
+            "score": 0.2897033101294102,
+            "start": 1046,
+            "end": 1284
+          },
+          {
+            "text": "2015A08 List the\nclasses of drugs that may be used to manage an intra-operative hypertensive\ncrisis,\nand briefly outline the mechanisms of action.\nGroup\nExample\nEffect\nIV anaesthetic\nPropofol\nQuickest",
+            "score": 0.2602554991469016,
+            "start": 0,
+            "end": 1045
           }
         ]
       }

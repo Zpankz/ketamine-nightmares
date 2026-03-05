@@ -2,42 +2,53 @@
   "source": "physiology/special_physiology/2014B15_sleep_physiology.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9217217924782568
+      "primary": "comparative_analysis",
+      "score": 0.7790405496339468,
+      "secondary": [
+        "quantitative_reasoning",
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
       "score": 0.7196975313734553
     },
     "content_dimensions": [
-      "pain_and_analgesia",
-      "receptor_pharmacology",
-      "dose_response_kinetics",
-      "neuromuscular_and_cns",
-      "monitoring_and_measurement",
-      "physics_and_engineering",
-      "autonomic_nervous_system",
-      "haemostasis_and_transfusion",
-      "respiratory_gas_exchange"
+      "equipment_and_physics",
+      "nociception_process",
+      "neuromuscular_process",
+      "autonomic_disposition",
+      "gas_exchange_process",
+      "drug_receptor_disposition"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9217217924782568,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.33910761514341803,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.9217217924782568,
+            "score": 0.33910761514341803,
             "start": 0,
-            "end": 1440
+            "end": 1422
           },
           {
-            "text": "+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMRO\n2\n25",
-            "score": 0.9051975351429498,
-            "start": 1441,
+            "text": "↑MR",
+            "score": 0.2807466545501725,
+            "start": 2360,
             "end": 2363
+          },
+          {
+            "text": "Cholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal disc",
+            "score": 0.18280318375806515,
+            "start": 1423,
+            "end": 2359
           }
         ]
       },
@@ -60,12 +71,12 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.7992007600703674,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.7790405496339468,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMRO\n2\n",
-            "score": 0.7992007600703674,
+            "score": 0.7790405496339468,
             "start": 1439,
             "end": 2363
           },
@@ -78,20 +89,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.47505614833105636,
+        "score": 0.7258791319588582,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Awake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMRO\n2\n25-45%",
-            "score": 0.47505614833105636,
-            "start": 1445,
+            "text": "Cholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal disc",
+            "score": 0.7258791319588582,
+            "start": 1423,
+            "end": 2359
+          },
+          {
+            "text": "↑MR",
+            "score": 0.532436088826792,
+            "start": 2360,
             "end": 2363
           },
           {
             "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.13186982364320243,
+            "score": 0.16252292535834514,
             "start": 0,
-            "end": 1444
+            "end": 1422
           }
         ]
       },
@@ -189,243 +206,99 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8623093427304601,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuro",
-            "score": 0.8623093427304601,
-            "start": 1415,
-            "end": 2336
-          },
-          {
-            "text": "↓Shivering threshold\n·\n↑MR",
-            "score": 0.4309803634805221,
-            "start": 2337,
-            "end": 2363
-          },
-          {
-            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.09292765927996026,
-            "start": 0,
-            "end": 1414
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.8776777021025528,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuro",
-            "score": 0.8776777021025528,
-            "start": 1415,
-            "end": 2336
-          },
-          {
-            "text": "↓Shivering threshold\n·\n↑MR",
-            "score": 0.7786495244158627,
-            "start": 2337,
-            "end": 2363
-          },
-          {
-            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.46061606626950213,
-            "start": 0,
-            "end": 1414
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.2585486061251438,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "↓Shivering threshold\n·\n↑MR",
-            "score": 0.2585486061251438,
-            "start": 2337,
-            "end": 2363
-          },
-          {
-            "text": "+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal ",
-            "score": 0.12620097548419282,
-            "start": 1419,
-            "end": 2336
-          },
-          {
-            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.07576714551953342,
-            "start": 0,
-            "end": 1418
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.4794436173671221,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.4794436173671221,
-            "start": 0,
-            "end": 1414
-          },
-          {
-            "text": "↓Shivering threshold\n·\n↑MR",
-            "score": 0.3456698970176562,
-            "start": 2337,
-            "end": 2363
-          },
-          {
-            "text": "+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuro",
-            "score": 0.3395919809581919,
-            "start": 1415,
-            "end": 2336
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.8302071599905412,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMR",
-            "score": 0.8302071599905412,
-            "start": 1435,
-            "end": 2363
-          },
-          {
-            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.35301908534826315,
-            "start": 0,
-            "end": 1434
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.8057941557783673,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal di",
-            "score": 0.8057941557783673,
-            "start": 1421,
-            "end": 2357
-          },
-          {
-            "text": "·\n↑MR",
-            "score": 0.6821535298635499,
-            "start": 2358,
-            "end": 2363
-          },
-          {
-            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.13769065726953986,
-            "start": 0,
-            "end": 1420
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.2728052893640291,
-        "description": "Acid-base and electrolyte physiology",
+      "drug_receptor_disposition": {
+        "score": 0.7161342648185822,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Aminergic\n+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCN",
-            "score": 0.2728052893640291,
+            "score": 0.7161342648185822,
             "start": 1405,
             "end": 2313
           },
           {
             "text": "↓T 0.5°C, lowest 3am\n·\n↓Shivering threshold\n·\n↑MR",
-            "score": 0.2007992399296327,
+            "score": 0.6235866177343246,
             "start": 2314,
             "end": 2363
           },
           {
             "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.11851662443329414,
+            "score": 0.1278857710804513,
             "start": 0,
             "end": 1404
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.7969743099290385,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.8065187877039502,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "REM\nAminergic\n+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nRE",
-            "score": 0.7969743099290385,
-            "start": 1401,
-            "end": 2313
+            "text": "NREM\nREM\nAminergic\n+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNR",
+            "score": 0.8065187877039502,
+            "start": 1396,
+            "end": 2303
           },
           {
-            "text": "↓T 0.5°C, lowest 3am\n·\n↓Shivering threshold\n·\n↑MR",
-            "score": 0.4712673144006723,
-            "start": 2314,
+            "text": "↓MR 10%\n·\n↓T 0.5°C, lowest 3am\n·\n↓Shivering threshold\n·\n↑MR",
+            "score": 0.5057052506697242,
+            "start": 2304,
             "end": 2363
           },
           {
             "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.18561555034757704,
+            "score": 0.19712031304111735,
             "start": 0,
-            "end": 1400
+            "end": 1395
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.783702239115653,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.2467670878597175,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "↓T 0.5°C, lowest 3am\n·\n↓Shivering threshold\n·\n↑MR",
-            "score": 0.783702239115653,
-            "start": 2314,
-            "end": 2363
-          },
-          {
-            "text": "REM\nAminergic\n+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nRE",
-            "score": 0.5187674795740583,
-            "start": 1401,
-            "end": 2313
-          },
-          {
-            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.10803954311448256,
-            "start": 0,
-            "end": 1400
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.9174340018978622,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuro",
-            "score": 0.9174340018978622,
-            "start": 1415,
-            "end": 2336
-          },
-          {
-            "text": "↓Shivering threshold\n·\n↑MR",
-            "score": 0.6375883443170607,
-            "start": 2337,
+            "text": "+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMRO\n2\n",
+            "score": 0.2467670878597175,
+            "start": 1439,
             "end": 2363
           },
           {
             "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.10401037605283608,
+            "score": 0.08609013263273645,
             "start": 0,
-            "end": 1414
+            "end": 1438
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "organ_system_process": {
+        "score": 0.23005185046589166,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Cholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal disc",
+            "score": 0.23005185046589166,
+            "start": 1423,
+            "end": 2359
+          },
+          {
+            "text": "↑MR",
+            "score": 0.12232229789744709,
+            "start": 2360,
+            "end": 2363
+          },
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.08213138471900344,
+            "start": 0,
+            "end": 1422
+          }
+        ]
+      },
+      "gas_exchange_process": {
         "score": 0.7337241162242518,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↓T 0.5°C, lowest 3am\n·\n↓Shivering threshold\n·\n↑MR",
@@ -447,27 +320,197 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.852676006931055,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8862701770185053,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Awake\nNREM\nREM\nAminergic\n+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sle",
-            "score": 0.852676006931055,
-            "start": 1390,
-            "end": 2291
+            "text": "REM\nAminergic\n+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nRE",
+            "score": 0.8862701770185053,
+            "start": 1401,
+            "end": 2313
           },
           {
-            "text": "Metabolic\n·\n↓MR 10%\n·\n↓T 0.5°C, lowest 3am\n·\n↓Shivering threshold\n·\n↑MR",
-            "score": 0.34884721048203216,
-            "start": 2292,
+            "text": "↓T 0.5°C, lowest 3am\n·\n↓Shivering threshold\n·\n↑MR",
+            "score": 0.44886886532690884,
+            "start": 2314,
             "end": 2363
           },
           {
             "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
-            "score": 0.1485560880659056,
+            "score": 0.10702368540104822,
             "start": 0,
-            "end": 1389
+            "end": 1400
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8964868687026979,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Aminergic\n+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCN",
+            "score": 0.8964868687026979,
+            "start": 1405,
+            "end": 2313
+          },
+          {
+            "text": "↓T 0.5°C, lowest 3am\n·\n↓Shivering threshold\n·\n↑MR",
+            "score": 0.4175798296835002,
+            "start": 2314,
+            "end": 2363
+          },
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.10551062286445975,
+            "start": 0,
+            "end": 1404
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.32304731886392163,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Cholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal disc",
+            "score": 0.32304731886392163,
+            "start": 1423,
+            "end": 2359
+          },
+          {
+            "text": "↑MR",
+            "score": 0.2159118422576255,
+            "start": 2360,
+            "end": 2363
+          },
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.11164036043761141,
+            "start": 0,
+            "end": 1422
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9047254072589233,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMR",
+            "score": 0.9047254072589233,
+            "start": 1435,
+            "end": 2363
+          },
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.08431753646250958,
+            "start": 0,
+            "end": 1434
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.4794436173671221,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.4794436173671221,
+            "start": 0,
+            "end": 1414
+          },
+          {
+            "text": "↓Shivering threshold\n·\n↑MR",
+            "score": 0.3456698970176562,
+            "start": 2337,
+            "end": 2363
+          },
+          {
+            "text": "+++\n+\n+\nCholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuro",
+            "score": 0.3395919809581919,
+            "start": 1415,
+            "end": 2336
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8464530360558368,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMRO\n2\n25",
+            "score": 0.8464530360558368,
+            "start": 1441,
+            "end": 2363
+          },
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.7519846744074956,
+            "start": 0,
+            "end": 1440
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.5354924405559477,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMRO\n2\n25",
+            "score": 0.5354924405559477,
+            "start": 1441,
+            "end": 2363
+          },
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.22965224581842933,
+            "start": 0,
+            "end": 1440
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7687470092603256,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Cholinergic\n+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal disc",
+            "score": 0.7687470092603256,
+            "start": 1423,
+            "end": 2359
+          },
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.5568172173062604,
+            "start": 0,
+            "end": 1422
+          },
+          {
+            "text": "↑MR",
+            "score": 0.37893263772374886,
+            "start": 2360,
+            "end": 2363
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.40749874543127046,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "+++\n+\n+++\nAwake/NREM\nflip-flop\n(derived from Miller ‘s\n  Anaesthesia)\nNREM/REM\nflip-flop\n(derived from Miller’s\n  Anaesthesia)\nPhysiological effects of sleep:\nNREM\nREM\nCNS\n·\n↓Neuronal discharge\n·\n↓CMR",
+            "score": 0.40749874543127046,
+            "start": 1435,
+            "end": 2363
+          },
+          {
+            "text": "2014B15 Write brief notes on the physiological changes associated with\nsleep.\nList:\n·\nIntro\n·\nSleep\narchitecture\n·\nSleep\nEEG signature\n·\nSleep\nneurochemistry\n·\nEffect\non body systems\nIntro: sleep\nDefi",
+            "score": 0.32780706460686626,
+            "start": 0,
+            "end": 1434
           }
         ]
       }

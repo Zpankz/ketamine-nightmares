@@ -2,8 +2,11 @@
   "source": "pharmacology/intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9121160516407928
+      "primary": "mechanistic_explanation",
+      "score": 0.7452702478710551,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
@@ -13,41 +16,43 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_effects",
-      "haemostasis_and_transfusion",
-      "pain_and_analgesia",
-      "neuromuscular_and_cns",
-      "receptor_pharmacology",
-      "dose_response_kinetics",
-      "autonomic_nervous_system",
-      "respiratory_gas_exchange",
-      "physics_and_engineering",
-      "special_populations"
+      "nociception_process",
+      "equipment_and_physics",
+      "organ_system_process",
+      "drug_receptor_disposition",
+      "neuromuscular_process",
+      "autonomic_disposition",
+      "gas_exchange_process",
+      "special_population_role"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9121160516407928,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.34786836946211674,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
+            "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
+            "score": 0.34786836946211674,
+            "start": 1555,
+            "end": 2843
+          },
+          {
             "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.9121160516407928,
+            "score": 0.3316361640846439,
             "start": 0,
-            "end": 1580
+            "end": 1554
           },
           {
-            "text": "↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRelatively preserved cf. volati",
-            "score": 0.8857441707387281,
-            "start": 2871,
+            "text": "opioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRela",
+            "score": 0.19493207056261186,
+            "start": 2844,
             "end": 3086
-          },
-          {
-            "text": "Note: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓CM",
-            "score": 0.8646560185906924,
-            "start": 1581,
-            "end": 2870
           }
         ]
       },
@@ -77,7 +82,7 @@
       },
       "comparative_analysis": {
         "score": 0.638333154555165,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Note: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓CM",
@@ -87,7 +92,7 @@
           },
           {
             "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.5043785143000725,
+            "score": 0.5033170868667958,
             "start": 0,
             "end": 1580
           },
@@ -100,25 +105,25 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.4414486117257936,
+        "score": 0.47446242194865385,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Note: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓CM",
-            "score": 0.4414486117257936,
-            "start": 1581,
-            "end": 2870
+            "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
+            "score": 0.47446242194865385,
+            "start": 1555,
+            "end": 2843
           },
           {
             "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.30570328895109333,
+            "score": 0.4171909723209001,
             "start": 0,
-            "end": 1580
+            "end": 1554
           },
           {
-            "text": "↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRelatively preserved cf. volati",
-            "score": 0.12397561162117983,
-            "start": 2871,
+            "text": "opioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRela",
+            "score": 0.37364865958760746,
+            "start": 2844,
             "end": 3086
           }
         ]
@@ -198,12 +203,12 @@
         ]
       },
       "integrative": {
-        "score": 0.5300225848892349,
+        "score": 0.5283853489408027,
         "description": "Bridges basic science to clinical application",
         "top_chunks": [
           {
             "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
-            "score": 0.5300225848892349,
+            "score": 0.5283853489408027,
             "start": 1555,
             "end": 2843
           },
@@ -223,249 +228,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8028796869588828,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
-            "score": 0.8028796869588828,
-            "start": 1555,
-            "end": 2802
-          },
-          {
-            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.7695481570317122,
-            "start": 0,
-            "end": 1554
-          },
-          {
-            "text": "Synergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> un",
-            "score": 0.717027172600031,
-            "start": 2803,
-            "end": 3086
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.8557290077565394,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Synergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> un",
-            "score": 0.8557290077565394,
-            "start": 2803,
-            "end": 3086
-          },
-          {
-            "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
-            "score": 0.8413617446723678,
-            "start": 1555,
-            "end": 2802
-          },
-          {
-            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.5721503552512195,
-            "start": 0,
-            "end": 1554
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.8893956625430228,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
-            "score": 0.8893956625430228,
-            "start": 1555,
-            "end": 2802
-          },
-          {
-            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.7062214672949156,
-            "start": 0,
-            "end": 1554
-          },
-          {
-            "text": "Synergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> un",
-            "score": 0.2606831439763029,
-            "start": 2803,
-            "end": 3086
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.726318015129839,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "drug_receptor_disposition": {
+        "score": 0.8721142289195487,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "? Disrupted dopaminergic/cholinergic\nsignalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP ",
-            "score": 0.726318015129839,
+            "score": 0.8721142289195487,
             "start": 1518,
-            "end": 2793
+            "end": 2789
           },
           {
             "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.533791061748702,
+            "score": 0.47527131137054357,
             "start": 0,
             "end": 1517
           },
           {
-            "text": "↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatat",
-            "score": 0.3422609670740562,
-            "start": 2794,
+            "text": "and\n↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodil",
+            "score": 0.3378979270173037,
+            "start": 2790,
             "end": 3086
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.5247948934721086,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓",
-            "score": 0.5247948934721086,
-            "start": 1579,
-            "end": 2868
-          },
-          {
-            "text": "·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRelatively preserved cf. vola",
-            "score": 0.45186226688737874,
-            "start": 2869,
-            "end": 3086
-          },
-          {
-            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.17656868710877405,
-            "start": 0,
-            "end": 1578
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7371731194748972,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "Synergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> un",
-            "score": 0.7371731194748972,
-            "start": 2803,
-            "end": 3086
-          },
-          {
-            "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
-            "score": 0.37943715045857734,
-            "start": 1555,
-            "end": 2802
-          },
-          {
-            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.1290165055825653,
-            "start": 0,
-            "end": 1554
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.4298057865607457,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.4298057865607457,
-            "start": 0,
-            "end": 1517
-          },
-          {
-            "text": "↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatat",
-            "score": 0.25727231633199493,
-            "start": 2794,
-            "end": 3086
-          },
-          {
-            "text": "? Disrupted dopaminergic/cholinergic\nsignalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP ",
-            "score": 0.16912400446358591,
-            "start": 1518,
-            "end": 2793
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.771544239031447,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.774717751800841,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "? Disrupted dopaminergic/cholinergic\nsignalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP ",
-            "score": 0.771544239031447,
+            "score": 0.774717751800841,
             "start": 1518,
             "end": 2781
           },
           {
             "text": "↑PaCO\n2\nand\n↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·",
-            "score": 0.7116489757150383,
+            "score": 0.7039456475161461,
             "start": 2782,
             "end": 3086
           },
           {
             "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.47374879002518394,
+            "score": 0.30570328895109333,
             "start": 0,
             "end": 1517
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.8704158607108111,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.5007961101642734,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "? Disrupted dopaminergic/cholinergic\nsignalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP ",
-            "score": 0.8704158607108111,
-            "start": 1518,
-            "end": 2781
-          },
-          {
-            "text": "↑PaCO\n2\nand\n↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·",
-            "score": 0.5429005398777046,
-            "start": 2782,
-            "end": 3086
-          },
-          {
             "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.4105939901943318,
+            "score": 0.5007961101642734,
             "start": 0,
-            "end": 1517
+            "end": 1580
+          },
+          {
+            "text": "Note: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓CM",
+            "score": 0.3990192028379539,
+            "start": 1581,
+            "end": 2870
+          },
+          {
+            "text": "↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRelatively preserved cf. volati",
+            "score": 0.08969914404147739,
+            "start": 2871,
+            "end": 3086
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.8698467137441421,
-        "description": "Pain physiology and analgesic pharmacology",
+      "organ_system_process": {
+        "score": 0.8939864498892817,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
-            "score": 0.8698467137441421,
+            "score": 0.8939864498892817,
             "start": 1555,
             "end": 2802
           },
           {
             "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.8028796869588828,
+            "score": 0.7992007600703674,
             "start": 0,
             "end": 1554
           },
           {
             "text": "Synergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> un",
-            "score": 0.7766885250141251,
+            "score": 0.31221540087919597,
             "start": 2803,
             "end": 3086
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.739316856023697,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "and\n↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodil",
@@ -487,27 +348,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8698467137441421,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8094013663275356,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "o\n? Disrupted dopaminergic/cholinergic\nsignalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mA",
-            "score": 0.8698467137441421,
-            "start": 1516,
-            "end": 2768
+            "text": "? Disrupted dopaminergic/cholinergic\nsignalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP ",
+            "score": 0.8094013663275356,
+            "start": 1518,
+            "end": 2781
           },
           {
             "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
-            "score": 0.7276325221722416,
+            "score": 0.7196975313734553,
             "start": 0,
-            "end": 1515
+            "end": 1517
           },
           {
-            "text": "↓Response to\n↑PaCO\n2\nand\n↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common ",
-            "score": 0.5308162014006218,
-            "start": 2769,
+            "text": "↑PaCO\n2\nand\n↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·",
+            "score": 0.49111088959860716,
+            "start": 2782,
             "end": 3086
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.9125665037015043,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "? Disrupted dopaminergic/cholinergic\nsignalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP ",
+            "score": 0.9125665037015043,
+            "start": 1518,
+            "end": 2789
+          },
+          {
+            "text": "and\n↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodil",
+            "score": 0.8136773682601599,
+            "start": 2790,
+            "end": 3086
+          },
+          {
+            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
+            "score": 0.7759013874121433,
+            "start": 0,
+            "end": 1517
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.3862691349864315,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
+            "score": 0.3862691349864315,
+            "start": 1555,
+            "end": 2802
+          },
+          {
+            "text": "Synergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> un",
+            "score": 0.2364981332625992,
+            "start": 2803,
+            "end": 3086
+          },
+          {
+            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
+            "score": 0.18280318375806526,
+            "start": 0,
+            "end": 1554
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9008986698241135,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRelatively preserved cf. volati",
+            "score": 0.9008986698241135,
+            "start": 2871,
+            "end": 3086
+          },
+          {
+            "text": "Note: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓CM",
+            "score": 0.8464530360558368,
+            "start": 1581,
+            "end": 2870
+          },
+          {
+            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
+            "score": 0.6174047240336276,
+            "start": 0,
+            "end": 1580
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.726318015129839,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "? Disrupted dopaminergic/cholinergic\nsignalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP ",
+            "score": 0.726318015129839,
+            "start": 1518,
+            "end": 2793
+          },
+          {
+            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
+            "score": 0.533791061748702,
+            "start": 0,
+            "end": 1517
+          },
+          {
+            "text": "↓PaO\n2\n·\nSynergistic resp depression with BDZ and\nopioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatat",
+            "score": 0.3422609670740562,
+            "start": 2794,
+            "end": 3086
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.852676006931055,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Note: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓CM",
+            "score": 0.852676006931055,
+            "start": 1581,
+            "end": 2870
+          },
+          {
+            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
+            "score": 0.5480883661471779,
+            "start": 0,
+            "end": 1580
+          },
+          {
+            "text": "↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRelatively preserved cf. volati",
+            "score": 0.3721435270931916,
+            "start": 2871,
+            "end": 3086
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.439220154572127,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Note: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓CM",
+            "score": 0.439220154572127,
+            "start": 1581,
+            "end": 2870
+          },
+          {
+            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
+            "score": 0.18774158236383576,
+            "start": 0,
+            "end": 1580
+          },
+          {
+            "text": "↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRelatively preserved cf. volati",
+            "score": 0.1278857710804513,
+            "start": 2871,
+            "end": 3086
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.4740631907360892,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "signalling in subcortex\n·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nPr",
+            "score": 0.4740631907360892,
+            "start": 1555,
+            "end": 2843
+          },
+          {
+            "text": "opioids\n↓Airway reflexes\n·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRela",
+            "score": 0.32637600980346704,
+            "start": 2844,
+            "end": 3086
+          },
+          {
+            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
+            "score": 0.13302177898555526,
+            "start": 0,
+            "end": 1554
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7614671777498045,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "·\nNote: no EEG evidence of seizure\n·\nNote: propofol is intrinsically\nanticonvulsant\nCerebral hypoperfusion\nCPP = mAP – (CVP or ICP)\n·\n↓mAP may be greater than\n↓ICP or ↓CVP\n·\nProblem partly offset by\n↓",
+            "score": 0.7614671777498045,
+            "start": 1579,
+            "end": 2868
+          },
+          {
+            "text": "·\n↑Risk aspiration if unprotected\nairway\n↓Pharyngeal dilator tone\n·\n↑Risk obstruction\n·\nVery common if OSA\n↓HPV\n·\nVasodilatation -> universal ↓PVR\n-> worse V/Q matching\n·\nRelatively preserved cf. vola",
+            "score": 0.5162490831465811,
+            "start": 2869,
+            "end": 3086
+          },
+          {
+            "text": "2009B02 What are the potential\nside effects of propofol and its formulations?\n(a.k.a. non-ideal features)\nList:\n·\nIntro\n·\nPharmaceutics\n·\nPharmacokinetics\n·\nPharmacodynamics: CNS, CVS, resp,\nother\nPha",
+            "score": 0.3287625795101406,
+            "start": 0,
+            "end": 1578
           }
         ]
       }

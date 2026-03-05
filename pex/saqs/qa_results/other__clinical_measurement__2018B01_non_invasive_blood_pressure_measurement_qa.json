@@ -1,0 +1,118 @@
+{
+  "source": "other/clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm",
+  "num_questions": 9,
+  "num_answerable": 3,
+  "extractions": [
+    {
+      "question": "What are the key facts that must be memorised for the exam?",
+      "answerable": [],
+      "inextractability_score": 0.8020331330373922,
+      "answers": []
+    },
+    {
+      "question": "What equations or mathematical relationships are described?",
+      "answerable": true,
+      "inextractability_score": 0.0019475313603005303,
+      "answers": [
+        {
+          "text": "DBP = 1.5 x mAP - 0.5 x SBP",
+          "start": 1123,
+          "end": 1150,
+          "score": 0.21304930241646974
+        },
+        {
+          "text": "DBP = 1.5 x mAP - 0.5 x SBP\no",
+          "start": 1123,
+          "end": 1152,
+          "score": 0.021889439814146955
+        },
+        {
+          "text": "Calculated: DBP = 1.5 x mAP - 0.5 x SBP",
+          "start": 1111,
+          "end": 1150,
+          "score": 0.012991765187938565
+        }
+      ]
+    },
+    {
+      "question": "What graphs or curves are discussed and what do they show?",
+      "answerable": [],
+      "inextractability_score": 0.7124073411523472,
+      "answers": []
+    },
+    {
+      "question": "What comparisons are made between different agents or systems?",
+      "answerable": [],
+      "inextractability_score": 0.9205632770922058,
+      "answers": []
+    },
+    {
+      "question": "How does this equipment or device work?",
+      "answerable": true,
+      "inextractability_score": 0.0032376932930985483,
+      "answers": [
+        {
+          "text": "Mechanism",
+          "start": 613,
+          "end": 622,
+          "score": 0.05828185368032922
+        },
+        {
+          "text": "Mechanism\n�\nCuff is inflated above estimated SBP then released\n  in small decrements",
+          "start": 613,
+          "end": 697,
+          "score": 0.004865385589190225
+        },
+        {
+          "text": "Mechanism\n�\nCuff is inflated above estimated SBP then released\n  in small decrements\n�\nArterial pressure is transmitted to the module\n  via the cuff (tonometry)\n�\nPulsatile blood flow causes oscillations in\n  cuff pressure (oscillometry)",
+          "start": 613,
+          "end": 850,
+          "score": 0.004811742481451592
+        }
+      ]
+    },
+    {
+      "question": "What are the safety features and failure modes?",
+      "answerable": [],
+      "inextractability_score": 0.9101819016498455,
+      "answers": []
+    },
+    {
+      "question": "What physical principles underlie this measurement or device?",
+      "answerable": [],
+      "inextractability_score": 0.9205632770922058,
+      "answers": []
+    },
+    {
+      "question": "What are the sources of error or inaccuracy?",
+      "answerable": true,
+      "inextractability_score": 0.0005111822165950778,
+      "answers": [
+        {
+          "text": "Diastolic pressure less accurate",
+          "start": 1229,
+          "end": 1261,
+          "score": 0.31648367704666236
+        },
+        {
+          "text": "Intrinsic:\n�\nDiastolic pressure less accurate",
+          "start": 1216,
+          "end": 1261,
+          "score": 0.054132340353964054
+        },
+        {
+          "text": "Diastolic pressure less accurate\n�\nInaccurate in arrhythmia (irregular amplitude\n  of oscillations)\n�\nInaccurate at extremes of BP (false falsely\n  low if high, falsely high if low)\n�\nImproper calibration",
+          "start": 1229,
+          "end": 1433,
+          "score": 0.029693914732659307
+        }
+      ]
+    },
+    {
+      "question": "How is this calibrated or maintained?",
+      "answerable": [],
+      "inextractability_score": 0.9172307637073154,
+      "answers": []
+    }
+  ]
+}

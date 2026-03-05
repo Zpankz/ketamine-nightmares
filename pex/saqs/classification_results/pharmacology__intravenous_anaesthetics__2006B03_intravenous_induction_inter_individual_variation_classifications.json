@@ -2,10 +2,11 @@
   "source": "pharmacology/intravenous_anaesthetics/2006B03_intravenous_induction_inter_individual_variation.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8867947249644124,
+      "primary": "quantitative_reasoning",
+      "score": 0.782154629312735,
       "secondary": [
-        "comparative_analysis"
+        "comparative_analysis",
+        "applied_clinical"
       ]
     },
     "clinical_relevance": {
@@ -16,41 +17,43 @@
       ]
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "special_populations",
-      "receptor_pharmacology",
-      "organ_system_effects",
-      "pain_and_analgesia",
-      "physics_and_engineering",
-      "haemostasis_and_transfusion",
-      "neuromuscular_and_cns",
-      "monitoring_and_measurement",
-      "autonomic_nervous_system"
+      "organ_system_process",
+      "special_population_role",
+      "pharmacokinetic_process",
+      "drug_receptor_disposition",
+      "nociception_process",
+      "neuromuscular_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance",
+      "dose_response_relationship",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8867947249644124,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.33355770193444734,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g. ",
-            "score": 0.8867947249644124,
-            "start": 2799,
-            "end": 3495
-          },
-          {
             "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.8836255212401656,
+            "score": 0.33355770193444734,
             "start": 0,
-            "end": 1538
+            "end": 1536
           },
           {
-            "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
-            "score": 0.8776777021025528,
-            "start": 1539,
-            "end": 2798
+            "text": "·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.",
+            "score": 0.22252590120650217,
+            "start": 1537,
+            "end": 2790
+          },
+          {
+            "text": "↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additiv",
+            "score": 0.16646454350278772,
+            "start": 2791,
+            "end": 3495
           }
         ]
       },
@@ -79,12 +82,12 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.8247992193051306,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.756544888040563,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g. ",
-            "score": 0.8247992193051306,
+            "score": 0.756544888040563,
             "start": 2799,
             "end": 3495
           },
@@ -103,26 +106,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.7569571765117691,
+        "score": 0.782154629312735,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
-            "score": 0.7569571765117691,
+            "score": 0.782154629312735,
             "start": 1539,
-            "end": 2798
+            "end": 2790
+          },
+          {
+            "text": "↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additiv",
+            "score": 0.41188544953126865,
+            "start": 2791,
+            "end": 3495
           },
           {
             "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.37490450487384075,
+            "score": 0.3066297472364717,
             "start": 0,
             "end": 1538
-          },
-          {
-            "text": "↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g. ",
-            "score": 0.330198056649713,
-            "start": 2799,
-            "end": 3495
           }
         ]
       },
@@ -226,249 +229,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.96337361988473,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
-            "score": 0.96337361988473,
-            "start": 1510,
-            "end": 2737
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.9056682900229793,
-            "start": 0,
-            "end": 1509
-          },
-          {
-            "text": "(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol C",
-            "score": 0.8681301763567975,
-            "start": 2738,
-            "end": 3495
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.888878374989243,
-        "description": "Receptor mechanisms and ligand interactions",
+      "drug_receptor_disposition": {
+        "score": 0.8658201727081827,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol C",
-            "score": 0.888878374989243,
+            "score": 0.8658201727081827,
             "start": 2738,
             "end": 3495
           },
           {
             "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
-            "score": 0.7477994009847582,
+            "score": 0.4679275100610469,
             "start": 1510,
             "end": 2737
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.36888954795622797,
-            "start": 0,
-            "end": 1509
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.8178959184899055,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
-            "score": 0.8178959184899055,
-            "start": 1510,
-            "end": 2737
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.4291535311248374,
-            "start": 0,
-            "end": 1509
-          },
-          {
-            "text": "(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol C",
-            "score": 0.11744260655618423,
-            "start": 2738,
-            "end": 3495
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.8929763145989518,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
-            "score": 0.8929763145989518,
-            "start": 1510,
-            "end": 2737
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.3671415130881525,
-            "start": 0,
-            "end": 1509
-          },
-          {
-            "text": "(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol C",
-            "score": 0.34469455337775406,
-            "start": 2738,
-            "end": 3495
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.7280699757014175,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
-            "score": 0.7280699757014175,
-            "start": 1539,
-            "end": 2796
-          },
-          {
-            "text": "·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g",
-            "score": 0.2623973993795041,
-            "start": 2797,
-            "end": 3495
           },
           {
             "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
             "score": 0.22370484839267127,
             "start": 0,
+            "end": 1509
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.42251270298076243,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "↓Distance from injection site to brain (e.g.\n  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g.",
+            "score": 0.42251270298076243,
+            "start": 1465,
+            "end": 2712
+          },
+          {
+            "text": "↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nA",
+            "score": 0.3235219459138018,
+            "start": 2713,
+            "end": 3495
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.20752148144486066,
+            "start": 0,
+            "end": 1464
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.8776777021025528,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
+            "score": 0.8776777021025528,
+            "start": 1539,
+            "end": 2798
+          },
+          {
+            "text": "↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g. ",
+            "score": 0.39978803785049416,
+            "start": 2799,
+            "end": 3495
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.3330768842966407,
+            "start": 0,
             "end": 1538
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.7951080084226541,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.9229830489942816,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
-            "score": 0.7951080084226541,
+            "score": 0.9229830489942816,
             "start": 1510,
             "end": 2756
           },
           {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.584881458509053,
+            "start": 0,
+            "end": 1509
+          },
+          {
             "text": "  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction w",
-            "score": 0.23165414560489295,
+            "score": 0.17794296815077074,
             "start": 2757,
             "end": 3495
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.10803954311448256,
-            "start": 0,
-            "end": 1509
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.34323357990611997,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol C",
-            "score": 0.34323357990611997,
-            "start": 2738,
-            "end": 3495
-          },
-          {
-            "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
-            "score": 0.21360460483229088,
-            "start": 1510,
-            "end": 2737
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.12068239347016409,
-            "start": 0,
-            "end": 1509
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.6840355376775101,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditiv",
-            "score": 0.6840355376775101,
-            "start": 2719,
-            "end": 3495
-          },
-          {
-            "text": "↓Distance from injection site to brain (e.g.\n  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g.",
-            "score": 0.354003447847383,
-            "start": 1465,
-            "end": 2718
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.3202059144056369,
-            "start": 0,
-            "end": 1464
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7840881577423744,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "↓Distance from injection site to brain (e.g.\n  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g.",
-            "score": 0.7840881577423744,
-            "start": 1465,
-            "end": 2718
-          },
-          {
-            "text": "(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditiv",
-            "score": 0.7482196179441566,
-            "start": 2719,
-            "end": 3495
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.6733856664536741,
-            "start": 0,
-            "end": 1464
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.7977180499481404,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol C",
-            "score": 0.7977180499481404,
-            "start": 2738,
-            "end": 3495
-          },
-          {
-            "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
-            "score": 0.4988058358212547,
-            "start": 1510,
-            "end": 2737
-          },
-          {
-            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.22213370116389697,
-            "start": 0,
-            "end": 1509
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.25599936209764323,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
@@ -490,27 +349,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.7719422903055657,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.717027172600031,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↓Distance from injection site to brain (e.g.\n  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g.",
-            "score": 0.7719422903055657,
+            "score": 0.717027172600031,
             "start": 1465,
-            "end": 2712
+            "end": 2718
           },
           {
-            "text": "↓pO\n2\n(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nA",
-            "score": 0.5903094151938985,
-            "start": 2713,
+            "text": "(<40mmHg)\n·\n↑pCO\n2\n(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditiv",
+            "score": 0.5496183661473945,
+            "start": 2719,
             "end": 3495
           },
           {
             "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
-            "score": 0.20979078633127912,
+            "score": 0.2052664429349464,
             "start": 0,
             "end": 1464
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.7825421217837121,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol C",
+            "score": 0.7825421217837121,
+            "start": 2738,
+            "end": 3495
+          },
+          {
+            "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
+            "score": 0.5782020931195071,
+            "start": 1510,
+            "end": 2737
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.2888014443939363,
+            "start": 0,
+            "end": 1509
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.5795010131777019,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
+            "score": 0.5795010131777019,
+            "start": 1510,
+            "end": 2756
+          },
+          {
+            "text": "  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction w",
+            "score": 0.18561555034757704,
+            "start": 2757,
+            "end": 3495
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.13946678392103212,
+            "start": 0,
+            "end": 1509
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.41304863782628126,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
+            "score": 0.41304863782628126,
+            "start": 1539,
+            "end": 2798
+          },
+          {
+            "text": "↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g. ",
+            "score": 0.0966992383588072,
+            "start": 2799,
+            "end": 3495
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.08969914404147739,
+            "start": 0,
+            "end": 1538
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8939864498892817,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  CVC cf. lower limb PIVC)\n·\n↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear e",
+            "score": 0.8939864498892817,
+            "start": 1510,
+            "end": 2737
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.3671415130881525,
+            "start": 0,
+            "end": 1509
+          },
+          {
+            "text": "(>60mmHg sedation,\n  >80mmHg anaesthesia if acute)\n·\n↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol C",
+            "score": 0.34469455337775406,
+            "start": 2738,
+            "end": 3495
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7743224261658384,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
+            "score": 0.7743224261658384,
+            "start": 1539,
+            "end": 2798
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.640811831157385,
+            "start": 0,
+            "end": 1538
+          },
+          {
+            "text": "↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g. ",
+            "score": 0.39978803785049416,
+            "start": 2799,
+            "end": 3495
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.7679443124825029,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
+            "score": 0.7679443124825029,
+            "start": 1539,
+            "end": 2798
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.6540860977117229,
+            "start": 0,
+            "end": 1538
+          },
+          {
+            "text": "↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g. ",
+            "score": 0.41485966412732267,
+            "start": 2799,
+            "end": 3495
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.6263513404123925,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
+            "score": 0.6263513404123925,
+            "start": 1539,
+            "end": 2790
+          },
+          {
+            "text": "↓Temp\n·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additiv",
+            "score": 0.3921188687384824,
+            "start": 2791,
+            "end": 3495
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.13651425394654748,
+            "start": 0,
+            "end": 1538
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7939834639495083,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "↑Rate of effect site equilibration (↑k\ne0\n-> ↓t\n1/2ke0\n)\no\n↓Thickness (e.g. immature BBB in neonate)\no\n↑Lipid solubility (e.g. thiopentone – t1/2\nke0\n1 min – hence clear endpoint)\no\n↑% Unionized (e.g.",
+            "score": 0.7939834639495083,
+            "start": 1539,
+            "end": 2796
+          },
+          {
+            "text": "·\n↓pH\n↑Cp\n50\nif:\n·\n↑Temp\nDrug interaction\n·\nSynergistic: e.g. fentanyl 1mcg/kg reduces\n  dose of propofol by 20%\n·\nAdditive: e.g. ↓propofol Cp\n50\nco-induction with volatile agent\n·\nInfra-additive: e.g",
+            "score": 0.49111088959860716,
+            "start": 2797,
+            "end": 3495
+          },
+          {
+            "text": "2006B03 Describe\nthe factors which contribute to the inter-individual variability in drug\nresponse seen with intravenous induction agents.\nList:\n·\nIntro\n·\nKinetics/biophasics\n·\nDynamics\nIntro:\nIV indu",
+            "score": 0.12013872967712319,
+            "start": 0,
+            "end": 1538
           }
         ]
       }

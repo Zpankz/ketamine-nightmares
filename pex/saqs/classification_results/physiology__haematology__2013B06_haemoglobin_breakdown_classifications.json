@@ -2,26 +2,28 @@
   "source": "physiology/haematology/2013B06_haemoglobin_breakdown.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9398375381531419
+      "primary": "mechanistic_explanation",
+      "score": 0.6276057608898917
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5860460940318466
     },
-    "content_dimensions": [
-      "haemostasis_and_transfusion"
+    "content_dimensions": [],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9398375381531419,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.44472935530438984,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.9398375381531419,
+            "score": 0.44472935530438984,
             "start": 0,
             "end": 891
           }
@@ -41,7 +43,7 @@
       },
       "comparative_analysis": {
         "score": 0.2530421557773242,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
@@ -52,12 +54,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.27193002429858243,
+        "score": 0.25684762720296567,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.27193002429858243,
+            "score": 0.25684762720296567,
             "start": 0,
             "end": 891
           }
@@ -115,129 +117,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.36489833307826947,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.28476003114035586,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.36489833307826947,
+            "score": 0.28476003114035586,
             "start": 0,
             "end": 891
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.4053100005099871,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.15291762409217716,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.4053100005099871,
+            "score": 0.15291762409217716,
             "start": 0,
             "end": 891
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.49827509920207047,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.2166840731768605,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.49827509920207047,
+            "score": 0.2166840731768605,
             "start": 0,
             "end": 891
           }
         ]
       },
-      "special_populations": {
-        "score": 0.4664072010390646,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.5804745953788844,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.4664072010390646,
+            "score": 0.5804745953788844,
             "start": 0,
             "end": 891
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.34323357990611997,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.34323357990611997,
-            "start": 0,
-            "end": 891
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.41576590740672636,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.41576590740672636,
-            "start": 0,
-            "end": 891
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.2113115715020448,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.2113115715020448,
-            "start": 0,
-            "end": 891
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.15103900835879944,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.15103900835879944,
-            "start": 0,
-            "end": 891
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7401717773902717,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.7401717773902717,
-            "start": 0,
-            "end": 891
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.11425582926127191,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.11425582926127191,
-            "start": 0,
-            "end": 891
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.29514301842447316,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
@@ -247,13 +177,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.1835038816726888,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.22845576096855297,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
-            "score": 0.1835038816726888,
+            "score": 0.22845576096855297,
+            "start": 0,
+            "end": 891
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.13651425394654748,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
+            "score": 0.13651425394654748,
+            "start": 0,
+            "end": 891
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.3464021154449509,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
+            "score": 0.3464021154449509,
+            "start": 0,
+            "end": 891
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.1010480871715535,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
+            "score": 0.1010480871715535,
+            "start": 0,
+            "end": 891
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.4664072010390646,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
+            "score": 0.4664072010390646,
+            "start": 0,
+            "end": 891
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7143442883222849,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
+            "score": 0.7143442883222849,
+            "start": 0,
+            "end": 891
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.14793926113385975,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
+            "score": 0.14793926113385975,
+            "start": 0,
+            "end": 891
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.17588393723954218,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
+            "score": 0.17588393723954218,
+            "start": 0,
+            "end": 891
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7401717773902717,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2013B06 Briefly describe the\nbreakdown of haemoglobin after red cell lysis.\nList:\n·\nHb structure\n·\nIn the RES\n·\nIn the blood\n·\nIn the liver\n·\nEnterohepatic circulation and\nexcretion\nHaemoglobin (Hb)\ns",
+            "score": 0.7401717773902717,
             "start": 0,
             "end": 891
           }

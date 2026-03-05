@@ -1,0 +1,80 @@
+{
+  "source": "other/clinical_measurement/2019A15_pulse_oximetry_sources_of_inaccuracy.htm",
+  "num_questions": 9,
+  "num_answerable": 1,
+  "extractions": [
+    {
+      "question": "What are the key facts that must be memorised for the exam?",
+      "answerable": [],
+      "inextractability_score": 0.6645179038901987,
+      "answers": []
+    },
+    {
+      "question": "What equations or mathematical relationships are described?",
+      "answerable": [],
+      "inextractability_score": 0.20564750791393482,
+      "answers": []
+    },
+    {
+      "question": "What graphs or curves are discussed and what do they show?",
+      "answerable": [],
+      "inextractability_score": 0.6645179038901987,
+      "answers": []
+    },
+    {
+      "question": "What comparisons are made between different agents or systems?",
+      "answerable": [],
+      "inextractability_score": 0.8944447525231931,
+      "answers": []
+    },
+    {
+      "question": "How does this equipment or device work?",
+      "answerable": [],
+      "inextractability_score": 0.7518223361103046,
+      "answers": []
+    },
+    {
+      "question": "What are the safety features and failure modes?",
+      "answerable": [],
+      "inextractability_score": 0.4975745104884624,
+      "answers": []
+    },
+    {
+      "question": "What physical principles underlie this measurement or device?",
+      "answerable": [],
+      "inextractability_score": 0.5031647295341296,
+      "answers": []
+    },
+    {
+      "question": "What are the sources of error or inaccuracy?",
+      "answerable": true,
+      "inextractability_score": 0.00023819215505145656,
+      "answers": [
+        {
+          "text": "intrinsic, probe, patient",
+          "start": 186,
+          "end": 211,
+          "score": 0.794836289457839
+        },
+        {
+          "text": "intrinsic, probe, patient\nPulse oximetry:\nComponents\n·\nProbe on the finger, nose, ear\n·\nTwo monochromatic LEDs on one side, rapid on and off\n·\nPhotodetector on the other side\n·\nCable to processor/display\nPhysical basis\n(1)Beer-Lambert\nprinciple: I = I\n0\ne\n-ax\n·\nAborption\n∝\nconcentration of the absorbing substance in the medium (Beer’s\n  law)\n·\nAbsorption\n∝\ndistance travelled through the medium (Lambert’s law)\n·\nDescribes the basis for, but not the functioning of, the pulse\n  oximeter\n(2)Known absorption spectra:\n·\n940nm: HbO\n2\n> HHb\n·\n660nm: HbO\n2\n< HHb\nHow it works\n(1)Pulsatile signal isolated\n·\nExclude venous and tissue absorption\n(2)Ratio of absorbances calculated\n·\nRatio = (pulsatile\n660\n/\n  non-pulsatile\n660\n) / (pulsatile\n940\n/ non-pulsatile\n940\n)\n(3)Ratio correlated with SaO\n2\nderived from\n  experiments\n·\nR 0.4 -> 100%\n·\nR 1 -> 85%\n·\nR 2 -> 50%\nCauses of\ninaccuracy:\nIntrinsic",
+          "start": 186,
+          "end": 1081,
+          "score": 0.0332687209410546
+        },
+        {
+          "text": "Sources of error: intrinsic, probe, patient",
+          "start": 168,
+          "end": 211,
+          "score": 0.01341009802904766
+        }
+      ]
+    },
+    {
+      "question": "How is this calibrated or maintained?",
+      "answerable": [],
+      "inextractability_score": 0.8879415344368056,
+      "answers": []
+    }
+  ]
+}

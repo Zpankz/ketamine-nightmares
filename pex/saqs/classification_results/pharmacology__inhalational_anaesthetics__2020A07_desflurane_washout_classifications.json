@@ -2,31 +2,36 @@
   "source": "pharmacology/inhalational_anaesthetics/2020A07_desflurane_washout.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9134634090583451
+      "primary": "quantitative_reasoning",
+      "score": 0.7311220933301964,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
       "score": 0.687784599120804
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "neuromuscular_and_cns",
-      "special_populations",
-      "haemostasis_and_transfusion",
-      "pain_and_analgesia",
-      "organ_system_effects"
+      "pharmacokinetic_process",
+      "equipment_and_physics",
+      "special_population_role",
+      "neuromuscular_process",
+      "organ_system_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9134634090583451,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.23165414560489284,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.9134634090583451,
+            "score": 0.23165414560489284,
             "start": 0,
             "end": 1361
           }
@@ -46,7 +51,7 @@
       },
       "comparative_analysis": {
         "score": 0.31081469123397315,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
@@ -57,12 +62,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.6041797392450902,
+        "score": 0.7311220933301964,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.6041797392450902,
+            "score": 0.7311220933301964,
             "start": 0,
             "end": 1361
           }
@@ -120,129 +125,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.9169980825837643,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.3103484214966638,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.9169980825837643,
+            "score": 0.3103484214966638,
             "start": 0,
             "end": 1361
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.28655277316211425,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.2632567278910027,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.28655277316211425,
+            "score": 0.2632567278910027,
             "start": 0,
             "end": 1361
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.6891853087660269,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.8569393402511397,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.6891853087660269,
+            "score": 0.8569393402511397,
             "start": 0,
             "end": 1361
           }
         ]
       },
-      "special_populations": {
-        "score": 0.7913456481183592,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.766334278517655,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.7913456481183592,
+            "score": 0.766334278517655,
             "start": 0,
             "end": 1361
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.31643449959672987,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.31643449959672987,
-            "start": 0,
-            "end": 1361
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.5437822282102546,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.5437822282102546,
-            "start": 0,
-            "end": 1361
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.17588393723954218,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.17588393723954218,
-            "start": 0,
-            "end": 1361
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.35696271260294926,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.35696271260294926,
-            "start": 0,
-            "end": 1361
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.748639460220768,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.748639460220768,
-            "start": 0,
-            "end": 1361
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.7016614724149135,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.7016614724149135,
-            "start": 0,
-            "end": 1361
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.25727231633199493,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
@@ -252,13 +185,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8254807828860911,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.7863953951677092,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
-            "score": 0.8254807828860911,
+            "score": 0.7863953951677092,
+            "start": 0,
+            "end": 1361
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.5986730487699915,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
+            "score": 0.5986730487699915,
+            "start": 0,
+            "end": 1361
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.21823325627215462,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
+            "score": 0.21823325627215462,
+            "start": 0,
+            "end": 1361
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8275159197930162,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
+            "score": 0.8275159197930162,
+            "start": 0,
+            "end": 1361
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.7913456481183592,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
+            "score": 0.7913456481183592,
+            "start": 0,
+            "end": 1361
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7932317842083414,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
+            "score": 0.7932317842083414,
+            "start": 0,
+            "end": 1361
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.5671912175393823,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
+            "score": 0.5671912175393823,
+            "start": 0,
+            "end": 1361
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.3282846746460227,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
+            "score": 0.3282846746460227,
+            "start": 0,
+            "end": 1361
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.44933741037438274,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2020A07\nDescribe the washout of\ndesflurane from a patient following six hours of general\nanaesthesia.\nDraw a graph to illustrate the description.\nList:\n·\nWashout modelling\n·\nUptake\n·\nElimination\nWasho",
+            "score": 0.44933741037438274,
             "start": 0,
             "end": 1361
           }

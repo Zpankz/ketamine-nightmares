@@ -2,42 +2,38 @@
   "source": "other/clinical_measurement/2004B11_oximetry.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.879317606529836,
-      "secondary": [
-        "quantitative_reasoning"
-      ]
+      "primary": "quantitative_reasoning",
+      "score": 0.8315432423679796
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.41589541004796327
     },
     "content_dimensions": [
-      "monitoring_and_measurement",
-      "respiratory_gas_exchange",
-      "dose_response_kinetics",
-      "physics_and_engineering",
-      "receptor_pharmacology",
-      "haemostasis_and_transfusion"
-    ]
+      "equipment_and_physics",
+      "gas_exchange_process",
+      "acid_base_quality",
+      "organ_system_process"
+    ],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.879317606529836,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.22845576096855297,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.879317606529836,
-            "start": 0,
-            "end": 1470
+            "text": "Degree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin ",
+            "score": 0.22845576096855297,
+            "start": 1428,
+            "end": 2589
           },
           {
-            "text": "% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extrap",
-            "score": 0.8178959184899055,
-            "start": 1471,
-            "end": 2589
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.1891669165469514,
+            "start": 0,
+            "end": 1427
           }
         ]
       },
@@ -61,7 +57,7 @@
       },
       "comparative_analysis": {
         "score": 0.2606831439763029,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extrap",
@@ -78,20 +74,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.8171968162419349,
+        "score": 0.8315432423679796,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extrap",
-            "score": 0.8171968162419349,
-            "start": 1471,
+            "text": "Degree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin ",
+            "score": 0.8315432423679796,
+            "start": 1428,
             "end": 2589
           },
           {
             "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.2807466545501725,
+            "score": 0.27897201595542515,
             "start": 0,
-            "end": 1470
+            "end": 1427
           }
         ]
       },
@@ -171,189 +167,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8192893365251843,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "Degree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin ",
-            "score": 0.8192893365251843,
-            "start": 1428,
-            "end": 2589
-          },
-          {
-            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.11478329593515615,
-            "start": 0,
-            "end": 1427
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.7315566687728775,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobi",
-            "score": 0.7315566687728775,
-            "start": 1426,
-            "end": 2589
-          },
-          {
-            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.3468905981658887,
-            "start": 0,
-            "end": 1425
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.4223177313396746,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "Degree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin ",
-            "score": 0.4223177313396746,
-            "start": 1428,
-            "end": 2589
-          },
-          {
-            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.0915358786435363,
-            "start": 0,
-            "end": 1427
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.19638930530173287,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobi",
-            "score": 0.19638930530173287,
-            "start": 1426,
-            "end": 2589
-          },
-          {
-            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.11959654819828813,
-            "start": 0,
-            "end": 1425
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.8857441707387281,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extr",
-            "score": 0.8857441707387281,
-            "start": 1469,
-            "end": 2589
-          },
-          {
-            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.7371731194748972,
-            "start": 0,
-            "end": 1468
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.742727683668005,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.742727683668005,
-            "start": 0,
-            "end": 1427
-          },
-          {
-            "text": "Degree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin ",
-            "score": 0.6984497113177436,
-            "start": 1428,
-            "end": 2589
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.5906964321872293,
-        "description": "Acid-base and electrolyte physiology",
+      "drug_receptor_disposition": {
+        "score": 0.2834191075448277,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Multiple wavelengths emitted\n·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2",
-            "score": 0.5906964321872293,
+            "score": 0.2834191075448277,
             "start": 1397,
             "end": 2589
           },
           {
             "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.14245781704193952,
+            "score": 0.1278857710804513,
             "start": 0,
             "end": 1396
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.17383924611324467,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.1835038816726888,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\nMultiple wavelengths emitted\n·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO",
-            "score": 0.17383924611324467,
-            "start": 1395,
+            "text": ", HHb, HbCO, SulfHb\n·\nMultiple wavelengths emitted\n·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMeth",
+            "score": 0.1835038816726888,
+            "start": 1375,
             "end": 2589
           },
           {
             "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.12232229789744709,
+            "score": 0.1228719100488003,
             "start": 0,
-            "end": 1394
+            "end": 1374
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.6442714345122317,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.1870313090838101,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nMultiple wavelengths emitted\n·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO",
-            "score": 0.6442714345122317,
-            "start": 1395,
+            "text": "% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extrap",
+            "score": 0.1870313090838101,
+            "start": 1471,
             "end": 2589
           },
           {
             "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.5535137584205869,
+            "score": 0.17588393723954218,
             "start": 0,
-            "end": 1394
+            "end": 1470
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.16646454350278764,
-        "description": "Pain physiology and analgesic pharmacology",
+      "organ_system_process": {
+        "score": 0.6163923529798296,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobi",
-            "score": 0.16646454350278764,
-            "start": 1426,
+            "text": "Degree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin ",
+            "score": 0.6163923529798296,
+            "start": 1428,
             "end": 2589
           },
           {
             "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.08878886373592071,
+            "score": 0.09910133017588658,
             "start": 0,
-            "end": 1425
+            "end": 1427
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8704158607108111,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Multiple wavelengths emitted\n·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2",
@@ -369,21 +257,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.37868046360211827,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.26887790666980355,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": ", HHb, HbCO, SulfHb\n·\nMultiple wavelengths emitted\n·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMeth",
-            "score": 0.37868046360211827,
-            "start": 1375,
+            "text": "·\nMultiple wavelengths emitted\n·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO",
+            "score": 0.26887790666980355,
+            "start": 1395,
             "end": 2589
           },
           {
             "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
-            "score": 0.1010480871715535,
+            "score": 0.10551062286445975,
             "start": 0,
-            "end": 1374
+            "end": 1394
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.19565989102814468,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Multiple wavelengths emitted\n·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2",
+            "score": 0.19565989102814468,
+            "start": 1397,
+            "end": 2589
+          },
+          {
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.10351313129730201,
+            "start": 0,
+            "end": 1396
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.6623437996873985,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Degree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin ",
+            "score": 0.6623437996873985,
+            "start": 1428,
+            "end": 2589
+          },
+          {
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.12122754149981366,
+            "start": 0,
+            "end": 1427
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.903300761641193,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extr",
+            "score": 0.903300761641193,
+            "start": 1469,
+            "end": 2589
+          },
+          {
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.6323593447401579,
+            "start": 0,
+            "end": 1468
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.19638930530173287,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "·\nDegree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobi",
+            "score": 0.19638930530173287,
+            "start": 1426,
+            "end": 2589
+          },
+          {
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.11959654819828813,
+            "start": 0,
+            "end": 1425
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3990192028379539,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extrap",
+            "score": 0.3990192028379539,
+            "start": 1471,
+            "end": 2589
+          },
+          {
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.15354696394416326,
+            "start": 0,
+            "end": 1470
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.358198446737951,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extrap",
+            "score": 0.358198446737951,
+            "start": 1471,
+            "end": 2589
+          },
+          {
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.14979442334570606,
+            "start": 0,
+            "end": 1470
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.21745787821628798,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Degree and ratio of absorbances assessed\n·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin ",
+            "score": 0.21745787821628798,
+            "start": 1428,
+            "end": 2589
+          },
+          {
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.12122754149981366,
+            "start": 0,
+            "end": 1427
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.16514433309482263,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "·\n% Saturation calculated: [HbO\n2\n] / [total Hb] x 100%\nConversion of\nsaturation to partial pressure:\nMethod\nSpO\n2\n≈ SaO\n2\nSaO\n2\n-> PaO\n2\nvia\n  oxyhaemoglobin dissociation curve\nSources of error: extr",
+            "score": 0.16514433309482263,
+            "start": 1469,
+            "end": 2589
+          },
+          {
+            "text": "2004B11 Briefly\nexplain how oximetry can be used to estimate the partial pressure of oxygen in\na blood sample.\nList:\n·\nPulse oximetry to estimate saturation: device,\nphysics, how it works\n·\nCo-oximetr",
+            "score": 0.11531222505249526,
+            "start": 0,
+            "end": 1468
           }
         ]
       }

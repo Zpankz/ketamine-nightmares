@@ -2,8 +2,8 @@
   "source": "physiology/respiratory/2018A13_lung_compliance.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9311022102106701
+      "primary": "quantitative_reasoning",
+      "score": 0.7894496120499562
     },
     "clinical_relevance": {
       "primary": "integrative",
@@ -14,36 +14,37 @@
       ]
     },
     "content_dimensions": [
-      "monitoring_and_measurement",
-      "physics_and_engineering",
-      "respiratory_gas_exchange",
-      "organ_system_effects",
-      "haemostasis_and_transfusion"
+      "equipment_and_physics",
+      "gas_exchange_process",
+      "organ_system_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9311022102106701,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.5778772198910973,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.9311022102106701,
-            "start": 0,
-            "end": 1555
+            "text": "e.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welcom",
+            "score": 0.5778772198910973,
+            "start": 4404,
+            "end": 4637
           },
           {
-            "text": "Absolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > Female\no\nTall > Short\n",
-            "score": 0.9165608547845401,
-            "start": 1556,
-            "end": 2900
+            "text": "Cannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween",
+            "score": 0.25220059901524183,
+            "start": 2789,
+            "end": 4403
           },
           {
-            "text": "Volume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n�\nThe lag in a property of a system behind\n  changes ",
-            "score": 0.9037770228951163,
-            "start": 2901,
-            "end": 4509
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.24221938844708324,
+            "start": 1488,
+            "end": 2788
           }
         ]
       },
@@ -73,7 +74,7 @@
       },
       "comparative_analysis": {
         "score": 0.39671522001279147,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
@@ -96,26 +97,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.8254807828860911,
+        "score": 0.7894496120499562,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Volume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n�\nThe lag in a property of a system behind\n  changes ",
-            "score": 0.8254807828860911,
-            "start": 2901,
-            "end": 4509
+            "text": "Pmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compli",
+            "score": 0.7894496120499562,
+            "start": 2815,
+            "end": 4403
+          },
+          {
+            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
+            "score": 0.6809747668088046,
+            "start": 1534,
+            "end": 2814
           },
           {
             "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.589018680241379,
+            "score": 0.6134770898866175,
             "start": 0,
-            "end": 1555
-          },
-          {
-            "text": "Absolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > Female\no\nTall > Short\n",
-            "score": 0.5699332535640114,
-            "start": 1556,
-            "end": 2900
+            "end": 1533
           }
         ]
       },
@@ -219,249 +220,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.5753412759436017,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.2946878539714319,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.5753412759436017,
-            "start": 1488,
-            "end": 2747
-          },
-          {
-            "text": "Slow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. c",
-            "score": 0.35031746521529306,
-            "start": 4358,
+            "text": "�\nFast unit: low resistance, low compliance\n�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  ",
+            "score": 0.2946878539714319,
+            "start": 4312,
             "end": 4637
           },
           {
             "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.2409870944785764,
+            "score": 0.1835038816726888,
             "start": 0,
             "end": 1487
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.5129343565742138,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Slow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. c",
-            "score": 0.5129343565742138,
-            "start": 4358,
-            "end": 4637
           },
           {
             "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.340804115941232,
+            "score": 0.15608002460238707,
             "start": 1488,
-            "end": 2747
+            "end": 2709
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.20979078633127912,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "τ= resistance x compliance\n�\nFast unit: low resistance, low compliance\n�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of ",
+            "score": 0.20979078633127912,
+            "start": 4285,
+            "end": 4637
           },
           {
             "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.28745121192986234,
+            "score": 0.14366505103412583,
             "start": 0,
-            "end": 1487
+            "end": 1485
+          },
+          {
+            "text": "i.e. much less than static compliance\nMeasurement in spontaneous ventilation\n�\nCannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume co",
+            "score": 0.12452970475004799,
+            "start": 2710,
+            "end": 4284
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.6767154052888689,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.10301730154669217,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
-          {
-            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.6767154052888689,
-            "start": 1488,
-            "end": 2786
-          },
-          {
-            "text": "Slow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. c",
-            "score": 0.40878769237123336,
-            "start": 4358,
-            "end": 4637
-          },
-          {
-            "text": "�\nCannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetwe",
-            "score": 0.36814003491309455,
-            "start": 2787,
-            "end": 4357
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.4790461425547522,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.4790461425547522,
-            "start": 1488,
-            "end": 2747
-          },
-          {
-            "text": "Measurement in spontaneous ventilation\n�\nCannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspir",
-            "score": 0.34909208721121826,
-            "start": 2748,
-            "end": 4355
-          },
-          {
-            "text": "�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g.",
-            "score": 0.23731085714042086,
-            "start": 4356,
-            "end": 4637
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.8760243883788202,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
-            "score": 0.8760243883788202,
-            "start": 1534,
-            "end": 2847
-          },
-          {
-            "text": "  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n",
-            "score": 0.3666426091800214,
-            "start": 2848,
-            "end": 4452
-          },
           {
             "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.3371729585000588,
+            "score": 0.10301730154669217,
             "start": 0,
             "end": 1533
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7766885250141251,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
+          },
           {
-            "text": "Slow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. c",
-            "score": 0.7766885250141251,
-            "start": 4358,
+            "text": "Recruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.1005592983048298,
+            "start": 4470,
             "end": 4637
           },
           {
-            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.7610590891728439,
-            "start": 0,
-            "end": 1487
-          },
-          {
-            "text": "�\nCannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetwe",
-            "score": 0.6420488264901888,
-            "start": 2787,
-            "end": 4357
+            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
+            "score": 0.09107466708246154,
+            "start": 1534,
+            "end": 2860
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.1592817529828625,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.1592817529828625,
-            "start": 0,
-            "end": 1487
-          },
-          {
-            "text": "�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g.",
-            "score": 0.13710168849652457,
-            "start": 4356,
-            "end": 4637
-          },
-          {
-            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.11690780739311239,
-            "start": 1488,
-            "end": 2747
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.17113527946174648,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "τ= resistance x compliance\n�\nFast unit: low resistance, low compliance\n�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of ",
-            "score": 0.17113527946174648,
-            "start": 4285,
-            "end": 4637
-          },
-          {
-            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.13129612675432087,
-            "start": 0,
-            "end": 1487
-          },
-          {
-            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.08387768404930426,
-            "start": 1488,
-            "end": 2709
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.6440247326099255,
-        "description": "Coagulation, bleeding, and transfusion",
+      "organ_system_process": {
+        "score": 0.7532329121402825,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.6440247326099255,
+            "score": 0.7532329121402825,
             "start": 1488,
-            "end": 2709
+            "end": 2788
           },
           {
-            "text": "τ= resistance x compliance\n�\nFast unit: low resistance, low compliance\n�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of ",
-            "score": 0.572736829339637,
-            "start": 4285,
+            "text": "�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welc",
+            "score": 0.4985404671636854,
+            "start": 4402,
             "end": 4637
           },
           {
-            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.5589447924054649,
-            "start": 0,
-            "end": 1487
+            "text": "Cannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween",
+            "score": 0.47149886957539605,
+            "start": 2789,
+            "end": 4401
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.33596609221137813,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "Slow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. c",
-            "score": 0.33596609221137813,
-            "start": 4358,
-            "end": 4637
-          },
-          {
-            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
-            "score": 0.17794296815077074,
-            "start": 1488,
-            "end": 2747
-          },
-          {
-            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.17248408020698391,
-            "start": 0,
-            "end": 1487
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.7647180686578468,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
@@ -483,27 +340,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.2955985180950471,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.31408742677824225,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Alveolar oedema -> surfactant dilution\n�\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->",
-            "score": 0.2955985180950471,
-            "start": 1447,
-            "end": 2688
+            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
+            "score": 0.31408742677824225,
+            "start": 0,
+            "end": 1487
+          },
+          {
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.22885420087533004,
+            "start": 1488,
+            "end": 2709
+          },
+          {
+            "text": "i.e. much less than static compliance\nMeasurement in spontaneous ventilation\n�\nCannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume co",
+            "score": 0.1898819772959151,
+            "start": 2710,
+            "end": 4284
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.29196393452853037,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Fast unit: low resistance, low compliance\n�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  in",
+            "score": 0.29196393452853037,
+            "start": 4314,
+            "end": 4637
           },
           {
             "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
-            "score": 0.22766004724276212,
+            "score": 0.21055038795004374,
             "start": 0,
-            "end": 1446
+            "end": 1487
           },
           {
-            "text": "Distribution of air from fast-τ to slow-\n  τ lung units at end inspiration and early expiration\n�\nτ= resistance x compliance\n�\nFast unit: low resistance, low compliance\n�\nSlow unit: high resistance, h",
-            "score": 0.2197887268753907,
-            "start": 4187,
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.1718088844227446,
+            "start": 1488,
+            "end": 2747
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.4630049795139611,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Cannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween",
+            "score": 0.4630049795139611,
+            "start": 2789,
+            "end": 4401
+          },
+          {
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.40055728830355014,
+            "start": 1488,
+            "end": 2788
+          },
+          {
+            "text": "�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welc",
+            "score": 0.3459139022882771,
+            "start": 4402,
             "end": 4637
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.88731781664747,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n",
+            "score": 0.88731781664747,
+            "start": 2848,
+            "end": 4467
+          },
+          {
+            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
+            "score": 0.8057941557783673,
+            "start": 1534,
+            "end": 2847
+          },
+          {
+            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
+            "score": 0.7863953951677092,
+            "start": 0,
+            "end": 1533
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.4790461425547522,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Surfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdu",
+            "score": 0.4790461425547522,
+            "start": 1488,
+            "end": 2747
+          },
+          {
+            "text": "Measurement in spontaneous ventilation\n�\nCannot measure directly\n�\nPmouth ≠ Palveolar due to airway\n  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspir",
+            "score": 0.34909208721121826,
+            "start": 2748,
+            "end": 4355
+          },
+          {
+            "text": "�\nSlow unit: high resistance, high compliance\n�\ne.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g.",
+            "score": 0.23731085714042086,
+            "start": 4356,
+            "end": 4637
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5628098737801128,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Volume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n�\nThe lag in a property of a system behind\n  changes ",
+            "score": 0.5628098737801128,
+            "start": 2901,
+            "end": 4509
+          },
+          {
+            "text": "Absolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > Female\no\nTall > Short\n",
+            "score": 0.4973463186438789,
+            "start": 1556,
+            "end": 2900
+          },
+          {
+            "text": "  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.3926287952747533,
+            "start": 4510,
+            "end": 4637
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.30802184928481907,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Measurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n�\nThe lag in ",
+            "score": 0.30802184928481907,
+            "start": 2861,
+            "end": 4469
+          },
+          {
+            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
+            "score": 0.20377101929932123,
+            "start": 1534,
+            "end": 2860
+          },
+          {
+            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
+            "score": 0.14006190450182948,
+            "start": 0,
+            "end": 1533
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5725413570707458,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "e.g. bronchoconstriction ->\n  ↑resistance -> ↑\nτ\n4) Recruitment\n�\nRecruitment of collapsed alveoli during\n  inspiration\n�\nQuasi Starling resistor\n�\ne.g. collapse after thoracic surgery\nFeedback welcom",
+            "score": 0.5725413570707458,
+            "start": 4404,
+            "end": 4637
+          },
+          {
+            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
+            "score": 0.5128680513973785,
+            "start": 1534,
+            "end": 2814
+          },
+          {
+            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
+            "score": 0.318789326827268,
+            "start": 0,
+            "end": 1533
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8407182470171375,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "  or SP-C deficiency)\nAbsolute lung size\n�\nReasons:\no\n↑Alveolar number -> ↑LC\no\n↑Alveolar size -> ↑LC (↑radius ->\n  ↓pressure � LaPlace)\n�\nExamples:\no\nAdult > Neonate (100 cf. 1.5-6mL/cmH2O)\no\nMale > ",
+            "score": 0.8407182470171375,
+            "start": 1534,
+            "end": 2847
+          },
+          {
+            "text": "  resistance\nMeasurement in mechanical ventilation\n�\nVolume controlled ventilation\n�\n∆V/(peak inspiratory pressure � PEEP)\nDifference\nbetween static and dynamic compliance: i.e. hysteresis\nDefinition\n",
+            "score": 0.4677952889328219,
+            "start": 2848,
+            "end": 4452
+          },
+          {
+            "text": "2018A13 Define\nand describe LUNG compliance. Describe the difference between static and\ndynamic compliance.\nList:\n�\nGraphs x 2\n�\nStatic compliance\n�\nDeterminants of static compliance\n�\nDynamic complia",
+            "score": 0.4129193540924649,
+            "start": 0,
+            "end": 1533
           }
         ]
       }

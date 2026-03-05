@@ -2,37 +2,37 @@
   "source": "physiology/haematology/2005B12_plasma_proteins.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9056682900229793
+      "primary": "mechanistic_explanation",
+      "score": 0.7477994009847582
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.7089413345700839
     },
     "content_dimensions": [
-      "haemostasis_and_transfusion",
-      "receptor_pharmacology",
-      "acid_base_and_electrolytes",
-      "special_populations",
-      "pain_and_analgesia"
+      "acid_base_quality",
+      "special_population_role"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9056682900229793,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.4520926528963134,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.9056682900229793,
+            "score": 0.4520926528963134,
             "start": 0,
-            "end": 1325
+            "end": 1314
           },
           {
-            "text": "↓AAG",
-            "score": 0.3987630173324155,
-            "start": 1326,
+            "text": "↓albumin\n·\n↓AAG",
+            "score": 0.40415252943559576,
+            "start": 1315,
             "end": 1330
           }
         ]
@@ -56,12 +56,12 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.4077564496078882,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.3721435270931916,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "↓AAG",
-            "score": 0.4077564496078882,
+            "score": 0.3721435270931916,
             "start": 1326,
             "end": 1330
           },
@@ -74,20 +74,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.4103358223091921,
+        "score": 0.5177734660890345,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "↓AAG",
-            "score": 0.4103358223091921,
-            "start": 1326,
+            "text": "↓albumin\n·\n↓AAG",
+            "score": 0.5177734660890345,
+            "start": 1315,
             "end": 1330
           },
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.2937785327050844,
+            "score": 0.3577039633886169,
             "start": 0,
-            "end": 1325
+            "end": 1314
           }
         ]
       },
@@ -167,189 +167,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.40107035127424334,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.47725804851285397,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
-          {
-            "text": "·\n↓albumin\n·\n↓AAG",
-            "score": 0.40107035127424334,
-            "start": 1313,
-            "end": 1330
-          },
-          {
-            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.3759101985219545,
-            "start": 0,
-            "end": 1312
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.8234313128912258,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "·\n↓albumin\n·\n↓AAG",
-            "score": 0.8234313128912258,
-            "start": 1313,
-            "end": 1330
-          },
-          {
-            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.2684433312271226,
-            "start": 0,
-            "end": 1312
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.19785291387817477,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "↓albumin\n·\n↓AAG",
-            "score": 0.19785291387817477,
-            "start": 1315,
-            "end": 1330
-          },
-          {
-            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.12122754149981366,
-            "start": 0,
-            "end": 1314
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.645996552152617,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.645996552152617,
-            "start": 0,
-            "end": 1299
-          },
           {
             "text": "Malnourished\n·\n↓albumin\n·\n↓AAG",
-            "score": 0.22056881707219475,
+            "score": 0.47725804851285397,
             "start": 1300,
             "end": 1330
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.5809936237991622,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "·\n↓AAG",
-            "score": 0.5809936237991622,
-            "start": 1324,
-            "end": 1330
           },
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.19712031304111735,
-            "start": 0,
-            "end": 1323
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.5127685929140865,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "↓albumin\n·\n↓AAG",
-            "score": 0.5127685929140865,
-            "start": 1315,
-            "end": 1330
-          },
-          {
-            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.17248408020698391,
-            "start": 0,
-            "end": 1314
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.7138959299702419,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.7138959299702419,
+            "score": 0.29788102716500814,
             "start": 0,
             "end": 1299
-          },
-          {
-            "text": "Malnourished\n·\n↓albumin\n·\n↓AAG",
-            "score": 0.15863825532763226,
-            "start": 1300,
-            "end": 1330
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.37339766110635014,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.3043160270707983,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑AAG\nMalnourished\n·\n↓albumin\n·\n↓AAG",
-            "score": 0.37339766110635014,
+            "score": 0.3043160270707983,
             "start": 1295,
             "end": 1330
           },
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.2409870944785764,
+            "score": 0.2052664429349464,
             "start": 0,
             "end": 1294
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.8652388596695139,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.3244721027307196,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.8652388596695139,
-            "start": 0,
-            "end": 1294
-          },
-          {
-            "text": "↑AAG\nMalnourished\n·\n↓albumin\n·\n↓AAG",
-            "score": 0.3306771344015845,
-            "start": 1295,
-            "end": 1330
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.6014931215746074,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "·\n↓albumin\n·\n↓AAG",
-            "score": 0.6014931215746074,
-            "start": 1313,
+            "text": "↓AAG",
+            "score": 0.3244721027307196,
+            "start": 1326,
             "end": 1330
           },
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.10803954311448256,
+            "score": 0.30385425542433225,
             "start": 0,
-            "end": 1312
+            "end": 1325
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "organ_system_process": {
+        "score": 0.2045179371314406,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.2045179371314406,
+            "start": 0,
+            "end": 1314
+          },
+          {
+            "text": "↓albumin\n·\n↓AAG",
+            "score": 0.12342301400327828,
+            "start": 1315,
+            "end": 1330
+          }
+        ]
+      },
+      "gas_exchange_process": {
         "score": 0.13476114033048603,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
@@ -365,20 +257,166 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.2166840731768605,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.3043160270707983,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↑AAG\nMalnourished\n·\n↓albumin\n·\n↓AAG",
+            "score": 0.3043160270707983,
+            "start": 1295,
+            "end": 1330
+          },
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.21055038795004374,
+            "start": 0,
+            "end": 1294
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.34884721048203216,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Malnourished\n·\n↓albumin\n·\n↓AAG",
+            "score": 0.34884721048203216,
+            "start": 1300,
+            "end": 1330
+          },
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.14006190450182948,
+            "start": 0,
+            "end": 1299
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.7969743099290385,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
         "top_chunks": [
           {
             "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
-            "score": 0.2166840731768605,
+            "score": 0.7969743099290385,
             "start": 0,
-            "end": 1286
+            "end": 1314
           },
           {
-            "text": "Obese\n·\n↑AAG\nMalnourished\n·\n↓albumin\n·\n↓AAG",
-            "score": 0.15354696394416326,
-            "start": 1287,
+            "text": "↓albumin\n·\n↓AAG",
+            "score": 0.37943715045857734,
+            "start": 1315,
+            "end": 1330
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.5352859991176682,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↓AAG",
+            "score": 0.5352859991176682,
+            "start": 1326,
+            "end": 1330
+          },
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.12397561162117983,
+            "start": 0,
+            "end": 1325
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.645996552152617,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.645996552152617,
+            "start": 0,
+            "end": 1299
+          },
+          {
+            "text": "Malnourished\n·\n↓albumin\n·\n↓AAG",
+            "score": 0.22056881707219475,
+            "start": 1300,
+            "end": 1330
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6654798003861663,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.6654798003861663,
+            "start": 0,
+            "end": 1325
+          },
+          {
+            "text": "↓AAG",
+            "score": 0.22449276740188667,
+            "start": 1326,
+            "end": 1330
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.38576174040624345,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "↓AAG",
+            "score": 0.38576174040624345,
+            "start": 1326,
+            "end": 1330
+          },
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.1898819772959151,
+            "start": 0,
+            "end": 1325
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5022556341271618,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.5022556341271618,
+            "start": 0,
+            "end": 1314
+          },
+          {
+            "text": "↓albumin\n·\n↓AAG",
+            "score": 0.29241707730381167,
+            "start": 1315,
+            "end": 1330
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.3955646655719036,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2005B12 Briefly\ndiscuss the physiological roles of plasma proteins.\nList:\n·\nPlasma proteins\n·\nFunctions\n·\nSpecial groups\nPlasma proteins:\n·\nTotal 65-70g/L\n·\n40g/L albumin\n·\n20g/L globulins\n·\n3g/L fibr",
+            "score": 0.3955646655719036,
+            "start": 0,
+            "end": 1323
+          },
+          {
+            "text": "·\n↓AAG",
+            "score": 0.3468905981658887,
+            "start": 1324,
             "end": 1330
           }
         ]

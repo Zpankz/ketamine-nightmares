@@ -2,42 +2,36 @@
   "source": "other/clinical_measurement/2010A15_cardiac_output_monitoring_thermodilution.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8374770746416548,
-      "secondary": [
-        "quantitative_reasoning"
-      ]
+      "primary": "quantitative_reasoning",
+      "score": 0.7435766909826431
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
       "score": 0.6550617125047007
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "monitoring_and_measurement",
-      "organ_system_effects",
-      "physics_and_engineering",
-      "neuromuscular_and_cns"
-    ]
+      "organ_system_process",
+      "equipment_and_physics"
+    ],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8374770746416548,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.4720943446132006,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.8374770746416548,
-            "start": 0,
-            "end": 1760
+            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
+            "score": 0.4720943446132006,
+            "start": 1720,
+            "end": 2101
           },
           {
-            "text": "tricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye required\n·\nNo recirculation error\nCons\n·\nRequire",
-            "score": 0.7671400683432694,
-            "start": 1761,
-            "end": 2101
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.11372982298149485,
+            "start": 0,
+            "end": 1719
           }
         ]
       },
@@ -61,7 +55,7 @@
       },
       "comparative_analysis": {
         "score": 0.32304731886392163,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
@@ -78,19 +72,19 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.7647180686578468,
+        "score": 0.7435766909826431,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.7647180686578468,
+            "score": 0.7435766909826431,
             "start": 0,
-            "end": 1760
+            "end": 1719
           },
           {
-            "text": "tricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye required\n·\nNo recirculation error\nCons\n·\nRequire",
-            "score": 0.14125677189694305,
-            "start": 1761,
+            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
+            "score": 0.3084865249962589,
+            "start": 1720,
             "end": 2101
           }
         ]
@@ -171,189 +165,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8569393402511397,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.14979442334570606,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.8569393402511397,
-            "start": 0,
-            "end": 1717
-          },
-          {
-            "text": "·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye requi",
-            "score": 0.51359738682804,
-            "start": 1718,
-            "end": 2101
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.20979078633127912,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.20979078633127912,
+            "score": 0.14979442334570606,
             "start": 0,
             "end": 1697
           },
           {
             "text": "in low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling req",
-            "score": 0.1949320705626118,
+            "score": 0.14548752973312049,
             "start": 1698,
             "end": 2101
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.8178959184899055,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
-            "score": 0.8178959184899055,
-            "start": 1720,
-            "end": 2101
-          },
-          {
-            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.7651226993554261,
-            "start": 0,
-            "end": 1719
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.2488493710543425,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "in low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling req",
-            "score": 0.2488493710543425,
-            "start": 1698,
-            "end": 2101
-          },
-          {
-            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.19131688553747267,
-            "start": 0,
-            "end": 1697
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.8295367351705452,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.8295367351705452,
-            "start": 0,
-            "end": 1719
-          },
-          {
-            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
-            "score": 0.6066059461878223,
-            "start": 1720,
-            "end": 2101
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7134472268378858,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
-            "score": 0.7134472268378858,
-            "start": 1720,
-            "end": 2101
-          },
-          {
-            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.5973893686984527,
-            "start": 0,
-            "end": 1719
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.10007191072786864,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.10007191072786864,
-            "start": 0,
-            "end": 1697
-          },
-          {
-            "text": "in low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling req",
-            "score": 0.09765591089184561,
-            "start": 1698,
-            "end": 2101
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.21055038795004374,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.19638930530173287,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "That injectate is warmed by blood only (not true\nin low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCa",
-            "score": 0.21055038795004374,
+            "score": 0.19638930530173287,
             "start": 1649,
             "end": 2101
           },
           {
             "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.08653659094165504,
+            "score": 0.11164036043761141,
             "start": 0,
             "end": 1648
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.8374770746416548,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.353511137044845,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "That injectate is warmed by blood only (not true\nin low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCa",
-            "score": 0.8374770746416548,
-            "start": 1649,
+            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
+            "score": 0.353511137044845,
+            "start": 1720,
             "end": 2101
           },
           {
             "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.5356410720260905,
+            "score": 0.1256423848664057,
             "start": 0,
-            "end": 1648
+            "end": 1719
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.4610904294109607,
-        "description": "Pain physiology and analgesic pharmacology",
+      "organ_system_process": {
+        "score": 0.7913456481183592,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "in low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling req",
-            "score": 0.4610904294109607,
-            "start": 1698,
-            "end": 2101
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.7913456481183592,
+            "start": 0,
+            "end": 1719
           },
           {
-            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.15291762409217716,
-            "start": 0,
-            "end": 1697
+            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
+            "score": 0.7833159268231396,
+            "start": 1720,
+            "end": 2101
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.24180824239107535,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
@@ -369,21 +255,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.6182898484476442,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.5716289012689075,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "That injectate is warmed by blood only (not true\nin low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCa",
-            "score": 0.6182898484476442,
+            "score": 0.5716289012689075,
             "start": 1649,
             "end": 2101
           },
           {
             "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
-            "score": 0.16317590246639627,
+            "score": 0.15354696394416326,
             "start": 0,
             "end": 1648
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.4339196508167719,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "in low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling req",
+            "score": 0.4339196508167719,
+            "start": 1698,
+            "end": 2101
+          },
+          {
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.21055038795004374,
+            "start": 0,
+            "end": 1697
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.3766650580132254,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.3766650580132254,
+            "start": 0,
+            "end": 1719
+          },
+          {
+            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
+            "score": 0.3066297472364717,
+            "start": 1720,
+            "end": 2101
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7683458543951072,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
+            "score": 0.7683458543951072,
+            "start": 1720,
+            "end": 2101
+          },
+          {
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.3024708949494209,
+            "start": 0,
+            "end": 1719
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.2488493710543425,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "in low flow states)\n·\nThat flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling req",
+            "score": 0.2488493710543425,
+            "start": 1698,
+            "end": 2101
+          },
+          {
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.19131688553747267,
+            "start": 0,
+            "end": 1697
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5760568860065969,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.5760568860065969,
+            "start": 0,
+            "end": 1760
+          },
+          {
+            "text": "tricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye required\n·\nNo recirculation error\nCons\n·\nRequire",
+            "score": 0.36415169084650634,
+            "start": 1761,
+            "end": 2101
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.4427604049656945,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.4427604049656945,
+            "start": 0,
+            "end": 1760
+          },
+          {
+            "text": "tricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye required\n·\nNo recirculation error\nCons\n·\nRequire",
+            "score": 0.19059863367246443,
+            "start": 1761,
+            "end": 2101
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.361666845444835,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
+            "score": 0.361666845444835,
+            "start": 1720,
+            "end": 2101
+          },
+          {
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.19275817505115483,
+            "start": 0,
+            "end": 1719
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.2892522064991136,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "That flow is unidirectional (not true if\ntricuspid regurgitation)\n·\nThat cold injectate does not depress cardiac\noutput\nPros\n·\nCan be performed frequently\n·\nNo blood sampling required\n·\nNo dye require",
+            "score": 0.2892522064991136,
+            "start": 1720,
+            "end": 2101
+          },
+          {
+            "text": "2010A15 Explain how cardiac\noutput is measured using thermodilution technique.\nList:\n·\nPrinciples: cardiac output, Stewart Hamilton\nEquation\n·\nPulmonary artery catheter description\n·\nThermodilution: m",
+            "score": 0.18071066347481568,
+            "start": 0,
+            "end": 1719
           }
         ]
       }

@@ -2,37 +2,38 @@
   "source": "physiology/renal/2008A15_medullary_concentrating_gradient.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8841573813483605
+      "primary": "mechanistic_explanation",
+      "score": 0.7405986852968663
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5071645815229193
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "physics_and_engineering",
-      "acid_base_and_electrolytes"
+      "neuromuscular_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8841573813483605,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.26800911726882126,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.8841573813483605,
-            "start": 0,
-            "end": 1570
+            "text": "  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a roun",
+            "score": 0.26800911726882126,
+            "start": 1541,
+            "end": 2315
           },
           {
-            "text": "  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCountercurrent\nexcha",
-            "score": 0.8261607538867555,
-            "start": 1571,
-            "end": 2315
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.15481035196343074,
+            "start": 0,
+            "end": 1540
           }
         ]
       },
@@ -56,7 +57,7 @@
       },
       "comparative_analysis": {
         "score": 0.4206937660605839,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Antegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCountercur",
@@ -73,19 +74,19 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.3801943292522238,
+        "score": 0.43889261291273096,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.3801943292522238,
+            "score": 0.43889261291273096,
             "start": 0,
-            "end": 1570
+            "end": 1558
           },
           {
-            "text": "  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCountercurrent\nexcha",
-            "score": 0.25599936209764323,
-            "start": 1571,
+            "text": "o\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCounterc",
+            "score": 0.25010326402444366,
+            "start": 1559,
             "end": 2315
           }
         ]
@@ -166,189 +167,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7890692179613494,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.28700182061581236,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.7890692179613494,
+            "score": 0.28700182061581236,
             "start": 0,
             "end": 1473
           },
           {
             "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
-            "score": 0.5535794569728405,
+            "score": 0.22291849253518664,
             "start": 1474,
             "end": 2315
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.4795429895279027,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.23245761627092265,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
-          {
-            "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
-            "score": 0.4795429895279027,
-            "start": 1474,
-            "end": 2315
-          },
-          {
-            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.43771383683323184,
-            "start": 0,
-            "end": 1473
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.23690430309393176,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a roun",
-            "score": 0.23690430309393176,
-            "start": 1541,
-            "end": 2315
-          },
           {
             "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
             "score": 0.23245761627092265,
             "start": 0,
-            "end": 1540
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.5413178781407048,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.5413178781407048,
-            "start": 0,
             "end": 1473
           },
           {
             "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
-            "score": 0.3235219459138018,
+            "score": 0.18071066347481568,
             "start": 1474,
             "end": 2315
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.29332437688031354,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.42264269538964006,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.29332437688031354,
-            "start": 0,
-            "end": 1560
-          },
-          {
             "text": "Antegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCountercur",
-            "score": 0.25262119035664987,
+            "score": 0.42264269538964006,
             "start": 1561,
             "end": 2315
+          },
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.4103358223091921,
+            "start": 0,
+            "end": 1560
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.6545740405967849,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.3741508274274296,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a roun",
-            "score": 0.6545740405967849,
+            "score": 0.3741508274274296,
             "start": 1541,
             "end": 2315
           },
           {
             "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.5936603917203747,
+            "score": 0.23690430309393176,
             "start": 0,
             "end": 1540
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.6163923529798296,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.6163923529798296,
-            "start": 0,
-            "end": 1473
-          },
-          {
-            "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
-            "score": 0.2732434585109745,
-            "start": 1474,
-            "end": 2315
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.22056881707219475,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
-            "score": 0.22056881707219475,
-            "start": 1474,
-            "end": 2315
-          },
-          {
-            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.16514433309482263,
-            "start": 0,
-            "end": 1473
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7860118412777748,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
-            "score": 0.7860118412777748,
-            "start": 1474,
-            "end": 2315
-          },
-          {
-            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.6420488264901888,
-            "start": 0,
-            "end": 1473
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.23326263346460346,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.23326263346460346,
-            "start": 0,
-            "end": 1473
-          },
-          {
-            "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
-            "score": 0.12232229789744709,
-            "start": 1474,
-            "end": 2315
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.593917858943715,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
@@ -364,21 +257,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.47176351676186234,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.60034013024833,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\nRepeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excre",
-            "score": 0.47176351676186234,
-            "start": 1472,
+            "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
+            "score": 0.60034013024833,
+            "start": 1474,
             "end": 2315
           },
           {
             "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
-            "score": 0.27368198487016115,
+            "score": 0.26714177530863603,
             "start": 0,
-            "end": 1471
+            "end": 1473
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.25557578676432086,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
+            "score": 0.25557578676432086,
+            "start": 1474,
+            "end": 2315
+          },
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.225282248199159,
+            "start": 0,
+            "end": 1473
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.4949581100027542,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a roun",
+            "score": 0.4949581100027542,
+            "start": 1541,
+            "end": 2315
+          },
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.2397582368620805,
+            "start": 0,
+            "end": 1540
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.2509410724842214,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.2509410724842214,
+            "start": 0,
+            "end": 1560
+          },
+          {
+            "text": "Antegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCountercur",
+            "score": 0.2022819500518595,
+            "start": 1561,
+            "end": 2315
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.5413178781407048,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.5413178781407048,
+            "start": 0,
+            "end": 1473
+          },
+          {
+            "text": "Repeat transit between thin descending loop of Henle and medullary\n  collecting duct\no\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excreti",
+            "score": 0.3235219459138018,
+            "start": 1474,
+            "end": 2315
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8581434784490429,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCountercurrent\nexcha",
+            "score": 0.8581434784490429,
+            "start": 1571,
+            "end": 2315
+          },
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.7774740987934978,
+            "start": 0,
+            "end": 1570
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.2767616374358241,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.2767616374358241,
+            "start": 0,
+            "end": 1570
+          },
+          {
+            "text": "  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCountercurrent\nexcha",
+            "score": 0.16187153020170925,
+            "start": 1571,
+            "end": 2315
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.47864869019000644,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "o\nAntegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCounterc",
+            "score": 0.47864869019000644,
+            "start": 1559,
+            "end": 2315
+          },
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.4465765796671916,
+            "start": 0,
+            "end": 1558
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.755719170496192,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Antegrade\n  via the urine\no\nRetrograde\n  via the interstitium\n·\nMultiple passages of each molecule before excretion ->\n  ↑interstitial osmolality\n(as if several cars cycling a round-a-bout)\nCountercur",
+            "score": 0.755719170496192,
+            "start": 1561,
+            "end": 2315
+          },
+          {
+            "text": "2008A15 Describe\nhow the kidney establishes the medullary concentrating gradient.\nList:\n·\nIntro\n·\nDiagramme of juxtamedullary nephron\n·\nCreation\n·\nMaintenance\nIntro:\nDescription\n·\nAscending concentrat",
+            "score": 0.6268532802821182,
+            "start": 0,
+            "end": 1560
           }
         ]
       }

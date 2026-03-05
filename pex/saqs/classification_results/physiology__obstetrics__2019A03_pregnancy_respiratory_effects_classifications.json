@@ -2,50 +2,51 @@
   "source": "physiology/obstetrics/2019A03_pregnancy_respiratory_effects.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9208745583881597
+      "primary": "quantitative_reasoning",
+      "score": 0.8028796869588828
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
       "score": 0.6966071908346546
     },
     "content_dimensions": [
-      "special_populations",
-      "dose_response_kinetics",
-      "monitoring_and_measurement",
-      "respiratory_gas_exchange",
-      "organ_system_effects",
-      "pain_and_analgesia",
-      "neuromuscular_and_cns",
-      "physics_and_engineering",
-      "haemostasis_and_transfusion",
-      "receptor_pharmacology",
-      "acid_base_and_electrolytes"
+      "equipment_and_physics",
+      "special_population_role",
+      "gas_exchange_process",
+      "organ_system_process",
+      "neuromuscular_process",
+      "nociception_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "homeostatic_regulation",
+      "dose_response_relationship",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9208745583881597,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.5888895497134445,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
+            "text": "20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preloa",
+            "score": 0.5888895497134445,
+            "start": 2556,
+            "end": 3041
+          },
+          {
             "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.9208745583881597,
+            "score": 0.16317590246639624,
             "start": 1377,
-            "end": 2570
+            "end": 2555
           },
           {
             "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.9191646454545518,
+            "score": 0.12845038342220827,
             "start": 0,
             "end": 1376
-          },
-          {
-            "text": "2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preload\n·\nDO\n2\n= 1.2L",
-            "score": 0.9143549994473417,
-            "start": 2571,
-            "end": 3041
           }
         ]
       },
@@ -75,7 +76,7 @@
       },
       "comparative_analysis": {
         "score": 0.5011941641787454,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
@@ -98,24 +99,24 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.7311220933301964,
+        "score": 0.8028796869588828,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.7311220933301964,
+            "score": 0.8028796869588828,
             "start": 1377,
-            "end": 2570
+            "end": 2555
           },
           {
-            "text": "2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preload\n·\nDO\n2\n= 1.2L",
-            "score": 0.5138625877005817,
-            "start": 2571,
+            "text": "20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preloa",
+            "score": 0.8006771067571272,
+            "start": 2556,
             "end": 3041
           },
           {
             "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.2623973993795041,
+            "score": 0.31502532066888583,
             "start": 0,
             "end": 1376
           }
@@ -221,249 +222,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8989519128284464,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.3094168356331381,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑pr",
-            "score": 0.8989519128284464,
-            "start": 2552,
-            "end": 3041
+            "text": "TV 0.6L (cf. 0.45L (↑30%)\n·\nFVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T",
+            "score": 0.3094168356331381,
+            "start": 1349,
+            "end": 2479
           },
           {
-            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.7984602001792644,
-            "start": 1377,
-            "end": 2551
-          },
-          {
-            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.2955985180950471,
-            "start": 0,
-            "end": 1376
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.7939834639495083,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.7939834639495083,
-            "start": 1377,
-            "end": 2547
-          },
-          {
-            "text": "HCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume ->",
-            "score": 0.6484555077818482,
-            "start": 2548,
+            "text": "PaCO\n2\n30mmHg (note ↓etCO\n2\ntarget during mechanical ventilation)\no\nHCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac ",
+            "score": 0.22449276740188667,
+            "start": 2480,
             "end": 3041
           },
           {
             "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.32304731886392163,
+            "score": 0.12620097548419282,
             "start": 0,
-            "end": 1376
+            "end": 1348
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.8426440101652175,
-        "description": "Multi-organ or systems-level effects",
+      "autonomic_disposition": {
+        "score": 0.2758799607635588,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑pr",
-            "score": 0.8426440101652175,
-            "start": 2552,
-            "end": 3041
-          },
-          {
-            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.7856278929474474,
-            "start": 1377,
-            "end": 2551
+            "text": "TV 0.6L (cf. 0.45L (↑30%)\n·\nFVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T",
+            "score": 0.2758799607635588,
+            "start": 1349,
+            "end": 2469
           },
           {
             "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.7540631803975041,
+            "score": 0.18491006489830478,
             "start": 0,
-            "end": 1376
+            "end": 1348
+          },
+          {
+            "text": "pH 7.45\no\nPaCO\n2\n30mmHg (note ↓etCO\n2\ntarget during mechanical ventilation)\no\nHCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n",
+            "score": 0.18071066347481568,
+            "start": 2470,
+            "end": 3041
           }
         ]
       },
-      "special_populations": {
-        "score": 0.9174340018978622,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "pharmacokinetic_process": {
+        "score": 0.21437210705255258,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.9174340018978622,
-            "start": 0,
-            "end": 1376
-          },
-          {
-            "text": "HCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume ->",
-            "score": 0.19858710741881394,
-            "start": 2548,
+            "text": "PaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preload\n·\nDO\n2\n= ",
+            "score": 0.21437210705255258,
+            "start": 2567,
             "end": 3041
           },
           {
-            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.16187153020170925,
-            "start": 1377,
-            "end": 2547
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.88731781664747,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preload\n·\nDO\n2\n",
-            "score": 0.88731781664747,
-            "start": 2565,
-            "end": 3041
-          },
-          {
-            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.40956156865439886,
-            "start": 1377,
-            "end": 2564
-          },
-          {
             "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.19203673272679375,
+            "score": 0.20153979982073553,
             "start": 0,
             "end": 1376
+          },
+          {
+            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
+            "score": 0.08387768404930426,
+            "start": 1377,
+            "end": 2566
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.8122584176361644,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.879317606529836,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑prel",
-            "score": 0.8122584176361644,
+            "score": 0.879317606529836,
             "start": 2554,
             "end": 3041
           },
           {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.8295367351705452,
+            "start": 0,
+            "end": 1376
+          },
+          {
             "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.6755278972692806,
+            "score": 0.7969743099290385,
             "start": 1377,
             "end": 2553
-          },
-          {
-            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.6432842441547613,
-            "start": 0,
-            "end": 1376
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.6589532485275184,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "HCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume ->",
-            "score": 0.6589532485275184,
-            "start": 2548,
-            "end": 3041
-          },
-          {
-            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.22056881707219475,
-            "start": 1377,
-            "end": 2547
-          },
-          {
-            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.0924623723009821,
-            "start": 0,
-            "end": 1376
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.18071066347481568,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "TV 0.6L (cf. 0.45L (↑30%)\n·\nFVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T",
-            "score": 0.18071066347481568,
-            "start": 1349,
-            "end": 2477
-          },
-          {
-            "text": "o\nPaCO\n2\n30mmHg (note ↓etCO\n2\ntarget during mechanical ventilation)\no\nHCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardia",
-            "score": 0.14671028264551744,
-            "start": 2478,
-            "end": 3041
-          },
-          {
-            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.08833573667416476,
-            "start": 0,
-            "end": 1348
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8057941557783673,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "o\nPaCO\n2\n30mmHg (note ↓etCO\n2\ntarget during mechanical ventilation)\no\nHCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardia",
-            "score": 0.8057941557783673,
-            "start": 2478,
-            "end": 3041
-          },
-          {
-            "text": "TV 0.6L (cf. 0.45L (↑30%)\n·\nFVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T",
-            "score": 0.6635513739632672,
-            "start": 1349,
-            "end": 2477
-          },
-          {
-            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.22845576096855297,
-            "start": 0,
-            "end": 1348
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.8288647205382538,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "HCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume ->",
-            "score": 0.8288647205382538,
-            "start": 2548,
-            "end": 3041
-          },
-          {
-            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.6933702527635284,
-            "start": 0,
-            "end": 1376
-          },
-          {
-            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
-            "score": 0.14065856668448176,
-            "start": 1377,
-            "end": 2547
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8841573813483605,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "PaCO\n2\n30mmHg (note ↓etCO\n2\ntarget during mechanical ventilation)\no\nHCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac ",
@@ -485,27 +342,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8213675000686458,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8050679294373881,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "pH 7.45\no\nPaCO\n2\n30mmHg (note ↓etCO\n2\ntarget during mechanical ventilation)\no\nHCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n",
-            "score": 0.8213675000686458,
-            "start": 2470,
+            "text": "o\nPaCO\n2\n30mmHg (note ↓etCO\n2\ntarget during mechanical ventilation)\no\nHCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardia",
+            "score": 0.8050679294373881,
+            "start": 2478,
             "end": 3041
           },
           {
             "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
-            "score": 0.6601657313538715,
+            "score": 0.43490029473087344,
             "start": 0,
             "end": 1348
           },
           {
             "text": "TV 0.6L (cf. 0.45L (↑30%)\n·\nFVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T",
-            "score": 0.3703901611369875,
+            "score": 0.3378979270173037,
             "start": 1349,
-            "end": 2469
+            "end": 2477
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.6662017813224378,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "target during mechanical ventilation)\no\nHCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – ",
+            "score": 0.6662017813224378,
+            "start": 2508,
+            "end": 3041
+          },
+          {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.5899223039845004,
+            "start": 0,
+            "end": 1374
+          },
+          {
+            "text": "·\nFVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early ",
+            "score": 0.1752007806948695,
+            "start": 1375,
+            "end": 2507
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.5309484580941028,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
+            "score": 0.5309484580941028,
+            "start": 1377,
+            "end": 2553
+          },
+          {
+            "text": "-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑prel",
+            "score": 0.4591603574982262,
+            "start": 2554,
+            "end": 3041
+          },
+          {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.1256423848664057,
+            "start": 0,
+            "end": 1376
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9598251785912759,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preload\n·\nDO\n2\n",
+            "score": 0.9598251785912759,
+            "start": 2565,
+            "end": 3041
+          },
+          {
+            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
+            "score": 0.9542319271229883,
+            "start": 1377,
+            "end": 2564
+          },
+          {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.9004140778741629,
+            "start": 0,
+            "end": 1376
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.9174340018978622,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.9174340018978622,
+            "start": 0,
+            "end": 1376
+          },
+          {
+            "text": "HCO\n3\n-\n20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume ->",
+            "score": 0.19858710741881394,
+            "start": 2548,
+            "end": 3041
+          },
+          {
+            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
+            "score": 0.16187153020170925,
+            "start": 1377,
+            "end": 2547
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8028796869588828,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.8028796869588828,
+            "start": 0,
+            "end": 1376
+          },
+          {
+            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
+            "score": 0.7490589275157786,
+            "start": 1377,
+            "end": 2570
+          },
+          {
+            "text": "2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preload\n·\nDO\n2\n= 1.2L",
+            "score": 0.4575115422183657,
+            "start": 2571,
+            "end": 3041
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.7630956969060682,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
+            "score": 0.7630956969060682,
+            "start": 1377,
+            "end": 2566
+          },
+          {
+            "text": "PaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preload\n·\nDO\n2\n= ",
+            "score": 0.39940356822897877,
+            "start": 2567,
+            "end": 3041
+          },
+          {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.16448660559557637,
+            "start": 0,
+            "end": 1376
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7671400683432694,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
+            "score": 0.7671400683432694,
+            "start": 1377,
+            "end": 2555
+          },
+          {
+            "text": "20mmol/L\n·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preloa",
+            "score": 0.7667373665353965,
+            "start": 2556,
+            "end": 3041
+          },
+          {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.2007992399296327,
+            "start": 0,
+            "end": 1376
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.644764646385698,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "FVC: 3.3L (cf. 3.2L)\n·\nIC: 2.75L (cf. 2.5L)\n·\nERV 0.55L (cf. 0.7L)\n·\nCause: (P)\n·\nImplication: ventilatory capacity preserved\nBreathing:\nVentilation\n·\n↑RR 10% (from early T1)\n·\n↑V\nT\n35% (from early T1",
+            "score": 0.644764646385698,
+            "start": 1377,
+            "end": 2564
+          },
+          {
+            "text": "·\nPaO\n2\n~105mmHg -> ↑partial\n  pressure gradient\nOxygen flux\n·\nCaO\n2\n16mL/dL (cf. 20) – due to\n  anaemia\n·\nCardiac output = 7.5L/min (cf. 5) – mainly due\n  to ↑MR and ↑blood volume -> ↑preload\n·\nDO\n2\n",
+            "score": 0.3708908328871195,
+            "start": 2565,
+            "end": 3041
+          },
+          {
+            "text": "2019A03 Describe\nthe effects of pregnancy on the respiratory system that are relevant to the\npractice of anaesthesia.\nInclude in your answer how these effects influence the conduct of anaesthesia.\nLis",
+            "score": 0.25599936209764323,
+            "start": 0,
+            "end": 1376
           }
         ]
       }

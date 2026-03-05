@@ -2,8 +2,11 @@
   "source": "physiology/obesity/2009B04_obesity_pharmacokinetics.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9307080142756743
+      "primary": "comparative_analysis",
+      "score": 0.7606506175553334,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "integrative",
@@ -13,40 +16,42 @@
       ]
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "neuromuscular_and_cns",
-      "special_populations",
-      "organ_system_effects",
-      "pain_and_analgesia",
-      "receptor_pharmacology",
-      "monitoring_and_measurement",
-      "physics_and_engineering"
+      "organ_system_process",
+      "pharmacokinetic_process",
+      "special_population_role",
+      "nociception_process",
+      "neuromuscular_process",
+      "equipment_and_physics"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "dose_response_relationship",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9307080142756743,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.3791848667100367,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.9307080142756743,
+            "score": 0.3791848667100367,
             "start": 0,
-            "end": 1326
+            "end": 1273
           },
           {
-            "text": "o\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. heparin V\nD\n0.1L/kg)\n·\n↑Fat\n  content\no\n↑Blood\n  gas part",
-            "score": 0.9299159531193077,
-            "start": 1327,
-            "end": 2607
-          },
-          {
-            "text": "Excretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphine 6 glucuronide\nBile\n·\nIf\n  NAFLD-associated liver failure\no\n↓Bile\n  secretion -",
-            "score": 0.8867947249644124,
-            "start": 2608,
+            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
+            "score": 0.3325963550051149,
+            "start": 2528,
             "end": 3168
+          },
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.14065856668448173,
+            "start": 1274,
+            "end": 2527
           }
         ]
       },
@@ -76,7 +81,7 @@
       },
       "comparative_analysis": {
         "score": 0.7606506175553334,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
@@ -99,26 +104,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.6235866177343246,
+        "score": 0.6543301029823438,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "o\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. heparin V\nD\n0.1L/kg)\n·\n↑Fat\n  content\no\n↑Blood\n  gas part",
-            "score": 0.6235866177343246,
-            "start": 1327,
-            "end": 2607
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.6543301029823438,
+            "start": 1274,
+            "end": 2527
           },
           {
-            "text": "Excretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphine 6 glucuronide\nBile\n·\nIf\n  NAFLD-associated liver failure\no\n↓Bile\n  secretion -",
-            "score": 0.5022556341271618,
-            "start": 2608,
+            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
+            "score": 0.5357566705801147,
+            "start": 2528,
             "end": 3168
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.4205639109188592,
+            "score": 0.4997346297765245,
             "start": 0,
-            "end": 1326
+            "end": 1273
           }
         ]
       },
@@ -222,249 +227,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.9221434879993405,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
-            "score": 0.9221434879993405,
-            "start": 1274,
-            "end": 2527
-          },
-          {
-            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
-            "score": 0.903300761641193,
-            "start": 2528,
-            "end": 3168
-          },
-          {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.8798612703228768,
-            "start": 0,
-            "end": 1273
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.735882480127494,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
-            "score": 0.735882480127494,
-            "start": 1274,
-            "end": 2527
-          },
-          {
-            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
-            "score": 0.6343544807258628,
-            "start": 2528,
-            "end": 3168
-          },
-          {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.22766004724276212,
-            "start": 0,
-            "end": 1273
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.8028796869588828,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
-            "score": 0.8028796869588828,
-            "start": 2528,
-            "end": 3168
-          },
-          {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.7825421217837121,
-            "start": 0,
-            "end": 1273
-          },
-          {
-            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
-            "score": 0.2260732893915247,
-            "start": 1274,
-            "end": 2527
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.8445555978000561,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
-            "score": 0.8445555978000561,
-            "start": 2528,
-            "end": 3168
-          },
-          {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.8150899351016954,
-            "start": 0,
-            "end": 1273
-          },
-          {
-            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
-            "score": 0.29514301842447316,
-            "start": 1274,
-            "end": 2527
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.6816822554207324,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
-            "score": 0.6816822554207324,
-            "start": 1274,
-            "end": 2527
-          },
-          {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.39467046082532836,
-            "start": 0,
-            "end": 1273
-          },
-          {
-            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
-            "score": 0.37691678954269536,
-            "start": 2528,
-            "end": 3168
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.6072436923074931,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
-            "score": 0.6072436923074931,
-            "start": 1274,
-            "end": 2527
-          },
-          {
-            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
-            "score": 0.40969058480610154,
-            "start": 2528,
-            "end": 3168
-          },
-          {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.24263091556480276,
-            "start": 0,
-            "end": 1273
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.3094168356331381,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
-            "score": 0.3094168356331381,
-            "start": 1274,
-            "end": 2527
-          },
-          {
-            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
-            "score": 0.2834191075448277,
-            "start": 2528,
-            "end": 3168
-          },
-          {
-            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.15166364739002158,
-            "start": 0,
-            "end": 1273
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.4093035678127705,
-        "description": "ANS physiology and pharmacology",
+      "drug_receptor_disposition": {
+        "score": 0.2543072934579991,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↓Peak\n  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g",
-            "score": 0.4093035678127705,
+            "score": 0.2543072934579991,
             "start": 1268,
             "end": 2479
           },
           {
             "text": "↓Hepatic blood flow (if cirrhosis)\n·\n↓Clearance\n  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hy",
-            "score": 0.25727231633199493,
+            "score": 0.21823325627215462,
             "start": 2480,
             "end": 3168
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.20006027090401593,
+            "score": 0.1638304622956888,
             "start": 0,
             "end": 1267
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.9161223159506959,
-        "description": "Coagulation, bleeding, and transfusion",
+      "autonomic_disposition": {
+        "score": 0.46099142694081935,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↓Hepatic blood flow (if cirrhosis)\n·\n↓Clearance\n  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hy",
-            "score": 0.9161223159506959,
-            "start": 2480,
-            "end": 3168
-          },
-          {
-            "text": "↓Peak\n  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g",
-            "score": 0.8698467137441421,
-            "start": 1268,
+            "text": "o\n↓Peak\n  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e",
+            "score": 0.46099142694081935,
+            "start": 1266,
             "end": 2479
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.37767231780686245,
+            "score": 0.19932289324287283,
             "start": 0,
-            "end": 1267
+            "end": 1265
+          },
+          {
+            "text": "↓Hepatic blood flow (if cirrhosis)\n·\n↓Clearance\n  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hy",
+            "score": 0.17656868710877405,
+            "start": 2480,
+            "end": 3168
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.7992007600703674,
-        "description": "Pain physiology and analgesic pharmacology",
+      "pharmacokinetic_process": {
+        "score": 0.8563349489658743,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
-            "score": 0.7992007600703674,
+            "score": 0.8563349489658743,
             "start": 1274,
-            "end": 2527
+            "end": 2558
           },
           {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.814384449652423,
+            "start": 0,
+            "end": 1273
+          },
+          {
+            "text": "e.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphine 6 glucuronide\nBile\n·\nIf\n  NAF",
+            "score": 0.6538420248731707,
+            "start": 2559,
+            "end": 3168
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.897970122007046,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
             "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
-            "score": 0.4373210428294137,
+            "score": 0.897970122007046,
             "start": 2528,
             "end": 3168
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.20006027090401593,
+            "score": 0.8704158607108111,
             "start": 0,
             "end": 1273
+          },
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.32780706460686626,
+            "start": 1274,
+            "end": 2527
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.21055038795004374,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↓Hepatic blood flow (if cirrhosis)\n·\n↓Clearance\n  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hy",
@@ -486,27 +347,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8692760518176514,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.6467349212375613,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  of drug distribution\no\n↓Peak\n  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrug",
-            "score": 0.8692760518176514,
-            "start": 1243,
-            "end": 2451
+            "text": "↓Peak\n  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g",
+            "score": 0.6467349212375613,
+            "start": 1268,
+            "end": 2479
           },
           {
-            "text": "  1 affected before phase 2\n↓Hepatic blood flow (if cirrhosis)\n·\n↓Clearance\n  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Ex",
-            "score": 0.4499375877136829,
-            "start": 2452,
+            "text": "↓Hepatic blood flow (if cirrhosis)\n·\n↓Clearance\n  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hy",
+            "score": 0.5795010131777019,
+            "start": 2480,
             "end": 3168
           },
           {
             "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
-            "score": 0.21437210705255258,
+            "score": 0.13828116177283872,
             "start": 0,
-            "end": 1242
+            "end": 1267
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.7341565171559492,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.7341565171559492,
+            "start": 1274,
+            "end": 2516
+          },
+          {
+            "text": "↓Clearance\n  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g",
+            "score": 0.39620374321684443,
+            "start": 2517,
+            "end": 3168
+          },
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.15671722015798292,
+            "start": 0,
+            "end": 1273
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.4568192726178515,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.4568192726178515,
+            "start": 0,
+            "end": 1273
+          },
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.35129895544031847,
+            "start": 1274,
+            "end": 2527
+          },
+          {
+            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
+            "score": 0.27368198487016115,
+            "start": 2528,
+            "end": 3168
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.6002119621495059,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.6002119621495059,
+            "start": 1274,
+            "end": 2556
+          },
+          {
+            "text": "·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphine 6 glucuronide\nBile\n·\nIf\n  N",
+            "score": 0.15799633458154788,
+            "start": 2557,
+            "end": 3168
+          },
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.11425582926127191,
+            "start": 0,
+            "end": 1273
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8445555978000561,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
+            "score": 0.8445555978000561,
+            "start": 2528,
+            "end": 3168
+          },
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.8150899351016954,
+            "start": 0,
+            "end": 1273
+          },
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.29514301842447316,
+            "start": 1274,
+            "end": 2527
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.801412892581186,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.801412892581186,
+            "start": 0,
+            "end": 1326
+          },
+          {
+            "text": "o\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. heparin V\nD\n0.1L/kg)\n·\n↑Fat\n  content\no\n↑Blood\n  gas part",
+            "score": 0.679321278132118,
+            "start": 1327,
+            "end": 2607
+          },
+          {
+            "text": "Excretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphine 6 glucuronide\nBile\n·\nIf\n  NAFLD-associated liver failure\no\n↓Bile\n  secretion -",
+            "score": 0.599699174491176,
+            "start": 2608,
+            "end": 3168
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.7341565171559492,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.7341565171559492,
+            "start": 0,
+            "end": 1273
+          },
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.4156364145657576,
+            "start": 1274,
+            "end": 2558
+          },
+          {
+            "text": "e.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphine 6 glucuronide\nBile\n·\nIf\n  NAF",
+            "score": 0.31221540087919597,
+            "start": 2559,
+            "end": 3168
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5445977894783653,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.5445977894783653,
+            "start": 1274,
+            "end": 2527
+          },
+          {
+            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
+            "score": 0.318789326827268,
+            "start": 2528,
+            "end": 3168
+          },
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.2619682848045116,
+            "start": 0,
+            "end": 1273
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.672431629654093,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2009B04 Describe\nthe effect of obesity on pharmacokinetics and the potential\nclinical implications, providing relevant examples.\nList:\n·\nObesity\n·\nAbsorption\n·\nDistribution\n·\nMetabolism\n·\nExcretion\n·\n",
+            "score": 0.672431629654093,
+            "start": 0,
+            "end": 1273
+          },
+          {
+            "text": "  plasma [propofol] after bolus -> risk of awareness\no\n↑Rate of\n  onset suxamethonium\no\n↓Rate of\n  rise F\nA\n/F\nI\nvolatile anaesthetic\nBlood\n·\n↑Blood\n  volume\no\n↑V\nD\ndrugs confined to plasma (e.g. hepa",
+            "score": 0.44131747009640254,
+            "start": 1274,
+            "end": 2527
+          },
+          {
+            "text": "  if flow-limited (HER >0.7)\n·\ne.g.\n  lignocaine -> seizure, arrhythmia, arrest\nExcretion:\nUrine\n·\n↑Renal\n  blood flow\no\n↑Excretion\n  of small and/or hydrophilic drugs and metabolites\no\ne.g.\n  morphin",
+            "score": 0.1898819772959151,
+            "start": 2528,
+            "end": 3168
           }
         ]
       }

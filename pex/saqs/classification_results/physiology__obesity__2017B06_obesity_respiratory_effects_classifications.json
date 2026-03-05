@@ -2,8 +2,11 @@
   "source": "physiology/obesity/2017B06_obesity_respiratory_effects.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.944149887970466
+      "primary": "quantitative_reasoning",
+      "score": 0.7271947106359709,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
@@ -14,38 +17,41 @@
       ]
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "physics_and_engineering",
-      "organ_system_effects",
-      "haemostasis_and_transfusion",
-      "dose_response_kinetics",
-      "receptor_pharmacology",
-      "monitoring_and_measurement"
+      "equipment_and_physics",
+      "gas_exchange_process",
+      "organ_system_process",
+      "neuromuscular_process",
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "dose_response_relationship",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.944149887970466,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.23125299073967442,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wall compliance\n->↑W",
-            "score": 0.944149887970466,
-            "start": 1306,
-            "end": 2511
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.23125299073967442,
+            "start": 0,
+            "end": 1285
           },
           {
-            "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
-            "score": 0.9075376276990179,
-            "start": 2512,
+            "text": "-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -",
+            "score": 0.18001634735871486,
+            "start": 2474,
             "end": 2818
           },
           {
-            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.89944070169517,
-            "start": 0,
-            "end": 1305
+            "text": "±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest ",
+            "score": 0.1691240044635859,
+            "start": 1286,
+            "end": 2473
           }
         ]
       },
@@ -75,7 +81,7 @@
       },
       "comparative_analysis": {
         "score": 0.5828090276790999,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
@@ -98,26 +104,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.5716940903777212,
+        "score": 0.7271947106359709,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wall compliance\n->↑W",
-            "score": 0.5716940903777212,
-            "start": 1306,
-            "end": 2511
-          },
-          {
-            "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
-            "score": 0.5306364090887742,
-            "start": 2512,
+            "text": "-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -",
+            "score": 0.7271947106359709,
+            "start": 2474,
             "end": 2818
           },
           {
+            "text": "supine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wa",
+            "score": 0.7116489757150383,
+            "start": 1288,
+            "end": 2473
+          },
+          {
             "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.3427471360775722,
+            "score": 0.3977387423888966,
             "start": 0,
-            "end": 1305
+            "end": 1287
           }
         ]
       },
@@ -221,249 +227,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.6912810171418213,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.21360460483229088,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRest",
-            "score": 0.6912810171418213,
+            "score": 0.21360460483229088,
             "start": 1263,
             "end": 2433
           },
           {
             "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.28565571167771503,
+            "score": 0.13946678392103212,
             "start": 0,
             "end": 1262
           },
           {
             "text": "ME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonar",
-            "score": 0.2662758837757481,
+            "score": 0.13651425394654748,
             "start": 2434,
             "end": 2818
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.6484555077818482,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.25812280612051225,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRest",
-            "score": 0.6484555077818482,
-            "start": 1263,
-            "end": 2433
+            "text": "< closing capacity: small airway\n  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑",
+            "score": 0.25812280612051225,
+            "start": 1230,
+            "end": 2381
+          },
+          {
+            "text": "pH usually normal if chronic process\nDisease:\nOSA\n·\nME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Ri",
+            "score": 0.17863249993135413,
+            "start": 2382,
+            "end": 2818
           },
           {
             "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.5037151255547696,
+            "score": 0.11425582926127191,
             "start": 0,
-            "end": 1262
-          },
-          {
-            "text": "ME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonar",
-            "score": 0.29105866542991604,
-            "start": 2434,
-            "end": 2818
+            "end": 1229
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.798830678950782,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.18210408151009452,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓che",
-            "score": 0.798830678950782,
-            "start": 1283,
-            "end": 2473
-          },
-          {
-            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.6917458528846869,
-            "start": 0,
-            "end": 1282
-          },
-          {
-            "text": "-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -",
-            "score": 0.6849746793311141,
-            "start": 2474,
+            "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
+            "score": 0.18210408151009452,
+            "start": 2512,
             "end": 2818
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.40184028753125045,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.40184028753125045,
-            "start": 0,
-            "end": 1262
           },
-          {
-            "text": "  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRest",
-            "score": 0.36440051098887527,
-            "start": 1263,
-            "end": 2433
-          },
-          {
-            "text": "ME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonar",
-            "score": 0.20601653605049183,
-            "start": 2434,
-            "end": 2818
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.6413068178601875,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
           {
             "text": "supine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wa",
-            "score": 0.6413068178601875,
+            "score": 0.12676106887331628,
             "start": 1288,
             "end": 2511
           },
           {
             "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.4155069315393794,
+            "score": 0.11905584709916793,
             "start": 0,
             "end": 1287
-          },
-          {
-            "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
-            "score": 0.2052664429349464,
-            "start": 2512,
-            "end": 2818
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.8883596395623885,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.8470823759078229,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓che",
-            "score": 0.8883596395623885,
+            "score": 0.8470823759078229,
             "start": 1283,
             "end": 2473
           },
           {
-            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.645996552152617,
-            "start": 0,
-            "end": 1282
-          },
-          {
             "text": "-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -",
-            "score": 0.3495820398110333,
+            "score": 0.8036106946982671,
             "start": 2474,
             "end": 2818
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.34031905315618194,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRest",
-            "score": 0.34031905315618194,
-            "start": 1263,
-            "end": 2433
-          },
-          {
-            "text": "ME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonar",
-            "score": 0.11478329593515615,
-            "start": 2434,
-            "end": 2818
           },
           {
             "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.08788394835920724,
+            "score": 0.6570096763178568,
             "start": 0,
-            "end": 1262
+            "end": 1282
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.19858710741881394,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "< closing capacity: small airway\n  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑",
-            "score": 0.19858710741881394,
-            "start": 1230,
-            "end": 2418
-          },
-          {
-            "text": "Disease:\nOSA\n·\nME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15",
-            "score": 0.16317590246639627,
-            "start": 2419,
-            "end": 2818
-          },
-          {
-            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.09717688216482506,
-            "start": 0,
-            "end": 1229
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7905884209861656,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "< closing capacity: small airway\n  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑",
-            "score": 0.7905884209861656,
-            "start": 1230,
-            "end": 2418
-          },
-          {
-            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.31596446232249,
-            "start": 0,
-            "end": 1229
-          },
-          {
-            "text": "Disease:\nOSA\n·\nME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15",
-            "score": 0.20752148144486066,
-            "start": 2419,
-            "end": 2818
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.36489833307826947,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "ME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonar",
-            "score": 0.36489833307826947,
-            "start": 2434,
-            "end": 2818
-          },
-          {
-            "text": "  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRest",
-            "score": 0.35228149523060953,
-            "start": 1263,
-            "end": 2433
-          },
-          {
-            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.23447305528923598,
-            "start": 0,
-            "end": 1262
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.9353584631716227,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRest",
@@ -485,27 +347,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.5959760232943172,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.6263513404123925,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "If FRC\n< closing capacity: small airway\n  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑",
-            "score": 0.5959760232943172,
-            "start": 1223,
-            "end": 2353
+            "text": "< closing capacity: small airway\n  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑",
+            "score": 0.6263513404123925,
+            "start": 1230,
+            "end": 2418
           },
           {
-            "text": "(can be very high if OHS)\n·\npH usually normal if chronic process\nDisease:\nOSA\n·\nME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstructi",
-            "score": 0.32637600980346704,
-            "start": 2354,
+            "text": "Disease:\nOSA\n·\nME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15",
+            "score": 0.3235219459138018,
+            "start": 2419,
             "end": 2818
           },
           {
             "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
-            "score": 0.16448660559557637,
+            "score": 0.13072394818234856,
             "start": 0,
-            "end": 1222
+            "end": 1229
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.46485438690523084,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRest",
+            "score": 0.46485438690523084,
+            "start": 1263,
+            "end": 2433
+          },
+          {
+            "text": "ME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonar",
+            "score": 0.3552353536143021,
+            "start": 2434,
+            "end": 2818
+          },
+          {
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.21283868086355118,
+            "start": 0,
+            "end": 1262
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.6082634464968639,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓che",
+            "score": 0.6082634464968639,
+            "start": 1283,
+            "end": 2473
+          },
+          {
+            "text": "-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -",
+            "score": 0.22370484839267127,
+            "start": 2474,
+            "end": 2818
+          },
+          {
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.19638930530173287,
+            "start": 0,
+            "end": 1282
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9361167513561149,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "supine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wa",
+            "score": 0.9361167513561149,
+            "start": 1288,
+            "end": 2511
+          },
+          {
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.5233382200659535,
+            "start": 0,
+            "end": 1287
+          },
+          {
+            "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
+            "score": 0.30385425542433225,
+            "start": 2512,
+            "end": 2818
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.40184028753125045,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.40184028753125045,
+            "start": 0,
+            "end": 1262
+          },
+          {
+            "text": "  closure -> ↑shunt\n->\n±\nsupine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRest",
+            "score": 0.36440051098887527,
+            "start": 1263,
+            "end": 2433
+          },
+          {
+            "text": "ME + sleep -> airway collapse -> ↓PaO\n2\n-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonar",
+            "score": 0.20601653605049183,
+            "start": 2434,
+            "end": 2818
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8185934252001217,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.8185934252001217,
+            "start": 0,
+            "end": 1305
+          },
+          {
+            "text": "-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wall compliance\n->↑W",
+            "score": 0.7548919339041595,
+            "start": 1306,
+            "end": 2511
+          },
+          {
+            "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
+            "score": 0.3928838323968975,
+            "start": 2512,
+            "end": 2818
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.6666827428866419,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "supine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wa",
+            "score": 0.6666827428866419,
+            "start": 1288,
+            "end": 2511
+          },
+          {
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.23085222312653272,
+            "start": 0,
+            "end": 1287
+          },
+          {
+            "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
+            "score": 0.18280318375806526,
+            "start": 2512,
+            "end": 2818
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5772923050169322,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "supine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wa",
+            "score": 0.5772923050169322,
+            "start": 1288,
+            "end": 2473
+          },
+          {
+            "text": "-> ↑SNS activity -> arousal -> repeat\n->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -",
+            "score": 0.2467670878597175,
+            "start": 2474,
+            "end": 2818
+          },
+          {
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.2409870944785764,
+            "start": 0,
+            "end": 1287
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6666827428866419,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2017B06 Describe\nthe effects of morbid obesity on the respiratory system.\nList:\n·\nIntro\n·\nAnatomy\n·\nLung volumes\n·\nMechanics\n·\nResistance and compliance\n·\nVentilation and perfusion\n·\nGas exchange\n·\nDi",
+            "score": 0.6666827428866419,
+            "start": 0,
+            "end": 1287
+          },
+          {
+            "text": "supine hypoxaemia\n-> Rapid desaturation after induction\nDynamic\n·\nME -> ↓chest wall compliance -> ↓FVC\n·\nME -> ↑resistance -> ↓FEV1\n·\n↑MR -> ↑V\nT\n20%\nBreathing\nmechanics:\nRestriction\n·\nME -> ↓chest wa",
+            "score": 0.6261002849385863,
+            "start": 1288,
+            "end": 2511
+          },
+          {
+            "text": "->↓Sensitivity to ↓PaO\n2\n->↑Risk obstruction and apnoea peri-op\n->↑↑Risk with opioids, benzodiazepines\n->15% have pulmonary hypertension\nOHS\n·\nME -> ↑WOB -> ↓VA -> chronic ↑PaCO\n2\n->↓Sensitivity to ↑P",
+            "score": 0.17863249993135413,
+            "start": 2512,
+            "end": 2818
           }
         ]
       }

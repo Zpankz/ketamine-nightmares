@@ -3,26 +3,32 @@
   "summary": {
     "cognitive_domain": {
       "primary": "factual_recall",
-      "score": 0.6929065401474209
+      "score": 0.4660334006088919,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.4868004265907262
     },
     "content_dimensions": [
-      "monitoring_and_measurement",
-      "physics_and_engineering"
+      "equipment_and_physics",
+      "organ_system_process"
+    ],
+    "explanatory_schema": [
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.6929065401474209,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.4660334006088919,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.6929065401474209,
+            "score": 0.4660334006088919,
             "start": 0,
             "end": 283
           }
@@ -42,7 +48,7 @@
       },
       "comparative_analysis": {
         "score": 0.14487848470578973,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
@@ -53,12 +59,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.31174818149345435,
+        "score": 0.3567157558452387,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.31174818149345435,
+            "score": 0.3567157558452387,
             "start": 0,
             "end": 283
           }
@@ -116,129 +122,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.18491006489830478,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.1278857710804513,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.18491006489830478,
+            "score": 0.1278857710804513,
             "start": 0,
             "end": 283
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.18140657479987835,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.14245781704193952,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.18140657479987835,
+            "score": 0.14245781704193952,
             "start": 0,
             "end": 283
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.5231395562828942,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.0874334962984957,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.5231395562828942,
+            "score": 0.0874334962984957,
             "start": 0,
             "end": 283
           }
         ]
       },
-      "special_populations": {
-        "score": 0.09861813254725033,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.659195884058768,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.09861813254725033,
+            "score": 0.659195884058768,
             "start": 0,
             "end": 283
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.8514439119340944,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.8514439119340944,
-            "start": 0,
-            "end": 283
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7766885250141251,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.7766885250141251,
-            "start": 0,
-            "end": 283
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.09199844623487359,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.09199844623487359,
-            "start": 0,
-            "end": 283
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.11690780739311239,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.11690780739311239,
-            "start": 0,
-            "end": 283
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.4063396082796254,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.4063396082796254,
-            "start": 0,
-            "end": 283
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.19858710741881394,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.19858710741881394,
-            "start": 0,
-            "end": 283
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.17656868710877405,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
@@ -248,13 +182,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.25812280612051225,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.22370484839267127,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
-            "score": 0.25812280612051225,
+            "score": 0.22370484839267127,
+            "start": 0,
+            "end": 283
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.2589747757634805,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
+            "score": 0.2589747757634805,
+            "start": 0,
+            "end": 283
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.1752007806948695,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
+            "score": 0.1752007806948695,
+            "start": 0,
+            "end": 283
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7039456475161461,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
+            "score": 0.7039456475161461,
+            "start": 0,
+            "end": 283
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.09861813254725033,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
+            "score": 0.09861813254725033,
+            "start": 0,
+            "end": 283
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.21745787821628798,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
+            "score": 0.21745787821628798,
+            "start": 0,
+            "end": 283
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.11112162501075684,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
+            "score": 0.11112162501075684,
+            "start": 0,
+            "end": 283
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7482196179441566,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
+            "score": 0.7482196179441566,
+            "start": 0,
+            "end": 283
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.43836863985749225,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2002B09 Draw a\npressure-volume loop for the left ventricle in a normal adult.\nOutline the information that can be obtained from such a loop.\nNOTE: aortic valve closure should occur at\nhigher pressure ",
+            "score": 0.43836863985749225,
             "start": 0,
             "end": 283
           }

@@ -2,26 +2,29 @@
   "source": "physiology/cellular/2013A14_mitochondrion_structure_and_function.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.903300761641193
+      "primary": "mechanistic_explanation",
+      "score": 0.7384604628515647
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.6623437996873985
     },
     "content_dimensions": [
-      "receptor_pharmacology"
+      "drug_receptor_disposition"
+    ],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.903300761641193,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.4869993386342064,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.903300761641193,
+            "score": 0.4869993386342064,
             "start": 0,
             "end": 906
           }
@@ -41,7 +44,7 @@
       },
       "comparative_analysis": {
         "score": 0.19858710741881394,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
@@ -52,12 +55,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.25769737607998944,
+        "score": 0.30063099459107706,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.25769737607998944,
+            "score": 0.30063099459107706,
             "start": 0,
             "end": 906
           }
@@ -115,129 +118,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.270619815687641,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.7667373665353965,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.270619815687641,
+            "score": 0.7667373665353965,
             "start": 0,
             "end": 906
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.8072418249488453,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.5515585124157462,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.8072418249488453,
+            "score": 0.5515585124157462,
             "start": 0,
             "end": 906
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.2928705582501452,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.3306771344015845,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.2928705582501452,
+            "score": 0.3306771344015845,
             "start": 0,
             "end": 906
           }
         ]
       },
-      "special_populations": {
-        "score": 0.3865229101133825,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.19565989102814468,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.3865229101133825,
+            "score": 0.19565989102814468,
             "start": 0,
             "end": 906
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.2585486061251438,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.2585486061251438,
-            "start": 0,
-            "end": 906
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.4017119364417003,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.4017119364417003,
-            "start": 0,
-            "end": 906
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.4464041186360957,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.4464041186360957,
-            "start": 0,
-            "end": 906
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.24386778071856008,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.24386778071856008,
-            "start": 0,
-            "end": 906
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.39390447073838586,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.39390447073838586,
-            "start": 0,
-            "end": 906
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.10803954311448256,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.10803954311448256,
-            "start": 0,
-            "end": 906
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.3444508872682476,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
@@ -247,13 +178,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.10252288453633593,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.10500911959371668,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
-            "score": 0.10252288453633593,
+            "score": 0.10500911959371668,
+            "start": 0,
+            "end": 906
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.12845038342220835,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
+            "score": 0.12845038342220835,
+            "start": 0,
+            "end": 906
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.20827633226924755,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
+            "score": 0.20827633226924755,
+            "start": 0,
+            "end": 906
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.18632263173984007,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
+            "score": 0.18632263173984007,
+            "start": 0,
+            "end": 906
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.3865229101133825,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
+            "score": 0.3865229101133825,
+            "start": 0,
+            "end": 906
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.44072741854194514,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
+            "score": 0.44072741854194514,
+            "start": 0,
+            "end": 906
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.12452970475004799,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
+            "score": 0.12452970475004799,
+            "start": 0,
+            "end": 906
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.22370484839267127,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
+            "score": 0.22370484839267127,
+            "start": 0,
+            "end": 906
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8575421829580605,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2013A14 Briefly\ndescribe the structure of mitochondria.\nOutline the metabolic processes that occur in mitochondria.\nList:\n·\nIntro\n·\nStructure\n·\nFunctions\n·\nIllustrations\nIntro:\n·\nIntracellular organel",
+            "score": 0.8575421829580605,
             "start": 0,
             "end": 906
           }

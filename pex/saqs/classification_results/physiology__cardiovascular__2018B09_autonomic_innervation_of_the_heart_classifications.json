@@ -2,8 +2,12 @@
   "source": "physiology/cardiovascular/2018B09_autonomic_innervation_of_the_heart.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8924691021423852
+      "primary": "comparative_analysis",
+      "score": 0.7659308045041232,
+      "secondary": [
+        "mechanistic_explanation",
+        "quantitative_reasoning"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,42 +17,44 @@
       ]
     },
     "content_dimensions": [
-      "pain_and_analgesia",
-      "receptor_pharmacology",
-      "haemostasis_and_transfusion",
-      "dose_response_kinetics",
-      "autonomic_nervous_system",
-      "monitoring_and_measurement",
-      "neuromuscular_and_cns",
-      "organ_system_effects",
-      "physics_and_engineering",
-      "acid_base_and_electrolytes",
-      "special_populations"
+      "nociception_process",
+      "drug_receptor_disposition",
+      "autonomic_disposition",
+      "equipment_and_physics",
+      "organ_system_process",
+      "neuromuscular_process",
+      "acid_base_quality",
+      "special_population_role"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8924691021423852,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.368639651264264,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.8924691021423852,
-            "start": 0,
-            "end": 1156
-          },
-          {
-            "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
-            "score": 0.8681301763567975,
-            "start": 1157,
-            "end": 2295
-          },
-          {
-            "text": "° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (hence bilateral pain but L>R)\n·\nAscent\n  via multi",
-            "score": 0.8593414333155183,
-            "start": 2296,
+            "text": "Convergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (he",
+            "score": 0.368639651264264,
+            "start": 2248,
             "end": 2520
+          },
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.24057709312446773,
+            "start": 0,
+            "end": 1154
+          },
+          {
+            "text": "1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI ->",
+            "score": 0.17113527946174623,
+            "start": 1155,
+            "end": 2247
           }
         ]
       },
@@ -78,7 +84,7 @@
       },
       "comparative_analysis": {
         "score": 0.7659308045041232,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
@@ -101,25 +107,25 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.4971472960703436,
+        "score": 0.7034894789104185,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
-            "score": 0.4971472960703436,
-            "start": 1157,
-            "end": 2295
+            "text": "1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI ->",
+            "score": 0.7034894789104185,
+            "start": 1155,
+            "end": 2247
           },
           {
             "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.3066297472364717,
+            "score": 0.3916091398612368,
             "start": 0,
-            "end": 1156
+            "end": 1154
           },
           {
-            "text": "° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (hence bilateral pain but L>R)\n·\nAscent\n  via multi",
-            "score": 0.2897033101294102,
-            "start": 2296,
+            "text": "Convergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (he",
+            "score": 0.2969670234089074,
+            "start": 2248,
             "end": 2520
           }
         ]
@@ -224,249 +230,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8361695377043112,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8611267965019573,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TN",
-            "score": 0.8361695377043112,
-            "start": 1151,
-            "end": 2245
-          },
-          {
-            "text": "·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (",
-            "score": 0.23568694716034655,
-            "start": 2246,
-            "end": 2520
-          },
-          {
-            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.16646454350278764,
-            "start": 0,
-            "end": 1150
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.9165608547845401,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Myocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhos",
-            "score": 0.9165608547845401,
-            "start": 1136,
+            "text": "(mostly)\nMyocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycli",
+            "score": 0.8611267965019573,
+            "start": 1127,
             "end": 2181
           },
           {
-            "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
-            "score": 0.8709834944174346,
-            "start": 2182,
-            "end": 2520
-          },
-          {
             "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.766334278517655,
+            "score": 0.7236793780837079,
             "start": 0,
-            "end": 1135
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.7917236677307524,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.7917236677307524,
-            "start": 0,
-            "end": 1150
-          },
-          {
-            "text": "·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TN",
-            "score": 0.7380317151954884,
-            "start": 1151,
-            "end": 2245
-          },
-          {
-            "text": "·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (",
-            "score": 0.10301730154669217,
-            "start": 2246,
-            "end": 2520
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.651152789517968,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Myocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhos",
-            "score": 0.651152789517968,
-            "start": 1136,
-            "end": 2181
+            "end": 1126
           },
           {
             "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
-            "score": 0.270619815687641,
+            "score": 0.27368198487016115,
             "start": 2182,
             "end": 2520
-          },
-          {
-            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.21437210705255258,
-            "start": 0,
-            "end": 1135
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.8021470861218252,
-        "description": "Clinical measurement and monitoring",
+      "autonomic_disposition": {
+        "score": 0.8599380954981706,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.8599380954981706,
+            "start": 0,
+            "end": 1107
+          },
+          {
+            "text": "  CNX to SA node\n·\n(mostly)\nMyocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate",
+            "score": 0.7840881577423744,
+            "start": 1108,
+            "end": 2123
+          },
+          {
+            "text": "  PSNS: via sacral nerves to S2-4 (also cranial)\n·\nDirect\n  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial l",
+            "score": 0.361666845444835,
+            "start": 2124,
+            "end": 2520
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.5513941439459498,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
-            "score": 0.8021470861218252,
+            "score": 0.5513941439459498,
             "start": 1157,
-            "end": 2247
+            "end": 2295
+          },
+          {
+            "text": "° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (hence bilateral pain but L>R)\n·\nAscent\n  via multi",
+            "score": 0.12620097548419282,
+            "start": 2296,
+            "end": 2520
           },
           {
             "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.38906349029705456,
+            "score": 0.09861813254725033,
             "start": 0,
             "end": 1156
-          },
-          {
-            "text": "Convergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (he",
-            "score": 0.19638930530173287,
-            "start": 2248,
-            "end": 2520
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.7917236677307524,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.8043401089718551,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "β\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI ",
-            "score": 0.7917236677307524,
-            "start": 1153,
-            "end": 2247
-          },
-          {
             "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.5955903319068778,
+            "score": 0.8043401089718551,
             "start": 0,
             "end": 1152
           },
           {
+            "text": "β\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI ",
+            "score": 0.786778554494324,
+            "start": 1153,
+            "end": 2247
+          },
+          {
             "text": "Convergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (he",
-            "score": 0.30155028868225636,
+            "score": 0.09433170997702066,
             "start": 2248,
             "end": 2520
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.7833159268231396,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Myocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhos",
-            "score": 0.7833159268231396,
-            "start": 1136,
-            "end": 2181
-          },
-          {
-            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.15671722015798292,
-            "start": 0,
-            "end": 1135
-          },
-          {
-            "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
-            "score": 0.10854962335430002,
-            "start": 2182,
-            "end": 2520
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.811546548460212,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "(mostly)\nMyocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycli",
-            "score": 0.811546548460212,
-            "start": 1127,
-            "end": 2181
-          },
-          {
-            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.7111985556060637,
-            "start": 0,
-            "end": 1126
-          },
-          {
-            "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
-            "score": 0.38196297726998507,
-            "start": 2182,
-            "end": 2520
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8464530360558368,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "(mostly)\nMyocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycli",
-            "score": 0.8464530360558368,
-            "start": 1127,
-            "end": 2181
-          },
-          {
-            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.3325963550051149,
-            "start": 0,
-            "end": 1126
-          },
-          {
-            "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
-            "score": 0.16845675763202042,
-            "start": 2182,
-            "end": 2520
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.9496483950149237,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
-            "score": 0.9496483950149237,
-            "start": 2182,
-            "end": 2520
-          },
-          {
-            "text": "Myocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhos",
-            "score": 0.8545124702668796,
-            "start": 1136,
-            "end": 2181
-          },
-          {
-            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.5575020081483214,
-            "start": 0,
-            "end": 1135
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.5177734660890345,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "(mostly)\nMyocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycli",
@@ -488,27 +350,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.7954820628685595,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8036106946982671,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  CNX to SA node\n·\n(mostly)\nMyocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate",
-            "score": 0.7954820628685595,
-            "start": 1108,
-            "end": 2123
+            "text": "(mostly)\nMyocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycli",
+            "score": 0.8036106946982671,
+            "start": 1127,
+            "end": 2181
           },
           {
             "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
-            "score": 0.41240232044252817,
+            "score": 0.3928838323968975,
             "start": 0,
-            "end": 1107
+            "end": 1126
           },
           {
-            "text": "  PSNS: via sacral nerves to S2-4 (also cranial)\n·\nDirect\n  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial l",
-            "score": 0.3774204195411882,
-            "start": 2124,
+            "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
+            "score": 0.2585486061251438,
+            "start": 2182,
             "end": 2520
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.9483001744314581,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
+            "score": 0.9483001744314581,
+            "start": 2182,
+            "end": 2520
+          },
+          {
+            "text": "Myocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhos",
+            "score": 0.8381284697982909,
+            "start": 1136,
+            "end": 2181
+          },
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.45590470439563735,
+            "start": 0,
+            "end": 1135
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.7667373665353965,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "β\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI ",
+            "score": 0.7667373665353965,
+            "start": 1153,
+            "end": 2247
+          },
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.2551525833359077,
+            "start": 0,
+            "end": 1152
+          },
+          {
+            "text": "Convergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (he",
+            "score": 0.14671028264551744,
+            "start": 2248,
+            "end": 2520
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.852676006931055,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
+            "score": 0.852676006931055,
+            "start": 1157,
+            "end": 2295
+          },
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.30063099459107706,
+            "start": 0,
+            "end": 1156
+          },
+          {
+            "text": "° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (hence bilateral pain but L>R)\n·\nAscent\n  via multi",
+            "score": 0.18140657479987835,
+            "start": 2296,
+            "end": 2520
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.651152789517968,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Myocyte effect\n·\nβ\n1\nadrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhos",
+            "score": 0.651152789517968,
+            "start": 1136,
+            "end": 2181
+          },
+          {
+            "text": "  synapse with wide dynamic range 2° afferents in deeper layers\n·\nConvergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussati",
+            "score": 0.270619815687641,
+            "start": 2182,
+            "end": 2520
+          },
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.21437210705255258,
+            "start": 0,
+            "end": 1135
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7743224261658384,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.7743224261658384,
+            "start": 0,
+            "end": 1156
+          },
+          {
+            "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
+            "score": 0.7553057419485449,
+            "start": 1157,
+            "end": 2295
+          },
+          {
+            "text": "° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (hence bilateral pain but L>R)\n·\nAscent\n  via multi",
+            "score": 0.6826244959044427,
+            "start": 2296,
+            "end": 2520
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.5989296487257566,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
+            "score": 0.5989296487257566,
+            "start": 1157,
+            "end": 2295
+          },
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.23085222312653272,
+            "start": 0,
+            "end": 1156
+          },
+          {
+            "text": "° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (hence bilateral pain but L>R)\n·\nAscent\n  via multi",
+            "score": 0.09015630224155849,
+            "start": 2296,
+            "end": 2520
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.6469809146517369,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
+            "score": 0.6469809146517369,
+            "start": 1157,
+            "end": 2247
+          },
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.47931112329502495,
+            "start": 0,
+            "end": 1156
+          },
+          {
+            "text": "Convergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (he",
+            "score": 0.26541144562458285,
+            "start": 2248,
+            "end": 2520
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7444242132356791,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "adrenoceptor 85%,\nβ\n2\n15%\n·\n(G\ns\nGPCR)\n·\nVentricules\n  > atria\n·\n↑cAMP\n·\n↑PKA\n·\nPhosphorylation\n  of\n·\nL-Ca\n2+\nchannel -> ↑inotropy\n·\nMyosin\n  -> ↑rate cross-bridge cycling\n·\nPhospholamban,\n  TNI -> ↑",
+            "score": 0.7444242132356791,
+            "start": 1157,
+            "end": 2247
+          },
+          {
+            "text": "Convergence onto somatic nociceptive-specific 2\n° afferents in superficial layers\n(hence referred pain)\nSecondary afferent\n·\nDecussation\n  via anterior commissure\no\nIncomplete\n  for older pathways (he",
+            "score": 0.6450111561715653,
+            "start": 2248,
+            "end": 2520
+          },
+          {
+            "text": "2018B09 Describe\nthe autonomic innervation of the heart (60%),\nand the effects of autonomic stimulation on cardiac function (40%).\nList:\n·\nGeneral features\n·\nMain actions\n·\nAutonomic efferents\n·\nGener",
+            "score": 0.5912123076287668,
+            "start": 0,
+            "end": 1156
           }
         ]
       }

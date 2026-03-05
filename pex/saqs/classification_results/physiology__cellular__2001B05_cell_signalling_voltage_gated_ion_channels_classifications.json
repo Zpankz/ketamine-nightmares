@@ -2,29 +2,34 @@
   "source": "physiology/cellular/2001B05_cell_signalling_voltage_gated_ion_channels.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8959896239471639
+      "primary": "applied_clinical",
+      "score": 0.3673910544398884,
+      "secondary": [
+        "mechanistic_explanation",
+        "quantitative_reasoning"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5634643457155174
     },
     "content_dimensions": [
-      "physics_and_engineering",
-      "acid_base_and_electrolytes",
-      "receptor_pharmacology",
-      "pain_and_analgesia"
+      "drug_receptor_disposition",
+      "nociception_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8959896239471639,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.24552225336936628,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.8959896239471639,
+            "score": 0.24552225336936628,
             "start": 0,
             "end": 1400
           }
@@ -44,7 +49,7 @@
       },
       "comparative_analysis": {
         "score": 0.264117519872506,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
@@ -55,12 +60,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.35129895544031847,
+        "score": 0.34884721048203216,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.35129895544031847,
+            "score": 0.34884721048203216,
             "start": 0,
             "end": 1400
           }
@@ -118,129 +123,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.2534634949725546,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8502055766542939,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.2534634949725546,
+            "score": 0.8502055766542939,
             "start": 0,
             "end": 1400
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.6882518185065456,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.3325963550051149,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.6882518185065456,
+            "score": 0.3325963550051149,
             "start": 0,
             "end": 1400
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.4587315915400425,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.11372982298149485,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.4587315915400425,
+            "score": 0.11372982298149485,
             "start": 0,
             "end": 1400
           }
         ]
       },
-      "special_populations": {
-        "score": 0.23731085714042086,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.5813827960370055,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.23731085714042086,
+            "score": 0.5813827960370055,
             "start": 0,
             "end": 1400
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.32304731886392163,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.32304731886392163,
-            "start": 0,
-            "end": 1400
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.739316856023697,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.739316856023697,
-            "start": 0,
-            "end": 1400
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.6924425059475212,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.6924425059475212,
-            "start": 0,
-            "end": 1400
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.44578006530173525,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.44578006530173525,
-            "start": 0,
-            "end": 1400
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.365894701768538,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.365894701768538,
-            "start": 0,
-            "end": 1400
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.6702807288458499,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.6702807288458499,
-            "start": 0,
-            "end": 1400
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.10651790355261252,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
@@ -250,13 +183,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.46670461203403324,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.5094197002645581,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
-            "score": 0.46670461203403324,
+            "score": 0.5094197002645581,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.7196975313734553,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
+            "score": 0.7196975313734553,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.32924077855991984,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
+            "score": 0.32924077855991984,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.5279056553867993,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
+            "score": 0.5279056553867993,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.23731085714042086,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
+            "score": 0.23731085714042086,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5826146098212645,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
+            "score": 0.5826146098212645,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.17383924611324467,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
+            "score": 0.17383924611324467,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.2397582368620805,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
+            "score": 0.2397582368620805,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8050679294373881,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2001B05 Describe the structure\nand function of voltage-gated ion channels.\nList:\n·\nStructure\n·\nFunction\n·\nVoltage cycling\nStructure:\nKey features\n·\nOften many subunits\n·\nIon channel: selective for ion",
+            "score": 0.8050679294373881,
             "start": 0,
             "end": 1400
           }

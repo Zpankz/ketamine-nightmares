@@ -2,29 +2,33 @@
   "source": "pharmacology/miscellaneous_drugs/2000A12_oxytocin.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9191646454545518
+      "primary": "mechanistic_explanation",
+      "score": 0.7332913519466231
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.6177841433829305
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "dose_response_kinetics",
-      "special_populations",
-      "haemostasis_and_transfusion"
+      "drug_receptor_disposition",
+      "special_population_role",
+      "pharmacokinetic_process",
+      "nociception_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9191646454545518,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.49495811000275425,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.9191646454545518,
+            "score": 0.49495811000275425,
             "start": 0,
             "end": 1157
           }
@@ -44,7 +48,7 @@
       },
       "comparative_analysis": {
         "score": 0.36440051098887527,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
@@ -55,12 +59,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.2667086480533769,
+        "score": 0.3183177445792676,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.2667086480533769,
+            "score": 0.3183177445792676,
             "start": 0,
             "end": 1157
           }
@@ -118,129 +122,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.888878374989243,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8867947249644124,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.888878374989243,
+            "score": 0.8867947249644124,
             "start": 0,
             "end": 1157
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.897970122007046,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.3809519972103232,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.897970122007046,
+            "score": 0.3809519972103232,
             "start": 0,
             "end": 1157
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.365894701768538,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.7683458543951072,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.365894701768538,
+            "score": 0.7683458543951072,
             "start": 0,
             "end": 1157
           }
         ]
       },
-      "special_populations": {
-        "score": 0.771544239031447,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.5863047922880293,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.771544239031447,
+            "score": 0.5863047922880293,
             "start": 0,
             "end": 1157
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.21283868086355118,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.21283868086355118,
-            "start": 0,
-            "end": 1157
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.3371729585000588,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.3371729585000588,
-            "start": 0,
-            "end": 1157
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.48925390586953826,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.48925390586953826,
-            "start": 0,
-            "end": 1157
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.504909215996539,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.504909215996539,
-            "start": 0,
-            "end": 1157
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7071294417498548,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.7071294417498548,
-            "start": 0,
-            "end": 1157
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.5609927526078617,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.5609927526078617,
-            "start": 0,
-            "end": 1157
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.21360460483229088,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
@@ -250,13 +182,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.3634055951857737,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.2530421557773242,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
-            "score": 0.3634055951857737,
+            "score": 0.2530421557773242,
+            "start": 0,
+            "end": 1157
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.7044014819049529,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
+            "score": 0.7044014819049529,
+            "start": 0,
+            "end": 1157
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.2513605397792321,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
+            "score": 0.2513605397792321,
+            "start": 0,
+            "end": 1157
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.13015328625585776,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
+            "score": 0.13015328625585776,
+            "start": 0,
+            "end": 1157
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.771544239031447,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
+            "score": 0.771544239031447,
+            "start": 0,
+            "end": 1157
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8295367351705452,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
+            "score": 0.8295367351705452,
+            "start": 0,
+            "end": 1157
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.16845675763202042,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
+            "score": 0.16845675763202042,
+            "start": 0,
+            "end": 1157
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.23528193134215322,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
+            "score": 0.23528193134215322,
+            "start": 0,
+            "end": 1157
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6714764097351272,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2000A12 Outline\nthe pharmacology of oxytocin.\nList:\n�\nPC\n�\nPK\n�\nPD\nPhysicochemical:\nStructure\n�\nNonapeptide\nEndogenous source\n�\nProduced by supra-optic and paraventricular\n  hypothalamic nuclei\n�\nRele",
+            "score": 0.6714764097351272,
             "start": 0,
             "end": 1157
           }

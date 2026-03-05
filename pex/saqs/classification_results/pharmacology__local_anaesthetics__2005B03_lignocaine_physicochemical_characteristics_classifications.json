@@ -3,26 +3,26 @@
   "summary": {
     "cognitive_domain": {
       "primary": "factual_recall",
-      "score": 0.8841573813483605
+      "score": 0.6956839729292017
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5003980552956699
     },
-    "content_dimensions": [
-      "physics_and_engineering",
-      "acid_base_and_electrolytes"
+    "content_dimensions": [],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8841573813483605,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.6956839729292017,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.8841573813483605,
+            "score": 0.6956839729292017,
             "start": 0,
             "end": 623
           }
@@ -42,7 +42,7 @@
       },
       "comparative_analysis": {
         "score": 0.23528193134215322,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
@@ -53,12 +53,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.16979284000945866,
+        "score": 0.24759886867237513,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.16979284000945866,
+            "score": 0.24759886867237513,
             "start": 0,
             "end": 623
           }
@@ -116,129 +116,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.2758799607635588,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.18561555034757704,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.2758799607635588,
+            "score": 0.18561555034757704,
             "start": 0,
             "end": 623
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.22766004724276212,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.17656868710877405,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.22766004724276212,
+            "score": 0.17656868710877405,
             "start": 0,
             "end": 623
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.13244504050607428,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.2606831439763029,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.13244504050607428,
+            "score": 0.2606831439763029,
             "start": 0,
             "end": 623
           }
         ]
       },
-      "special_populations": {
-        "score": 0.2838657351814178,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.13015328625585776,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.2838657351814178,
+            "score": 0.13015328625585776,
             "start": 0,
             "end": 623
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.17248408020698391,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.17248408020698391,
-            "start": 0,
-            "end": 623
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7699481495341085,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.7699481495341085,
-            "start": 0,
-            "end": 623
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.7084888695904968,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.7084888695904968,
-            "start": 0,
-            "end": 623
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.20827633226924755,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.20827633226924755,
-            "start": 0,
-            "end": 623
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.34323357990611997,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.34323357990611997,
-            "start": 0,
-            "end": 623
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.31502532066888583,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.31502532066888583,
-            "start": 0,
-            "end": 623
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.12958413928918883,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
@@ -248,13 +176,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.1592817529828625,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.15354696394416326,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
-            "score": 0.1592817529828625,
+            "score": 0.15354696394416326,
+            "start": 0,
+            "end": 623
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.270619815687641,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
+            "score": 0.270619815687641,
+            "start": 0,
+            "end": 623
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.3043160270707983,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
+            "score": 0.3043160270707983,
+            "start": 0,
+            "end": 623
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.19131688553747267,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
+            "score": 0.19131688553747267,
+            "start": 0,
+            "end": 623
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.2838657351814178,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
+            "score": 0.2838657351814178,
+            "start": 0,
+            "end": 623
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.12013872967712319,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
+            "score": 0.12013872967712319,
+            "start": 0,
+            "end": 623
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.15608002460238707,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
+            "score": 0.15608002460238707,
+            "start": 0,
+            "end": 623
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.2843127098628851,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
+            "score": 0.2843127098628851,
+            "start": 0,
+            "end": 623
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8575421829580605,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2005B03 Write\nbrief short notes on the physicochemical properties of lignocaine.\nStructure\n·\nLipophilic modified benzene ring, amide chain,\n  terminal amine N(C2H5)2\n·\nAchiral\n·\nMolecular weight 234g/",
+            "score": 0.8575421829580605,
             "start": 0,
             "end": 623
           }

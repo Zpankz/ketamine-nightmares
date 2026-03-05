@@ -2,8 +2,13 @@
   "source": "other/equipment/2016A01_sidestream_capnography.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8268391327129939
+      "primary": "applied_clinical",
+      "score": 0.29332437688031354,
+      "secondary": [
+        "factual_recall",
+        "comparative_analysis",
+        "quantitative_reasoning"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
@@ -13,28 +18,28 @@
       ]
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "haemostasis_and_transfusion",
-      "physics_and_engineering"
-    ]
+      "equipment_and_physics",
+      "gas_exchange_process"
+    ],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8268391327129939,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.2883510242849617,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.8268391327129939,
-            "start": 0,
-            "end": 1687
+            "text": "·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail",
+            "score": 0.2883510242849617,
+            "start": 1658,
+            "end": 1862
           },
           {
-            "text": "Lighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.471316932488949,
-            "start": 1688,
-            "end": 1862
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.22135047558413734,
+            "start": 0,
+            "end": 1657
           }
         ]
       },
@@ -58,7 +63,7 @@
       },
       "comparative_analysis": {
         "score": 0.25812280612051225,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
@@ -75,19 +80,19 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.3131507853067769,
+        "score": 0.2838657351814178,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.3131507853067769,
+            "score": 0.2838657351814178,
             "start": 0,
-            "end": 1687
+            "end": 1659
           },
           {
-            "text": "Lighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.07535307617134665,
-            "start": 1688,
+            "text": "No increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.c",
+            "score": 0.1554444021999438,
+            "start": 1660,
             "end": 1862
           }
         ]
@@ -168,189 +173,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.36415169084650634,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "mainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\na",
-            "score": 0.36415169084650634,
-            "start": 1632,
-            "end": 1862
-          },
-          {
-            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.19059863367246443,
-            "start": 0,
-            "end": 1631
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.3383815916012928,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.3383815916012928,
-            "start": 0,
-            "end": 1631
-          },
-          {
-            "text": "mainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\na",
-            "score": 0.20006027090401593,
-            "start": 1632,
-            "end": 1862
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.15228985226789557,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.15228985226789557,
-            "start": 0,
-            "end": 1652
-          },
-          {
-            "text": "Pros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@",
-            "score": 0.11851662443329414,
-            "start": 1653,
-            "end": 1862
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.2197887268753907,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.2197887268753907,
-            "start": 0,
-            "end": 1631
-          },
-          {
-            "text": "mainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\na",
-            "score": 0.188453451539788,
-            "start": 1632,
-            "end": 1862
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.4036383850780438,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "No increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.c",
-            "score": 0.4036383850780438,
-            "start": 1660,
-            "end": 1862
-          },
-          {
-            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.13887320349804264,
-            "start": 0,
-            "end": 1659
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.6201843214636348,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.6201843214636348,
-            "start": 0,
-            "end": 1652
-          },
-          {
-            "text": "Pros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@",
-            "score": 0.4111104502865554,
-            "start": 1653,
-            "end": 1862
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.30895152063147,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "mainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\na",
-            "score": 0.30895152063147,
-            "start": 1632,
-            "end": 1862
-          },
-          {
-            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.10702368540104822,
-            "start": 0,
-            "end": 1631
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.2197887268753907,
-        "description": "ANS physiology and pharmacology",
+      "drug_receptor_disposition": {
+        "score": 0.23731085714042086,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Compared to\nmainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedba",
-            "score": 0.2197887268753907,
+            "score": 0.23731085714042086,
             "start": 1620,
             "end": 1862
           },
           {
             "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.08653659094165504,
+            "score": 0.10153827963475912,
             "start": 0,
             "end": 1619
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.6341052982314621,
-        "description": "Coagulation, bleeding, and transfusion",
+      "autonomic_disposition": {
+        "score": 0.299713016871073,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Compared to\nmainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedba",
-            "score": 0.6341052982314621,
-            "start": 1620,
+            "text": "  asthma\nCompared to\nmainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to lea",
+            "score": 0.299713016871073,
+            "start": 1611,
             "end": 1862
           },
           {
             "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.17932362625190623,
+            "score": 0.09717688216482506,
             "start": 0,
-            "end": 1619
+            "end": 1610
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.10351313129730201,
-        "description": "Pain physiology and analgesic pharmacology",
+      "pharmacokinetic_process": {
+        "score": 0.10252288453633593,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "mainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\na",
-            "score": 0.10351313129730201,
-            "start": 1632,
+            "text": "·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.10252288453633593,
+            "start": 1686,
             "end": 1862
           },
           {
             "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.07701695100571836,
+            "score": 0.09107466708246154,
             "start": 0,
-            "end": 1631
+            "end": 1685
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "organ_system_process": {
+        "score": 0.12177417567627631,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.12177417567627631,
+            "start": 0,
+            "end": 1657
+          },
+          {
+            "text": "·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail",
+            "score": 0.10500911959371668,
+            "start": 1658,
+            "end": 1862
+          }
+        ]
+      },
+      "gas_exchange_process": {
         "score": 0.8407182470171375,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Compared to\nmainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedba",
@@ -366,21 +263,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.3809519972103232,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.2159118422576255,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Underreads if plateau not reached e.g .severe\n  asthma\nCompared to\nmainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer respo",
-            "score": 0.3809519972103232,
-            "start": 1565,
+            "text": "Compared to\nmainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedba",
+            "score": 0.2159118422576255,
+            "start": 1620,
             "end": 1862
           },
           {
             "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
-            "score": 0.0812660655061236,
+            "score": 0.09292765927996026,
             "start": 0,
-            "end": 1564
+            "end": 1619
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.14065856668448176,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "mainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\na",
+            "score": 0.14065856668448176,
+            "start": 1632,
+            "end": 1862
+          },
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.08698437799387108,
+            "start": 0,
+            "end": 1631
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.40646835814866783,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail",
+            "score": 0.40646835814866783,
+            "start": 1658,
+            "end": 1862
+          },
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.12620097548419282,
+            "start": 0,
+            "end": 1657
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9004140778741629,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.9004140778741629,
+            "start": 0,
+            "end": 1659
+          },
+          {
+            "text": "No increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.c",
+            "score": 0.38196297726998507,
+            "start": 1660,
+            "end": 1862
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.2197887268753907,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.2197887268753907,
+            "start": 0,
+            "end": 1631
+          },
+          {
+            "text": "mainstream analyser:\nPros\n·\nNo increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\na",
+            "score": 0.188453451539788,
+            "start": 1632,
+            "end": 1862
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.15799633458154788,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.15799633458154788,
+            "start": 0,
+            "end": 1687
+          },
+          {
+            "text": "Lighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.11531222505249526,
+            "start": 1688,
+            "end": 1862
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.1278857710804513,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.1278857710804513,
+            "start": 0,
+            "end": 1685
+          },
+          {
+            "text": "·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.11320527503558757,
+            "start": 1686,
+            "end": 1862
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.26454846377751634,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "No increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.c",
+            "score": 0.26454846377751634,
+            "start": 1660,
+            "end": 1862
+          },
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.10450903806925663,
+            "start": 0,
+            "end": 1659
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.15671722015798292,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "No increase in dead space\n·\nLighter\n·\nRemote monitoring easier\nCons\n·\nLonger transit time -> longer response time\n·\nProne to obstruction\n·\nProne to leaks\nFeedback welcome\nat\nketaminenightmares@gmail.c",
+            "score": 0.15671722015798292,
+            "start": 1660,
+            "end": 1862
+          },
+          {
+            "text": "2016A01 Discuss\nthe physical principles and equipment used for measurement of\nexhaled carbon dioxide by infrared analysis using sidestream sampling.\nOutline the potential sources of error.\nList:\n·\nPri",
+            "score": 0.08387768404930426,
+            "start": 0,
+            "end": 1659
           }
         ]
       }

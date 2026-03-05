@@ -2,11 +2,8 @@
   "source": "physiology/respiratory/2011A13_work_of_breathing.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9200221829443763,
-      "secondary": [
-        "quantitative_reasoning"
-      ]
+      "primary": "quantitative_reasoning",
+      "score": 0.8079632672732063
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -16,27 +13,32 @@
       ]
     },
     "content_dimensions": [
-      "physics_and_engineering",
-      "respiratory_gas_exchange",
-      "organ_system_effects"
+      "organ_system_process",
+      "equipment_and_physics",
+      "gas_exchange_process",
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9200221829443763,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.3744019965852152,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.9200221829443763,
+            "score": 0.3744019965852152,
             "start": 0,
-            "end": 1536
+            "end": 1508
           },
           {
-            "text": "5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Most important factor since rai",
-            "score": 0.9037770228951163,
-            "start": 1537,
+            "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
+            "score": 0.22686588955665188,
+            "start": 1509,
             "end": 2520
           }
         ]
@@ -61,7 +63,7 @@
       },
       "comparative_analysis": {
         "score": 0.27236747782775833,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
@@ -78,20 +80,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.8322089010665819,
+        "score": 0.8079632672732063,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Most important factor since raise",
-            "score": 0.8322089010665819,
-            "start": 1539,
+            "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
+            "score": 0.8079632672732063,
+            "start": 1509,
             "end": 2520
           },
           {
             "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.7477994009847582,
+            "score": 0.7332913519466231,
             "start": 0,
-            "end": 1538
+            "end": 1508
           }
         ]
       },
@@ -171,189 +173,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.2928705582501452,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.14917447507309806,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*M",
-            "score": 0.2928705582501452,
-            "start": 1507,
+            "text": "-P\n2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway rad",
+            "score": 0.14917447507309806,
+            "start": 1500,
             "end": 2520
           },
           {
             "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.16187153020170925,
+            "score": 0.13302177898555526,
             "start": 0,
-            "end": 1506
+            "end": 1499
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.5128680513973785,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.13651425394654748,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": ")\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n",
-            "score": 0.5128680513973785,
-            "start": 1505,
-            "end": 2520
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.13651425394654748,
+            "start": 0,
+            "end": 1462
           },
           {
-            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.3422609670740562,
-            "start": 0,
-            "end": 1504
+            "text": "Large airways: turbulent flow � (P\n1\n-P\n2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariabl",
+            "score": 0.08300191741623564,
+            "start": 1463,
+            "end": 2520
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.7116489757150383,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.08609013263273645,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*M",
-            "score": 0.7116489757150383,
-            "start": 1507,
-            "end": 2520
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.08609013263273645,
+            "start": 0,
+            "end": 1508
           },
           {
-            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.45250615696564933,
-            "start": 0,
-            "end": 1506
+            "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
+            "score": 0.08520119218170379,
+            "start": 1509,
+            "end": 2520
           }
         ]
       },
-      "special_populations": {
-        "score": 0.5770972927025286,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": ")\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n",
-            "score": 0.5770972927025286,
-            "start": 1505,
-            "end": 2520
-          },
-          {
-            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.12342301400327828,
-            "start": 0,
-            "end": 1504
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.5561896738764145,
-        "description": "Clinical measurement and monitoring",
+      "organ_system_process": {
+        "score": 0.7848588134661199,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
-            "score": 0.5561896738764145,
+            "score": 0.7848588134661199,
             "start": 1509,
             "end": 2520
           },
           {
             "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.367640655259842,
+            "score": 0.5601573932707737,
             "start": 0,
             "end": 1508
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.777866298836103,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*M",
-            "score": 0.777866298836103,
-            "start": 1507,
-            "end": 2520
-          },
-          {
-            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.755719170496192,
-            "start": 0,
-            "end": 1506
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.12232229789744709,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.12232229789744709,
-            "start": 0,
-            "end": 1502
-          },
-          {
-            "text": "2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius",
-            "score": 0.12013872967712319,
-            "start": 1503,
-            "end": 2520
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.10753089785761477,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.10753089785761477,
-            "start": 0,
-            "end": 1497
-          },
-          {
-            "text": "1\n-P\n2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway r",
-            "score": 0.08653659094165504,
-            "start": 1498,
-            "end": 2520
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.38576174040624345,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "1\n-P\n2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway r",
-            "score": 0.38576174040624345,
-            "start": 1498,
-            "end": 2520
-          },
-          {
-            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.35007225733337183,
-            "start": 0,
-            "end": 1497
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.15863825532763226,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.15863825532763226,
-            "start": 0,
-            "end": 1504
-          },
-          {
-            "text": ")\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n",
-            "score": 0.0952745927410768,
-            "start": 1505,
-            "end": 2520
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.7271947106359709,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "-P\n2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway rad",
@@ -369,21 +263,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.225282248199159,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.20827633226924755,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
-            "score": 0.225282248199159,
+            "score": 0.20827633226924755,
             "start": 0,
-            "end": 1462
+            "end": 1497
           },
           {
-            "text": "Large airways: turbulent flow � (P\n1\n-P\n2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariabl",
-            "score": 0.12177417567627631,
-            "start": 1463,
+            "text": "1\n-P\n2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway r",
+            "score": 0.1718088844227446,
+            "start": 1498,
             "end": 2520
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.18491006489830478,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.18491006489830478,
+            "start": 0,
+            "end": 1502
+          },
+          {
+            "text": "2\n)\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius",
+            "score": 0.11425582926127191,
+            "start": 1503,
+            "end": 2520
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.6116992208677767,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
+            "score": 0.6116992208677767,
+            "start": 1509,
+            "end": 2520
+          },
+          {
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.2955985180950471,
+            "start": 0,
+            "end": 1508
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7302518595070161,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
+            "score": 0.7302518595070161,
+            "start": 1509,
+            "end": 2520
+          },
+          {
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.581123357338442,
+            "start": 0,
+            "end": 1508
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.5722806976600858,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": ")\n∝\n(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n",
+            "score": 0.5722806976600858,
+            "start": 1505,
+            "end": 2520
+          },
+          {
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.12232229789744709,
+            "start": 0,
+            "end": 1504
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5654920148187637,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.5654920148187637,
+            "start": 0,
+            "end": 1536
+          },
+          {
+            "text": "5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Most important factor since rai",
+            "score": 0.26111115675759133,
+            "start": 1537,
+            "end": 2520
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.29879635968537094,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.29879635968537094,
+            "start": 0,
+            "end": 1536
+          },
+          {
+            "text": "5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Most important factor since rai",
+            "score": 0.18140657479987835,
+            "start": 1537,
+            "end": 2520
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.6348526651679158,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
+            "score": 0.6348526651679158,
+            "start": 1509,
+            "end": 2520
+          },
+          {
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.35696271260294926,
+            "start": 0,
+            "end": 1508
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7016614724149135,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "(density x length) / radius\n5\n�\nSmall airways: laminar flow � R = (8 x length\n  x viscosity) / (\nπ\nx\n  radius\n4\n)\n�\nMedium size: transitional flow\nVariables: factors ↑resistance\n�\n↓Airway radius:\n*Mos",
+            "score": 0.7016614724149135,
+            "start": 1509,
+            "end": 2520
+          },
+          {
+            "text": "2011A13 Describe\nthe determinants of work of breathing in an adult human at rest.\nList:\n�\nIntro\n�\nGraph\n�\nElastic forces\n�\nInelastic forces\n�\nFrequency dependence\nIntro:\nDefinition\n�\nAmount of energy ",
+            "score": 0.37817628036196194,
+            "start": 0,
+            "end": 1508
           }
         ]
       }

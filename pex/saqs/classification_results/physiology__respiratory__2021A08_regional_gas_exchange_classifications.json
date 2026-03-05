@@ -2,8 +2,8 @@
   "source": "physiology/respiratory/2021A08_regional_gas_exchange.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8451896480365693
+      "primary": "quantitative_reasoning",
+      "score": 0.709393459929061
     },
     "clinical_relevance": {
       "primary": "integrative",
@@ -13,19 +13,20 @@
       ]
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "physics_and_engineering"
-    ]
+      "gas_exchange_process",
+      "equipment_and_physics"
+    ],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8451896480365693,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.15354696394416326,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.8451896480365693,
+            "score": 0.15354696394416326,
             "start": 0,
             "end": 1293
           }
@@ -45,7 +46,7 @@
       },
       "comparative_analysis": {
         "score": 0.19565989102814468,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
@@ -56,12 +57,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.645996552152617,
+        "score": 0.709393459929061,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.645996552152617,
+            "score": 0.709393459929061,
             "start": 0,
             "end": 1293
           }
@@ -119,129 +120,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.47348404518234793,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.11637447875983453,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.47348404518234793,
+            "score": 0.11637447875983453,
             "start": 0,
             "end": 1293
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.25557578676432086,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.09765591089184561,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.25557578676432086,
+            "score": 0.09765591089184561,
             "start": 0,
             "end": 1293
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.2798586332660812,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.08564500055265845,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.2798586332660812,
+            "score": 0.08564500055265845,
             "start": 0,
             "end": 1293
           }
         ]
       },
-      "special_populations": {
-        "score": 0.10551062286445975,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.2758799607635588,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.10551062286445975,
+            "score": 0.2758799607635588,
             "start": 0,
             "end": 1293
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.18210408151009452,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.18210408151009452,
-            "start": 0,
-            "end": 1293
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.610046103562103,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.610046103562103,
-            "start": 0,
-            "end": 1293
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.14245781704193952,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.14245781704193952,
-            "start": 0,
-            "end": 1293
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.08878886373592071,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.08878886373592071,
-            "start": 0,
-            "end": 1293
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.27632062191629214,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.27632062191629214,
-            "start": 0,
-            "end": 1293
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.10957409746514832,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.10957409746514832,
-            "start": 0,
-            "end": 1293
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8593414333155183,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
@@ -251,13 +180,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.09622297710488378,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.09910133017588658,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
-            "score": 0.09622297710488378,
+            "score": 0.09910133017588658,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.14793926113385975,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
+            "score": 0.14793926113385975,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.35597526739007457,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
+            "score": 0.35597526739007457,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7894496120499562,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
+            "score": 0.7894496120499562,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.10551062286445975,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
+            "score": 0.10551062286445975,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3510534842604531,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
+            "score": 0.3510534842604531,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.14671028264551744,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
+            "score": 0.14671028264551744,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.4677952889328219,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
+            "score": 0.4677952889328219,
+            "start": 0,
+            "end": 1293
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.17932362625190623,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2021A08 Describe the V/Q ratio at the apex\nand base of the upright lung.\nHow does this affect regional gas exchange?\nGraphs:\n---------------------------------------------------------------------------",
+            "score": 0.17932362625190623,
             "start": 0,
             "end": 1293
           }

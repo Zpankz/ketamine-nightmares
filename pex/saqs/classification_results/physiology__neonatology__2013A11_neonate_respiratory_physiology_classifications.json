@@ -2,10 +2,11 @@
   "source": "physiology/neonatology/2013A11_neonate_respiratory_physiology.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9372453047929752,
+      "primary": "comparative_analysis",
+      "score": 0.8171968162419349,
       "secondary": [
-        "comparative_analysis"
+        "quantitative_reasoning",
+        "applied_clinical"
       ]
     },
     "clinical_relevance": {
@@ -17,41 +18,42 @@
       ]
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "dose_response_kinetics",
-      "special_populations",
-      "organ_system_effects",
-      "haemostasis_and_transfusion",
-      "physics_and_engineering",
-      "receptor_pharmacology",
-      "monitoring_and_measurement",
-      "acid_base_and_electrolytes",
-      "neuromuscular_and_cns"
+      "gas_exchange_process",
+      "organ_system_process",
+      "special_population_role",
+      "equipment_and_physics",
+      "pharmacokinetic_process"
+    ],
+    "explanatory_schema": [
+      "dose_response_relationship",
+      "structure_function_link",
+      "mechanism_effect_relevance",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9372453047929752,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.2300518504658915,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.9372453047929752,
-            "start": 0,
-            "end": 1439
+            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
+            "score": 0.2300518504658915,
+            "start": 3785,
+            "end": 4011
           },
           {
-            "text": "↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*Note FRC < closing capacity in neonates\n�\nGa",
-            "score": 0.9139098673672634,
-            "start": 1440,
-            "end": 2702
+            "text": "Intercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*",
+            "score": 0.11320527503558764,
+            "start": 1396,
+            "end": 2611
           },
           {
-            "text": "(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 neonate (due",
-            "score": 0.9056682900229793,
-            "start": 2703,
-            "end": 3900
+            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
+            "score": 0.08788394835920721,
+            "start": 2612,
+            "end": 3784
           }
         ]
       },
@@ -80,20 +82,20 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.8782258243237235,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.8171968162419349,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
-            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.8782258243237235,
-            "start": 0,
-            "end": 1439
-          },
-          {
             "text": "(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 neonate (due",
-            "score": 0.850825524926902,
+            "score": 0.8171968162419349,
             "start": 2703,
             "end": 3900
+          },
+          {
+            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
+            "score": 0.7909672325033913,
+            "start": 0,
+            "end": 1439
           },
           {
             "text": "↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*Note FRC < closing capacity in neonates\n�\nGa",
@@ -104,26 +106,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.6662017813224378,
+        "score": 0.7280699757014175,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 neonate (due to FRC",
-            "score": 0.6662017813224378,
-            "start": 2710,
-            "end": 3962
+            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
+            "score": 0.7280699757014175,
+            "start": 2612,
+            "end": 3784
           },
           {
-            "text": "�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*Note FRC < closing capacity in neonates\n�\nGas trapping",
-            "score": 0.47100269272877016,
-            "start": 1450,
-            "end": 2709
+            "text": "Intercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*",
+            "score": 0.7210279840445749,
+            "start": 1396,
+            "end": 2611
           },
           {
-            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.24968492344749585,
-            "start": 0,
-            "end": 1449
+            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
+            "score": 0.4941620791726689,
+            "start": 3785,
+            "end": 4011
           }
         ]
       },
@@ -227,249 +229,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.898461720365241,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.3847475768790141,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
-            "score": 0.898461720365241,
-            "start": 2612,
-            "end": 3784
-          },
-          {
             "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
-            "score": 0.8308759955364141,
+            "score": 0.3847475768790141,
             "start": 3785,
             "end": 4011
           },
           {
-            "text": "Intercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*",
-            "score": 0.81296869091619,
-            "start": 1396,
-            "end": 2611
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.7289438071628661,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.7289438071628661,
-            "start": 0,
-            "end": 1395
-          },
-          {
             "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
-            "score": 0.7053121460285681,
+            "score": 0.2022819500518595,
             "start": 2612,
             "end": 3784
           },
           {
-            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
-            "score": 0.576317041307059,
-            "start": 3785,
-            "end": 4011
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.8520607388661402,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
-            "score": 0.8520607388661402,
-            "start": 2612,
-            "end": 3784
-          },
-          {
-            "text": "Intercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*",
-            "score": 0.6584677696173781,
-            "start": 1396,
-            "end": 2611
-          },
-          {
             "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.5756015287432772,
+            "score": 0.13129612675432087,
             "start": 0,
             "end": 1395
           }
         ]
       },
-      "special_populations": {
-        "score": 0.8929763145989518,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "autonomic_disposition": {
+        "score": 0.3754072391217847,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
-            "score": 0.8929763145989518,
-            "start": 2612,
-            "end": 3784
-          },
-          {
-            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
-            "score": 0.8628983115034754,
-            "start": 3785,
+            "text": "Adaptive immunity: passive (from breast milk)\n  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal c",
+            "score": 0.3754072391217847,
+            "start": 3739,
             "end": 4011
           },
           {
+            "text": "↑Work of breathing\n�\n↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desatu",
+            "score": 0.15863825532763226,
+            "start": 2591,
+            "end": 3738
+          },
+          {
             "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.842003665418452,
+            "score": 0.1100884956529356,
             "start": 0,
-            "end": 1395
+            "end": 1393
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.6984497113177436,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.6769526811360784,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
+          {
+            "text": "(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 neonate (due",
+            "score": 0.6769526811360784,
+            "start": 2703,
+            "end": 3900
+          },
           {
             "text": "  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nketaminenightmares@gmail.com",
-            "score": 0.6984497113177436,
+            "score": 0.28655277316211425,
             "start": 3901,
             "end": 4011
           },
           {
-            "text": "Implication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 ",
-            "score": 0.6938336432464807,
-            "start": 2691,
-            "end": 3900
-          },
-          {
-            "text": "↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*Note FRC < closing capacity in neonates\n�\nGa",
-            "score": 0.684505264182439,
-            "start": 1440,
-            "end": 2690
+            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
+            "score": 0.0733016050091523,
+            "start": 0,
+            "end": 1439
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.7528172106649723,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.913015622006129,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
-            "score": 0.7528172106649723,
+            "score": 0.913015622006129,
             "start": 2612,
             "end": 3784
           },
           {
-            "text": "Intercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*",
-            "score": 0.6240898014780455,
-            "start": 1396,
-            "end": 2611
-          },
-          {
-            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
-            "score": 0.5681709225557945,
-            "start": 3785,
-            "end": 4011
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.6553054466222459,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
-            "score": 0.6553054466222459,
-            "start": 3785,
-            "end": 4011
-          },
-          {
-            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
-            "score": 0.3052405443745728,
-            "start": 2612,
-            "end": 3784
+            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
+            "score": 0.8028796869588828,
+            "start": 0,
+            "end": 1395
           },
           {
             "text": "Intercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*",
-            "score": 0.13887320349804264,
+            "score": 0.8006771067571272,
             "start": 1396,
             "end": 2611
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.28655277316211425,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
-            "score": 0.28655277316211425,
-            "start": 3785,
-            "end": 4011
-          },
-          {
-            "text": "�\n↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic n",
-            "score": 0.09339430960340468,
-            "start": 2610,
-            "end": 3784
-          },
-          {
-            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.08564500055265845,
-            "start": 0,
-            "end": 1395
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8355133944044236,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "�\n↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic n",
-            "score": 0.8355133944044236,
-            "start": 2610,
-            "end": 3784
-          },
-          {
-            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
-            "score": 0.7388888432424087,
-            "start": 3785,
-            "end": 4011
-          },
-          {
-            "text": "Intercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*",
-            "score": 0.6328584869118477,
-            "start": 1396,
-            "end": 2609
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.4674978054054969,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
-            "score": 0.4674978054054969,
-            "start": 2612,
-            "end": 3784
-          },
-          {
-            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
-            "score": 0.42680714329676894,
-            "start": 3785,
-            "end": 4011
-          },
-          {
-            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.22686588955665188,
-            "start": 0,
-            "end": 1395
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.9711204467711938,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
@@ -491,27 +349,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.6338560556842108,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.542373065964874,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Due to 2x ↑VO\n2\n(7-8mL/kg/min)\n�\n↑Work of breathing\n�\n↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/k",
-            "score": 0.6338560556842108,
-            "start": 2558,
-            "end": 3661
+            "text": "�\n↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic n",
+            "score": 0.542373065964874,
+            "start": 2610,
+            "end": 3784
           },
           {
             "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
-            "score": 0.27897201595542515,
+            "score": 0.27193002429858243,
             "start": 0,
-            "end": 1354
+            "end": 1395
           },
           {
-            "text": "Diaphragm: 20% diaphragm cf. 55% adult\n�\nIntercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg ",
-            "score": 0.21514118653388012,
-            "start": 1355,
-            "end": 2557
+            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
+            "score": 0.2598282226097282,
+            "start": 3785,
+            "end": 4011
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.5005307403204127,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
+            "score": 0.5005307403204127,
+            "start": 3785,
+            "end": 4011
+          },
+          {
+            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
+            "score": 0.4342464839260365,
+            "start": 2612,
+            "end": 3784
+          },
+          {
+            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
+            "score": 0.20153979982073553,
+            "start": 0,
+            "end": 1395
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.547430063830359,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
+            "score": 0.547430063830359,
+            "start": 2612,
+            "end": 3784
+          },
+          {
+            "text": "Intercostals: 45% diaphragm cf. 65% adult\n�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*",
+            "score": 0.4077564496078882,
+            "start": 1396,
+            "end": 2611
+          },
+          {
+            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
+            "score": 0.24635176452375257,
+            "start": 0,
+            "end": 1395
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8825573934438159,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*Note FRC < closing capacity in neonates\n�\nGa",
+            "score": 0.8825573934438159,
+            "start": 1440,
+            "end": 2702
+          },
+          {
+            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
+            "score": 0.8715496165777917,
+            "start": 0,
+            "end": 1439
+          },
+          {
+            "text": "(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 neonate (due",
+            "score": 0.8394265174382769,
+            "start": 2703,
+            "end": 3900
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8929763145989518,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "↑Cardiac output 140mL/kg/min\n�\n↑pulmonary blood flow\nGas exchange:\nDifference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neo",
+            "score": 0.8929763145989518,
+            "start": 2612,
+            "end": 3784
+          },
+          {
+            "text": "  vs endogenous. No endogenous IgG or IgA in neonatal alveolar lining fluid\nResponse to stress\n�\n↓PaO\n2\n, ↑PaCO\n2\n,\n  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nke",
+            "score": 0.8628983115034754,
+            "start": 3785,
+            "end": 4011
+          },
+          {
+            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
+            "score": 0.842003665418452,
+            "start": 0,
+            "end": 1395
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7324247348287793,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 neonate (due",
+            "score": 0.7324247348287793,
+            "start": 2703,
+            "end": 3900
+          },
+          {
+            "text": "  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.4940294097109162,
+            "start": 3901,
+            "end": 4011
+          },
+          {
+            "text": "↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*Note FRC < closing capacity in neonates\n�\nGa",
+            "score": 0.3964594578248306,
+            "start": 1440,
+            "end": 2702
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.8295367351705452,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 neonate (due",
+            "score": 0.8295367351705452,
+            "start": 2703,
+            "end": 3900
+          },
+          {
+            "text": "↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*Note FRC < closing capacity in neonates\n�\nGa",
+            "score": 0.4925700960793633,
+            "start": 1440,
+            "end": 2702
+          },
+          {
+            "text": "  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.2488493710543425,
+            "start": 3901,
+            "end": 4011
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.651152789517968,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.651152789517968,
+            "start": 3901,
+            "end": 4011
+          },
+          {
+            "text": "Difference:\nImplication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mi",
+            "score": 0.5719548257998841,
+            "start": 2679,
+            "end": 3900
+          },
+          {
+            "text": "�\n↓ reserve\n�\n↑ risk type 2 respiratory failure\nLung volumes:\nVolume\nImplication\n�\nV\nT\n7mL/kg in both\n�\nV\nD\n2.2mL/kg in both\n�\nFRC 30mL/kg supine in both.\n�\n*Note FRC < closing capacity in neonates\n�\n",
+            "score": 0.5465905251875056,
+            "start": 1438,
+            "end": 2678
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7679443124825029,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2013A11 Compare\nand contrast lung function in the neonate with that of an adult\nList:\n�\nDefinitions\n�\nAnatomy\n�\nLung volumes\n�\nResistance and compliance\n�\nVentilation and perfusion\n�\nGas exchange\n�\nCo",
+            "score": 0.7679443124825029,
+            "start": 0,
+            "end": 1439
+          },
+          {
+            "text": "Implication\n(1)↑ O\n2\nconsumption:\n7-8mL/kg/min in neonates, 3-4mL/kg/min in in adults\n�\nRapid desaturation in apnoeic neonates\n(2)↓ PaO\n2\n: 50-70mmHg neonate, 100mmHg adult\nDue to:\n�\nVQ mismatch: 0.4 ",
+            "score": 0.6004682867934061,
+            "start": 2691,
+            "end": 3900
+          },
+          {
+            "text": "  ↓pH -> ↑PVR -> reversion to foetal circulation ->\n  hypoxia\nFeedback welcome\nat\nketaminenightmares@gmail.com",
+            "score": 0.3066297472364717,
+            "start": 3901,
+            "end": 4011
           }
         ]
       }

@@ -2,8 +2,11 @@
   "source": "physiology/thermoregulation/2018A14_mechanisms_of_heat_transfer.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9391027295784851
+      "primary": "quantitative_reasoning",
+      "score": 0.7062214672949156,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,33 +16,37 @@
       ]
     },
     "content_dimensions": [
-      "neuromuscular_and_cns",
-      "physics_and_engineering",
-      "monitoring_and_measurement",
-      "receptor_pharmacology",
-      "haemostasis_and_transfusion",
-      "pain_and_analgesia",
-      "special_populations",
-      "respiratory_gas_exchange"
+      "equipment_and_physics",
+      "neuromuscular_process",
+      "acid_base_quality",
+      "autonomic_disposition",
+      "special_population_role",
+      "gas_exchange_process",
+      "nociception_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9391027295784851,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.22135047558413734,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.9391027295784851,
-            "start": 0,
-            "end": 1526
-          },
-          {
             "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.8709834944174346,
+            "score": 0.22135047558413734,
             "start": 1527,
             "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.1485560880659056,
+            "start": 0,
+            "end": 1526
           }
         ]
       },
@@ -63,7 +70,7 @@
       },
       "comparative_analysis": {
         "score": 0.5254569010177436,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
@@ -80,18 +87,18 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.5028527039296564,
+        "score": 0.7062214672949156,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.5028527039296564,
+            "score": 0.7062214672949156,
             "start": 1527,
             "end": 2928
           },
           {
             "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.4618185893891422,
+            "score": 0.5376223046471302,
             "start": 0,
             "end": 1526
           }
@@ -173,189 +180,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.5423895507457053,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.34909208721121826,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "·\nVasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventila",
+            "score": 0.34909208721121826,
+            "start": 1525,
+            "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.19275817505115483,
+            "start": 0,
+            "end": 1524
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.7515678401857883,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "Does not require temperature gradient\nReduce loss\n·\nVasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air i",
+            "score": 0.7515678401857883,
+            "start": 1475,
+            "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.29833852758508644,
+            "start": 0,
+            "end": 1474
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.43124146999960167,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.5423895507457053,
+            "score": 0.43124146999960167,
             "start": 1527,
             "end": 2928
           },
           {
             "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.14185652155095707,
+            "score": 0.07870118319334535,
             "start": 0,
             "end": 1526
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.7774740987934978,
-        "description": "Receptor mechanisms and ligand interactions",
+      "organ_system_process": {
+        "score": 0.4495264939656202,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.7774740987934978,
+            "score": 0.4495264939656202,
             "start": 1527,
             "end": 2928
           },
           {
             "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.6218237196380381,
+            "score": 0.1599268284374202,
             "start": 0,
             "end": 1526
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.44180928673345055,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.44180928673345055,
-            "start": 1527,
-            "end": 2928
-          },
-          {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.16845675763202042,
-            "start": 0,
-            "end": 1526
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.7306871567814641,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.7306871567814641,
-            "start": 1527,
-            "end": 2928
-          },
-          {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.570063737608351,
-            "start": 0,
-            "end": 1526
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.8164961183273113,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.8164961183273113,
-            "start": 1527,
-            "end": 2928
-          },
-          {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.7743224261658384,
-            "start": 0,
-            "end": 1526
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.8335354564972123,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.8335354564972123,
-            "start": 0,
-            "end": 1526
-          },
-          {
-            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.8288647205382538,
-            "start": 1527,
-            "end": 2928
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.23568694716034655,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.23568694716034655,
-            "start": 1527,
-            "end": 2928
-          },
-          {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.16646454350278764,
-            "start": 0,
-            "end": 1526
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.5324030355816044,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "Reduce loss\n·\nVasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nmi",
-            "score": 0.5324030355816044,
-            "start": 1513,
-            "end": 2928
-          },
-          {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.22291849253518664,
-            "start": 0,
-            "end": 1512
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7590129055214236,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Reduce loss\n·\nVasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nmi",
-            "score": 0.7590129055214236,
-            "start": 1513,
-            "end": 2928
-          },
-          {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.5991862030712901,
-            "start": 0,
-            "end": 1512
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.7410252242365195,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.7410252242365195,
-            "start": 0,
-            "end": 1526
-          },
-          {
-            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
-            "score": 0.7111985556060637,
-            "start": 1527,
-            "end": 2928
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.7276325221722416,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "·\nVasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventila",
@@ -371,21 +270,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8458221271134265,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8348556669051774,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
-            "score": 0.8458221271134265,
+            "score": 0.8348556669051774,
             "start": 0,
-            "end": 1474
+            "end": 1512
           },
           {
-            "text": "Does not require temperature gradient\nReduce loss\n·\nVasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air i",
-            "score": 0.7883072437704659,
-            "start": 1475,
+            "text": "Reduce loss\n·\nVasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nmi",
+            "score": 0.7962289807006788,
+            "start": 1513,
             "end": 2928
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.6783747494395066,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.6783747494395066,
+            "start": 0,
+            "end": 1526
+          },
+          {
+            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
+            "score": 0.6587105436850295,
+            "start": 1527,
+            "end": 2928
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.7695481570317122,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
+            "score": 0.7695481570317122,
+            "start": 1527,
+            "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.30063099459107706,
+            "start": 0,
+            "end": 1526
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9420142624787222,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
+            "score": 0.9420142624787222,
+            "start": 1527,
+            "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.9361167513561149,
+            "start": 0,
+            "end": 1526
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.7306871567814641,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
+            "score": 0.7306871567814641,
+            "start": 1527,
+            "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.570063737608351,
+            "start": 0,
+            "end": 1526
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8394265174382769,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.8394265174382769,
+            "start": 0,
+            "end": 1526
+          },
+          {
+            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
+            "score": 0.8036106946982671,
+            "start": 1527,
+            "end": 2928
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.42713286645586285,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
+            "score": 0.42713286645586285,
+            "start": 1527,
+            "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.3350018783331657,
+            "start": 0,
+            "end": 1526
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7293801843123591,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
+            "score": 0.7293801843123591,
+            "start": 1527,
+            "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.6013650579527494,
+            "start": 0,
+            "end": 1526
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.755719170496192,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Vasoconstriction -> ↓skin temp (impaired under GA)\n·\n↑Relative ambient humidity\nIncrease gain\n·\nCannot!\nRespiration 10%:\nMechanism\n·\nCool, dry air inspired, warm moist air expired\n·\n∝\nminute ventilati",
+            "score": 0.755719170496192,
+            "start": 1527,
+            "end": 2928
+          },
+          {
+            "text": "2018A14 Describe\nthe mechanisms by which heat is transferred between the body and its\nenvironment (30%).\nDescribe methods by which body heat may be conserved under anaesthesia (70%).\nList:\n·\nDefinitio",
+            "score": 0.3604267300934169,
+            "start": 0,
+            "end": 1526
           }
         ]
       }

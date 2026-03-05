@@ -2,8 +2,8 @@
   "source": "pharmacology/pharmacokinetics/2017A04_cyp2d6.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8883596395623885
+      "primary": "comparative_analysis",
+      "score": 0.6288587440537546
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,26 +13,28 @@
       ]
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "receptor_pharmacology"
+      "drug_receptor_disposition"
+    ],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8883596395623885,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.3052405443745728,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.8883596395623885,
+            "score": 0.3052405443745728,
             "start": 0,
-            "end": 1227
+            "end": 1175
           },
           {
-            "text": "increased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Duration\n�\ne.g. ",
-            "score": 0.8663999592903133,
-            "start": 1228,
+            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
+            "score": 0.25982822260972827,
+            "start": 1176,
             "end": 1723
           }
         ]
@@ -57,7 +59,7 @@
       },
       "comparative_analysis": {
         "score": 0.6288587440537546,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "increased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Duration\n�\ne.g. ",
@@ -74,20 +76,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.24593681960249583,
+        "score": 0.46989474067300724,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.24593681960249583,
-            "start": 0,
-            "end": 1247
+            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
+            "score": 0.46989474067300724,
+            "start": 1176,
+            "end": 1723
           },
           {
-            "text": "Drug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Duration\n�\ne.g. clonidine effective ",
-            "score": 0.2397582368620805,
-            "start": 1248,
-            "end": 1723
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.25472975212894494,
+            "start": 0,
+            "end": 1175
           }
         ]
       },
@@ -167,189 +169,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7766885250141251,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.7766885250141251,
-            "start": 1176,
-            "end": 1723
-          },
-          {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.25940131470313366,
-            "start": 0,
-            "end": 1175
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.6762406276053945,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.6762406276053945,
-            "start": 1176,
-            "end": 1723
-          },
-          {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.5681709225557945,
-            "start": 0,
-            "end": 1175
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.15291762409217716,
-        "description": "Multi-organ or systems-level effects",
+      "drug_receptor_disposition": {
+        "score": 0.7080360654714698,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.15291762409217716,
+            "score": 0.7080360654714698,
             "start": 0,
             "end": 1175
           },
           {
             "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.13592835209685608,
+            "score": 0.4357505343846356,
             "start": 1176,
             "end": 1723
           }
         ]
       },
-      "special_populations": {
-        "score": 0.5438893335153919,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "autonomic_disposition": {
+        "score": 0.23085222312653272,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "Poor:\n  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fat",
+            "score": 0.23085222312653272,
+            "start": 1170,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.18140657479987835,
+            "start": 0,
+            "end": 1169
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.34469455337775406,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "increased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Duration\n�\ne.g. ",
+            "score": 0.34469455337775406,
+            "start": 1228,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.20752148144486066,
+            "start": 0,
+            "end": 1227
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.16448660559557637,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.5438893335153919,
+            "score": 0.16448660559557637,
             "start": 1176,
             "end": 1723
           },
           {
             "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.2838657351814178,
+            "score": 0.14487848470578973,
             "start": 0,
             "end": 1175
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.2052664429349464,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "Effect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Durati",
-            "score": 0.2052664429349464,
-            "start": 1218,
-            "end": 1723
-          },
-          {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.0966992383588072,
-            "start": 0,
-            "end": 1217
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.16912400446358591,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.16912400446358591,
-            "start": 1176,
-            "end": 1723
-          },
-          {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.06929198572432578,
-            "start": 0,
-            "end": 1175
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.1752007806948695,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.1752007806948695,
-            "start": 1176,
-            "end": 1723
-          },
-          {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.12122754149981366,
-            "start": 0,
-            "end": 1175
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.3898266577123184,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.3898266577123184,
-            "start": 1176,
-            "end": 1723
-          },
-          {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.2397582368620805,
-            "start": 0,
-            "end": 1175
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.5111439880384698,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.5111439880384698,
-            "start": 1176,
-            "end": 1723
-          },
-          {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.353511137044845,
-            "start": 0,
-            "end": 1175
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.41279008047296173,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
-            "score": 0.41279008047296173,
-            "start": 1176,
-            "end": 1723
-          },
-          {
-            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.23568694716034655,
-            "start": 0,
-            "end": 1175
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.0966992383588072,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
@@ -365,21 +259,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.16845675763202042,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.21055038795004374,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  2-10%\n�\nPoor:\n  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> ne",
-            "score": 0.16845675763202042,
-            "start": 1160,
+            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
+            "score": 0.21055038795004374,
+            "start": 1176,
             "end": 1723
           },
           {
             "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
-            "score": 0.14609812862042407,
+            "score": 0.14245781704193952,
             "start": 0,
-            "end": 1159
+            "end": 1175
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.3908449190298156,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
+            "score": 0.3908449190298156,
+            "start": 1176,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.24510806609584046,
+            "start": 0,
+            "end": 1175
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.1934812122960498,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
+            "score": 0.1934812122960498,
+            "start": 1176,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.10252288453633593,
+            "start": 0,
+            "end": 1175
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.09717688216482506,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "increased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Duration\n�\ne.g. ",
+            "score": 0.09717688216482506,
+            "start": 1228,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.07997781705562379,
+            "start": 0,
+            "end": 1227
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.5438893335153919,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  5-10% Caucasians, 30% Hong Kong Chinese\nEffect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)",
+            "score": 0.5438893335153919,
+            "start": 1176,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.2838657351814178,
+            "start": 0,
+            "end": 1175
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5337869313658613,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "increased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Duration\n�\ne.g. ",
+            "score": 0.5337869313658613,
+            "start": 1228,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.5029190446201077,
+            "start": 0,
+            "end": 1227
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.36814003491309455,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "increased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Duration\n�\ne.g. ",
+            "score": 0.36814003491309455,
+            "start": 1228,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.20676821579165858,
+            "start": 0,
+            "end": 1227
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.43378893114166955,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Effect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Durati",
+            "score": 0.43378893114166955,
+            "start": 1218,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.1800163473587149,
+            "start": 0,
+            "end": 1217
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6128424258885341,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Effect of\nincreased function:\nDrug activated\n�\n↑Peak effect, ↑toxicity\n�\n↑Duration\n�\ne.g. codeine toxicity (N.B. if given to UM\n  mother -> neonatal fatality)\nDrug inactivated\n�\n↓Peak effect\n�\n↓Durati",
+            "score": 0.6128424258885341,
+            "start": 1218,
+            "end": 1723
+          },
+          {
+            "text": "2017A04 Outline\nthe genetic variations on the cytochrome P450 2D6 enzyme\nand discuss the clinical relevance for drugs used in the peri-operative period.\nList:\n�\nIntro\n�\nList of drugs\n�\nTable: genotype",
+            "score": 0.24221938844708332,
+            "start": 0,
+            "end": 1217
           }
         ]
       }

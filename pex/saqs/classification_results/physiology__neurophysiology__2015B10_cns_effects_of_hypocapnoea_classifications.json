@@ -2,10 +2,10 @@
   "source": "physiology/neurophysiology/2015B10_cns_effects_of_hypocapnoea.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8883596395623885,
+      "primary": "quantitative_reasoning",
+      "score": 0.8315432423679796,
       "secondary": [
-        "quantitative_reasoning"
+        "applied_clinical"
       ]
     },
     "clinical_relevance": {
@@ -16,24 +16,24 @@
       ]
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "neuromuscular_and_cns",
-      "physics_and_engineering",
-      "dose_response_kinetics",
-      "receptor_pharmacology",
-      "acid_base_and_electrolytes",
-      "haemostasis_and_transfusion"
+      "equipment_and_physics",
+      "gas_exchange_process",
+      "neuromuscular_process",
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8883596395623885,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.1638304622956888,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.8883596395623885,
+            "score": 0.1638304622956888,
             "start": 0,
             "end": 1052
           }
@@ -53,7 +53,7 @@
       },
       "comparative_analysis": {
         "score": 0.324947631255672,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
@@ -64,12 +64,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.8213675000686458,
+        "score": 0.8315432423679796,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.8213675000686458,
+            "score": 0.8315432423679796,
             "start": 0,
             "end": 1052
           }
@@ -127,129 +127,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7098452451882751,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.3671415130881525,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.7098452451882751,
+            "score": 0.3671415130881525,
             "start": 0,
             "end": 1052
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.7048569815755269,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.23085222312653272,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.7048569815755269,
+            "score": 0.23085222312653272,
             "start": 0,
             "end": 1052
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.514194079486929,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.15103900835879944,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.514194079486929,
+            "score": 0.15103900835879944,
             "start": 0,
             "end": 1052
           }
         ]
       },
-      "special_populations": {
-        "score": 0.23934938244466664,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.4678613990197066,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.23934938244466664,
+            "score": 0.4678613990197066,
             "start": 0,
             "end": 1052
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.396971029672017,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.396971029672017,
-            "start": 0,
-            "end": 1052
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7659308045041232,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.7659308045041232,
-            "start": 0,
-            "end": 1052
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.6736239901965329,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.6736239901965329,
-            "start": 0,
-            "end": 1052
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.23731085714042086,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.23731085714042086,
-            "start": 0,
-            "end": 1052
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.6089003905002228,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.6089003905002228,
-            "start": 0,
-            "end": 1052
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.36216332407375884,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.36216332407375884,
-            "start": 0,
-            "end": 1052
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8502055766542939,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
@@ -259,20 +187,112 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8368240975336038,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8185934252001217,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
-            "score": 0.8368240975336038,
+            "score": 0.8185934252001217,
             "start": 0,
-            "end": 997
-          },
+            "end": 1052
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.3425040171792877,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
           {
-            "text": "  ICP is high and compensatory responses are exhausted",
-            "score": 0.373146719717882,
-            "start": 998,
+            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
+            "score": 0.3425040171792877,
+            "start": 0,
+            "end": 1052
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.6333573908199787,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
+            "score": 0.6333573908199787,
+            "start": 0,
+            "end": 1052
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8782258243237235,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
+            "score": 0.8782258243237235,
+            "start": 0,
+            "end": 1052
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.23934938244466664,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
+            "score": 0.23934938244466664,
+            "start": 0,
+            "end": 1052
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.749478019532338,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
+            "score": 0.749478019532338,
+            "start": 0,
+            "end": 1052
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.4746092963626152,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
+            "score": 0.4746092963626152,
+            "start": 0,
+            "end": 1052
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5285672901084498,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
+            "score": 0.5285672901084498,
+            "start": 0,
+            "end": 1052
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.5472160852813518,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2015B10 Outline\nhow hyperventilation may reduce intracranial pressure.\n↑MV\n↑V\nA\n↓PaCO\n2\n↓CSF [H\n+\n]\nVasoconstriction\n↑CVR\n↓CBF\n↓CBV\n±↓\nICP\n1\n·\nMV = RR x V\nT\n; V\nA\n= RR x (V\nT\n– V\nD\n)\n·\nHence ↑MV -> ↑V",
+            "score": 0.5472160852813518,
+            "start": 0,
             "end": 1052
           }
         ]

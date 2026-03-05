@@ -2,26 +2,31 @@
   "source": "other/equipment/2016B08_vacuum_insulated_evaporator.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.903300761641193
+      "primary": "quantitative_reasoning",
+      "score": 0.30017184092373095,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.3378979270173037
     },
     "content_dimensions": [
-      "respiratory_gas_exchange"
-    ]
+      "gas_exchange_process",
+      "equipment_and_physics"
+    ],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.903300761641193,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.19785291387817483,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.903300761641193,
+            "score": 0.19785291387817483,
             "start": 0,
             "end": 883
           }
@@ -41,7 +46,7 @@
       },
       "comparative_analysis": {
         "score": 0.15608002460238707,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
@@ -52,12 +57,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.28655277316211425,
+        "score": 0.30017184092373095,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.28655277316211425,
+            "score": 0.30017184092373095,
             "start": 0,
             "end": 883
           }
@@ -115,117 +120,33 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.11320527503558757,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.11112162501075684,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.11320527503558757,
+            "score": 0.11112162501075684,
             "start": 0,
             "end": 883
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.18071066347481568,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.1256423848664057,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.18071066347481568,
+            "score": 0.1256423848664057,
             "start": 0,
             "end": 883
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.11216054585062639,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.11216054585062639,
-            "start": 0,
-            "end": 883
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.13592835209685608,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.13592835209685608,
-            "start": 0,
-            "end": 883
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.17248408020698391,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.17248408020698391,
-            "start": 0,
-            "end": 883
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.566733869651635,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.566733869651635,
-            "start": 0,
-            "end": 883
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.17932362625190623,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.17932362625190623,
-            "start": 0,
-            "end": 883
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.12676106887331628,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.12676106887331628,
-            "start": 0,
-            "end": 883
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.318789326827268,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.318789326827268,
-            "start": 0,
-            "end": 883
-          }
-        ]
-      },
-      "pain_and_analgesia": {
+      "pharmacokinetic_process": {
         "score": 0.0924623723009821,
-        "description": "Pain physiology and analgesic pharmacology",
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
@@ -235,9 +156,21 @@
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "organ_system_process": {
+        "score": 0.12232229789744709,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.12232229789744709,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      },
+      "gas_exchange_process": {
         "score": 0.8593414333155183,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
@@ -247,13 +180,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.11112162501075684,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.14427099224346063,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
-            "score": 0.11112162501075684,
+            "score": 0.14427099224346063,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.09717688216482506,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.09717688216482506,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.27808680603957303,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.27808680603957303,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8532897173544827,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.8532897173544827,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.13592835209685608,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.13592835209685608,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.24221938844708332,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.24221938844708332,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.24968492344749585,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.24968492344749585,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5984164033142201,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.5984164033142201,
+            "start": 0,
+            "end": 883
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.36814003491309455,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2016B08 Describe how the\nvacuum-insulated oxygen evaporator works.\nList:\n·\nDiagramme\n·\nFunction\n·\nPros\n·\nCons\nDiagramme\nHow it works\nStorage of O\n2\n:\n·\nCritical temp -118°C\n·\nBoiling point -180°C\n·\nPr",
+            "score": 0.36814003491309455,
             "start": 0,
             "end": 883
           }

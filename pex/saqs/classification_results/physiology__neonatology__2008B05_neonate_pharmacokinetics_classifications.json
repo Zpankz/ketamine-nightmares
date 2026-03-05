@@ -2,11 +2,8 @@
   "source": "physiology/neonatology/2008B05_neonate_pharmacokinetics.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9121160516407928,
-      "secondary": [
-        "comparative_analysis"
-      ]
+      "primary": "comparative_analysis",
+      "score": 0.7856278929474474
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -16,39 +13,42 @@
       ]
     },
     "content_dimensions": [
-      "special_populations",
-      "dose_response_kinetics",
-      "pain_and_analgesia",
-      "neuromuscular_and_cns",
-      "haemostasis_and_transfusion",
-      "organ_system_effects",
-      "receptor_pharmacology",
-      "physics_and_engineering"
+      "special_population_role",
+      "nociception_process",
+      "organ_system_process",
+      "neuromuscular_process",
+      "pharmacokinetic_process",
+      "equipment_and_physics",
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "dose_response_relationship",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9121160516407928,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.541515749969129,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition coefficient\n  v",
-            "score": 0.9121160516407928,
-            "start": 1378,
-            "end": 2666
+            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
+            "score": 0.541515749969129,
+            "start": 2572,
+            "end": 2935
+          },
+          {
+            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
+            "score": 0.21131157150204483,
+            "start": 1321,
+            "end": 2571
           },
           {
             "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.9080015537651265,
+            "score": 0.10055929830483001,
             "start": 0,
-            "end": 1377
-          },
-          {
-            "text": "Initially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secretion\n·\nRelevant to other drugs\nPharmacodynamics:\nImmature resp centre\n·\n↑Morphine toxicity\nImmat",
-            "score": 0.8787724585001864,
-            "start": 2667,
-            "end": 2935
+            "end": 1320
           }
         ]
       },
@@ -77,18 +77,18 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.8715496165777917,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.7856278929474474,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.8715496165777917,
+            "score": 0.7856278929474474,
             "start": 0,
             "end": 1377
           },
           {
             "text": "↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition coefficient\n  v",
-            "score": 0.7856278929474474,
+            "score": 0.7410252242365195,
             "start": 1378,
             "end": 2666
           },
@@ -101,26 +101,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.4998673148803536,
+        "score": 0.6676438013055915,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition coefficient\n  v",
-            "score": 0.4998673148803536,
-            "start": 1378,
-            "end": 2666
+            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
+            "score": 0.6676438013055915,
+            "start": 1321,
+            "end": 2571
+          },
+          {
+            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
+            "score": 0.39978803785049416,
+            "start": 2572,
+            "end": 2935
           },
           {
             "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.25178038205584335,
+            "score": 0.315494735817561,
             "start": 0,
-            "end": 1377
-          },
-          {
-            "text": "Initially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secretion\n·\nRelevant to other drugs\nPharmacodynamics:\nImmature resp centre\n·\n↑Morphine toxicity\nImmat",
-            "score": 0.20006027090401593,
-            "start": 2667,
-            "end": 2935
+            "end": 1320
           }
         ]
       },
@@ -224,249 +224,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.9221434879993405,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.5329318584713623,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
-            "score": 0.9221434879993405,
+            "score": 0.5329318584713623,
             "start": 1321,
             "end": 2571
           },
           {
+            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
+            "score": 0.2772030069075993,
+            "start": 2572,
+            "end": 2935
+          },
+          {
             "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.17588393723954218,
+            "start": 0,
+            "end": 1320
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.31081469123397315,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "↑Cardiac output:surface area -> ↑skin blood\n  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overri",
+            "score": 0.31081469123397315,
+            "start": 1277,
+            "end": 2520
+          },
+          {
+            "text": "·\n↓Rate of suxamethonium metabolism -> ↑toxicity\n·\nProducts: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elim",
+            "score": 0.3061663567535194,
+            "start": 2521,
+            "end": 2935
+          },
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.19420584422163265,
+            "start": 0,
+            "end": 1276
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.7080360654714698,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition coefficient\n  v",
+            "score": 0.7080360654714698,
+            "start": 1378,
+            "end": 2666
+          },
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.4961521957472001,
+            "start": 0,
+            "end": 1377
+          },
+          {
+            "text": "Initially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secretion\n·\nRelevant to other drugs\nPharmacodynamics:\nImmature resp centre\n·\n↑Morphine toxicity\nImmat",
+            "score": 0.3594357561965272,
+            "start": 2667,
+            "end": 2935
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.89944070169517,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
             "score": 0.89944070169517,
-            "start": 0,
-            "end": 1320
-          },
-          {
-            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
-            "score": 0.6788481658776849,
-            "start": 2572,
-            "end": 2935
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.6757655491193052,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
-            "score": 0.6757655491193052,
             "start": 1321,
             "end": 2571
           },
           {
             "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.4343118563481089,
+            "score": 0.47321931295320524,
             "start": 0,
             "end": 1320
           },
           {
             "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
-            "score": 0.34031905315618194,
+            "score": 0.12452970475004799,
             "start": 2572,
             "end": 2935
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.8322089010665819,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
-            "score": 0.8322089010665819,
-            "start": 1321,
-            "end": 2571
-          },
-          {
-            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.2623973993795041,
-            "start": 0,
-            "end": 1320
-          },
-          {
-            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
-            "score": 0.14006190450182948,
-            "start": 2572,
-            "end": 2935
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.9326668251877106,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.9326668251877106,
-            "start": 0,
-            "end": 1320
-          },
-          {
-            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
-            "score": 0.43483490501434385,
-            "start": 2572,
-            "end": 2935
-          },
-          {
-            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
-            "score": 0.2022819500518595,
-            "start": 1321,
-            "end": 2571
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.4849440919428714,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "Distribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition c",
-            "score": 0.4849440919428714,
-            "start": 1364,
-            "end": 2659
-          },
-          {
-            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.2022819500518595,
-            "start": 0,
-            "end": 1363
-          },
-          {
-            "text": "↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secretion\n·\nRelevant to other drugs\nPharmacodynamics:\nImmature resp centre\n·\n↑Morphine toxicit",
-            "score": 0.15481035196343076,
-            "start": 2660,
-            "end": 2935
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.6695624409660015,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
-            "score": 0.6695624409660015,
-            "start": 1321,
-            "end": 2571
-          },
-          {
-            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
-            "score": 0.12342301400327828,
-            "start": 2572,
-            "end": 2935
-          },
-          {
-            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.09061480910082127,
-            "start": 0,
-            "end": 1320
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.22135047558413734,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
-            "score": 0.22135047558413734,
-            "start": 1321,
-            "end": 2571
-          },
-          {
-            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
-            "score": 0.22135047558413734,
-            "start": 2572,
-            "end": 2935
-          },
-          {
-            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.08300191741623564,
-            "start": 0,
-            "end": 1320
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.31408742677824225,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.31408742677824225,
-            "start": 0,
-            "end": 1276
-          },
-          {
-            "text": "↑Cardiac output:surface area -> ↑skin blood\n  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overri",
-            "score": 0.2803024686265447,
-            "start": 1277,
-            "end": 2522
-          },
-          {
-            "text": "↓Rate of suxamethonium metabolism -> ↑toxicity\n·\nProducts: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimin",
-            "score": 0.24759886867237513,
-            "start": 2523,
-            "end": 2935
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8557290077565394,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "↑Cardiac output:surface area -> ↑skin blood\n  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overri",
-            "score": 0.8557290077565394,
-            "start": 1277,
-            "end": 2522
-          },
-          {
-            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.312682935674689,
-            "start": 0,
-            "end": 1276
-          },
-          {
-            "text": "↓Rate of suxamethonium metabolism -> ↑toxicity\n·\nProducts: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimin",
-            "score": 0.21055038795004374,
-            "start": 2523,
-            "end": 2935
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.915241295005019,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.915241295005019,
-            "start": 0,
-            "end": 1320
-          },
-          {
-            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
-            "score": 0.8036106946982671,
-            "start": 1321,
-            "end": 2571
-          },
-          {
-            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
-            "score": 0.23005185046589166,
-            "start": 2572,
-            "end": 2935
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.11690780739311239,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
@@ -488,27 +344,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8687038732456791,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.7840881577423744,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↑Cardiac output:surface area -> ↑skin blood\n  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overri",
-            "score": 0.8687038732456791,
+            "score": 0.7840881577423744,
             "start": 1277,
-            "end": 2497
+            "end": 2522
           },
           {
             "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
-            "score": 0.6538420248731707,
+            "score": 0.39825078622627513,
             "start": 0,
             "end": 1276
           },
           {
-            "text": "↓Plasma cholinesterase\n·\n↓Rate of suxamethonium metabolism -> ↑toxicity\n·\nProducts: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normali",
-            "score": 0.13015328625585776,
-            "start": 2498,
+            "text": "↓Rate of suxamethonium metabolism -> ↑toxicity\n·\nProducts: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimin",
+            "score": 0.12342301400327828,
+            "start": 2523,
             "end": 2935
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.9004140778741629,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.9004140778741629,
+            "start": 0,
+            "end": 1320
+          },
+          {
+            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
+            "score": 0.7890692179613494,
+            "start": 1321,
+            "end": 2571
+          },
+          {
+            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
+            "score": 0.24263091556480276,
+            "start": 2572,
+            "end": 2935
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.6223276821931376,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
+            "score": 0.6223276821931376,
+            "start": 1321,
+            "end": 2571
+          },
+          {
+            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
+            "score": 0.2820813113627648,
+            "start": 2572,
+            "end": 2935
+          },
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.12177417567627631,
+            "start": 0,
+            "end": 1320
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.6494372609426113,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Distribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition c",
+            "score": 0.6494372609426113,
+            "start": 1364,
+            "end": 2664
+          },
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.16979284000945866,
+            "start": 0,
+            "end": 1363
+          },
+          {
+            "text": "·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secretion\n·\nRelevant to other drugs\nPharmacodynamics:\nImmature resp centre\n·\n↑Morphine toxicity\nImm",
+            "score": 0.07494026869750434,
+            "start": 2665,
+            "end": 2935
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.9326668251877106,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.9326668251877106,
+            "start": 0,
+            "end": 1320
+          },
+          {
+            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
+            "score": 0.43483490501434385,
+            "start": 2572,
+            "end": 2935
+          },
+          {
+            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
+            "score": 0.2022819500518595,
+            "start": 1321,
+            "end": 2571
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.691513475003741,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition coefficient\n  v",
+            "score": 0.691513475003741,
+            "start": 1378,
+            "end": 2666
+          },
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.6336067531812888,
+            "start": 0,
+            "end": 1377
+          },
+          {
+            "text": "Initially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secretion\n·\nRelevant to other drugs\nPharmacodynamics:\nImmature resp centre\n·\n↑Morphine toxicity\nImmat",
+            "score": 0.2820813113627648,
+            "start": 2667,
+            "end": 2935
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.7201413667339189,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.7201413667339189,
+            "start": 0,
+            "end": 1377
+          },
+          {
+            "text": "↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition coefficient\n  v",
+            "score": 0.3860154117157002,
+            "start": 1378,
+            "end": 2666
+          },
+          {
+            "text": "Initially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secretion\n·\nRelevant to other drugs\nPharmacodynamics:\nImmature resp centre\n·\n↑Morphine toxicity\nImmat",
+            "score": 0.1228719100488003,
+            "start": 2667,
+            "end": 2935
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.47065539772797776,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Products: succinylmonocholine + choline -> succinic acid +\n  another choline\nExcretion:\n↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secret",
+            "score": 0.47065539772797776,
+            "start": 2572,
+            "end": 2935
+          },
+          {
+            "text": "  flow -> ↑rate of absorption S/C morphine\nDistribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓",
+            "score": 0.34396375942395835,
+            "start": 1321,
+            "end": 2571
+          },
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.14917447507309806,
+            "start": 0,
+            "end": 1320
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.39467046082532836,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "↓GFR\n·\nInitially 10% of adult; normalised at 6 months\n·\n↓Elimination of M3G and M6G -> ↑toxicity\n↓Tubular secretion\n·\nRelevant to other drugs\nPharmacodynamics:\nImmature resp centre\n·\n↑Morphine toxicit",
+            "score": 0.39467046082532836,
+            "start": 2660,
+            "end": 2935
+          },
+          {
+            "text": "Distribution:\n↑Cardiac output\n·\n↑Rate of onset suxamethonium\n·\n↓Rate of ↑ F\nA\n/F\nI\nvolatile anaesthetic\n  (overridden by ↑V\nA\n:FRC)\nBlood\n·\n↑Blood volume\n·\n↓Blood fat content -> ↓blood:gas partition c",
+            "score": 0.38779255990805606,
+            "start": 1364,
+            "end": 2659
+          },
+          {
+            "text": "2008B05 Outline\nhow the pharmacokinetics of morphine, bupivacaine and suxamethonium differ\nin the neonate compared to the adult. Briefly describe the clinical\nimplications of these differences.\nList:\n",
+            "score": 0.2045179371314406,
+            "start": 0,
+            "end": 1363
           }
         ]
       }

@@ -2,40 +2,45 @@
   "source": "physiology/respiratory/2005A13_non_respiratory_functions_of_the_lungs.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9250597313024956
+      "primary": "mechanistic_explanation",
+      "score": 0.69104847936853,
+      "secondary": [
+        "comparative_analysis"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5256554886089193
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "respiratory_gas_exchange",
-      "pain_and_analgesia",
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "acid_base_and_electrolytes",
-      "organ_system_effects"
+      "equipment_and_physics",
+      "drug_receptor_disposition",
+      "gas_exchange_process",
+      "organ_system_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9250597313024956,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.4788474135398939,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
-            "score": 0.9250597313024956,
-            "start": 1511,
-            "end": 2235
-          },
-          {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.922563905970062,
+            "score": 0.4788474135398939,
             "start": 0,
             "end": 1510
+          },
+          {
+            "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
+            "score": 0.3084865249962589,
+            "start": 1511,
+            "end": 2235
           }
         ]
       },
@@ -59,7 +64,7 @@
       },
       "comparative_analysis": {
         "score": 0.6278564729068083,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
@@ -76,18 +81,18 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.33983426864612865,
+        "score": 0.40184028753125045,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
-            "score": 0.33983426864612865,
+            "score": 0.40184028753125045,
             "start": 1511,
             "end": 2235
           },
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.27149292917090906,
+            "score": 0.36988972253805263,
             "start": 0,
             "end": 1510
           }
@@ -169,189 +174,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7651226993554261,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.858743228103057,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
-            "score": 0.7651226993554261,
-            "start": 1496,
+            "text": "o\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabo",
+            "score": 0.858743228103057,
+            "start": 1494,
             "end": 2235
           },
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.36963959091754195,
+            "score": 0.16187153020170925,
             "start": 0,
-            "end": 1495
+            "end": 1493
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.8381284697982909,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.2955985180950471,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
-            "score": 0.8381284697982909,
-            "start": 1496,
+            "text": "excretion for homeostasis\no\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for ",
+            "score": 0.2955985180950471,
+            "start": 1468,
             "end": 2235
           },
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.3211518341223151,
+            "score": 0.11637447875983453,
             "start": 0,
-            "end": 1495
+            "end": 1467
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.6204366871633353,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.4152479949876629,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.6204366871633353,
-            "start": 0,
-            "end": 1495
-          },
-          {
-            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
-            "score": 0.5129343565742138,
-            "start": 1496,
-            "end": 2235
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.45869861167640213,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
-            "score": 0.45869861167640213,
-            "start": 1496,
-            "end": 2235
-          },
-          {
-            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.18140657479987835,
-            "start": 0,
-            "end": 1495
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.29833852758508644,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.29833852758508644,
+            "score": 0.4152479949876629,
             "start": 0,
             "end": 1510
           },
           {
             "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
-            "score": 0.28119119060424663,
+            "score": 0.41136874226725056,
             "start": 1511,
             "end": 2235
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.5692807106582264,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.5692807106582264,
-            "start": 0,
-            "end": 1495
-          },
-          {
-            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
-            "score": 0.525523097641092,
-            "start": 1496,
-            "end": 2235
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.6788481658776849,
-        "description": "Acid-base and electrolyte physiology",
+      "organ_system_process": {
+        "score": 0.6750523687443281,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
-            "score": 0.6788481658776849,
+            "score": 0.6750523687443281,
             "start": 1496,
             "end": 2235
           },
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.21207433610868814,
+            "score": 0.6363457671513352,
             "start": 0,
             "end": 1495
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.45258639553283,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "excretion for homeostasis\no\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for ",
-            "score": 0.45258639553283,
-            "start": 1468,
-            "end": 2235
-          },
-          {
-            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.08924333203133303,
-            "start": 0,
-            "end": 1467
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7332913519466231,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "excretion for homeostasis\no\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for ",
-            "score": 0.7332913519466231,
-            "start": 1468,
-            "end": 2235
-          },
-          {
-            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.484148625032913,
-            "start": 0,
-            "end": 1467
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.7655269447107641,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
-            "score": 0.7655269447107641,
-            "start": 1496,
-            "end": 2235
-          },
-          {
-            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.1573559898347826,
-            "start": 0,
-            "end": 1495
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8368240975336038,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "o\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabo",
@@ -367,21 +264,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.27018379811080334,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.2619682848045116,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "CO\n2\nexcretion for homeostasis\no\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion",
-            "score": 0.27018379811080334,
-            "start": 1463,
+            "text": "excretion for homeostasis\no\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for ",
+            "score": 0.2619682848045116,
+            "start": 1468,
             "end": 2235
           },
           {
             "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
-            "score": 0.19275817505115483,
+            "score": 0.1612217162063077,
             "start": 0,
-            "end": 1462
+            "end": 1467
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.5970040449283592,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "o\n15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabo",
+            "score": 0.5970040449283592,
+            "start": 1494,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.20752148144486066,
+            "start": 0,
+            "end": 1493
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.31784647013645007,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
+            "score": 0.31784647013645007,
+            "start": 1496,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.19712031304111735,
+            "start": 0,
+            "end": 1495
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8698467137441421,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
+            "score": 0.8698467137441421,
+            "start": 1511,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.7528172106649723,
+            "start": 0,
+            "end": 1510
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.45869861167640213,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "15,000mmol/day\n  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metaboli",
+            "score": 0.45869861167640213,
+            "start": 1496,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.18140657479987835,
+            "start": 0,
+            "end": 1495
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7840881577423744,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
+            "score": 0.7840881577423744,
+            "start": 1511,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.7324247348287793,
+            "start": 0,
+            "end": 1510
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.32589958541887476,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
+            "score": 0.32589958541887476,
+            "start": 1511,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.23085222312653272,
+            "start": 0,
+            "end": 1510
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7469578442226757,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
+            "score": 0.7469578442226757,
+            "start": 1511,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.6203105111331301,
+            "start": 0,
+            "end": 1510
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7954820628685595,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "  by Krebs cycle in mitochondria during aerobic respiration\no\nAlveolar\n  ventilation is coupled to metabolic rate via control of PaCO\n2\n·\nCO\n2\nexcretion for compensation during metabolic\n  acidosis\no\n",
+            "score": 0.7954820628685595,
+            "start": 1511,
+            "end": 2235
+          },
+          {
+            "text": "2005A13 Describe\nthe non-respiratory functions of the lung.\nList:\n·\nAir\n·\nBlood\n·\nHomeostasis\n·\nDrugs\nAir:\nReservoir\n·\nFor gas exchange during expiration, between\n  breaths, during apnoea (e.g.heavy l",
+            "score": 0.46568028176565374,
+            "start": 0,
+            "end": 1510
           }
         ]
       }

@@ -3,9 +3,10 @@
   "summary": {
     "cognitive_domain": {
       "primary": "comparative_analysis",
-      "score": 0.9080015537651265,
+      "score": 0.8043401089718551,
       "secondary": [
-        "factual_recall"
+        "quantitative_reasoning",
+        "applied_clinical"
       ]
     },
     "clinical_relevance": {
@@ -17,33 +18,41 @@
       ]
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "dose_response_kinetics",
-      "pain_and_analgesia",
-      "neuromuscular_and_cns",
-      "haemostasis_and_transfusion",
-      "autonomic_nervous_system",
-      "physics_and_engineering",
-      "organ_system_effects"
+      "equipment_and_physics",
+      "nociception_process",
+      "drug_receptor_disposition",
+      "neuromuscular_process",
+      "pharmacokinetic_process",
+      "autonomic_disposition",
+      "organ_system_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8825573934438159,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.4288926869614288,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.8825573934438159,
-            "start": 0,
-            "end": 1232
+            "text": "50% parent\n100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.4288926869614288,
+            "start": 2351,
+            "end": 2393
           },
           {
-            "text": "surgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\no\nOral pre-med\n·\nt\n1/2\nβ\n12-24",
-            "score": 0.8432827798420172,
-            "start": 1233,
-            "end": 2393
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.11797887824233066,
+            "start": 0,
+            "end": 1202
+          },
+          {
+            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
+            "score": 0.07289506747776775,
+            "start": 1203,
+            "end": 2350
           }
         ]
       },
@@ -66,38 +75,44 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.9080015537651265,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.8043401089718551,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "surgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\no\nOral pre-med\n·\nt\n1/2\nβ\n12-24",
-            "score": 0.9080015537651265,
+            "score": 0.8043401089718551,
             "start": 1233,
             "end": 2393
           },
           {
             "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.9018636730986593,
+            "score": 0.7909672325033913,
             "start": 0,
             "end": 1232
           }
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.2767616374358241,
+        "score": 0.7214707651394254,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "o\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\no\nOral pre-med\n·\nt\n1/2\nβ\n12-24h\no\nBolu",
-            "score": 0.2767616374358241,
-            "start": 1241,
+            "text": "100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.7214707651394254,
+            "start": 2362,
             "end": 2393
           },
           {
+            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
+            "score": 0.39927543483253286,
+            "start": 1203,
+            "end": 2361
+          },
+          {
             "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.2636869411249029,
+            "score": 0.3412894563149706,
             "start": 0,
-            "end": 1240
+            "end": 1202
           }
         ]
       },
@@ -201,249 +216,99 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.9112111362640793,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
-            "score": 0.9112111362640793,
-            "start": 1203,
-            "end": 2343
-          },
-          {
-            "text": "-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.5355791428962773,
-            "start": 2344,
-            "end": 2393
-          },
-          {
-            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.496550233154047,
-            "start": 0,
-            "end": 1202
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.9349775352525835,
-        "description": "Receptor mechanisms and ligand interactions",
+      "drug_receptor_disposition": {
+        "score": 0.879317606529836,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.9349775352525835,
+            "score": 0.879317606529836,
             "start": 0,
-            "end": 1202
+            "end": 1193
           },
           {
-            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
-            "score": 0.8275159197930162,
-            "start": 1203,
-            "end": 2343
+            "text": "·\nUse:\no\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavai",
+            "score": 0.7573690844351972,
+            "start": 1194,
+            "end": 2324
           },
           {
-            "text": "-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.1336000407096868,
-            "start": 2344,
+            "text": "Nil\nNil\nExcretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.23005185046589166,
+            "start": 2325,
             "end": 2393
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.6210673622762513,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
-            "score": 0.6210673622762513,
-            "start": 1203,
-            "end": 2350
-          },
-          {
-            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.13015328625585776,
-            "start": 0,
-            "end": 1202
-          },
-          {
-            "text": "50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.10450903806925663,
-            "start": 2351,
-            "end": 2393
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.3903356880453444,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "o\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailabilit",
-            "score": 0.3903356880453444,
-            "start": 1201,
-            "end": 2332
-          },
-          {
-            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.2969670234089074,
-            "start": 0,
-            "end": 1200
-          },
-          {
-            "text": "Excretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.15354696394416326,
-            "start": 2333,
-            "end": 2393
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.396971029672017,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
-            "score": 0.396971029672017,
-            "start": 1203,
-            "end": 2361
-          },
-          {
-            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.2675752651712207,
-            "start": 0,
-            "end": 1202
-          },
-          {
-            "text": "100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.18632263173984007,
-            "start": 2362,
-            "end": 2393
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7630956969060682,
-        "description": "Physics and equipment engineering principles",
+      "autonomic_disposition": {
+        "score": 0.8234313128912258,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.7630956969060682,
-            "start": 0,
-            "end": 1202
-          },
-          {
-            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
-            "score": 0.13534398140930778,
-            "start": 1203,
-            "end": 2350
-          },
-          {
-            "text": "50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.11637447875983453,
-            "start": 2351,
-            "end": 2393
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.22925302922312224,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.22925302922312224,
-            "start": 0,
-            "end": 1195
-          },
-          {
-            "text": "Use:\no\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavaila",
-            "score": 0.174519217113909,
-            "start": 1196,
-            "end": 2328
-          },
-          {
-            "text": "Nil\nExcretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.1005592983048298,
-            "start": 2329,
-            "end": 2393
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.7643130528396533,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.7643130528396533,
+            "score": 0.8234313128912258,
             "start": 0,
             "end": 1171
           },
           {
             "text": "receptor upregulation\n·\nUse:\no\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\n",
-            "score": 0.46264180282121387,
+            "score": 0.6669231157033593,
             "start": 1172,
-            "end": 2296
+            "end": 2294
           },
           {
-            "text": "2 hours\n-Active metabolites\nNil\nNil\nExcretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.24635176452375257,
-            "start": 2297,
+            "text": "β\n2 hours\n-Active metabolites\nNil\nNil\nExcretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.11320527503558757,
+            "start": 2295,
             "end": 2393
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.7817667437278454,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.8451896480365693,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "receptor upregulation\n·\nUse:\no\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\n",
-            "score": 0.7817667437278454,
-            "start": 1172,
-            "end": 2296
+            "text": "surgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\no\nOral pre-med\n·\nt\n1/2\nβ\n12-24",
+            "score": 0.8451896480365693,
+            "start": 1233,
+            "end": 2393
           },
           {
             "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.5846225416580899,
+            "score": 0.26931284321853594,
             "start": 0,
-            "end": 1171
-          },
-          {
-            "text": "2 hours\n-Active metabolites\nNil\nNil\nExcretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.41628397662998934,
-            "start": 2297,
-            "end": 2393
+            "end": 1232
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.8929763145989518,
-        "description": "Pain physiology and analgesic pharmacology",
+      "organ_system_process": {
+        "score": 0.6318599650869055,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
+            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
+            "score": 0.6318599650869055,
+            "start": 1203,
+            "end": 2350
+          },
+          {
             "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.8929763145989518,
+            "score": 0.34518208953308893,
             "start": 0,
             "end": 1202
           },
           {
-            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
-            "score": 0.8495840659438667,
-            "start": 1203,
-            "end": 2343
-          },
-          {
-            "text": "-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.09480246485705024,
-            "start": 2344,
+            "text": "50% parent\n100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.09622297710488378,
+            "start": 2351,
             "end": 2393
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.14548752973312049,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
@@ -465,27 +330,209 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8551215152942102,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8732389311266837,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
-            "score": 0.8551215152942102,
+            "score": 0.8732389311266837,
             "start": 0,
-            "end": 1167
+            "end": 1171
           },
           {
-            "text": "α\n2\nreceptor upregulation\n·\nUse:\no\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expens",
-            "score": 0.41887664266155794,
-            "start": 1168,
-            "end": 2273
+            "text": "receptor upregulation\n·\nUse:\no\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\n",
+            "score": 0.3908449190298156,
+            "start": 1172,
+            "end": 2296
           },
           {
-            "text": "Cl 10mL/kg/min\nt\n1/2\nβ\n2 hours\n-Active metabolites\nNil\nNil\nExcretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
-            "score": 0.17863249993135413,
-            "start": 2274,
+            "text": "2 hours\n-Active metabolites\nNil\nNil\nExcretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.1336000407096868,
+            "start": 2297,
             "end": 2393
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8893956625430228,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.8893956625430228,
+            "start": 0,
+            "end": 1195
+          },
+          {
+            "text": "Use:\no\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavaila",
+            "score": 0.8743576151335943,
+            "start": 1196,
+            "end": 2328
+          },
+          {
+            "text": "Nil\nExcretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.12177417567627631,
+            "start": 2329,
+            "end": 2393
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.572997429218348,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
+            "score": 0.572997429218348,
+            "start": 1203,
+            "end": 2350
+          },
+          {
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.2820813113627648,
+            "start": 0,
+            "end": 1202
+          },
+          {
+            "text": "50% parent\n100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.24016747383683887,
+            "start": 2351,
+            "end": 2393
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9287186482700105,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.9287186482700105,
+            "start": 0,
+            "end": 1202
+          },
+          {
+            "text": "95%\n-Faeces\n5%",
+            "score": 0.3047781235673439,
+            "start": 2379,
+            "end": 2393
+          },
+          {
+            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
+            "score": 0.2007992399296327,
+            "start": 1203,
+            "end": 2378
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.3903356880453444,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "o\n↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailabilit",
+            "score": 0.3903356880453444,
+            "start": 1201,
+            "end": 2332
+          },
+          {
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.2969670234089074,
+            "start": 0,
+            "end": 1200
+          },
+          {
+            "text": "Excretion:\n-Urine\n50% parent\n100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.15354696394416326,
+            "start": 2333,
+            "end": 2393
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8006771067571272,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.8006771067571272,
+            "start": 0,
+            "end": 1232
+          },
+          {
+            "text": "surgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\no\nOral pre-med\n·\nt\n1/2\nβ\n12-24",
+            "score": 0.4800067442828556,
+            "start": 1233,
+            "end": 2393
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.5373014530219163,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "surgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\no\nOral pre-med\n·\nt\n1/2\nβ\n12-24",
+            "score": 0.5373014530219163,
+            "start": 1233,
+            "end": 2393
+          },
+          {
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.19203673272679375,
+            "start": 0,
+            "end": 1232
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.4288926869614287,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.4288926869614287,
+            "start": 0,
+            "end": 1202
+          },
+          {
+            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
+            "score": 0.3990192028379539,
+            "start": 1203,
+            "end": 2361
+          },
+          {
+            "text": "100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.21360460483229088,
+            "start": 2362,
+            "end": 2393
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.48501038381332695,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "1999A16 Describe the effects of\nalpha 2 adrenoceptor agonists relevant to anaesthesia.\nList:\n·\nEffects\n·\nComparison\nPharmacodynamics:\nReceptor\n·\nα\n2\nadrenoceptor\nagonist\no\nα\n2\n>> α\n1\no\nCentral and per",
+            "score": 0.48501038381332695,
+            "start": 0,
+            "end": 1202
+          },
+          {
+            "text": "100% metabolites\n95%\n-Faeces\n5%",
+            "score": 0.30063099459107706,
+            "start": 2362,
+            "end": 2393
+          },
+          {
+            "text": "↓Response to laryngoscopy and\nsurgery\no\n↓Myocardial ischaemia\n(↑supply, ↓demand)\no\n↓Opioid withdrawal\nComparison:\nClonidine\nDexmedetomidine\nPC\n·\nSo cheap\n·\nSo expensive\nPK\n·\n100% oral bioavailability\n",
+            "score": 0.21055038795004374,
+            "start": 1203,
+            "end": 2361
           }
         ]
       }

@@ -2,8 +2,11 @@
   "source": "physiology/neurophysiology/2000B06_determinants_of_intra_ocular_pressure.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9174340018978622
+      "primary": "applied_clinical",
+      "score": 0.5468539341675355,
+      "secondary": [
+        "factual_recall"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
@@ -12,27 +15,29 @@
         "foundational_science"
       ]
     },
-    "content_dimensions": [
-      "physics_and_engineering",
-      "neuromuscular_and_cns"
+    "content_dimensions": [],
+    "explanatory_schema": [
+      "structure_function_link",
+      "homeostatic_regulation",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9174340018978622,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.4855407346812648,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.9174340018978622,
+            "score": 0.4855407346812648,
             "start": 0,
-            "end": 1609
+            "end": 1586
           },
           {
-            "text": "External compression in prone surgery -> ischaemia",
-            "score": 0.630360409082458,
-            "start": 1610,
+            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
+            "score": 0.43476951721196433,
+            "start": 1587,
             "end": 1660
           }
         ]
@@ -57,7 +62,7 @@
       },
       "comparative_analysis": {
         "score": 0.32589958541887476,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
@@ -74,19 +79,19 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.2937785327050844,
+        "score": 0.3784283444474525,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.2937785327050844,
+            "score": 0.3784283444474525,
             "start": 0,
-            "end": 1609
+            "end": 1586
           },
           {
-            "text": "External compression in prone surgery -> ischaemia",
-            "score": 0.15481035196343076,
-            "start": 1610,
+            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
+            "score": 0.34518208953308893,
+            "start": 1587,
             "end": 1660
           }
         ]
@@ -167,189 +172,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.22766004724276212,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.22766004724276212,
-            "start": 1587,
-            "end": 1660
-          },
-          {
-            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.20153979982073553,
-            "start": 0,
-            "end": 1586
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.36514733483208417,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.36514733483208417,
-            "start": 1587,
-            "end": 1660
-          },
-          {
-            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.3619150539625578,
-            "start": 0,
-            "end": 1586
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.2551525833359077,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.2551525833359077,
-            "start": 1587,
-            "end": 1660
-          },
-          {
-            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.0915358786435363,
-            "start": 0,
-            "end": 1586
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.2381251169525195,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.2381251169525195,
-            "start": 1587,
-            "end": 1660
-          },
-          {
-            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.16448660559557637,
-            "start": 0,
-            "end": 1586
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.36988972253805263,
-        "description": "Clinical measurement and monitoring",
+      "drug_receptor_disposition": {
+        "score": 0.13302177898555526,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.36988972253805263,
-            "start": 0,
-            "end": 1607
-          },
-          {
-            "text": "·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.3169048470513748,
-            "start": 1608,
-            "end": 1660
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.8192893365251843,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.8192893365251843,
-            "start": 0,
-            "end": 1586
-          },
-          {
-            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.7992007600703674,
-            "start": 1587,
-            "end": 1660
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.15228985226789557,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.15228985226789557,
+            "score": 0.13302177898555526,
             "start": 0,
             "end": 1526
           },
           {
             "text": "Contraction of extra-ocular muscles -> ↓volume -> ↑pressure\n(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.11744260655618423,
+            "score": 0.13302177898555526,
             "start": 1527,
             "end": 1660
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.1599268284374202,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.1752007806948695,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Contraction of extra-ocular muscles -> ↓volume -> ↑pressure\n(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.1599268284374202,
+            "score": 0.1752007806948695,
             "start": 1527,
             "end": 1660
           },
           {
             "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.09861813254725033,
+            "score": 0.1573559898347826,
             "start": 0,
             "end": 1526
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.32162525056049346,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.1898819772959151,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.32162525056049346,
+            "score": 0.1898819772959151,
             "start": 0,
-            "end": 1526
+            "end": 1609
           },
           {
-            "text": "Contraction of extra-ocular muscles -> ↓volume -> ↑pressure\n(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.2052664429349464,
-            "start": 1527,
+            "text": "External compression in prone surgery -> ischaemia",
+            "score": 0.09622297710488378,
+            "start": 1610,
             "end": 1660
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.4799736179682893,
-        "description": "Pain physiology and analgesic pharmacology",
+      "organ_system_process": {
+        "score": 0.19785291387817477,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.4799736179682893,
+            "score": 0.19785291387817477,
             "start": 1587,
             "end": 1660
           },
           {
             "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.25262119035664987,
+            "score": 0.12177417567627631,
             "start": 0,
             "end": 1586
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.13244504050607428,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Contraction of extra-ocular muscles -> ↓volume -> ↑pressure\n(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
@@ -365,21 +262,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.6255980034147848,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.4309803634805221,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
+            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
+            "score": 0.4309803634805221,
+            "start": 0,
+            "end": 1526
+          },
+          {
             "text": "Contraction of extra-ocular muscles -> ↓volume -> ↑pressure\n(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
-            "score": 0.6255980034147848,
+            "score": 0.32589958541887476,
             "start": 1527,
+            "end": 1660
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.24016747383683887,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
+            "score": 0.24016747383683887,
+            "start": 0,
+            "end": 1526
+          },
+          {
+            "text": "Contraction of extra-ocular muscles -> ↓volume -> ↑pressure\n(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
+            "score": 0.2260732893915247,
+            "start": 1527,
+            "end": 1660
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.4190063762008378,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
+            "score": 0.4190063762008378,
+            "start": 0,
+            "end": 1586
+          },
+          {
+            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
+            "score": 0.1573559898347826,
+            "start": 1587,
+            "end": 1660
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.47864869019000644,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
+            "score": 0.47864869019000644,
+            "start": 0,
+            "end": 1609
+          },
+          {
+            "text": "External compression in prone surgery -> ischaemia",
+            "score": 0.20827633226924755,
+            "start": 1610,
+            "end": 1660
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.2381251169525195,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
+            "score": 0.2381251169525195,
+            "start": 1587,
             "end": 1660
           },
           {
             "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
-            "score": 0.5542845898918484,
+            "score": 0.16448660559557637,
             "start": 0,
-            "end": 1526
+            "end": 1586
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7302518595070161,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
+            "score": 0.7302518595070161,
+            "start": 0,
+            "end": 1609
+          },
+          {
+            "text": "External compression in prone surgery -> ischaemia",
+            "score": 0.586434126379921,
+            "start": 1610,
+            "end": 1660
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.25472975212894494,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
+            "score": 0.25472975212894494,
+            "start": 0,
+            "end": 1609
+          },
+          {
+            "text": "External compression in prone surgery -> ischaemia",
+            "score": 0.12342301400327828,
+            "start": 1610,
+            "end": 1660
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7825421217837121,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
+            "score": 0.7825421217837121,
+            "start": 0,
+            "end": 1586
+          },
+          {
+            "text": "(e.g. suxamethonium)\n·\nExternal compression in prone surgery -> ischaemia",
+            "score": 0.3951813627558419,
+            "start": 1587,
+            "end": 1660
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7860118412777748,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2000B06 Briefly\noutline the physiological control of intraocular pressure.\nList:\n·\nIntro: summary and relevant anatomy\n·\nDeterminants of IOP\nIntro:\nSummary\n·\nDefinition: force per unit area within the",
+            "score": 0.7860118412777748,
+            "start": 0,
+            "end": 1607
+          },
+          {
+            "text": "·\nExternal compression in prone surgery -> ischaemia",
+            "score": 0.4332007890444451,
+            "start": 1608,
+            "end": 1660
           }
         ]
       }

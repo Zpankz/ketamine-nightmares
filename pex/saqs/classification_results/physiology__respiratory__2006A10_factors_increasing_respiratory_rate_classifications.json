@@ -2,8 +2,12 @@
   "source": "physiology/respiratory/2006A10_factors_increasing_respiratory_rate.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9242328544804665
+      "primary": "mechanistic_explanation",
+      "score": 0.7066756231196865,
+      "secondary": [
+        "comparative_analysis",
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,34 +17,35 @@
       ]
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "monitoring_and_measurement",
-      "dose_response_kinetics",
-      "organ_system_effects",
-      "haemostasis_and_transfusion",
-      "neuromuscular_and_cns",
-      "pain_and_analgesia",
-      "special_populations",
-      "physics_and_engineering"
+      "organ_system_process",
+      "nociception_process",
+      "special_population_role",
+      "equipment_and_physics",
+      "autonomic_disposition"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9242328544804665,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.1522898522678955,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "Airway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal muscle proprioceptors\n·\n↑Limb motion -> ↑Abeta afferent vi",
-            "score": 0.9242328544804665,
-            "start": 1578,
+            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
+            "score": 0.1522898522678955,
+            "start": 1522,
             "end": 2669
           },
           {
             "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.922563905970062,
+            "score": 0.11060433745697731,
             "start": 0,
-            "end": 1577
+            "end": 1521
           }
         ]
       },
@@ -63,12 +68,12 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.8072418249488453,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.6760031259239069,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Airway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal muscle proprioceptors\n·\n↑Limb motion -> ↑Abeta afferent vi",
-            "score": 0.8072418249488453,
+            "score": 0.6760031259239069,
             "start": 1578,
             "end": 2669
           },
@@ -81,20 +86,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.44525465862362645,
+        "score": 0.40312441873757304,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Airway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal muscle proprioceptors\n·\n↑Limb motion -> ↑Abeta afferent vi",
-            "score": 0.44525465862362645,
-            "start": 1578,
+            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
+            "score": 0.40312441873757304,
+            "start": 1522,
             "end": 2669
           },
           {
             "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.2598282226097282,
+            "score": 0.23205568751749697,
             "start": 0,
-            "end": 1577
+            "end": 1521
           }
         ]
       },
@@ -174,189 +179,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8495840659438667,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.5309484580941028,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
-            "score": 0.8495840659438667,
-            "start": 1522,
+            "text": "·\nImportant in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal ",
+            "score": 0.5309484580941028,
+            "start": 1520,
             "end": 2669
           },
           {
             "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.20827633226924755,
+            "score": 0.5021229511586448,
             "start": 0,
-            "end": 1521
+            "end": 1519
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.9191646454545518,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
-            "score": 0.9191646454545518,
-            "start": 1522,
-            "end": 2669
-          },
-          {
-            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.9008986698241135,
-            "start": 0,
-            "end": 1521
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.8458221271134265,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.8458221271134265,
-            "start": 0,
-            "end": 1521
-          },
-          {
-            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
-            "score": 0.8086831144625273,
-            "start": 1522,
-            "end": 2669
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.8192893365251843,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
-            "score": 0.8192893365251843,
-            "start": 1522,
-            "end": 2669
-          },
-          {
-            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.21901020621216397,
-            "start": 0,
-            "end": 1521
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.8782258243237235,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
-            "score": 0.8782258243237235,
-            "start": 1522,
-            "end": 2669
-          },
-          {
-            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.3949258876753715,
-            "start": 0,
-            "end": 1521
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7755072325981134,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
-            "score": 0.7755072325981134,
-            "start": 1522,
-            "end": 2669
-          },
-          {
-            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.540922101481224,
-            "start": 0,
-            "end": 1521
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.19059863367246443,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.19059863367246443,
-            "start": 0,
-            "end": 1521
-          },
-          {
-            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
-            "score": 0.14245781704193952,
-            "start": 1522,
-            "end": 2669
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.3202059144056369,
-        "description": "ANS physiology and pharmacology",
+      "autonomic_disposition": {
+        "score": 0.682389051471457,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  spinomedullary tract\n·\nImportant in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer refl",
-            "score": 0.3202059144056369,
+            "score": 0.682389051471457,
             "start": 1497,
             "end": 2669
           },
           {
             "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.1870313090838101,
+            "score": 0.30570328895109333,
             "start": 0,
             "end": 1496
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.8387782837936923,
-        "description": "Coagulation, bleeding, and transfusion",
+      "pharmacokinetic_process": {
+        "score": 0.22213370116389697,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "  spinomedullary tract\n·\nImportant in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer refl",
-            "score": 0.8387782837936923,
-            "start": 1497,
+            "text": "Airway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal muscle proprioceptors\n·\n↑Limb motion -> ↑Abeta afferent vi",
+            "score": 0.22213370116389697,
+            "start": 1578,
             "end": 2669
           },
           {
             "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.5197613673636726,
+            "score": 0.12122754149981366,
             "start": 0,
-            "end": 1496
+            "end": 1577
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.8234313128912258,
-        "description": "Pain physiology and analgesic pharmacology",
+      "organ_system_process": {
+        "score": 0.913015622006129,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
-            "score": 0.8234313128912258,
+            "score": 0.913015622006129,
             "start": 1522,
             "end": 2669
           },
           {
             "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.1934812122960498,
+            "score": 0.9103008559585227,
             "start": 0,
             "end": 1521
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.39978803785049416,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "·\nImportant in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal ",
@@ -372,21 +269,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8341963544985169,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.22409861258785668,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Stretch/irritation -> ↑afferent via general visceral afferent,\n  spinomedullary tract\n·\nImportant in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n",
-            "score": 0.8341963544985169,
-            "start": 1434,
+            "text": "  spinomedullary tract\n·\nImportant in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer refl",
+            "score": 0.22409861258785668,
+            "start": 1497,
             "end": 2669
           },
           {
             "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
-            "score": 0.3459139022882771,
+            "score": 0.11690780739311239,
             "start": 0,
-            "end": 1433
+            "end": 1496
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8295367351705452,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
+            "score": 0.8295367351705452,
+            "start": 1522,
+            "end": 2669
+          },
+          {
+            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
+            "score": 0.2022819500518595,
+            "start": 0,
+            "end": 1521
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.3537572601037678,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
+            "score": 0.3537572601037678,
+            "start": 1522,
+            "end": 2669
+          },
+          {
+            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
+            "score": 0.13710168849652457,
+            "start": 0,
+            "end": 1521
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7315566687728775,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
+            "score": 0.7315566687728775,
+            "start": 1522,
+            "end": 2669
+          },
+          {
+            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
+            "score": 0.39978803785049416,
+            "start": 0,
+            "end": 1521
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8192893365251843,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
+            "score": 0.8192893365251843,
+            "start": 1522,
+            "end": 2669
+          },
+          {
+            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
+            "score": 0.21901020621216397,
+            "start": 0,
+            "end": 1521
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8628983115034754,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
+            "score": 0.8628983115034754,
+            "start": 0,
+            "end": 1577
+          },
+          {
+            "text": "Airway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal muscle proprioceptors\n·\n↑Limb motion -> ↑Abeta afferent vi",
+            "score": 0.850825524926902,
+            "start": 1578,
+            "end": 2669
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.35301908534826315,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Airway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal muscle proprioceptors\n·\n↑Limb motion -> ↑Abeta afferent vi",
+            "score": 0.35301908534826315,
+            "start": 1578,
+            "end": 2669
+          },
+          {
+            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
+            "score": 0.1898819772959151,
+            "start": 0,
+            "end": 1577
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7388888432424087,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
+            "score": 0.7388888432424087,
+            "start": 1522,
+            "end": 2669
+          },
+          {
+            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
+            "score": 0.23245761627092265,
+            "start": 0,
+            "end": 1521
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.748639460220768,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Important in dyspnoea induced by acute pulmonary oedema\nAirway smooth muscle\n·\nTidal volume >1L -> ↑↑Stretch ->\n  ↑afferent to resp centre -> transient ↓RR (Hering Breuer reflex)\nJoint and skeletal mu",
+            "score": 0.748639460220768,
+            "start": 1522,
+            "end": 2669
+          },
+          {
+            "text": "2006A10 List the\nphysiological factors which increase respiratory rate and include a brief\nexplanation of the mechanism by which each achieves this increase.\nList:\n·\nIntro\n·\nChemical factors\n·\nMechani",
+            "score": 0.3851277901517639,
+            "start": 0,
+            "end": 1521
           }
         ]
       }

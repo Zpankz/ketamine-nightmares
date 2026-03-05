@@ -1,0 +1,80 @@
+{
+  "source": "other/equipment/1999B07_clark_electrode.htm",
+  "num_questions": 9,
+  "num_answerable": 1,
+  "extractions": [
+    {
+      "question": "What are the key facts that must be memorised for the exam?",
+      "answerable": [],
+      "inextractability_score": 0.9101819016498455,
+      "answers": []
+    },
+    {
+      "question": "What equations or mathematical relationships are described?",
+      "answerable": [],
+      "inextractability_score": 0.1016791176890538,
+      "answers": []
+    },
+    {
+      "question": "What graphs or curves are discussed and what do they show?",
+      "answerable": [],
+      "inextractability_score": 0.8787281108660395,
+      "answers": []
+    },
+    {
+      "question": "What comparisons are made between different agents or systems?",
+      "answerable": [],
+      "inextractability_score": 0.9205632770922058,
+      "answers": []
+    },
+    {
+      "question": "How does this equipment or device work?",
+      "answerable": [],
+      "inextractability_score": 0.5807163864125637,
+      "answers": []
+    },
+    {
+      "question": "What are the safety features and failure modes?",
+      "answerable": [],
+      "inextractability_score": 0.9205632770922058,
+      "answers": []
+    },
+    {
+      "question": "What physical principles underlie this measurement or device?",
+      "answerable": [],
+      "inextractability_score": 0.9205632770922058,
+      "answers": []
+    },
+    {
+      "question": "What are the sources of error or inaccuracy?",
+      "answerable": true,
+      "inextractability_score": 0.0003134013896435233,
+      "answers": [
+        {
+          "text": "Non-linear",
+          "start": 616,
+          "end": 626,
+          "score": 0.05952121335057681
+        },
+        {
+          "text": "Non-linear\n  relationship between pO\n2\nand potential difference\no\nBut\n  almost linear at 0.6V\n·\nNon-linear\n  relationship between potential difference and current\no\nBut\n  almost linear at 0.6V\n·\n↑temp\n  -> ↑rate of reactions -> false ↑\no\nHence\n  temp control to within 0.1\n°\nC\n·\nInaccuracy\n  with time and use",
+          "start": 616,
+          "end": 925,
+          "score": 0.03203317816281285
+        },
+        {
+          "text": "Non-linear\n  relationship between pO\n2\nand potential difference",
+          "start": 616,
+          "end": 679,
+          "score": 0.014425391088036936
+        }
+      ]
+    },
+    {
+      "question": "How is this calibrated or maintained?",
+      "answerable": [],
+      "inextractability_score": 0.9172307637073154,
+      "answers": []
+    }
+  ]
+}

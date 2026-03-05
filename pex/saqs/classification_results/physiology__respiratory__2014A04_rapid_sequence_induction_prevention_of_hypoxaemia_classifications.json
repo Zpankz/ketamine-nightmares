@@ -2,48 +2,53 @@
   "source": "physiology/respiratory/2014A04_rapid_sequence_induction_prevention_of_hypoxaemia.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9103008559585227
+      "primary": "applied_clinical",
+      "score": 0.7739267106084753,
+      "secondary": [
+        "comparative_analysis"
+      ]
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
       "score": 0.684505264182439
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "physics_and_engineering",
-      "pain_and_analgesia",
-      "haemostasis_and_transfusion",
-      "dose_response_kinetics",
-      "neuromuscular_and_cns",
-      "receptor_pharmacology",
-      "special_populations",
-      "monitoring_and_measurement"
+      "equipment_and_physics",
+      "gas_exchange_process",
+      "neuromuscular_process",
+      "nociception_process",
+      "organ_system_process",
+      "special_population_role"
+    ],
+    "explanatory_schema": [
+      "dose_response_relationship",
+      "mechanism_effect_relevance",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9103008559585227,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.3239968740760931,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n·\nProximal injection\n·\nPre-medication to reduce cardiac\noutput\n·\n↑",
-            "score": 0.9103008559585227,
-            "start": 2579,
+            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
+            "score": 0.3239968740760931,
+            "start": 2513,
             "end": 3226
           },
           {
             "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.8914503766457,
+            "score": 0.2955985180950471,
             "start": 0,
-            "end": 1356
+            "end": 1335
           },
           {
-            "text": "100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(4)",
-            "score": 0.8687038732456791,
-            "start": 1357,
-            "end": 2578
+            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
+            "score": 0.19565989102814485,
+            "start": 1336,
+            "end": 2512
           }
         ]
       },
@@ -73,7 +78,7 @@
       },
       "comparative_analysis": {
         "score": 0.7285070708290908,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(4)",
@@ -96,26 +101,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.40943256298525554,
+        "score": 0.6238382375985251,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n·\nProximal injection\n·\nPre-medication to reduce cardiac\noutput\n·\n↑",
-            "score": 0.40943256298525554,
-            "start": 2579,
+            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
+            "score": 0.6238382375985251,
+            "start": 1336,
+            "end": 2512
+          },
+          {
+            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
+            "score": 0.4511054074919414,
+            "start": 2513,
             "end": 3226
           },
           {
             "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.36938951788133617,
+            "score": 0.40273906133978316,
             "start": 0,
-            "end": 1356
-          },
-          {
-            "text": "100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(4)",
-            "score": 0.36814003491309455,
-            "start": 1357,
-            "end": 2578
+            "end": 1335
           }
         ]
       },
@@ -219,249 +224,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7962289807006788,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
-            "score": 0.7962289807006788,
-            "start": 2513,
-            "end": 3226
-          },
-          {
-            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
-            "score": 0.7813784651714728,
-            "start": 1336,
-            "end": 2512
-          },
-          {
-            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.22686588955665188,
-            "start": 0,
-            "end": 1335
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.7618748830474804,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
-            "score": 0.7618748830474804,
-            "start": 1336,
-            "end": 2512
-          },
-          {
-            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
-            "score": 0.326852731551074,
-            "start": 2513,
-            "end": 3226
-          },
-          {
-            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.16779109893341812,
-            "start": 0,
-            "end": 1335
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.49111088959860716,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
-            "score": 0.49111088959860716,
-            "start": 1336,
-            "end": 2512
-          },
-          {
-            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
-            "score": 0.40184028753125045,
-            "start": 2513,
-            "end": 3226
-          },
-          {
-            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.29879635968537094,
-            "start": 0,
-            "end": 1335
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.7456927065420009,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "drug_receptor_disposition": {
+        "score": 0.4244635311469551,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "displacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(",
-            "score": 0.7456927065420009,
-            "start": 1315,
-            "end": 2495
-          },
-          {
-            "text": "Fever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·",
-            "score": 0.28119119060424663,
-            "start": 2496,
-            "end": 3226
-          },
-          {
-            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.20377101929932123,
-            "start": 0,
-            "end": 1314
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.6579820141514708,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "o\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(",
-            "score": 0.6579820141514708,
-            "start": 1355,
-            "end": 2564
-          },
-          {
-            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.16779109893341812,
-            "start": 0,
-            "end": 1354
-          },
-          {
-            "text": "Fast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n·\nProximal injection\n·\nPre-medication to reduce card",
-            "score": 0.14793926113385975,
-            "start": 2565,
-            "end": 3226
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.8341963544985169,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.8341963544985169,
-            "start": 0,
-            "end": 1335
-          },
-          {
-            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
-            "score": 0.7909672325033913,
-            "start": 1336,
-            "end": 2512
-          },
-          {
-            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
-            "score": 0.09622297710488378,
-            "start": 2513,
-            "end": 3226
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.34933703035082736,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "displacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(",
-            "score": 0.34933703035082736,
-            "start": 1315,
-            "end": 2493
-          },
-          {
-            "text": "·\nFever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose",
-            "score": 0.16187153020170925,
-            "start": 2494,
-            "end": 3226
-          },
-          {
-            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.14366505103412583,
-            "start": 0,
-            "end": 1314
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.5881145504687313,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "Anxiety -> ↑SNS output\n·\nFever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route",
-            "score": 0.5881145504687313,
-            "start": 2471,
-            "end": 3226
-          },
-          {
-            "text": "displacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(",
-            "score": 0.43633934899780197,
-            "start": 1315,
-            "end": 2470
-          },
-          {
-            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.13710168849652457,
-            "start": 0,
-            "end": 1314
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.801412892581186,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "displacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(",
-            "score": 0.801412892581186,
+            "score": 0.4244635311469551,
             "start": 1315,
             "end": 2470
           },
           {
             "text": "Anxiety -> ↑SNS output\n·\nFever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route",
-            "score": 0.691513475003741,
+            "score": 0.22449276740188667,
             "start": 2471,
             "end": 3226
           },
           {
             "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.48202772147713346,
+            "score": 0.10007191072786864,
             "start": 0,
             "end": 1314
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.8281911155772554,
-        "description": "Pain physiology and analgesic pharmacology",
+      "autonomic_disposition": {
+        "score": 0.40518134864602445,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
-            "score": 0.8281911155772554,
-            "start": 1336,
-            "end": 2512
+            "text": "Head up -> ↓Diaphragm\ndisplacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 10",
+            "score": 0.40518134864602445,
+            "start": 1293,
+            "end": 2442
           },
           {
-            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
-            "score": 0.7012036403146291,
-            "start": 2513,
+            "text": "↓O\n2\nconsumption:\nProblem\n·\nAnxiety -> ↑SNS output\n·\nFever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnos",
+            "score": 0.30895152063147,
+            "start": 2443,
             "end": 3226
           },
           {
             "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.1599268284374202,
+            "score": 0.16317590246639627,
             "start": 0,
-            "end": 1335
+            "end": 1292
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "pharmacokinetic_process": {
+        "score": 0.5503419623505083,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(4)",
+            "score": 0.5503419623505083,
+            "start": 1357,
+            "end": 2578
+          },
+          {
+            "text": "↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n·\nProximal injection\n·\nPre-medication to reduce cardiac\noutput\n·\n↑",
+            "score": 0.25812280612051225,
+            "start": 2579,
+            "end": 3226
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.09015630224155849,
+            "start": 0,
+            "end": 1356
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.7610590891728439,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
+            "score": 0.7610590891728439,
+            "start": 1336,
+            "end": 2512
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.7461147923643375,
+            "start": 0,
+            "end": 1335
+          },
+          {
+            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
+            "score": 0.5352529675370027,
+            "start": 2513,
+            "end": 3226
+          }
+        ]
+      },
+      "gas_exchange_process": {
         "score": 0.8954909619307434,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "displacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(",
@@ -483,27 +344,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.7917236677307524,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8220570318492292,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Head up -> ↓Diaphragm\ndisplacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 10",
-            "score": 0.7917236677307524,
-            "start": 1293,
-            "end": 2427
+            "text": "displacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(",
+            "score": 0.8220570318492292,
+            "start": 1315,
+            "end": 2470
           },
           {
-            "text": "attract marks:\n↓O\n2\nconsumption:\nProblem\n·\nAnxiety -> ↑SNS output\n·\nFever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRap",
-            "score": 0.36067462921498505,
-            "start": 2428,
+            "text": "Anxiety -> ↑SNS output\n·\nFever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route",
+            "score": 0.4940294097109162,
+            "start": 2471,
             "end": 3226
           },
           {
             "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
-            "score": 0.16979284000945866,
+            "score": 0.18140657479987835,
             "start": 0,
-            "end": 1292
+            "end": 1314
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.7917236677307524,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "displacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(",
+            "score": 0.7917236677307524,
+            "start": 1315,
+            "end": 2493
+          },
+          {
+            "text": "·\nFever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose",
+            "score": 0.7790405496339468,
+            "start": 2494,
+            "end": 3226
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.1934812122960498,
+            "start": 0,
+            "end": 1314
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.5228746616109026,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
+            "score": 0.5228746616109026,
+            "start": 1336,
+            "end": 2512
+          },
+          {
+            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
+            "score": 0.22213370116389697,
+            "start": 2513,
+            "end": 3226
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.17113527946174648,
+            "start": 0,
+            "end": 1335
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9364941169928671,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "o\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(",
+            "score": 0.9364941169928671,
+            "start": 1355,
+            "end": 2578
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.796601843928801,
+            "start": 0,
+            "end": 1354
+          },
+          {
+            "text": "↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n·\nProximal injection\n·\nPre-medication to reduce cardiac\noutput\n·\n↑",
+            "score": 0.14125677189694305,
+            "start": 2579,
+            "end": 3226
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.7456927065420009,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "displacement -> ↑FRC\n(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(",
+            "score": 0.7456927065420009,
+            "start": 1315,
+            "end": 2495
+          },
+          {
+            "text": "Fever\nSolution\n·\nPre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·",
+            "score": 0.28119119060424663,
+            "start": 2496,
+            "end": 3226
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.20377101929932123,
+            "start": 0,
+            "end": 1314
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7932317842083414,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(4)",
+            "score": 0.7932317842083414,
+            "start": 1357,
+            "end": 2578
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.7498967359755564,
+            "start": 0,
+            "end": 1356
+          },
+          {
+            "text": "↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n·\nProximal injection\n·\nPre-medication to reduce cardiac\noutput\n·\n↑",
+            "score": 0.6380849460374423,
+            "start": 2579,
+            "end": 3226
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.8477101477321045,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(4)",
+            "score": 0.8477101477321045,
+            "start": 1357,
+            "end": 2578
+          },
+          {
+            "text": "↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n·\nProximal injection\n·\nPre-medication to reduce cardiac\noutput\n·\n↑",
+            "score": 0.61651894583342,
+            "start": 2579,
+            "end": 3226
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.1949320705626118,
+            "start": 0,
+            "end": 1356
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7418771938794879,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "(2)Pre-oxygenation\no\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n",
+            "score": 0.7418771938794879,
+            "start": 1336,
+            "end": 2512
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.24057709312446773,
+            "start": 0,
+            "end": 1335
+          },
+          {
+            "text": "Pre-medication e.g. benzodiazepines\n·\nHuman factors\nFast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n",
+            "score": 0.17863249993135413,
+            "start": 2513,
+            "end": 3226
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.5719222357131756,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "o\n100% O\n2\n3-5 mins tidal\nventilation\no\nReplace alveolar N\n2\nwith\nO\n2\no\n↑O2 in lungs > blood,\ntissues, myoglobin\no\nRoom air 275mL O\n2\n, 100%\nO\n2\n-> 1800mL O\n2\n(3)Hyperventilation\no\n↓PACO\n2\n->\n↑PAO\n2\n(",
+            "score": 0.5719222357131756,
+            "start": 1355,
+            "end": 2564
+          },
+          {
+            "text": "Fast drugs ->\n↓apnoeic time: (rapid sequence by definition)\nRapid onset hypnosis\nFactors ↑C\n1\n:\n·\nIV route\n·\n↑Dose\n·\nPriming dose\n·\nRapid injection\n·\nProximal injection\n·\nPre-medication to reduce card",
+            "score": 0.2955985180950471,
+            "start": 2565,
+            "end": 3226
+          },
+          {
+            "text": "2014A04 Describe the\nphysiological basis of the methods used to prevent hypoxemia prior\nto\nintubation in a rapid sequence induction. Include any adverse\neffects of these methods.\nList:\n·\nPrinciples\n·\n",
+            "score": 0.21745787821628798,
+            "start": 0,
+            "end": 1354
           }
         ]
       }

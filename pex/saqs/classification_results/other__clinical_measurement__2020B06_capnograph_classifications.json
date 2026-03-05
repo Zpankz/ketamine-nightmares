@@ -2,41 +2,43 @@
   "source": "other/clinical_measurement/2020B06_capnograph.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9295180825758105
+      "primary": "applied_clinical",
+      "score": 0.7302518595070161
     },
     "clinical_relevance": {
       "primary": "immediately_applicable",
       "score": 0.5322708201976577
     },
     "content_dimensions": [
-      "monitoring_and_measurement",
-      "respiratory_gas_exchange",
-      "organ_system_effects",
-      "special_populations",
-      "haemostasis_and_transfusion",
-      "physics_and_engineering",
-      "dose_response_kinetics",
-      "receptor_pharmacology"
+      "equipment_and_physics",
+      "organ_system_process",
+      "gas_exchange_process",
+      "special_population_role",
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "homeostatic_regulation",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9295180825758105,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.41046490105989675,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
-            "score": 0.9295180825758105,
-            "start": 1480,
-            "end": 2764
-          },
-          {
             "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.9204490146302581,
+            "score": 0.41046490105989675,
             "start": 0,
             "end": 1479
+          },
+          {
+            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
+            "score": 0.22213370116389697,
+            "start": 1480,
+            "end": 2764
           }
         ]
       },
@@ -60,7 +62,7 @@
       },
       "comparative_analysis": {
         "score": 0.36863965126426407,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
@@ -77,18 +79,18 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.42928396566697996,
+        "score": 0.5525116609239795,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
-            "score": 0.42928396566697996,
+            "score": 0.5525116609239795,
             "start": 1480,
             "end": 2764
           },
           {
             "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.3043160270707983,
+            "score": 0.29015475481172504,
             "start": 0,
             "end": 1479
           }
@@ -170,189 +172,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7452702478710551,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.225282248199159,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.7452702478710551,
+            "score": 0.225282248199159,
             "start": 1426,
             "end": 2764
           },
           {
             "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.5131332697852963,
+            "score": 0.17725503064072845,
             "start": 0,
             "end": 1425
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.7188088093957535,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.7188088093957535,
-            "start": 0,
-            "end": 1425
-          },
-          {
-            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.684505264182439,
-            "start": 1426,
-            "end": 2764
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.8646560185906924,
-        "description": "Multi-organ or systems-level effects",
+      "autonomic_disposition": {
+        "score": 0.23771779517095493,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.8646560185906924,
+            "score": 0.23771779517095493,
             "start": 1426,
             "end": 2764
           },
           {
             "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.691978150715181,
+            "score": 0.15291762409217716,
             "start": 0,
             "end": 1425
           }
         ]
       },
-      "special_populations": {
-        "score": 0.8483363526099783,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "pharmacokinetic_process": {
+        "score": 0.13417982729181727,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.8483363526099783,
-            "start": 1426,
-            "end": 2764
-          },
-          {
             "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.12620097548419282,
-            "start": 0,
-            "end": 1425
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.9420142624787222,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
-            "score": 0.9420142624787222,
-            "start": 1480,
-            "end": 2764
-          },
-          {
-            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.8495840659438667,
+            "score": 0.13417982729181727,
             "start": 0,
             "end": 1479
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7954820628685595,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.7954820628685595,
-            "start": 1426,
-            "end": 2764
           },
           {
-            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.6496825347847068,
-            "start": 0,
-            "end": 1425
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.23245761627092265,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.23245761627092265,
-            "start": 0,
-            "end": 1425
-          },
-          {
-            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.16187153020170925,
-            "start": 1426,
+            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
+            "score": 0.0952745927410768,
+            "start": 1480,
             "end": 2764
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.20979078633127912,
-        "description": "ANS physiology and pharmacology",
+      "organ_system_process": {
+        "score": 0.9023440891081543,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.20979078633127912,
-            "start": 1426,
+            "text": "o\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSee",
+            "score": 0.9023440891081543,
+            "start": 1478,
             "end": 2764
           },
           {
             "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.11851662443329414,
+            "score": 0.6717153253539773,
             "start": 0,
-            "end": 1425
+            "end": 1477
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.8328729722349764,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.8328729722349764,
-            "start": 1426,
-            "end": 2764
-          },
-          {
-            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.6891853087660269,
-            "start": 0,
-            "end": 1425
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.27149292917090906,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.27149292917090906,
-            "start": 1426,
-            "end": 2764
-          },
-          {
-            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.24221938844708332,
-            "start": 0,
-            "end": 1425
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8804034518017119,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
@@ -368,21 +262,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.4649865192296595,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.4152479949876629,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
-            "score": 0.4649865192296595,
+            "score": 0.4152479949876629,
             "start": 1426,
             "end": 2764
           },
           {
             "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
-            "score": 0.25010326402444366,
+            "score": 0.23447305528923598,
             "start": 0,
             "end": 1425
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.3552353536143021,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
+            "score": 0.3552353536143021,
+            "start": 1426,
+            "end": 2764
+          },
+          {
+            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
+            "score": 0.2732434585109745,
+            "start": 0,
+            "end": 1425
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.723238362564176,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
+            "score": 0.723238362564176,
+            "start": 0,
+            "end": 1477
+          },
+          {
+            "text": "o\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSee",
+            "score": 0.43078455483432626,
+            "start": 1478,
+            "end": 2764
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9650954288989886,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
+            "score": 0.9650954288989886,
+            "start": 1480,
+            "end": 2764
+          },
+          {
+            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
+            "score": 0.9318869461159072,
+            "start": 0,
+            "end": 1479
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8483363526099783,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Emphysema: reversal of slope phase 3 (and ↑β angle)\no\n↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nCo",
+            "score": 0.8483363526099783,
+            "start": 1426,
+            "end": 2764
+          },
+          {
+            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
+            "score": 0.12620097548419282,
+            "start": 0,
+            "end": 1425
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7947335570650536,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
+            "score": 0.7947335570650536,
+            "start": 1480,
+            "end": 2764
+          },
+          {
+            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
+            "score": 0.3547423982664908,
+            "start": 0,
+            "end": 1479
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.36440051098887527,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
+            "score": 0.36440051098887527,
+            "start": 1480,
+            "end": 2764
+          },
+          {
+            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
+            "score": 0.19565989102814468,
+            "start": 0,
+            "end": 1479
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.6901175305580363,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
+            "score": 0.6901175305580363,
+            "start": 1480,
+            "end": 2764
+          },
+          {
+            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
+            "score": 0.3870306155152627,
+            "start": 0,
+            "end": 1479
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6654798003861663,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2020B06 Draw and label a normal capnograph to show the phases of the\nrespiratory cycle (30%).\nList and briefly describe what information can be obtained from the capnograph\n(70%).\nList:\n·\nDiagramme\n·\n",
+            "score": 0.6654798003861663,
+            "start": 0,
+            "end": 1479
+          },
+          {
+            "text": "↑↑Alveolar volume, early completion of gas exchange\n·\nSmall airway closure: terminal upswing = pigtail\no\nClosure of lung units with low pCO\n2\no\nContinued emptying of lung units with high pCO\n2\no\nSeen ",
+            "score": 0.424919012091182,
+            "start": 1480,
+            "end": 2764
           }
         ]
       }

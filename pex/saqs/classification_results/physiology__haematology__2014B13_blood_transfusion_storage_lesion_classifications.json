@@ -2,37 +2,37 @@
   "source": "physiology/haematology/2014B13_blood_transfusion_storage_lesion.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9070723407200398
+      "primary": "quantitative_reasoning",
+      "score": 0.7341565171559492
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5516571289313272
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "acid_base_and_electrolytes",
-      "physics_and_engineering"
+      "equipment_and_physics"
+    ],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9070723407200398,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.18774158236383565,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.9070723407200398,
-            "start": 0,
-            "end": 1223
+            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
+            "score": 0.18774158236383565,
+            "start": 1196,
+            "end": 1449
           },
           {
-            "text": "Citrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed by WBC)\n↓PaCO\n2\n↓2mm",
-            "score": 0.8669782210144448,
-            "start": 1224,
-            "end": 1449
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.1448784847057898,
+            "start": 0,
+            "end": 1195
           }
         ]
       },
@@ -56,7 +56,7 @@
       },
       "comparative_analysis": {
         "score": 0.4468311848461211,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed ",
@@ -73,20 +73,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.503250746727949,
+        "score": 0.7341565171559492,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Citrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed by WBC)\n↓PaCO\n2\n↓2mm",
-            "score": 0.503250746727949,
-            "start": 1224,
+            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
+            "score": 0.7341565171559492,
+            "start": 1196,
             "end": 1449
           },
           {
             "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.3412894563149706,
+            "score": 0.4313720353647355,
             "start": 0,
-            "end": 1223
+            "end": 1195
           }
         ]
       },
@@ -166,189 +166,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7655269447107641,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
-            "score": 0.7655269447107641,
-            "start": 1196,
-            "end": 1449
-          },
-          {
-            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.4887233832936224,
-            "start": 0,
-            "end": 1195
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.3254234590270125,
-        "description": "Receptor mechanisms and ligand interactions",
+      "drug_receptor_disposition": {
+        "score": 0.29196393452853037,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.3254234590270125,
-            "start": 0,
-            "end": 1195
-          },
-          {
-            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
-            "score": 0.21823325627215462,
-            "start": 1196,
-            "end": 1449
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.0966992383588072,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.0966992383588072,
-            "start": 0,
-            "end": 1195
-          },
-          {
-            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
-            "score": 0.0952745927410768,
-            "start": 1196,
-            "end": 1449
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.22766004724276212,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
-            "score": 0.22766004724276212,
-            "start": 1196,
-            "end": 1449
-          },
-          {
-            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.22370484839267127,
-            "start": 0,
-            "end": 1195
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.29788102716500814,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.29788102716500814,
-            "start": 0,
-            "end": 1203
-          },
-          {
-            "text": "(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed ",
-            "score": 0.2397582368620805,
-            "start": 1204,
-            "end": 1449
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.6022612576111035,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
-            "score": 0.6022612576111035,
-            "start": 1196,
-            "end": 1449
-          },
-          {
-            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.4155069315393794,
-            "start": 0,
-            "end": 1195
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.672431629654093,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.672431629654093,
+            "score": 0.29196393452853037,
             "start": 0,
             "end": 1192
           },
           {
             "text": "2+\n2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(als",
-            "score": 0.2260732893915247,
+            "score": 0.17588393723954218,
             "start": 1193,
             "end": 1449
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.18420617535904918,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "Leak out of cells\nCa\n2+\n2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1",
-            "score": 0.18420617535904918,
-            "start": 1172,
-            "end": 1449
-          },
-          {
-            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.14609812862042407,
-            "start": 0,
-            "end": 1171
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7614671777498045,
-        "description": "Coagulation, bleeding, and transfusion",
+      "autonomic_disposition": {
+        "score": 0.23447305528923598,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.7614671777498045,
+            "score": 0.23447305528923598,
             "start": 0,
             "end": 1171
           },
           {
             "text": "Leak out of cells\nCa\n2+\n2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1",
-            "score": 0.3941597522488603,
+            "score": 0.18774158236383576,
             "start": 1172,
             "end": 1449
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.18210408151009452,
-        "description": "Pain physiology and analgesic pharmacology",
+      "pharmacokinetic_process": {
+        "score": 0.5200926342135807,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
-            "score": 0.18210408151009452,
-            "start": 1196,
+            "text": "(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed ",
+            "score": 0.5200926342135807,
+            "start": 1204,
             "end": 1449
           },
           {
             "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.11425582926127191,
+            "score": 0.3094168356331381,
+            "start": 0,
+            "end": 1203
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.09433170997702066,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.09433170997702066,
             "start": 0,
             "end": 1195
+          },
+          {
+            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
+            "score": 0.0874334962984957,
+            "start": 1196,
+            "end": 1449
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.2381251169525195,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2+\n2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(als",
@@ -364,21 +256,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.13887320349804264,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.16912400446358591,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "ATPase\nLeak out of cells\nCa\n2+\n2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg",
-            "score": 0.13887320349804264,
-            "start": 1165,
+            "text": "Leak out of cells\nCa\n2+\n2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1",
+            "score": 0.16912400446358591,
+            "start": 1172,
             "end": 1449
           },
           {
             "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
-            "score": 0.12732266681585389,
+            "score": 0.13651425394654748,
             "start": 0,
-            "end": 1164
+            "end": 1171
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.16646454350278764,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2+\n2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(als",
+            "score": 0.16646454350278764,
+            "start": 1193,
+            "end": 1449
+          },
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.13651425394654748,
+            "start": 0,
+            "end": 1192
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.41007769601549965,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.41007769601549965,
+            "start": 0,
+            "end": 1195
+          },
+          {
+            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
+            "score": 0.2585486061251438,
+            "start": 1196,
+            "end": 1449
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.6308604964719419,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed ",
+            "score": 0.6308604964719419,
+            "start": 1204,
+            "end": 1449
+          },
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.20676821579165858,
+            "start": 0,
+            "end": 1203
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.22766004724276212,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2 -> ↓↓\n(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also c",
+            "score": 0.22766004724276212,
+            "start": 1196,
+            "end": 1449
+          },
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.22370484839267127,
+            "start": 0,
+            "end": 1195
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5011941641787454,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.5011941641787454,
+            "start": 0,
+            "end": 1223
+          },
+          {
+            "text": "Citrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed by WBC)\n↓PaCO\n2\n↓2mm",
+            "score": 0.14548752973312049,
+            "start": 1224,
+            "end": 1449
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.31081469123397315,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.31081469123397315,
+            "start": 0,
+            "end": 1203
+          },
+          {
+            "text": "(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed ",
+            "score": 0.2955985180950471,
+            "start": 1204,
+            "end": 1449
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.31926121628175463,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.31926121628175463,
+            "start": 0,
+            "end": 1203
+          },
+          {
+            "text": "(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed ",
+            "score": 0.19858710741881394,
+            "start": 1204,
+            "end": 1449
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.618037022730015,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2014B13 Briefly explain the\nchanges that occur in stored whole blood.\nList:\n·\nWhole blood\n·\nCell changes\n·\nPlasma protein changes\n·\nMetabolic changes and dissolved gases\nWhole blood:\nContents\n·\n45% Ce",
+            "score": 0.618037022730015,
+            "start": 0,
+            "end": 1203
+          },
+          {
+            "text": "(immediate, static)\nCitrate\n2,3-DPG\n50% at 2/52\n5% at 4/52\n↓temp\n↓glycolysis\nATP\n75% at 4/52\nConsumption by RBC\nGlucose\n20->12mM\nConsumption by RBC\n↓PaO\n2\n↓5mmHg per\n↓1\n°\nC\n↑Solubility\n(also consumed ",
+            "score": 0.2598282226097282,
+            "start": 1204,
+            "end": 1449
           }
         ]
       }

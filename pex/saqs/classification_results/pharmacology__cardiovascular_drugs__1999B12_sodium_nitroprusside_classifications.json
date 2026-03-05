@@ -2,8 +2,11 @@
   "source": "pharmacology/cardiovascular_drugs/1999B12_sodium_nitroprusside.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9075376276990179
+      "primary": "comparative_analysis",
+      "score": 0.7048569815755269,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,29 +16,29 @@
       ]
     },
     "content_dimensions": [
-      "dose_response_kinetics",
-      "acid_base_and_electrolytes",
-      "receptor_pharmacology",
-      "haemostasis_and_transfusion",
-      "physics_and_engineering"
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9075376276990179,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.4102067539563503,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.9075376276990179,
+            "score": 0.4102067539563503,
             "start": 0,
-            "end": 1304
+            "end": 1275
           },
           {
-            "text": "  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglobinaemia\n·",
-            "score": 0.8929763145989518,
-            "start": 1305,
+            "text": "Exogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, t",
+            "score": 0.18280318375806515,
+            "start": 1276,
             "end": 1749
           }
         ]
@@ -60,7 +63,7 @@
       },
       "comparative_analysis": {
         "score": 0.7048569815755269,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Sodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglobin",
@@ -77,20 +80,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.26931284321853594,
+        "score": 0.4244635311469551,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglobinaemia\n·",
-            "score": 0.26931284321853594,
-            "start": 1305,
+            "text": "Exogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, t",
+            "score": 0.4244635311469551,
+            "start": 1276,
             "end": 1749
           },
           {
             "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.23853282225019537,
+            "score": 0.30017184092373095,
             "start": 0,
-            "end": 1304
+            "end": 1275
           }
         ]
       },
@@ -151,18 +154,18 @@
         ]
       },
       "integrative": {
-        "score": 0.40184028753125045,
+        "score": 0.40235380494964706,
         "description": "Bridges basic science to clinical application",
         "top_chunks": [
           {
             "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.40184028753125045,
+            "score": 0.40235380494964706,
             "start": 0,
             "end": 1275
           },
           {
             "text": "Exogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, t",
-            "score": 0.38145737956764203,
+            "score": 0.37943715045857734,
             "start": 1276,
             "end": 1749
           }
@@ -170,189 +173,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.853901871379576,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.853901871379576,
-            "start": 0,
-            "end": 1273
-          },
-          {
-            "text": "·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation,",
-            "score": 0.8470823759078229,
-            "start": 1274,
-            "end": 1749
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.7461147923643375,
-        "description": "Receptor mechanisms and ligand interactions",
+      "drug_receptor_disposition": {
+        "score": 0.45136864140149996,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
-            "score": 0.7461147923643375,
+            "score": 0.45136864140149996,
             "start": 1223,
             "end": 1749
           },
           {
             "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.5529059721880418,
+            "score": 0.37364865958760746,
             "start": 0,
             "end": 1222
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.20827633226924755,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation,",
-            "score": 0.20827633226924755,
-            "start": 1274,
-            "end": 1749
-          },
-          {
-            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.1612217162063077,
-            "start": 0,
-            "end": 1273
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.5765771609343054,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "autonomic_disposition": {
+        "score": 0.23731085714042086,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
-            "score": 0.5765771609343054,
+            "score": 0.23731085714042086,
             "start": 1223,
             "end": 1749
           },
           {
             "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.2602554991469016,
+            "score": 0.23285993165673047,
             "start": 0,
             "end": 1222
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.5240666000769426,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.5286334489432762,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.5240666000769426,
+            "score": 0.5286334489432762,
             "start": 0,
-            "end": 1295
+            "end": 1297
           },
           {
-            "text": "o\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglob",
-            "score": 0.23165414560489295,
-            "start": 1296,
+            "text": "Sodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglobin",
+            "score": 0.5088891104013927,
+            "start": 1298,
             "end": 1749
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.6375883443170607,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.2045179371314406,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
-          {
-            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.6375883443170607,
-            "start": 0,
-            "end": 1275
-          },
           {
             "text": "Exogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, t",
-            "score": 0.18491006489830478,
+            "score": 0.2045179371314406,
             "start": 1276,
             "end": 1749
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.8050679294373881,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
-            "score": 0.8050679294373881,
-            "start": 1223,
-            "end": 1749
           },
           {
             "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.7302518595070161,
+            "score": 0.18140657479987835,
             "start": 0,
-            "end": 1222
+            "end": 1275
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.315494735817561,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
-            "score": 0.315494735817561,
-            "start": 1223,
-            "end": 1749
-          },
-          {
-            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.2772030069075993,
-            "start": 0,
-            "end": 1222
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7107477935008863,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
-            "score": 0.7107477935008863,
-            "start": 1223,
-            "end": 1749
-          },
-          {
-            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.3103484214966638,
-            "start": 0,
-            "end": 1222
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.31221540087919597,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
-            "score": 0.31221540087919597,
-            "start": 1223,
-            "end": 1749
-          },
-          {
-            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.24221938844708332,
-            "start": 0,
-            "end": 1222
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.19565989102814468,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
@@ -368,21 +263,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.22449276740188667,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.2852076985629369,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
-            "score": 0.22449276740188667,
+            "score": 0.2852076985629369,
             "start": 1223,
             "end": 1749
           },
           {
             "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
-            "score": 0.18071066347481568,
+            "score": 0.19565989102814468,
             "start": 0,
             "end": 1222
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.5313534712752341,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
+            "score": 0.5313534712752341,
+            "start": 1223,
+            "end": 1749
+          },
+          {
+            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
+            "score": 0.2767616374358241,
+            "start": 0,
+            "end": 1222
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.7306871567814641,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Exogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, t",
+            "score": 0.7306871567814641,
+            "start": 1276,
+            "end": 1749
+          },
+          {
+            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
+            "score": 0.4856733267438251,
+            "start": 0,
+            "end": 1275
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.2649797724816399,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
+            "score": 0.2649797724816399,
+            "start": 0,
+            "end": 1297
+          },
+          {
+            "text": "Sodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglobin",
+            "score": 0.15417787288657336,
+            "start": 1298,
+            "end": 1749
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.5765771609343054,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "-> thiocyanate (liver and kidney), 100x less toxic\n·\nExogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHy",
+            "score": 0.5765771609343054,
+            "start": 1223,
+            "end": 1749
+          },
+          {
+            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
+            "score": 0.2602554991469016,
+            "start": 0,
+            "end": 1222
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8569393402511397,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
+            "score": 0.8569393402511397,
+            "start": 0,
+            "end": 1304
+          },
+          {
+            "text": "  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglobinaemia\n·",
+            "score": 0.3029316888292404,
+            "start": 1305,
+            "end": 1749
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.315494735817561,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Sodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglobin",
+            "score": 0.315494735817561,
+            "start": 1298,
+            "end": 1749
+          },
+          {
+            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
+            "score": 0.2697481404929839,
+            "start": 0,
+            "end": 1297
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.23245761627092265,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
+            "score": 0.23245761627092265,
+            "start": 0,
+            "end": 1275
+          },
+          {
+            "text": "Exogenous antidote:\no\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, t",
+            "score": 0.23165414560489295,
+            "start": 1276,
+            "end": 1749
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6790847600659429,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "1999B12 Briefly\ndescribe the mechanism and treatment of the toxicity of sodium nitroprusside.\nList:\n·\nPC\n·\nPK\n·\nPD (mainly this)\nPhysicochemical:\nStructure\n·\nFe\n2+\nsurrounded by 5 x CN\n-\nand 1 x NO\nAp",
+            "score": 0.6790847600659429,
+            "start": 0,
+            "end": 1295
+          },
+          {
+            "text": "o\nSodium\n  thiosulfate (cyanide -> thiocyanate)\no\nDicobalt\n  edetate (chelator)\no\nNitrates:\n  metHb binds CN\n-\nmore avidly\no\nHydrocobalamin\nThiocyanate toxicity\n·\nVasodilatation, tinnitus\nMethaemoglob",
+            "score": 0.26931284321853594,
+            "start": 1296,
+            "end": 1749
           }
         ]
       }

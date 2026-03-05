@@ -2,10 +2,11 @@
   "source": "pharmacology/analgesics/2021B09_morphine_vs_fentanyl_pca.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9156824635374905,
+      "primary": "comparative_analysis",
+      "score": 0.7984602001792644,
       "secondary": [
-        "comparative_analysis"
+        "quantitative_reasoning",
+        "applied_clinical"
       ]
     },
     "clinical_relevance": {
@@ -13,33 +14,34 @@
       "score": 0.684505264182439
     },
     "content_dimensions": [
-      "pain_and_analgesia",
-      "dose_response_kinetics",
-      "receptor_pharmacology",
-      "special_populations",
-      "physics_and_engineering",
-      "monitoring_and_measurement",
-      "organ_system_effects",
-      "haemostasis_and_transfusion"
+      "organ_system_process",
+      "nociception_process",
+      "special_population_role",
+      "pharmacokinetic_process",
+      "drug_receptor_disposition"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9156824635374905,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.17316086728700608,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.9156824635374905,
-            "start": 0,
-            "end": 1549
+            "text": "Speed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\n",
+            "score": 0.17316086728700608,
+            "start": 1544,
+            "end": 2050
           },
           {
-            "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
-            "score": 0.8809441529008322,
-            "start": 1550,
-            "end": 2050
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.12508529522455814,
+            "start": 0,
+            "end": 1543
           }
         ]
       },
@@ -62,38 +64,38 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.8355133944044236,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.7984602001792644,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.8355133944044236,
+            "score": 0.7984602001792644,
             "start": 0,
             "end": 1549
           },
           {
             "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
-            "score": 0.8241160627604578,
+            "score": 0.7388888432424087,
             "start": 1550,
             "end": 2050
           }
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.6193006129558387,
+        "score": 0.7639076521243664,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcretion\nRenal: paren",
-            "score": 0.6193006129558387,
-            "start": 1566,
+            "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
+            "score": 0.7639076521243664,
+            "start": 1550,
             "end": 2050
           },
           {
             "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.3330768842966407,
+            "score": 0.3594357561965272,
             "start": 0,
-            "end": 1565
+            "end": 1549
           }
         ]
       },
@@ -173,189 +175,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8776777021025528,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.7245603456098374,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Fentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\n",
-            "score": 0.8776777021025528,
-            "start": 1535,
+            "text": "Parameter\nMorphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analge",
+            "score": 0.7245603456098374,
+            "start": 1516,
             "end": 2050
           },
           {
             "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.8737990245158072,
+            "score": 0.27852923486057457,
             "start": 0,
-            "end": 1534
+            "end": 1515
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.8295367351705452,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.301090477351718,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Morphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G ne",
-            "score": 0.8295367351705452,
-            "start": 1526,
+            "text": "Elimination:\nParameter\nMorphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolit",
+            "score": 0.301090477351718,
+            "start": 1503,
             "end": 2050
           },
           {
             "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.5022556341271618,
+            "score": 0.24221938844708332,
             "start": 0,
-            "end": 1525
+            "end": 1502
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.7548919339041595,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "Fentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\n",
-            "score": 0.7548919339041595,
-            "start": 1535,
-            "end": 2050
-          },
-          {
-            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.13244504050607428,
-            "start": 0,
-            "end": 1534
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.814384449652423,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Morphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G ne",
-            "score": 0.814384449652423,
-            "start": 1526,
-            "end": 2050
-          },
-          {
-            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.3311565037628375,
-            "start": 0,
-            "end": 1525
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.7569571765117691,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.732858224691364,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
-            "score": 0.7569571765117691,
+            "score": 0.732858224691364,
             "start": 1550,
             "end": 2050
           },
           {
             "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.24057709312446773,
+            "score": 0.6477185047693906,
             "start": 0,
             "end": 1549
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.7762951516073289,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.8658201727081827,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Fentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\n",
-            "score": 0.7762951516073289,
-            "start": 1535,
+            "text": "Speed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\n",
+            "score": 0.8658201727081827,
+            "start": 1544,
             "end": 2050
           },
           {
             "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.11268218335253008,
+            "score": 0.22213370116389697,
             "start": 0,
-            "end": 1534
+            "end": 1543
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.21901020621216397,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Morphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G ne",
-            "score": 0.21901020621216397,
-            "start": 1526,
-            "end": 2050
-          },
-          {
-            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.15481035196343076,
-            "start": 0,
-            "end": 1525
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.3614186986159831,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.3614186986159831,
-            "start": 0,
-            "end": 1502
-          },
-          {
-            "text": "Elimination:\nParameter\nMorphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolit",
-            "score": 0.35154449221815187,
-            "start": 1503,
-            "end": 2050
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.6250954951261593,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Elimination:\nParameter\nMorphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolit",
-            "score": 0.6250954951261593,
-            "start": 1503,
-            "end": 2050
-          },
-          {
-            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.45763321243908,
-            "start": 0,
-            "end": 1502
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.8787724585001864,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.8787724585001864,
-            "start": 0,
-            "end": 1525
-          },
-          {
-            "text": "Morphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G ne",
-            "score": 0.7829292210001332,
-            "start": 1526,
-            "end": 2050
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.15481035196343076,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Parameter\nMorphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analge",
@@ -371,21 +265,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.34664632315416677,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.3316361640846439,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
-            "score": 0.34664632315416677,
+            "score": 0.3316361640846439,
             "start": 0,
-            "end": 1496
+            "end": 1502
           },
           {
-            "text": "3.5\n4\nElimination:\nParameter\nMorphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMet",
-            "score": 0.24552225336936614,
-            "start": 1497,
+            "text": "Elimination:\nParameter\nMorphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolit",
+            "score": 0.19565989102814468,
+            "start": 1503,
             "end": 2050
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8611267965019573,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.8611267965019573,
+            "start": 0,
+            "end": 1525
+          },
+          {
+            "text": "Morphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G ne",
+            "score": 0.7614671777498045,
+            "start": 1526,
+            "end": 2050
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.38373425311242626,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Speed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\n",
+            "score": 0.38373425311242626,
+            "start": 1544,
+            "end": 2050
+          },
+          {
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.11959654819828813,
+            "start": 0,
+            "end": 1543
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.5908254168489615,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.5908254168489615,
+            "start": 0,
+            "end": 1549
+          },
+          {
+            "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
+            "score": 0.5336919314800874,
+            "start": 1550,
+            "end": 2050
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.814384449652423,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Morphine\nFentanyl\nSpeed\n-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G ne",
+            "score": 0.814384449652423,
+            "start": 1526,
+            "end": 2050
+          },
+          {
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.3311565037628375,
+            "start": 0,
+            "end": 1525
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7444242132356791,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
+            "score": 0.7444242132356791,
+            "start": 1550,
+            "end": 2050
+          },
+          {
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.537737846057684,
+            "start": 0,
+            "end": 1549
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.586434126379921,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.586434126379921,
+            "start": 0,
+            "end": 1549
+          },
+          {
+            "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
+            "score": 0.5454707924807289,
+            "start": 1550,
+            "end": 2050
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.37440199658521534,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
+            "score": 0.37440199658521534,
+            "start": 1550,
+            "end": 2050
+          },
+          {
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.324947631255672,
+            "start": 0,
+            "end": 1549
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6120804044618572,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "-Cl (mL/kg/min)\n-t\n1/2b\n(mins)\n-Extraction ratio\n16\n170\n0.76\n13\n210\n0.8\nMetabolism\nLiver: phase 2>1\n(Glucuronidation)\nLiver: phase 1>2\n(CYP3A4)\nMetabolites\nM6G analgesic\nM3G neurotoxic\nInactive\nExcret",
+            "score": 0.6120804044618572,
+            "start": 1550,
+            "end": 2050
+          },
+          {
+            "text": "2021B09 Discuss the relative advantages and disadvantages of using morphine\nand fentanyl\nfor post-operative Patient Controlled\nAnalgesia (PCA).\nList:\n�\nSummary\n�\nPCA principles\n�\nPC\n�\nPK\n�\nPD\nSummary:",
+            "score": 0.14732399306894495,
+            "start": 0,
+            "end": 1549
           }
         ]
       }

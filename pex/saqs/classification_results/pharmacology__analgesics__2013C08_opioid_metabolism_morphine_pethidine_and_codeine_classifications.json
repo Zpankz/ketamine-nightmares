@@ -2,10 +2,10 @@
   "source": "pharmacology/analgesics/2013C08_opioid_metabolism_morphine_pethidine_and_codeine.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8502055766542939,
+      "primary": "comparative_analysis",
+      "score": 0.7581917576089247,
       "secondary": [
-        "comparative_analysis"
+        "applied_clinical"
       ]
     },
     "clinical_relevance": {
@@ -16,30 +16,31 @@
       ]
     },
     "content_dimensions": [
-      "pain_and_analgesia",
-      "dose_response_kinetics",
-      "receptor_pharmacology",
-      "physics_and_engineering",
-      "haemostasis_and_transfusion"
+      "nociception_process",
+      "pharmacokinetic_process",
+      "drug_receptor_disposition"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8502055766542939,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.3187893268272679,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.8502055766542939,
-            "start": 0,
-            "end": 1251
+            "text": "Minimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.3187893268272679,
+            "start": 1237,
+            "end": 1348
           },
           {
-            "text": "↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.6984497113177436,
-            "start": 1252,
-            "end": 1348
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.20153979982073555,
+            "start": 0,
+            "end": 1236
           }
         ]
       },
@@ -62,12 +63,12 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.7871613191364488,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.7581917576089247,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.7871613191364488,
+            "score": 0.7581917576089247,
             "start": 0,
             "end": 1251
           },
@@ -80,20 +81,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.3145562174614424,
+        "score": 0.39850687842539245,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.3145562174614424,
-            "start": 1263,
-            "end": 1348
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.39850687842539245,
+            "start": 0,
+            "end": 1236
           },
           {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.3061663567535194,
-            "start": 0,
-            "end": 1262
+            "text": "Minimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.32399687407609323,
+            "start": 1237,
+            "end": 1348
           }
         ]
       },
@@ -173,189 +174,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8413617446723678,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.6355994890111247,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.8413617446723678,
+            "score": 0.6355994890111247,
             "start": 0,
-            "end": 1222
+            "end": 1179
           },
           {
-            "text": "Liver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.4948917732267832,
-            "start": 1223,
+            "text": "(↑↑risk sedation, resp depression)\nMinimal\nLiver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.47107711618581904,
+            "start": 1180,
             "end": 1348
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.8178959184899055,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.44125190187349295,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.8178959184899055,
-            "start": 0,
-            "end": 1222
+            "text": "(↑↑risk sedation, resp depression)\nMinimal\nLiver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.44125190187349295,
+            "start": 1180,
+            "end": 1348
           },
           {
-            "text": "Liver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.290606540070939,
-            "start": 1223,
-            "end": 1348
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.4203042284515483,
+            "start": 0,
+            "end": 1179
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.5323369283697829,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.739316856023697,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "Liver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.5323369283697829,
-            "start": 1223,
-            "end": 1348
-          },
-          {
             "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.24221938844708332,
-            "start": 0,
-            "end": 1222
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.5172432764617403,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Liver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.5172432764617403,
-            "start": 1223,
-            "end": 1348
-          },
-          {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.21823325627215462,
-            "start": 0,
-            "end": 1222
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.274999703206626,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.274999703206626,
-            "start": 1252,
-            "end": 1348
-          },
-          {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.23165414560489295,
+            "score": 0.739316856023697,
             "start": 0,
             "end": 1251
+          },
+          {
+            "text": "↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.34469455337775406,
+            "start": 1252,
+            "end": 1348
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.679794085594363,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.44059631512586617,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Minimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.679794085594363,
-            "start": 1237,
-            "end": 1348
-          },
-          {
             "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.26541144562458285,
+            "score": 0.44059631512586617,
             "start": 0,
             "end": 1236
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.250521980467662,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Minimal\nLiver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.250521980467662,
-            "start": 1215,
-            "end": 1348
           },
           {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.15166364739002158,
-            "start": 0,
-            "end": 1214
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.5247286886294563,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.5247286886294563,
-            "start": 0,
-            "end": 1179
-          },
-          {
-            "text": "(↑↑risk sedation, resp depression)\nMinimal\nLiver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.4852092620951219,
-            "start": 1180,
+            "text": "Minimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.25010326402444366,
+            "start": 1237,
             "end": 1348
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.6553054466222459,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.6553054466222459,
-            "start": 0,
-            "end": 1179
-          },
-          {
-            "text": "(↑↑risk sedation, resp depression)\nMinimal\nLiver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.5268137776822953,
-            "start": 1180,
-            "end": 1348
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.850825524926902,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.850825524926902,
-            "start": 0,
-            "end": 1222
-          },
-          {
-            "text": "Liver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.6802665876579223,
-            "start": 1223,
-            "end": 1348
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.13417982729181727,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "(↑↑risk sedation, resp depression)\nMinimal\nLiver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
@@ -371,21 +264,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.4810006017880784,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.43876160882265486,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "(↑↑risk sedation, resp depression)\nMinimal\nLiver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
-            "score": 0.4810006017880784,
+            "score": 0.43876160882265486,
             "start": 1180,
             "end": 1348
           },
           {
             "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
-            "score": 0.39569245717520735,
+            "score": 0.4069834656810027,
             "start": 0,
             "end": 1179
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8157938246409508,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.8157938246409508,
+            "start": 0,
+            "end": 1214
+          },
+          {
+            "text": "Minimal\nLiver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.604563114041453,
+            "start": 1215,
+            "end": 1348
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.19131688553747267,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.19131688553747267,
+            "start": 0,
+            "end": 1236
+          },
+          {
+            "text": "Minimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.18774158236383576,
+            "start": 1237,
+            "end": 1348
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.20377101929932123,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.20377101929932123,
+            "start": 0,
+            "end": 1251
+          },
+          {
+            "text": "↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.19932289324287283,
+            "start": 1252,
+            "end": 1348
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.5172432764617403,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Liver failure\nMinimal effect\n↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.5172432764617403,
+            "start": 1223,
+            "end": 1348
+          },
+          {
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.21823325627215462,
+            "start": 0,
+            "end": 1222
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7675423837290772,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.7675423837290772,
+            "start": 0,
+            "end": 1251
+          },
+          {
+            "text": "↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.5940465762700625,
+            "start": 1252,
+            "end": 1348
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.44806347627005993,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.44806347627005993,
+            "start": 0,
+            "end": 1251
+          },
+          {
+            "text": "↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.15481035196343076,
+            "start": 1252,
+            "end": 1348
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5096849885238662,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.5096849885238662,
+            "start": 0,
+            "end": 1251
+          },
+          {
+            "text": "↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.3052405443745728,
+            "start": 1252,
+            "end": 1348
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.4169317822673183,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2013C08 Discuss\nthe metabolism of morphine, codeine and pethidine.\nMorphine\nCodeine\nPethidine\nLocation\nLiver\nLiver\nLiver\nPathway + metabolites\nLiver\nPhase 1:\n-N-demethylation (3A4) -> normorphine (5%)",
+            "score": 0.4169317822673183,
+            "start": 0,
+            "end": 1251
+          },
+          {
+            "text": "↓analgesia\n?\nKidney failure\nMetabolites accumulate\nMetabolites accumulate\nMetabolites accumulate",
+            "score": 0.2680091172688212,
+            "start": 1252,
+            "end": 1348
           }
         ]
       }

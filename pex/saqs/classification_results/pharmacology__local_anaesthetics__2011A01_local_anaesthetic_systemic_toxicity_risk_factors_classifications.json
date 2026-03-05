@@ -2,48 +2,52 @@
   "source": "pharmacology/local_anaesthetics/2011A01_local_anaesthetic_systemic_toxicity_risk_factors.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9075376276990179
+      "primary": "comparative_analysis",
+      "score": 0.7610590891728439,
+      "secondary": [
+        "quantitative_reasoning"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.6291091671128806
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "special_populations",
-      "dose_response_kinetics",
-      "pain_and_analgesia",
-      "haemostasis_and_transfusion",
-      "physics_and_engineering",
-      "organ_system_effects",
-      "monitoring_and_measurement",
-      "autonomic_nervous_system"
+      "special_population_role",
+      "drug_receptor_disposition",
+      "pharmacokinetic_process",
+      "nociception_process",
+      "organ_system_process",
+      "neuromuscular_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9075376276990179,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.3066297472364717,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
+            "text": ", ↓pH, ↑K\n+",
+            "score": 0.3066297472364717,
+            "start": 2787,
+            "end": 2798
+          },
+          {
             "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.9075376276990179,
+            "score": 0.2492669590277905,
             "start": 0,
             "end": 1447
           },
           {
             "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
-            "score": 0.9042519039731944,
+            "score": 0.18140657479987832,
             "start": 1448,
-            "end": 2796
-          },
-          {
-            "text": "+",
-            "score": 0.4869661863835037,
-            "start": 2797,
-            "end": 2798
+            "end": 2786
           }
         ]
       },
@@ -73,7 +77,7 @@
       },
       "comparative_analysis": {
         "score": 0.7610590891728439,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
@@ -96,18 +100,24 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.4470283147230738,
+        "score": 0.7075829226961883,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
-            "score": 0.4470283147230738,
-            "start": 1448,
+            "text": ", ↓pH, ↑K\n+",
+            "score": 0.7075829226961883,
+            "start": 2787,
             "end": 2798
           },
           {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.579176369544963,
+            "start": 1448,
+            "end": 2786
+          },
+          {
             "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.2969670234089074,
+            "score": 0.29015475481172504,
             "start": 0,
             "end": 1447
           }
@@ -125,7 +135,7 @@
           },
           {
             "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.49727997770431387,
+            "score": 0.4981424155217879,
             "start": 0,
             "end": 1447
           },
@@ -213,249 +223,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.850825524926902,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "Intrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution",
-            "score": 0.850825524926902,
-            "start": 1437,
-            "end": 2779
-          },
-          {
-            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.7860118412777748,
-            "start": 0,
-            "end": 1436
-          },
-          {
-            "text": "↓PaO\n2\n, ↓pH, ↑K\n+",
-            "score": 0.5017249007979295,
-            "start": 2780,
-            "end": 2798
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.8934820964473875,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Intrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution",
-            "score": 0.8934820964473875,
-            "start": 1437,
-            "end": 2779
-          },
-          {
-            "text": "↓PaO\n2\n, ↓pH, ↑K\n+",
-            "score": 0.7707469707768777,
-            "start": 2780,
-            "end": 2798
-          },
-          {
-            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.5922435503921117,
-            "start": 0,
-            "end": 1436
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.7161342648185822,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
-            "score": 0.7161342648185822,
-            "start": 1448,
-            "end": 2784
-          },
-          {
-            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.6370914969872863,
-            "start": 0,
-            "end": 1447
-          },
-          {
-            "text": "2\n, ↓pH, ↑K\n+",
-            "score": 0.4187469185774672,
-            "start": 2785,
-            "end": 2798
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.8836255212401656,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Intrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution",
-            "score": 0.8836255212401656,
-            "start": 1437,
-            "end": 2779
-          },
-          {
-            "text": "↓PaO\n2\n, ↓pH, ↑K\n+",
-            "score": 0.36415169084650634,
-            "start": 2780,
-            "end": 2798
-          },
-          {
-            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.18561555034757704,
-            "start": 0,
-            "end": 1436
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.6942967110489067,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": ", ↓pH, ↑K\n+",
-            "score": 0.6942967110489067,
-            "start": 2787,
-            "end": 2798
-          },
-          {
-            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
-            "score": 0.47305386177106895,
-            "start": 1448,
-            "end": 2786
-          },
-          {
-            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.16845675763202042,
-            "start": 0,
-            "end": 1447
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7345885543754173,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": ", ↓pH, ↑K\n+",
-            "score": 0.7345885543754173,
-            "start": 2787,
-            "end": 2798
-          },
-          {
-            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
-            "score": 0.1891669165469514,
-            "start": 1448,
-            "end": 2786
-          },
-          {
-            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.11112162501075684,
-            "start": 0,
-            "end": 1447
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.5475123593306168,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "·\n↓PaO\n2\n, ↓pH, ↑K\n+",
-            "score": 0.5475123593306168,
-            "start": 2778,
-            "end": 2798
-          },
-          {
-            "text": "Intrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution",
-            "score": 0.3094168356331381,
-            "start": 1437,
-            "end": 2777
-          },
-          {
-            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.13129612675432087,
-            "start": 0,
-            "end": 1436
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.6403165939069506,
-        "description": "ANS physiology and pharmacology",
+      "drug_receptor_disposition": {
+        "score": 0.879317606529836,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑Tissue blood flow rate:\no\nIntrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bu",
-            "score": 0.6403165939069506,
+            "score": 0.879317606529836,
             "start": 1410,
-            "end": 2682
+            "end": 2740
           },
           {
-            "text": "Drug interactions: antiarrhythmics (esp. class 1 drugs)\n·\n↑Heart rate -> ↑channel cycling rate\n·\n↓PaO\n2\n, ↓pH, ↑K\n+",
-            "score": 0.4105939901943318,
-            "start": 2683,
+            "text": "↑Heart rate -> ↑channel cycling rate\n·\n↓PaO\n2\n, ↓pH, ↑K\n+",
+            "score": 0.699828159076269,
+            "start": 2741,
             "end": 2798
           },
           {
             "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.32637600980346704,
+            "score": 0.3420179858485293,
             "start": 0,
             "end": 1409
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.8275159197930162,
-        "description": "Coagulation, bleeding, and transfusion",
+      "autonomic_disposition": {
+        "score": 0.5350795474531029,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑Tissue blood flow rate:\no\nIntrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bu",
-            "score": 0.8275159197930162,
+            "score": 0.5350795474531029,
             "start": 1410,
             "end": 2682
           },
           {
             "text": "Drug interactions: antiarrhythmics (esp. class 1 drugs)\n·\n↑Heart rate -> ↑channel cycling rate\n·\n↓PaO\n2\n, ↓pH, ↑K\n+",
-            "score": 0.375155843803304,
+            "score": 0.23487730064457382,
             "start": 2683,
             "end": 2798
           },
           {
             "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.2530421557773242,
+            "score": 0.1949320705626118,
             "start": 0,
             "end": 1409
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.8489609916412006,
-        "description": "Pain physiology and analgesic pharmacology",
+      "pharmacokinetic_process": {
+        "score": 0.8581434784490429,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.8581434784490429,
+            "start": 1448,
+            "end": 2786
+          },
+          {
+            "text": ", ↓pH, ↑K\n+",
+            "score": 0.2843127098628851,
+            "start": 2787,
+            "end": 2798
+          },
+          {
             "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.8489609916412006,
+            "score": 0.23853282225019537,
             "start": 0,
-            "end": 1436
+            "end": 1447
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.8079632672732063,
+        "description": "Organ-level physiological processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.8079632672732063,
+            "start": 1448,
+            "end": 2786
           },
           {
-            "text": "Intrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution",
-            "score": 0.6726702499699408,
-            "start": 1437,
-            "end": 2779
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.742727683668005,
+            "start": 0,
+            "end": 1447
           },
           {
-            "text": "↓PaO\n2\n, ↓pH, ↑K\n+",
-            "score": 0.4750892498288159,
-            "start": 2780,
+            "text": ", ↓pH, ↑K\n+",
+            "score": 0.20752148144486066,
+            "start": 2787,
             "end": 2798
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.32257299354459545,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↑Heart rate -> ↑channel cycling rate\n·\n↓PaO\n2\n, ↓pH, ↑K\n+",
@@ -477,27 +343,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.5935316418513321,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.6243413092716535,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\n↑Tissue blood flow rate:\no\nIntrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. ",
-            "score": 0.5935316418513321,
-            "start": 1408,
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.6243413092716535,
+            "start": 0,
+            "end": 1409
+          },
+          {
+            "text": "↑Tissue blood flow rate:\no\nIntrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bu",
+            "score": 0.5691175431224417,
+            "start": 1410,
             "end": 2682
           },
           {
-            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
-            "score": 0.5066339266067047,
-            "start": 0,
-            "end": 1407
-          },
-          {
             "text": "Drug interactions: antiarrhythmics (esp. class 1 drugs)\n·\n↑Heart rate -> ↑channel cycling rate\n·\n↓PaO\n2\n, ↓pH, ↑K\n+",
-            "score": 0.21283868086355118,
+            "score": 0.15041593405613324,
             "start": 2683,
             "end": 2798
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8171968162419349,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.8171968162419349,
+            "start": 0,
+            "end": 1434
+          },
+          {
+            "text": "o\nIntrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistributi",
+            "score": 0.6370914969872863,
+            "start": 1435,
+            "end": 2740
+          },
+          {
+            "text": "↑Heart rate -> ↑channel cycling rate\n·\n↓PaO\n2\n, ↓pH, ↑K\n+",
+            "score": 0.31081469123397315,
+            "start": 2741,
+            "end": 2798
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.5343197182343462,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.5343197182343462,
+            "start": 1448,
+            "end": 2786
+          },
+          {
+            "text": ", ↓pH, ↑K\n+",
+            "score": 0.24759886867237513,
+            "start": 2787,
+            "end": 2798
+          },
+          {
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.15863825532763226,
+            "start": 0,
+            "end": 1447
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.5785269092892019,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": ", ↓pH, ↑K\n+",
+            "score": 0.5785269092892019,
+            "start": 2787,
+            "end": 2798
+          },
+          {
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.21823325627215462,
+            "start": 0,
+            "end": 1447
+          },
+          {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.13015328625585776,
+            "start": 1448,
+            "end": 2786
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8836255212401656,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Intrinsic:\n  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution",
+            "score": 0.8836255212401656,
+            "start": 1437,
+            "end": 2779
+          },
+          {
+            "text": "↓PaO\n2\n, ↓pH, ↑K\n+",
+            "score": 0.36415169084650634,
+            "start": 2780,
+            "end": 2798
+          },
+          {
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.18561555034757704,
+            "start": 0,
+            "end": 1436
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7461147923643375,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.7461147923643375,
+            "start": 1448,
+            "end": 2796
+          },
+          {
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.34982711550189804,
+            "start": 0,
+            "end": 1447
+          },
+          {
+            "text": "+",
+            "score": 0.23731085714042086,
+            "start": 2797,
+            "end": 2798
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.4282407226129332,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "+",
+            "score": 0.4282407226129332,
+            "start": 2797,
+            "end": 2798
+          },
+          {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.3145562174614424,
+            "start": 1448,
+            "end": 2796
+          },
+          {
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.14006190450182948,
+            "start": 0,
+            "end": 1447
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.3941597522488603,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.3941597522488603,
+            "start": 1448,
+            "end": 2786
+          },
+          {
+            "text": ", ↓pH, ↑K\n+",
+            "score": 0.3908449190298156,
+            "start": 2787,
+            "end": 2798
+          },
+          {
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.16448660559557637,
+            "start": 0,
+            "end": 1447
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7147923014370632,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "  tracheal > intercostal > caudal > paracervical > epidural >\n  plexus > nerve\no\nGlobal:\n  pregnant, neonate\no\nDrug\n  effect: absence of vasoconstriction (e.g. bupiv cf. ropiv)\nDistribution\n·\n↑Unbound",
+            "score": 0.7147923014370632,
+            "start": 1448,
+            "end": 2786
+          },
+          {
+            "text": ", ↓pH, ↑K\n+",
+            "score": 0.3311565037628375,
+            "start": 2787,
+            "end": 2798
+          },
+          {
+            "text": "2011A01 Describe\nthe factors which increase the risk of systemic toxicity with\namide local anaesthetic agents.\nList:\n·\nIntro: LAST\n·\nThresholds\n·\nDrug: factors increasing potency/toxicity\n·\nKinetics: ",
+            "score": 0.12342301400327828,
+            "start": 0,
+            "end": 1447
           }
         ]
       }

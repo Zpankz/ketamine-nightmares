@@ -2,8 +2,11 @@
   "source": "physiology/ageing/2019A02_ageing_cardiovascular_effects.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9134634090583451
+      "primary": "mechanistic_explanation",
+      "score": 0.7610590891728439,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,35 +16,34 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_effects",
-      "physics_and_engineering",
-      "haemostasis_and_transfusion",
-      "monitoring_and_measurement",
-      "receptor_pharmacology",
-      "neuromuscular_and_cns",
-      "special_populations",
-      "autonomic_nervous_system",
-      "acid_base_and_electrolytes",
-      "dose_response_kinetics"
+      "organ_system_process",
+      "autonomic_disposition",
+      "neuromuscular_process",
+      "equipment_and_physics",
+      "special_population_role"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9134634090583451,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.3169048470513748,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "Atherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\nCa",
-            "score": 0.9134634090583451,
-            "start": 1487,
+            "text": "Common comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR",
+            "score": 0.3169048470513748,
+            "start": 1464,
             "end": 2601
           },
           {
             "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.8904259025348517,
+            "score": 0.22252590120650217,
             "start": 0,
-            "end": 1486
+            "end": 1463
           }
         ]
       },
@@ -65,7 +67,7 @@
       },
       "comparative_analysis": {
         "score": 0.5802150248130845,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Atherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\nCa",
@@ -82,20 +84,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.4654903117147492,
+        "score": 0.49834144112030865,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Atherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\nCa",
-            "score": 0.4654903117147492,
-            "start": 1487,
+            "text": "Common comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR",
+            "score": 0.49834144112030865,
+            "start": 1464,
             "end": 2601
           },
           {
             "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.32067872186788193,
+            "score": 0.38728454557962083,
             "start": 0,
-            "end": 1486
+            "end": 1463
           }
         ]
       },
@@ -175,189 +177,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.6143650757302026,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.48242535110691365,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
-            "score": 0.6143650757302026,
+            "score": 0.48242535110691365,
             "start": 1436,
             "end": 2601
           },
           {
             "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.2159118422576255,
+            "score": 0.25220059901524183,
             "start": 0,
             "end": 1435
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.7962289807006788,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.8451896480365693,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
-            "score": 0.7962289807006788,
-            "start": 1436,
+            "text": "↑PVR and\n↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamic",
+            "score": 0.8451896480365693,
+            "start": 1427,
             "end": 2601
           },
           {
             "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.36564551927413724,
+            "score": 0.2538852076356624,
             "start": 0,
-            "end": 1435
+            "end": 1426
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.897970122007046,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.897970122007046,
-            "start": 0,
-            "end": 1435
-          },
-          {
-            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
-            "score": 0.8749147047754419,
-            "start": 1436,
-            "end": 2601
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.7319908827311787,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
-            "score": 0.7319908827311787,
-            "start": 1436,
-            "end": 2601
-          },
-          {
-            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.3169048470513748,
-            "start": 0,
-            "end": 1435
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.8328729722349764,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.28565571167771503,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "Atherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\nCa",
-            "score": 0.8328729722349764,
+            "score": 0.28565571167771503,
             "start": 1487,
             "end": 2601
           },
           {
             "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.3883007791322234,
+            "score": 0.13129612675432087,
             "start": 0,
             "end": 1486
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.8445555978000561,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.9279142719828724,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Common comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR",
-            "score": 0.8445555978000561,
+            "score": 0.9279142719828724,
             "start": 1464,
             "end": 2601
           },
           {
             "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.7651226993554261,
+            "score": 0.910756667968667,
             "start": 0,
             "end": 1463
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.6905831643668621,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
-            "score": 0.6905831643668621,
-            "start": 1436,
-            "end": 2601
-          },
-          {
-            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.1612217162063077,
-            "start": 0,
-            "end": 1435
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.6956839729292017,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
-            "score": 0.6956839729292017,
-            "start": 1436,
-            "end": 2601
-          },
-          {
-            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.10252288453633593,
-            "start": 0,
-            "end": 1435
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.842003665418452,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
-            "score": 0.842003665418452,
-            "start": 1436,
-            "end": 2601
-          },
-          {
-            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.4474554776666001,
-            "start": 0,
-            "end": 1435
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.4578123932178145,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
-            "score": 0.4578123932178145,
-            "start": 1436,
-            "end": 2601
-          },
-          {
-            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.20377101929932123,
-            "start": 0,
-            "end": 1435
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.5655573930224281,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
@@ -373,21 +267,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.7917236677307524,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8036106946982671,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "·\n↑PVR and\n↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynam",
-            "score": 0.7917236677307524,
-            "start": 1425,
+            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
+            "score": 0.8036106946982671,
+            "start": 1436,
             "end": 2601
           },
           {
             "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
-            "score": 0.27236747782775833,
+            "score": 0.2509410724842214,
             "start": 0,
-            "end": 1424
+            "end": 1435
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.47686044371710584,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
+            "score": 0.47686044371710584,
+            "start": 1436,
+            "end": 2601
+          },
+          {
+            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
+            "score": 0.20903276749660882,
+            "start": 0,
+            "end": 1435
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.2598282226097282,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Common comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR",
+            "score": 0.2598282226097282,
+            "start": 1464,
+            "end": 2601
+          },
+          {
+            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
+            "score": 0.23326263346460346,
+            "start": 0,
+            "end": 1463
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7909672325033913,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Atherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\nCa",
+            "score": 0.7909672325033913,
+            "start": 1487,
+            "end": 2601
+          },
+          {
+            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
+            "score": 0.3552353536143021,
+            "start": 0,
+            "end": 1486
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.7319908827311787,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "↑heterogeneity of perfusion\nCommon comorbidities\n·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart ",
+            "score": 0.7319908827311787,
+            "start": 1436,
+            "end": 2601
+          },
+          {
+            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
+            "score": 0.3169048470513748,
+            "start": 0,
+            "end": 1435
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8247992193051306,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Atherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\nCa",
+            "score": 0.8247992193051306,
+            "start": 1487,
+            "end": 2601
+          },
+          {
+            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
+            "score": 0.801412892581186,
+            "start": 0,
+            "end": 1486
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.5314774479381184,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Atherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\nCa",
+            "score": 0.5314774479381184,
+            "start": 1487,
+            "end": 2601
+          },
+          {
+            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
+            "score": 0.23165414560489295,
+            "start": 0,
+            "end": 1486
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5685137133362259,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "·\nAtherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\n",
+            "score": 0.5685137133362259,
+            "start": 1485,
+            "end": 2601
+          },
+          {
+            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
+            "score": 0.28700182061581236,
+            "start": 0,
+            "end": 1484
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.879317606529836,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Atherosclerosis: build-up of fat, cholesterol,\ncalcium in vessel walls\n·\nAneurysms: due to dilatation,\n↑tension (LaPlace’s law)\nHaemodynamics:\nHeart rate\n·\n↓Resting HR\n·\n↓Max HR = 220 – (age x\n0.7)\nCa",
+            "score": 0.879317606529836,
+            "start": 1487,
+            "end": 2601
+          },
+          {
+            "text": "2019A02 Describe the\ncardiovascular changes that occur with ageing.\nList:\n·\nIntro\n·\nHeart\n·\nBlood vessels\n·\nHaemodynamics\n·\nAutonomics\n·\nElectrics\nIntro:\n·\nAgeing: gradual time-dependent loss of cellu",
+            "score": 0.8185934252001217,
+            "start": 0,
+            "end": 1486
           }
         ]
       }

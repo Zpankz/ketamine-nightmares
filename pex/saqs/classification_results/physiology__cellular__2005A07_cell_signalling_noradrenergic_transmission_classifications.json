@@ -2,29 +2,33 @@
   "source": "physiology/cellular/2005A07_cell_signalling_noradrenergic_transmission.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9229830489942816
+      "primary": "mechanistic_explanation",
+      "score": 0.7414513938748561
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.5298572318362264
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "neuromuscular_and_cns",
-      "autonomic_nervous_system",
-      "haemostasis_and_transfusion"
+      "drug_receptor_disposition",
+      "neuromuscular_process",
+      "nociception_process",
+      "autonomic_disposition",
+      "organ_system_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9229830489942816,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.20079923992963256,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.9229830489942816,
+            "score": 0.20079923992963256,
             "start": 0,
             "end": 1350
           }
@@ -44,7 +48,7 @@
       },
       "comparative_analysis": {
         "score": 0.39569245717520735,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
@@ -55,12 +59,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.24263091556480276,
+        "score": 0.2530421557773242,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.24263091556480276,
+            "score": 0.2530421557773242,
             "start": 0,
             "end": 1350
           }
@@ -118,129 +122,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.2632567278910027,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8581434784490429,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.2632567278910027,
+            "score": 0.8581434784490429,
             "start": 0,
             "end": 1350
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.9338275839890691,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.6952218764326561,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.9338275839890691,
+            "score": 0.6952218764326561,
             "start": 0,
             "end": 1350
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.5711725188768172,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.23894091082715616,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.5711725188768172,
+            "score": 0.23894091082715616,
             "start": 0,
             "end": 1350
           }
         ]
       },
-      "special_populations": {
-        "score": 0.37893263772374886,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.6230832104573046,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.37893263772374886,
+            "score": 0.6230832104573046,
             "start": 0,
             "end": 1350
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.15417787288657336,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.15417787288657336,
-            "start": 0,
-            "end": 1350
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.10906114075009045,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.10906114075009045,
-            "start": 0,
-            "end": 1350
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.2007992399296327,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.2007992399296327,
-            "start": 0,
-            "end": 1350
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.7267565414890255,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.7267565414890255,
-            "start": 0,
-            "end": 1350
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.6240898014780455,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.6240898014780455,
-            "start": 0,
-            "end": 1350
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.39313891861187006,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.39313891861187006,
-            "start": 0,
-            "end": 1350
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.09433170997702066,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
@@ -250,13 +182,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.7622822048290451,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8101180227040848,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
-            "score": 0.7622822048290451,
+            "score": 0.8101180227040848,
+            "start": 0,
+            "end": 1350
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.7833159268231396,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
+            "score": 0.7833159268231396,
+            "start": 0,
+            "end": 1350
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.13710168849652457,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
+            "score": 0.13710168849652457,
+            "start": 0,
+            "end": 1350
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.0924623723009821,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
+            "score": 0.0924623723009821,
+            "start": 0,
+            "end": 1350
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.37893263772374886,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
+            "score": 0.37893263772374886,
+            "start": 0,
+            "end": 1350
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8275159197930162,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
+            "score": 0.8275159197930162,
+            "start": 0,
+            "end": 1350
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.08609013263273645,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
+            "score": 0.08609013263273645,
+            "start": 0,
+            "end": 1350
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.19420584422163265,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
+            "score": 0.19420584422163265,
+            "start": 0,
+            "end": 1350
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.16912400446358591,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2005A07 Outline\nthe main biochemical events involved in noradrenergic transmission.\nOutline how these may be altered by the use of monoamine oxidase inhibitors.\nList:\n·\nSynthesis\n·\nNerve pathway\n·\nNer",
+            "score": 0.16912400446358591,
             "start": 0,
             "end": 1350
           }

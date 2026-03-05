@@ -2,39 +2,39 @@
   "source": "other/clinical_measurement/2019A15_pulse_oximetry_sources_of_inaccuracy.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8743576151335943
+      "primary": "applied_clinical",
+      "score": 0.4419076616581079,
+      "secondary": [
+        "comparative_analysis"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.38728454557962083
     },
     "content_dimensions": [
-      "physics_and_engineering",
-      "neuromuscular_and_cns",
-      "receptor_pharmacology",
-      "organ_system_effects",
-      "monitoring_and_measurement",
-      "haemostasis_and_transfusion"
-    ]
+      "organ_system_process",
+      "equipment_and_physics"
+    ],
+    "explanatory_schema": []
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8743576151335943,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.24635176452375263,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.8743576151335943,
-            "start": 0,
-            "end": 1424
+            "text": "MetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n ",
+            "score": 0.24635176452375263,
+            "start": 1396,
+            "end": 1780
           },
           {
-            "text": "May\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interference: especially dia",
-            "score": 0.8732389311266837,
-            "start": 1425,
-            "end": 1780
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.11268218335253,
+            "start": 0,
+            "end": 1395
           }
         ]
       },
@@ -58,7 +58,7 @@
       },
       "comparative_analysis": {
         "score": 0.358198446737951,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interf",
@@ -75,20 +75,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.33596609221137813,
+        "score": 0.3316361640846439,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.33596609221137813,
-            "start": 0,
-            "end": 1428
+            "text": "  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interf",
+            "score": 0.3316361640846439,
+            "start": 1403,
+            "end": 1780
           },
           {
-            "text": "  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interference: especially diather",
-            "score": 0.21823325627215462,
-            "start": 1429,
-            "end": 1780
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.3066297472364717,
+            "start": 0,
+            "end": 1402
           }
         ]
       },
@@ -168,189 +168,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.3211518341223151,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "MetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n ",
-            "score": 0.3211518341223151,
-            "start": 1396,
-            "end": 1780
-          },
-          {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.13302177898555526,
-            "start": 0,
-            "end": 1395
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.774717751800841,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "o\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical",
-            "score": 0.774717751800841,
-            "start": 1394,
-            "end": 1780
-          },
-          {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.33668999937834104,
-            "start": 0,
-            "end": 1393
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.7739267106084753,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "MetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n ",
-            "score": 0.7739267106084753,
-            "start": 1396,
-            "end": 1780
-          },
-          {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.11744260655618423,
-            "start": 0,
-            "end": 1395
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.2488493710543425,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "drug_receptor_disposition": {
+        "score": 0.38449416694850636,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  v",
-            "score": 0.2488493710543425,
+            "score": 0.38449416694850636,
             "start": 1375,
             "end": 1780
           },
           {
             "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.13946678392103212,
+            "score": 0.2197887268753907,
             "start": 0,
             "end": 1374
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.749478019532338,
-        "description": "Clinical measurement and monitoring",
+      "autonomic_disposition": {
+        "score": 0.39390447073838586,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "HbCO:\n  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNa",
+            "score": 0.39390447073838586,
+            "start": 1369,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.17383924611324467,
+            "start": 0,
+            "end": 1368
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.15291762409217716,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.749478019532338,
+            "score": 0.15291762409217716,
             "start": 0,
             "end": 1402
           },
           {
             "text": "  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interf",
-            "score": 0.6472268431060775,
+            "score": 0.11268218335253008,
             "start": 1403,
             "end": 1780
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.7939834639495083,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.766334278517655,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "MetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n ",
-            "score": 0.7939834639495083,
+            "score": 0.766334278517655,
             "start": 1396,
             "end": 1780
           },
           {
             "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.7723399527572379,
+            "score": 0.14609812862042407,
             "start": 0,
             "end": 1395
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.18420617535904918,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  v",
-            "score": 0.18420617535904918,
-            "start": 1375,
-            "end": 1780
-          },
-          {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.17046326482945487,
-            "start": 0,
-            "end": 1374
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.387538527079057,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "HbCO:\n  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNa",
-            "score": 0.387538527079057,
-            "start": 1369,
-            "end": 1780
-          },
-          {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.17932362625190623,
-            "start": 0,
-            "end": 1368
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.669801943350287,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "HbCO:\n  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNa",
-            "score": 0.669801943350287,
-            "start": 1369,
-            "end": 1780
-          },
-          {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.38120466141920795,
-            "start": 0,
-            "end": 1368
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.36863965126426407,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "o\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical",
-            "score": 0.36863965126426407,
-            "start": 1394,
-            "end": 1780
-          },
-          {
-            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.13302177898555526,
-            "start": 0,
-            "end": 1393
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.29833852758508644,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  v",
@@ -366,21 +258,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.7921012912419733,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.4755361380760093,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  to discern dyshaemoglobins due to number of LEDs\no\nHbCO:\n  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interf",
-            "score": 0.7921012912419733,
-            "start": 1316,
+            "text": "HbCO:\n  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNa",
+            "score": 0.4755361380760093,
+            "start": 1369,
             "end": 1780
           },
           {
             "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
-            "score": 0.18491006489830478,
+            "score": 0.17588393723954218,
             "start": 0,
-            "end": 1315
+            "end": 1368
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.5201588857974621,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  v",
+            "score": 0.5201588857974621,
+            "start": 1375,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.17248408020698391,
+            "start": 0,
+            "end": 1374
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.3330768842966407,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "MetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n ",
+            "score": 0.3330768842966407,
+            "start": 1396,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.13417982729181727,
+            "start": 0,
+            "end": 1395
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7573690844351972,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interf",
+            "score": 0.7573690844351972,
+            "start": 1403,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.6975291050505792,
+            "start": 0,
+            "end": 1402
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.2488493710543425,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  tends toward 96%\no\nMetHb:\n  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  v",
+            "score": 0.2488493710543425,
+            "start": 1375,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.13946678392103212,
+            "start": 0,
+            "end": 1374
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.5329979569527504,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "May\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interference: especially dia",
+            "score": 0.5329979569527504,
+            "start": 1425,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.18632263173984007,
+            "start": 0,
+            "end": 1424
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.22135047558413734,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interference: especially d",
+            "score": 0.22135047558413734,
+            "start": 1423,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.15041593405613324,
+            "start": 0,
+            "end": 1422
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.14548752973312049,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interf",
+            "score": 0.14548752973312049,
+            "start": 1403,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.11425582926127191,
+            "start": 0,
+            "end": 1402
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.22370484839267127,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "  tends towards 85%\n·\nMay\n  be inaccurate in arrhythmias (variation in pulse amplitude)\nProbe\n·\nPhysical\n  interference:\no\nExcessive\n  movement\no\nAmbient\n  light\no\nNail\n  varnish\n·\nElectrical\n  interf",
+            "score": 0.22370484839267127,
+            "start": 1403,
+            "end": 1780
+          },
+          {
+            "text": "2019A15 Explain\nthe reasons why a pulse oximeter may give incorrect readings.\nList:\n·\nPulse oximetry principles: device, physical\nbasis, how it works (keep it brief)\n·\nSources of error: intrinsic, pro",
+            "score": 0.12397561162117983,
+            "start": 0,
+            "end": 1402
           }
         ]
       }

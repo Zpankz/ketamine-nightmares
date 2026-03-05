@@ -2,8 +2,8 @@
   "source": "pharmacology/inhalational_anaesthetics/2001A12_volatile_anaesthetics_respiratory_effects.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9212988168066547
+      "primary": "comparative_analysis",
+      "score": 0.6365944048142264
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -14,30 +14,31 @@
       ]
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "receptor_pharmacology",
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "organ_system_effects",
-      "physics_and_engineering"
+      "gas_exchange_process",
+      "equipment_and_physics",
+      "organ_system_process",
+      "drug_receptor_disposition"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9212988168066547,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.3891906532595859,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.9212988168066547,
+            "score": 0.3891906532595859,
             "start": 0,
-            "end": 1333
+            "end": 1308
           },
           {
-            "text": "↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dea",
-            "score": 0.88731781664747,
-            "start": 1334,
+            "text": "C:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West",
+            "score": 0.13360004070968667,
+            "start": 1309,
             "end": 1989
           }
         ]
@@ -62,7 +63,7 @@
       },
       "comparative_analysis": {
         "score": 0.6365944048142264,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "pulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zo",
@@ -79,20 +80,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.312682935674689,
+        "score": 0.4606449388309552,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dea",
-            "score": 0.312682935674689,
-            "start": 1334,
+            "text": "C:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West",
+            "score": 0.4606449388309552,
+            "start": 1309,
             "end": 1989
           },
           {
             "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.2007992399296327,
+            "score": 0.32399687407609323,
             "start": 0,
-            "end": 1333
+            "end": 1308
           }
         ]
       },
@@ -172,189 +173,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8634857460534524,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8234313128912258,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
-            "score": 0.8634857460534524,
+            "score": 0.8234313128912258,
             "start": 1270,
             "end": 1989
           },
           {
             "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.8050679294373881,
+            "score": 0.3468905981658887,
             "start": 0,
             "end": 1269
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.9103008559585227,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
-            "score": 0.9103008559585227,
-            "start": 1270,
-            "end": 1989
-          },
-          {
-            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.6623437996873985,
-            "start": 0,
-            "end": 1269
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.8079632672732063,
-        "description": "Multi-organ or systems-level effects",
+      "autonomic_disposition": {
+        "score": 0.27456010762145544,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.8079632672732063,
-            "start": 0,
-            "end": 1304
-          },
-          {
-            "text": "NMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑",
-            "score": 0.7840881577423744,
-            "start": 1305,
-            "end": 1989
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.21207433610868814,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.21207433610868814,
+            "score": 0.27456010762145544,
             "start": 0,
             "end": 1269
           },
           {
             "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
-            "score": 0.14671028264551744,
+            "score": 0.1752007806948695,
             "start": 1270,
             "end": 1989
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.32589958541887476,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.4923711065987237,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "pulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zo",
-            "score": 0.32589958541887476,
+            "score": 0.4923711065987237,
             "start": 1312,
             "end": 1989
           },
           {
             "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.22686588955665188,
+            "score": 0.12620097548419282,
             "start": 0,
             "end": 1311
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.6628270414999413,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.8634857460534524,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "NMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑",
-            "score": 0.6628270414999413,
+            "score": 0.8634857460534524,
             "start": 1305,
             "end": 1989
           },
           {
             "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.6462427398962322,
+            "score": 0.8400731715625799,
             "start": 0,
             "end": 1304
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.14917447507309806,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
-            "score": 0.14917447507309806,
-            "start": 1270,
-            "end": 1989
-          },
-          {
-            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.12452970475004799,
-            "start": 0,
-            "end": 1269
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.2538852076356624,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.2538852076356624,
-            "start": 0,
-            "end": 1269
-          },
-          {
-            "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
-            "score": 0.20006027090401593,
-            "start": 1270,
-            "end": 1989
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8275159197930162,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
-            "score": 0.8275159197930162,
-            "start": 1270,
-            "end": 1989
-          },
-          {
-            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.31081469123397315,
-            "start": 0,
-            "end": 1269
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.24635176452375257,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
-            "score": 0.24635176452375257,
-            "start": 1270,
-            "end": 1989
-          },
-          {
-            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.20601653605049183,
-            "start": 0,
-            "end": 1269
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.9503160007817602,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
@@ -370,20 +263,166 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.32067872186788193,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.25940131470313366,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
+            "score": 0.25940131470313366,
+            "start": 1270,
+            "end": 1989
+          },
+          {
+            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
+            "score": 0.12068239347016409,
+            "start": 0,
+            "end": 1269
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.5101492317927115,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
+            "score": 0.5101492317927115,
+            "start": 1270,
+            "end": 1989
+          },
+          {
+            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
+            "score": 0.23447305528923598,
+            "start": 0,
+            "end": 1269
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.5973893686984527,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "NMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑",
+            "score": 0.5973893686984527,
+            "start": 1305,
+            "end": 1989
+          },
+          {
+            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
+            "score": 0.22449276740188667,
+            "start": 0,
+            "end": 1304
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8663999592903133,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "pulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zo",
+            "score": 0.8663999592903133,
+            "start": 1312,
+            "end": 1989
+          },
+          {
+            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
+            "score": 0.5119397395746508,
+            "start": 0,
+            "end": 1311
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.21207433610868814,
+        "description": "Population-specific considerations (BFO: role)",
         "top_chunks": [
           {
             "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
-            "score": 0.32067872186788193,
+            "score": 0.21207433610868814,
             "start": 0,
-            "end": 1263
+            "end": 1269
           },
           {
-            "text": "NMJ\no\nInhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n",
-            "score": 0.2680091172688212,
-            "start": 1264,
+            "text": "Inhibition of pre-synaptic VDCC at\nNMJ\nC:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venou",
+            "score": 0.14671028264551744,
+            "start": 1270,
+            "end": 1989
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8094013663275356,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
+            "score": 0.8094013663275356,
+            "start": 0,
+            "end": 1333
+          },
+          {
+            "text": "↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dea",
+            "score": 0.5265325009528157,
+            "start": 1334,
+            "end": 1989
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.3855081211630234,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zone 1\ni.e. alveolar dea",
+            "score": 0.3855081211630234,
+            "start": 1334,
+            "end": 1989
+          },
+          {
+            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
+            "score": 0.14185652155095707,
+            "start": 0,
+            "end": 1333
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.39953171320659386,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "C:\npulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West",
+            "score": 0.39953171320659386,
+            "start": 1309,
+            "end": 1989
+          },
+          {
+            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
+            "score": 0.2159118422576255,
+            "start": 0,
+            "end": 1308
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.20903276749660882,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2001A12 Briefly describe the\nrespiratory effects of the volatile agents.\nList:\n·\nA: airway reflexes\n·\nB: respiratory depression\n·\nC: pulmonary circulation\n·\nD: excitation\nA:\nairway:\nPhysicochemical\n·\n",
+            "score": 0.20903276749660882,
+            "start": 0,
+            "end": 1311
+          },
+          {
+            "text": "pulmonary circulation\n↓HPV\n·\nInhibition of L-Ca\n2+\nchannel,\n↑NO release\n·\nPulmonary vasodilatation\n·\n↓PVR, ↓HPV\n·\n↑V/Q mismatch ->\n↓PaO\n2\n↑Dead space\n·\n↓Venous return -> ↓RV\noutput\n·\n↓PASP -> ↑West zo",
+            "score": 0.17794296815077074,
+            "start": 1312,
             "end": 1989
           }
         ]

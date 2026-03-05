@@ -2,8 +2,12 @@
   "source": "physiology/renal/2020B04_urine_concentration_and_dilution.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9018636730986593
+      "primary": "mechanistic_explanation",
+      "score": 0.7507330409722095,
+      "secondary": [
+        "comparative_analysis",
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -14,43 +18,42 @@
       ]
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "dose_response_kinetics",
-      "pain_and_analgesia",
-      "haemostasis_and_transfusion",
-      "special_populations",
-      "neuromuscular_and_cns",
-      "physics_and_engineering",
-      "acid_base_and_electrolytes",
-      "monitoring_and_measurement",
-      "autonomic_nervous_system",
-      "organ_system_effects",
-      "respiratory_gas_exchange"
+      "nociception_process",
+      "special_population_role",
+      "organ_system_process",
+      "neuromuscular_process",
+      "drug_receptor_disposition",
+      "gas_exchange_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "structure_function_link",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9018636730986593,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.24635176452375263,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.9018636730986593,
-            "start": 0,
-            "end": 1611
-          },
-          {
-            "text": "Descending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(ADH",
-            "score": 0.864071647903144,
-            "start": 3169,
+            "text": "Vasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some rea",
+            "score": 0.24635176452375263,
+            "start": 3116,
             "end": 4014
           },
           {
-            "text": "? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCountercurrent\nmulti",
-            "score": 0.7016614724149135,
-            "start": 1612,
-            "end": 3168
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.24552225336936628,
+            "start": 0,
+            "end": 1594
+          },
+          {
+            "text": "distal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCou",
+            "score": 0.21283868086355118,
+            "start": 1595,
+            "end": 3115
           }
         ]
       },
@@ -80,7 +83,7 @@
       },
       "comparative_analysis": {
         "score": 0.6933702527635284,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Descending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(ADH",
@@ -103,26 +106,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.3131507853067769,
+        "score": 0.4993365747181138,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.3131507853067769,
+            "score": 0.4993365747181138,
             "start": 0,
-            "end": 1611
+            "end": 1594
           },
           {
-            "text": "Descending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(ADH",
-            "score": 0.29879635968537094,
-            "start": 3169,
+            "text": "Vasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some rea",
+            "score": 0.40235380494964706,
+            "start": 3116,
             "end": 4014
           },
           {
-            "text": "? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCountercurrent\nmulti",
-            "score": 0.25178038205584335,
-            "start": 1612,
-            "end": 3168
+            "text": "distal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCou",
+            "score": 0.38424080960765233,
+            "start": 1595,
+            "end": 3115
           }
         ]
       },
@@ -226,249 +229,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.8809441529008322,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.7532329121402825,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to inte",
-            "score": 0.8809441529008322,
+            "score": 0.7532329121402825,
             "start": 3086,
             "end": 4014
           },
           {
             "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
-            "score": 0.7954820628685595,
+            "score": 0.6435311373382169,
             "start": 1552,
             "end": 3085
           },
           {
             "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.5189662674001242,
+            "score": 0.15481035196343076,
             "start": 0,
             "end": 1551
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.8899115043470642,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.38906349029705456,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to inte",
-            "score": 0.8899115043470642,
-            "start": 3086,
+            "text": "dilution of interstitium by osmosis\n·\nBidirectional slow flow minimizes dilution\n– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\n",
+            "score": 0.38906349029705456,
+            "start": 3005,
             "end": 4014
           },
           {
-            "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
-            "score": 0.8563349489658743,
-            "start": 1552,
-            "end": 3085
+            "text": "filtrate is reabsorbed by the proximal tubule\n·\nPrevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to cha",
+            "score": 0.34031905315618194,
+            "start": 1504,
+            "end": 3004
           },
           {
             "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.27368198487016115,
+            "score": 0.2585486061251438,
             "start": 0,
-            "end": 1551
+            "end": 1503
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.6432842441547613,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.57735730461036,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
-            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.6432842441547613,
-            "start": 0,
-            "end": 1551
-          },
-          {
-            "text": "Mechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note a",
-            "score": 0.6326089455601115,
-            "start": 3104,
+            "text": "Descending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(ADH",
+            "score": 0.57735730461036,
+            "start": 3169,
             "end": 4014
           },
           {
-            "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
-            "score": 0.3350018783331657,
-            "start": 1552,
-            "end": 3103
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.8458221271134265,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to inte",
-            "score": 0.8458221271134265,
-            "start": 3086,
-            "end": 4014
+            "text": "? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCountercurrent\nmulti",
+            "score": 0.5399159736155128,
+            "start": 1612,
+            "end": 3168
           },
           {
             "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.5054399083301893,
+            "score": 0.5347326857990622,
             "start": 0,
-            "end": 1551
-          },
-          {
-            "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
-            "score": 0.4610409278510169,
-            "start": 1552,
-            "end": 3085
+            "end": 1611
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.6533536768458332,
-        "description": "Clinical measurement and monitoring",
+      "organ_system_process": {
+        "score": 0.8361695377043112,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
-          {
-            "text": "·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(A",
-            "score": 0.6533536768458332,
-            "start": 3167,
-            "end": 4014
-          },
-          {
-            "text": "·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCountercurrent\nmul",
-            "score": 0.4725244517844649,
-            "start": 1610,
-            "end": 3166
-          },
-          {
-            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.26541144562458285,
-            "start": 0,
-            "end": 1609
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7825421217837121,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.7825421217837121,
-            "start": 0,
-            "end": 1594
-          },
           {
             "text": "Vasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some rea",
-            "score": 0.7581917576089247,
+            "score": 0.8361695377043112,
             "start": 3116,
             "end": 4014
           },
           {
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.766334278517655,
+            "start": 0,
+            "end": 1594
+          },
+          {
             "text": "distal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCou",
-            "score": 0.6328584869118477,
+            "score": 0.5284018893112016,
             "start": 1595,
             "end": 3115
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.7651226993554261,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
-            "score": 0.7651226993554261,
-            "start": 1552,
-            "end": 3085
-          },
-          {
-            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.24510806609584046,
-            "start": 0,
-            "end": 1551
-          },
-          {
-            "text": "– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to inte",
-            "score": 0.21514118653388012,
-            "start": 3086,
-            "end": 4014
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.649191921230726,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "Bidirectional slow flow minimizes dilution\n– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained,",
-            "score": 0.649191921230726,
-            "start": 3043,
-            "end": 4014
-          },
-          {
-            "text": "·\nPrevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral interc",
-            "score": 0.43876160882265486,
-            "start": 1550,
-            "end": 3042
-          },
-          {
-            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.12397561162117983,
-            "start": 0,
-            "end": 1549
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8646560185906924,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Bidirectional slow flow minimizes dilution\n– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained,",
-            "score": 0.8646560185906924,
-            "start": 3043,
-            "end": 4014
-          },
-          {
-            "text": "·\nPrevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral interc",
-            "score": 0.8569393402511397,
-            "start": 1550,
-            "end": 3042
-          },
-          {
-            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.7354515362224836,
-            "start": 0,
-            "end": 1549
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.8698467137441421,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to inte",
-            "score": 0.8698467137441421,
-            "start": 3086,
-            "end": 4014
-          },
-          {
-            "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
-            "score": 0.40055728830355014,
-            "start": 1552,
-            "end": 3085
-          },
-          {
-            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
-            "score": 0.11744260655618423,
-            "start": 0,
-            "end": 1551
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.6203105111331301,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
@@ -490,27 +349,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8413617446723678,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.8220570318492292,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Unidirectional rapid blood supply would cause\ndilution of interstitium by osmosis\n·\nBidirectional slow flow minimizes dilution\n– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nn",
-            "score": 0.8413617446723678,
-            "start": 2959,
+            "text": "·\nPrevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral interc",
+            "score": 0.8220570318492292,
+            "start": 1550,
+            "end": 3042
+          },
+          {
+            "text": "Bidirectional slow flow minimizes dilution\n– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained,",
+            "score": 0.7751126873366114,
+            "start": 3043,
             "end": 4014
           },
           {
-            "text": "filtrate is reabsorbed by the proximal tubule\n·\nPrevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to cha",
-            "score": 0.5458495695967381,
-            "start": 1504,
-            "end": 2958
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.11320527503558757,
+            "start": 0,
+            "end": 1549
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8787724585001864,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to inte",
+            "score": 0.8787724585001864,
+            "start": 3086,
+            "end": 4014
+          },
+          {
+            "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
+            "score": 0.534749203667216,
+            "start": 1552,
+            "end": 3085
           },
           {
             "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
             "score": 0.13534398140930778,
             "start": 0,
-            "end": 1503
+            "end": 1551
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.5258871654503776,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "distal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCou",
+            "score": 0.5258871654503776,
+            "start": 1595,
+            "end": 3115
+          },
+          {
+            "text": "Vasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some rea",
+            "score": 0.3870306155152627,
+            "start": 3116,
+            "end": 4014
+          },
+          {
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.2007992399296327,
+            "start": 0,
+            "end": 1594
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.456110666484608,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCountercurrent\nmul",
+            "score": 0.456110666484608,
+            "start": 1610,
+            "end": 3168
+          },
+          {
+            "text": "Descending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(ADH",
+            "score": 0.4431212670443475,
+            "start": 3169,
+            "end": 4014
+          },
+          {
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.1290165055825653,
+            "start": 0,
+            "end": 1609
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.8458221271134265,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "– i.e. vasa recta\nMechanism\n·\nVasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to inte",
+            "score": 0.8458221271134265,
+            "start": 3086,
+            "end": 4014
+          },
+          {
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.5054399083301893,
+            "start": 0,
+            "end": 1551
+          },
+          {
+            "text": "Prevents overwhelming of loop of Henle and\ndistal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercel",
+            "score": 0.4610409278510169,
+            "start": 1552,
+            "end": 3085
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8551215152942102,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.8551215152942102,
+            "start": 0,
+            "end": 1611
+          },
+          {
+            "text": "Descending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(ADH",
+            "score": 0.8206763737480939,
+            "start": 3169,
+            "end": 4014
+          },
+          {
+            "text": "? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCountercurrent\nmulti",
+            "score": 0.7786495244158627,
+            "start": 1612,
+            "end": 3168
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.4805036567148599,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCountercurrent\nmulti",
+            "score": 0.4805036567148599,
+            "start": 1612,
+            "end": 3168
+          },
+          {
+            "text": "Descending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(ADH",
+            "score": 0.37264500861977157,
+            "start": 3169,
+            "end": 4014
+          },
+          {
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.24428082950380803,
+            "start": 0,
+            "end": 1611
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7687470092603256,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "distal nephron\n·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCou",
+            "score": 0.7687470092603256,
+            "start": 1595,
+            "end": 3115
+          },
+          {
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.6225795804588119,
+            "start": 0,
+            "end": 1594
+          },
+          {
+            "text": "Vasa recta exist alongside juxtamedullary\nnephrons\n·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some rea",
+            "score": 0.5275086346145178,
+            "start": 3116,
+            "end": 4014
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8150899351016954,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "·\n? due to ↑glucose and amino acid\nfiltration -> ↑reabsorption paired with\nNa\n+\n·\n? due to changes in oncotic pressure in the\nlateral intercellular space and peritubular capillaries\nCountercurrent\nmul",
+            "score": 0.8150899351016954,
+            "start": 1610,
+            "end": 3166
+          },
+          {
+            "text": "·\nDescending limb: water lost, solute\ngained\n·\nAscending limb: water gained, solute\nlost\n·\nHence minimal change to interstitium\n·\n(Note also some reabsorption into\nlymphatics)\nAnti-diuretic hormone\n(A",
+            "score": 0.8036106946982671,
+            "start": 3167,
+            "end": 4014
+          },
+          {
+            "text": "2020B04 Describe the\nphysiological mechanisms by which the renal collecting duct is able\nto produce both dilute and concentrated urine.\nList:\n·\nIntro\n·\nRenal water handling\n·\nIso-osmolar reabsorption\n",
+            "score": 0.4903150114761336,
+            "start": 0,
+            "end": 1609
           }
         ]
       }

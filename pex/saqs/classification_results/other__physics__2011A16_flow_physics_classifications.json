@@ -2,8 +2,11 @@
   "source": "other/physics/2011A16_flow_physics.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9258815711281845
+      "primary": "quantitative_reasoning",
+      "score": 0.7540631803975041,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "integrative",
@@ -13,28 +16,29 @@
       ]
     },
     "content_dimensions": [
-      "monitoring_and_measurement",
-      "physics_and_engineering",
-      "haemostasis_and_transfusion"
+      "equipment_and_physics"
+    ],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9258815711281845,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.23085222312653264,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.9258815711281845,
-            "start": 0,
-            "end": 1669
+            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
+            "score": 0.23085222312653264,
+            "start": 1624,
+            "end": 2394
           },
           {
-            "text": "=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nClinical\napplication:\nLaminar\nTurbulent\nAirflow:\n",
-            "score": 0.8954909619307434,
-            "start": 1670,
-            "end": 2394
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.10401037605283608,
+            "start": 0,
+            "end": 1623
           }
         ]
       },
@@ -58,7 +62,7 @@
       },
       "comparative_analysis": {
         "score": 0.2803024686265447,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nClinical\napplication:\nLaminar\nTurbulent\nAirflow:\n",
@@ -75,20 +79,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.8192893365251843,
+        "score": 0.7540631803975041,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nClinical\napplication:\nLaminar\nTurbulent\nAirflow:\n",
-            "score": 0.8192893365251843,
-            "start": 1670,
+            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
+            "score": 0.7540631803975041,
+            "start": 1624,
             "end": 2394
           },
           {
             "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.6933702527635284,
+            "score": 0.6187953385807919,
             "start": 0,
-            "end": 1669
+            "end": 1623
           }
         ]
       },
@@ -168,189 +172,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.31926121628175463,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.14006190450182948,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
-            "score": 0.31926121628175463,
-            "start": 1624,
+            "text": "Entrance length\nLength of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent",
+            "score": 0.14006190450182948,
+            "start": 1608,
             "end": 2394
           },
           {
             "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.11637447875983453,
+            "score": 0.11060433745697731,
             "start": 0,
-            "end": 1623
+            "end": 1607
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.41188544953126865,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.10651790355261252,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
-            "score": 0.41188544953126865,
-            "start": 1624,
+            "text": "↓viscosity\nEntrance length\nLength of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihoo",
+            "score": 0.10651790355261252,
+            "start": 1597,
             "end": 2394
           },
           {
             "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.17588393723954218,
+            "score": 0.10007191072786864,
             "start": 0,
-            "end": 1623
+            "end": 1596
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.3417750735892439,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
-            "score": 0.3417750735892439,
-            "start": 1624,
-            "end": 2394
-          },
-          {
-            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.08653659094165504,
-            "start": 0,
-            "end": 1623
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.1718088844227446,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
-            "score": 0.1718088844227446,
-            "start": 1624,
-            "end": 2394
-          },
-          {
-            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.11584261865163957,
-            "start": 0,
-            "end": 1623
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.875470295249952,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.09061480910082127,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nClinical\napplication:\nLaminar\nTurbulent\nAirflow:\n",
-            "score": 0.875470295249952,
+            "score": 0.09061480910082127,
             "start": 1670,
             "end": 2394
           },
           {
             "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.590438431345601,
+            "score": 0.0733016050091523,
             "start": 0,
             "end": 1669
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.8295367351705452,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.8295367351705452,
-            "start": 0,
-            "end": 1623
-          },
-          {
-            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
-            "score": 0.777866298836103,
-            "start": 1624,
-            "end": 2394
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.1731608672870061,
-        "description": "Acid-base and electrolyte physiology",
+      "organ_system_process": {
+        "score": 0.3577039633886169,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
-            "score": 0.1731608672870061,
+            "score": 0.3577039633886169,
             "start": 1624,
             "end": 2394
           },
           {
             "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.1485560880659056,
+            "score": 0.07576714551953342,
             "start": 0,
             "end": 1623
           }
         ]
       },
-      "autonomic_nervous_system": {
-        "score": 0.09861813254725033,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.09861813254725033,
-            "start": 0,
-            "end": 1596
-          },
-          {
-            "text": "↓viscosity\nEntrance length\nLength of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihoo",
-            "score": 0.0957480960268055,
-            "start": 1597,
-            "end": 2394
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.7755072325981134,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "↓viscosity\nEntrance length\nLength of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihoo",
-            "score": 0.7755072325981134,
-            "start": 1597,
-            "end": 2394
-          },
-          {
-            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.30570328895109333,
-            "start": 0,
-            "end": 1596
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.13769065726953986,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.13769065726953986,
-            "start": 0,
-            "end": 1623
-          },
-          {
-            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
-            "score": 0.11268218335253008,
-            "start": 1624,
-            "end": 2394
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.35031746521529306,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Entrance length\nLength of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent",
@@ -366,21 +262,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.2409870944785764,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.34323357990611997,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "o\n↓viscosity\nEntrance length\nLength of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelih",
-            "score": 0.2409870944785764,
-            "start": 1595,
+            "text": "↓viscosity\nEntrance length\nLength of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihoo",
+            "score": 0.34323357990611997,
+            "start": 1597,
             "end": 2394
           },
           {
             "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
-            "score": 0.12508529522455822,
+            "score": 0.17932362625190623,
             "start": 0,
-            "end": 1594
+            "end": 1596
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.11905584709916793,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.11905584709916793,
+            "start": 0,
+            "end": 1607
+          },
+          {
+            "text": "Entrance length\nLength of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent",
+            "score": 0.10803954311448256,
+            "start": 1608,
+            "end": 2394
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.47831749733978807,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
+            "score": 0.47831749733978807,
+            "start": 1624,
+            "end": 2394
+          },
+          {
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.22370484839267127,
+            "start": 0,
+            "end": 1623
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8072418249488453,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nClinical\napplication:\nLaminar\nTurbulent\nAirflow:\n",
+            "score": 0.8072418249488453,
+            "start": 1670,
+            "end": 2394
+          },
+          {
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.7924785185551395,
+            "start": 0,
+            "end": 1669
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.1718088844227446,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
+            "score": 0.1718088844227446,
+            "start": 1624,
+            "end": 2394
+          },
+          {
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.11584261865163957,
+            "start": 0,
+            "end": 1623
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.3584457829792495,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nClinical\napplication:\nLaminar\nTurbulent\nAirflow:\n",
+            "score": 0.3584457829792495,
+            "start": 1670,
+            "end": 2394
+          },
+          {
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.23447305528923598,
+            "start": 0,
+            "end": 1669
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.2045179371314406,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nClinical\napplication:\nLaminar\nTurbulent\nAirflow:\n",
+            "score": 0.2045179371314406,
+            "start": 1670,
+            "end": 2394
+          },
+          {
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.19785291387817477,
+            "start": 0,
+            "end": 1669
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.27193002429858243,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Length of tube before flow can become laminar\n=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nCli",
+            "score": 0.27193002429858243,
+            "start": 1624,
+            "end": 2394
+          },
+          {
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.1898819772959151,
+            "start": 0,
+            "end": 1623
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6800303748388085,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "=0.03 x Re x diameter\nRelationships:\nLaminar flow\nTurbulent flow\n↑Viscosity\n↑Resistance\n↑Likelihood laminar\n↑Density\n↑Likelihood turbulent\n↑Resistance\nClinical\napplication:\nLaminar\nTurbulent\nAirflow:\n",
+            "score": 0.6800303748388085,
+            "start": 1670,
+            "end": 2394
+          },
+          {
+            "text": "2011A16 Explain\nthe difference between viscosity and density. Outline the effects of changes in\nviscosity and density on the flow of gases and liquids.\nList:\n·\nDefinitions\n·\nRelationships between visc",
+            "score": 0.3586931821398125,
+            "start": 0,
+            "end": 1669
           }
         ]
       }

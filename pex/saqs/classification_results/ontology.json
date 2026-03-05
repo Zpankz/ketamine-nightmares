@@ -1,9 +1,9 @@
 {
   "cognitive_domain": {
     "factual_recall": {
-      "query": "{This requires listing, naming, or defining specific facts, values, or classifications}",
+      "query": "{This is a short-answer question that asks the student to list, name, or define specific facts without any explanation} AND NOT {This asks how or why something occurs} AND NOT {This involves comparing two or more entities}",
       "is_iql": true,
-      "description": "Pure recall of facts, values, definitions, or lists"
+      "description": "Pure recall of facts, values, definitions, or lists — no explanation required"
     },
     "mechanistic_explanation": {
       "query": "{This requires explaining a physiological mechanism or pharmacological mechanism of action} AND {This describes how or why something occurs at a molecular, cellular, or systems level}",
@@ -11,12 +11,12 @@
       "description": "Explain how/why at mechanistic level"
     },
     "comparative_analysis": {
-      "query": "{This requires comparing or contrasting two or more drugs, agents, techniques, or physiological processes}",
+      "query": "{This requires comparing or contrasting two or more drugs, agents, techniques, or physiological processes} AND {This explicitly names at least two entities to compare}",
       "is_iql": true,
-      "description": "Compare/contrast multiple entities"
+      "description": "Compare/contrast multiple named entities"
     },
     "quantitative_reasoning": {
-      "query": "{This requires calculating, deriving equations, interpreting graphs, or applying mathematical relationships}",
+      "query": "{This requires calculating a numerical answer, deriving an equation, interpreting a graph or curve, or applying a mathematical formula}",
       "is_iql": true,
       "description": "Mathematical or graphical reasoning required"
     },
@@ -44,65 +44,77 @@
     }
   },
   "content_dimensions": {
-    "dose_response_kinetics": {
-      "query": "{This discusses dose-response relationships, pharmacokinetic parameters, half-life, clearance, volume of distribution, bioavailability, or drug concentration curves}",
+    "drug_receptor_disposition": {
+      "query": "{This discusses receptor binding, agonists, antagonists, receptor subtypes, signal transduction pathways, ion channel modulation, or enzyme inhibition as a drug mechanism}",
       "is_iql": true,
-      "description": "PK/PD parameters and dose-response"
+      "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)"
     },
-    "receptor_pharmacology": {
-      "query": "{This discusses specific receptors, receptor subtypes, agonists, antagonists, receptor binding, signal transduction pathways, or second messenger systems}",
+    "autonomic_disposition": {
+      "query": "{This discusses sympathetic or parasympathetic nervous system pharmacology, adrenergic or cholinergic receptor mechanisms, catecholamine synthesis and metabolism, or autonomic reflexes}",
       "is_iql": true,
-      "description": "Receptor mechanisms and ligand interactions"
+      "description": "Autonomic nervous system mechanisms (BFO: disposition)"
     },
-    "organ_system_effects": {
-      "query": "{This discusses effects on the cardiovascular system, respiratory system, central nervous system, renal system, hepatic system, or other organ systems}",
+    "pharmacokinetic_process": {
+      "query": "{This discusses absorption, distribution, metabolism, or elimination of drugs} AND {This mentions half-life, clearance, volume of distribution, bioavailability, or compartment models}",
       "is_iql": true,
-      "description": "Multi-organ or systems-level effects"
+      "description": "ADME processes and PK parameters (BFO: process)"
     },
-    "special_populations": {
-      "query": "{This discusses altered physiology or pharmacology in pregnancy, neonates, the elderly, obese patients, or patients with renal or hepatic impairment}",
+    "organ_system_process": {
+      "query": "{This discusses physiological or pathophysiological effects on the cardiovascular, respiratory, renal, hepatic, or central nervous systems}",
       "is_iql": true,
-      "description": "Pregnancy, neonatal, elderly, obesity, organ failure"
+      "description": "Organ-level physiological processes (BFO: process)"
     },
-    "monitoring_and_measurement": {
-      "query": "{This discusses clinical measurement techniques, monitoring devices, transducers, waveform interpretation, or laboratory investigations}",
-      "is_iql": true,
-      "description": "Clinical measurement and monitoring"
-    },
-    "physics_and_engineering": {
-      "query": "{This discusses physical principles, gas laws, fluid dynamics, electrical safety, laser physics, or the engineering principles of anaesthetic equipment}",
-      "is_iql": true,
-      "description": "Physics and equipment engineering principles"
-    },
-    "acid_base_and_electrolytes": {
-      "query": "{This discusses acid-base balance, pH regulation, buffer systems, electrolyte homeostasis, or disorders of sodium, potassium, calcium, or magnesium}",
-      "is_iql": true,
-      "description": "Acid-base and electrolyte physiology"
-    },
-    "autonomic_nervous_system": {
-      "query": "{This discusses the sympathetic nervous system, parasympathetic nervous system, autonomic reflexes, catecholamines, cholinergic transmission, or autonomic pharmacology}",
-      "is_iql": true,
-      "description": "ANS physiology and pharmacology"
-    },
-    "haemostasis_and_transfusion": {
-      "query": "{This discusses coagulation pathways, platelet function, anticoagulant drugs, thrombolysis, blood products, transfusion reactions, or point-of-care coagulation testing}",
-      "is_iql": true,
-      "description": "Coagulation, bleeding, and transfusion"
-    },
-    "pain_and_analgesia": {
-      "query": "{This discusses nociception, pain pathways, analgesic mechanisms, opioid pharmacology, local anaesthetic mechanisms, or regional anaesthesia techniques}",
-      "is_iql": true,
-      "description": "Pain physiology and analgesic pharmacology"
-    },
-    "respiratory_gas_exchange": {
+    "gas_exchange_process": {
       "query": "{This discusses oxygen transport, carbon dioxide transport, ventilation-perfusion matching, the oxygen-haemoglobin dissociation curve, dead space, or shunt}",
       "is_iql": true,
-      "description": "Gas exchange and oxygen delivery"
+      "description": "Respiratory gas exchange processes (BFO: process)"
     },
-    "neuromuscular_and_cns": {
-      "query": "{This discusses neuromuscular transmission, muscle relaxants, neuromuscular monitoring, the blood-brain barrier, cerebral blood flow, intracranial pressure, or mechanisms of general anaesthesia}",
+    "neuromuscular_process": {
+      "query": "{This discusses neuromuscular transmission, neuromuscular blockade, cerebral blood flow regulation, intracranial pressure dynamics, or mechanisms of general anaesthesia}",
       "is_iql": true,
-      "description": "Neuromuscular and central nervous system"
+      "description": "NMJ transmission and CNS processes (BFO: process)"
+    },
+    "nociception_process": {
+      "query": "{This discusses nociceptive pathways, pain transmission, analgesic mechanisms, opioid pharmacology, local anaesthetic nerve blockade, or regional anaesthesia techniques}",
+      "is_iql": true,
+      "description": "Pain pathways and analgesic processes (BFO: process)"
+    },
+    "acid_base_quality": {
+      "query": "{This discusses the Henderson-Hasselbalch equation, Stewart approach, base excess, anion gap, or buffer systems} OR {This discusses clinical disorders of sodium, potassium, calcium, magnesium, or phosphate homeostasis}",
+      "is_iql": true,
+      "description": "Acid-base and electrolyte qualities (BFO: quality)"
+    },
+    "equipment_and_physics": {
+      "query": "{This discusses anaesthetic equipment, breathing circuits, vaporisers, ventilators, or monitoring devices} OR {This discusses gas laws, vapour pressure, electrical safety, or physical principles of measurement}",
+      "is_iql": true,
+      "description": "Equipment and physical principles (BFO: material entity)"
+    },
+    "special_population_role": {
+      "query": "{This discusses altered physiology or pharmacology in pregnancy, neonates, the elderly, obese patients, or patients with renal or hepatic impairment}",
+      "is_iql": true,
+      "description": "Population-specific considerations (BFO: role)"
+    }
+  },
+  "explanatory_schema": {
+    "mechanism_effect_relevance": {
+      "query": "{This explains a mechanism of action AND then describes the resulting physiological or clinical effect}",
+      "is_iql": true,
+      "description": "Mechanism → effect → clinical relevance chain"
+    },
+    "dose_response_relationship": {
+      "query": "{This describes how changing a dose, concentration, or stimulus magnitude alters a measurable response} AND {This discusses a quantitative relationship between input and output}",
+      "is_iql": true,
+      "description": "Dose/stimulus → response → modifiers pattern"
+    },
+    "homeostatic_regulation": {
+      "query": "{This describes a feedback loop, compensatory mechanism, or regulatory system that maintains a physiological variable within a normal range}",
+      "is_iql": true,
+      "description": "Equilibrium → perturbation → compensation pattern"
+    },
+    "structure_function_link": {
+      "query": "{This explains how a molecular structure, anatomical arrangement, or physical design determines functional properties or clinical behaviour}",
+      "is_iql": true,
+      "description": "Structure → function → dysfunction pattern"
     }
   }
 }

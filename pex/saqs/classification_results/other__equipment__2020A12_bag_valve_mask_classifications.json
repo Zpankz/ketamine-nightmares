@@ -2,8 +2,8 @@
   "source": "other/equipment/2020A12_bag_valve_mask.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8502055766542939
+      "primary": "applied_clinical",
+      "score": 0.40904560901414927
     },
     "clinical_relevance": {
       "primary": "integrative",
@@ -14,19 +14,22 @@
       ]
     },
     "content_dimensions": [
-      "respiratory_gas_exchange",
-      "physics_and_engineering"
+      "equipment_and_physics",
+      "gas_exchange_process"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8502055766542939,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.29742385893649737,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.8502055766542939,
+            "score": 0.29742385893649737,
             "start": 0,
             "end": 1096
           }
@@ -46,7 +49,7 @@
       },
       "comparative_analysis": {
         "score": 0.14732399306894495,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
@@ -57,12 +60,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.13129612675432087,
+        "score": 0.1800163473587149,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.13129612675432087,
+            "score": 0.1800163473587149,
             "start": 0,
             "end": 1096
           }
@@ -120,129 +123,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.14917447507309806,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.11478329593515615,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.14917447507309806,
+            "score": 0.11478329593515615,
             "start": 0,
             "end": 1096
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.14671028264551744,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.14306065974886034,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.14671028264551744,
+            "score": 0.14306065974886034,
             "start": 0,
             "end": 1096
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.19420584422163265,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.09339430960340468,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.19420584422163265,
+            "score": 0.09339430960340468,
             "start": 0,
             "end": 1096
           }
         ]
       },
-      "special_populations": {
-        "score": 0.24428082950380803,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.29332437688031354,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.24428082950380803,
+            "score": 0.29332437688031354,
             "start": 0,
             "end": 1096
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.11690780739311239,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.11690780739311239,
-            "start": 0,
-            "end": 1096
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.6338560556842108,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.6338560556842108,
-            "start": 0,
-            "end": 1096
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.1554444021999438,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.1554444021999438,
-            "start": 0,
-            "end": 1096
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.17248408020698391,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.17248408020698391,
-            "start": 0,
-            "end": 1096
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.419265871587227,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.419265871587227,
-            "start": 0,
-            "end": 1096
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.2754396543901626,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.2754396543901626,
-            "start": 0,
-            "end": 1096
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8899115043470642,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
@@ -252,13 +183,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.20006027090401593,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.2467670878597175,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
-            "score": 0.20006027090401593,
+            "score": 0.2467670878597175,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.28297282739996915,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.28297282739996915,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.19275817505115483,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.19275817505115483,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9412932830254649,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.9412932830254649,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.24428082950380803,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.24428082950380803,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6523761738714874,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.6523761738714874,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.10651790355261252,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.10651790355261252,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.18071066347481568,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.18071066347481568,
+            "start": 0,
+            "end": 1096
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.4527839147186482,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2020A12 Using a labelled diagram, describe how a self-inflating\nbag-valve-mask resuscitation device works.\nDiagramme:\nDescription:\nUse\n·\nSpontaneous ventilation\n·\nMechanical ventilation\nPros\nLogistics",
+            "score": 0.4527839147186482,
             "start": 0,
             "end": 1096
           }

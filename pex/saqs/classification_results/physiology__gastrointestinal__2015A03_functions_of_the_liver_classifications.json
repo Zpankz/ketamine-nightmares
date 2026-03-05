@@ -2,8 +2,11 @@
   "source": "physiology/gastrointestinal/2015A03_functions_of_the_liver.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8924691021423852
+      "primary": "applied_clinical",
+      "score": 0.6621020729826963,
+      "secondary": [
+        "factual_recall"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -14,34 +17,37 @@
       ]
     },
     "content_dimensions": [
-      "haemostasis_and_transfusion",
-      "receptor_pharmacology",
-      "dose_response_kinetics",
-      "special_populations"
+      "special_population_role",
+      "pharmacokinetic_process"
+    ],
+    "explanatory_schema": [
+      "homeostatic_regulation",
+      "mechanism_effect_relevance",
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8924691021423852,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.5866927644200569,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "Uptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apolipo",
-            "score": 0.8924691021423852,
-            "start": 1599,
-            "end": 3054
-          },
-          {
             "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.8883596395623885,
+            "score": 0.5866927644200569,
             "start": 0,
-            "end": 1598
+            "end": 1596
           },
           {
-            "text": "related factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag +\nanticoag + fibrinolytic\n·\nImmunological: in",
-            "score": 0.8820211217576693,
-            "start": 3055,
+            "text": "·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apoli",
+            "score": 0.5023883168267909,
+            "start": 1597,
+            "end": 3008
+          },
+          {
+            "text": "Synthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag",
+            "score": 0.2697481404929839,
+            "start": 3009,
             "end": 3305
           }
         ]
@@ -72,7 +78,7 @@
       },
       "comparative_analysis": {
         "score": 0.4646231653861024,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "related factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag +\nanticoag + fibrinolytic\n·\nImmunological: in",
@@ -95,26 +101,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.35622203314571915,
+        "score": 0.3990192028379539,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "Uptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apolipo",
-            "score": 0.35622203314571915,
+            "score": 0.3990192028379539,
             "start": 1599,
-            "end": 3054
+            "end": 3008
+          },
+          {
+            "text": "Synthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag",
+            "score": 0.2758799607635588,
+            "start": 3009,
+            "end": 3305
           },
           {
             "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.26541144562458285,
+            "score": 0.23085222312653272,
             "start": 0,
             "end": 1598
-          },
-          {
-            "text": "related factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag +\nanticoag + fibrinolytic\n·\nImmunological: in",
-            "score": 0.23406919549587674,
-            "start": 3055,
-            "end": 3305
           }
         ]
       },
@@ -218,249 +224,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7371731194748972,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.3043160270707983,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
-            "score": 0.7371731194748972,
-            "start": 1571,
-            "end": 2984
+            "text": "·\nTransamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:O",
+            "score": 0.3043160270707983,
+            "start": 1569,
+            "end": 2982
+          },
+          {
+            "text": "·\nExcretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological",
+            "score": 0.18071066347481568,
+            "start": 2983,
+            "end": 3305
           },
           {
             "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.22766004724276212,
+            "score": 0.17248408020698391,
             "start": 0,
-            "end": 1570
+            "end": 1568
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.2942330252332108,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.2942330252332108,
+            "start": 0,
+            "end": 1546
           },
           {
-            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
-            "score": 0.20752148144486066,
-            "start": 2985,
+            "text": "  (↓insulin:glucagon)\n·\nTransamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> keto",
+            "score": 0.23045184296828788,
+            "start": 1547,
+            "end": 2932
+          },
+          {
+            "text": "·\nMetabolism: CHO, prot, lipids, ketones, alcohol\n·\nExcretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: s",
+            "score": 0.18774158236383576,
+            "start": 2933,
             "end": 3305
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.7524011313276249,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
-            "score": 0.7524011313276249,
-            "start": 1571,
-            "end": 2984
-          },
-          {
-            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.4474554776666001,
-            "start": 0,
-            "end": 1570
-          },
-          {
-            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
-            "score": 0.18561555034757704,
-            "start": 2985,
-            "end": 3305
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.36863965126426407,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
-            "score": 0.36863965126426407,
-            "start": 1571,
-            "end": 2984
-          },
-          {
-            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.270619815687641,
-            "start": 0,
-            "end": 1570
-          },
-          {
-            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
-            "score": 0.13592835209685608,
-            "start": 2985,
-            "end": 3305
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.721913193960427,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
-            "score": 0.721913193960427,
-            "start": 1571,
-            "end": 2984
-          },
-          {
-            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.35622203314571915,
-            "start": 0,
-            "end": 1570
-          },
-          {
-            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
-            "score": 0.23406919549587674,
-            "start": 2985,
-            "end": 3305
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.49449375583682764,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.7111985556060637,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "Uptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apolipo",
-            "score": 0.49449375583682764,
+            "score": 0.7111985556060637,
             "start": 1599,
-            "end": 3008
+            "end": 3054
+          },
+          {
+            "text": "related factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag +\nanticoag + fibrinolytic\n·\nImmunological: in",
+            "score": 0.24469425805145512,
+            "start": 3055,
+            "end": 3305
           },
           {
             "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.19565989102814468,
+            "score": 0.23326263346460346,
             "start": 0,
             "end": 1598
-          },
-          {
-            "text": "Synthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag",
-            "score": 0.10803954311448256,
-            "start": 3009,
-            "end": 3305
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.4459771192548895,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.4513275095836711,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
-            "score": 0.4459771192548895,
+            "score": 0.4513275095836711,
             "start": 1571,
-            "end": 2984
+            "end": 3006
           },
           {
             "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.13244504050607428,
+            "score": 0.32924077855991984,
             "start": 0,
             "end": 1570
           },
           {
-            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
-            "score": 0.11905584709916793,
-            "start": 2985,
+            "text": "·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, proco",
+            "score": 0.13592835209685608,
+            "start": 3007,
             "end": 3305
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.41913611918087346,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
-            "score": 0.41913611918087346,
-            "start": 1571,
-            "end": 2984
-          },
-          {
-            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.16317590246639627,
-            "start": 0,
-            "end": 1570
-          },
-          {
-            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
-            "score": 0.10957409746514832,
-            "start": 2985,
-            "end": 3305
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.24304282348823103,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "Metabolism: CHO, prot, lipids, ketones, alcohol\n·\nExcretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: syn",
-            "score": 0.24304282348823103,
-            "start": 2935,
-            "end": 3305
-          },
-          {
-            "text": "  (↓insulin:glucagon)\n·\nTransamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> keto",
-            "score": 0.13476114033048603,
-            "start": 1547,
-            "end": 2934
-          },
-          {
-            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.13302177898555526,
-            "start": 0,
-            "end": 1546
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.9318869461159072,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "  (↓insulin:glucagon)\n·\nTransamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> keto",
-            "score": 0.9318869461159072,
-            "start": 1547,
-            "end": 2934
-          },
-          {
-            "text": "Metabolism: CHO, prot, lipids, ketones, alcohol\n·\nExcretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: syn",
-            "score": 0.8101180227040848,
-            "start": 2935,
-            "end": 3305
-          },
-          {
-            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.570650813953295,
-            "start": 0,
-            "end": 1546
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.2794151488994812,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
-            "score": 0.2794151488994812,
-            "start": 1571,
-            "end": 2984
-          },
-          {
-            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.10803954311448256,
-            "start": 0,
-            "end": 1570
-          },
-          {
-            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
-            "score": 0.09765591089184561,
-            "start": 2985,
-            "end": 3305
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.09386232569631885,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
@@ -482,26 +344,220 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.2484321598142117,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.20827633226924755,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  (↓insulin:glucagon)\n·\nTransamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> keto",
-            "score": 0.2484321598142117,
+            "score": 0.20827633226924755,
             "start": 1547,
-            "end": 2890
+            "end": 2934
+          },
+          {
+            "text": "Metabolism: CHO, prot, lipids, ketones, alcohol\n·\nExcretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: syn",
+            "score": 0.12068239347016409,
+            "start": 2935,
+            "end": 3305
           },
           {
             "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
-            "score": 0.13887320349804264,
+            "score": 0.11851662443329414,
             "start": 0,
             "end": 1546
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.3306771344015845,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
+            "score": 0.3306771344015845,
+            "start": 1571,
+            "end": 2984
           },
           {
-            "text": "classification of functions of the liver:\n·\nMetabolism: CHO, prot, lipids, ketones, alcohol\n·\nExcretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage",
-            "score": 0.11531222505249526,
-            "start": 2891,
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.10702368540104822,
+            "start": 0,
+            "end": 1570
+          },
+          {
+            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
+            "score": 0.10551062286445975,
+            "start": 2985,
+            "end": 3305
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.4225776980549319,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
+            "score": 0.4225776980549319,
+            "start": 1571,
+            "end": 3006
+          },
+          {
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.14609812862042407,
+            "start": 0,
+            "end": 1570
+          },
+          {
+            "text": "·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, proco",
+            "score": 0.14609812862042407,
+            "start": 3007,
+            "end": 3305
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.23771779517095493,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Uptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apolipo",
+            "score": 0.23771779517095493,
+            "start": 1599,
+            "end": 3054
+          },
+          {
+            "text": "related factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag +\nanticoag + fibrinolytic\n·\nImmunological: in",
+            "score": 0.0981363269013407,
+            "start": 3055,
+            "end": 3305
+          },
+          {
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.0816980747080833,
+            "start": 0,
+            "end": 1598
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.721913193960427,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Transamination (ALT, AST)\n·\nUptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA",
+            "score": 0.721913193960427,
+            "start": 1571,
+            "end": 2984
+          },
+          {
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.35622203314571915,
+            "start": 0,
+            "end": 1570
+          },
+          {
+            "text": "Excretion: bile, urea\n·\nSynthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: ",
+            "score": 0.23406919549587674,
+            "start": 2985,
+            "end": 3305
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6477185047693906,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Uptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apolipo",
+            "score": 0.6477185047693906,
+            "start": 1599,
+            "end": 3054
+          },
+          {
+            "text": "related factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag +\nanticoag + fibrinolytic\n·\nImmunological: in",
+            "score": 0.4682415504817878,
+            "start": 3055,
+            "end": 3305
+          },
+          {
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.3311565037628375,
+            "start": 0,
+            "end": 1598
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.29879635968537094,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Uptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apolipo",
+            "score": 0.29879635968537094,
+            "start": 1599,
+            "end": 3054
+          },
+          {
+            "text": "related factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag +\nanticoag + fibrinolytic\n·\nImmunological: in",
+            "score": 0.14065856668448176,
+            "start": 3055,
+            "end": 3305
+          },
+          {
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.13129612675432087,
+            "start": 0,
+            "end": 1598
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.7630956969060682,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Uptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apolipo",
+            "score": 0.7630956969060682,
+            "start": 1599,
+            "end": 3008
+          },
+          {
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.5145255607050792,
+            "start": 0,
+            "end": 1598
+          },
+          {
+            "text": "Synthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag",
+            "score": 0.2364981332625992,
+            "start": 3009,
+            "end": 3305
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6437779668542808,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Uptake and release into circulation as required\nLipids:\n·\nGlucose -> fatty acid when glucose in excess (↑fatty acid\n  synthase)\n·\nFatty acid -> ketones when ↑Acetyl-CoA:OAA ratio\n·\nSynthesises apolipo",
+            "score": 0.6437779668542808,
+            "start": 1599,
+            "end": 3008
+          },
+          {
+            "text": "2015A03 Outline\nthe protective and regulatory functions of the liver.\nList:\n·\nProtective: immunity and detox\n·\nRegulatory: macronutrient supply, blood volume,\noncotic pressure, coagulation status\nProt",
+            "score": 0.5961045649398046,
+            "start": 0,
+            "end": 1598
+          },
+          {
+            "text": "Synthesis: plasma proteins, bile, coagulation\nrelated factors, bilirubin\n·\nStorage: glycogen, vitamins, metals\n·\nHormonal: synthesis, activation, degradation\n·\nHaematological: blood reservoir, procoag",
+            "score": 0.3936492378902395,
+            "start": 3009,
             "end": 3305
           }
         ]

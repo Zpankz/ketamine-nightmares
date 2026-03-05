@@ -2,10 +2,10 @@
   "source": "physiology/renal/2018A09_determinants_of_renal_blood_flow.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9143549994473417,
+      "primary": "mechanistic_explanation",
+      "score": 0.8432827798420172,
       "secondary": [
-        "mechanistic_explanation"
+        "comparative_analysis"
       ]
     },
     "clinical_relevance": {
@@ -17,41 +17,44 @@
       ]
     },
     "content_dimensions": [
-      "haemostasis_and_transfusion",
-      "receptor_pharmacology",
-      "neuromuscular_and_cns",
-      "organ_system_effects",
-      "pain_and_analgesia",
-      "physics_and_engineering",
-      "dose_response_kinetics",
-      "acid_base_and_electrolytes",
-      "special_populations",
-      "monitoring_and_measurement",
-      "autonomic_nervous_system"
+      "drug_receptor_disposition",
+      "autonomic_disposition",
+      "organ_system_process",
+      "nociception_process",
+      "neuromuscular_process",
+      "equipment_and_physics",
+      "special_population_role",
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance",
+      "dose_response_relationship",
+      "structure_function_link",
+      "homeostatic_regulation"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9143549994473417,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.28790094664125476,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.9143549994473417,
+            "score": 0.28790094664125476,
             "start": 0,
-            "end": 1445
+            "end": 1400
           },
           {
-            "text": "autoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to macula densa > ↓adenosine\n  release\nHormonal\naut",
-            "score": 0.872677333184146,
-            "start": 1446,
-            "end": 2779
+            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
+            "score": 0.21360460483229082,
+            "start": 1401,
+            "end": 2683
           },
           {
-            "text": "  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ↑RBF\nOther systems:\nBaroreceptor response\n·\nStimulus:\n  ↓mAP -> ↓stretch activation of high pres",
-            "score": 0.8545124702668796,
-            "start": 2780,
+            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
+            "score": 0.19348121229604975,
+            "start": 2684,
             "end": 3361
           }
         ]
@@ -82,7 +85,7 @@
       },
       "comparative_analysis": {
         "score": 0.756544888040563,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Chemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to macula densa > ↓adenosine\n  release\nHor",
@@ -105,26 +108,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.4707876977668119,
+        "score": 0.5807341284127729,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.4707876977668119,
+            "score": 0.5807341284127729,
             "start": 0,
-            "end": 1445
+            "end": 1400
           },
           {
-            "text": "+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ↑RBF\nOther systems:\nBaroreceptor response\n·\nStimulus:\n  ↓mAP -> ↓stretch activation of high pressure baroreceptors\n",
-            "score": 0.3974827909689934,
-            "start": 2799,
+            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
+            "score": 0.5671912175393823,
+            "start": 2684,
             "end": 3361
           },
           {
-            "text": "autoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to macula densa > ↓adenosine\n  release\nHormonal\naut",
-            "score": 0.3183177445792676,
-            "start": 1446,
-            "end": 2798
+            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
+            "score": 0.3586931821398125,
+            "start": 1401,
+            "end": 2683
           }
         ]
       },
@@ -228,249 +231,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7844736825697805,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
-            "score": 0.7844736825697805,
-            "start": 2684,
-            "end": 3361
-          },
-          {
-            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
-            "score": 0.606095529261614,
-            "start": 1401,
-            "end": 2683
-          },
-          {
-            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.21901020621216397,
-            "start": 0,
-            "end": 1400
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.9238175206367122,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
-            "score": 0.9238175206367122,
-            "start": 2684,
-            "end": 3361
-          },
-          {
-            "text": "Severe\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl)",
-            "score": 0.9098436977584414,
-            "start": 1394,
-            "end": 2683
-          },
-          {
-            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.313618949200329,
-            "start": 0,
-            "end": 1393
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.814384449652423,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
-            "score": 0.814384449652423,
-            "start": 2684,
-            "end": 3361
-          },
-          {
-            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.8050679294373881,
-            "start": 0,
-            "end": 1400
-          },
-          {
-            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
-            "score": 0.8021470861218252,
-            "start": 1401,
-            "end": 2683
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.7647180686578468,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
-            "score": 0.7647180686578468,
-            "start": 2684,
-            "end": 3361
-          },
-          {
-            "text": "Severe\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl)",
-            "score": 0.6790847600659429,
-            "start": 1394,
-            "end": 2683
-          },
-          {
-            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.42693742614799696,
-            "start": 0,
-            "end": 1393
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.7236793780837079,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
-            "score": 0.7236793780837079,
-            "start": 2684,
-            "end": 3361
-          },
-          {
-            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.3880466439610109,
-            "start": 0,
-            "end": 1400
-          },
-          {
-            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
-            "score": 0.3517900945031236,
-            "start": 1401,
-            "end": 2683
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.8108330834530486,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.8108330834530486,
-            "start": 0,
-            "end": 1400
-          },
-          {
-            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
-            "score": 0.8006771067571272,
-            "start": 2684,
-            "end": 3361
-          },
-          {
-            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
-            "score": 0.6323593447401579,
-            "start": 1401,
-            "end": 2683
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.7782581074303719,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
-            "score": 0.7782581074303719,
-            "start": 2684,
-            "end": 3361
-          },
-          {
-            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.49230477722383753,
-            "start": 0,
-            "end": 1391
-          },
-          {
-            "text": "·\nSevere\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaC",
-            "score": 0.43261280576355515,
-            "start": 1392,
-            "end": 2683
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.659195884058768,
-        "description": "ANS physiology and pharmacology",
+      "drug_receptor_disposition": {
+        "score": 0.8954909619307434,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  -> renal hypoperfusion -> anuria\n·\nSevere\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arter",
-            "score": 0.659195884058768,
+            "score": 0.8954909619307434,
             "start": 1357,
             "end": 2641
           },
           {
             "text": "Effects of aldosterone\n·\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑",
-            "score": 0.6130963301958137,
+            "score": 0.7192533454498276,
             "start": 2642,
             "end": 3361
           },
           {
             "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.11690780739311239,
+            "score": 0.16979284000945866,
             "start": 0,
             "end": 1356
           }
         ]
       },
-      "haemostasis_and_transfusion": {
-        "score": 0.9604264311408185,
-        "description": "Coagulation, bleeding, and transfusion",
+      "autonomic_disposition": {
+        "score": 0.8765769859967216,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  -> renal hypoperfusion -> anuria\n·\nSevere\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arter",
-            "score": 0.9604264311408185,
+            "score": 0.8765769859967216,
             "start": 1357,
-            "end": 2641
+            "end": 2631
           },
           {
-            "text": "Effects of aldosterone\n·\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑",
-            "score": 0.8569393402511397,
-            "start": 2642,
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.4000444086545075,
+            "start": 0,
+            "end": 1356
+          },
+          {
+            "text": "  (minor)\nEffects of aldosterone\n·\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF ton",
+            "score": 0.3639029314343218,
+            "start": 2632,
+            "end": 3361
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.4062108692441719,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Chemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to macula densa > ↓adenosine\n  release\nHor",
+            "score": 0.4062108692441719,
+            "start": 1437,
+            "end": 2779
+          },
+          {
+            "text": "  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ↑RBF\nOther systems:\nBaroreceptor response\n·\nStimulus:\n  ↓mAP -> ↓stretch activation of high pres",
+            "score": 0.35795117350981126,
+            "start": 2780,
             "end": 3361
           },
           {
             "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.6952218764326561,
+            "score": 0.08653659094165504,
             "start": 0,
-            "end": 1356
+            "end": 1436
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.8136773682601599,
-        "description": "Pain physiology and analgesic pharmacology",
+      "organ_system_process": {
+        "score": 0.858743228103057,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Severe\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl)",
-            "score": 0.8136773682601599,
-            "start": 1394,
-            "end": 2683
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.858743228103057,
+            "start": 0,
+            "end": 1400
           },
           {
             "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
-            "score": 0.6209412546347914,
+            "score": 0.8477101477321045,
             "start": 2684,
             "end": 3361
           },
           {
-            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.13592835209685608,
-            "start": 0,
-            "end": 1393
+            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
+            "score": 0.8348556669051774,
+            "start": 1401,
+            "end": 2683
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.28655277316211425,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Effects of aldosterone\n·\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑",
@@ -492,27 +351,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.8150899351016954,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.7871613191364488,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  -> renal hypoperfusion -> anuria\n·\nSevere\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arter",
-            "score": 0.8150899351016954,
+            "score": 0.7871613191364488,
             "start": 1357,
-            "end": 2631
+            "end": 2641
           },
           {
-            "text": "  (minor)\nEffects of aldosterone\n·\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF ton",
-            "score": 0.7236793780837079,
-            "start": 2632,
+            "text": "Effects of aldosterone\n·\n↑Na\n+\nK\n+\nATPase\n  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑",
+            "score": 0.682389051471457,
+            "start": 2642,
             "end": 3361
           },
           {
             "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
-            "score": 0.21283868086355118,
+            "score": 0.1891669165469514,
             "start": 0,
             "end": 1356
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.7962289807006788,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\nSevere\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaC",
+            "score": 0.7962289807006788,
+            "start": 1392,
+            "end": 2676
+          },
+          {
+            "text": "ATPase\n  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mA",
+            "score": 0.6099188522558676,
+            "start": 2677,
+            "end": 3361
+          },
+          {
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.1671270277650237,
+            "start": 0,
+            "end": 1391
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.6613764706886801,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
+            "score": 0.6613764706886801,
+            "start": 2684,
+            "end": 3361
+          },
+          {
+            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
+            "score": 0.3478683694621166,
+            "start": 1401,
+            "end": 2683
+          },
+          {
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.32399687407609323,
+            "start": 0,
+            "end": 1400
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.777866298836103,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ↑RBF\nOther systems:\nBaroreceptor response\n·\nStimulus:\n  ↓mAP -> ↓stretch activation of high pres",
+            "score": 0.777866298836103,
+            "start": 2780,
+            "end": 3361
+          },
+          {
+            "text": "Chemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to macula densa > ↓adenosine\n  release\nHor",
+            "score": 0.39761076079268104,
+            "start": 1437,
+            "end": 2779
+          },
+          {
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.22845576096855297,
+            "start": 0,
+            "end": 1436
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.7647180686578468,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
+            "score": 0.7647180686578468,
+            "start": 2684,
+            "end": 3361
+          },
+          {
+            "text": "Severe\n  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl)",
+            "score": 0.6790847600659429,
+            "start": 1394,
+            "end": 2683
+          },
+          {
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.42693742614799696,
+            "start": 0,
+            "end": 1393
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8743576151335943,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "autoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to macula densa > ↓adenosine\n  release\nHormonal\naut",
+            "score": 0.8743576151335943,
+            "start": 1446,
+            "end": 2779
+          },
+          {
+            "text": "  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ↑RBF\nOther systems:\nBaroreceptor response\n·\nStimulus:\n  ↓mAP -> ↓stretch activation of high pres",
+            "score": 0.8368240975336038,
+            "start": 2780,
+            "end": 3361
+          },
+          {
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.6005964317710212,
+            "start": 0,
+            "end": 1445
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.7561322192814399,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ↑RBF\nOther systems:\nBaroreceptor response\n·\nStimulus:\n  ↓mAP -> ↓stretch activation of high pres",
+            "score": 0.7561322192814399,
+            "start": 2780,
+            "end": 3361
+          },
+          {
+            "text": "autoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to macula densa > ↓adenosine\n  release\nHormonal\naut",
+            "score": 0.3634055951857737,
+            "start": 1446,
+            "end": 2779
+          },
+          {
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.22056881707219475,
+            "start": 0,
+            "end": 1445
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.6168986448321048,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
+            "score": 0.6168986448321048,
+            "start": 1401,
+            "end": 2683
+          },
+          {
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.5668645502987776,
+            "start": 0,
+            "end": 1400
+          },
+          {
+            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
+            "score": 0.3098824694419637,
+            "start": 2684,
+            "end": 3361
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.7196975313734553,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "  hypertension -> pressure diuresis\nChemical\nautoregulation:\nDescription\n·\ni.e.\n  tubuloglomerular feedback\n·\n↓Filtration\n  results in reflex afferent arteriolar relaxation\nMechanism\n·\n↓n(NaCl) to mac",
+            "score": 0.7196975313734553,
+            "start": 1401,
+            "end": 2683
+          },
+          {
+            "text": "2018A09 Discuss\nthe determinants of renal blood flow.\nList:\n·\nNormal renal blood flow\n·\nVascular anatomy\n·\nFlow dynamics\n·\nMyogenic autoregulation\n·\nChemical autoregulation (TGF)\n·\nHormonal autoregula",
+            "score": 0.6452576017335092,
+            "start": 0,
+            "end": 1400
+          },
+          {
+            "text": "  synthesis and activity and ↑ENaC activity in connecting tubule and collecting\n  duct\n·\nDirect\n  effect: ↑ECF [Na\n+\n]\n·\nIndirect\n  effect: ↑ECF tonicity -> ↑ADH release -> ↑blood volume -> ↑mAP ->\n  ",
+            "score": 0.3874115299065467,
+            "start": 2684,
+            "end": 3361
           }
         ]
       }

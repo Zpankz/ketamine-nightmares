@@ -2,39 +2,38 @@
   "source": "pharmacology/analgesics/2016B12_opioids_mechanism_of_analgesia.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.8964868687026979,
-      "secondary": [
-        "mechanistic_explanation"
-      ]
+      "primary": "mechanistic_explanation",
+      "score": 0.8776777021025528
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.6548179104669112
     },
     "content_dimensions": [
-      "receptor_pharmacology",
-      "pain_and_analgesia",
-      "neuromuscular_and_cns"
+      "nociception_process",
+      "drug_receptor_disposition"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.8964868687026979,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.49250376602846224,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.8964868687026979,
-            "start": 0,
-            "end": 1568
+            "text": "Hyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback ",
+            "score": 0.49250376602846224,
+            "start": 1553,
+            "end": 1792
           },
           {
-            "text": "↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback welcome\nat\nketam",
-            "score": 0.7630956969060682,
-            "start": 1569,
-            "end": 1792
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.09339430960340468,
+            "start": 0,
+            "end": 1552
           }
         ]
       },
@@ -58,7 +57,7 @@
       },
       "comparative_analysis": {
         "score": 0.2816360763540295,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
@@ -75,20 +74,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.29879635968537094,
+        "score": 0.2680091172688212,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.29879635968537094,
-            "start": 0,
-            "end": 1568
+            "text": "Hyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback ",
+            "score": 0.2680091172688212,
+            "start": 1553,
+            "end": 1792
           },
           {
-            "text": "↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback welcome\nat\nketam",
-            "score": 0.13534398140930778,
-            "start": 1569,
-            "end": 1792
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.24718278933502774,
+            "start": 0,
+            "end": 1552
           }
         ]
       },
@@ -168,189 +167,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.36938951788133617,
-        "description": "PK/PD parameters and dose-response",
-        "top_chunks": [
-          {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.36938951788133617,
-            "start": 0,
-            "end": 1518
-          },
-          {
-            "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
-            "score": 0.25642330901735677,
-            "start": 1519,
-            "end": 1792
-          }
-        ]
-      },
-      "receptor_pharmacology": {
-        "score": 0.9455510935196176,
-        "description": "Receptor mechanisms and ligand interactions",
-        "top_chunks": [
-          {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.9455510935196176,
-            "start": 0,
-            "end": 1518
-          },
-          {
-            "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
-            "score": 0.9018636730986593,
-            "start": 1519,
-            "end": 1792
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.12013872967712319,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.12013872967712319,
-            "start": 0,
-            "end": 1518
-          },
-          {
-            "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
-            "score": 0.0825659981021378,
-            "start": 1519,
-            "end": 1792
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.16252292535834514,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "drug_receptor_disposition": {
+        "score": 0.8387782837936923,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
-            "score": 0.16252292535834514,
+            "score": 0.8387782837936923,
             "start": 1519,
             "end": 1792
           },
           {
             "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.13534398140930778,
+            "score": 0.8171968162419349,
             "start": 0,
             "end": 1518
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.19059863367246443,
-        "description": "Clinical measurement and monitoring",
+      "autonomic_disposition": {
+        "score": 0.3510534842604531,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
-          {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.19059863367246443,
-            "start": 0,
-            "end": 1552
-          },
-          {
-            "text": "Hyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback ",
-            "score": 0.14245781704193952,
-            "start": 1553,
-            "end": 1792
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.12342301400327828,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.12342301400327828,
-            "start": 0,
-            "end": 1518
-          },
-          {
-            "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
-            "score": 0.08924333203133303,
-            "start": 1519,
-            "end": 1792
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.10551062286445975,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.10551062286445975,
-            "start": 0,
-            "end": 1518
-          },
-          {
-            "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
-            "score": 0.08040593925404063,
-            "start": 1519,
-            "end": 1792
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.4368628670492074,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.4368628670492074,
-            "start": 0,
-            "end": 1478
-          },
           {
             "text": "Multiple causes: e.g. downregulation of\n  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, de",
-            "score": 0.24428082950380803,
+            "score": 0.3510534842604531,
             "start": 1479,
             "end": 1792
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.24552225336936614,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.24552225336936614,
-            "start": 0,
-            "end": 1478
           },
           {
-            "text": "Multiple causes: e.g. downregulation of\n  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, de",
-            "score": 0.14548752973312049,
-            "start": 1479,
-            "end": 1792
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.32637600980346704,
+            "start": 0,
+            "end": 1478
           }
         ]
       },
-      "pain_and_analgesia": {
-        "score": 0.9334418687967414,
-        "description": "Pain physiology and analgesic pharmacology",
+      "pharmacokinetic_process": {
+        "score": 0.1934812122960498,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback welcome\nat\nket",
+            "score": 0.1934812122960498,
+            "start": 1567,
+            "end": 1792
+          },
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.18140657479987835,
+            "start": 0,
+            "end": 1566
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.16979284000945866,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.9334418687967414,
+            "score": 0.16979284000945866,
             "start": 0,
             "end": 1518
           },
           {
             "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
-            "score": 0.913015622006129,
+            "score": 0.10854962335430002,
             "start": 1519,
             "end": 1792
           }
         ]
       },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.07494026869750434,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
@@ -366,20 +257,166 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.6273549913802284,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.4283710987310925,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
-            "score": 0.6273549913802284,
+            "score": 0.4283710987310925,
             "start": 0,
-            "end": 1476
+            "end": 1478
           },
           {
-            "text": "·\nMultiple causes: e.g. downregulation of\n  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, ",
-            "score": 0.12845038342220835,
-            "start": 1477,
+            "text": "Multiple causes: e.g. downregulation of\n  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, de",
+            "score": 0.11320527503558757,
+            "start": 1479,
+            "end": 1792
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.9330549500882437,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.9330549500882437,
+            "start": 0,
+            "end": 1518
+          },
+          {
+            "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
+            "score": 0.8483363526099783,
+            "start": 1519,
+            "end": 1792
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.12232229789744709,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.12232229789744709,
+            "start": 0,
+            "end": 1518
+          },
+          {
+            "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
+            "score": 0.10551062286445975,
+            "start": 1519,
+            "end": 1792
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.10957409746514832,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.10957409746514832,
+            "start": 0,
+            "end": 1552
+          },
+          {
+            "text": "Hyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback ",
+            "score": 0.08475870499498107,
+            "start": 1553,
+            "end": 1792
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.16252292535834514,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  receptors, upregulation of cAMP\nHyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfun",
+            "score": 0.16252292535834514,
+            "start": 1519,
+            "end": 1792
+          },
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.13534398140930778,
+            "start": 0,
+            "end": 1518
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8483363526099783,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.8483363526099783,
+            "start": 0,
+            "end": 1568
+          },
+          {
+            "text": "↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback welcome\nat\nketam",
+            "score": 0.5695417522982,
+            "start": 1569,
+            "end": 1792
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.17932362625190623,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.17932362625190623,
+            "start": 0,
+            "end": 1566
+          },
+          {
+            "text": "·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback welcome\nat\nket",
+            "score": 0.13710168849652457,
+            "start": 1567,
+            "end": 1792
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.26714177530863603,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "Hyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback ",
+            "score": 0.26714177530863603,
+            "start": 1553,
+            "end": 1792
+          },
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.2662758837757481,
+            "start": 0,
+            "end": 1552
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.5227422101839925,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2016B12 Explain\nthe mechanisms by which intravenous morphine produces analgesia.\nYour answer should focus on the location and function of mu opioid receptors.\nList:\n·\nCellular effects\n·\nSupraspinal\n·\n",
+            "score": 0.5227422101839925,
+            "start": 0,
+            "end": 1552
+          },
+          {
+            "text": "Hyperalgaesia\n·\n↑Pain with chronic opioid use; including\n  hyperalgaesia and allodynia\n·\nMultiple causes: ↑NMDA activation, descending\n  facilitation, receptor dysfunction (Gi -> quasi G\ns\n)\nFeedback ",
+            "score": 0.14793926113385975,
+            "start": 1553,
             "end": 1792
           }
         ]

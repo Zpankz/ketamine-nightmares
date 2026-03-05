@@ -2,8 +2,11 @@
   "source": "physiology/respiratory/2020B03_respiratory_system_compliance.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.946244997642521
+      "primary": "quantitative_reasoning",
+      "score": 0.7271947106359709,
+      "secondary": [
+        "applied_clinical"
+      ]
     },
     "clinical_relevance": {
       "primary": "integrative",
@@ -13,39 +16,40 @@
       ]
     },
     "content_dimensions": [
-      "physics_and_engineering",
-      "monitoring_and_measurement",
-      "organ_system_effects",
-      "haemostasis_and_transfusion",
-      "special_populations",
-      "respiratory_gas_exchange",
-      "neuromuscular_and_cns",
-      "dose_response_kinetics"
+      "organ_system_process",
+      "equipment_and_physics",
+      "special_population_role",
+      "acid_base_quality",
+      "gas_exchange_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.946244997642521,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.2143721070525526,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.946244997642521,
+            "score": 0.2143721070525526,
             "start": 0,
-            "end": 1403
+            "end": 1401
           },
           {
-            "text": "Laminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant changes (lag in equilibrati",
-            "score": 0.9028231178351751,
-            "start": 2758,
+            "text": "o\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lun",
+            "score": 0.17316086728700608,
+            "start": 1402,
+            "end": 2703
+          },
+          {
+            "text": "static and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elas",
+            "score": 0.10601355011071832,
+            "start": 2704,
             "end": 3911
-          },
-          {
-            "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
-            "score": 0.8878394541493737,
-            "start": 1404,
-            "end": 2757
           }
         ]
       },
@@ -75,7 +79,7 @@
       },
       "comparative_analysis": {
         "score": 0.5762520058217484,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
@@ -98,26 +102,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.7825421217837121,
+        "score": 0.7271947106359709,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "Laminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant changes (lag in equilibrati",
-            "score": 0.7825421217837121,
-            "start": 2758,
+            "text": "Resistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant cha",
+            "score": 0.7271947106359709,
+            "start": 2734,
             "end": 3911
           },
           {
-            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.581123357338442,
-            "start": 0,
-            "end": 1403
+            "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
+            "score": 0.6553054466222459,
+            "start": 1404,
+            "end": 2733
           },
           {
-            "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
-            "score": 0.4683965124909339,
-            "start": 1404,
-            "end": 2757
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.6049463808064367,
+            "start": 0,
+            "end": 1403
           }
         ]
       },
@@ -221,249 +225,105 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.612461472920943,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.1599268284374202,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
-            "score": 0.612461472920943,
-            "start": 1377,
-            "end": 2635
+            "text": "Becomes more concentrated (= more effective)\n  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant",
+            "score": 0.1599268284374202,
+            "start": 1332,
+            "end": 2598
+          },
+          {
+            "text": "(e.g. heart failure, supine posture)\nDeterminants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (",
+            "score": 0.15608002460238707,
+            "start": 2599,
+            "end": 3911
           },
           {
             "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.5148570311085767,
+            "score": 0.10007191072786864,
             "start": 0,
-            "end": 1376
-          },
-          {
-            "text": "Determinants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n",
-            "score": 0.21055038795004374,
-            "start": 2636,
-            "end": 3911
+            "end": 1331
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.3442072892544602,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.14185652155095707,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.3442072892544602,
-            "start": 0,
-            "end": 1376
-          },
-          {
-            "text": "Determinants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n",
-            "score": 0.318789326827268,
-            "start": 2636,
+            "text": "Congestion -> ↓ LC\n�\n(e.g. heart failure, supine posture)\nDeterminants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x le",
+            "score": 0.14185652155095707,
+            "start": 2578,
             "end": 3911
           },
           {
-            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
-            "score": 0.271056192837134,
-            "start": 1377,
-            "end": 2635
-          }
-        ]
-      },
-      "organ_system_effects": {
-        "score": 0.799939729095984,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.799939729095984,
-            "start": 0,
-            "end": 1376
-          },
-          {
-            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
-            "score": 0.7477994009847582,
-            "start": 1377,
-            "end": 2635
-          },
-          {
-            "text": "Determinants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n",
-            "score": 0.663310000621659,
-            "start": 2636,
-            "end": 3911
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.6805027239761965,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "Determinants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n",
-            "score": 0.6805027239761965,
-            "start": 2636,
-            "end": 3911
-          },
-          {
-            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
-            "score": 0.6232090831884365,
-            "start": 1377,
-            "end": 2635
+            "text": "Becomes more concentrated (= more effective)\n  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant",
+            "score": 0.0952745927410768,
+            "start": 1332,
+            "end": 2577
           },
           {
             "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.1800163473587149,
+            "score": 0.0816980747080833,
             "start": 0,
-            "end": 1376
+            "end": 1331
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.8281911155772554,
-        "description": "Clinical measurement and monitoring",
+      "pharmacokinetic_process": {
+        "score": 0.10500911959371668,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
-          {
-            "text": "Resistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant cha",
-            "score": 0.8281911155772554,
-            "start": 2734,
-            "end": 3911
-          },
           {
             "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
-            "score": 0.7498967359755564,
+            "score": 0.10500911959371668,
             "start": 1404,
-            "end": 2733
+            "end": 2755
           },
           {
             "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.28119119060424663,
+            "score": 0.0816980747080833,
             "start": 0,
             "end": 1403
+          },
+          {
+            "text": "�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant changes (lag in equilibra",
+            "score": 0.055850112029534084,
+            "start": 2756,
+            "end": 3911
           }
         ]
       },
-      "physics_and_engineering": {
-        "score": 0.8387782837936923,
-        "description": "Physics and equipment engineering principles",
+      "organ_system_process": {
+        "score": 0.8057941557783673,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "i.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (",
-            "score": 0.8387782837936923,
-            "start": 2664,
+            "text": "static and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elas",
+            "score": 0.8057941557783673,
+            "start": 2704,
             "end": 3911
           },
           {
-            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
-            "score": 0.700745477047508,
-            "start": 1377,
-            "end": 2663
+            "text": "o\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lun",
+            "score": 0.7774740987934978,
+            "start": 1402,
+            "end": 2703
           },
           {
             "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.5247948934721086,
+            "score": 0.7577806115529168,
             "start": 0,
-            "end": 1376
+            "end": 1401
           }
         ]
       },
-      "acid_base_and_electrolytes": {
-        "score": 0.10803954311448256,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.10803954311448256,
-            "start": 0,
-            "end": 1376
-          },
-          {
-            "text": "Determinants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n",
-            "score": 0.10500911959371668,
-            "start": 2636,
-            "end": 3911
-          },
-          {
-            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
-            "score": 0.1005592983048298,
-            "start": 1377,
-            "end": 2635
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.07743609402993808,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.07743609402993808,
-            "start": 0,
-            "end": 1331
-          },
-          {
-            "text": "�\n(e.g. heart failure, supine posture)\nDeterminants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) /",
-            "score": 0.07659908032051355,
-            "start": 2597,
-            "end": 3911
-          },
-          {
-            "text": "Becomes more concentrated (= more effective)\n  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant",
-            "score": 0.07168292080041282,
-            "start": 1332,
-            "end": 2596
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.6947594556254272,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Becomes more concentrated (= more effective)\n  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant",
-            "score": 0.6947594556254272,
-            "start": 1332,
-            "end": 2596
-          },
-          {
-            "text": "�\n(e.g. heart failure, supine posture)\nDeterminants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) /",
-            "score": 0.6538420248731707,
-            "start": 2597,
-            "end": 3911
-          },
-          {
-            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.36489833307826947,
-            "start": 0,
-            "end": 1331
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.24139747765085562,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "Determinants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n",
-            "score": 0.24139747765085562,
-            "start": 2636,
-            "end": 3911
-          },
-          {
-            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
-            "score": 0.16912400446358591,
-            "start": 1377,
-            "end": 2635
-          },
-          {
-            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.10854962335430002,
-            "start": 0,
-            "end": 1376
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.618416241163078,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "Becomes more concentrated (= more effective)\n  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant",
@@ -485,27 +345,221 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.6170251846009692,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.3634055951857737,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Congestion -> ↓ LC\n�\n(e.g. heart failure, supine posture)\nDeterminants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x le",
-            "score": 0.6170251846009692,
-            "start": 2578,
+            "text": "�\n(e.g. heart failure, supine posture)\nDeterminants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) /",
+            "score": 0.3634055951857737,
+            "start": 2597,
             "end": 3911
           },
           {
-            "text": "o\nBecomes more concentrated (= more effective)\n  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfacta",
-            "score": 0.27018379811080334,
-            "start": 1330,
-            "end": 2577
+            "text": "Becomes more concentrated (= more effective)\n  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant",
+            "score": 0.26111115675759133,
+            "start": 1332,
+            "end": 2596
           },
           {
             "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
-            "score": 0.11478329593515615,
+            "score": 0.1179788782423308,
             "start": 0,
-            "end": 1329
+            "end": 1331
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.3052405443745728,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Determinants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n",
+            "score": 0.3052405443745728,
+            "start": 2636,
+            "end": 3911
+          },
+          {
+            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
+            "score": 0.15863825532763226,
+            "start": 1377,
+            "end": 2635
+          },
+          {
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.13129612675432087,
+            "start": 0,
+            "end": 1376
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.640811831157385,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "static and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elas",
+            "score": 0.640811831157385,
+            "start": 2704,
+            "end": 3911
+          },
+          {
+            "text": "o\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lun",
+            "score": 0.528898075753285,
+            "start": 1402,
+            "end": 2703
+          },
+          {
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.21514118653388012,
+            "start": 0,
+            "end": 1401
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.7675423837290772,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "Resistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant cha",
+            "score": 0.7675423837290772,
+            "start": 2734,
+            "end": 3911
+          },
+          {
+            "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
+            "score": 0.726318015129839,
+            "start": 1404,
+            "end": 2733
+          },
+          {
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.3131507853067769,
+            "start": 0,
+            "end": 1403
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.6805027239761965,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "Determinants of hysteresis:\ni.e. reasons for the difference between\nstatic and dynamic compliance\nResistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n",
+            "score": 0.6805027239761965,
+            "start": 2636,
+            "end": 3911
+          },
+          {
+            "text": "  at low alveolar volume\no\n-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C",
+            "score": 0.6232090831884365,
+            "start": 1377,
+            "end": 2635
+          },
+          {
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.1800163473587149,
+            "start": 0,
+            "end": 1376
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.7048569815755269,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "Laminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant changes (lag in equilibrati",
+            "score": 0.7048569815755269,
+            "start": 2758,
+            "end": 3911
+          },
+          {
+            "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
+            "score": 0.6616184083987072,
+            "start": 1404,
+            "end": 2757
+          },
+          {
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.34664632315416677,
+            "start": 0,
+            "end": 1403
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.2965105210895817,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
+            "score": 0.2965105210895817,
+            "start": 1404,
+            "end": 2755
+          },
+          {
+            "text": "�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant changes (lag in equilibra",
+            "score": 0.290606540070939,
+            "start": 2756,
+            "end": 3911
+          },
+          {
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.21055038795004374,
+            "start": 0,
+            "end": 1403
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5760568860065969,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
+            "score": 0.5760568860065969,
+            "start": 1404,
+            "end": 2733
+          },
+          {
+            "text": "Resistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant cha",
+            "score": 0.5383980166200811,
+            "start": 2734,
+            "end": 3911
+          },
+          {
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.45728901175069914,
+            "start": 0,
+            "end": 1403
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.9013818674527496,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Resistance to airflow\n�\nLaminar: R = (8 x length x viscosity) / (\nπ\nx radius\n4\n)\n�\nTurbulent: (P\n1\n-P\n2\n)\n∝\n(length x density) / (radius\n5\n)\nTime-dependent pulmonary elastoid behavior\n�\nSurfactant cha",
+            "score": 0.9013818674527496,
+            "start": 2734,
+            "end": 3911
+          },
+          {
+            "text": "-> ↓alveolar collapse,\n  ↑compliance\n�\nFactors increasing surface tension:\no\nAlveolar oedema -> surfactant dilution\no\nSurfactant deficiency (e.g. prematurity, SP-B\n  or SP-C deficiency)\nAbsolute lung ",
+            "score": 0.8315432423679796,
+            "start": 1404,
+            "end": 2733
+          },
+          {
+            "text": "2020B03 Describe\nthe factors that affect respiratory system compliance.\nList:\n�\nIntro and definitions\n�\nGraphs\n�\nDeterminants of static lung compliance\n�\nDeterminants of hysteresis\n�\nDeterminants of c",
+            "score": 0.34469455337775406,
+            "start": 0,
+            "end": 1403
           }
         ]
       }

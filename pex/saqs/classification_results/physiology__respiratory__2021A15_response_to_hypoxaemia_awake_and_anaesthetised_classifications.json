@@ -2,10 +2,10 @@
   "source": "physiology/respiratory/2021A15_response_to_hypoxaemia_awake_and_anaesthetised.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9037770228951163,
+      "primary": "comparative_analysis",
+      "score": 0.8101180227040848,
       "secondary": [
-        "comparative_analysis"
+        "applied_clinical"
       ]
     },
     "clinical_relevance": {
@@ -13,42 +13,46 @@
       "score": 0.7536482354762474
     },
     "content_dimensions": [
-      "neuromuscular_and_cns",
-      "receptor_pharmacology",
-      "pain_and_analgesia",
-      "respiratory_gas_exchange",
-      "dose_response_kinetics",
-      "haemostasis_and_transfusion",
-      "organ_system_effects",
-      "physics_and_engineering",
-      "autonomic_nervous_system",
-      "special_populations",
-      "monitoring_and_measurement"
+      "equipment_and_physics",
+      "neuromuscular_process",
+      "nociception_process",
+      "organ_system_process",
+      "drug_receptor_disposition",
+      "gas_exchange_process",
+      "autonomic_disposition",
+      "special_population_role",
+      "pharmacokinetic_process",
+      "acid_base_quality"
+    ],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance",
+      "dose_response_relationship"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9037770228951163,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.41291935409246483,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
-            "score": 0.9037770228951163,
+            "score": 0.41291935409246483,
             "start": 0,
-            "end": 1367
+            "end": 1352
           },
           {
-            "text": "↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nitric oxide\nrelease\no\nDose-dependent suppression of\nbaroreceptor response (propofol > volatiles)\n·\nOpio",
-            "score": 0.8663999592903133,
-            "start": 4090,
+            "text": "·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safet",
+            "score": 0.16979284000945882,
+            "start": 1353,
+            "end": 2786
+          },
+          {
+            "text": "No change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nitric oxide\nrelease\no\nDose-dependent ",
+            "score": 0.16646454350278772,
+            "start": 4024,
             "end": 4376
-          },
-          {
-            "text": "Propofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-motor neuron\n(intercostals)\no\nNo effect",
-            "score": 0.8652388596695139,
-            "start": 2822,
-            "end": 4089
           }
         ]
       },
@@ -77,12 +81,12 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.8477101477321045,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.8101180227040848,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "Propofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-motor neuron\n(intercostals)\no\nNo effect",
-            "score": 0.8477101477321045,
+            "score": 0.8101180227040848,
             "start": 2822,
             "end": 4087
           },
@@ -101,26 +105,26 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.4156364145657576,
+        "score": 0.6553054466222459,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nitric oxide\nrelease\no\nDose-dependent suppression of\nbaroreceptor response (propofol > volatiles)\n·\nOpio",
-            "score": 0.4156364145657576,
-            "start": 4090,
+            "text": "2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nitric oxide\nrelease\no\nDose-dependent suppression of\nba",
+            "score": 0.6553054466222459,
+            "start": 4041,
             "end": 4376
           },
           {
-            "text": "↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safety\n·\nPropofol:\no",
-            "score": 0.3254234590270125,
-            "start": 1368,
-            "end": 2821
+            "text": "Affects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-moto",
+            "score": 0.4641442475308469,
+            "start": 2787,
+            "end": 4040
           },
           {
-            "text": "Propofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-motor neuron\n(intercostals)\no\nNo effect",
-            "score": 0.2946878539714319,
-            "start": 2822,
-            "end": 4089
+            "text": "Volatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safety\n",
+            "score": 0.4196551852197537,
+            "start": 1355,
+            "end": 2786
           }
         ]
       },
@@ -224,81 +228,225 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.858743228103057,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.8681301763567975,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
-            "text": "(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial",
-            "score": 0.858743228103057,
-            "start": 2768,
-            "end": 3988
+            "text": "Inhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle",
+            "score": 0.8681301763567975,
+            "start": 2745,
+            "end": 3957
           },
           {
-            "text": "↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nit",
-            "score": 0.8477101477321045,
-            "start": 3989,
+            "text": "Response is rapid, <1 second\nEffect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nH",
+            "score": 0.8611267965019573,
+            "start": 1302,
+            "end": 2744
+          },
+          {
+            "text": "venoconstriction -> ↑preload\n·\n↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+",
+            "score": 0.6956839729292017,
+            "start": 3958,
+            "end": 4376
+          }
+        ]
+      },
+      "autonomic_disposition": {
+        "score": 0.8157938246409508,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "nAChR)\no\nInhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkelet",
+            "score": 0.8157938246409508,
+            "start": 2736,
+            "end": 3934
+          },
+          {
+            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
+            "score": 0.763501866737401,
+            "start": 0,
+            "end": 1299
+          },
+          {
+            "text": "·\nResponse is rapid, <1 second\nEffect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no",
+            "score": 0.7332913519466231,
+            "start": 1300,
+            "end": 2735
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.6250954951261593,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Propofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-motor neuron\n(intercostals)\no\nNo effect",
+            "score": 0.6250954951261593,
+            "start": 2822,
+            "end": 4087
+          },
+          {
+            "text": "o\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nitric oxide\nrelease\no\nDose-dependent suppression of\nbaroreceptor response (propofol > volatiles)\n·\nOp",
+            "score": 0.32399687407609323,
+            "start": 4088,
             "end": 4376
           },
           {
-            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
-            "score": 0.7306871567814641,
-            "start": 0,
-            "end": 1330
+            "text": "↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safety\n·\nPropofol:\no",
+            "score": 0.23326263346460346,
+            "start": 1368,
+            "end": 2821
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.9204490146302581,
-        "description": "Receptor mechanisms and ligand interactions",
+      "organ_system_process": {
+        "score": 0.8687038732456791,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "Effect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementa",
-            "score": 0.9204490146302581,
-            "start": 1331,
-            "end": 2767
-          },
-          {
-            "text": "(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial",
-            "score": 0.864071647903144,
-            "start": 2768,
-            "end": 3988
+            "text": "o\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-mo",
+            "score": 0.8687038732456791,
+            "start": 2785,
+            "end": 4023
           },
           {
             "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
-            "score": 0.7770815074648134,
+            "score": 0.8328729722349764,
             "start": 0,
-            "end": 1330
+            "end": 1352
+          },
+          {
+            "text": "·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safet",
+            "score": 0.44773789303355926,
+            "start": 1353,
+            "end": 2784
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.8368240975336038,
-        "description": "Multi-organ or systems-level effects",
+      "gas_exchange_process": {
+        "score": 0.8617188382271614,
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nit",
-            "score": 0.8368240975336038,
-            "start": 3989,
+            "text": "Inhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle",
+            "score": 0.8617188382271614,
+            "start": 2745,
+            "end": 3957
+          },
+          {
+            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
+            "score": 0.777866298836103,
+            "start": 0,
+            "end": 1301
+          },
+          {
+            "text": "venoconstriction -> ↑preload\n·\n↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+",
+            "score": 0.22291849253518664,
+            "start": 3958,
             "end": 4376
-          },
-          {
-            "text": "(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial",
-            "score": 0.8072418249488453,
-            "start": 2768,
-            "end": 3988
-          },
-          {
-            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
-            "score": 0.7515678401857883,
-            "start": 0,
-            "end": 1330
           }
         ]
       },
-      "special_populations": {
+      "neuromuscular_process": {
+        "score": 0.9116642633258352,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Response is rapid, <1 second\nEffect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nH",
+            "score": 0.9116642633258352,
+            "start": 1302,
+            "end": 2735
+          },
+          {
+            "text": "nAChR)\no\nInhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkelet",
+            "score": 0.8809441529008322,
+            "start": 2736,
+            "end": 3936
+          },
+          {
+            "text": "↑HR, ↑contractility,\nvenoconstriction -> ↑preload\n·\n↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activi",
+            "score": 0.8464530360558368,
+            "start": 3937,
+            "end": 4376
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.8989519128284464,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "Inhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle",
+            "score": 0.8989519128284464,
+            "start": 2745,
+            "end": 3957
+          },
+          {
+            "text": "Response is rapid, <1 second\nEffect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nH",
+            "score": 0.8934820964473875,
+            "start": 1302,
+            "end": 2744
+          },
+          {
+            "text": "venoconstriction -> ↑preload\n·\n↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+",
+            "score": 0.8599380954981706,
+            "start": 3958,
+            "end": 4376
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.6161391275696707,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "o\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-mo",
+            "score": 0.6161391275696707,
+            "start": 2785,
+            "end": 4023
+          },
+          {
+            "text": "·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safet",
+            "score": 0.29196393452853037,
+            "start": 1353,
+            "end": 2784
+          },
+          {
+            "text": "No change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nitric oxide\nrelease\no\nDose-dependent ",
+            "score": 0.28476003114035586,
+            "start": 4024,
+            "end": 4376
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.9645253191730576,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "o\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safety\n·\nPropofol:",
+            "score": 0.9645253191730576,
+            "start": 1366,
+            "end": 2809
+          },
+          {
+            "text": "diaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-motor neuron\n(intercostals)",
+            "score": 0.944149887970466,
+            "start": 2810,
+            "end": 4066
+          },
+          {
+            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
+            "score": 0.9266983949908478,
+            "start": 0,
+            "end": 1365
+          }
+        ]
+      },
+      "special_population_role": {
         "score": 0.7021189728349919,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+        "description": "Population-specific considerations (BFO: role)",
         "top_chunks": [
           {
             "text": "(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial",
@@ -319,196 +467,102 @@
             "end": 1330
           }
         ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.6482099054968764,
-        "description": "Clinical measurement and monitoring",
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.8551215152942102,
+        "description": "Mechanism → effect → clinical relevance chain",
         "top_chunks": [
           {
-            "text": "Affects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-moto",
-            "score": 0.6482099054968764,
-            "start": 2787,
-            "end": 4042
+            "text": "Propofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-motor neuron\n(intercostals)\no\nNo effect",
+            "score": 0.8551215152942102,
+            "start": 2822,
+            "end": 4089
+          },
+          {
+            "text": "↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safety\n·\nPropofol:\no",
+            "score": 0.8241160627604578,
+            "start": 1368,
+            "end": 2821
+          },
+          {
+            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
+            "score": 0.7743224261658384,
+            "start": 0,
+            "end": 1367
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.6630685564392206,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "Propofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-motor neuron\n(intercostals)\no\nNo effect",
+            "score": 0.6630685564392206,
+            "start": 2822,
+            "end": 4089
+          },
+          {
+            "text": "↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safety\n·\nPropofol:\no",
+            "score": 0.5962330954869786,
+            "start": 1368,
+            "end": 2821
+          },
+          {
+            "text": "↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nitric oxide\nrelease\no\nDose-dependent suppression of\nbaroreceptor response (propofol > volatiles)\n·\nOpio",
+            "score": 0.5872099195270383,
+            "start": 4090,
+            "end": 4376
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.5462941637310755,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
+            "score": 0.5462941637310755,
+            "start": 0,
+            "end": 1354
           },
           {
             "text": "Volatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safety\n",
-            "score": 0.6220757285522401,
+            "score": 0.5015922169120248,
             "start": 1355,
             "end": 2786
           },
           {
+            "text": "Affects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-moto",
+            "score": 0.45665446721883485,
+            "start": 2787,
+            "end": 4040
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8698467137441421,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "Volatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementation post-op for safety\n",
+            "score": 0.8698467137441421,
+            "start": 1355,
+            "end": 2786
+          },
+          {
+            "text": "Affects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial:\no\nInhibit\nα\n-moto",
+            "score": 0.7524011313276249,
+            "start": 2787,
+            "end": 4042
+          },
+          {
             "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
-            "score": 0.5793062339394162,
+            "score": 0.45855020607954156,
             "start": 0,
             "end": 1354
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.81296869091619,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "Effect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementa",
-            "score": 0.81296869091619,
-            "start": 1331,
-            "end": 2767
-          },
-          {
-            "text": "↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nit",
-            "score": 0.7695481570317122,
-            "start": 3989,
-            "end": 4376
-          },
-          {
-            "text": "(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial",
-            "score": 0.659195884058768,
-            "start": 2768,
-            "end": 3988
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.2928705582501452,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "Inhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle",
-            "score": 0.2928705582501452,
-            "start": 2745,
-            "end": 3957
-          },
-          {
-            "text": "Response is rapid, <1 second\nEffect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nH",
-            "score": 0.21901020621216397,
-            "start": 1302,
-            "end": 2744
-          },
-          {
-            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
-            "score": 0.20979078633127912,
-            "start": 0,
-            "end": 1301
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.7388888432424087,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "nAChR)\no\nInhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkelet",
-            "score": 0.7388888432424087,
-            "start": 2736,
-            "end": 3936
-          },
-          {
-            "text": "Response is rapid, <1 second\nEffect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nH",
-            "score": 0.686849214693223,
-            "start": 1302,
-            "end": 2735
-          },
-          {
-            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
-            "score": 0.6298600873558566,
-            "start": 0,
-            "end": 1301
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.8387782837936923,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "nAChR)\no\nInhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkelet",
-            "score": 0.8387782837936923,
-            "start": 2736,
-            "end": 3936
-          },
-          {
-            "text": "↑HR, ↑contractility,\nvenoconstriction -> ↑preload\n·\n↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activi",
-            "score": 0.7293801843123591,
-            "start": 3937,
-            "end": 4376
-          },
-          {
-            "text": "Response is rapid, <1 second\nEffect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nH",
-            "score": 0.7271947106359709,
-            "start": 1302,
-            "end": 2735
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.9156824635374905,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "Effect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significant depression of\nresponse\no\nHence need for O\n2\nsupplementa",
-            "score": 0.9156824635374905,
-            "start": 1331,
-            "end": 2767
-          },
-          {
-            "text": "(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle relaxation\n·\nNeuraxial",
-            "score": 0.897970122007046,
-            "start": 2768,
-            "end": 3988
-          },
-          {
-            "text": "↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+\non heart, blood\nvessels\no\n↑Nit",
-            "score": 0.8557290077565394,
-            "start": 3989,
-            "end": 4376
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
-        "score": 0.8634857460534524,
-        "description": "Gas exchange and oxygen delivery",
-        "top_chunks": [
-          {
-            "text": "Inhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivity, ↓spinal cord effect\n·\nBenzodiazepines:\no\nSkeletal muscle",
-            "score": 0.8634857460534524,
-            "start": 2745,
-            "end": 3957
-          },
-          {
-            "text": "2021A15 Describe the\nrespiratory responses to hypoxaemia in both the awake and the\nanaesthetized patient.\nList:\n·\nIntro and importance\n·\nHyperventilation: sensor, integrator,\neffector\n·\nHypoxic pulmon",
-            "score": 0.777866298836103,
-            "start": 0,
-            "end": 1301
-          },
-          {
-            "text": "venoconstriction -> ↑preload\n·\n↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\no\n↓SNS output from medulla\n(↑GABA, glycine activity)\no\nInhibit L-Ca\n2+",
-            "score": 0.22291849253518664,
-            "start": 3958,
-            "end": 4376
-          }
-        ]
-      },
-      "neuromuscular_and_cns": {
-        "score": 0.9394707141242575,
-        "description": "Neuromuscular and central nervous system",
-        "top_chunks": [
-          {
-            "text": "·\nVolatile:\no\nSkeletal muscle relaxation (inhibit\nnAChR)\no\nInhibit a-motor neuron\n(↑GABA/↑glycine)\no\nAffects intercostals >\ndiaphragm\n·\nPropofol:\no\nAs for volatiles\no\nBut less potent: ↓glycine\nactivit",
-            "score": 0.9394707141242575,
-            "start": 2686,
-            "end": 3887
-          },
-          {
-            "text": "<100mmHg, profound <50mmHg\n·\nResponse is rapid, <1 second\nEffect of anaesthesia\n·\nVolatiles:\no\n↓Chemoreceptor afferents is the\nmost important resp effect\no\n1 MAC: ablated response\no\n0.1 MAC: significa",
-            "score": 0.8914503766457,
-            "start": 1273,
-            "end": 2685
-          },
-          {
-            "text": "<50mmHg -> CNS\nacidosis\nResponse\n·\n↑SNS output\n·\n↑HR, ↑contractility,\nvenoconstriction -> ↑preload\n·\n↑Cardiac output ->\n↑O\n2\ndelivery\n·\nNo change to PaO\n2\nEffect of anaesthesia\n·\nVolatiles, propofol:\n",
-            "score": 0.8563349489658743,
-            "start": 3888,
-            "end": 4376
           }
         ]
       }

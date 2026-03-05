@@ -2,11 +2,8 @@
   "source": "other/clinical_measurement/2017A10_arterial_pressure_waveforms.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9229830489942816,
-      "secondary": [
-        "comparative_analysis"
-      ]
+      "primary": "comparative_analysis",
+      "score": 0.8495840659438667
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -16,20 +13,21 @@
       ]
     },
     "content_dimensions": [
-      "physics_and_engineering",
-      "monitoring_and_measurement",
-      "organ_system_effects"
+      "organ_system_process"
+    ],
+    "explanatory_schema": [
+      "structure_function_link"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9229830489942816,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.05238048347908997,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.9229830489942816,
+            "score": 0.05238048347908997,
             "start": 0,
             "end": 1652
           }
@@ -48,24 +46,24 @@
         ]
       },
       "comparative_analysis": {
-        "score": 0.8628983115034754,
-        "description": "Compare/contrast multiple entities",
+        "score": 0.8495840659438667,
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.8628983115034754,
+            "score": 0.8495840659438667,
             "start": 0,
             "end": 1652
           }
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.3393497630955322,
+        "score": 0.2680091172688212,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.3393497630955322,
+            "score": 0.2680091172688212,
             "start": 0,
             "end": 1652
           }
@@ -123,129 +121,63 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.08698437799387108,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.12732266681585389,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.08698437799387108,
+            "score": 0.12732266681585389,
             "start": 0,
             "end": 1652
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.48792764005646677,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.14609812862042407,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "↑Waveform propagation velocity",
+            "score": 0.14609812862042407,
+            "start": 1622,
+            "end": 1652
+          },
+          {
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.12342301400327828,
+            "start": 0,
+            "end": 1621
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.07088101815552864,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.48792764005646677,
+            "score": 0.07088101815552864,
             "start": 0,
             "end": 1652
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.6924425059475212,
-        "description": "Multi-organ or systems-level effects",
+      "organ_system_process": {
+        "score": 0.766334278517655,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.6924425059475212,
+            "score": 0.766334278517655,
             "start": 0,
             "end": 1652
           }
         ]
       },
-      "special_populations": {
-        "score": 0.19203673272679375,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.19203673272679375,
-            "start": 0,
-            "end": 1652
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.7371731194748972,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.7371731194748972,
-            "start": 0,
-            "end": 1652
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.7610590891728439,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.7610590891728439,
-            "start": 0,
-            "end": 1652
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.08040593925404063,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.08040593925404063,
-            "start": 0,
-            "end": 1652
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.11851662443329414,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.11851662443329414,
-            "start": 0,
-            "end": 1652
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.3427471360775722,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.3427471360775722,
-            "start": 0,
-            "end": 1652
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.15354696394416326,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.15354696394416326,
-            "start": 0,
-            "end": 1652
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.11959654819828813,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
@@ -255,20 +187,112 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.3145562174614424,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.47924487718151804,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
-            "score": 0.3145562174614424,
+            "score": 0.47924487718151804,
             "start": 0,
-            "end": 1621
-          },
+            "end": 1652
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.27456010762145544,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
           {
-            "text": "↑Waveform propagation velocity",
-            "score": 0.13015328625585776,
-            "start": 1622,
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.27456010762145544,
+            "start": 0,
+            "end": 1652
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.18420617535904918,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.18420617535904918,
+            "start": 0,
+            "end": 1652
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.3047781235673439,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.3047781235673439,
+            "start": 0,
+            "end": 1652
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.19203673272679375,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.19203673272679375,
+            "start": 0,
+            "end": 1652
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.4953561337445912,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.4953561337445912,
+            "start": 0,
+            "end": 1652
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.1718088844227446,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.1718088844227446,
+            "start": 0,
+            "end": 1652
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.27852923486057457,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.27852923486057457,
+            "start": 0,
+            "end": 1652
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.6786114956434602,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2017A10 Draw\nboth aortic root and radial artery pressure waveforms on the same axes. Explain\nthe differences between them.\nList:\n·\nWaveforms\n·\nAetiology\n·\nDifference by location\n·\nDifference with agei",
+            "score": 0.6786114956434602,
+            "start": 0,
             "end": 1652
           }
         ]

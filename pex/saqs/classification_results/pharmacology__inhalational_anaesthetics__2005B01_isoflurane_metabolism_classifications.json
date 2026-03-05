@@ -2,26 +2,28 @@
   "source": "pharmacology/inhalational_anaesthetics/2005B01_isoflurane_metabolism.htm",
   "summary": {
     "cognitive_domain": {
-      "primary": "factual_recall",
-      "score": 0.9271049325222323
+      "primary": "mechanistic_explanation",
+      "score": 0.771544239031447
     },
     "clinical_relevance": {
       "primary": "foundational_science",
       "score": 0.604563114041453
     },
-    "content_dimensions": [
-      "dose_response_kinetics"
+    "content_dimensions": [],
+    "explanatory_schema": [
+      "structure_function_link",
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.9271049325222323,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.08475870499498095,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.9271049325222323,
+            "score": 0.08475870499498095,
             "start": 0,
             "end": 951
           }
@@ -41,7 +43,7 @@
       },
       "comparative_analysis": {
         "score": 0.3075574940524789,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
@@ -52,12 +54,12 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.2409870944785764,
+        "score": 0.2843127098628851,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.2409870944785764,
+            "score": 0.2843127098628851,
             "start": 0,
             "end": 951
           }
@@ -115,129 +117,57 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.7143442883222849,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.23085222312653272,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.7143442883222849,
+            "score": 0.23085222312653272,
             "start": 0,
             "end": 951
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.24345511195943695,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.315494735817561,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.24345511195943695,
+            "score": 0.315494735817561,
             "start": 0,
             "end": 951
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.3024708949494209,
-        "description": "Multi-organ or systems-level effects",
+      "pharmacokinetic_process": {
+        "score": 0.32067872186788193,
+        "description": "ADME processes and PK parameters (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.3024708949494209,
+            "score": 0.32067872186788193,
             "start": 0,
             "end": 951
           }
         ]
       },
-      "special_populations": {
-        "score": 0.24968492344749585,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+      "organ_system_process": {
+        "score": 0.4722266815736544,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.24968492344749585,
+            "score": 0.4722266815736544,
             "start": 0,
             "end": 951
           }
         ]
       },
-      "monitoring_and_measurement": {
-        "score": 0.13476114033048603,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.13476114033048603,
-            "start": 0,
-            "end": 951
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.57735730461036,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.57735730461036,
-            "start": 0,
-            "end": 951
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.3029316888292404,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.3029316888292404,
-            "start": 0,
-            "end": 951
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.20827633226924755,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.20827633226924755,
-            "start": 0,
-            "end": 951
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.20752148144486066,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.20752148144486066,
-            "start": 0,
-            "end": 951
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.10252288453633593,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.10252288453633593,
-            "start": 0,
-            "end": 951
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.1599268284374202,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
@@ -247,13 +177,111 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.10906114075009045,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.11637447875983453,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
-            "score": 0.10906114075009045,
+            "score": 0.11637447875983453,
+            "start": 0,
+            "end": 951
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.11744260655618423,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
+            "score": 0.11744260655618423,
+            "start": 0,
+            "end": 951
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.13302177898555526,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
+            "score": 0.13302177898555526,
+            "start": 0,
+            "end": 951
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.2007992399296327,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
+            "score": 0.2007992399296327,
+            "start": 0,
+            "end": 951
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.24968492344749585,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
+            "score": 0.24968492344749585,
+            "start": 0,
+            "end": 951
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6288587440537546,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
+            "score": 0.6288587440537546,
+            "start": 0,
+            "end": 951
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.14006190450182948,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
+            "score": 0.14006190450182948,
+            "start": 0,
+            "end": 951
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.21283868086355118,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
+            "score": 0.21283868086355118,
+            "start": 0,
+            "end": 951
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.8288647205382538,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2005B01 Describe\nhow isoflurane is metabolized. In your answer give reasons\nwhy the overall extent of metabolism of isoflurane is so low.\nList:\n·\nIsoflurane structure\n·\nVolatile structure-activity\n·\nI",
+            "score": 0.8288647205382538,
             "start": 0,
             "end": 951
           }

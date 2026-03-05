@@ -3,7 +3,10 @@
   "summary": {
     "cognitive_domain": {
       "primary": "factual_recall",
-      "score": 0.915241295005019
+      "score": 0.5842988402396868,
+      "secondary": [
+        "quantitative_reasoning"
+      ]
     },
     "clinical_relevance": {
       "primary": "foundational_science",
@@ -13,29 +16,31 @@
       ]
     },
     "content_dimensions": [
-      "organ_system_effects",
-      "respiratory_gas_exchange",
-      "physics_and_engineering",
-      "special_populations",
-      "pain_and_analgesia"
+      "organ_system_process",
+      "equipment_and_physics",
+      "gas_exchange_process",
+      "special_population_role"
+    ],
+    "explanatory_schema": [
+      "mechanism_effect_relevance"
     ]
   },
   "classifications": {
     "cognitive_domain": {
       "factual_recall": {
-        "score": 0.915241295005019,
-        "description": "Pure recall of facts, values, definitions, or lists",
+        "score": 0.5842988402396868,
+        "description": "Pure recall of facts, values, definitions, or lists — no explanation required",
         "top_chunks": [
           {
             "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.915241295005019,
+            "score": 0.5842988402396868,
             "start": 0,
-            "end": 1465
+            "end": 1431
           },
           {
-            "text": "  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-MI:\n ",
-            "score": 0.8698467137441421,
-            "start": 1466,
+            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
+            "score": 0.38044683102380084,
+            "start": 1432,
             "end": 1845
           }
         ]
@@ -60,7 +65,7 @@
       },
       "comparative_analysis": {
         "score": 0.4067258903315847,
-        "description": "Compare/contrast multiple entities",
+        "description": "Compare/contrast multiple named entities",
         "top_chunks": [
           {
             "text": "  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-MI:\n ",
@@ -77,20 +82,20 @@
         ]
       },
       "quantitative_reasoning": {
-        "score": 0.27149292917090906,
+        "score": 0.4881928822168726,
         "description": "Mathematical or graphical reasoning required",
         "top_chunks": [
           {
-            "text": "  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-MI:\n ",
-            "score": 0.27149292917090906,
-            "start": 1466,
+            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
+            "score": 0.4881928822168726,
+            "start": 1432,
             "end": 1845
           },
           {
             "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.19203673272679375,
+            "score": 0.2758799607635588,
             "start": 0,
-            "end": 1465
+            "end": 1431
           }
         ]
       },
@@ -170,189 +175,81 @@
       }
     },
     "content_dimensions": {
-      "dose_response_kinetics": {
-        "score": 0.31174818149345435,
-        "description": "PK/PD parameters and dose-response",
+      "drug_receptor_disposition": {
+        "score": 0.24801532559250447,
+        "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         "top_chunks": [
           {
             "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
-            "score": 0.31174818149345435,
+            "score": 0.24801532559250447,
             "start": 1432,
             "end": 1845
           },
           {
             "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.24635176452375257,
+            "score": 0.2397582368620805,
             "start": 0,
             "end": 1431
           }
         ]
       },
-      "receptor_pharmacology": {
-        "score": 0.324947631255672,
-        "description": "Receptor mechanisms and ligand interactions",
+      "autonomic_disposition": {
+        "score": 0.19203673272679375,
+        "description": "Autonomic nervous system mechanisms (BFO: disposition)",
+        "top_chunks": [
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.19203673272679375,
+            "start": 0,
+            "end": 1368
+          },
+          {
+            "text": "  -> ↑VQ mismatch in susceptible patients e.g. COPD\n·\nAlveolar\n  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane l",
+            "score": 0.1870313090838101,
+            "start": 1369,
+            "end": 1845
+          }
+        ]
+      },
+      "pharmacokinetic_process": {
+        "score": 0.1554444021999438,
+        "description": "ADME processes and PK parameters (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-MI:\n ",
+            "score": 0.1554444021999438,
+            "start": 1466,
+            "end": 1845
+          },
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.14793926113385975,
+            "start": 0,
+            "end": 1465
+          }
+        ]
+      },
+      "organ_system_process": {
+        "score": 0.8974771154636643,
+        "description": "Organ-level physiological processes (BFO: process)",
         "top_chunks": [
           {
             "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
-            "score": 0.324947631255672,
+            "score": 0.8974771154636643,
             "start": 1432,
             "end": 1845
           },
           {
             "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.2776447299150455,
+            "score": 0.24139747765085562,
             "start": 0,
             "end": 1431
           }
         ]
       },
-      "organ_system_effects": {
-        "score": 0.896982698453308,
-        "description": "Multi-organ or systems-level effects",
-        "top_chunks": [
-          {
-            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
-            "score": 0.896982698453308,
-            "start": 1432,
-            "end": 1845
-          },
-          {
-            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.15481035196343076,
-            "start": 0,
-            "end": 1431
-          }
-        ]
-      },
-      "special_populations": {
-        "score": 0.6859125732217579,
-        "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
-        "top_chunks": [
-          {
-            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
-            "score": 0.6859125732217579,
-            "start": 1432,
-            "end": 1845
-          },
-          {
-            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.18632263173984007,
-            "start": 0,
-            "end": 1431
-          }
-        ]
-      },
-      "monitoring_and_measurement": {
-        "score": 0.2260732893915247,
-        "description": "Clinical measurement and monitoring",
-        "top_chunks": [
-          {
-            "text": "·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-M",
-            "score": 0.2260732893915247,
-            "start": 1462,
-            "end": 1845
-          },
-          {
-            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.13651425394654748,
-            "start": 0,
-            "end": 1461
-          }
-        ]
-      },
-      "physics_and_engineering": {
-        "score": 0.858743228103057,
-        "description": "Physics and equipment engineering principles",
-        "top_chunks": [
-          {
-            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.858743228103057,
-            "start": 0,
-            "end": 1431
-          },
-          {
-            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
-            "score": 0.5583546628994814,
-            "start": 1432,
-            "end": 1845
-          }
-        ]
-      },
-      "acid_base_and_electrolytes": {
-        "score": 0.17046326482945487,
-        "description": "Acid-base and electrolyte physiology",
-        "top_chunks": [
-          {
-            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
-            "score": 0.17046326482945487,
-            "start": 1432,
-            "end": 1845
-          },
-          {
-            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.10252288453633593,
-            "start": 0,
-            "end": 1431
-          }
-        ]
-      },
-      "autonomic_nervous_system": {
-        "score": 0.22056881707219475,
-        "description": "ANS physiology and pharmacology",
-        "top_chunks": [
-          {
-            "text": "Alveolar\n  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstr",
-            "score": 0.22056881707219475,
-            "start": 1423,
-            "end": 1845
-          },
-          {
-            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.2022819500518595,
-            "start": 0,
-            "end": 1422
-          }
-        ]
-      },
-      "haemostasis_and_transfusion": {
-        "score": 0.31643449959672987,
-        "description": "Coagulation, bleeding, and transfusion",
-        "top_chunks": [
-          {
-            "text": "Alveolar\n  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstr",
-            "score": 0.31643449959672987,
-            "start": 1423,
-            "end": 1845
-          },
-          {
-            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.20302569007096166,
-            "start": 0,
-            "end": 1422
-          }
-        ]
-      },
-      "pain_and_analgesia": {
-        "score": 0.6435311373382169,
-        "description": "Pain physiology and analgesic pharmacology",
-        "top_chunks": [
-          {
-            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
-            "score": 0.6435311373382169,
-            "start": 1432,
-            "end": 1845
-          },
-          {
-            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.12452970475004799,
-            "start": 0,
-            "end": 1431
-          }
-        ]
-      },
-      "respiratory_gas_exchange": {
+      "gas_exchange_process": {
         "score": 0.8628983115034754,
-        "description": "Gas exchange and oxygen delivery",
+        "description": "Respiratory gas exchange processes (BFO: process)",
         "top_chunks": [
           {
             "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
@@ -368,21 +265,167 @@
           }
         ]
       },
-      "neuromuscular_and_cns": {
-        "score": 0.3437202978641945,
-        "description": "Neuromuscular and central nervous system",
+      "neuromuscular_process": {
+        "score": 0.3771685767525581,
+        "description": "NMJ transmission and CNS processes (BFO: process)",
         "top_chunks": [
           {
-            "text": "  -> ↑VQ mismatch in susceptible patients e.g. COPD\n·\nAlveolar\n  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane l",
-            "score": 0.3437202978641945,
-            "start": 1369,
+            "text": "Alveolar\n  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstr",
+            "score": 0.3771685767525581,
+            "start": 1423,
             "end": 1845
           },
           {
             "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
-            "score": 0.17656868710877405,
+            "score": 0.17248408020698391,
             "start": 0,
-            "end": 1368
+            "end": 1422
+          }
+        ]
+      },
+      "nociception_process": {
+        "score": 0.5608453573447189,
+        "description": "Pain pathways and analgesic processes (BFO: process)",
+        "top_chunks": [
+          {
+            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
+            "score": 0.5608453573447189,
+            "start": 1432,
+            "end": 1845
+          },
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.14366505103412583,
+            "start": 0,
+            "end": 1431
+          }
+        ]
+      },
+      "acid_base_quality": {
+        "score": 0.1718088844227446,
+        "description": "Acid-base and electrolyte qualities (BFO: quality)",
+        "top_chunks": [
+          {
+            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
+            "score": 0.1718088844227446,
+            "start": 1432,
+            "end": 1845
+          },
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.14548752973312049,
+            "start": 0,
+            "end": 1431
+          }
+        ]
+      },
+      "equipment_and_physics": {
+        "score": 0.8634857460534524,
+        "description": "Equipment and physical principles (BFO: material entity)",
+        "top_chunks": [
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.8634857460534524,
+            "start": 0,
+            "end": 1463
+          },
+          {
+            "text": "A\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-MI:",
+            "score": 0.1485560880659056,
+            "start": 1464,
+            "end": 1845
+          }
+        ]
+      },
+      "special_population_role": {
+        "score": 0.6859125732217579,
+        "description": "Population-specific considerations (BFO: role)",
+        "top_chunks": [
+          {
+            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
+            "score": 0.6859125732217579,
+            "start": 1432,
+            "end": 1845
+          },
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.18632263173984007,
+            "start": 0,
+            "end": 1431
+          }
+        ]
+      }
+    },
+    "explanatory_schema": {
+      "mechanism_effect_relevance": {
+        "score": 0.6812106731727321,
+        "description": "Mechanism → effect → clinical relevance chain",
+        "top_chunks": [
+          {
+            "text": "  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-MI:\n ",
+            "score": 0.6812106731727321,
+            "start": 1466,
+            "end": 1845
+          },
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.47891365591802576,
+            "start": 0,
+            "end": 1465
+          }
+        ]
+      },
+      "dose_response_relationship": {
+        "score": 0.23731085714042086,
+        "description": "Dose/stimulus → response → modifiers pattern",
+        "top_chunks": [
+          {
+            "text": "  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-MI:\n ",
+            "score": 0.23731085714042086,
+            "start": 1466,
+            "end": 1845
+          },
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.15103900835879944,
+            "start": 0,
+            "end": 1465
+          }
+        ]
+      },
+      "homeostatic_regulation": {
+        "score": 0.4309803634805221,
+        "description": "Equilibrium → perturbation → compensation pattern",
+        "top_chunks": [
+          {
+            "text": "  collapse, atelectasis, ↓FRC\n·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWo",
+            "score": 0.4309803634805221,
+            "start": 1432,
+            "end": 1845
+          },
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.16845675763202042,
+            "start": 0,
+            "end": 1431
+          }
+        ]
+      },
+      "structure_function_link": {
+        "score": 0.3883007791322234,
+        "description": "Structure → function → dysfunction pattern",
+        "top_chunks": [
+          {
+            "text": "2010B07 List the\nphysical properties of oxygen. Discuss the potential adverse\neffects associated with oxygen administration.\nList:\n·\nProperties\n·\nPhysical hazards\n·\nPhysiological consequences\nProperti",
+            "score": 0.3883007791322234,
+            "start": 0,
+            "end": 1461
+          },
+          {
+            "text": "·\nA\n  few hours 1atm: tracheobronchial irritation, chest pain, cough\n·\n24\n  hours 1atm: alveolar membrane lipid peroxidation\nCardiovascular\n·\nCoronary vasoconstriction\nWorsen ischaemic injury\n·\nPost-M",
+            "score": 0.28297282739996915,
+            "start": 1462,
+            "end": 1845
           }
         ]
       }
