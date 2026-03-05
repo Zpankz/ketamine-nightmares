@@ -1,21 +1,20 @@
 #!/usr/bin/env python3
 """
-Step 5: Segment-level deep processing of the PEX/SAQ corpus.
+Step 5: Segment-level fact extraction from the PEX/SAQ corpus.
 
-Operates on the ~20,000 segments produced by enrichment (Step 0) and
-applies classification + extractive QA at segment granularity to build
-a fine-grained knowledge graph.
+Extracts structured key facts from ~10,000 segments using extractive QA.
+Concept tagging is derived from Step 2 document-level classifications
+(which already cover the same dimensions), avoiding redundant API calls.
 
 Produces:
-  1. Segment classifications — each segment tagged with content dimensions
-  2. Cross-document concept index — terms/concepts mapped to all segments
-     where they appear, with relevance scores
-  3. Segment-level QA — key facts extracted from individual segments
-  4. Concept co-occurrence matrix — which concepts appear together
+  1. Segment-level key facts — definitions, values, and mechanisms
+  2. Concept index — derived from Step 2 classifications mapped to segments
+  3. Concept co-occurrence matrix — derived from Step 2 data
 
-This is the most token-intensive step. Run it last.
+Pareto-optimised: 2 QA calls per segment (was 11 with classifications).
+Saves ~13M tokens and ~6h vs. the classification-heavy approach.
 
-Order of operations: Run AFTER enrich.py, classify.py, and embed.py.
+Order of operations: Run AFTER enrich.py and classify.py.
 """
 
 import json
@@ -34,6 +33,7 @@ API_KEY = os.environ.get(
 )
 OUTPUT_DIR = Path(__file__).parent / "segment_results"
 ENRICHMENT_DIR = Path(__file__).parent / "enrichment_results"
+CLASSIFICATION_DIR = Path(__file__).parent / "classification_results"
 MANIFEST_PATH = ENRICHMENT_DIR / "manifest.json"
 
 # Minimum segment text length worth processing
@@ -41,73 +41,10 @@ MIN_SEGMENT_LENGTH = 50
 MAX_RETRIES = 4
 MANIFEST_FLUSH_INTERVAL = 10
 
-# Core concept queries for segment-level classification.
-# Deliberately fewer than the document-level ontology (Step 2) to manage
-# token costs — only the dimensions most useful at segment granularity.
-SEGMENT_CONCEPTS = {
-    "mechanism_of_action": {
-        "query": (
-            "{This describes a specific mechanism of action, receptor "
-            "interaction, or signal transduction pathway}"
-        ),
-        "is_iql": True,
-    },
-    "clinical_effect": {
-        "query": (
-            "{This describes a specific clinical effect, side effect, "
-            "or physiological response to a drug or intervention}"
-        ),
-        "is_iql": True,
-    },
-    "pharmacokinetics": {
-        "query": (
-            "{This describes pharmacokinetic properties such as absorption, "
-            "distribution, metabolism, excretion, half-life, or bioavailability}"
-        ),
-        "is_iql": True,
-    },
-    "quantitative_data": {
-        "query": (
-            "{This contains specific numerical values, normal ranges, "
-            "equations, percentages, or dose information}"
-        ),
-        "is_iql": True,
-    },
-    "comparison": {
-        "query": (
-            "{This compares or contrasts two or more drugs, techniques, "
-            "or physiological processes}"
-        ),
-        "is_iql": True,
-    },
-    "physiology_regulation": {
-        "query": (
-            "{This describes physiological regulation, homeostatic "
-            "mechanisms, feedback loops, or control systems}"
-        ),
-        "is_iql": True,
-    },
-    "anatomy_structure": {
-        "query": (
-            "{This describes anatomical structures, spatial relationships, "
-            "or physical features of organs or tissues}"
-        ),
-        "is_iql": True,
-    },
-    "equipment_physics": {
-        "query": (
-            "{This describes equipment function, physical principles, "
-            "measurement techniques, or engineering specifications}"
-        ),
-        "is_iql": True,
-    },
-}
-
-# Segment-level questions for key-fact extraction
+# Focused fact extraction questions (high unique value per API call)
 SEGMENT_QUESTIONS = [
     "What is the key fact or definition stated here?",
     "What numerical value or normal range is given?",
-    "What mechanism or process is described?",
 ]
 
 
@@ -134,32 +71,28 @@ def extract_processable_segments(doc: dict) -> list[dict]:
     return segments
 
 
-def classify_segment(client: Isaacus, text: str) -> dict:
-    """Classify a segment against all concept queries."""
-    results = {}
-    for concept, config in SEGMENT_CONCEPTS.items():
-        retries = 0
-        score = None
-        while retries < MAX_RETRIES:
-            try:
-                response = client.classifications.universal.create(
-                    model="kanon-universal-classifier-mini",
-                    query=config["query"],
-                    texts=[text],
-                    is_iql=config["is_iql"],
-                    scoring_method="chunk_max",
-                )
-                score = response.classifications[0].score
-                break
-            except Exception as e:
-                retries += 1
-                if retries < MAX_RETRIES:
-                    print(f"    Retry {retries}/{MAX_RETRIES} for {concept}: {e}")
-                    time.sleep(2 ** retries)
-                else:
-                    print(f"    classify_segment failed on {concept}: {e}")
-        results[concept] = score
-    return results
+def load_document_classifications(path: str) -> dict:
+    """Load Step 2 classification summary for a document.
+
+    Returns the active content dimensions from the document-level ontology,
+    which are inherited by all segments in that document.
+    """
+    class_manifest_path = CLASSIFICATION_DIR / "manifest.json"
+    if not class_manifest_path.exists():
+        return {"content_dimensions": []}
+
+    with open(class_manifest_path) as f:
+        class_manifest = json.load(f)
+
+    entry = class_manifest.get(path)
+    if not entry:
+        return {"content_dimensions": []}
+
+    return {
+        "content_dimensions": entry.get("content_dimensions", []),
+        "cognitive_domain": entry.get("cognitive_domain"),
+        "clinical_relevance": entry.get("clinical_relevance"),
+    }
 
 
 def extract_segment_facts(
@@ -219,15 +152,12 @@ def main():
         for path, info in manifest.items()
         if path not in seg_manifest and path not in SKIP_PATHS
     ]
-    print(f"Segment processing pipeline: {len(remaining)} documents remaining")
+    print(f"Segment fact extraction: {len(remaining)} documents remaining")
+    print(f"  {len(SEGMENT_QUESTIONS)} questions per segment "
+          f"(classification inherited from Step 2)")
 
-    # Global concept index: concept -> [{source, segment_id, score, text_preview}]
-    concept_index_path = OUTPUT_DIR / "concept_index.json"
-    if concept_index_path.exists():
-        with open(concept_index_path) as f:
-            concept_index = json.load(f)
-    else:
-        concept_index = {c: [] for c in SEGMENT_CONCEPTS}
+    # Concept index: built from Step 2 classifications mapped to segments
+    concept_index = defaultdict(list)
 
     processed = 0
 
@@ -243,28 +173,28 @@ def main():
             }
             continue
 
-        print(f"\n[{processed + 1}/{len(remaining)}] {path} ({len(segments)} segments)")
+        # Inherit document-level classifications from Step 2
+        doc_class = load_document_classifications(path)
+        doc_dimensions = doc_class.get("content_dimensions", [])
+
+        print(f"\n[{processed + 1}/{len(remaining)}] {path} "
+              f"({len(segments)} segs, dims: {doc_dimensions})")
 
         segment_results = []
         for s_idx, seg in enumerate(segments):
             if s_idx % 10 == 0 and s_idx > 0:
                 print(f"  Segment {s_idx}/{len(segments)}...")
 
-            # Classify
-            concept_scores = classify_segment(client, seg["text"])
-
-            # Extract facts
+            # Extract facts (the unique high-value work)
             facts = extract_segment_facts(client, seg["text"])
 
-            # Update concept index for concepts scoring > 0.5
-            for concept, score in concept_scores.items():
-                if score and score > DIMENSION_THRESHOLD:
-                    concept_index[concept].append({
-                        "source": path,
-                        "segment_id": seg["id"],
-                        "score": round(score, 4),
-                        "text_preview": seg["text"][:150],
-                    })
+            # Map document dimensions to this segment for the concept index
+            for dim in doc_dimensions:
+                concept_index[dim].append({
+                    "source": path,
+                    "segment_id": seg["id"],
+                    "text_preview": seg["text"][:150],
+                })
 
             segment_results.append({
                 "id": seg["id"],
@@ -272,14 +202,7 @@ def main():
                 "end": seg["end"],
                 "level": seg["level"],
                 "text_preview": seg["text"][:100],
-                "concept_scores": {
-                    k: round(v, 4) if v else None
-                    for k, v in concept_scores.items()
-                },
-                "active_concepts": [
-                    k for k, v in concept_scores.items()
-                    if v and v > DIMENSION_THRESHOLD
-                ],
+                "inherited_dimensions": doc_dimensions,
                 "key_facts": facts,
             })
 
@@ -288,6 +211,7 @@ def main():
         result_doc = {
             "source": path,
             "num_segments_processed": len(segment_results),
+            "document_classification": doc_class,
             "segments": segment_results,
         }
         with open(OUTPUT_DIR / output_name, "w") as f:
@@ -302,30 +226,31 @@ def main():
         if processed % MANIFEST_FLUSH_INTERVAL == 0 or processed == len(remaining):
             with open(seg_manifest_path, "w") as f:
                 json.dump(seg_manifest, f, indent=2, ensure_ascii=False)
-            with open(concept_index_path, "w") as f:
-                json.dump(concept_index, f, indent=2, ensure_ascii=False)
 
         processed += 1
-        print(f"  -> {len(segment_results)} segments processed, "
-              f"{sum(1 for s in segment_results for _ in s['active_concepts'])} concept tags")
+        facts_count = sum(len(s["key_facts"]) for s in segment_results)
+        print(f"  -> {len(segment_results)} segments, {facts_count} facts extracted")
 
-    # --- Build co-occurrence matrix ---
-    print("\nBuilding concept co-occurrence matrix...")
+    # Save concept index
+    concept_index_path = OUTPUT_DIR / "concept_index.json"
+    with open(concept_index_path, "w") as f:
+        json.dump(dict(concept_index), f, indent=2, ensure_ascii=False)
+
+    # --- Build co-occurrence matrix from Step 2 classifications ---
+    print("\nBuilding concept co-occurrence matrix from Step 2 classifications...")
+    class_manifest_path = CLASSIFICATION_DIR / "manifest.json"
     cooccurrence = defaultdict(Counter)
 
-    for path, info in seg_manifest.items():
-        if not info.get("output_file"):
-            continue
-        with open(OUTPUT_DIR / info["output_file"]) as f:
-            doc = json.load(f)
-        for seg in doc["segments"]:
-            concepts = seg["active_concepts"]
-            for i, c1 in enumerate(concepts):
-                for c2 in concepts[i + 1 :]:
-                    cooccurrence[c1][c2] += 1
-                    cooccurrence[c2][c1] += 1
+    if class_manifest_path.exists():
+        with open(class_manifest_path) as f:
+            class_manifest = json.load(f)
+        for entry in class_manifest.values():
+            dims = entry.get("content_dimensions", [])
+            for i, d1 in enumerate(dims):
+                for d2 in dims[i + 1:]:
+                    cooccurrence[d1][d2] += 1
+                    cooccurrence[d2][d1] += 1
 
-    # Convert to serialisable format
     cooccurrence_matrix = {
         concept: dict(counts) for concept, counts in cooccurrence.items()
     }
@@ -333,25 +258,25 @@ def main():
         json.dump(cooccurrence_matrix, f, indent=2, ensure_ascii=False)
 
     # --- Build global statistics ---
-    concept_counts = {
-        concept: len(entries) for concept, entries in concept_index.items()
-    }
+    total_segments = sum(
+        info["num_segments_processed"] for info in seg_manifest.values()
+    )
     stats = {
         "total_documents_processed": processed,
-        "total_segments_processed": sum(
-            info["num_segments_processed"]
-            for info in seg_manifest.values()
-        ),
-        "concept_segment_counts": concept_counts,
-        "concept_definitions": {
-            k: v["query"] for k, v in SEGMENT_CONCEPTS.items()
+        "total_segments_processed": total_segments,
+        "questions_per_segment": len(SEGMENT_QUESTIONS),
+        "api_calls_per_segment": len(SEGMENT_QUESTIONS),
+        "concept_index_source": "Step 2 document-level classifications (inherited)",
+        "concept_segment_counts": {
+            k: len(v) for k, v in concept_index.items()
         },
     }
     with open(OUTPUT_DIR / "stats.json", "w") as f:
         json.dump(stats, f, indent=2, ensure_ascii=False)
 
     print(f"\nSegment processing complete! {processed} documents.")
-    print(f"Concept index entries: {sum(concept_counts.values())}")
+    print(f"Total segments: {total_segments}")
+    print(f"Concept index dimensions: {len(concept_index)}")
     print(f"Co-occurrence pairs: {sum(len(v) for v in cooccurrence.values()) // 2}")
     print(f"Results: {OUTPUT_DIR}")
 
