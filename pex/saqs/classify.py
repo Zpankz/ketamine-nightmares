@@ -135,60 +135,87 @@ ONTOLOGY = {
     },
 
     # ------------------------------------------------------------------
-    # AXIS 3: CROSS-CUTTING CONTENT DIMENSIONS
-    # Thematic labels that cut across the directory-based taxonomy.
+    # AXIS 3: CROSS-CUTTING CONTENT DIMENSIONS (BFO-aligned)
+    #
+    # Restructured along BFO ontological categories:
+    #   - Dispositions: drug mechanisms, receptor interactions (BFO: realizable)
+    #   - Processes: PK events, physiological cascades (BFO: occurrent)
+    #   - Material entities: equipment, anatomy (BFO: independent continuant)
+    #   - Qualities: measurable parameters (BFO: dependent continuant)
+    #
     # A document can match multiple dimensions.
     # ------------------------------------------------------------------
     "content_dimensions": {
-        "pharmacology_mechanisms": {
+        # --- BFO Dispositions: mechanisms that may be realized ---
+        "drug_receptor_disposition": {
             "query": (
-                "{This discusses dose-response relationships, pharmacokinetic "
-                "parameters, receptor binding, agonists, antagonists, signal "
-                "transduction, half-life, clearance, or volume of distribution}"
+                "{This discusses receptor binding, agonists, antagonists, "
+                "receptor subtypes, signal transduction pathways, ion channel "
+                "modulation, or enzyme inhibition as a drug mechanism}"
             ),
             "is_iql": True,
-            "description": "PK/PD parameters, receptor mechanisms, and drug interactions",
+            "description": "Drug-receptor interactions and molecular mechanisms (BFO: disposition)",
         },
-        "organ_system_effects": {
+        "autonomic_disposition": {
             "query": (
-                "{This discusses effects on the cardiovascular system, "
-                "respiratory system, central nervous system, renal system, "
-                "hepatic system, or other organ systems}"
+                "{This discusses sympathetic or parasympathetic nervous system "
+                "pharmacology, adrenergic or cholinergic receptor mechanisms, "
+                "catecholamine synthesis and metabolism, or autonomic reflexes}"
             ),
             "is_iql": True,
-            "description": "Multi-organ or systems-level effects",
+            "description": "Autonomic nervous system mechanisms (BFO: disposition)",
         },
-        "special_populations": {
+
+        # --- BFO Processes: events that unfold in time ---
+        "pharmacokinetic_process": {
             "query": (
-                "{This discusses altered physiology or pharmacology in "
-                "pregnancy, neonates, the elderly, obese patients, or "
-                "patients with renal or hepatic impairment}"
+                "{This discusses absorption, distribution, metabolism, or "
+                "elimination of drugs} AND "
+                "{This mentions half-life, clearance, volume of distribution, "
+                "bioavailability, or compartment models}"
             ),
             "is_iql": True,
-            "description": "Pregnancy, neonatal, elderly, obesity, organ failure",
+            "description": "ADME processes and PK parameters (BFO: process)",
         },
-        "monitoring_and_measurement": {
+        "organ_system_process": {
             "query": (
-                "{This discusses specific monitoring devices such as "
-                "pulse oximeters, capnographs, arterial line transducers, "
-                "or neuromuscular monitors} OR "
-                "{This discusses waveform interpretation or calibration "
-                "of clinical measurement equipment}"
+                "{This discusses physiological or pathophysiological effects "
+                "on the cardiovascular, respiratory, renal, hepatic, or "
+                "central nervous systems}"
             ),
             "is_iql": True,
-            "description": "Specific monitoring devices and measurement techniques",
+            "description": "Organ-level physiological processes (BFO: process)",
         },
-        "physics_and_engineering": {
+        "gas_exchange_process": {
             "query": (
-                "{This discusses gas laws, vapour pressure, or fluid "
-                "dynamics in the context of anaesthetic circuits} OR "
-                "{This discusses electrical safety, defibrillators, "
-                "diathermy, or laser physics in the operating theatre}"
+                "{This discusses oxygen transport, carbon dioxide transport, "
+                "ventilation-perfusion matching, the oxygen-haemoglobin "
+                "dissociation curve, dead space, or shunt}"
             ),
             "is_iql": True,
-            "description": "Physics and equipment engineering in anaesthetic context",
+            "description": "Respiratory gas exchange processes (BFO: process)",
         },
-        "acid_base_and_electrolytes": {
+        "neuromuscular_process": {
+            "query": (
+                "{This discusses neuromuscular transmission, neuromuscular "
+                "blockade, cerebral blood flow regulation, intracranial "
+                "pressure dynamics, or mechanisms of general anaesthesia}"
+            ),
+            "is_iql": True,
+            "description": "NMJ transmission and CNS processes (BFO: process)",
+        },
+        "nociception_process": {
+            "query": (
+                "{This discusses nociceptive pathways, pain transmission, "
+                "analgesic mechanisms, opioid pharmacology, local anaesthetic "
+                "nerve blockade, or regional anaesthesia techniques}"
+            ),
+            "is_iql": True,
+            "description": "Pain pathways and analgesic processes (BFO: process)",
+        },
+
+        # --- BFO Qualities: measurable properties ---
+        "acid_base_quality": {
             "query": (
                 "{This discusses the Henderson-Hasselbalch equation, "
                 "Stewart approach, base excess, anion gap, or buffer "
@@ -197,45 +224,76 @@ ONTOLOGY = {
                 "calcium, magnesium, or phosphate homeostasis}"
             ),
             "is_iql": True,
-            "description": "Acid-base physiology and electrolyte disorders",
+            "description": "Acid-base and electrolyte qualities (BFO: quality)",
         },
-        "autonomic_nervous_system": {
+
+        # --- BFO Material Entities: equipment, physical systems ---
+        "equipment_and_physics": {
             "query": (
-                "{This discusses the sympathetic nervous system, "
-                "parasympathetic nervous system, autonomic reflexes, "
-                "catecholamines, cholinergic transmission, or autonomic "
-                "pharmacology}"
+                "{This discusses anaesthetic equipment, breathing circuits, "
+                "vaporisers, ventilators, or monitoring devices} OR "
+                "{This discusses gas laws, vapour pressure, electrical "
+                "safety, or physical principles of measurement}"
             ),
             "is_iql": True,
-            "description": "ANS physiology and pharmacology",
+            "description": "Equipment and physical principles (BFO: material entity)",
         },
-        "pain_and_analgesia": {
+
+        # --- BFO Roles: context-dependent classifications ---
+        "special_population_role": {
             "query": (
-                "{This discusses nociception, pain pathways, analgesic "
-                "mechanisms, opioid pharmacology, local anaesthetic "
-                "mechanisms, or regional anaesthesia techniques}"
+                "{This discusses altered physiology or pharmacology in "
+                "pregnancy, neonates, the elderly, obese patients, or "
+                "patients with renal or hepatic impairment}"
             ),
             "is_iql": True,
-            "description": "Pain physiology and analgesic pharmacology",
+            "description": "Population-specific considerations (BFO: role)",
         },
-        "respiratory_gas_exchange": {
+    },
+
+    # ------------------------------------------------------------------
+    # AXIS 4: EXPLANATORY SCHEMA (fractal reasoning patterns)
+    #
+    # Captures the recurring pedagogical patterns that self-similarly
+    # apply at molecular, cellular, organ, and systems levels.
+    # These are the "how to think" scaffolds the exam tests.
+    # ------------------------------------------------------------------
+    "explanatory_schema": {
+        "mechanism_effect_relevance": {
             "query": (
-                "{This discusses oxygen transport, carbon dioxide transport, "
-                "ventilation-perfusion matching, the oxygen-haemoglobin "
-                "dissociation curve, dead space, or shunt}"
+                "{This explains a mechanism of action AND then describes "
+                "the resulting physiological or clinical effect}"
             ),
             "is_iql": True,
-            "description": "Gas exchange and oxygen delivery",
+            "description": "Mechanism → effect → clinical relevance chain",
         },
-        "neuromuscular_and_cns": {
+        "dose_response_relationship": {
             "query": (
-                "{This discusses neuromuscular transmission, muscle "
-                "relaxants, neuromuscular monitoring, the blood-brain "
-                "barrier, cerebral blood flow, intracranial pressure, "
-                "or mechanisms of general anaesthesia}"
+                "{This describes how changing a dose, concentration, or "
+                "stimulus magnitude alters a measurable response} AND "
+                "{This discusses a quantitative relationship between input "
+                "and output}"
             ),
             "is_iql": True,
-            "description": "Neuromuscular and central nervous system",
+            "description": "Dose/stimulus → response → modifiers pattern",
+        },
+        "homeostatic_regulation": {
+            "query": (
+                "{This describes a feedback loop, compensatory mechanism, "
+                "or regulatory system that maintains a physiological "
+                "variable within a normal range}"
+            ),
+            "is_iql": True,
+            "description": "Equilibrium → perturbation → compensation pattern",
+        },
+        "structure_function_link": {
+            "query": (
+                "{This explains how a molecular structure, anatomical "
+                "arrangement, or physical design determines functional "
+                "properties or clinical behaviour}"
+            ),
+            "is_iql": True,
+            "description": "Structure → function → dysfunction pattern",
         },
     },
 }
@@ -362,15 +420,19 @@ def main():
                 if secondaries:
                     summary[axis]["secondary"] = [s[0] for s in secondaries]
 
-        # Content dimensions: all above threshold
-        dim_scores = classifications["content_dimensions"]
-        active_dims = [
-            (k, v["score"])
-            for k, v in dim_scores.items()
-            if v["score"] and v["score"] > DIMENSION_THRESHOLD
-        ]
-        active_dims.sort(key=lambda x: x[1], reverse=True)
-        summary["content_dimensions"] = [d[0] for d in active_dims]
+        # Multi-select axes: all labels above threshold
+        for multi_axis in ["content_dimensions", "explanatory_schema"]:
+            if multi_axis not in classifications:
+                summary[multi_axis] = []
+                continue
+            axis_scores = classifications[multi_axis]
+            active = [
+                (k, v["score"])
+                for k, v in axis_scores.items()
+                if v["score"] and v["score"] > DIMENSION_THRESHOLD
+            ]
+            active.sort(key=lambda x: x[1], reverse=True)
+            summary[multi_axis] = [d[0] for d in active]
 
         # Save full result
         output_name = info["output_file"].replace(".json", "_classifications.json")
@@ -387,6 +449,7 @@ def main():
             "cognitive_domain": summary["cognitive_domain"]["primary"],
             "clinical_relevance": summary["clinical_relevance"]["primary"],
             "content_dimensions": summary["content_dimensions"],
+            "explanatory_schema": summary["explanatory_schema"],
             "num_active_dimensions": len(summary["content_dimensions"]),
         }
 
@@ -396,7 +459,8 @@ def main():
         processed += 1
         print(f"  -> {summary['cognitive_domain']['primary']} | "
               f"{summary['clinical_relevance']['primary']} | "
-              f"dims: {summary['content_dimensions']}")
+              f"dims: {summary['content_dimensions']} | "
+              f"schemas: {summary['explanatory_schema']}")
         print(f"  Tokens so far: {total_tokens}")
 
     # Save ontology definition alongside results for reproducibility

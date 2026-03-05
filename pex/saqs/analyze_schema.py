@@ -424,15 +424,15 @@ def analyze_category_affinity(manifest):
     # (e.g., haemostasis in equipment docs)
     surprises = []
     expected_map = {
-        "other": {"physics_and_engineering", "monitoring_and_measurement"},
+        "other": {"equipment_and_physics"},
         "pharmacology": {
-            "pharmacology_mechanisms",
-            "organ_system_effects", "pain_and_analgesia",
-            "neuromuscular_and_cns",
+            "drug_receptor_disposition", "pharmacokinetic_process",
+            "organ_system_process", "nociception_process",
+            "neuromuscular_process",
         },
         "physiology": {
-            "organ_system_effects", "respiratory_gas_exchange",
-            "acid_base_and_electrolytes", "autonomic_nervous_system",
+            "organ_system_process", "gas_exchange_process",
+            "acid_base_quality", "autonomic_disposition",
         },
     }
 
