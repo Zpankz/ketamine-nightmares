@@ -36,6 +36,8 @@ MANIFEST_PATH = ENRICHMENT_DIR / "manifest.json"
 
 # Minimum segment text length worth processing
 MIN_SEGMENT_LENGTH = 50
+MAX_RETRIES = 4
+MANIFEST_FLUSH_INTERVAL = 10
 
 # Core concept queries for segment-level classification.
 # Deliberately fewer than the document-level ontology (Step 2) to manage
@@ -135,10 +137,11 @@ def classify_segment(client: Isaacus, text: str) -> dict:
     results = {}
     for concept, config in SEGMENT_CONCEPTS.items():
         retries = 0
-        while retries < 4:
+        score = None
+        while retries < MAX_RETRIES:
             try:
                 response = client.classifications.universal.create(
-                    model="kanon-universal-classifier-mini",  # Mini for efficiency
+                    model="kanon-universal-classifier-mini",
                     query=config["query"],
                     texts=[text],
                     is_iql=config["is_iql"],
@@ -148,11 +151,11 @@ def classify_segment(client: Isaacus, text: str) -> dict:
                 break
             except Exception as e:
                 retries += 1
-                if retries < 4:
+                if retries < MAX_RETRIES:
+                    print(f"    Retry {retries}/{MAX_RETRIES} for {concept}: {e}")
                     time.sleep(2 ** retries)
                 else:
                     print(f"    classify_segment failed on {concept}: {e}")
-                    score = None
         results[concept] = score
     return results
 
@@ -164,10 +167,10 @@ def extract_segment_facts(
     facts = []
     for question in SEGMENT_QUESTIONS:
         retries = 0
-        while retries < 4:
+        while retries < MAX_RETRIES:
             try:
                 response = client.extractions.qa.create(
-                    model="kanon-answer-extractor-mini",  # Mini for efficiency
+                    model="kanon-answer-extractor-mini",
                     query=question,
                     texts=[text],
                     top_k=1,
@@ -186,7 +189,8 @@ def extract_segment_facts(
                 break
             except Exception as e:
                 retries += 1
-                if retries < 4:
+                if retries < MAX_RETRIES:
+                    print(f"    Retry {retries}/{MAX_RETRIES} for extract: {e}")
                     time.sleep(2 ** retries)
                 else:
                     print(f"    extract_segment_facts failed on '{question[:40]}': {e}")
@@ -223,7 +227,6 @@ def main():
     else:
         concept_index = {c: [] for c in SEGMENT_CONCEPTS}
 
-    total_tokens_est = 0
     processed = 0
 
     for path, info in remaining:
@@ -292,11 +295,12 @@ def main():
             "num_segments_processed": len(segment_results),
         }
 
-        # Save manifests incrementally
-        with open(seg_manifest_path, "w") as f:
-            json.dump(seg_manifest, f, indent=2, ensure_ascii=False)
-        with open(concept_index_path, "w") as f:
-            json.dump(concept_index, f, indent=2, ensure_ascii=False)
+        # Save manifests periodically and on last document
+        if processed % MANIFEST_FLUSH_INTERVAL == 0 or processed == len(remaining):
+            with open(seg_manifest_path, "w") as f:
+                json.dump(seg_manifest, f, indent=2, ensure_ascii=False)
+            with open(concept_index_path, "w") as f:
+                json.dump(concept_index, f, indent=2, ensure_ascii=False)
 
         processed += 1
         print(f"  -> {len(segment_results)} segments processed, "
