@@ -52,6 +52,9 @@ BFO_CATEGORIES = {
     "acid_base_quality": "bfo:quality",
     # Material entities (independent continuants)
     "equipment_and_physics": "bfo:material_entity",
+    "anatomy_structure": "bfo:material_entity",
+    # Processes (measurement)
+    "clinical_measurement_process": "bfo:process",
     # Roles (dependent continuants)
     "special_population_role": "bfo:role",
 }
@@ -425,51 +428,43 @@ def compute_dialectical_tensions(nodes, edges, layers):
 
 
 def generate_study_paths(nodes, edges, layers):
-    """Generate cross-layer knowledge pathways.
+    """Generate cross-layer knowledge pathways with real cognitive progression.
 
-    A study path connects documents through multiple knowledge layers:
-    crossref links (enrichment), shared dimensions (classification),
-    semantic proximity (embedding), and shared QA themes (extraction).
+    Builds study paths that represent genuine Bloom's-taxonomy escalation:
+    foundational → mechanistic → comparative → quantitative → applied.
+
+    Each path picks the best representative document per cognitive level,
+    preferring documents with high schema coverage and semantic connectivity.
+    Also generates cross-dimension paths that bridge related BFO categories.
     """
     class_manifest = layers["classification_manifest"]
     enrichments = layers["enrichments"]
     embeddings = layers["embeddings"]
 
-    # Build adjacency from all edge types
-    adjacency = defaultdict(lambda: defaultdict(float))
-    for edge in edges:
-        src, tgt = edge["source"], edge["target"]
-        if src.startswith("doc:") and tgt.startswith("doc:"):
-            w = edge.get("weight", 1)
-            adjacency[src][tgt] += w
-            adjacency[tgt][src] += w
-
-    # Add embedding similarity edges (top-10 per doc)
-    if embeddings:
-        paths = list(embeddings.keys())
-        if len(paths) > 1:
-            vecs = np.array([embeddings[p] for p in paths])
-            norms = np.linalg.norm(vecs, axis=1, keepdims=True)
-            norms = np.where(norms == 0, 1, norms)
-            normed = vecs / norms
-            sim_matrix = normed @ normed.T
-            for i, p1 in enumerate(paths):
-                top_k = np.argsort(sim_matrix[i])[-11:-1]  # top 10, excluding self
-                for j in top_k:
-                    p2 = paths[j]
-                    sim = float(sim_matrix[i, j])
-                    if sim > 0.5:
-                        adjacency[f"doc:{p1}"][f"doc:{p2}"] += sim * 2
-
-    # Generate paths by cognitive domain progression
-    # (factual → mechanistic → comparative → applied)
     domain_order = [
         "factual_recall", "mechanistic_explanation",
         "comparative_analysis", "quantitative_reasoning", "applied_clinical",
     ]
+    domain_labels = {
+        "factual_recall": "Foundation",
+        "mechanistic_explanation": "Mechanism",
+        "comparative_analysis": "Comparison",
+        "quantitative_reasoning": "Quantitative",
+        "applied_clinical": "Application",
+    }
+
+    # Compute document richness scores for ranking within each domain
+    def doc_richness(path):
+        """Score doc by schema count + dimension count + segment count."""
+        entry = class_manifest.get(path, {})
+        n_schema = len(entry.get("explanatory_schema", []))
+        n_dim = entry.get("num_active_dimensions", 0)
+        n_seg = len(enrichments.get(path, {}).get("segments", []))
+        return n_schema * 3 + n_dim * 2 + min(n_seg, 20)
 
     study_paths = []
-    # Group docs by primary content dimension
+
+    # --- Dimension-focused paths ---
     dim_docs = defaultdict(list)
     for path, entry in class_manifest.items():
         for dim in entry.get("content_dimensions", []):
@@ -479,34 +474,255 @@ def generate_study_paths(nodes, edges, layers):
         if len(doc_paths) < 3:
             continue
 
-        # Sort by cognitive domain progression
-        def domain_rank(p):
-            d = class_manifest.get(p, {}).get("cognitive_domain", "")
-            return domain_order.index(d) if d in domain_order else 99
+        # Group by cognitive domain
+        by_domain = defaultdict(list)
+        for p in doc_paths:
+            cog = class_manifest.get(p, {}).get("cognitive_domain", "")
+            by_domain[cog].append(p)
 
-        ordered = sorted(doc_paths, key=domain_rank)
-
-        # Build a progressive path
+        # Build path: pick best doc from each domain present, in order
         path_steps = []
-        for p in ordered[:8]:  # Cap at 8 steps
-            entry = class_manifest.get(p, {})
+        domains_covered = []
+        for domain in domain_order:
+            candidates = by_domain.get(domain, [])
+            if not candidates:
+                continue
+            # Pick the richest document for this domain
+            best = max(candidates, key=doc_richness)
+            entry = class_manifest.get(best, {})
             path_steps.append({
-                "document": p,
-                "cognitive_domain": entry.get("cognitive_domain"),
+                "document": best,
+                "cognitive_domain": domain,
+                "cognitive_label": domain_labels[domain],
                 "clinical_relevance": entry.get("clinical_relevance"),
                 "schemas": entry.get("explanatory_schema", []),
+                "richness_score": doc_richness(best),
             })
+            domains_covered.append(domain)
 
-        if len(path_steps) >= 3:
+        if len(path_steps) >= 2:
+            # Compute progression quality: how many Bloom's levels covered
+            bloom_span = (
+                domain_order.index(domains_covered[-1])
+                - domain_order.index(domains_covered[0])
+            )
             study_paths.append({
                 "dimension": dim,
                 "bfo_category": BFO_CATEGORIES.get(dim, "unknown"),
+                "path_type": "dimension_progression",
                 "num_steps": len(path_steps),
+                "bloom_span": bloom_span,
+                "domains_covered": domains_covered,
                 "progression": [s["cognitive_domain"] for s in path_steps],
                 "steps": path_steps,
             })
 
+    # --- Schema-focused paths: progression through an explanatory pattern ---
+    schema_docs = defaultdict(list)
+    for path, entry in class_manifest.items():
+        for s in entry.get("explanatory_schema", []):
+            schema_docs[s].append(path)
+
+    for schema, doc_paths in schema_docs.items():
+        if len(doc_paths) < 5:
+            continue
+
+        by_domain = defaultdict(list)
+        for p in doc_paths:
+            cog = class_manifest.get(p, {}).get("cognitive_domain", "")
+            by_domain[cog].append(p)
+
+        path_steps = []
+        domains_covered = []
+        for domain in domain_order:
+            candidates = by_domain.get(domain, [])
+            if not candidates:
+                continue
+            best = max(candidates, key=doc_richness)
+            entry = class_manifest.get(best, {})
+            path_steps.append({
+                "document": best,
+                "cognitive_domain": domain,
+                "cognitive_label": domain_labels[domain],
+                "clinical_relevance": entry.get("clinical_relevance"),
+                "dimensions": entry.get("content_dimensions", []),
+                "richness_score": doc_richness(best),
+            })
+            domains_covered.append(domain)
+
+        if len(path_steps) >= 2:
+            bloom_span = (
+                domain_order.index(domains_covered[-1])
+                - domain_order.index(domains_covered[0])
+            )
+            study_paths.append({
+                "dimension": schema,
+                "bfo_category": "explanatory_schema",
+                "path_type": "schema_progression",
+                "num_steps": len(path_steps),
+                "bloom_span": bloom_span,
+                "domains_covered": domains_covered,
+                "progression": [s["cognitive_domain"] for s in path_steps],
+                "steps": path_steps,
+            })
+
+    # --- Cross-dimension bridge paths ---
+    # Find dimensions that co-occur heavily and build bridge paths
+    dim_pairs = Counter()
+    for entry in class_manifest.values():
+        dims = entry.get("content_dimensions", [])
+        for i, d1 in enumerate(dims):
+            for d2 in dims[i + 1:]:
+                dim_pairs[tuple(sorted([d1, d2]))] += 1
+
+    for (d1, d2), count in dim_pairs.most_common(5):
+        if count < 8:
+            break
+        # Docs in both dimensions
+        shared = [
+            p for p, e in class_manifest.items()
+            if d1 in e.get("content_dimensions", [])
+            and d2 in e.get("content_dimensions", [])
+        ]
+        if len(shared) < 3:
+            continue
+
+        by_domain = defaultdict(list)
+        for p in shared:
+            cog = class_manifest.get(p, {}).get("cognitive_domain", "")
+            by_domain[cog].append(p)
+
+        path_steps = []
+        domains_covered = []
+        for domain in domain_order:
+            candidates = by_domain.get(domain, [])
+            if not candidates:
+                continue
+            best = max(candidates, key=doc_richness)
+            entry = class_manifest.get(best, {})
+            path_steps.append({
+                "document": best,
+                "cognitive_domain": domain,
+                "cognitive_label": domain_labels[domain],
+                "clinical_relevance": entry.get("clinical_relevance"),
+                "schemas": entry.get("explanatory_schema", []),
+                "richness_score": doc_richness(best),
+            })
+            domains_covered.append(domain)
+
+        if len(path_steps) >= 2:
+            bloom_span = (
+                domain_order.index(domains_covered[-1])
+                - domain_order.index(domains_covered[0])
+            )
+            study_paths.append({
+                "dimension": f"{d1} × {d2}",
+                "bfo_category": "cross_dimension_bridge",
+                "path_type": "bridge",
+                "shared_doc_count": count,
+                "num_steps": len(path_steps),
+                "bloom_span": bloom_span,
+                "domains_covered": domains_covered,
+                "progression": [s["cognitive_domain"] for s in path_steps],
+                "steps": path_steps,
+            })
+
+    # Sort by bloom_span descending (best progressions first)
+    study_paths.sort(key=lambda p: (p["bloom_span"], p["num_steps"]), reverse=True)
+
     return study_paths
+
+
+def compute_difficulty_and_yield(layers):
+    """Compute per-document difficulty scores and exam yield indicators.
+
+    Difficulty is estimated from:
+      - Cognitive domain (factual=1, mechanistic=2, comparative=3, quant=4, applied=3)
+      - Number of active dimensions (more dimensions = more cross-cutting = harder)
+      - Number of explanatory schemas (more patterns to reason through)
+      - Segment count (more content = more to learn)
+
+    Exam yield is estimated from:
+      - QA answer density (high answerable ratio = high-yield factual content)
+      - Exam year recency (more recent = more likely to reflect current syllabus)
+      - Cross-reference count (highly cross-referenced = core topic)
+    """
+    class_manifest = layers["classification_manifest"]
+    enrichments = layers["enrichments"]
+    qa_manifest = layers.get("qa_manifest", {})
+
+    domain_difficulty = {
+        "factual_recall": 1,
+        "mechanistic_explanation": 2,
+        "comparative_analysis": 3,
+        "quantitative_reasoning": 4,
+        "applied_clinical": 3,
+    }
+
+    results = {}
+    for path, entry in class_manifest.items():
+        # --- Difficulty ---
+        cog = entry.get("cognitive_domain", "")
+        d_cog = domain_difficulty.get(cog, 2)
+        n_dim = entry.get("num_active_dimensions", 0)
+        n_schema = len(entry.get("explanatory_schema", []))
+        n_seg = len(enrichments.get(path, {}).get("segments", []))
+
+        difficulty = round(
+            0.3 * d_cog
+            + 0.25 * min(n_dim / 4, 1) * 4
+            + 0.2 * min(n_schema / 2, 1) * 4
+            + 0.25 * min(n_seg / 30, 1) * 4,
+            2,
+        )
+
+        # --- Exam yield ---
+        # Extract year from filename
+        import re
+        year_match = re.search(r"(\d{4})[AB]", path)
+        exam_year = int(year_match.group(1)) if year_match else 2000
+        recency_score = min((exam_year - 1998) / 25, 1)  # 0–1, higher = more recent
+
+        # QA density
+        qa_entry = qa_manifest.get(path, {})
+        n_answerable = qa_entry.get("num_answerable", 0)
+        n_questions = qa_entry.get("num_questions", 1)
+        qa_density = n_answerable / max(n_questions, 1)
+
+        # Cross-reference count (how often this doc is referenced by others)
+        xref_count = 0
+        for other_path, doc in enrichments.items():
+            if other_path == path:
+                continue
+            for xref in doc.get("crossreferences", []):
+                if xref.get("target") == path:
+                    xref_count += 1
+
+        yield_score = round(
+            0.35 * qa_density * 4
+            + 0.3 * recency_score * 4
+            + 0.35 * min(xref_count / 5, 1) * 4,
+            2,
+        )
+
+        results[path] = {
+            "difficulty": difficulty,
+            "difficulty_components": {
+                "cognitive_complexity": d_cog,
+                "dimension_breadth": n_dim,
+                "schema_count": n_schema,
+                "segment_count": n_seg,
+            },
+            "yield_score": yield_score,
+            "yield_components": {
+                "qa_density": round(qa_density, 3),
+                "exam_year": exam_year,
+                "recency_score": round(recency_score, 3),
+                "inbound_crossrefs": xref_count,
+            },
+        }
+
+    return results
 
 
 def compute_graph_statistics(nodes, edges):
@@ -582,7 +798,18 @@ def main():
         print(f"    {sp['dimension']} ({sp['bfo_category']}): "
               f"{sp['num_steps']} steps, progression: {sp['progression'][:4]}...")
 
-    print("\n[5/6] Computing BFO alignment metrics...")
+    print("\n[5/7] Computing difficulty and yield scores...")
+    difficulty_yield = compute_difficulty_and_yield(layers)
+    difficulties = [v["difficulty"] for v in difficulty_yield.values()]
+    yields = [v["yield_score"] for v in difficulty_yield.values()]
+    print(f"  {len(difficulty_yield)} documents scored")
+    if difficulties:
+        print(f"  Difficulty: mean={sum(difficulties)/len(difficulties):.2f}, "
+              f"min={min(difficulties):.2f}, max={max(difficulties):.2f}")
+        print(f"  Yield: mean={sum(yields)/len(yields):.2f}, "
+              f"min={min(yields):.2f}, max={max(yields):.2f}")
+
+    print("\n[6/7] Computing BFO alignment metrics...")
     bfo_coverage = sum(
         1 for n in nodes.values()
         if n.get("bfo_category") and n["bfo_category"] != "bfo:unknown"
@@ -592,7 +819,7 @@ def main():
     for cat, count in sorted(stats["bfo_categories"].items(), key=lambda x: -x[1]):
         print(f"    {cat}: {count}")
 
-    print("\n[6/6] Synthesizing and saving...")
+    print("\n[7/7] Synthesizing and saving...")
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # Save unified graph
@@ -616,6 +843,10 @@ def main():
     with open(OUTPUT_DIR / "study_paths.json", "w") as f:
         json.dump(study_paths, f, indent=2, ensure_ascii=False)
 
+    # Save difficulty and yield scores
+    with open(OUTPUT_DIR / "difficulty_yield.json", "w") as f:
+        json.dump(difficulty_yield, f, indent=2, ensure_ascii=False)
+
     # Save full graph summary
     synthesis_report = {
         "thesis": {
@@ -636,7 +867,10 @@ def main():
             "knowledge_gaps": len(gaps),
             "dialectical_tensions": len(tensions),
             "study_paths": len(study_paths),
+            "study_path_types": Counter(p["path_type"] for p in study_paths),
             "bfo_coverage_pct": round(bfo_pct, 1),
+            "difficulty_mean": round(sum(difficulties) / len(difficulties), 2) if difficulties else 0,
+            "yield_mean": round(sum(yields) / len(yields), 2) if yields else 0,
         },
     }
     with open(OUTPUT_DIR / "synthesis_report.json", "w") as f:

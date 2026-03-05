@@ -149,13 +149,17 @@ ONTOLOGY = {
         # --- BFO Dispositions: mechanisms that may be realized ---
         "drug_receptor_disposition": {
             "query": (
-                "{This discusses how a specific drug or drug class "
-                "interacts with receptors, ion channels, or enzymes "
-                "to produce its pharmacological effect} AND "
-                "{This names a specific receptor type or molecular target}"
+                "{The central topic of this text is how a specific drug "
+                "binds to and acts on a named receptor, ion channel, or "
+                "enzyme to produce its primary pharmacological effect} AND "
+                "{This names a specific receptor type such as GABA, NMDA, "
+                "opioid, adrenergic, muscarinic, nicotinic, or a specific "
+                "enzyme such as COX, MAO, or acetylcholinesterase} AND NOT "
+                "{Receptors are only mentioned briefly as part of a broader "
+                "topic such as pharmacokinetics, equipment, or physiology}"
             ),
             "is_iql": True,
-            "description": "Drug-receptor/target interactions (BFO: disposition)",
+            "description": "Drug-receptor/target interactions as central topic (BFO: disposition)",
         },
         "autonomic_disposition": {
             "query": (
@@ -214,12 +218,13 @@ ONTOLOGY = {
         "nociception_process": {
             "query": (
                 "{This discusses pain pathways, nociception, analgesic "
-                "mechanisms, or regional anaesthesia} AND "
-                "{This is primarily about pain management or pain "
-                "physiology rather than mentioning pain as a side effect}"
+                "mechanisms, local anaesthetic nerve blockade, opioid "
+                "analgesia, or regional anaesthesia techniques} OR "
+                "{This discusses how a drug provides pain relief, blocks "
+                "nerve conduction, or modulates pain signal transmission}"
             ),
             "is_iql": True,
-            "description": "Pain pathways and analgesia (BFO: process)",
+            "description": "Pain pathways, analgesia, and nerve blockade (BFO: process)",
         },
 
         # --- BFO Qualities: measurable properties ---
@@ -248,6 +253,32 @@ ONTOLOGY = {
             "description": "Named equipment and physical principles (BFO: material entity)",
         },
 
+        # --- BFO Material Entities: anatomical structures ---
+        "anatomy_structure": {
+            "query": (
+                "{This describes the anatomy of a specific body region, "
+                "nerve, vessel, or organ} AND "
+                "{This includes named anatomical landmarks, surface "
+                "anatomy, or spatial relationships between structures}"
+            ),
+            "is_iql": True,
+            "description": "Named anatomical structures and regions (BFO: material entity)",
+        },
+
+        # --- BFO Processes: clinical measurement ---
+        "clinical_measurement_process": {
+            "query": (
+                "{This describes how a clinical measurement or monitoring "
+                "device works, including the physical principles behind "
+                "measuring blood pressure, oxygen saturation, cardiac "
+                "output, temperature, or electrical brain activity} OR "
+                "{This discusses calibration, sources of error, or "
+                "accuracy limitations of a clinical monitor}"
+            ),
+            "is_iql": True,
+            "description": "Clinical monitoring and measurement principles (BFO: process)",
+        },
+
         # --- BFO Roles: context-dependent classifications ---
         "special_population_role": {
             "query": (
@@ -271,10 +302,10 @@ ONTOLOGY = {
     "explanatory_schema": {
         "mechanism_effect_relevance": {
             "query": (
-                "{This explains a mechanism of action and then describes "
-                "the resulting physiological or clinical effect} AND "
-                "{This contains a causal explanation, not just a list of "
-                "facts or properties}"
+                "{This explains how a mechanism of action leads to a "
+                "physiological or clinical effect} OR "
+                "{This connects a molecular or cellular process to an "
+                "observable clinical outcome or side effect}"
             ),
             "is_iql": True,
             "description": "Mechanism → effect → clinical relevance chain",

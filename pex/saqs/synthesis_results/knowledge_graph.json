@@ -14,40 +14,40 @@
     },
     "bfo_categories": {
       "bfo:generically_dependent_continuant": 382,
+      "bfo:role": 1,
       "bfo:process": 9,
-      "bfo:disposition": 2,
       "bfo:material_entity": 1,
       "bfo:quality": 1,
-      "bfo:role": 1
+      "bfo:disposition": 2
     },
     "doc_degree_mean": 4.073863636363637,
     "doc_degree_max": 12,
     "doc_degree_min": 1
   },
   "nodes": {
-    "dim:pharmacokinetic_process": {
+    "dim:special_population_role": {
+      "type": "dimension",
+      "bfo_category": "bfo:role",
+      "name": "special_population_role",
+      "doc_count": 28
+    },
+    "dim:neuromuscular_process": {
       "type": "dimension",
       "bfo_category": "bfo:process",
-      "name": "pharmacokinetic_process",
-      "doc_count": 108
-    },
-    "dim:drug_receptor_disposition": {
-      "type": "dimension",
-      "bfo_category": "bfo:disposition",
-      "name": "drug_receptor_disposition",
-      "doc_count": 200
-    },
-    "dim:organ_system_process": {
-      "type": "dimension",
-      "bfo_category": "bfo:process",
-      "name": "organ_system_process",
-      "doc_count": 151
+      "name": "neuromuscular_process",
+      "doc_count": 122
     },
     "dim:gas_exchange_process": {
       "type": "dimension",
       "bfo_category": "bfo:process",
       "name": "gas_exchange_process",
       "doc_count": 98
+    },
+    "dim:organ_system_process": {
+      "type": "dimension",
+      "bfo_category": "bfo:process",
+      "name": "organ_system_process",
+      "doc_count": 151
     },
     "dim:equipment_and_physics": {
       "type": "dimension",
@@ -61,29 +61,29 @@
       "name": "nociception_process",
       "doc_count": 2
     },
-    "dim:autonomic_disposition": {
-      "type": "dimension",
-      "bfo_category": "bfo:disposition",
-      "name": "autonomic_disposition",
-      "doc_count": 101
-    },
     "dim:acid_base_quality": {
       "type": "dimension",
       "bfo_category": "bfo:quality",
       "name": "acid_base_quality",
       "doc_count": 91
     },
-    "dim:special_population_role": {
+    "dim:drug_receptor_disposition": {
       "type": "dimension",
-      "bfo_category": "bfo:role",
-      "name": "special_population_role",
-      "doc_count": 28
+      "bfo_category": "bfo:disposition",
+      "name": "drug_receptor_disposition",
+      "doc_count": 200
     },
-    "dim:neuromuscular_process": {
+    "dim:autonomic_disposition": {
+      "type": "dimension",
+      "bfo_category": "bfo:disposition",
+      "name": "autonomic_disposition",
+      "doc_count": 101
+    },
+    "dim:pharmacokinetic_process": {
       "type": "dimension",
       "bfo_category": "bfo:process",
-      "name": "neuromuscular_process",
-      "doc_count": 122
+      "name": "pharmacokinetic_process",
+      "doc_count": 108
     },
     "schema:structure_function_link": {
       "type": "schema",
